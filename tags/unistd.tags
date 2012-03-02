@@ -1,0 +1,108 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+F_LOCK	/usr/include/unistd.h	1096;"	d
+F_OK	/usr/include/unistd.h	285;"	d
+F_TEST	/usr/include/unistd.h	1098;"	d
+F_TLOCK	/usr/include/unistd.h	1097;"	d
+F_ULOCK	/usr/include/unistd.h	1095;"	d
+L_INCR	/usr/include/unistd.h	320;"	d
+L_SET	/usr/include/unistd.h	319;"	d
+L_XTND	/usr/include/unistd.h	321;"	d
+R_OK	/usr/include/unistd.h	282;"	d
+SEEK_CUR	/usr/include/unistd.h	313;"	d
+SEEK_END	/usr/include/unistd.h	314;"	d
+SEEK_SET	/usr/include/unistd.h	312;"	d
+STDERR_FILENO	/usr/include/unistd.h	213;"	d
+STDIN_FILENO	/usr/include/unistd.h	211;"	d
+STDOUT_FILENO	/usr/include/unistd.h	212;"	d
+TEMP_FAILURE_RETRY	/usr/include/unistd.h	1121;"	d
+W_OK	/usr/include/unistd.h	283;"	d
+X_OK	/usr/include/unistd.h	284;"	d
+_POSIX2_C_BIND	/usr/include/unistd.h	72;"	d
+_POSIX2_C_DEV	/usr/include/unistd.h	76;"	d
+_POSIX2_LOCALEDEF	/usr/include/unistd.h	84;"	d
+_POSIX2_SW_DEV	/usr/include/unistd.h	80;"	d
+_POSIX2_VERSION	/usr/include/unistd.h	68;"	d
+_POSIX_VERSION	/usr/include/unistd.h	35;"	d
+_UNISTD_H	/usr/include/unistd.h	24;"	d
+_XOPEN_CRYPT	/usr/include/unistd.h	109;"	d
+_XOPEN_ENH_I18N	/usr/include/unistd.h	113;"	d
+_XOPEN_LEGACY	/usr/include/unistd.h	116;"	d
+_XOPEN_UNIX	/usr/include/unistd.h	106;"	d
+_XOPEN_VERSION	/usr/include/unistd.h	88;"	d
+_XOPEN_XCU_VERSION	/usr/include/unistd.h	98;"	d
+_XOPEN_XPG2	/usr/include/unistd.h	101;"	d
+_XOPEN_XPG3	/usr/include/unistd.h	102;"	d
+_XOPEN_XPG4	/usr/include/unistd.h	103;"	d
+__POSIX2_THIS_VERSION	/usr/include/unistd.h	54;"	d
+__REDIRECT_NTH	/usr/include/unistd.h	/^extern __off64_t __REDIRECT_NTH (lseek,$/;"	p	signature:(lseek, (int __fd, __off64_t __offset, int __whence), lseek64)
+__REDIRECT_NTH	/usr/include/unistd.h	/^extern __pid_t __REDIRECT_NTH (getpgrp, (__pid_t __pid), __getpgid);$/;"	p	signature:(getpgrp, (__pid_t __pid), __getpgid)
+__REDIRECT_NTH	/usr/include/unistd.h	/^extern int __REDIRECT_NTH (setpgrp, (__pid_t __pid, __pid_t __pgrp), setpgid);$/;"	p	signature:(setpgrp, (__pid_t __pid, __pid_t __pgrp), setpgid)
+__THROW	/usr/include/unistd.h	/^		   char *__const __envp[]) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	/usr/include/unistd.h	/^		  ssize_t __n) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	/usr/include/unistd.h	/^     __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/unistd.h	/^     __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	/usr/include/unistd.h	/^     __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	/usr/include/unistd.h	/^extern int access (__const char *__name, int __type) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/unistd.h	/^extern int gethostname (char *__name, size_t __len) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/unistd.h	/^extern int rmdir (__const char *__path) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/unistd.h	/^extern int setlogin (__const char *__name) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/unistd.h	/^extern int unlink (__const char *__name) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/unistd.h	/^extern void encrypt (char *__block, int __edflag) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__gid_t_defined	/usr/include/unistd.h	234;"	d
+__intptr_t_defined	/usr/include/unistd.h	269;"	d
+__need_NULL	/usr/include/unistd.h	226;"	d
+__need_getopt	/usr/include/unistd.h	889;"	d
+__need_size_t	/usr/include/unistd.h	225;"	d
+__off64_t_defined	/usr/include/unistd.h	252;"	d
+__off_t_defined	/usr/include/unistd.h	248;"	d
+__pid_t_defined	/usr/include/unistd.h	262;"	d
+__socklen_t_defined	/usr/include/unistd.h	276;"	d
+__ssize_t_defined	/usr/include/unistd.h	222;"	d
+__uid_t_defined	/usr/include/unistd.h	239;"	d
+__useconds_t_defined	/usr/include/unistd.h	257;"	d
+__wur	/usr/include/unistd.h	/^     __THROW __nonnull ((1)) __attribute_deprecated__ __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern char *getcwd (char *__buf, size_t __size) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int brk (void *__addr) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int daemon (int __nochdir, int __noclose) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int dup (int __fd) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int fchdir (int __fd) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int fchown (int __fd, __uid_t __owner, __gid_t __group) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int ftruncate (int __fd, __off_t __length) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int ftruncate64 (int __fd, __off64_t __length) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int getgroups (int __size, __gid_t __list[]) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int nice (int __inc) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int pipe (int __pipedes[2]) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int pipe2 (int __pipedes[2], int __flags) __THROW __wur;$/;"	v
+__wur	/usr/include/unistd.h	/^extern int sethostid (long int __id) __THROW __wur;$/;"	v
+_exit	/usr/include/unistd.h	/^extern void _exit (int __status) __attribute__ ((__noreturn__));$/;"	p	signature:(int __status)
+close	/usr/include/unistd.h	/^extern int close (int __fd);$/;"	p	signature:(int __fd)
+fdatasync	/usr/include/unistd.h	/^extern int fdatasync (int __fildes);$/;"	p	signature:(int __fildes)
+fsync	/usr/include/unistd.h	/^extern int fsync (int __fd);$/;"	p	signature:(int __fd)
+ftruncate	/usr/include/unistd.h	1042;"	d
+gethostid	/usr/include/unistd.h	/^extern long int gethostid (void);$/;"	p	signature:(void)
+getlogin	/usr/include/unistd.h	/^extern char *getlogin (void);$/;"	p	signature:(void)
+getpgrp	/usr/include/unistd.h	638;"	d
+gid_t	/usr/include/unistd.h	/^typedef __gid_t gid_t;$/;"	t
+intptr_t	/usr/include/unistd.h	/^typedef __intptr_t intptr_t;$/;"	t
+lockf	/usr/include/unistd.h	1107;"	d
+lseek	/usr/include/unistd.h	338;"	d
+off64_t	/usr/include/unistd.h	/^typedef __off64_t off64_t;$/;"	t
+off_t	/usr/include/unistd.h	/^typedef __off64_t off_t;$/;"	t
+off_t	/usr/include/unistd.h	/^typedef __off_t off_t;$/;"	t
+pause	/usr/include/unistd.h	/^extern int pause (void);$/;"	p	signature:(void)
+pid_t	/usr/include/unistd.h	/^typedef __pid_t pid_t;$/;"	t
+pread	/usr/include/unistd.h	392;"	d
+pwrite	/usr/include/unistd.h	393;"	d
+setpgrp	/usr/include/unistd.h	677;"	d
+sleep	/usr/include/unistd.h	/^extern unsigned int sleep (unsigned int __seconds);$/;"	p	signature:(unsigned int __seconds)
+socklen_t	/usr/include/unistd.h	/^typedef __socklen_t socklen_t;$/;"	t
+ssize_t	/usr/include/unistd.h	/^typedef __ssize_t ssize_t;$/;"	t
+truncate	/usr/include/unistd.h	1022;"	d
+uid_t	/usr/include/unistd.h	/^typedef __uid_t uid_t;$/;"	t
+useconds_t	/usr/include/unistd.h	/^typedef __useconds_t useconds_t;$/;"	t
+usleep	/usr/include/unistd.h	/^extern int usleep (__useconds_t __useconds);$/;"	p	signature:(__useconds_t __useconds)

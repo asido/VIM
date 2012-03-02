@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CHAR_BIT	/usr/include/limits.h	55;"	d
+CHAR_MAX	/usr/include/limits.h	67;"	d
+CHAR_MAX	/usr/include/limits.h	70;"	d
+CHAR_MIN	/usr/include/limits.h	66;"	d
+CHAR_MIN	/usr/include/limits.h	69;"	d
+INT_MAX	/usr/include/limits.h	82;"	d
+INT_MIN	/usr/include/limits.h	81;"	d
+LLONG_MAX	/usr/include/limits.h	105;"	d
+LLONG_MAX	/usr/include/limits.h	136;"	d
+LLONG_MIN	/usr/include/limits.h	106;"	d
+LLONG_MIN	/usr/include/limits.h	133;"	d
+LONG_MAX	/usr/include/limits.h	89;"	d
+LONG_MAX	/usr/include/limits.h	91;"	d
+LONG_MIN	/usr/include/limits.h	93;"	d
+MB_LEN_MAX	/usr/include/limits.h	33;"	d
+SCHAR_MAX	/usr/include/limits.h	59;"	d
+SCHAR_MIN	/usr/include/limits.h	58;"	d
+SHRT_MAX	/usr/include/limits.h	75;"	d
+SHRT_MIN	/usr/include/limits.h	74;"	d
+UCHAR_MAX	/usr/include/limits.h	62;"	d
+UINT_MAX	/usr/include/limits.h	85;"	d
+ULLONG_MAX	/usr/include/limits.h	109;"	d
+ULLONG_MAX	/usr/include/limits.h	139;"	d
+ULONG_MAX	/usr/include/limits.h	97;"	d
+ULONG_MAX	/usr/include/limits.h	99;"	d
+USHRT_MAX	/usr/include/limits.h	78;"	d
+_LIBC_LIMITS_H_	/usr/include/limits.h	25;"	d
+_LIMITS_H	/usr/include/limits.h	44;"	d

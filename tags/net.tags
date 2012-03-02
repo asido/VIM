@@ -1,0 +1,513 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARPD_FLUSH	/usr/include/net/if_arp.h	170;"	d
+ARPD_LOOKUP	/usr/include/net/if_arp.h	169;"	d
+ARPD_UPDATE	/usr/include/net/if_arp.h	168;"	d
+ARPHRD_ADAPT	/usr/include/net/if_arp.h	96;"	d
+ARPHRD_APPLETLK	/usr/include/net/if_arp.h	82;"	d
+ARPHRD_ARCNET	/usr/include/net/if_arp.h	81;"	d
+ARPHRD_ASH	/usr/include/net/if_arp.h	120;"	d
+ARPHRD_ATM	/usr/include/net/if_arp.h	84;"	d
+ARPHRD_AX25	/usr/include/net/if_arp.h	77;"	d
+ARPHRD_BIF	/usr/include/net/if_arp.h	114;"	d
+ARPHRD_CHAOS	/usr/include/net/if_arp.h	79;"	d
+ARPHRD_CISCO	/usr/include/net/if_arp.h	101;"	d
+ARPHRD_CSLIP	/usr/include/net/if_arp.h	92;"	d
+ARPHRD_CSLIP6	/usr/include/net/if_arp.h	94;"	d
+ARPHRD_DDCMP	/usr/include/net/if_arp.h	104;"	d
+ARPHRD_DLCI	/usr/include/net/if_arp.h	83;"	d
+ARPHRD_ECONET	/usr/include/net/if_arp.h	121;"	d
+ARPHRD_EETHER	/usr/include/net/if_arp.h	76;"	d
+ARPHRD_ETHER	/usr/include/net/if_arp.h	75;"	d
+ARPHRD_EUI64	/usr/include/net/if_arp.h	87;"	d
+ARPHRD_FCAL	/usr/include/net/if_arp.h	124;"	d
+ARPHRD_FCFABRIC	/usr/include/net/if_arp.h	126;"	d
+ARPHRD_FCPL	/usr/include/net/if_arp.h	125;"	d
+ARPHRD_FCPP	/usr/include/net/if_arp.h	123;"	d
+ARPHRD_FDDI	/usr/include/net/if_arp.h	113;"	d
+ARPHRD_FRAD	/usr/include/net/if_arp.h	109;"	d
+ARPHRD_HDLC	/usr/include/net/if_arp.h	102;"	d
+ARPHRD_HIPPI	/usr/include/net/if_arp.h	119;"	d
+ARPHRD_HWX25	/usr/include/net/if_arp.h	99;"	d
+ARPHRD_IEEE1394	/usr/include/net/if_arp.h	86;"	d
+ARPHRD_IEEE802	/usr/include/net/if_arp.h	80;"	d
+ARPHRD_IEEE80211	/usr/include/net/if_arp.h	128;"	d
+ARPHRD_IEEE80211_PRISM	/usr/include/net/if_arp.h	129;"	d
+ARPHRD_IEEE80211_RADIOTAP	/usr/include/net/if_arp.h	130;"	d
+ARPHRD_IEEE802154	/usr/include/net/if_arp.h	131;"	d
+ARPHRD_IEEE802154_PHY	/usr/include/net/if_arp.h	132;"	d
+ARPHRD_IEEE802_TR	/usr/include/net/if_arp.h	127;"	d
+ARPHRD_INFINIBAND	/usr/include/net/if_arp.h	88;"	d
+ARPHRD_IPDDP	/usr/include/net/if_arp.h	116;"	d
+ARPHRD_IPGRE	/usr/include/net/if_arp.h	117;"	d
+ARPHRD_IRDA	/usr/include/net/if_arp.h	122;"	d
+ARPHRD_LAPB	/usr/include/net/if_arp.h	103;"	d
+ARPHRD_LOCALTLK	/usr/include/net/if_arp.h	112;"	d
+ARPHRD_LOOPBACK	/usr/include/net/if_arp.h	111;"	d
+ARPHRD_METRICOM	/usr/include/net/if_arp.h	85;"	d
+ARPHRD_NETROM	/usr/include/net/if_arp.h	74;"	d
+ARPHRD_NONE	/usr/include/net/if_arp.h	135;"	d
+ARPHRD_PIMREG	/usr/include/net/if_arp.h	118;"	d
+ARPHRD_PPP	/usr/include/net/if_arp.h	100;"	d
+ARPHRD_PRONET	/usr/include/net/if_arp.h	78;"	d
+ARPHRD_RAWHDLC	/usr/include/net/if_arp.h	105;"	d
+ARPHRD_ROSE	/usr/include/net/if_arp.h	97;"	d
+ARPHRD_RSRVD	/usr/include/net/if_arp.h	95;"	d
+ARPHRD_SIT	/usr/include/net/if_arp.h	115;"	d
+ARPHRD_SKIP	/usr/include/net/if_arp.h	110;"	d
+ARPHRD_SLIP	/usr/include/net/if_arp.h	91;"	d
+ARPHRD_SLIP6	/usr/include/net/if_arp.h	93;"	d
+ARPHRD_TUNNEL	/usr/include/net/if_arp.h	107;"	d
+ARPHRD_TUNNEL6	/usr/include/net/if_arp.h	108;"	d
+ARPHRD_VOID	/usr/include/net/if_arp.h	134;"	d
+ARPHRD_X25	/usr/include/net/if_arp.h	98;"	d
+ARPOP_InREPLY	/usr/include/net/if_arp.h	45;"	d
+ARPOP_InREQUEST	/usr/include/net/if_arp.h	44;"	d
+ARPOP_NAK	/usr/include/net/if_arp.h	46;"	d
+ARPOP_REPLY	/usr/include/net/if_arp.h	41;"	d
+ARPOP_REQUEST	/usr/include/net/if_arp.h	40;"	d
+ARPOP_RREPLY	/usr/include/net/if_arp.h	43;"	d
+ARPOP_RREQUEST	/usr/include/net/if_arp.h	42;"	d
+ATF_COM	/usr/include/net/if_arp.h	157;"	d
+ATF_DONTPUB	/usr/include/net/if_arp.h	163;"	d
+ATF_MAGIC	/usr/include/net/if_arp.h	164;"	d
+ATF_NETMASK	/usr/include/net/if_arp.h	161;"	d
+ATF_PERM	/usr/include/net/if_arp.h	158;"	d
+ATF_PUBL	/usr/include/net/if_arp.h	159;"	d
+ATF_USETRAILERS	/usr/include/net/if_arp.h	160;"	d
+ETHERMIN	/usr/include/net/ethernet.h	80;"	d
+ETHERMTU	/usr/include/net/ethernet.h	79;"	d
+ETHERTYPE_AARP	/usr/include/net/ethernet.h	53;"	d
+ETHERTYPE_ARP	/usr/include/net/ethernet.h	50;"	d
+ETHERTYPE_AT	/usr/include/net/ethernet.h	52;"	d
+ETHERTYPE_IP	/usr/include/net/ethernet.h	49;"	d
+ETHERTYPE_IPV6	/usr/include/net/ethernet.h	56;"	d
+ETHERTYPE_IPX	/usr/include/net/ethernet.h	55;"	d
+ETHERTYPE_LOOPBACK	/usr/include/net/ethernet.h	57;"	d
+ETHERTYPE_NTRAILER	/usr/include/net/ethernet.h	77;"	d
+ETHERTYPE_PUP	/usr/include/net/ethernet.h	47;"	d
+ETHERTYPE_REVARP	/usr/include/net/ethernet.h	51;"	d
+ETHERTYPE_SPRITE	/usr/include/net/ethernet.h	48;"	d
+ETHERTYPE_TRAIL	/usr/include/net/ethernet.h	76;"	d
+ETHERTYPE_VLAN	/usr/include/net/ethernet.h	54;"	d
+ETHER_ADDR_LEN	/usr/include/net/ethernet.h	60;"	d
+ETHER_CRC_LEN	/usr/include/net/ethernet.h	62;"	d
+ETHER_HDR_LEN	/usr/include/net/ethernet.h	63;"	d
+ETHER_IS_VALID_LEN	/usr/include/net/ethernet.h	68;"	d
+ETHER_MAX_LEN	/usr/include/net/ethernet.h	65;"	d
+ETHER_MIN_LEN	/usr/include/net/ethernet.h	64;"	d
+ETHER_TYPE_LEN	/usr/include/net/ethernet.h	61;"	d
+IFF_ALLMULTI	/usr/include/net/if.h	/^    IFF_ALLMULTI = 0x200,	\/* Receive all multicast packets.  *\/$/;"	e	enum:__anon1
+IFF_ALLMULTI	/usr/include/net/if.h	66;"	d
+IFF_AUTOMEDIA	/usr/include/net/if.h	/^    IFF_AUTOMEDIA = 0x4000,	\/* Auto media select active.  *\/$/;"	e	enum:__anon1
+IFF_AUTOMEDIA	/usr/include/net/if.h	79;"	d
+IFF_BROADCAST	/usr/include/net/if.h	/^    IFF_BROADCAST = 0x2,	\/* Broadcast address valid.  *\/$/;"	e	enum:__anon1
+IFF_BROADCAST	/usr/include/net/if.h	48;"	d
+IFF_DEBUG	/usr/include/net/if.h	/^    IFF_DEBUG = 0x4,		\/* Turn on debugging.  *\/$/;"	e	enum:__anon1
+IFF_DEBUG	/usr/include/net/if.h	50;"	d
+IFF_DYNAMIC	/usr/include/net/if.h	/^    IFF_DYNAMIC = 0x8000	\/* Dialup device with changing addresses.  *\/$/;"	e	enum:__anon1
+IFF_DYNAMIC	/usr/include/net/if.h	81;"	d
+IFF_LOOPBACK	/usr/include/net/if.h	/^    IFF_LOOPBACK = 0x8,		\/* Is a loopback net.  *\/$/;"	e	enum:__anon1
+IFF_LOOPBACK	/usr/include/net/if.h	52;"	d
+IFF_MASTER	/usr/include/net/if.h	/^    IFF_MASTER = 0x400,		\/* Master of a load balancer.  *\/$/;"	e	enum:__anon1
+IFF_MASTER	/usr/include/net/if.h	69;"	d
+IFF_MULTICAST	/usr/include/net/if.h	/^    IFF_MULTICAST = 0x1000,	\/* Supports multicast.  *\/$/;"	e	enum:__anon1
+IFF_MULTICAST	/usr/include/net/if.h	74;"	d
+IFF_NOARP	/usr/include/net/if.h	/^    IFF_NOARP = 0x80,		\/* No address resolution protocol.  *\/$/;"	e	enum:__anon1
+IFF_NOARP	/usr/include/net/if.h	60;"	d
+IFF_NOTRAILERS	/usr/include/net/if.h	/^    IFF_NOTRAILERS = 0x20,	\/* Avoid use of trailers.  *\/$/;"	e	enum:__anon1
+IFF_NOTRAILERS	/usr/include/net/if.h	56;"	d
+IFF_POINTOPOINT	/usr/include/net/if.h	/^    IFF_POINTOPOINT = 0x10,	\/* Interface is point-to-point link.  *\/$/;"	e	enum:__anon1
+IFF_POINTOPOINT	/usr/include/net/if.h	54;"	d
+IFF_PORTSEL	/usr/include/net/if.h	/^    IFF_PORTSEL = 0x2000,	\/* Can set media type.  *\/$/;"	e	enum:__anon1
+IFF_PORTSEL	/usr/include/net/if.h	77;"	d
+IFF_PROMISC	/usr/include/net/if.h	/^    IFF_PROMISC = 0x100,	\/* Receive all packets.  *\/$/;"	e	enum:__anon1
+IFF_PROMISC	/usr/include/net/if.h	62;"	d
+IFF_RUNNING	/usr/include/net/if.h	/^    IFF_RUNNING = 0x40,		\/* Resources allocated.  *\/$/;"	e	enum:__anon1
+IFF_RUNNING	/usr/include/net/if.h	58;"	d
+IFF_SLAVE	/usr/include/net/if.h	/^    IFF_SLAVE = 0x800,		\/* Slave of a load balancer.  *\/$/;"	e	enum:__anon1
+IFF_SLAVE	/usr/include/net/if.h	71;"	d
+IFF_UP	/usr/include/net/if.h	/^    IFF_UP = 0x1,		\/* Interface is up.  *\/$/;"	e	enum:__anon1
+IFF_UP	/usr/include/net/if.h	46;"	d
+IFHWADDRLEN	/usr/include/net/if.h	129;"	d
+IFNAMSIZ	/usr/include/net/if.h	130;"	d
+IF_NAMESIZE	/usr/include/net/if.h	32;"	d
+MAX_ADDR_LEN	/usr/include/net/if_arp.h	34;"	d
+PPPIOCGASYNCMAP	/usr/include/net/if_ppp.h	141;"	d
+PPPIOCGDEBUG	/usr/include/net/if_ppp.h	155;"	d
+PPPIOCGFLAGS	/usr/include/net/if_ppp.h	139;"	d
+PPPIOCGIDLE	/usr/include/net/if_ppp.h	157;"	d
+PPPIOCGMRU	/usr/include/net/if_ppp.h	146;"	d
+PPPIOCGNPMODE	/usr/include/net/if_ppp.h	153;"	d
+PPPIOCGRASYNCMAP	/usr/include/net/if_ppp.h	144;"	d
+PPPIOCGUNIT	/usr/include/net/if_ppp.h	143;"	d
+PPPIOCGXASYNCMAP	/usr/include/net/if_ppp.h	149;"	d
+PPPIOCSASYNCMAP	/usr/include/net/if_ppp.h	142;"	d
+PPPIOCSCOMPRESS	/usr/include/net/if_ppp.h	152;"	d
+PPPIOCSDEBUG	/usr/include/net/if_ppp.h	156;"	d
+PPPIOCSFLAGS	/usr/include/net/if_ppp.h	140;"	d
+PPPIOCSMAXCID	/usr/include/net/if_ppp.h	148;"	d
+PPPIOCSMRU	/usr/include/net/if_ppp.h	147;"	d
+PPPIOCSNPMODE	/usr/include/net/if_ppp.h	154;"	d
+PPPIOCSRASYNCMAP	/usr/include/net/if_ppp.h	145;"	d
+PPPIOCSXASYNCMAP	/usr/include/net/if_ppp.h	150;"	d
+PPPIOCXFERUNIT	/usr/include/net/if_ppp.h	151;"	d
+PPP_MAGIC	/usr/include/net/if_ppp.h	67;"	d
+PPP_MAXMRU	/usr/include/net/if_ppp.h	65;"	d
+PPP_MTU	/usr/include/net/if_ppp.h	64;"	d
+PPP_VERSION	/usr/include/net/if_ppp.h	66;"	d
+PROTO_DNA_RT	/usr/include/net/if_ppp.h	69;"	d
+PROTO_IPX	/usr/include/net/if_ppp.h	68;"	d
+RTCF_DIRECTSRC	/usr/include/net/route.h	108;"	d
+RTCF_DOREDIRECT	/usr/include/net/route.h	106;"	d
+RTCF_LOG	/usr/include/net/route.h	107;"	d
+RTCF_MASQ	/usr/include/net/route.h	104;"	d
+RTCF_NAT	/usr/include/net/route.h	105;"	d
+RTCF_VALVE	/usr/include/net/route.h	103;"	d
+RTF_ADDRCLASSMASK	/usr/include/net/route.h	116;"	d
+RTF_ADDRCONF	/usr/include/net/route.h	94;"	d
+RTF_ALLONLINK	/usr/include/net/route.h	93;"	d
+RTF_BROADCAST	/usr/include/net/route.h	113;"	d
+RTF_CACHE	/usr/include/net/route.h	99;"	d
+RTF_DEFAULT	/usr/include/net/route.h	92;"	d
+RTF_DYNAMIC	/usr/include/net/route.h	78;"	d
+RTF_FLOW	/usr/include/net/route.h	100;"	d
+RTF_GATEWAY	/usr/include/net/route.h	74;"	d
+RTF_HOST	/usr/include/net/route.h	76;"	d
+RTF_INTERFACE	/usr/include/net/route.h	111;"	d
+RTF_IRTT	/usr/include/net/route.h	83;"	d
+RTF_LINKRT	/usr/include/net/route.h	96;"	d
+RTF_LOCAL	/usr/include/net/route.h	110;"	d
+RTF_MODIFIED	/usr/include/net/route.h	79;"	d
+RTF_MSS	/usr/include/net/route.h	81;"	d
+RTF_MTU	/usr/include/net/route.h	80;"	d
+RTF_MULTICAST	/usr/include/net/route.h	112;"	d
+RTF_NAT	/usr/include/net/route.h	114;"	d
+RTF_NOFORWARD	/usr/include/net/route.h	87;"	d
+RTF_NONEXTHOP	/usr/include/net/route.h	97;"	d
+RTF_NOPMTUDISC	/usr/include/net/route.h	89;"	d
+RTF_POLICY	/usr/include/net/route.h	101;"	d
+RTF_REINSTATE	/usr/include/net/route.h	77;"	d
+RTF_REJECT	/usr/include/net/route.h	84;"	d
+RTF_STATIC	/usr/include/net/route.h	85;"	d
+RTF_THROW	/usr/include/net/route.h	88;"	d
+RTF_UP	/usr/include/net/route.h	73;"	d
+RTF_WINDOW	/usr/include/net/route.h	82;"	d
+RTF_XRESOLVE	/usr/include/net/route.h	86;"	d
+RTMSG_ACK	/usr/include/net/route.h	132;"	d
+RTMSG_AR_FAILED	/usr/include/net/route.h	143;"	d
+RTMSG_CONTROL	/usr/include/net/route.h	141;"	d
+RTMSG_DELDEVICE	/usr/include/net/route.h	136;"	d
+RTMSG_DELROUTE	/usr/include/net/route.h	138;"	d
+RTMSG_DELRULE	/usr/include/net/route.h	140;"	d
+RTMSG_NEWDEVICE	/usr/include/net/route.h	135;"	d
+RTMSG_NEWROUTE	/usr/include/net/route.h	137;"	d
+RTMSG_NEWRULE	/usr/include/net/route.h	139;"	d
+RTMSG_OVERRUN	/usr/include/net/route.h	133;"	d
+RT_ADDRCLASS	/usr/include/net/route.h	117;"	d
+RT_CLASS_DEFAULT	/usr/include/net/route.h	125;"	d
+RT_CLASS_LOCAL	/usr/include/net/route.h	128;"	d
+RT_CLASS_MAIN	/usr/include/net/route.h	127;"	d
+RT_CLASS_MAX	/usr/include/net/route.h	129;"	d
+RT_CLASS_UNSPEC	/usr/include/net/route.h	124;"	d
+RT_LOCALADDR	/usr/include/net/route.h	121;"	d
+RT_TOS	/usr/include/net/route.h	119;"	d
+SC_CCP_OPEN	/usr/include/net/if_ppp.h	82;"	d
+SC_CCP_UP	/usr/include/net/if_ppp.h	83;"	d
+SC_COMP_AC	/usr/include/net/if_ppp.h	77;"	d
+SC_COMP_PROT	/usr/include/net/if_ppp.h	76;"	d
+SC_COMP_RUN	/usr/include/net/if_ppp.h	85;"	d
+SC_COMP_TCP	/usr/include/net/if_ppp.h	78;"	d
+SC_DC_ERROR	/usr/include/net/if_ppp.h	104;"	d
+SC_DC_FERROR	/usr/include/net/if_ppp.h	103;"	d
+SC_DEBUG	/usr/include/net/if_ppp.h	87;"	d
+SC_DECOMP_RUN	/usr/include/net/if_ppp.h	86;"	d
+SC_ENABLE_IP	/usr/include/net/if_ppp.h	84;"	d
+SC_ESCAPED	/usr/include/net/if_ppp.h	95;"	d
+SC_FLUSH	/usr/include/net/if_ppp.h	96;"	d
+SC_LOG_FLUSH	/usr/include/net/if_ppp.h	91;"	d
+SC_LOG_INPKT	/usr/include/net/if_ppp.h	88;"	d
+SC_LOG_OUTPKT	/usr/include/net/if_ppp.h	89;"	d
+SC_LOG_RAWIN	/usr/include/net/if_ppp.h	90;"	d
+SC_MASK	/usr/include/net/if_ppp.h	92;"	d
+SC_NO_TCP_CCID	/usr/include/net/if_ppp.h	79;"	d
+SC_RCV_B7_0	/usr/include/net/if_ppp.h	102;"	d
+SC_RCV_B7_1	/usr/include/net/if_ppp.h	101;"	d
+SC_RCV_EVNP	/usr/include/net/if_ppp.h	100;"	d
+SC_RCV_ODDP	/usr/include/net/if_ppp.h	99;"	d
+SC_REJ_COMP_AC	/usr/include/net/if_ppp.h	80;"	d
+SC_REJ_COMP_TCP	/usr/include/net/if_ppp.h	81;"	d
+SC_VJ_RESET	/usr/include/net/if_ppp.h	97;"	d
+SC_XMIT_BUSY	/usr/include/net/if_ppp.h	98;"	d
+SHAPER_BURST	/usr/include/net/if_shaper.h	38;"	d
+SHAPER_GET_DEV	/usr/include/net/if_shaper.h	42;"	d
+SHAPER_GET_SPEED	/usr/include/net/if_shaper.h	43;"	d
+SHAPER_LATENCY	/usr/include/net/if_shaper.h	36;"	d
+SHAPER_MAXSLIP	/usr/include/net/if_shaper.h	37;"	d
+SHAPER_QLEN	/usr/include/net/if_shaper.h	29;"	d
+SHAPER_SET_DEV	/usr/include/net/if_shaper.h	40;"	d
+SHAPER_SET_SPEED	/usr/include/net/if_shaper.h	41;"	d
+SIOCGPPPCSTATS	/usr/include/net/if_ppp.h	161;"	d
+SIOCGPPPSTATS	/usr/include/net/if_ppp.h	159;"	d
+SIOCGPPPVER	/usr/include/net/if_ppp.h	160;"	d
+_IOT_ifconf	/usr/include/net/if.h	188;"	d
+_IOT_ifreq	/usr/include/net/if.h	168;"	d
+_IOT_ifreq_int	/usr/include/net/if.h	170;"	d
+_IOT_ifreq_short	/usr/include/net/if.h	169;"	d
+_NET_IF_ARP_H	/usr/include/net/if_arp.h	25;"	d
+_NET_IF_H	/usr/include/net/if.h	21;"	d
+_NET_IF_SHAPER_H	/usr/include/net/if_shaper.h	20;"	d
+_NET_IF_SLIP_H	/usr/include/net/if_slip.h	20;"	d
+_NET_PPP_DEFS_H	/usr/include/net/ppp_defs.h	2;"	d
+_NET_ROUTE_H	/usr/include/net/route.h	22;"	d
+__IF_PACKET_H	/usr/include/net/if_packet.h	21;"	d
+__NET_ETHERNET_H	/usr/include/net/ethernet.h	23;"	d
+__NET_IF_PPP_H	/usr/include/net/if_ppp.h	49;"	d
+__SOCKADDR_COMMON	/usr/include/net/if_packet.h	/^    __SOCKADDR_COMMON (spkt_);$/;"	p	struct:sockaddr_pkt	access:public	signature:(spkt_)
+__need_time_t	/usr/include/net/ppp_defs.h	4;"	d
+ar_hln	/usr/include/net/if_arp.h	/^    unsigned char ar_hln;		\/* Length of hardware address.  *\/$/;"	m	struct:arphdr	access:public
+ar_hrd	/usr/include/net/if_arp.h	/^    unsigned short int ar_hrd;		\/* Format of hardware address.  *\/$/;"	m	struct:arphdr	access:public
+ar_op	/usr/include/net/if_arp.h	/^    unsigned short int ar_op;		\/* ARP opcode (command).  *\/$/;"	m	struct:arphdr	access:public
+ar_pln	/usr/include/net/if_arp.h	/^    unsigned char ar_pln;		\/* Length of protocol address.  *\/$/;"	m	struct:arphdr	access:public
+ar_pro	/usr/include/net/if_arp.h	/^    unsigned short int ar_pro;		\/* Format of protocol address.  *\/$/;"	m	struct:arphdr	access:public
+arp_dev	/usr/include/net/if_arp.h	/^    char arp_dev[16];$/;"	m	struct:arpreq	access:public
+arp_flags	/usr/include/net/if_arp.h	/^    int arp_flags;			\/* Flags.  *\/$/;"	m	struct:arpreq	access:public
+arp_flags	/usr/include/net/if_arp.h	/^    int arp_flags;			\/* Flags.  *\/$/;"	m	struct:arpreq_old	access:public
+arp_ha	/usr/include/net/if_arp.h	/^    struct sockaddr arp_ha;		\/* Hardware address.  *\/$/;"	m	struct:arpreq	typeref:struct:arpreq::sockaddr	access:public
+arp_ha	/usr/include/net/if_arp.h	/^    struct sockaddr arp_ha;		\/* Hardware address.  *\/$/;"	m	struct:arpreq_old	typeref:struct:arpreq_old::sockaddr	access:public
+arp_netmask	/usr/include/net/if_arp.h	/^    struct sockaddr arp_netmask;	\/* Netmask (only for proxy arps).  *\/$/;"	m	struct:arpreq	typeref:struct:arpreq::sockaddr	access:public
+arp_netmask	/usr/include/net/if_arp.h	/^    struct sockaddr arp_netmask;	\/* Netmask (only for proxy arps).  *\/$/;"	m	struct:arpreq_old	typeref:struct:arpreq_old::sockaddr	access:public
+arp_pa	/usr/include/net/if_arp.h	/^    struct sockaddr arp_pa;		\/* Protocol address.  *\/$/;"	m	struct:arpreq	typeref:struct:arpreq::sockaddr	access:public
+arp_pa	/usr/include/net/if_arp.h	/^    struct sockaddr arp_pa;		\/* Protocol address.  *\/$/;"	m	struct:arpreq_old	typeref:struct:arpreq_old::sockaddr	access:public
+arpd_request	/usr/include/net/if_arp.h	/^struct arpd_request$/;"	s
+arpd_request::dev	/usr/include/net/if_arp.h	/^    unsigned long int dev;		\/* Device entry is tied to.  *\/$/;"	m	struct:arpd_request	access:public
+arpd_request::ha	/usr/include/net/if_arp.h	/^    unsigned char ha[MAX_ADDR_LEN];	\/* Hardware address.  *\/$/;"	m	struct:arpd_request	access:public
+arpd_request::ip	/usr/include/net/if_arp.h	/^    u_int32_t ip;			\/* IP address of entry.  *\/$/;"	m	struct:arpd_request	access:public
+arpd_request::req	/usr/include/net/if_arp.h	/^    unsigned short int req;		\/* Request type.  *\/$/;"	m	struct:arpd_request	access:public
+arpd_request::stamp	/usr/include/net/if_arp.h	/^    unsigned long int stamp;$/;"	m	struct:arpd_request	access:public
+arpd_request::updated	/usr/include/net/if_arp.h	/^    unsigned long int updated;$/;"	m	struct:arpd_request	access:public
+arphdr	/usr/include/net/if_arp.h	/^struct arphdr$/;"	s
+arphdr::ar_hln	/usr/include/net/if_arp.h	/^    unsigned char ar_hln;		\/* Length of hardware address.  *\/$/;"	m	struct:arphdr	access:public
+arphdr::ar_hrd	/usr/include/net/if_arp.h	/^    unsigned short int ar_hrd;		\/* Format of hardware address.  *\/$/;"	m	struct:arphdr	access:public
+arphdr::ar_op	/usr/include/net/if_arp.h	/^    unsigned short int ar_op;		\/* ARP opcode (command).  *\/$/;"	m	struct:arphdr	access:public
+arphdr::ar_pln	/usr/include/net/if_arp.h	/^    unsigned char ar_pln;		\/* Length of protocol address.  *\/$/;"	m	struct:arphdr	access:public
+arphdr::ar_pro	/usr/include/net/if_arp.h	/^    unsigned short int ar_pro;		\/* Format of protocol address.  *\/$/;"	m	struct:arphdr	access:public
+arpreq	/usr/include/net/if_arp.h	/^struct arpreq$/;"	s
+arpreq::arp_dev	/usr/include/net/if_arp.h	/^    char arp_dev[16];$/;"	m	struct:arpreq	access:public
+arpreq::arp_flags	/usr/include/net/if_arp.h	/^    int arp_flags;			\/* Flags.  *\/$/;"	m	struct:arpreq	access:public
+arpreq::arp_ha	/usr/include/net/if_arp.h	/^    struct sockaddr arp_ha;		\/* Hardware address.  *\/$/;"	m	struct:arpreq	typeref:struct:arpreq::sockaddr	access:public
+arpreq::arp_netmask	/usr/include/net/if_arp.h	/^    struct sockaddr arp_netmask;	\/* Netmask (only for proxy arps).  *\/$/;"	m	struct:arpreq	typeref:struct:arpreq::sockaddr	access:public
+arpreq::arp_pa	/usr/include/net/if_arp.h	/^    struct sockaddr arp_pa;		\/* Protocol address.  *\/$/;"	m	struct:arpreq	typeref:struct:arpreq::sockaddr	access:public
+arpreq_old	/usr/include/net/if_arp.h	/^struct arpreq_old$/;"	s
+arpreq_old::arp_flags	/usr/include/net/if_arp.h	/^    int arp_flags;			\/* Flags.  *\/$/;"	m	struct:arpreq_old	access:public
+arpreq_old::arp_ha	/usr/include/net/if_arp.h	/^    struct sockaddr arp_ha;		\/* Hardware address.  *\/$/;"	m	struct:arpreq_old	typeref:struct:arpreq_old::sockaddr	access:public
+arpreq_old::arp_netmask	/usr/include/net/if_arp.h	/^    struct sockaddr arp_netmask;	\/* Netmask (only for proxy arps).  *\/$/;"	m	struct:arpreq_old	typeref:struct:arpreq_old::sockaddr	access:public
+arpreq_old::arp_pa	/usr/include/net/if_arp.h	/^    struct sockaddr arp_pa;		\/* Protocol address.  *\/$/;"	m	struct:arpreq_old	typeref:struct:arpreq_old::sockaddr	access:public
+b	/usr/include/net/if_ppp.h	/^  struct ifreq		b;$/;"	m	struct:ifpppcstatsreq	typeref:struct:ifpppcstatsreq::ifreq	access:public
+b	/usr/include/net/if_ppp.h	/^  struct ifreq	   b;$/;"	m	struct:ifpppstatsreq	typeref:struct:ifpppstatsreq::ifreq	access:public
+base_addr	/usr/include/net/if.h	/^    unsigned short int base_addr;$/;"	m	struct:ifmap	access:public
+dev	/usr/include/net/if_arp.h	/^    unsigned long int dev;		\/* Device entry is tied to.  *\/$/;"	m	struct:arpd_request	access:public
+dma	/usr/include/net/if.h	/^    unsigned char dma;$/;"	m	struct:ifmap	access:public
+ether_addr	/usr/include/net/ethernet.h	/^struct ether_addr$/;"	s
+ether_addr::ether_addr_octet	/usr/include/net/ethernet.h	/^  u_int8_t ether_addr_octet[ETH_ALEN];$/;"	m	struct:ether_addr	access:public
+ether_addr_octet	/usr/include/net/ethernet.h	/^  u_int8_t ether_addr_octet[ETH_ALEN];$/;"	m	struct:ether_addr	access:public
+ether_dhost	/usr/include/net/ethernet.h	/^  u_int8_t  ether_dhost[ETH_ALEN];	\/* destination eth addr	*\/$/;"	m	struct:ether_header	access:public
+ether_header	/usr/include/net/ethernet.h	/^struct ether_header$/;"	s
+ether_header::ether_dhost	/usr/include/net/ethernet.h	/^  u_int8_t  ether_dhost[ETH_ALEN];	\/* destination eth addr	*\/$/;"	m	struct:ether_header	access:public
+ether_header::ether_shost	/usr/include/net/ethernet.h	/^  u_int8_t  ether_shost[ETH_ALEN];	\/* source ether addr	*\/$/;"	m	struct:ether_header	access:public
+ether_header::ether_type	/usr/include/net/ethernet.h	/^  u_int16_t ether_type;		        \/* packet type ID field	*\/$/;"	m	struct:ether_header	access:public
+ether_shost	/usr/include/net/ethernet.h	/^  u_int8_t  ether_shost[ETH_ALEN];	\/* source ether addr	*\/$/;"	m	struct:ether_header	access:public
+ether_type	/usr/include/net/ethernet.h	/^  u_int16_t ether_type;		        \/* packet type ID field	*\/$/;"	m	struct:ether_header	access:public
+ha	/usr/include/net/if_arp.h	/^    unsigned char ha[MAX_ADDR_LEN];	\/* Hardware address.  *\/$/;"	m	struct:arpd_request	access:public
+if_index	/usr/include/net/if.h	/^    unsigned int if_index;	\/* 1, 2, ... *\/$/;"	m	struct:if_nameindex	access:public
+if_name	/usr/include/net/if.h	/^    char *if_name;		\/* null terminated name: "eth0", ... *\/$/;"	m	struct:if_nameindex	access:public
+if_nameindex	/usr/include/net/if.h	/^struct if_nameindex$/;"	s
+if_nameindex::if_index	/usr/include/net/if.h	/^    unsigned int if_index;	\/* 1, 2, ... *\/$/;"	m	struct:if_nameindex	access:public
+if_nameindex::if_name	/usr/include/net/if.h	/^    char *if_name;		\/* null terminated name: "eth0", ... *\/$/;"	m	struct:if_nameindex	access:public
+ifa_addr	/usr/include/net/if.h	/^    struct sockaddr ifa_addr;	\/* Address of interface.  *\/$/;"	m	struct:ifaddr	typeref:struct:ifaddr::sockaddr	access:public
+ifa_broadaddr	/usr/include/net/if.h	101;"	d
+ifa_dstaddr	/usr/include/net/if.h	102;"	d
+ifa_ifp	/usr/include/net/if.h	/^    struct iface *ifa_ifp;	\/* Back-pointer to interface.  *\/$/;"	m	struct:ifaddr	typeref:struct:ifaddr::iface	access:public
+ifa_ifu	/usr/include/net/if.h	/^      } ifa_ifu;$/;"	m	struct:ifaddr	typeref:union:ifaddr::__anon2	access:public
+ifa_next	/usr/include/net/if.h	/^    struct ifaddr *ifa_next;	\/* Next address for interface.  *\/$/;"	m	struct:ifaddr	typeref:struct:ifaddr::ifaddr	access:public
+ifaddr	/usr/include/net/if.h	/^struct ifaddr$/;"	s
+ifaddr::__anon2::ifu_broadaddr	/usr/include/net/if.h	/^	struct sockaddr	ifu_broadaddr;$/;"	m	union:ifaddr::__anon2	typeref:struct:ifaddr::__anon2::sockaddr	access:public
+ifaddr::__anon2::ifu_dstaddr	/usr/include/net/if.h	/^	struct sockaddr	ifu_dstaddr;$/;"	m	union:ifaddr::__anon2	typeref:struct:ifaddr::__anon2::sockaddr	access:public
+ifaddr::ifa_addr	/usr/include/net/if.h	/^    struct sockaddr ifa_addr;	\/* Address of interface.  *\/$/;"	m	struct:ifaddr	typeref:struct:ifaddr::sockaddr	access:public
+ifaddr::ifa_ifp	/usr/include/net/if.h	/^    struct iface *ifa_ifp;	\/* Back-pointer to interface.  *\/$/;"	m	struct:ifaddr	typeref:struct:ifaddr::iface	access:public
+ifaddr::ifa_ifu	/usr/include/net/if.h	/^      } ifa_ifu;$/;"	m	struct:ifaddr	typeref:union:ifaddr::__anon2	access:public
+ifaddr::ifa_next	/usr/include/net/if.h	/^    struct ifaddr *ifa_next;	\/* Next address for interface.  *\/$/;"	m	struct:ifaddr	typeref:struct:ifaddr::ifaddr	access:public
+ifc_buf	/usr/include/net/if.h	186;"	d
+ifc_ifcu	/usr/include/net/if.h	/^      } ifc_ifcu;$/;"	m	struct:ifconf	typeref:union:ifconf::__anon5	access:public
+ifc_len	/usr/include/net/if.h	/^    int	ifc_len;			\/* Size of buffer.  *\/$/;"	m	struct:ifconf	access:public
+ifc_req	/usr/include/net/if.h	187;"	d
+ifconf	/usr/include/net/if.h	/^struct ifconf$/;"	s
+ifconf::__anon5::ifcu_buf	/usr/include/net/if.h	/^	__caddr_t ifcu_buf;$/;"	m	union:ifconf::__anon5	access:public
+ifconf::__anon5::ifcu_req	/usr/include/net/if.h	/^	struct ifreq *ifcu_req;$/;"	m	union:ifconf::__anon5	typeref:struct:ifconf::__anon5::ifreq	access:public
+ifconf::ifc_ifcu	/usr/include/net/if.h	/^      } ifc_ifcu;$/;"	m	struct:ifconf	typeref:union:ifconf::__anon5	access:public
+ifconf::ifc_len	/usr/include/net/if.h	/^    int	ifc_len;			\/* Size of buffer.  *\/$/;"	m	struct:ifconf	access:public
+ifcu_buf	/usr/include/net/if.h	/^	__caddr_t ifcu_buf;$/;"	m	union:ifconf::__anon5	access:public
+ifcu_req	/usr/include/net/if.h	/^	struct ifreq *ifcu_req;$/;"	m	union:ifconf::__anon5	typeref:struct:ifconf::__anon5::ifreq	access:public
+ifmap	/usr/include/net/if.h	/^struct ifmap$/;"	s
+ifmap::base_addr	/usr/include/net/if.h	/^    unsigned short int base_addr;$/;"	m	struct:ifmap	access:public
+ifmap::dma	/usr/include/net/if.h	/^    unsigned char dma;$/;"	m	struct:ifmap	access:public
+ifmap::irq	/usr/include/net/if.h	/^    unsigned char irq;$/;"	m	struct:ifmap	access:public
+ifmap::mem_end	/usr/include/net/if.h	/^    unsigned long int mem_end;$/;"	m	struct:ifmap	access:public
+ifmap::mem_start	/usr/include/net/if.h	/^    unsigned long int mem_start;$/;"	m	struct:ifmap	access:public
+ifmap::port	/usr/include/net/if.h	/^    unsigned char port;$/;"	m	struct:ifmap	access:public
+ifpppcstatsreq	/usr/include/net/if_ppp.h	/^struct ifpppcstatsreq {$/;"	s
+ifpppcstatsreq::b	/usr/include/net/if_ppp.h	/^  struct ifreq		b;$/;"	m	struct:ifpppcstatsreq	typeref:struct:ifpppcstatsreq::ifreq	access:public
+ifpppcstatsreq::stats	/usr/include/net/if_ppp.h	/^  struct ppp_comp_stats stats;$/;"	m	struct:ifpppcstatsreq	typeref:struct:ifpppcstatsreq::ppp_comp_stats	access:public
+ifpppstatsreq	/usr/include/net/if_ppp.h	/^struct ifpppstatsreq {$/;"	s
+ifpppstatsreq::b	/usr/include/net/if_ppp.h	/^  struct ifreq	   b;$/;"	m	struct:ifpppstatsreq	typeref:struct:ifpppstatsreq::ifreq	access:public
+ifpppstatsreq::stats	/usr/include/net/if_ppp.h	/^  struct ppp_stats stats;			\/* statistic information *\/$/;"	m	struct:ifpppstatsreq	typeref:struct:ifpppstatsreq::ppp_stats	access:public
+ifr__name	/usr/include/net/if_ppp.h	132;"	d
+ifr_addr	/usr/include/net/if.h	154;"	d
+ifr_bandwidth	/usr/include/net/if.h	165;"	d
+ifr_broadaddr	/usr/include/net/if.h	156;"	d
+ifr_data	/usr/include/net/if.h	163;"	d
+ifr_dstaddr	/usr/include/net/if.h	155;"	d
+ifr_flags	/usr/include/net/if.h	158;"	d
+ifr_hwaddr	/usr/include/net/if.h	153;"	d
+ifr_ifindex	/usr/include/net/if.h	164;"	d
+ifr_ifrn	/usr/include/net/if.h	/^      } ifr_ifrn;$/;"	m	struct:ifreq	typeref:union:ifreq::__anon3	access:public
+ifr_ifru	/usr/include/net/if.h	/^      } ifr_ifru;$/;"	m	struct:ifreq	typeref:union:ifreq::__anon4	access:public
+ifr_map	/usr/include/net/if.h	161;"	d
+ifr_metric	/usr/include/net/if.h	159;"	d
+ifr_mtu	/usr/include/net/if.h	160;"	d
+ifr_mtu	/usr/include/net/if_ppp.h	164;"	d
+ifr_name	/usr/include/net/if.h	152;"	d
+ifr_netmask	/usr/include/net/if.h	157;"	d
+ifr_newname	/usr/include/net/if.h	167;"	d
+ifr_qlen	/usr/include/net/if.h	166;"	d
+ifr_slave	/usr/include/net/if.h	162;"	d
+ifreq	/usr/include/net/if.h	/^struct ifreq$/;"	s
+ifreq::__anon3::ifrn_name	/usr/include/net/if.h	/^	char ifrn_name[IFNAMSIZ];	\/* Interface name, e.g. "en0".  *\/$/;"	m	union:ifreq::__anon3	access:public
+ifreq::__anon4::ifru_addr	/usr/include/net/if.h	/^	struct sockaddr ifru_addr;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::sockaddr	access:public
+ifreq::__anon4::ifru_broadaddr	/usr/include/net/if.h	/^	struct sockaddr ifru_broadaddr;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::sockaddr	access:public
+ifreq::__anon4::ifru_data	/usr/include/net/if.h	/^	__caddr_t ifru_data;$/;"	m	union:ifreq::__anon4	access:public
+ifreq::__anon4::ifru_dstaddr	/usr/include/net/if.h	/^	struct sockaddr ifru_dstaddr;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::sockaddr	access:public
+ifreq::__anon4::ifru_flags	/usr/include/net/if.h	/^	short int ifru_flags;$/;"	m	union:ifreq::__anon4	access:public
+ifreq::__anon4::ifru_hwaddr	/usr/include/net/if.h	/^	struct sockaddr ifru_hwaddr;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::sockaddr	access:public
+ifreq::__anon4::ifru_ivalue	/usr/include/net/if.h	/^	int ifru_ivalue;$/;"	m	union:ifreq::__anon4	access:public
+ifreq::__anon4::ifru_map	/usr/include/net/if.h	/^	struct ifmap ifru_map;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::ifmap	access:public
+ifreq::__anon4::ifru_mtu	/usr/include/net/if.h	/^	int ifru_mtu;$/;"	m	union:ifreq::__anon4	access:public
+ifreq::__anon4::ifru_netmask	/usr/include/net/if.h	/^	struct sockaddr ifru_netmask;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::sockaddr	access:public
+ifreq::__anon4::ifru_newname	/usr/include/net/if.h	/^	char ifru_newname[IFNAMSIZ];$/;"	m	union:ifreq::__anon4	access:public
+ifreq::__anon4::ifru_slave	/usr/include/net/if.h	/^	char ifru_slave[IFNAMSIZ];	\/* Just fits the size *\/$/;"	m	union:ifreq::__anon4	access:public
+ifreq::ifr_ifrn	/usr/include/net/if.h	/^      } ifr_ifrn;$/;"	m	struct:ifreq	typeref:union:ifreq::__anon3	access:public
+ifreq::ifr_ifru	/usr/include/net/if.h	/^      } ifr_ifru;$/;"	m	struct:ifreq	typeref:union:ifreq::__anon4	access:public
+ifrn_name	/usr/include/net/if.h	/^	char ifrn_name[IFNAMSIZ];	\/* Interface name, e.g. "en0".  *\/$/;"	m	union:ifreq::__anon3	access:public
+ifru_addr	/usr/include/net/if.h	/^	struct sockaddr ifru_addr;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::sockaddr	access:public
+ifru_broadaddr	/usr/include/net/if.h	/^	struct sockaddr ifru_broadaddr;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::sockaddr	access:public
+ifru_data	/usr/include/net/if.h	/^	__caddr_t ifru_data;$/;"	m	union:ifreq::__anon4	access:public
+ifru_dstaddr	/usr/include/net/if.h	/^	struct sockaddr ifru_dstaddr;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::sockaddr	access:public
+ifru_flags	/usr/include/net/if.h	/^	short int ifru_flags;$/;"	m	union:ifreq::__anon4	access:public
+ifru_hwaddr	/usr/include/net/if.h	/^	struct sockaddr ifru_hwaddr;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::sockaddr	access:public
+ifru_ivalue	/usr/include/net/if.h	/^	int ifru_ivalue;$/;"	m	union:ifreq::__anon4	access:public
+ifru_map	/usr/include/net/if.h	/^	struct ifmap ifru_map;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::ifmap	access:public
+ifru_mtu	/usr/include/net/if.h	/^	int ifru_mtu;$/;"	m	union:ifreq::__anon4	access:public
+ifru_netmask	/usr/include/net/if.h	/^	struct sockaddr ifru_netmask;$/;"	m	union:ifreq::__anon4	typeref:struct:ifreq::__anon4::sockaddr	access:public
+ifru_newname	/usr/include/net/if.h	/^	char ifru_newname[IFNAMSIZ];$/;"	m	union:ifreq::__anon4	access:public
+ifru_slave	/usr/include/net/if.h	/^	char ifru_slave[IFNAMSIZ];	\/* Just fits the size *\/$/;"	m	union:ifreq::__anon4	access:public
+ifu_broadaddr	/usr/include/net/if.h	/^	struct sockaddr	ifu_broadaddr;$/;"	m	union:ifaddr::__anon2	typeref:struct:ifaddr::__anon2::sockaddr	access:public
+ifu_dstaddr	/usr/include/net/if.h	/^	struct sockaddr	ifu_dstaddr;$/;"	m	union:ifaddr::__anon2	typeref:struct:ifaddr::__anon2::sockaddr	access:public
+in6_rtmsg	/usr/include/net/route.h	/^struct in6_rtmsg$/;"	s
+in6_rtmsg::rtmsg_dst	/usr/include/net/route.h	/^    struct in6_addr rtmsg_dst;$/;"	m	struct:in6_rtmsg	typeref:struct:in6_rtmsg::in6_addr	access:public
+in6_rtmsg::rtmsg_dst_len	/usr/include/net/route.h	/^    u_int16_t rtmsg_dst_len;$/;"	m	struct:in6_rtmsg	access:public
+in6_rtmsg::rtmsg_flags	/usr/include/net/route.h	/^    u_int32_t rtmsg_flags;$/;"	m	struct:in6_rtmsg	access:public
+in6_rtmsg::rtmsg_gateway	/usr/include/net/route.h	/^    struct in6_addr rtmsg_gateway;$/;"	m	struct:in6_rtmsg	typeref:struct:in6_rtmsg::in6_addr	access:public
+in6_rtmsg::rtmsg_ifindex	/usr/include/net/route.h	/^    int rtmsg_ifindex;$/;"	m	struct:in6_rtmsg	access:public
+in6_rtmsg::rtmsg_info	/usr/include/net/route.h	/^    unsigned long int rtmsg_info;$/;"	m	struct:in6_rtmsg	access:public
+in6_rtmsg::rtmsg_metric	/usr/include/net/route.h	/^    u_int32_t rtmsg_metric;$/;"	m	struct:in6_rtmsg	access:public
+in6_rtmsg::rtmsg_src	/usr/include/net/route.h	/^    struct in6_addr rtmsg_src;$/;"	m	struct:in6_rtmsg	typeref:struct:in6_rtmsg::in6_addr	access:public
+in6_rtmsg::rtmsg_src_len	/usr/include/net/route.h	/^    u_int16_t rtmsg_src_len;$/;"	m	struct:in6_rtmsg	access:public
+in6_rtmsg::rtmsg_type	/usr/include/net/route.h	/^    u_int32_t rtmsg_type;$/;"	m	struct:in6_rtmsg	access:public
+ip	/usr/include/net/if_arp.h	/^    u_int32_t ip;			\/* IP address of entry.  *\/$/;"	m	struct:arpd_request	access:public
+irq	/usr/include/net/if.h	/^    unsigned char irq;$/;"	m	struct:ifmap	access:public
+length	/usr/include/net/if_ppp.h	/^	u_int32_t length;$/;"	m	struct:ppp_option_data	access:public
+mem_end	/usr/include/net/if.h	/^    unsigned long int mem_end;$/;"	m	struct:ifmap	access:public
+mem_start	/usr/include/net/if.h	/^    unsigned long int mem_start;$/;"	m	struct:ifmap	access:public
+mode	/usr/include/net/if_ppp.h	/^    enum NPmode	mode;$/;"	m	struct:npioctl	typeref:enum:npioctl::NPmode	access:public
+npioctl	/usr/include/net/if_ppp.h	/^struct npioctl {$/;"	s
+npioctl::mode	/usr/include/net/if_ppp.h	/^    enum NPmode	mode;$/;"	m	struct:npioctl	typeref:enum:npioctl::NPmode	access:public
+npioctl::protocol	/usr/include/net/if_ppp.h	/^    int		protocol;	\/* PPP protocol, e.g. PPP_IP *\/$/;"	m	struct:npioctl	access:public
+port	/usr/include/net/if.h	/^    unsigned char port;$/;"	m	struct:ifmap	access:public
+ppp_option_data	/usr/include/net/if_ppp.h	/^struct ppp_option_data {$/;"	s
+ppp_option_data::length	/usr/include/net/if_ppp.h	/^	u_int32_t length;$/;"	m	struct:ppp_option_data	access:public
+ppp_option_data::ptr	/usr/include/net/if_ppp.h	/^	u_int8_t  *ptr;$/;"	m	struct:ppp_option_data	access:public
+ppp_option_data::transmit	/usr/include/net/if_ppp.h	/^	int	  transmit;$/;"	m	struct:ppp_option_data	access:public
+protocol	/usr/include/net/if_ppp.h	/^    int		protocol;	\/* PPP protocol, e.g. PPP_IP *\/$/;"	m	struct:npioctl	access:public
+ptr	/usr/include/net/if_ppp.h	/^	u_int8_t  *ptr;$/;"	m	struct:ppp_option_data	access:public
+req	/usr/include/net/if_arp.h	/^    unsigned short int req;		\/* Request type.  *\/$/;"	m	struct:arpd_request	access:public
+rt_class	/usr/include/net/route.h	/^    unsigned char rt_class;$/;"	m	struct:rtentry	access:public
+rt_dev	/usr/include/net/route.h	/^    char *rt_dev;			\/* Forcing the device at add.  *\/$/;"	m	struct:rtentry	access:public
+rt_dst	/usr/include/net/route.h	/^    struct sockaddr rt_dst;		\/* Target address.  *\/$/;"	m	struct:rtentry	typeref:struct:rtentry::sockaddr	access:public
+rt_flags	/usr/include/net/route.h	/^    unsigned short int rt_flags;$/;"	m	struct:rtentry	access:public
+rt_gateway	/usr/include/net/route.h	/^    struct sockaddr rt_gateway;		\/* Gateway addr (RTF_GATEWAY).  *\/$/;"	m	struct:rtentry	typeref:struct:rtentry::sockaddr	access:public
+rt_genmask	/usr/include/net/route.h	/^    struct sockaddr rt_genmask;		\/* Target network mask (IP).  *\/$/;"	m	struct:rtentry	typeref:struct:rtentry::sockaddr	access:public
+rt_irtt	/usr/include/net/route.h	/^    unsigned short int rt_irtt;		\/* Initial RTT.  *\/$/;"	m	struct:rtentry	access:public
+rt_metric	/usr/include/net/route.h	/^    short int rt_metric;		\/* +1 for binary compatibility!  *\/$/;"	m	struct:rtentry	access:public
+rt_mss	/usr/include/net/route.h	55;"	d
+rt_mtu	/usr/include/net/route.h	/^    unsigned long int rt_mtu;		\/* Per route MTU\/Window.  *\/$/;"	m	struct:rtentry	access:public
+rt_pad1	/usr/include/net/route.h	/^    unsigned long int rt_pad1;$/;"	m	struct:rtentry	access:public
+rt_pad2	/usr/include/net/route.h	/^    short int rt_pad2;$/;"	m	struct:rtentry	access:public
+rt_pad3	/usr/include/net/route.h	/^    unsigned long int rt_pad3;$/;"	m	struct:rtentry	access:public
+rt_pad4	/usr/include/net/route.h	/^    short int rt_pad4;$/;"	m	struct:rtentry	access:public
+rt_pad4	/usr/include/net/route.h	/^    short int rt_pad4[3];$/;"	m	struct:rtentry	access:public
+rt_tos	/usr/include/net/route.h	/^    unsigned char rt_tos;$/;"	m	struct:rtentry	access:public
+rt_window	/usr/include/net/route.h	/^    unsigned long int rt_window;	\/* Window clamping.  *\/$/;"	m	struct:rtentry	access:public
+rtentry	/usr/include/net/route.h	/^struct rtentry$/;"	s
+rtentry::rt_class	/usr/include/net/route.h	/^    unsigned char rt_class;$/;"	m	struct:rtentry	access:public
+rtentry::rt_dev	/usr/include/net/route.h	/^    char *rt_dev;			\/* Forcing the device at add.  *\/$/;"	m	struct:rtentry	access:public
+rtentry::rt_dst	/usr/include/net/route.h	/^    struct sockaddr rt_dst;		\/* Target address.  *\/$/;"	m	struct:rtentry	typeref:struct:rtentry::sockaddr	access:public
+rtentry::rt_flags	/usr/include/net/route.h	/^    unsigned short int rt_flags;$/;"	m	struct:rtentry	access:public
+rtentry::rt_gateway	/usr/include/net/route.h	/^    struct sockaddr rt_gateway;		\/* Gateway addr (RTF_GATEWAY).  *\/$/;"	m	struct:rtentry	typeref:struct:rtentry::sockaddr	access:public
+rtentry::rt_genmask	/usr/include/net/route.h	/^    struct sockaddr rt_genmask;		\/* Target network mask (IP).  *\/$/;"	m	struct:rtentry	typeref:struct:rtentry::sockaddr	access:public
+rtentry::rt_irtt	/usr/include/net/route.h	/^    unsigned short int rt_irtt;		\/* Initial RTT.  *\/$/;"	m	struct:rtentry	access:public
+rtentry::rt_metric	/usr/include/net/route.h	/^    short int rt_metric;		\/* +1 for binary compatibility!  *\/$/;"	m	struct:rtentry	access:public
+rtentry::rt_mtu	/usr/include/net/route.h	/^    unsigned long int rt_mtu;		\/* Per route MTU\/Window.  *\/$/;"	m	struct:rtentry	access:public
+rtentry::rt_pad1	/usr/include/net/route.h	/^    unsigned long int rt_pad1;$/;"	m	struct:rtentry	access:public
+rtentry::rt_pad2	/usr/include/net/route.h	/^    short int rt_pad2;$/;"	m	struct:rtentry	access:public
+rtentry::rt_pad3	/usr/include/net/route.h	/^    unsigned long int rt_pad3;$/;"	m	struct:rtentry	access:public
+rtentry::rt_pad4	/usr/include/net/route.h	/^    short int rt_pad4;$/;"	m	struct:rtentry	access:public
+rtentry::rt_pad4	/usr/include/net/route.h	/^    short int rt_pad4[3];$/;"	m	struct:rtentry	access:public
+rtentry::rt_tos	/usr/include/net/route.h	/^    unsigned char rt_tos;$/;"	m	struct:rtentry	access:public
+rtentry::rt_window	/usr/include/net/route.h	/^    unsigned long int rt_window;	\/* Window clamping.  *\/$/;"	m	struct:rtentry	access:public
+rtmsg_dst	/usr/include/net/route.h	/^    struct in6_addr rtmsg_dst;$/;"	m	struct:in6_rtmsg	typeref:struct:in6_rtmsg::in6_addr	access:public
+rtmsg_dst_len	/usr/include/net/route.h	/^    u_int16_t rtmsg_dst_len;$/;"	m	struct:in6_rtmsg	access:public
+rtmsg_flags	/usr/include/net/route.h	/^    u_int32_t rtmsg_flags;$/;"	m	struct:in6_rtmsg	access:public
+rtmsg_gateway	/usr/include/net/route.h	/^    struct in6_addr rtmsg_gateway;$/;"	m	struct:in6_rtmsg	typeref:struct:in6_rtmsg::in6_addr	access:public
+rtmsg_ifindex	/usr/include/net/route.h	/^    int rtmsg_ifindex;$/;"	m	struct:in6_rtmsg	access:public
+rtmsg_info	/usr/include/net/route.h	/^    unsigned long int rtmsg_info;$/;"	m	struct:in6_rtmsg	access:public
+rtmsg_metric	/usr/include/net/route.h	/^    u_int32_t rtmsg_metric;$/;"	m	struct:in6_rtmsg	access:public
+rtmsg_src	/usr/include/net/route.h	/^    struct in6_addr rtmsg_src;$/;"	m	struct:in6_rtmsg	typeref:struct:in6_rtmsg::in6_addr	access:public
+rtmsg_src_len	/usr/include/net/route.h	/^    u_int16_t rtmsg_src_len;$/;"	m	struct:in6_rtmsg	access:public
+rtmsg_type	/usr/include/net/route.h	/^    u_int32_t rtmsg_type;$/;"	m	struct:in6_rtmsg	access:public
+shaperconf	/usr/include/net/if_shaper.h	/^struct shaperconf$/;"	s
+shaperconf::__anon6::ssu_name	/usr/include/net/if_shaper.h	/^    char ssu_name[14];$/;"	m	union:shaperconf::__anon6	access:public
+shaperconf::__anon6::ssu_speed	/usr/include/net/if_shaper.h	/^    u_int32_t ssu_speed;$/;"	m	union:shaperconf::__anon6	access:public
+shaperconf::ss_cmd	/usr/include/net/if_shaper.h	/^  u_int16_t ss_cmd;$/;"	m	struct:shaperconf	access:public
+shaperconf::ss_u	/usr/include/net/if_shaper.h	/^  } ss_u;$/;"	m	struct:shaperconf	typeref:union:shaperconf::__anon6	access:public
+sockaddr_pkt	/usr/include/net/if_packet.h	/^struct sockaddr_pkt$/;"	s
+sockaddr_pkt::__SOCKADDR_COMMON	/usr/include/net/if_packet.h	/^    __SOCKADDR_COMMON (spkt_);$/;"	p	struct:sockaddr_pkt	access:public	signature:(spkt_)
+sockaddr_pkt::spkt_device	/usr/include/net/if_packet.h	/^    unsigned char spkt_device[14];$/;"	m	struct:sockaddr_pkt	access:public
+sockaddr_pkt::spkt_protocol	/usr/include/net/if_packet.h	/^    unsigned short spkt_protocol;$/;"	m	struct:sockaddr_pkt	access:public
+spkt_device	/usr/include/net/if_packet.h	/^    unsigned char spkt_device[14];$/;"	m	struct:sockaddr_pkt	access:public
+spkt_protocol	/usr/include/net/if_packet.h	/^    unsigned short spkt_protocol;$/;"	m	struct:sockaddr_pkt	access:public
+ss_cmd	/usr/include/net/if_shaper.h	/^  u_int16_t ss_cmd;$/;"	m	struct:shaperconf	access:public
+ss_name	/usr/include/net/if_shaper.h	54;"	d
+ss_speed	/usr/include/net/if_shaper.h	53;"	d
+ss_u	/usr/include/net/if_shaper.h	/^  } ss_u;$/;"	m	struct:shaperconf	typeref:union:shaperconf::__anon6	access:public
+ssu_name	/usr/include/net/if_shaper.h	/^    char ssu_name[14];$/;"	m	union:shaperconf::__anon6	access:public
+ssu_speed	/usr/include/net/if_shaper.h	/^    u_int32_t ssu_speed;$/;"	m	union:shaperconf::__anon6	access:public
+stamp	/usr/include/net/if_arp.h	/^    unsigned long int stamp;$/;"	m	struct:arpd_request	access:public
+stats	/usr/include/net/if_ppp.h	/^  struct ppp_comp_stats stats;$/;"	m	struct:ifpppcstatsreq	typeref:struct:ifpppcstatsreq::ppp_comp_stats	access:public
+stats	/usr/include/net/if_ppp.h	/^  struct ppp_stats stats;			\/* statistic information *\/$/;"	m	struct:ifpppstatsreq	typeref:struct:ifpppstatsreq::ppp_stats	access:public
+stats_ptr	/usr/include/net/if_ppp.h	133;"	d
+transmit	/usr/include/net/if_ppp.h	/^	int	  transmit;$/;"	m	struct:ppp_option_data	access:public
+updated	/usr/include/net/if_arp.h	/^    unsigned long int updated;$/;"	m	struct:arpd_request	access:public

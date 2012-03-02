@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AT_EACCESS	/usr/include/fcntl.h	116;"	d
+AT_EMPTY_PATH	/usr/include/fcntl.h	115;"	d
+AT_FDCWD	/usr/include/fcntl.h	106;"	d
+AT_NO_AUTOMOUNT	/usr/include/fcntl.h	113;"	d
+AT_REMOVEDIR	/usr/include/fcntl.h	110;"	d
+AT_SYMLINK_FOLLOW	/usr/include/fcntl.h	112;"	d
+AT_SYMLINK_NOFOLLOW	/usr/include/fcntl.h	109;"	d
+F_LOCK	/usr/include/fcntl.h	204;"	d
+F_OK	/usr/include/fcntl.h	94;"	d
+F_TEST	/usr/include/fcntl.h	206;"	d
+F_TLOCK	/usr/include/fcntl.h	205;"	d
+F_ULOCK	/usr/include/fcntl.h	203;"	d
+R_OK	/usr/include/fcntl.h	91;"	d
+SEEK_CUR	/usr/include/fcntl.h	101;"	d
+SEEK_END	/usr/include/fcntl.h	102;"	d
+SEEK_SET	/usr/include/fcntl.h	100;"	d
+S_IFBLK	/usr/include/fcntl.h	46;"	d
+S_IFCHR	/usr/include/fcntl.h	45;"	d
+S_IFDIR	/usr/include/fcntl.h	44;"	d
+S_IFIFO	/usr/include/fcntl.h	49;"	d
+S_IFLNK	/usr/include/fcntl.h	52;"	d
+S_IFMT	/usr/include/fcntl.h	43;"	d
+S_IFREG	/usr/include/fcntl.h	47;"	d
+S_IFSOCK	/usr/include/fcntl.h	55;"	d
+S_IRGRP	/usr/include/fcntl.h	74;"	d
+S_IROTH	/usr/include/fcntl.h	80;"	d
+S_IRUSR	/usr/include/fcntl.h	68;"	d
+S_IRWXG	/usr/include/fcntl.h	78;"	d
+S_IRWXO	/usr/include/fcntl.h	84;"	d
+S_IRWXU	/usr/include/fcntl.h	72;"	d
+S_ISGID	/usr/include/fcntl.h	61;"	d
+S_ISUID	/usr/include/fcntl.h	60;"	d
+S_ISVTX	/usr/include/fcntl.h	65;"	d
+S_IWGRP	/usr/include/fcntl.h	75;"	d
+S_IWOTH	/usr/include/fcntl.h	81;"	d
+S_IWUSR	/usr/include/fcntl.h	69;"	d
+S_IXGRP	/usr/include/fcntl.h	76;"	d
+S_IXOTH	/usr/include/fcntl.h	82;"	d
+S_IXUSR	/usr/include/fcntl.h	70;"	d
+W_OK	/usr/include/fcntl.h	92;"	d
+X_OK	/usr/include/fcntl.h	93;"	d
+_FCNTL_H	/usr/include/fcntl.h	25;"	d
+__REDIRECT	/usr/include/fcntl.h	/^extern int __REDIRECT (lockf, (int __fd, int __cmd, __off64_t __len), lockf64);$/;"	p	signature:(lockf, (int __fd, int __cmd, __off64_t __len), lockf64)
+__REDIRECT	/usr/include/fcntl.h	/^extern int __REDIRECT (posix_fallocate, (int __fd, __off64_t __offset,$/;"	p	signature:(posix_fallocate, (int __fd, __off64_t __offset, __off64_t __len), posix_fallocate64)
+__REDIRECT_NTH	/usr/include/fcntl.h	/^extern int __REDIRECT_NTH (posix_fadvise, (int __fd, __off64_t __offset,$/;"	p	signature:(posix_fadvise, (int __fd, __off64_t __offset, __off64_t __len, int __advise), posix_fadvise64)
+__need_timespec	/usr/include/fcntl.h	39;"	d
+creat	/usr/include/fcntl.h	186;"	d
+fcntl	/usr/include/fcntl.h	/^extern int fcntl (int __fd, int __cmd, ...);$/;"	p	signature:(int __fd, int __cmd, ...)
+lockf	/usr/include/fcntl.h	/^extern int lockf (int __fd, int __cmd, __off_t __len);$/;"	p	signature:(int __fd, int __cmd, __off_t __len)
+lockf	/usr/include/fcntl.h	214;"	d
+lockf64	/usr/include/fcntl.h	/^extern int lockf64 (int __fd, int __cmd, __off64_t __len);$/;"	p	signature:(int __fd, int __cmd, __off64_t __len)
+open	/usr/include/fcntl.h	140;"	d
+openat	/usr/include/fcntl.h	165;"	d
+posix_fadvise	/usr/include/fcntl.h	234;"	d
+posix_fallocate	/usr/include/fcntl.h	/^extern int posix_fallocate (int __fd, __off_t __offset, __off_t __len);$/;"	p	signature:(int __fd, __off_t __offset, __off_t __len)
+posix_fallocate	/usr/include/fcntl.h	255;"	d
+posix_fallocate64	/usr/include/fcntl.h	/^extern int posix_fallocate64 (int __fd, __off64_t __offset, __off64_t __len);$/;"	p	signature:(int __fd, __off64_t __offset, __off64_t __len)

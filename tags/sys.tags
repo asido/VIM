@@ -1,0 +1,2417 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCESSPERMS	/usr/include/sys/stat.h	201;"	d
+ACCT_BYTEORDER	/usr/include/sys/acct.h	96;"	d
+ACCT_BYTEORDER	/usr/include/sys/acct.h	98;"	d
+ACCT_COMM	/usr/include/sys/acct.h	31;"	d
+ACL_EXECUTE	/usr/include/sys/acl.h	50;"	d
+ACL_FIRST_ENTRY	/usr/include/sys/acl.h	75;"	d
+ACL_GROUP	/usr/include/sys/acl.h	60;"	d
+ACL_GROUP_OBJ	/usr/include/sys/acl.h	59;"	d
+ACL_MASK	/usr/include/sys/acl.h	61;"	d
+ACL_NEXT_ENTRY	/usr/include/sys/acl.h	76;"	d
+ACL_OTHER	/usr/include/sys/acl.h	62;"	d
+ACL_READ	/usr/include/sys/acl.h	48;"	d
+ACL_TYPE_ACCESS	/usr/include/sys/acl.h	66;"	d
+ACL_TYPE_DEFAULT	/usr/include/sys/acl.h	67;"	d
+ACL_UNDEFINED_ID	/usr/include/sys/acl.h	71;"	d
+ACL_UNDEFINED_TAG	/usr/include/sys/acl.h	56;"	d
+ACL_USER	/usr/include/sys/acl.h	58;"	d
+ACL_USER_OBJ	/usr/include/sys/acl.h	57;"	d
+ACL_WRITE	/usr/include/sys/acl.h	49;"	d
+ACORE	/usr/include/sys/acct.h	/^    ACORE = 0x08,		\/* Dumped core.  *\/$/;"	e	enum:__anon21
+ADDR_COMPAT_LAYOUT	/usr/include/sys/personality.h	/^    ADDR_COMPAT_LAYOUT = 0x0200000,$/;"	e	enum:__anon15
+ADDR_LIMIT_32BIT	/usr/include/sys/personality.h	/^    ADDR_LIMIT_32BIT = 0x0800000,$/;"	e	enum:__anon15
+ADDR_LIMIT_3GB	/usr/include/sys/personality.h	/^    ADDR_LIMIT_3GB = 	0x8000000$/;"	e	enum:__anon15
+ADDR_NO_RANDOMIZE	/usr/include/sys/personality.h	/^    ADDR_NO_RANDOMIZE = 0x0040000,$/;"	e	enum:__anon15
+AFORK	/usr/include/sys/acct.h	/^    AFORK = 0x01,		\/* Has executed fork, but no exec.  *\/$/;"	e	enum:__anon21
+AHZ	/usr/include/sys/acct.h	101;"	d
+ALLPERMS	/usr/include/sys/stat.h	202;"	d
+ARCDENSITY	/usr/include/sys/gmon.h	108;"	d
+ARCINDEX	/usr/include/sys/gmon.h	120;"	d
+ARG_MAX	/usr/include/sys/param.h	33;"	d
+ASU	/usr/include/sys/acct.h	/^    ASU = 0x02,			\/* Used super-user privileges.  *\/$/;"	e	enum:__anon21
+AXSIG	/usr/include/sys/acct.h	/^    AXSIG = 0x10		\/* Killed by a signal.  *\/$/;"	e	enum:__anon21
+BLKBSZGET	/usr/include/sys/mount.h	114;"	d
+BLKBSZSET	/usr/include/sys/mount.h	115;"	d
+BLKFLSBUF	/usr/include/sys/mount.h	106;"	d
+BLKFRAGET	/usr/include/sys/mount.h	110;"	d
+BLKFRASET	/usr/include/sys/mount.h	109;"	d
+BLKGETSIZE	/usr/include/sys/mount.h	105;"	d
+BLKGETSIZE64	/usr/include/sys/mount.h	116;"	d
+BLKRAGET	/usr/include/sys/mount.h	108;"	d
+BLKRASET	/usr/include/sys/mount.h	107;"	d
+BLKROGET	/usr/include/sys/mount.h	103;"	d
+BLKROSET	/usr/include/sys/mount.h	102;"	d
+BLKRRPART	/usr/include/sys/mount.h	104;"	d
+BLKSECTGET	/usr/include/sys/mount.h	112;"	d
+BLKSECTSET	/usr/include/sys/mount.h	111;"	d
+BLKSSZGET	/usr/include/sys/mount.h	113;"	d
+BLOCK_SIZE	/usr/include/sys/mount.h	28;"	d
+BLOCK_SIZE_BITS	/usr/include/sys/mount.h	29;"	d
+CANBSIZ	/usr/include/sys/param.h	44;"	d
+CAP_CLEAR	/usr/include/sys/capability.h	/^    CAP_CLEAR=0,                            \/* The flag is cleared\/disabled *\/$/;"	e	enum:__anon24
+CAP_DIFFERS	/usr/include/sys/capability.h	112;"	d
+CAP_EFFECTIVE	/usr/include/sys/capability.h	/^    CAP_EFFECTIVE=0,                        \/* Specifies the effective flag *\/$/;"	e	enum:__anon23
+CAP_INHERITABLE	/usr/include/sys/capability.h	/^    CAP_INHERITABLE=2                     \/* Specifies the inheritable flag *\/$/;"	e	enum:__anon23
+CAP_IS_SUPPORTED	/usr/include/sys/capability.h	99;"	d
+CAP_PERMITTED	/usr/include/sys/capability.h	/^    CAP_PERMITTED=1,                        \/* Specifies the permitted flag *\/$/;"	e	enum:__anon23
+CAP_SET	/usr/include/sys/capability.h	/^    CAP_SET=1                                    \/* The flag is set\/enabled *\/$/;"	e	enum:__anon24
+CBRK	/usr/include/sys/ttydefaults.h	83;"	d
+CDISCARD	/usr/include/sys/ttydefaults.h	78;"	d
+CDSUSP	/usr/include/sys/ttydefaults.h	74;"	d
+CEOF	/usr/include/sys/ttydefaults.h	56;"	d
+CEOL	/usr/include/sys/ttydefaults.h	58;"	d
+CEOL	/usr/include/sys/ttydefaults.h	60;"	d
+CEOT	/usr/include/sys/ttydefaults.h	81;"	d
+CERASE	/usr/include/sys/ttydefaults.h	62;"	d
+CFLUSH	/usr/include/sys/ttydefaults.h	85;"	d
+CINTR	/usr/include/sys/ttydefaults.h	63;"	d
+CIRCLEQ_EMPTY	/usr/include/sys/queue.h	596;"	d
+CIRCLEQ_ENTRY	/usr/include/sys/queue.h	516;"	d
+CIRCLEQ_FIRST	/usr/include/sys/queue.h	597;"	d
+CIRCLEQ_FOREACH	/usr/include/sys/queue.h	583;"	d
+CIRCLEQ_FOREACH_REVERSE	/usr/include/sys/queue.h	588;"	d
+CIRCLEQ_HEAD	/usr/include/sys/queue.h	507;"	d
+CIRCLEQ_HEAD_INITIALIZER	/usr/include/sys/queue.h	513;"	d
+CIRCLEQ_INIT	/usr/include/sys/queue.h	525;"	d
+CIRCLEQ_INSERT_AFTER	/usr/include/sys/queue.h	530;"	d
+CIRCLEQ_INSERT_BEFORE	/usr/include/sys/queue.h	540;"	d
+CIRCLEQ_INSERT_HEAD	/usr/include/sys/queue.h	550;"	d
+CIRCLEQ_INSERT_TAIL	/usr/include/sys/queue.h	560;"	d
+CIRCLEQ_LAST	/usr/include/sys/queue.h	598;"	d
+CIRCLEQ_LOOP_NEXT	/usr/include/sys/queue.h	602;"	d
+CIRCLEQ_LOOP_PREV	/usr/include/sys/queue.h	606;"	d
+CIRCLEQ_NEXT	/usr/include/sys/queue.h	599;"	d
+CIRCLEQ_PREV	/usr/include/sys/queue.h	600;"	d
+CIRCLEQ_REMOVE	/usr/include/sys/queue.h	570;"	d
+CKILL	/usr/include/sys/ttydefaults.h	69;"	d
+CLNEXT	/usr/include/sys/ttydefaults.h	77;"	d
+CMIN	/usr/include/sys/ttydefaults.h	70;"	d
+CODE	/usr/include/sys/syslog.h	/^} CODE;$/;"	t	typeref:struct:_code
+CQUIT	/usr/include/sys/ttydefaults.h	71;"	d
+CREPRINT	/usr/include/sys/ttydefaults.h	80;"	d
+CRPRNT	/usr/include/sys/ttydefaults.h	84;"	d
+CS	/usr/include/sys/reg.h	45;"	d
+CS	/usr/include/sys/reg.h	73;"	d
+CSTART	/usr/include/sys/ttydefaults.h	75;"	d
+CSTATUS	/usr/include/sys/ttydefaults.h	65;"	d
+CSTATUS	/usr/include/sys/ttydefaults.h	67;"	d
+CSTOP	/usr/include/sys/ttydefaults.h	76;"	d
+CSUSP	/usr/include/sys/ttydefaults.h	72;"	d
+CTIME	/usr/include/sys/ttydefaults.h	73;"	d
+CTRL	/usr/include/sys/ttydefaults.h	55;"	d
+CWERASE	/usr/include/sys/ttydefaults.h	79;"	d
+DEFFILEMODE	/usr/include/sys/stat.h	203;"	d
+DEFTAPE	/usr/include/sys/mtio.h	274;"	d
+DEV_BSIZE	/usr/include/sys/param.h	80;"	d
+DR_CONTROL	/usr/include/sys/debugreg.h	29;"	d
+DR_CONTROL_RESERVED	/usr/include/sys/debugreg.h	81;"	d
+DR_CONTROL_RESERVED	/usr/include/sys/debugreg.h	83;"	d
+DR_CONTROL_SHIFT	/usr/include/sys/debugreg.h	49;"	d
+DR_CONTROL_SIZE	/usr/include/sys/debugreg.h	50;"	d
+DR_ENABLE_SIZE	/usr/include/sys/debugreg.h	70;"	d
+DR_FIRSTADDR	/usr/include/sys/debugreg.h	25;"	d
+DR_GLOBAL_ENABLE_MASK	/usr/include/sys/debugreg.h	73;"	d
+DR_GLOBAL_ENABLE_SHIFT	/usr/include/sys/debugreg.h	69;"	d
+DR_GLOBAL_SLOWDOWN	/usr/include/sys/debugreg.h	86;"	d
+DR_LASTADDR	/usr/include/sys/debugreg.h	26;"	d
+DR_LEN_1	/usr/include/sys/debugreg.h	56;"	d
+DR_LEN_2	/usr/include/sys/debugreg.h	57;"	d
+DR_LEN_4	/usr/include/sys/debugreg.h	58;"	d
+DR_LEN_8	/usr/include/sys/debugreg.h	59;"	d
+DR_LOCAL_ENABLE_MASK	/usr/include/sys/debugreg.h	72;"	d
+DR_LOCAL_ENABLE_SHIFT	/usr/include/sys/debugreg.h	68;"	d
+DR_LOCAL_SLOWDOWN	/usr/include/sys/debugreg.h	85;"	d
+DR_RW_EXECUTE	/usr/include/sys/debugreg.h	52;"	d
+DR_RW_READ	/usr/include/sys/debugreg.h	54;"	d
+DR_RW_WRITE	/usr/include/sys/debugreg.h	53;"	d
+DR_STATUS	/usr/include/sys/debugreg.h	28;"	d
+DR_STEP	/usr/include/sys/debugreg.h	40;"	d
+DR_SWITCH	/usr/include/sys/debugreg.h	41;"	d
+DR_TRAP0	/usr/include/sys/debugreg.h	35;"	d
+DR_TRAP1	/usr/include/sys/debugreg.h	36;"	d
+DR_TRAP2	/usr/include/sys/debugreg.h	37;"	d
+DR_TRAP3	/usr/include/sys/debugreg.h	38;"	d
+DS	/usr/include/sys/reg.h	51;"	d
+DS	/usr/include/sys/reg.h	67;"	d
+EAX	/usr/include/sys/reg.h	66;"	d
+EBP	/usr/include/sys/reg.h	65;"	d
+EBX	/usr/include/sys/reg.h	60;"	d
+ECX	/usr/include/sys/reg.h	61;"	d
+EDI	/usr/include/sys/reg.h	64;"	d
+EDX	/usr/include/sys/reg.h	62;"	d
+EFD_CLOEXEC	/usr/include/sys/eventfd.h	/^    EFD_CLOEXEC = 02000000,$/;"	e	enum:__anon9
+EFD_CLOEXEC	/usr/include/sys/eventfd.h	34;"	d
+EFD_NONBLOCK	/usr/include/sys/eventfd.h	/^    EFD_NONBLOCK = 04000$/;"	e	enum:__anon9
+EFD_NONBLOCK	/usr/include/sys/eventfd.h	36;"	d
+EFD_SEMAPHORE	/usr/include/sys/eventfd.h	/^    EFD_SEMAPHORE = 1,$/;"	e	enum:__anon9
+EFD_SEMAPHORE	/usr/include/sys/eventfd.h	32;"	d
+EFL	/usr/include/sys/reg.h	74;"	d
+EFLAGS	/usr/include/sys/reg.h	46;"	d
+EIP	/usr/include/sys/reg.h	72;"	d
+ELF_NGREG	/usr/include/sys/procfs.h	45;"	d
+ELF_PRARGSZ	/usr/include/sys/procfs.h	98;"	d
+EPOLLERR	/usr/include/sys/epoll.h	/^    EPOLLERR = 0x008,$/;"	e	enum:EPOLL_EVENTS
+EPOLLERR	/usr/include/sys/epoll.h	63;"	d
+EPOLLET	/usr/include/sys/epoll.h	/^    EPOLLET = (1 << 31)$/;"	e	enum:EPOLL_EVENTS
+EPOLLET	/usr/include/sys/epoll.h	71;"	d
+EPOLLHUP	/usr/include/sys/epoll.h	/^    EPOLLHUP = 0x010,$/;"	e	enum:EPOLL_EVENTS
+EPOLLHUP	/usr/include/sys/epoll.h	65;"	d
+EPOLLIN	/usr/include/sys/epoll.h	/^    EPOLLIN = 0x001,$/;"	e	enum:EPOLL_EVENTS
+EPOLLIN	/usr/include/sys/epoll.h	47;"	d
+EPOLLMSG	/usr/include/sys/epoll.h	/^    EPOLLMSG = 0x400,$/;"	e	enum:EPOLL_EVENTS
+EPOLLMSG	/usr/include/sys/epoll.h	61;"	d
+EPOLLONESHOT	/usr/include/sys/epoll.h	/^    EPOLLONESHOT = (1 << 30),$/;"	e	enum:EPOLL_EVENTS
+EPOLLONESHOT	/usr/include/sys/epoll.h	69;"	d
+EPOLLOUT	/usr/include/sys/epoll.h	/^    EPOLLOUT = 0x004,$/;"	e	enum:EPOLL_EVENTS
+EPOLLOUT	/usr/include/sys/epoll.h	51;"	d
+EPOLLPRI	/usr/include/sys/epoll.h	/^    EPOLLPRI = 0x002,$/;"	e	enum:EPOLL_EVENTS
+EPOLLPRI	/usr/include/sys/epoll.h	49;"	d
+EPOLLRDBAND	/usr/include/sys/epoll.h	/^    EPOLLRDBAND = 0x080,$/;"	e	enum:EPOLL_EVENTS
+EPOLLRDBAND	/usr/include/sys/epoll.h	55;"	d
+EPOLLRDHUP	/usr/include/sys/epoll.h	/^    EPOLLRDHUP = 0x2000,$/;"	e	enum:EPOLL_EVENTS
+EPOLLRDHUP	/usr/include/sys/epoll.h	67;"	d
+EPOLLRDNORM	/usr/include/sys/epoll.h	/^    EPOLLRDNORM = 0x040,$/;"	e	enum:EPOLL_EVENTS
+EPOLLRDNORM	/usr/include/sys/epoll.h	53;"	d
+EPOLLWRBAND	/usr/include/sys/epoll.h	/^    EPOLLWRBAND = 0x200,$/;"	e	enum:EPOLL_EVENTS
+EPOLLWRBAND	/usr/include/sys/epoll.h	59;"	d
+EPOLLWRNORM	/usr/include/sys/epoll.h	/^    EPOLLWRNORM = 0x100,$/;"	e	enum:EPOLL_EVENTS
+EPOLLWRNORM	/usr/include/sys/epoll.h	57;"	d
+EPOLL_CLOEXEC	/usr/include/sys/epoll.h	/^    EPOLL_CLOEXEC = 02000000,$/;"	e	enum:__anon14
+EPOLL_CLOEXEC	/usr/include/sys/epoll.h	38;"	d
+EPOLL_CTL_ADD	/usr/include/sys/epoll.h	76;"	d
+EPOLL_CTL_DEL	/usr/include/sys/epoll.h	77;"	d
+EPOLL_CTL_MOD	/usr/include/sys/epoll.h	78;"	d
+EPOLL_EVENTS	/usr/include/sys/epoll.h	/^enum EPOLL_EVENTS$/;"	g
+EPOLL_NONBLOCK	/usr/include/sys/epoll.h	/^    EPOLL_NONBLOCK = 04000$/;"	e	enum:__anon14
+EPOLL_NONBLOCK	/usr/include/sys/epoll.h	40;"	d
+ES	/usr/include/sys/reg.h	52;"	d
+ES	/usr/include/sys/reg.h	68;"	d
+ESI	/usr/include/sys/reg.h	63;"	d
+FD_CLR	/usr/include/sys/select.h	94;"	d
+FD_ISSET	/usr/include/sys/select.h	95;"	d
+FD_SET	/usr/include/sys/select.h	93;"	d
+FD_SETSIZE	/usr/include/sys/select.h	81;"	d
+FD_ZERO	/usr/include/sys/select.h	96;"	d
+FS	/usr/include/sys/reg.h	53;"	d
+FS	/usr/include/sys/reg.h	69;"	d
+FS_BASE	/usr/include/sys/reg.h	49;"	d
+GMON_MAGIC	/usr/include/sys/gmon_out.h	33;"	d
+GMON_PROF_BUSY	/usr/include/sys/gmon.h	177;"	d
+GMON_PROF_ERROR	/usr/include/sys/gmon.h	178;"	d
+GMON_PROF_OFF	/usr/include/sys/gmon.h	179;"	d
+GMON_PROF_ON	/usr/include/sys/gmon.h	176;"	d
+GMON_Record_Tag	/usr/include/sys/gmon_out.h	/^  } GMON_Record_Tag;$/;"	t	typeref:enum:__anon22
+GMON_SHOBJ_VERSION	/usr/include/sys/gmon_out.h	37;"	d
+GMON_TAG_BB_COUNT	/usr/include/sys/gmon_out.h	/^    GMON_TAG_BB_COUNT = 2$/;"	e	enum:__anon22
+GMON_TAG_CG_ARC	/usr/include/sys/gmon_out.h	/^    GMON_TAG_CG_ARC = 1,$/;"	e	enum:__anon22
+GMON_TAG_TIME_HIST	/usr/include/sys/gmon_out.h	/^    GMON_TAG_TIME_HIST = 0,$/;"	e	enum:__anon22
+GMON_VERSION	/usr/include/sys/gmon_out.h	34;"	d
+GMT_BOT	/usr/include/sys/mtio.h	213;"	d
+GMT_DR_OPEN	/usr/include/sys/mtio.h	225;"	d
+GMT_D_1600	/usr/include/sys/mtio.h	221;"	d
+GMT_D_6250	/usr/include/sys/mtio.h	220;"	d
+GMT_D_800	/usr/include/sys/mtio.h	222;"	d
+GMT_EOD	/usr/include/sys/mtio.h	216;"	d
+GMT_EOF	/usr/include/sys/mtio.h	212;"	d
+GMT_EOT	/usr/include/sys/mtio.h	214;"	d
+GMT_IM_REP_EN	/usr/include/sys/mtio.h	227;"	d
+GMT_ONLINE	/usr/include/sys/mtio.h	219;"	d
+GMT_SM	/usr/include/sys/mtio.h	215;"	d
+GMT_WR_PROT	/usr/include/sys/mtio.h	217;"	d
+GPROF_COUNT	/usr/include/sys/gmon.h	185;"	d
+GPROF_FROMS	/usr/include/sys/gmon.h	186;"	d
+GPROF_GMONPARAM	/usr/include/sys/gmon.h	188;"	d
+GPROF_STATE	/usr/include/sys/gmon.h	184;"	d
+GPROF_TOS	/usr/include/sys/gmon.h	187;"	d
+GRPQUOTA	/usr/include/sys/quota.h	76;"	d
+GS	/usr/include/sys/reg.h	54;"	d
+GS	/usr/include/sys/reg.h	70;"	d
+GS_BASE	/usr/include/sys/reg.h	50;"	d
+HASHFRACTION	/usr/include/sys/gmon.h	96;"	d
+HISTCOUNTER	/usr/include/sys/gmon.h	61;"	d
+HISTFRACTION	/usr/include/sys/gmon.h	66;"	d
+HOST_STACK_END_ADDR	/usr/include/sys/user.h	173;"	d
+HOST_TEXT_START_ADDR	/usr/include/sys/user.h	172;"	d
+IIF_ALL	/usr/include/sys/quota.h	207;"	d
+IIF_BGRACE	/usr/include/sys/quota.h	204;"	d
+IIF_FLAGS	/usr/include/sys/quota.h	206;"	d
+IIF_IGRACE	/usr/include/sys/quota.h	205;"	d
+INFINITY	/usr/include/sys/vlimit.h	58;"	d
+INITQFNAMES	/usr/include/sys/quota.h	81;"	d
+INTERNAL_MARK	/usr/include/sys/syslog.h	68;"	d
+INTERNAL_NOPRI	/usr/include/sys/syslog.h	66;"	d
+IN_ACCESS	/usr/include/sys/inotify.h	47;"	d
+IN_ALL_EVENTS	/usr/include/sys/inotify.h	83;"	d
+IN_ATTRIB	/usr/include/sys/inotify.h	49;"	d
+IN_CLOEXEC	/usr/include/sys/inotify.h	/^    IN_CLOEXEC = 02000000,$/;"	e	enum:__anon25
+IN_CLOEXEC	/usr/include/sys/inotify.h	29;"	d
+IN_CLOSE	/usr/include/sys/inotify.h	52;"	d
+IN_CLOSE	/usr/include/sys/inotify.h	68;"	d
+IN_CLOSE_NOWRITE	/usr/include/sys/inotify.h	51;"	d
+IN_CLOSE_WRITE	/usr/include/sys/inotify.h	50;"	d
+IN_CREATE	/usr/include/sys/inotify.h	57;"	d
+IN_DELETE	/usr/include/sys/inotify.h	58;"	d
+IN_DELETE_SELF	/usr/include/sys/inotify.h	59;"	d
+IN_DONT_FOLLOW	/usr/include/sys/inotify.h	74;"	d
+IN_EXCL_UNLINK	/usr/include/sys/inotify.h	75;"	d
+IN_IGNORED	/usr/include/sys/inotify.h	65;"	d
+IN_ISDIR	/usr/include/sys/inotify.h	79;"	d
+IN_MASK_ADD	/usr/include/sys/inotify.h	77;"	d
+IN_MODIFY	/usr/include/sys/inotify.h	48;"	d
+IN_MOVE	/usr/include/sys/inotify.h	56;"	d
+IN_MOVE	/usr/include/sys/inotify.h	69;"	d
+IN_MOVED_FROM	/usr/include/sys/inotify.h	54;"	d
+IN_MOVED_TO	/usr/include/sys/inotify.h	55;"	d
+IN_MOVE_SELF	/usr/include/sys/inotify.h	60;"	d
+IN_NONBLOCK	/usr/include/sys/inotify.h	/^    IN_NONBLOCK = 04000$/;"	e	enum:__anon25
+IN_NONBLOCK	/usr/include/sys/inotify.h	31;"	d
+IN_ONESHOT	/usr/include/sys/inotify.h	80;"	d
+IN_ONLYDIR	/usr/include/sys/inotify.h	72;"	d
+IN_OPEN	/usr/include/sys/inotify.h	53;"	d
+IN_Q_OVERFLOW	/usr/include/sys/inotify.h	64;"	d
+IN_UNMOUNT	/usr/include/sys/inotify.h	63;"	d
+ITIMER_PROF	/usr/include/sys/time.h	/^    ITIMER_PROF = 2$/;"	e	enum:__itimer_which
+ITIMER_PROF	/usr/include/sys/time.h	104;"	d
+ITIMER_REAL	/usr/include/sys/time.h	/^    ITIMER_REAL = 0,$/;"	e	enum:__itimer_which
+ITIMER_REAL	/usr/include/sys/time.h	97;"	d
+ITIMER_VIRTUAL	/usr/include/sys/time.h	/^    ITIMER_VIRTUAL = 1,$/;"	e	enum:__itimer_which
+ITIMER_VIRTUAL	/usr/include/sys/time.h	100;"	d
+LIM_CORE	/usr/include/sys/vlimit.h	/^  LIM_CORE,$/;"	e	enum:__vlimit_resource
+LIM_CPU	/usr/include/sys/vlimit.h	/^  LIM_CPU,$/;"	e	enum:__vlimit_resource
+LIM_DATA	/usr/include/sys/vlimit.h	/^  LIM_DATA,$/;"	e	enum:__vlimit_resource
+LIM_FSIZE	/usr/include/sys/vlimit.h	/^  LIM_FSIZE,$/;"	e	enum:__vlimit_resource
+LIM_MAXRSS	/usr/include/sys/vlimit.h	/^  LIM_MAXRSS$/;"	e	enum:__vlimit_resource
+LIM_NORAISE	/usr/include/sys/vlimit.h	/^  LIM_NORAISE,$/;"	e	enum:__vlimit_resource
+LIM_STACK	/usr/include/sys/vlimit.h	/^  LIM_STACK,$/;"	e	enum:__vlimit_resource
+LIST_EMPTY	/usr/include/sys/queue.h	147;"	d
+LIST_ENTRY	/usr/include/sys/queue.h	92;"	d
+LIST_FIRST	/usr/include/sys/queue.h	148;"	d
+LIST_FOREACH	/usr/include/sys/queue.h	134;"	d
+LIST_FOREACH_SAFE	/usr/include/sys/queue.h	139;"	d
+LIST_HEAD	/usr/include/sys/queue.h	84;"	d
+LIST_HEAD_INITIALIZER	/usr/include/sys/queue.h	89;"	d
+LIST_INIT	/usr/include/sys/queue.h	101;"	d
+LIST_INSERT_AFTER	/usr/include/sys/queue.h	105;"	d
+LIST_INSERT_BEFORE	/usr/include/sys/queue.h	113;"	d
+LIST_INSERT_HEAD	/usr/include/sys/queue.h	120;"	d
+LIST_NEXT	/usr/include/sys/queue.h	149;"	d
+LIST_REMOVE	/usr/include/sys/queue.h	127;"	d
+LOCK_EX	/usr/include/sys/file.h	42;"	d
+LOCK_NB	/usr/include/sys/file.h	46;"	d
+LOCK_SH	/usr/include/sys/file.h	41;"	d
+LOCK_UN	/usr/include/sys/file.h	43;"	d
+LOG_ALERT	/usr/include/sys/syslog.h	52;"	d
+LOG_AUTH	/usr/include/sys/syslog.h	97;"	d
+LOG_AUTHPRIV	/usr/include/sys/syslog.h	103;"	d
+LOG_CONS	/usr/include/sys/syslog.h	163;"	d
+LOG_CRIT	/usr/include/sys/syslog.h	53;"	d
+LOG_CRON	/usr/include/sys/syslog.h	102;"	d
+LOG_DAEMON	/usr/include/sys/syslog.h	96;"	d
+LOG_DEBUG	/usr/include/sys/syslog.h	58;"	d
+LOG_EMERG	/usr/include/sys/syslog.h	51;"	d
+LOG_ERR	/usr/include/sys/syslog.h	54;"	d
+LOG_FAC	/usr/include/sys/syslog.h	119;"	d
+LOG_FACMASK	/usr/include/sys/syslog.h	117;"	d
+LOG_FTP	/usr/include/sys/syslog.h	104;"	d
+LOG_INFO	/usr/include/sys/syslog.h	57;"	d
+LOG_KERN	/usr/include/sys/syslog.h	93;"	d
+LOG_LOCAL0	/usr/include/sys/syslog.h	107;"	d
+LOG_LOCAL1	/usr/include/sys/syslog.h	108;"	d
+LOG_LOCAL2	/usr/include/sys/syslog.h	109;"	d
+LOG_LOCAL3	/usr/include/sys/syslog.h	110;"	d
+LOG_LOCAL4	/usr/include/sys/syslog.h	111;"	d
+LOG_LOCAL5	/usr/include/sys/syslog.h	112;"	d
+LOG_LOCAL6	/usr/include/sys/syslog.h	113;"	d
+LOG_LOCAL7	/usr/include/sys/syslog.h	114;"	d
+LOG_LPR	/usr/include/sys/syslog.h	99;"	d
+LOG_MAIL	/usr/include/sys/syslog.h	95;"	d
+LOG_MAKEPRI	/usr/include/sys/syslog.h	63;"	d
+LOG_MASK	/usr/include/sys/syslog.h	153;"	d
+LOG_NDELAY	/usr/include/sys/syslog.h	165;"	d
+LOG_NEWS	/usr/include/sys/syslog.h	100;"	d
+LOG_NFACILITIES	/usr/include/sys/syslog.h	116;"	d
+LOG_NOTICE	/usr/include/sys/syslog.h	56;"	d
+LOG_NOWAIT	/usr/include/sys/syslog.h	166;"	d
+LOG_ODELAY	/usr/include/sys/syslog.h	164;"	d
+LOG_PERROR	/usr/include/sys/syslog.h	167;"	d
+LOG_PID	/usr/include/sys/syslog.h	162;"	d
+LOG_PRI	/usr/include/sys/syslog.h	62;"	d
+LOG_PRIMASK	/usr/include/sys/syslog.h	60;"	d
+LOG_SYSLOG	/usr/include/sys/syslog.h	98;"	d
+LOG_UPTO	/usr/include/sys/syslog.h	154;"	d
+LOG_USER	/usr/include/sys/syslog.h	94;"	d
+LOG_UUCP	/usr/include/sys/syslog.h	101;"	d
+LOG_WARNING	/usr/include/sys/syslog.h	55;"	d
+L_INCR	/usr/include/sys/file.h	35;"	d
+L_SET	/usr/include/sys/file.h	34;"	d
+L_XTND	/usr/include/sys/file.h	36;"	d
+MAP_FAILED	/usr/include/sys/mman.h	45;"	d
+MAX	/usr/include/sys/param.h	76;"	d
+MAXARCS	/usr/include/sys/gmon.h	130;"	d
+MAXPATHLEN	/usr/include/sys/param.h	45;"	d
+MAXQUOTAS	/usr/include/sys/quota.h	74;"	d
+MAXSYMLINKS	/usr/include/sys/param.h	43;"	d
+MAXTC	/usr/include/sys/timex.h	54;"	d
+MAX_DQ_TIME	/usr/include/sys/quota.h	72;"	d
+MAX_IQ_TIME	/usr/include/sys/quota.h	71;"	d
+MIN	/usr/include/sys/param.h	75;"	d
+MINARCS	/usr/include/sys/gmon.h	115;"	d
+MMAP_PAGE_ZERO	/usr/include/sys/personality.h	/^    MMAP_PAGE_ZERO = 0x0100000,$/;"	e	enum:__anon15
+MNT_DETACH	/usr/include/sys/mount.h	/^  MNT_DETACH = 2,		\/* Just detach from the tree.  *\/$/;"	e	enum:__anon13
+MNT_DETACH	/usr/include/sys/mount.h	125;"	d
+MNT_EXPIRE	/usr/include/sys/mount.h	/^  MNT_EXPIRE = 4,		\/* Mark for expiry.  *\/$/;"	e	enum:__anon13
+MNT_EXPIRE	/usr/include/sys/mount.h	127;"	d
+MNT_FORCE	/usr/include/sys/mount.h	/^  MNT_FORCE = 1,		\/* Force unmounting.  *\/$/;"	e	enum:__anon13
+MNT_FORCE	/usr/include/sys/mount.h	123;"	d
+MS_ACTIVE	/usr/include/sys/mount.h	/^  MS_ACTIVE = 1 << 30,$/;"	e	enum:__anon12
+MS_ACTIVE	/usr/include/sys/mount.h	83;"	d
+MS_BIND	/usr/include/sys/mount.h	/^  MS_BIND = 4096,		\/* Bind directory at different place.  *\/$/;"	e	enum:__anon12
+MS_BIND	/usr/include/sys/mount.h	57;"	d
+MS_DIRSYNC	/usr/include/sys/mount.h	/^  MS_DIRSYNC = 128,		\/* Directory modifications are synchronous.  *\/$/;"	e	enum:__anon12
+MS_DIRSYNC	/usr/include/sys/mount.h	51;"	d
+MS_I_VERSION	/usr/include/sys/mount.h	/^  MS_I_VERSION =  1 << 23,	\/* Update inode I_version field.  *\/$/;"	e	enum:__anon12
+MS_I_VERSION	/usr/include/sys/mount.h	79;"	d
+MS_KERNMOUNT	/usr/include/sys/mount.h	/^  MS_KERNMOUNT = 1 << 22,	\/* This is a kern_mount call.  *\/$/;"	e	enum:__anon12
+MS_KERNMOUNT	/usr/include/sys/mount.h	77;"	d
+MS_MANDLOCK	/usr/include/sys/mount.h	/^  MS_MANDLOCK = 64,		\/* Allow mandatory locks on an FS.  *\/$/;"	e	enum:__anon12
+MS_MANDLOCK	/usr/include/sys/mount.h	49;"	d
+MS_MGC_MSK	/usr/include/sys/mount.h	95;"	d
+MS_MGC_VAL	/usr/include/sys/mount.h	94;"	d
+MS_MOVE	/usr/include/sys/mount.h	/^  MS_MOVE = 8192,$/;"	e	enum:__anon12
+MS_MOVE	/usr/include/sys/mount.h	59;"	d
+MS_NOATIME	/usr/include/sys/mount.h	/^  MS_NOATIME = 1024,		\/* Do not update access times.  *\/$/;"	e	enum:__anon12
+MS_NOATIME	/usr/include/sys/mount.h	53;"	d
+MS_NODEV	/usr/include/sys/mount.h	/^  MS_NODEV = 4,			\/* Disallow access to device special files.  *\/$/;"	e	enum:__anon12
+MS_NODEV	/usr/include/sys/mount.h	41;"	d
+MS_NODIRATIME	/usr/include/sys/mount.h	/^  MS_NODIRATIME = 2048,		\/* Do not update directory access times.  *\/$/;"	e	enum:__anon12
+MS_NODIRATIME	/usr/include/sys/mount.h	55;"	d
+MS_NOEXEC	/usr/include/sys/mount.h	/^  MS_NOEXEC = 8,		\/* Disallow program execution.  *\/$/;"	e	enum:__anon12
+MS_NOEXEC	/usr/include/sys/mount.h	43;"	d
+MS_NOSUID	/usr/include/sys/mount.h	/^  MS_NOSUID = 2,		\/* Ignore suid and sgid bits.  *\/$/;"	e	enum:__anon12
+MS_NOSUID	/usr/include/sys/mount.h	39;"	d
+MS_NOUSER	/usr/include/sys/mount.h	/^  MS_NOUSER = 1 << 31$/;"	e	enum:__anon12
+MS_NOUSER	/usr/include/sys/mount.h	85;"	d
+MS_POSIXACL	/usr/include/sys/mount.h	/^  MS_POSIXACL = 1 << 16,	\/* VFS does not apply the umask.  *\/$/;"	e	enum:__anon12
+MS_POSIXACL	/usr/include/sys/mount.h	65;"	d
+MS_PRIVATE	/usr/include/sys/mount.h	/^  MS_PRIVATE = 1 << 18,		\/* Change to private.  *\/$/;"	e	enum:__anon12
+MS_PRIVATE	/usr/include/sys/mount.h	69;"	d
+MS_RDONLY	/usr/include/sys/mount.h	/^  MS_RDONLY = 1,		\/* Mount read-only.  *\/$/;"	e	enum:__anon12
+MS_RDONLY	/usr/include/sys/mount.h	37;"	d
+MS_REC	/usr/include/sys/mount.h	/^  MS_REC = 16384,$/;"	e	enum:__anon12
+MS_REC	/usr/include/sys/mount.h	61;"	d
+MS_RELATIME	/usr/include/sys/mount.h	/^  MS_RELATIME = 1 << 21,	\/* Update atime relative to mtime\/ctime.  *\/$/;"	e	enum:__anon12
+MS_RELATIME	/usr/include/sys/mount.h	75;"	d
+MS_REMOUNT	/usr/include/sys/mount.h	/^  MS_REMOUNT = 32,		\/* Alter flags of a mounted FS.  *\/$/;"	e	enum:__anon12
+MS_REMOUNT	/usr/include/sys/mount.h	47;"	d
+MS_RMT_MASK	/usr/include/sys/mount.h	89;"	d
+MS_SHARED	/usr/include/sys/mount.h	/^  MS_SHARED = 1 << 20,		\/* Change to shared.  *\/$/;"	e	enum:__anon12
+MS_SHARED	/usr/include/sys/mount.h	73;"	d
+MS_SILENT	/usr/include/sys/mount.h	/^  MS_SILENT = 32768,$/;"	e	enum:__anon12
+MS_SILENT	/usr/include/sys/mount.h	63;"	d
+MS_SLAVE	/usr/include/sys/mount.h	/^  MS_SLAVE = 1 << 19,		\/* Change to slave.  *\/$/;"	e	enum:__anon12
+MS_SLAVE	/usr/include/sys/mount.h	71;"	d
+MS_STRICTATIME	/usr/include/sys/mount.h	/^  MS_STRICTATIME = 1 << 24,	\/* Always perform atime updates.  *\/$/;"	e	enum:__anon12
+MS_STRICTATIME	/usr/include/sys/mount.h	81;"	d
+MS_SYNCHRONOUS	/usr/include/sys/mount.h	/^  MS_SYNCHRONOUS = 16,		\/* Writes are synced at once.  *\/$/;"	e	enum:__anon12
+MS_SYNCHRONOUS	/usr/include/sys/mount.h	45;"	d
+MS_UNBINDABLE	/usr/include/sys/mount.h	/^  MS_UNBINDABLE = 1 << 17,	\/* Change to unbindable.  *\/$/;"	e	enum:__anon12
+MS_UNBINDABLE	/usr/include/sys/mount.h	67;"	d
+MTBSF	/usr/include/sys/mtio.h	43;"	d
+MTBSFM	/usr/include/sys/mtio.h	51;"	d
+MTBSR	/usr/include/sys/mtio.h	45;"	d
+MTBSS	/usr/include/sys/mtio.h	69;"	d
+MTCOMPRESSION	/usr/include/sys/mtio.h	76;"	d
+MTEOM	/usr/include/sys/mtio.h	53;"	d
+MTERASE	/usr/include/sys/mtio.h	56;"	d
+MTFSF	/usr/include/sys/mtio.h	41;"	d
+MTFSFM	/usr/include/sys/mtio.h	52;"	d
+MTFSR	/usr/include/sys/mtio.h	44;"	d
+MTFSS	/usr/include/sys/mtio.h	68;"	d
+MTIOCGET	/usr/include/sys/mtio.h	199;"	d
+MTIOCGETCONFIG	/usr/include/sys/mtio.h	204;"	d
+MTIOCPOS	/usr/include/sys/mtio.h	200;"	d
+MTIOCSETCONFIG	/usr/include/sys/mtio.h	205;"	d
+MTIOCTOP	/usr/include/sys/mtio.h	198;"	d
+MTLOAD	/usr/include/sys/mtio.h	74;"	d
+MTLOCK	/usr/include/sys/mtio.h	72;"	d
+MTMKPART	/usr/include/sys/mtio.h	78;"	d
+MTNOP	/usr/include/sys/mtio.h	49;"	d
+MTOFFL	/usr/include/sys/mtio.h	48;"	d
+MTRAS1	/usr/include/sys/mtio.h	58;"	d
+MTRAS2	/usr/include/sys/mtio.h	59;"	d
+MTRAS3	/usr/include/sys/mtio.h	60;"	d
+MTRESET	/usr/include/sys/mtio.h	40;"	d
+MTRETEN	/usr/include/sys/mtio.h	50;"	d
+MTREW	/usr/include/sys/mtio.h	47;"	d
+MTSEEK	/usr/include/sys/mtio.h	64;"	d
+MTSETBLK	/usr/include/sys/mtio.h	62;"	d
+MTSETDENSITY	/usr/include/sys/mtio.h	63;"	d
+MTSETDRVBUFFER	/usr/include/sys/mtio.h	66;"	d
+MTSETPART	/usr/include/sys/mtio.h	77;"	d
+MTTELL	/usr/include/sys/mtio.h	65;"	d
+MTUNLOAD	/usr/include/sys/mtio.h	75;"	d
+MTUNLOCK	/usr/include/sys/mtio.h	73;"	d
+MTWEOF	/usr/include/sys/mtio.h	46;"	d
+MTWSM	/usr/include/sys/mtio.h	70;"	d
+MT_ISARCHIVESC499	/usr/include/sys/mtio.h	112;"	d
+MT_ISARCHIVE_2060L	/usr/include/sys/mtio.h	111;"	d
+MT_ISARCHIVE_2150L	/usr/include/sys/mtio.h	110;"	d
+MT_ISARCHIVE_5945L2	/usr/include/sys/mtio.h	106;"	d
+MT_ISARCHIVE_VP60I	/usr/include/sys/mtio.h	109;"	d
+MT_ISCMSJ500	/usr/include/sys/mtio.h	107;"	d
+MT_ISDDS1	/usr/include/sys/mtio.h	118;"	d
+MT_ISDDS2	/usr/include/sys/mtio.h	119;"	d
+MT_ISEVEREX_FT40A	/usr/include/sys/mtio.h	117;"	d
+MT_ISFTAPE_FLAG	/usr/include/sys/mtio.h	126;"	d
+MT_ISFTAPE_UNKNOWN	/usr/include/sys/mtio.h	125;"	d
+MT_ISQIC02	/usr/include/sys/mtio.h	104;"	d
+MT_ISQIC02_ALL_FEATURES	/usr/include/sys/mtio.h	113;"	d
+MT_ISSCSI1	/usr/include/sys/mtio.h	120;"	d
+MT_ISSCSI2	/usr/include/sys/mtio.h	121;"	d
+MT_ISTDC3610	/usr/include/sys/mtio.h	108;"	d
+MT_ISTEAC_MT2ST	/usr/include/sys/mtio.h	115;"	d
+MT_ISUNKNOWN	/usr/include/sys/mtio.h	103;"	d
+MT_ISWT5099EEN24	/usr/include/sys/mtio.h	114;"	d
+MT_ISWT5150	/usr/include/sys/mtio.h	105;"	d
+MT_ST_ASYNC_WRITES	/usr/include/sys/mtio.h	250;"	d
+MT_ST_AUTO_LOCK	/usr/include/sys/mtio.h	255;"	d
+MT_ST_BLKSIZE_MASK	/usr/include/sys/mtio.h	233;"	d
+MT_ST_BLKSIZE_SHIFT	/usr/include/sys/mtio.h	232;"	d
+MT_ST_BOOLEANS	/usr/include/sys/mtio.h	242;"	d
+MT_ST_BUFFER_WRITES	/usr/include/sys/mtio.h	249;"	d
+MT_ST_CAN_BSR	/usr/include/sys/mtio.h	257;"	d
+MT_ST_CAN_PARTITIONS	/usr/include/sys/mtio.h	259;"	d
+MT_ST_CLEARBOOLEANS	/usr/include/sys/mtio.h	244;"	d
+MT_ST_CLEAR_DEFAULT	/usr/include/sys/mtio.h	263;"	d
+MT_ST_DEBUGGING	/usr/include/sys/mtio.h	252;"	d
+MT_ST_DEF_BLKSIZE	/usr/include/sys/mtio.h	246;"	d
+MT_ST_DEF_COMPRESSION	/usr/include/sys/mtio.h	265;"	d
+MT_ST_DEF_DENSITY	/usr/include/sys/mtio.h	264;"	d
+MT_ST_DEF_DRVBUFFER	/usr/include/sys/mtio.h	266;"	d
+MT_ST_DEF_OPTIONS	/usr/include/sys/mtio.h	247;"	d
+MT_ST_DEF_WRITES	/usr/include/sys/mtio.h	256;"	d
+MT_ST_DENSITY_MASK	/usr/include/sys/mtio.h	235;"	d
+MT_ST_DENSITY_SHIFT	/usr/include/sys/mtio.h	234;"	d
+MT_ST_FAST_MTEOM	/usr/include/sys/mtio.h	254;"	d
+MT_ST_HPLOADER_OFFSET	/usr/include/sys/mtio.h	269;"	d
+MT_ST_NO_BLKLIMS	/usr/include/sys/mtio.h	258;"	d
+MT_ST_OPTIONS	/usr/include/sys/mtio.h	241;"	d
+MT_ST_READ_AHEAD	/usr/include/sys/mtio.h	251;"	d
+MT_ST_SCSI2LOGICAL	/usr/include/sys/mtio.h	260;"	d
+MT_ST_SETBOOLEANS	/usr/include/sys/mtio.h	243;"	d
+MT_ST_SOFTERR_MASK	/usr/include/sys/mtio.h	238;"	d
+MT_ST_SOFTERR_SHIFT	/usr/include/sys/mtio.h	237;"	d
+MT_ST_TWO_FM	/usr/include/sys/mtio.h	253;"	d
+MT_ST_WRITE_THRESHOLD	/usr/include/sys/mtio.h	245;"	d
+MT_TAPE_INFO	/usr/include/sys/mtio.h	134;"	d
+NBBY	/usr/include/sys/param.h	39;"	d
+NBPG	/usr/include/sys/user.h	170;"	d
+NCARGS	/usr/include/sys/param.h	50;"	d
+NFDBITS	/usr/include/sys/select.h	88;"	d
+NGREG	/usr/include/sys/ucontext.h	151;"	d
+NGREG	/usr/include/sys/ucontext.h	36;"	d
+NGROUPS	/usr/include/sys/param.h	41;"	d
+NOFILE	/usr/include/sys/param.h	49;"	d
+NR_DQHASH	/usr/include/sys/quota.h	90;"	d
+NR_DQUOTS	/usr/include/sys/quota.h	91;"	d
+NTP_API	/usr/include/sys/timex.h	29;"	d
+ORIG_EAX	/usr/include/sys/reg.h	71;"	d
+ORIG_RAX	/usr/include/sys/reg.h	43;"	d
+PAGE_MASK	/usr/include/sys/user.h	169;"	d
+PAGE_SHIFT	/usr/include/sys/user.h	167;"	d
+PAGE_SIZE	/usr/include/sys/user.h	168;"	d
+PER_BSD	/usr/include/sys/personality.h	/^    PER_BSD = 0x0006,$/;"	e	enum:__anon16
+PER_HPUX	/usr/include/sys/personality.h	/^    PER_HPUX = 0x0010,$/;"	e	enum:__anon16
+PER_IRIX32	/usr/include/sys/personality.h	/^    PER_IRIX32 = 0x0009 | STICKY_TIMEOUTS,	\/* IRIX5 32-bit *\/$/;"	e	enum:__anon16
+PER_IRIX64	/usr/include/sys/personality.h	/^    PER_IRIX64 = 0x000b | STICKY_TIMEOUTS,	\/* IRIX6 64-bit *\/$/;"	e	enum:__anon16
+PER_IRIXN32	/usr/include/sys/personality.h	/^    PER_IRIXN32 = 0x000a | STICKY_TIMEOUTS,	\/* IRIX6 new 32-bit *\/$/;"	e	enum:__anon16
+PER_ISCR4	/usr/include/sys/personality.h	/^    PER_ISCR4 = 0x0005 | STICKY_TIMEOUTS,$/;"	e	enum:__anon16
+PER_LINUX	/usr/include/sys/personality.h	/^    PER_LINUX = 0x0000,$/;"	e	enum:__anon16
+PER_LINUX32	/usr/include/sys/personality.h	/^    PER_LINUX32 = 0x0008,$/;"	e	enum:__anon16
+PER_LINUX32_3GB	/usr/include/sys/personality.h	/^    PER_LINUX32_3GB = 0x0008 | ADDR_LIMIT_3GB,$/;"	e	enum:__anon16
+PER_LINUX_32BIT	/usr/include/sys/personality.h	/^    PER_LINUX_32BIT = 0x0000 | ADDR_LIMIT_32BIT,$/;"	e	enum:__anon16
+PER_MASK	/usr/include/sys/personality.h	/^    PER_MASK = 0x00ff,$/;"	e	enum:__anon16
+PER_OSF4	/usr/include/sys/personality.h	/^    PER_OSF4 = 0x000f,$/;"	e	enum:__anon16
+PER_OSR5	/usr/include/sys/personality.h	/^    PER_OSR5 = 0x0003 | STICKY_TIMEOUTS | WHOLE_SECONDS,$/;"	e	enum:__anon16
+PER_RISCOS	/usr/include/sys/personality.h	/^    PER_RISCOS = 0x000c,$/;"	e	enum:__anon16
+PER_SCOSVR3	/usr/include/sys/personality.h	/^    PER_SCOSVR3 = 0x0003 | STICKY_TIMEOUTS | WHOLE_SECONDS | SHORT_INODE,$/;"	e	enum:__anon16
+PER_SOLARIS	/usr/include/sys/personality.h	/^    PER_SOLARIS = 0x000d | STICKY_TIMEOUTS,$/;"	e	enum:__anon16
+PER_SUNOS	/usr/include/sys/personality.h	/^    PER_SUNOS = 0x0006 | STICKY_TIMEOUTS,$/;"	e	enum:__anon16
+PER_SVR3	/usr/include/sys/personality.h	/^    PER_SVR3 = 0x0002 | STICKY_TIMEOUTS | SHORT_INODE,$/;"	e	enum:__anon16
+PER_SVR4	/usr/include/sys/personality.h	/^    PER_SVR4 = 0x0001 | STICKY_TIMEOUTS | MMAP_PAGE_ZERO,$/;"	e	enum:__anon16
+PER_UW7	/usr/include/sys/personality.h	/^    PER_UW7 = 0x000e | STICKY_TIMEOUTS | MMAP_PAGE_ZERO,$/;"	e	enum:__anon16
+PER_WYSEV386	/usr/include/sys/personality.h	/^    PER_WYSEV386 = 0x0004 | STICKY_TIMEOUTS | SHORT_INODE,$/;"	e	enum:__anon16
+PER_XENIX	/usr/include/sys/personality.h	/^    PER_XENIX = 0x0007 | STICKY_TIMEOUTS | SHORT_INODE,$/;"	e	enum:__anon16
+PROF_FAST	/usr/include/sys/profil.h	/^    PROF_FAST   = 1 << 1	\/* profile faster than usual *\/$/;"	e	enum:__anon11
+PROF_UINT	/usr/include/sys/profil.h	/^    PROF_UINT	= 1 << 0,	\/* use 32-bit counters *\/$/;"	e	enum:__anon11
+PROF_USHORT	/usr/include/sys/profil.h	/^    PROF_USHORT	= 0,		\/* use 16-bit counters (default) *\/$/;"	e	enum:__anon11
+PTRACE_ATTACH	/usr/include/sys/ptrace.h	/^  PTRACE_ATTACH = 16,$/;"	e	enum:__ptrace_request
+PTRACE_CONT	/usr/include/sys/ptrace.h	/^  PTRACE_CONT = 7,$/;"	e	enum:__ptrace_request
+PTRACE_DETACH	/usr/include/sys/ptrace.h	/^  PTRACE_DETACH = 17,$/;"	e	enum:__ptrace_request
+PTRACE_EVENT_CLONE	/usr/include/sys/ptrace.h	/^  PTRACE_EVENT_CLONE	= 3,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_EXEC	/usr/include/sys/ptrace.h	/^  PTRACE_EVENT_EXEC	= 4,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_EXIT	/usr/include/sys/ptrace.h	/^  PTRACE_EVENT_EXIT	= 6$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_FORK	/usr/include/sys/ptrace.h	/^  PTRACE_EVENT_FORK	= 1,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_VFORK	/usr/include/sys/ptrace.h	/^  PTRACE_EVENT_VFORK	= 2,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_EVENT_VFORK_DONE	/usr/include/sys/ptrace.h	/^  PTRACE_EVENT_VFORK_DONE = 5,$/;"	e	enum:__ptrace_eventcodes
+PTRACE_GETEVENTMSG	/usr/include/sys/ptrace.h	/^  PTRACE_GETEVENTMSG = 0x4201,$/;"	e	enum:__ptrace_request
+PTRACE_GETFPREGS	/usr/include/sys/ptrace.h	/^   PTRACE_GETFPREGS = 14,$/;"	e	enum:__ptrace_request
+PTRACE_GETFPXREGS	/usr/include/sys/ptrace.h	/^   PTRACE_GETFPXREGS = 18,$/;"	e	enum:__ptrace_request
+PTRACE_GETREGS	/usr/include/sys/ptrace.h	/^   PTRACE_GETREGS = 12,$/;"	e	enum:__ptrace_request
+PTRACE_GETSIGINFO	/usr/include/sys/ptrace.h	/^  PTRACE_GETSIGINFO = 0x4202,$/;"	e	enum:__ptrace_request
+PTRACE_KILL	/usr/include/sys/ptrace.h	/^  PTRACE_KILL = 8,$/;"	e	enum:__ptrace_request
+PTRACE_O_MASK	/usr/include/sys/ptrace.h	/^  PTRACE_O_MASK		= 0x0000007f$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACECLONE	/usr/include/sys/ptrace.h	/^  PTRACE_O_TRACECLONE	= 0x00000008,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACEEXEC	/usr/include/sys/ptrace.h	/^  PTRACE_O_TRACEEXEC	= 0x00000010,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACEEXIT	/usr/include/sys/ptrace.h	/^  PTRACE_O_TRACEEXIT	= 0x00000040,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACEFORK	/usr/include/sys/ptrace.h	/^  PTRACE_O_TRACEFORK	= 0x00000002,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACESYSGOOD	/usr/include/sys/ptrace.h	/^  PTRACE_O_TRACESYSGOOD	= 0x00000001,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACEVFORK	/usr/include/sys/ptrace.h	/^  PTRACE_O_TRACEVFORK   = 0x00000004,$/;"	e	enum:__ptrace_setoptions
+PTRACE_O_TRACEVFORKDONE	/usr/include/sys/ptrace.h	/^  PTRACE_O_TRACEVFORKDONE = 0x00000020,$/;"	e	enum:__ptrace_setoptions
+PTRACE_PEEKDATA	/usr/include/sys/ptrace.h	/^  PTRACE_PEEKDATA = 2,$/;"	e	enum:__ptrace_request
+PTRACE_PEEKTEXT	/usr/include/sys/ptrace.h	/^  PTRACE_PEEKTEXT = 1,$/;"	e	enum:__ptrace_request
+PTRACE_PEEKUSER	/usr/include/sys/ptrace.h	/^  PTRACE_PEEKUSER = 3,$/;"	e	enum:__ptrace_request
+PTRACE_POKEDATA	/usr/include/sys/ptrace.h	/^  PTRACE_POKEDATA = 5,$/;"	e	enum:__ptrace_request
+PTRACE_POKETEXT	/usr/include/sys/ptrace.h	/^  PTRACE_POKETEXT = 4,$/;"	e	enum:__ptrace_request
+PTRACE_POKEUSER	/usr/include/sys/ptrace.h	/^  PTRACE_POKEUSER = 6,$/;"	e	enum:__ptrace_request
+PTRACE_SETFPREGS	/usr/include/sys/ptrace.h	/^   PTRACE_SETFPREGS = 15,$/;"	e	enum:__ptrace_request
+PTRACE_SETFPXREGS	/usr/include/sys/ptrace.h	/^   PTRACE_SETFPXREGS = 19,$/;"	e	enum:__ptrace_request
+PTRACE_SETOPTIONS	/usr/include/sys/ptrace.h	/^  PTRACE_SETOPTIONS = 0x4200,$/;"	e	enum:__ptrace_request
+PTRACE_SETREGS	/usr/include/sys/ptrace.h	/^   PTRACE_SETREGS = 13,$/;"	e	enum:__ptrace_request
+PTRACE_SETSIGINFO	/usr/include/sys/ptrace.h	/^  PTRACE_SETSIGINFO = 0x4203$/;"	e	enum:__ptrace_request
+PTRACE_SINGLESTEP	/usr/include/sys/ptrace.h	/^  PTRACE_SINGLESTEP = 9,$/;"	e	enum:__ptrace_request
+PTRACE_SYSCALL	/usr/include/sys/ptrace.h	/^  PTRACE_SYSCALL = 24,$/;"	e	enum:__ptrace_request
+PTRACE_TRACEME	/usr/include/sys/ptrace.h	/^  PTRACE_TRACEME = 0,$/;"	e	enum:__ptrace_request
+PT_ATTACH	/usr/include/sys/ptrace.h	95;"	d
+PT_CONTINUE	/usr/include/sys/ptrace.h	62;"	d
+PT_DETACH	/usr/include/sys/ptrace.h	99;"	d
+PT_GETEVENTMSG	/usr/include/sys/ptrace.h	121;"	d
+PT_GETFPREGS	/usr/include/sys/ptrace.h	86;"	d
+PT_GETFPXREGS	/usr/include/sys/ptrace.h	104;"	d
+PT_GETREGS	/usr/include/sys/ptrace.h	76;"	d
+PT_GETSIGINFO	/usr/include/sys/ptrace.h	125;"	d
+PT_KILL	/usr/include/sys/ptrace.h	66;"	d
+PT_READ_D	/usr/include/sys/ptrace.h	42;"	d
+PT_READ_I	/usr/include/sys/ptrace.h	38;"	d
+PT_READ_U	/usr/include/sys/ptrace.h	46;"	d
+PT_SETFPREGS	/usr/include/sys/ptrace.h	91;"	d
+PT_SETFPXREGS	/usr/include/sys/ptrace.h	109;"	d
+PT_SETOPTIONS	/usr/include/sys/ptrace.h	117;"	d
+PT_SETREGS	/usr/include/sys/ptrace.h	81;"	d
+PT_SETSIGINFO	/usr/include/sys/ptrace.h	129;"	d
+PT_STEP	/usr/include/sys/ptrace.h	71;"	d
+PT_SYSCALL	/usr/include/sys/ptrace.h	113;"	d
+PT_TRACE_ME	/usr/include/sys/ptrace.h	34;"	d
+PT_WRITE_D	/usr/include/sys/ptrace.h	54;"	d
+PT_WRITE_I	/usr/include/sys/ptrace.h	50;"	d
+PT_WRITE_U	/usr/include/sys/ptrace.h	58;"	d
+P_ALL	/usr/include/sys/wait.h	/^  P_ALL,		\/* Wait for any child.  *\/$/;"	e	enum:__anon17
+P_PGID	/usr/include/sys/wait.h	/^  P_PGID		\/* Wait for members of process group.  *\/$/;"	e	enum:__anon17
+P_PID	/usr/include/sys/wait.h	/^  P_PID,		\/* Wait for specified process.  *\/$/;"	e	enum:__anon17
+QCMD	/usr/include/sys/quota.h	101;"	d
+QIF_ALL	/usr/include/sys/quota.h	153;"	d
+QIF_BLIMITS	/usr/include/sys/quota.h	144;"	d
+QIF_BTIME	/usr/include/sys/quota.h	148;"	d
+QIF_ILIMITS	/usr/include/sys/quota.h	146;"	d
+QIF_INODES	/usr/include/sys/quota.h	147;"	d
+QIF_ITIME	/usr/include/sys/quota.h	149;"	d
+QIF_LIMITS	/usr/include/sys/quota.h	150;"	d
+QIF_SPACE	/usr/include/sys/quota.h	145;"	d
+QIF_TIMES	/usr/include/sys/quota.h	152;"	d
+QIF_USAGE	/usr/include/sys/quota.h	151;"	d
+QUOTAFILENAME	/usr/include/sys/quota.h	87;"	d
+QUOTAGROUP	/usr/include/sys/quota.h	88;"	d
+Q_GETFMT	/usr/include/sys/quota.h	117;"	d
+Q_GETINFO	/usr/include/sys/quota.h	118;"	d
+Q_GETQUOTA	/usr/include/sys/quota.h	106;"	d
+Q_GETQUOTA	/usr/include/sys/quota.h	120;"	d
+Q_GETSTATS	/usr/include/sys/quota.h	111;"	d
+Q_QUOTAOFF	/usr/include/sys/quota.h	105;"	d
+Q_QUOTAOFF	/usr/include/sys/quota.h	116;"	d
+Q_QUOTAON	/usr/include/sys/quota.h	104;"	d
+Q_QUOTAON	/usr/include/sys/quota.h	115;"	d
+Q_RSQUASH	/usr/include/sys/quota.h	112;"	d
+Q_SETINFO	/usr/include/sys/quota.h	119;"	d
+Q_SETQLIM	/usr/include/sys/quota.h	110;"	d
+Q_SETQUOTA	/usr/include/sys/quota.h	107;"	d
+Q_SETQUOTA	/usr/include/sys/quota.h	121;"	d
+Q_SETUSE	/usr/include/sys/quota.h	108;"	d
+Q_SYNC	/usr/include/sys/quota.h	109;"	d
+Q_SYNC	/usr/include/sys/quota.h	114;"	d
+R10	/usr/include/sys/reg.h	35;"	d
+R11	/usr/include/sys/reg.h	34;"	d
+R12	/usr/include/sys/reg.h	31;"	d
+R13	/usr/include/sys/reg.h	30;"	d
+R14	/usr/include/sys/reg.h	29;"	d
+R15	/usr/include/sys/reg.h	28;"	d
+R8	/usr/include/sys/reg.h	37;"	d
+R9	/usr/include/sys/reg.h	36;"	d
+RAW_GETBIND	/usr/include/sys/raw.h	30;"	d
+RAW_MAJOR	/usr/include/sys/raw.h	26;"	d
+RAW_SETBIND	/usr/include/sys/raw.h	29;"	d
+RAX	/usr/include/sys/reg.h	38;"	d
+RBP	/usr/include/sys/reg.h	32;"	d
+RBX	/usr/include/sys/reg.h	33;"	d
+RB_AUTOBOOT	/usr/include/sys/reboot.h	28;"	d
+RB_DISABLE_CAD	/usr/include/sys/reboot.h	37;"	d
+RB_ENABLE_CAD	/usr/include/sys/reboot.h	34;"	d
+RB_HALT_SYSTEM	/usr/include/sys/reboot.h	31;"	d
+RB_POWER_OFF	/usr/include/sys/reboot.h	40;"	d
+RCX	/usr/include/sys/reg.h	39;"	d
+RDI	/usr/include/sys/reg.h	42;"	d
+RDX	/usr/include/sys/reg.h	40;"	d
+READ_IMPLIES_EXEC	/usr/include/sys/personality.h	/^    READ_IMPLIES_EXEC = 0x0400000,$/;"	e	enum:__anon15
+REG_CR2	/usr/include/sys/ucontext.h	/^  REG_CR2$/;"	e	enum:__anon1
+REG_CR2	/usr/include/sys/ucontext.h	90;"	d
+REG_CS	/usr/include/sys/ucontext.h	/^  REG_CS,$/;"	e	enum:__anon3
+REG_CS	/usr/include/sys/ucontext.h	191;"	d
+REG_CSGSFS	/usr/include/sys/ucontext.h	/^  REG_CSGSFS,		\/* Actually short cs, gs, fs, __pad0.  *\/$/;"	e	enum:__anon1
+REG_CSGSFS	/usr/include/sys/ucontext.h	82;"	d
+REG_DS	/usr/include/sys/ucontext.h	/^  REG_DS,$/;"	e	enum:__anon3
+REG_DS	/usr/include/sys/ucontext.h	167;"	d
+REG_EAX	/usr/include/sys/ucontext.h	/^  REG_EAX,$/;"	e	enum:__anon3
+REG_EAX	/usr/include/sys/ucontext.h	183;"	d
+REG_EBP	/usr/include/sys/ucontext.h	/^  REG_EBP,$/;"	e	enum:__anon3
+REG_EBP	/usr/include/sys/ucontext.h	173;"	d
+REG_EBX	/usr/include/sys/ucontext.h	/^  REG_EBX,$/;"	e	enum:__anon3
+REG_EBX	/usr/include/sys/ucontext.h	177;"	d
+REG_ECX	/usr/include/sys/ucontext.h	/^  REG_ECX,$/;"	e	enum:__anon3
+REG_ECX	/usr/include/sys/ucontext.h	181;"	d
+REG_EDI	/usr/include/sys/ucontext.h	/^  REG_EDI,$/;"	e	enum:__anon3
+REG_EDI	/usr/include/sys/ucontext.h	169;"	d
+REG_EDX	/usr/include/sys/ucontext.h	/^  REG_EDX,$/;"	e	enum:__anon3
+REG_EDX	/usr/include/sys/ucontext.h	179;"	d
+REG_EFL	/usr/include/sys/ucontext.h	/^  REG_EFL,$/;"	e	enum:__anon1
+REG_EFL	/usr/include/sys/ucontext.h	/^  REG_EFL,$/;"	e	enum:__anon3
+REG_EFL	/usr/include/sys/ucontext.h	193;"	d
+REG_EFL	/usr/include/sys/ucontext.h	80;"	d
+REG_EIP	/usr/include/sys/ucontext.h	/^  REG_EIP,$/;"	e	enum:__anon3
+REG_EIP	/usr/include/sys/ucontext.h	189;"	d
+REG_ERR	/usr/include/sys/ucontext.h	/^  REG_ERR,$/;"	e	enum:__anon1
+REG_ERR	/usr/include/sys/ucontext.h	/^  REG_ERR,$/;"	e	enum:__anon3
+REG_ERR	/usr/include/sys/ucontext.h	187;"	d
+REG_ERR	/usr/include/sys/ucontext.h	84;"	d
+REG_ES	/usr/include/sys/ucontext.h	/^  REG_ES,$/;"	e	enum:__anon3
+REG_ES	/usr/include/sys/ucontext.h	165;"	d
+REG_ESI	/usr/include/sys/ucontext.h	/^  REG_ESI,$/;"	e	enum:__anon3
+REG_ESI	/usr/include/sys/ucontext.h	171;"	d
+REG_ESP	/usr/include/sys/ucontext.h	/^  REG_ESP,$/;"	e	enum:__anon3
+REG_ESP	/usr/include/sys/ucontext.h	175;"	d
+REG_FS	/usr/include/sys/ucontext.h	/^  REG_FS,$/;"	e	enum:__anon3
+REG_FS	/usr/include/sys/ucontext.h	163;"	d
+REG_GS	/usr/include/sys/ucontext.h	/^  REG_GS = 0,$/;"	e	enum:__anon3
+REG_GS	/usr/include/sys/ucontext.h	161;"	d
+REG_OLDMASK	/usr/include/sys/ucontext.h	/^  REG_OLDMASK,$/;"	e	enum:__anon1
+REG_OLDMASK	/usr/include/sys/ucontext.h	88;"	d
+REG_R10	/usr/include/sys/ucontext.h	/^  REG_R10,$/;"	e	enum:__anon1
+REG_R10	/usr/include/sys/ucontext.h	50;"	d
+REG_R11	/usr/include/sys/ucontext.h	/^  REG_R11,$/;"	e	enum:__anon1
+REG_R11	/usr/include/sys/ucontext.h	52;"	d
+REG_R12	/usr/include/sys/ucontext.h	/^  REG_R12,$/;"	e	enum:__anon1
+REG_R12	/usr/include/sys/ucontext.h	54;"	d
+REG_R13	/usr/include/sys/ucontext.h	/^  REG_R13,$/;"	e	enum:__anon1
+REG_R13	/usr/include/sys/ucontext.h	56;"	d
+REG_R14	/usr/include/sys/ucontext.h	/^  REG_R14,$/;"	e	enum:__anon1
+REG_R14	/usr/include/sys/ucontext.h	58;"	d
+REG_R15	/usr/include/sys/ucontext.h	/^  REG_R15,$/;"	e	enum:__anon1
+REG_R15	/usr/include/sys/ucontext.h	60;"	d
+REG_R8	/usr/include/sys/ucontext.h	/^  REG_R8 = 0,$/;"	e	enum:__anon1
+REG_R8	/usr/include/sys/ucontext.h	46;"	d
+REG_R9	/usr/include/sys/ucontext.h	/^  REG_R9,$/;"	e	enum:__anon1
+REG_R9	/usr/include/sys/ucontext.h	48;"	d
+REG_RAX	/usr/include/sys/ucontext.h	/^  REG_RAX,$/;"	e	enum:__anon1
+REG_RAX	/usr/include/sys/ucontext.h	72;"	d
+REG_RBP	/usr/include/sys/ucontext.h	/^  REG_RBP,$/;"	e	enum:__anon1
+REG_RBP	/usr/include/sys/ucontext.h	66;"	d
+REG_RBX	/usr/include/sys/ucontext.h	/^  REG_RBX,$/;"	e	enum:__anon1
+REG_RBX	/usr/include/sys/ucontext.h	68;"	d
+REG_RCX	/usr/include/sys/ucontext.h	/^  REG_RCX,$/;"	e	enum:__anon1
+REG_RCX	/usr/include/sys/ucontext.h	74;"	d
+REG_RDI	/usr/include/sys/ucontext.h	/^  REG_RDI,$/;"	e	enum:__anon1
+REG_RDI	/usr/include/sys/ucontext.h	62;"	d
+REG_RDX	/usr/include/sys/ucontext.h	/^  REG_RDX,$/;"	e	enum:__anon1
+REG_RDX	/usr/include/sys/ucontext.h	70;"	d
+REG_RIP	/usr/include/sys/ucontext.h	/^  REG_RIP,$/;"	e	enum:__anon1
+REG_RIP	/usr/include/sys/ucontext.h	78;"	d
+REG_RSI	/usr/include/sys/ucontext.h	/^  REG_RSI,$/;"	e	enum:__anon1
+REG_RSI	/usr/include/sys/ucontext.h	64;"	d
+REG_RSP	/usr/include/sys/ucontext.h	/^  REG_RSP,$/;"	e	enum:__anon1
+REG_RSP	/usr/include/sys/ucontext.h	76;"	d
+REG_SS	/usr/include/sys/ucontext.h	/^  REG_SS$/;"	e	enum:__anon3
+REG_SS	/usr/include/sys/ucontext.h	197;"	d
+REG_TRAPNO	/usr/include/sys/ucontext.h	/^  REG_TRAPNO,$/;"	e	enum:__anon1
+REG_TRAPNO	/usr/include/sys/ucontext.h	/^  REG_TRAPNO,$/;"	e	enum:__anon3
+REG_TRAPNO	/usr/include/sys/ucontext.h	185;"	d
+REG_TRAPNO	/usr/include/sys/ucontext.h	86;"	d
+REG_UESP	/usr/include/sys/ucontext.h	/^  REG_UESP,$/;"	e	enum:__anon3
+REG_UESP	/usr/include/sys/ucontext.h	195;"	d
+RIP	/usr/include/sys/reg.h	44;"	d
+ROUNDDOWN	/usr/include/sys/gmon.h	151;"	d
+ROUNDUP	/usr/include/sys/gmon.h	152;"	d
+RSI	/usr/include/sys/reg.h	41;"	d
+RSP	/usr/include/sys/reg.h	47;"	d
+SFD_CLOEXEC	/usr/include/sys/signalfd.h	/^    SFD_CLOEXEC = 02000000,$/;"	e	enum:__anon8
+SFD_CLOEXEC	/usr/include/sys/signalfd.h	52;"	d
+SFD_NONBLOCK	/usr/include/sys/signalfd.h	/^    SFD_NONBLOCK = 04000$/;"	e	enum:__anon8
+SFD_NONBLOCK	/usr/include/sys/signalfd.h	54;"	d
+SHORT_INODE	/usr/include/sys/personality.h	/^    SHORT_INODE = 0x1000000,$/;"	e	enum:__anon15
+SHUT_RD	/usr/include/sys/socket.h	/^  SHUT_RD = 0,		\/* No more receptions.  *\/$/;"	e	enum:__anon18
+SHUT_RD	/usr/include/sys/socket.h	57;"	d
+SHUT_RDWR	/usr/include/sys/socket.h	/^  SHUT_RDWR		\/* No more receptions or transmissions.  *\/$/;"	e	enum:__anon18
+SHUT_RDWR	/usr/include/sys/socket.h	61;"	d
+SHUT_WR	/usr/include/sys/socket.h	/^  SHUT_WR,		\/* No more transmissions.  *\/$/;"	e	enum:__anon18
+SHUT_WR	/usr/include/sys/socket.h	59;"	d
+SIMPLEQ_EMPTY	/usr/include/sys/queue.h	385;"	d
+SIMPLEQ_ENTRY	/usr/include/sys/queue.h	328;"	d
+SIMPLEQ_FIRST	/usr/include/sys/queue.h	386;"	d
+SIMPLEQ_FOREACH	/usr/include/sys/queue.h	377;"	d
+SIMPLEQ_HEAD	/usr/include/sys/queue.h	319;"	d
+SIMPLEQ_HEAD_INITIALIZER	/usr/include/sys/queue.h	325;"	d
+SIMPLEQ_INIT	/usr/include/sys/queue.h	336;"	d
+SIMPLEQ_INSERT_AFTER	/usr/include/sys/queue.h	353;"	d
+SIMPLEQ_INSERT_HEAD	/usr/include/sys/queue.h	341;"	d
+SIMPLEQ_INSERT_TAIL	/usr/include/sys/queue.h	347;"	d
+SIMPLEQ_NEXT	/usr/include/sys/queue.h	387;"	d
+SIMPLEQ_REMOVE	/usr/include/sys/queue.h	364;"	d
+SIMPLEQ_REMOVE_HEAD	/usr/include/sys/queue.h	359;"	d
+SLIST_EMPTY	/usr/include/sys/queue.h	218;"	d
+SLIST_ENTRY	/usr/include/sys/queue.h	163;"	d
+SLIST_FIRST	/usr/include/sys/queue.h	219;"	d
+SLIST_FOREACH	/usr/include/sys/queue.h	202;"	d
+SLIST_FOREACH_PREVPTR	/usr/include/sys/queue.h	210;"	d
+SLIST_FOREACH_SAFE	/usr/include/sys/queue.h	205;"	d
+SLIST_HEAD	/usr/include/sys/queue.h	155;"	d
+SLIST_HEAD_INITIALIZER	/usr/include/sys/queue.h	160;"	d
+SLIST_INIT	/usr/include/sys/queue.h	171;"	d
+SLIST_INSERT_AFTER	/usr/include/sys/queue.h	175;"	d
+SLIST_INSERT_HEAD	/usr/include/sys/queue.h	180;"	d
+SLIST_NEXT	/usr/include/sys/queue.h	220;"	d
+SLIST_REMOVE	/usr/include/sys/queue.h	189;"	d
+SLIST_REMOVE_HEAD	/usr/include/sys/queue.h	185;"	d
+SS	/usr/include/sys/reg.h	48;"	d
+SS	/usr/include/sys/reg.h	76;"	d
+STAILQ_CONCAT	/usr/include/sys/queue.h	295;"	d
+STAILQ_EMPTY	/usr/include/sys/queue.h	306;"	d
+STAILQ_ENTRY	/usr/include/sys/queue.h	235;"	d
+STAILQ_FIRST	/usr/include/sys/queue.h	307;"	d
+STAILQ_FOREACH	/usr/include/sys/queue.h	290;"	d
+STAILQ_FOREACH_SAFE	/usr/include/sys/queue.h	310;"	d
+STAILQ_HEAD	/usr/include/sys/queue.h	226;"	d
+STAILQ_HEAD_INITIALIZER	/usr/include/sys/queue.h	232;"	d
+STAILQ_INIT	/usr/include/sys/queue.h	243;"	d
+STAILQ_INSERT_AFTER	/usr/include/sys/queue.h	266;"	d
+STAILQ_INSERT_HEAD	/usr/include/sys/queue.h	248;"	d
+STAILQ_INSERT_TAIL	/usr/include/sys/queue.h	254;"	d
+STAILQ_LAST	/usr/include/sys/queue.h	260;"	d
+STAILQ_NEXT	/usr/include/sys/queue.h	308;"	d
+STAILQ_REMOVE	/usr/include/sys/queue.h	277;"	d
+STAILQ_REMOVE_HEAD	/usr/include/sys/queue.h	272;"	d
+STICKY_TIMEOUTS	/usr/include/sys/personality.h	/^    STICKY_TIMEOUTS = 0x4000000,$/;"	e	enum:__anon15
+SUBCMDMASK	/usr/include/sys/quota.h	99;"	d
+SUBCMDSHIFT	/usr/include/sys/quota.h	100;"	d
+SUN_LEN	/usr/include/sys/un.h	41;"	d
+SWAP_FLAG_DISCARD	/usr/include/sys/swap.h	31;"	d
+SWAP_FLAG_PREFER	/usr/include/sys/swap.h	28;"	d
+SWAP_FLAG_PRIO_MASK	/usr/include/sys/swap.h	29;"	d
+SWAP_FLAG_PRIO_SHIFT	/usr/include/sys/swap.h	30;"	d
+SYS_NMLN	/usr/include/sys/utsname.h	77;"	d
+S_BLKSIZE	/usr/include/sys/stat.h	205;"	d
+S_IEXEC	/usr/include/sys/stat.h	183;"	d
+S_IFBLK	/usr/include/sys/stat.h	113;"	d
+S_IFCHR	/usr/include/sys/stat.h	112;"	d
+S_IFDIR	/usr/include/sys/stat.h	111;"	d
+S_IFIFO	/usr/include/sys/stat.h	116;"	d
+S_IFLNK	/usr/include/sys/stat.h	119;"	d
+S_IFMT	/usr/include/sys/stat.h	110;"	d
+S_IFREG	/usr/include/sys/stat.h	114;"	d
+S_IFSOCK	/usr/include/sys/stat.h	123;"	d
+S_IREAD	/usr/include/sys/stat.h	181;"	d
+S_IRGRP	/usr/include/sys/stat.h	186;"	d
+S_IROTH	/usr/include/sys/stat.h	192;"	d
+S_IRUSR	/usr/include/sys/stat.h	174;"	d
+S_IRWXG	/usr/include/sys/stat.h	190;"	d
+S_IRWXO	/usr/include/sys/stat.h	196;"	d
+S_IRWXU	/usr/include/sys/stat.h	178;"	d
+S_ISBLK	/usr/include/sys/stat.h	133;"	d
+S_ISCHR	/usr/include/sys/stat.h	132;"	d
+S_ISDIR	/usr/include/sys/stat.h	131;"	d
+S_ISFIFO	/usr/include/sys/stat.h	136;"	d
+S_ISGID	/usr/include/sys/stat.h	167;"	d
+S_ISLNK	/usr/include/sys/stat.h	139;"	d
+S_ISLNK	/usr/include/sys/stat.h	143;"	d
+S_ISREG	/usr/include/sys/stat.h	134;"	d
+S_ISSOCK	/usr/include/sys/stat.h	148;"	d
+S_ISUID	/usr/include/sys/stat.h	166;"	d
+S_ISVTX	/usr/include/sys/stat.h	171;"	d
+S_IWGRP	/usr/include/sys/stat.h	187;"	d
+S_IWOTH	/usr/include/sys/stat.h	193;"	d
+S_IWRITE	/usr/include/sys/stat.h	182;"	d
+S_IWUSR	/usr/include/sys/stat.h	175;"	d
+S_IXGRP	/usr/include/sys/stat.h	188;"	d
+S_IXOTH	/usr/include/sys/stat.h	194;"	d
+S_IXUSR	/usr/include/sys/stat.h	176;"	d
+S_TYPEISMQ	/usr/include/sys/stat.h	158;"	d
+S_TYPEISSEM	/usr/include/sys/stat.h	159;"	d
+S_TYPEISSHM	/usr/include/sys/stat.h	160;"	d
+TAILQ_CONCAT	/usr/include/sys/queue.h	482;"	d
+TAILQ_EMPTY	/usr/include/sys/queue.h	494;"	d
+TAILQ_ENTRY	/usr/include/sys/queue.h	408;"	d
+TAILQ_FIRST	/usr/include/sys/queue.h	495;"	d
+TAILQ_FOREACH	/usr/include/sys/queue.h	461;"	d
+TAILQ_FOREACH_REVERSE	/usr/include/sys/queue.h	471;"	d
+TAILQ_FOREACH_REVERSE_SAFE	/usr/include/sys/queue.h	476;"	d
+TAILQ_FOREACH_SAFE	/usr/include/sys/queue.h	466;"	d
+TAILQ_HEAD	/usr/include/sys/queue.h	398;"	d
+TAILQ_HEAD_INITIALIZER	/usr/include/sys/queue.h	400;"	d
+TAILQ_INIT	/usr/include/sys/queue.h	413;"	d
+TAILQ_INSERT_AFTER	/usr/include/sys/queue.h	435;"	d
+TAILQ_INSERT_BEFORE	/usr/include/sys/queue.h	445;"	d
+TAILQ_INSERT_HEAD	/usr/include/sys/queue.h	418;"	d
+TAILQ_INSERT_TAIL	/usr/include/sys/queue.h	428;"	d
+TAILQ_LAST	/usr/include/sys/queue.h	498;"	d
+TAILQ_NEXT	/usr/include/sys/queue.h	496;"	d
+TAILQ_PREV	/usr/include/sys/queue.h	500;"	d
+TAILQ_REMOVE	/usr/include/sys/queue.h	452;"	d
+TFD_CLOEXEC	/usr/include/sys/timerfd.h	/^    TFD_CLOEXEC = 02000000,$/;"	e	enum:__anon6
+TFD_CLOEXEC	/usr/include/sys/timerfd.h	29;"	d
+TFD_NONBLOCK	/usr/include/sys/timerfd.h	/^    TFD_NONBLOCK = 04000$/;"	e	enum:__anon6
+TFD_NONBLOCK	/usr/include/sys/timerfd.h	31;"	d
+TFD_TIMER_ABSTIME	/usr/include/sys/timerfd.h	/^    TFD_TIMER_ABSTIME = 1 << 0$/;"	e	enum:__anon7
+TFD_TIMER_ABSTIME	/usr/include/sys/timerfd.h	39;"	d
+TIMESPEC_TO_TIMEVAL	/usr/include/sys/time.h	47;"	d
+TIMEVAL_TO_TIMESPEC	/usr/include/sys/time.h	43;"	d
+TIME_BAD	/usr/include/sys/timex.h	51;"	d
+TIME_DEL	/usr/include/sys/timex.h	47;"	d
+TIME_ERROR	/usr/include/sys/timex.h	50;"	d
+TIME_INS	/usr/include/sys/timex.h	46;"	d
+TIME_OK	/usr/include/sys/timex.h	45;"	d
+TIME_OOP	/usr/include/sys/timex.h	48;"	d
+TIME_WAIT	/usr/include/sys/timex.h	49;"	d
+TTYDEFCHARS	/usr/include/sys/ttydefaults.h	99;"	d
+TTYDEF_CFLAG	/usr/include/sys/ttydefaults.h	49;"	d
+TTYDEF_IFLAG	/usr/include/sys/ttydefaults.h	46;"	d
+TTYDEF_LFLAG	/usr/include/sys/ttydefaults.h	48;"	d
+TTYDEF_OFLAG	/usr/include/sys/ttydefaults.h	47;"	d
+TTYDEF_SPEED	/usr/include/sys/ttydefaults.h	50;"	d
+UESP	/usr/include/sys/reg.h	75;"	d
+UMOUNT_NOFOLLOW	/usr/include/sys/mount.h	/^  UMOUNT_NOFOLLOW = 8		\/* Don't follow symlink on umount.  *\/$/;"	e	enum:__anon13
+UMOUNT_NOFOLLOW	/usr/include/sys/mount.h	129;"	d
+UPAGES	/usr/include/sys/user.h	171;"	d
+USRQUOTA	/usr/include/sys/quota.h	75;"	d
+VTIMES_UNITS_PER_SECOND	/usr/include/sys/vtimes.h	30;"	d
+WAIT_ANY	/usr/include/sys/wait.h	120;"	d
+WAIT_MYPGRP	/usr/include/sys/wait.h	121;"	d
+WCOREDUMP	/usr/include/sys/wait.h	95;"	d
+WCOREFLAG	/usr/include/sys/wait.h	94;"	d
+WEXITSTATUS	/usr/include/sys/wait.h	82;"	d
+WHOLE_SECONDS	/usr/include/sys/personality.h	/^    WHOLE_SECONDS = 0x2000000,$/;"	e	enum:__anon15
+WIFCONTINUED	/usr/include/sys/wait.h	89;"	d
+WIFEXITED	/usr/include/sys/wait.h	85;"	d
+WIFSIGNALED	/usr/include/sys/wait.h	86;"	d
+WIFSTOPPED	/usr/include/sys/wait.h	87;"	d
+WSTOPSIG	/usr/include/sys/wait.h	84;"	d
+WTERMSIG	/usr/include/sys/wait.h	83;"	d
+W_EXITCODE	/usr/include/sys/wait.h	96;"	d
+W_STOPCODE	/usr/include/sys/wait.h	97;"	d
+XATTR_CREATE	/usr/include/sys/xattr.h	/^  XATTR_CREATE = 1,	\/* set value, fail if attr already exists.  *\/$/;"	e	enum:__anon10
+XATTR_CREATE	/usr/include/sys/xattr.h	33;"	d
+XATTR_REPLACE	/usr/include/sys/xattr.h	/^  XATTR_REPLACE = 2	\/* set value, fail if attr does not exist.  *\/$/;"	e	enum:__anon10
+XATTR_REPLACE	/usr/include/sys/xattr.h	35;"	d
+_IOT_mtconfiginfo	/usr/include/sys/mtio.h	193;"	d
+_IOT_mtget	/usr/include/sys/mtio.h	97;"	d
+_IOT_mtop	/usr/include/sys/mtio.h	36;"	d
+_IOT_mtpos	/usr/include/sys/mtio.h	162;"	d
+_LINUX_KERNEL_H	/usr/include/sys/sysctl.h	27;"	d
+_LINUX_KERNEL_H	/usr/include/sys/sysctl.h	47;"	d
+_LINUX_LIST_H	/usr/include/sys/sysctl.h	35;"	d
+_LINUX_LIST_H	/usr/include/sys/sysctl.h	55;"	d
+_LINUX_QUOTA_VERSION	/usr/include/sys/quota.h	46;"	d
+_LINUX_TYPES_H	/usr/include/sys/kd.h	24;"	d
+_LINUX_TYPES_H	/usr/include/sys/kd.h	31;"	d
+_LINUX_TYPES_H	/usr/include/sys/sysctl.h	31;"	d
+_LINUX_TYPES_H	/usr/include/sys/sysctl.h	51;"	d
+_MKNOD_VER	/usr/include/sys/stat.h	396;"	d
+_PROFIL_H	/usr/include/sys/profil.h	20;"	d
+_STAT_VER	/usr/include/sys/stat.h	393;"	d
+_SYSCALL_H	/usr/include/sys/syscall.h	20;"	d
+_SYS_ACCT_H	/usr/include/sys/acct.h	20;"	d
+_SYS_CAPABILITY_H	/usr/include/sys/capability.h	11;"	d
+_SYS_CDEFS_H	/usr/include/sys/cdefs.h	21;"	d
+_SYS_DEBUGREG_H	/usr/include/sys/debugreg.h	20;"	d
+_SYS_DIR_H	/usr/include/sys/dir.h	20;"	d
+_SYS_ELF_H	/usr/include/sys/elf.h	20;"	d
+_SYS_EPOLL_H	/usr/include/sys/epoll.h	20;"	d
+_SYS_EVENTFD_H	/usr/include/sys/eventfd.h	20;"	d
+_SYS_FANOTIFY_H	/usr/include/sys/fanotify.h	20;"	d
+_SYS_FILE_H	/usr/include/sys/file.h	20;"	d
+_SYS_FSUID_H	/usr/include/sys/fsuid.h	20;"	d
+_SYS_GMON_H	/usr/include/sys/gmon.h	33;"	d
+_SYS_GMON_OUT_H	/usr/include/sys/gmon_out.h	29;"	d
+_SYS_INOTIFY_H	/usr/include/sys/inotify.h	20;"	d
+_SYS_IOCTL_H	/usr/include/sys/ioctl.h	20;"	d
+_SYS_IO_H	/usr/include/sys/io.h	20;"	d
+_SYS_IPC_H	/usr/include/sys/ipc.h	20;"	d
+_SYS_KDAEMON_H	/usr/include/sys/kdaemon.h	23;"	d
+_SYS_KD_H	/usr/include/sys/kd.h	20;"	d
+_SYS_KLOG_H	/usr/include/sys/klog.h	21;"	d
+_SYS_MMAN_H	/usr/include/sys/mman.h	21;"	d
+_SYS_MOUNT_H	/usr/include/sys/mount.h	23;"	d
+_SYS_MSG_H	/usr/include/sys/msg.h	21;"	d
+_SYS_MTIO_H	/usr/include/sys/mtio.h	23;"	d
+_SYS_PARAM_H	/usr/include/sys/param.h	21;"	d
+_SYS_PCI_H	/usr/include/sys/pci.h	20;"	d
+_SYS_PERM_H	/usr/include/sys/perm.h	21;"	d
+_SYS_PERSONALITY_H	/usr/include/sys/personality.h	22;"	d
+_SYS_POLL_H	/usr/include/sys/poll.h	21;"	d
+_SYS_PRCTL_H	/usr/include/sys/prctl.h	20;"	d
+_SYS_PROCFS_H	/usr/include/sys/procfs.h	20;"	d
+_SYS_PTRACE_H	/usr/include/sys/ptrace.h	21;"	d
+_SYS_QUEUE_H_	/usr/include/sys/queue.h	33;"	d
+_SYS_QUOTA_H	/usr/include/sys/quota.h	36;"	d
+_SYS_RAW_H	/usr/include/sys/raw.h	20;"	d
+_SYS_REBOOT_H	/usr/include/sys/reboot.h	23;"	d
+_SYS_REG_H	/usr/include/sys/reg.h	20;"	d
+_SYS_RESOURCE_H	/usr/include/sys/resource.h	20;"	d
+_SYS_SELECT_H	/usr/include/sys/select.h	23;"	d
+_SYS_SEM_H	/usr/include/sys/sem.h	20;"	d
+_SYS_SENDFILE_H	/usr/include/sys/sendfile.h	21;"	d
+_SYS_SHM_H	/usr/include/sys/shm.h	20;"	d
+_SYS_SIGNALFD_H	/usr/include/sys/signalfd.h	20;"	d
+_SYS_SOCKET_H	/usr/include/sys/socket.h	22;"	d
+_SYS_STATFS_H	/usr/include/sys/statfs.h	21;"	d
+_SYS_STATVFS_H	/usr/include/sys/statvfs.h	21;"	d
+_SYS_STAT_H	/usr/include/sys/stat.h	25;"	d
+_SYS_SWAP_H	/usr/include/sys/swap.h	22;"	d
+_SYS_SYSCTL_H	/usr/include/sys/sysctl.h	20;"	d
+_SYS_SYSINFO_H	/usr/include/sys/sysinfo.h	20;"	d
+_SYS_SYSLOG_H	/usr/include/sys/syslog.h	33;"	d
+_SYS_SYSMACROS_H	/usr/include/sys/sysmacros.h	22;"	d
+_SYS_TERMIOS_H	/usr/include/sys/termios.h	2;"	d
+_SYS_TIMEB_H	/usr/include/sys/timeb.h	20;"	d
+_SYS_TIMERFD_H	/usr/include/sys/timerfd.h	20;"	d
+_SYS_TIMES_H	/usr/include/sys/times.h	24;"	d
+_SYS_TIMEX_H	/usr/include/sys/timex.h	20;"	d
+_SYS_TIME_H	/usr/include/sys/time.h	21;"	d
+_SYS_TTYCHARS_H	/usr/include/sys/ttychars.h	38;"	d
+_SYS_TTYDEFAULTS_H_	/usr/include/sys/ttydefaults.h	41;"	d
+_SYS_TYPES_H	/usr/include/sys/types.h	24;"	d
+_SYS_UCONTEXT_H	/usr/include/sys/ucontext.h	20;"	d
+_SYS_UIO_H	/usr/include/sys/uio.h	20;"	d
+_SYS_UN_H	/usr/include/sys/un.h	20;"	d
+_SYS_USER_H	/usr/include/sys/user.h	20;"	d
+_SYS_USTAT_H	/usr/include/sys/ustat.h	25;"	d
+_SYS_UTSNAME_H	/usr/include/sys/utsname.h	24;"	d
+_SYS_VLIMIT_H	/usr/include/sys/vlimit.h	20;"	d
+_SYS_VM86_H	/usr/include/sys/vm86.h	21;"	d
+_SYS_VTIMES_H	/usr/include/sys/vtimes.h	20;"	d
+_SYS_WAIT_H	/usr/include/sys/wait.h	25;"	d
+_SYS_XATTR_H	/usr/include/sys/xattr.h	20;"	d
+_TAILQ_ENTRY	/usr/include/sys/queue.h	403;"	d
+_TAILQ_HEAD	/usr/include/sys/queue.h	393;"	d
+_UTSNAME_MACHINE_LENGTH	/usr/include/sys/utsname.h	45;"	d
+_UTSNAME_NODENAME_LENGTH	/usr/include/sys/utsname.h	36;"	d
+_UTSNAME_RELEASE_LENGTH	/usr/include/sys/utsname.h	39;"	d
+_UTSNAME_SYSNAME_LENGTH	/usr/include/sys/utsname.h	33;"	d
+_UTSNAME_VERSION_LENGTH	/usr/include/sys/utsname.h	42;"	d
+__ASMNAME	/usr/include/sys/cdefs.h	185;"	d
+__ASMNAME2	/usr/include/sys/cdefs.h	186;"	d
+__BEGIN_DECLS	/usr/include/sys/cdefs.h	90;"	d
+__BEGIN_DECLS	/usr/include/sys/cdefs.h	93;"	d
+__BEGIN_NAMESPACE_C99	/usr/include/sys/cdefs.h	107;"	d
+__BEGIN_NAMESPACE_C99	/usr/include/sys/cdefs.h	117;"	d
+__BEGIN_NAMESPACE_STD	/usr/include/sys/cdefs.h	104;"	d
+__BEGIN_NAMESPACE_STD	/usr/include/sys/cdefs.h	114;"	d
+__BIT_TYPES_DEFINED__	/usr/include/sys/types.h	212;"	d
+__CONCAT	/usr/include/sys/cdefs.h	80;"	d
+__CONST_SOCKADDR_ARG	/usr/include/sys/socket.h	/^	      } __CONST_SOCKADDR_ARG __attribute__ ((__transparent_union__));$/;"	t	typeref:union:__anon20
+__CONST_SOCKADDR_ARG	/usr/include/sys/socket.h	72;"	d
+__END_DECLS	/usr/include/sys/cdefs.h	91;"	d
+__END_DECLS	/usr/include/sys/cdefs.h	94;"	d
+__END_NAMESPACE_C99	/usr/include/sys/cdefs.h	108;"	d
+__END_NAMESPACE_C99	/usr/include/sys/cdefs.h	118;"	d
+__END_NAMESPACE_STD	/usr/include/sys/cdefs.h	105;"	d
+__END_NAMESPACE_STD	/usr/include/sys/cdefs.h	115;"	d
+__FDELT	/usr/include/sys/select.h	59;"	d
+__FDELT	/usr/include/sys/select.h	63;"	d
+__FDMASK	/usr/include/sys/select.h	60;"	d
+__FDMASK	/usr/include/sys/select.h	64;"	d
+__FDS_BITS	/usr/include/sys/select.h	73;"	d
+__LDBL_COMPAT	/usr/include/sys/cdefs.h	356;"	d
+__LDBL_REDIR	/usr/include/sys/cdefs.h	359;"	d
+__LDBL_REDIR	/usr/include/sys/cdefs.h	376;"	d
+__LDBL_REDIR1	/usr/include/sys/cdefs.h	358;"	d
+__LDBL_REDIR1	/usr/include/sys/cdefs.h	375;"	d
+__LDBL_REDIR1_DECL	/usr/include/sys/cdefs.h	364;"	d
+__LDBL_REDIR1_NTH	/usr/include/sys/cdefs.h	361;"	d
+__LDBL_REDIR1_NTH	/usr/include/sys/cdefs.h	377;"	d
+__LDBL_REDIR_DECL	/usr/include/sys/cdefs.h	366;"	d
+__LDBL_REDIR_DECL	/usr/include/sys/cdefs.h	379;"	d
+__LDBL_REDIR_NTH	/usr/include/sys/cdefs.h	362;"	d
+__LDBL_REDIR_NTH	/usr/include/sys/cdefs.h	378;"	d
+__LINUX_COMPILER_H	/usr/include/sys/sysctl.h	39;"	d
+__LINUX_COMPILER_H	/usr/include/sys/sysctl.h	59;"	d
+__NFDBITS	/usr/include/sys/select.h	58;"	d
+__NFDBITS	/usr/include/sys/select.h	62;"	d
+__NTH	/usr/include/sys/cdefs.h	48;"	d
+__NTH	/usr/include/sys/cdefs.h	52;"	d
+__NTH	/usr/include/sys/cdefs.h	55;"	d
+__NTH	/usr/include/sys/cdefs.h	64;"	d
+__P	/usr/include/sys/cdefs.h	36;"	d
+__P	/usr/include/sys/cdefs.h	74;"	d
+__PMT	/usr/include/sys/cdefs.h	37;"	d
+__PMT	/usr/include/sys/cdefs.h	75;"	d
+__REDIRECT	/usr/include/sys/cdefs.h	177;"	d
+__REDIRECT_LDBL	/usr/include/sys/cdefs.h	368;"	d
+__REDIRECT_LDBL	/usr/include/sys/cdefs.h	381;"	d
+__REDIRECT_NTH	/usr/include/sys/cdefs.h	179;"	d
+__REDIRECT_NTH	/usr/include/sys/cdefs.h	182;"	d
+__REDIRECT_NTH	/usr/include/sys/resource.h	/^extern int __REDIRECT_NTH (getrlimit, (__rlimit_resource_t __resource,$/;"	p	signature:(getrlimit, (__rlimit_resource_t __resource, struct rlimit *__rlimits), getrlimit64)
+__REDIRECT_NTH	/usr/include/sys/resource.h	/^extern int __REDIRECT_NTH (setrlimit, (__rlimit_resource_t __resource,$/;"	p	signature:(setrlimit, (__rlimit_resource_t __resource, __const struct rlimit *__rlimits), setrlimit64)
+__REDIRECT_NTH	/usr/include/sys/timex.h	/^extern int __REDIRECT_NTH (ntp_gettime, (struct ntptimeval *__ntv),$/;"	p	signature:(ntp_gettime, (struct ntptimeval *__ntv), ntp_gettimex)
+__REDIRECT_NTH_LDBL	/usr/include/sys/cdefs.h	370;"	d
+__REDIRECT_NTH_LDBL	/usr/include/sys/cdefs.h	382;"	d
+__SOCKADDR_ALLTYPES	/usr/include/sys/socket.h	76;"	d
+__SOCKADDR_ARG	/usr/include/sys/socket.h	/^	      } __SOCKADDR_ARG __attribute__ ((__transparent_union__));$/;"	t	typeref:union:__anon19
+__SOCKADDR_ARG	/usr/include/sys/socket.h	71;"	d
+__SOCKADDR_COMMON	/usr/include/sys/un.h	/^    __SOCKADDR_COMMON (sun_);$/;"	p	struct:sockaddr_un	access:public	signature:(sun_)
+__SOCKADDR_ONETYPE	/usr/include/sys/socket.h	91;"	d
+__SOCKADDR_ONETYPE	/usr/include/sys/socket.h	94;"	d
+__SOCKADDR_ONETYPE	/usr/include/sys/socket.h	95;"	d
+__SOCKADDR_ONETYPE	/usr/include/sys/socket.h	98;"	d
+__STRING	/usr/include/sys/cdefs.h	81;"	d
+__SYS_ACL_H	/usr/include/sys/acl.h	22;"	d
+__S_ISTYPE	/usr/include/sys/stat.h	129;"	d
+__THROW	/usr/include/sys/cdefs.h	47;"	d
+__THROW	/usr/include/sys/cdefs.h	51;"	d
+__THROW	/usr/include/sys/cdefs.h	54;"	d
+__THROW	/usr/include/sys/cdefs.h	63;"	d
+__THROW	/usr/include/sys/signalfd.h	/^  __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	/usr/include/sys/stat.h	/^		       struct stat64 *__stat_buf) __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	/usr/include/sys/stat.h	/^		      struct stat64 *__stat_buf) __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	/usr/include/sys/stat.h	/^		     __dev_t *__dev) __THROW __nonnull ((2, 4));$/;"	p	signature:(2, 4)
+__THROW	/usr/include/sys/stat.h	/^		     struct stat *__stat_buf) __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	/usr/include/sys/stat.h	/^		    __dev_t __dev) __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	/usr/include/sys/stat.h	/^		    struct stat *__stat_buf) __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	/usr/include/sys/stat.h	/^		   struct stat64 *__restrict __buf) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	/usr/include/sys/stat.h	/^		  struct stat *__restrict __buf) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	/usr/include/sys/stat.h	/^		 struct stat *__restrict __buf) __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	/usr/include/sys/stat.h	/^     __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/sys/stat.h	/^     __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	/usr/include/sys/stat.h	/^     __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	/usr/include/sys/stat.h	/^     __THROW __nonnull ((2, 3));$/;"	p	signature:(2, 3)
+__THROW	/usr/include/sys/stat.h	/^     __THROW __nonnull ((3));$/;"	p	signature:(3)
+__THROW	/usr/include/sys/stat.h	/^     __THROW __nonnull ((3, 4));$/;"	p	signature:(3, 4)
+__THROW	/usr/include/sys/stat.h	/^     __THROW __nonnull ((3, 5));$/;"	p	signature:(3, 5)
+__THROW	/usr/include/sys/stat.h	/^extern int fstat (int __fd, struct stat *__buf) __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	/usr/include/sys/stat.h	/^extern int fstat64 (int __fd, struct stat64 *__buf) __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	/usr/include/sys/statfs.h	/^     __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	/usr/include/sys/statfs.h	/^     __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	/usr/include/sys/statvfs.h	/^     __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	/usr/include/sys/statvfs.h	/^     __THROW __nonnull ((2));$/;"	p	signature:(2)
+__THROW	/usr/include/sys/time.h	/^			 __timezone_ptr_t __tz) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/sys/time.h	/^     __THROW __nonnull ((1));$/;"	p	signature:(1)
+__USING_NAMESPACE_C99	/usr/include/sys/cdefs.h	109;"	d
+__USING_NAMESPACE_C99	/usr/include/sys/cdefs.h	119;"	d
+__USING_NAMESPACE_STD	/usr/include/sys/cdefs.h	106;"	d
+__USING_NAMESPACE_STD	/usr/include/sys/cdefs.h	116;"	d
+__WAIT_INT	/usr/include/sys/wait.h	46;"	d
+__WAIT_STATUS	/usr/include/sys/wait.h	59;"	d
+__WAIT_STATUS_DEFN	/usr/include/sys/wait.h	60;"	d
+__always_inline	/usr/include/sys/cdefs.h	287;"	d
+__always_inline	/usr/include/sys/cdefs.h	289;"	d
+__anon2::__reserved1	/usr/include/sys/ucontext.h	/^    unsigned long __reserved1 [8];$/;"	m	struct:__anon2	access:public
+__anon2::fpregs	/usr/include/sys/ucontext.h	/^    fpregset_t fpregs;$/;"	m	struct:__anon2	access:public
+__anon2::gregs	/usr/include/sys/ucontext.h	/^    gregset_t gregs;$/;"	m	struct:__anon2	access:public
+__anon4::cr2	/usr/include/sys/ucontext.h	/^    unsigned long int cr2;$/;"	m	struct:__anon4	access:public
+__anon4::fpregs	/usr/include/sys/ucontext.h	/^    fpregset_t fpregs;$/;"	m	struct:__anon4	access:public
+__anon4::gregs	/usr/include/sys/ucontext.h	/^    gregset_t gregs;$/;"	m	struct:__anon4	access:public
+__anon4::oldmask	/usr/include/sys/ucontext.h	/^    unsigned long int oldmask;$/;"	m	struct:__anon4	access:public
+__anon5::fds_bits	/usr/include/sys/select.h	/^    __fd_mask fds_bits[__FD_SETSIZE \/ __NFDBITS];$/;"	m	struct:__anon5	access:public
+__attribute__	/usr/include/sys/cdefs.h	200;"	d
+__attribute_deprecated__	/usr/include/sys/cdefs.h	234;"	d
+__attribute_deprecated__	/usr/include/sys/cdefs.h	236;"	d
+__attribute_format_arg__	/usr/include/sys/cdefs.h	246;"	d
+__attribute_format_arg__	/usr/include/sys/cdefs.h	248;"	d
+__attribute_format_strfmon__	/usr/include/sys/cdefs.h	256;"	d
+__attribute_format_strfmon__	/usr/include/sys/cdefs.h	259;"	d
+__attribute_malloc__	/usr/include/sys/cdefs.h	207;"	d
+__attribute_malloc__	/usr/include/sys/cdefs.h	209;"	d
+__attribute_noinline__	/usr/include/sys/cdefs.h	226;"	d
+__attribute_noinline__	/usr/include/sys/cdefs.h	229;"	d
+__attribute_pure__	/usr/include/sys/cdefs.h	216;"	d
+__attribute_pure__	/usr/include/sys/cdefs.h	218;"	d
+__attribute_used__	/usr/include/sys/cdefs.h	225;"	d
+__attribute_used__	/usr/include/sys/cdefs.h	228;"	d
+__attribute_warn_unused_result__	/usr/include/sys/cdefs.h	273;"	d
+__attribute_warn_unused_result__	/usr/include/sys/cdefs.h	279;"	d
+__bb	/usr/include/sys/gmon.h	/^struct __bb$/;"	s
+__bb::addresses	/usr/include/sys/gmon.h	/^  const unsigned long	*addresses;$/;"	m	struct:__bb	access:public
+__bb::counts	/usr/include/sys/gmon.h	/^  long			*counts;$/;"	m	struct:__bb	access:public
+__bb::filename	/usr/include/sys/gmon.h	/^  const char		*filename;$/;"	m	struct:__bb	access:public
+__bb::ncounts	/usr/include/sys/gmon.h	/^  long			ncounts;$/;"	m	struct:__bb	access:public
+__bb::next	/usr/include/sys/gmon.h	/^  struct __bb		*next;$/;"	m	struct:__bb	typeref:struct:__bb::__bb	access:public
+__bb::zero_word	/usr/include/sys/gmon.h	/^  long			zero_word;$/;"	m	struct:__bb	access:public
+__blkcnt_t_defined	/usr/include/sys/stat.h	96;"	d
+__blkcnt_t_defined	/usr/include/sys/types.h	237;"	d
+__blkcnt_t_defined	/usr/include/sys/types.h	250;"	d
+__blksize_t_defined	/usr/include/sys/stat.h	101;"	d
+__blksize_t_defined	/usr/include/sys/types.h	230;"	d
+__bos	/usr/include/sys/cdefs.h	132;"	d
+__bos0	/usr/include/sys/cdefs.h	133;"	d
+__bounded	/usr/include/sys/cdefs.h	125;"	d
+__const	/usr/include/sys/cdefs.h	66;"	d
+__daddr_t_defined	/usr/include/sys/types.h	118;"	d
+__dev_t_defined	/usr/include/sys/stat.h	47;"	d
+__dev_t_defined	/usr/include/sys/types.h	62;"	d
+__domainname	/usr/include/sys/utsname.h	/^    char __domainname[_UTSNAME_DOMAIN_LENGTH];$/;"	m	struct:utsname	access:public
+__errordecl	/usr/include/sys/cdefs.h	139;"	d
+__errordecl	/usr/include/sys/cdefs.h	144;"	d
+__extension__	/usr/include/sys/cdefs.h	327;"	d
+__extern_always_inline	/usr/include/sys/cdefs.h	298;"	d
+__extern_always_inline	/usr/include/sys/cdefs.h	301;"	d
+__extern_always_inline	/usr/include/sys/cdefs.h	307;"	d
+__extern_always_inline	/usr/include/sys/cdefs.h	310;"	d
+__extern_inline	/usr/include/sys/cdefs.h	296;"	d
+__extern_inline	/usr/include/sys/cdefs.h	305;"	d
+__fd_mask	/usr/include/sys/select.h	/^typedef long int __fd_mask;$/;"	t
+__flexarr	/usr/include/sys/cdefs.h	150;"	d
+__flexarr	/usr/include/sys/cdefs.h	153;"	d
+__flexarr	/usr/include/sys/cdefs.h	156;"	d
+__flexarr	/usr/include/sys/cdefs.h	159;"	d
+__flexarr	/usr/include/sys/inotify.h	/^  char name __flexarr;	\/* Name.  *\/$/;"	m	struct:inotify_event	access:public
+__fpregs_mem	/usr/include/sys/ucontext.h	/^    struct _libc_fpstate __fpregs_mem;$/;"	m	struct:ucontext	typeref:struct:ucontext::_libc_fpstate	access:public
+__fsblkcnt_t_defined	/usr/include/sys/statvfs.h	31;"	d
+__fsblkcnt_t_defined	/usr/include/sys/statvfs.h	40;"	d
+__fsblkcnt_t_defined	/usr/include/sys/types.h	241;"	d
+__fsblkcnt_t_defined	/usr/include/sys/types.h	254;"	d
+__fsfilcnt_t_defined	/usr/include/sys/statvfs.h	35;"	d
+__fsfilcnt_t_defined	/usr/include/sys/statvfs.h	44;"	d
+__fsfilcnt_t_defined	/usr/include/sys/types.h	245;"	d
+__fsfilcnt_t_defined	/usr/include/sys/types.h	258;"	d
+__fxstat	/usr/include/sys/stat.h	427;"	d
+__gid_t_defined	/usr/include/sys/ipc.h	39;"	d
+__gid_t_defined	/usr/include/sys/stat.h	52;"	d
+__gid_t_defined	/usr/include/sys/types.h	67;"	d
+__id_t_defined	/usr/include/sys/resource.h	29;"	d
+__id_t_defined	/usr/include/sys/types.h	106;"	d
+__inline	/usr/include/sys/cdefs.h	61;"	d
+__ino64_t_defined	/usr/include/sys/types.h	57;"	d
+__ino_t_defined	/usr/include/sys/stat.h	61;"	d
+__ino_t_defined	/usr/include/sys/types.h	53;"	d
+__int8_t_defined	/usr/include/sys/types.h	162;"	d
+__int8_t_defined	/usr/include/sys/types.h	194;"	d
+__intN_t	/usr/include/sys/types.h	188;"	d
+__itimer_which	/usr/include/sys/time.h	/^enum __itimer_which$/;"	g
+__itimer_which_t	/usr/include/sys/time.h	/^typedef enum __itimer_which __itimer_which_t;$/;"	t	typeref:enum:__itimer_which
+__itimer_which_t	/usr/include/sys/time.h	/^typedef int __itimer_which_t;$/;"	t
+__key_t_defined	/usr/include/sys/ipc.h	49;"	d
+__key_t_defined	/usr/include/sys/types.h	124;"	d
+__long_double_t	/usr/include/sys/cdefs.h	85;"	d
+__lxstat	/usr/include/sys/stat.h	429;"	d
+__mode_t_defined	/usr/include/sys/ipc.h	44;"	d
+__mode_t_defined	/usr/include/sys/mman.h	39;"	d
+__mode_t_defined	/usr/include/sys/stat.h	66;"	d
+__mode_t_defined	/usr/include/sys/types.h	72;"	d
+__need___va_list	/usr/include/sys/syslog.h	36;"	d
+__need_clock_t	/usr/include/sys/times.h	28;"	d
+__need_clock_t	/usr/include/sys/types.h	128;"	d
+__need_clockid_t	/usr/include/sys/types.h	132;"	d
+__need_siginfo_t	/usr/include/sys/wait.h	142;"	d
+__need_sigset_t	/usr/include/sys/signalfd.h	22;"	d
+__need_size_t	/usr/include/sys/mman.h	25;"	d
+__need_size_t	/usr/include/sys/msg.h	25;"	d
+__need_size_t	/usr/include/sys/sem.h	24;"	d
+__need_size_t	/usr/include/sys/shm.h	24;"	d
+__need_size_t	/usr/include/sys/socket.h	29;"	d
+__need_size_t	/usr/include/sys/sysctl.h	23;"	d
+__need_size_t	/usr/include/sys/types.h	146;"	d
+__need_time_t	/usr/include/sys/acct.h	25;"	d
+__need_time_t	/usr/include/sys/msg.h	35;"	d
+__need_time_t	/usr/include/sys/select.h	42;"	d
+__need_time_t	/usr/include/sys/shm.h	34;"	d
+__need_time_t	/usr/include/sys/stat.h	34;"	d
+__need_time_t	/usr/include/sys/time.h	26;"	d
+__need_time_t	/usr/include/sys/timeb.h	24;"	d
+__need_time_t	/usr/include/sys/types.h	130;"	d
+__need_timer_t	/usr/include/sys/types.h	131;"	d
+__need_timespec	/usr/include/sys/poll.h	31;"	d
+__need_timespec	/usr/include/sys/select.h	43;"	d
+__need_timespec	/usr/include/sys/sem.h	34;"	d
+__need_timespec	/usr/include/sys/stat.h	37;"	d
+__need_timeval	/usr/include/sys/select.h	45;"	d
+__need_timeval	/usr/include/sys/time.h	28;"	d
+__nlink_t_defined	/usr/include/sys/stat.h	71;"	d
+__nlink_t_defined	/usr/include/sys/types.h	77;"	d
+__nonnull	/usr/include/sys/cdefs.h	265;"	d
+__nonnull	/usr/include/sys/cdefs.h	267;"	d
+__off64_t_defined	/usr/include/sys/types.h	95;"	d
+__off_t_defined	/usr/include/sys/mman.h	34;"	d
+__off_t_defined	/usr/include/sys/stat.h	80;"	d
+__off_t_defined	/usr/include/sys/types.h	91;"	d
+__pad	/usr/include/sys/signalfd.h	/^  uint8_t __pad[48];$/;"	m	struct:signalfd_siginfo	access:public
+__pid_t_defined	/usr/include/sys/msg.h	40;"	d
+__pid_t_defined	/usr/include/sys/shm.h	40;"	d
+__pid_t_defined	/usr/include/sys/types.h	100;"	d
+__priority_which_t	/usr/include/sys/resource.h	/^typedef enum __priority_which __priority_which_t;$/;"	t	typeref:enum:__priority_which
+__ptr_t	/usr/include/sys/cdefs.h	84;"	d
+__ptrace_eventcodes	/usr/include/sys/ptrace.h	/^enum __ptrace_eventcodes {$/;"	g
+__ptrace_request	/usr/include/sys/ptrace.h	/^enum __ptrace_request$/;"	g
+__ptrace_setoptions	/usr/include/sys/ptrace.h	/^enum __ptrace_setoptions {$/;"	g
+__ptrvalue	/usr/include/sys/cdefs.h	127;"	d
+__reserved1	/usr/include/sys/ucontext.h	/^    unsigned long __reserved1 [8];$/;"	m	struct:__anon2	access:public
+__restrict	/usr/include/sys/cdefs.h	332;"	d
+__restrict_arr	/usr/include/sys/cdefs.h	339;"	d
+__restrict_arr	/usr/include/sys/cdefs.h	342;"	d
+__restrict_arr	/usr/include/sys/cdefs.h	345;"	d
+__restrict_arr	/usr/include/sys/cdefs.h	348;"	d
+__rlimit_resource_t	/usr/include/sys/resource.h	/^typedef enum __rlimit_resource __rlimit_resource_t;$/;"	t	typeref:enum:__rlimit_resource
+__rusage_who_t	/usr/include/sys/resource.h	/^typedef enum __rusage_who __rusage_who_t;$/;"	t	typeref:enum:__rusage_who
+__signed	/usr/include/sys/cdefs.h	67;"	d
+__sigset_t_defined	/usr/include/sys/epoll.h	29;"	d
+__sigset_t_defined	/usr/include/sys/select.h	37;"	d
+__ssize_t_defined	/usr/include/sys/msg.h	45;"	d
+__ssize_t_defined	/usr/include/sys/types.h	111;"	d
+__suseconds_t_defined	/usr/include/sys/select.h	50;"	d
+__suseconds_t_defined	/usr/include/sys/time.h	35;"	d
+__suseconds_t_defined	/usr/include/sys/types.h	142;"	d
+__timezone_ptr_t	/usr/include/sys/time.h	/^typedef struct timezone *__restrict __timezone_ptr_t;$/;"	t	typeref:struct:__restrict
+__u_char_defined	/usr/include/sys/types.h	41;"	d
+__u_intN_t	/usr/include/sys/types.h	190;"	d
+__uid_t_defined	/usr/include/sys/ipc.h	34;"	d
+__uid_t_defined	/usr/include/sys/stat.h	85;"	d
+__uid_t_defined	/usr/include/sys/types.h	82;"	d
+__unbounded	/usr/include/sys/cdefs.h	126;"	d
+__undef_ARG_MAX	/usr/include/sys/param.h	24;"	d
+__undef_ARG_MAX	/usr/include/sys/param.h	34;"	d
+__undef_LINUX_KERNEL_H	/usr/include/sys/sysctl.h	28;"	d
+__undef_LINUX_KERNEL_H	/usr/include/sys/sysctl.h	48;"	d
+__undef_LINUX_LIST_H	/usr/include/sys/sysctl.h	36;"	d
+__undef_LINUX_LIST_H	/usr/include/sys/sysctl.h	56;"	d
+__undef_LINUX_TYPES_H	/usr/include/sys/kd.h	25;"	d
+__undef_LINUX_TYPES_H	/usr/include/sys/kd.h	32;"	d
+__undef_LINUX_TYPES_H	/usr/include/sys/sysctl.h	32;"	d
+__undef_LINUX_TYPES_H	/usr/include/sys/sysctl.h	52;"	d
+__undef__LINUX_COMPILER_H	/usr/include/sys/sysctl.h	41;"	d
+__undef__LINUX_COMPILER_H	/usr/include/sys/sysctl.h	61;"	d
+__unused1	/usr/include/sys/timex.h	/^  long int __unused1;$/;"	m	struct:ntptimeval	access:public
+__unused2	/usr/include/sys/timex.h	/^  long int __unused2;$/;"	m	struct:ntptimeval	access:public
+__unused3	/usr/include/sys/timex.h	/^  long int __unused3;$/;"	m	struct:ntptimeval	access:public
+__unused4	/usr/include/sys/timex.h	/^  long int __unused4;$/;"	m	struct:ntptimeval	access:public
+__useconds_t_defined	/usr/include/sys/types.h	138;"	d
+__user	/usr/include/sys/capability.h	30;"	d
+__user	/usr/include/sys/sysctl.h	40;"	d
+__user	/usr/include/sys/sysctl.h	60;"	d
+__va_arg_pack	/usr/include/sys/cdefs.h	318;"	d
+__va_arg_pack_len	/usr/include/sys/cdefs.h	319;"	d
+__vlimit_resource	/usr/include/sys/vlimit.h	/^enum __vlimit_resource$/;"	g
+__volatile	/usr/include/sys/cdefs.h	68;"	d
+__warnattr	/usr/include/sys/cdefs.h	138;"	d
+__warnattr	/usr/include/sys/cdefs.h	143;"	d
+__warndecl	/usr/include/sys/cdefs.h	136;"	d
+__warndecl	/usr/include/sys/cdefs.h	142;"	d
+__wur	/usr/include/sys/cdefs.h	276;"	d
+__wur	/usr/include/sys/cdefs.h	282;"	d
+__xstat	/usr/include/sys/stat.h	428;"	d
+_code	/usr/include/sys/syslog.h	/^typedef struct _code {$/;"	s
+_code::c_name	/usr/include/sys/syslog.h	/^	char	*c_name;$/;"	m	struct:_code	access:public
+_code::c_val	/usr/include/sys/syslog.h	/^	int	c_val;$/;"	m	struct:_code	access:public
+_libc_fpreg	/usr/include/sys/ucontext.h	/^struct _libc_fpreg$/;"	s
+_libc_fpreg::exponent	/usr/include/sys/ucontext.h	/^  unsigned short int exponent;$/;"	m	struct:_libc_fpreg	access:public
+_libc_fpreg::significand	/usr/include/sys/ucontext.h	/^  unsigned short int significand[4];$/;"	m	struct:_libc_fpreg	access:public
+_libc_fpstate	/usr/include/sys/ucontext.h	/^struct _libc_fpstate$/;"	s
+_libc_fpstate::_st	/usr/include/sys/ucontext.h	/^  struct _libc_fpreg _st[8];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_fpreg	access:public
+_libc_fpstate::_st	/usr/include/sys/ucontext.h	/^  struct _libc_fpxreg	_st[8];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_fpxreg	access:public
+_libc_fpstate::_xmm	/usr/include/sys/ucontext.h	/^  struct _libc_xmmreg	_xmm[16];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_xmmreg	access:public
+_libc_fpstate::cssel	/usr/include/sys/ucontext.h	/^  unsigned long int cssel;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::cw	/usr/include/sys/ucontext.h	/^  unsigned long int cw;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::cwd	/usr/include/sys/ucontext.h	/^  __uint16_t		cwd;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::dataoff	/usr/include/sys/ucontext.h	/^  unsigned long int dataoff;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::datasel	/usr/include/sys/ucontext.h	/^  unsigned long int datasel;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::fop	/usr/include/sys/ucontext.h	/^  __uint16_t		fop;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::ftw	/usr/include/sys/ucontext.h	/^  __uint16_t		ftw;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::ipoff	/usr/include/sys/ucontext.h	/^  unsigned long int ipoff;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::mxcr_mask	/usr/include/sys/ucontext.h	/^  __uint32_t		mxcr_mask;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::mxcsr	/usr/include/sys/ucontext.h	/^  __uint32_t		mxcsr;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::padding	/usr/include/sys/ucontext.h	/^  __uint32_t		padding[24];$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::rdp	/usr/include/sys/ucontext.h	/^  __uint64_t		rdp;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::rip	/usr/include/sys/ucontext.h	/^  __uint64_t		rip;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::status	/usr/include/sys/ucontext.h	/^  unsigned long int status;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::sw	/usr/include/sys/ucontext.h	/^  unsigned long int sw;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::swd	/usr/include/sys/ucontext.h	/^  __uint16_t		swd;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpstate::tag	/usr/include/sys/ucontext.h	/^  unsigned long int tag;$/;"	m	struct:_libc_fpstate	access:public
+_libc_fpxreg	/usr/include/sys/ucontext.h	/^struct _libc_fpxreg$/;"	s
+_libc_fpxreg::exponent	/usr/include/sys/ucontext.h	/^  unsigned short int exponent;$/;"	m	struct:_libc_fpxreg	access:public
+_libc_fpxreg::padding	/usr/include/sys/ucontext.h	/^  unsigned short int padding[3];$/;"	m	struct:_libc_fpxreg	access:public
+_libc_fpxreg::significand	/usr/include/sys/ucontext.h	/^  unsigned short int significand[4];$/;"	m	struct:_libc_fpxreg	access:public
+_libc_xmmreg	/usr/include/sys/ucontext.h	/^struct _libc_xmmreg$/;"	s
+_libc_xmmreg::element	/usr/include/sys/ucontext.h	/^  __uint32_t	element[4];$/;"	m	struct:_libc_xmmreg	access:public
+_st	/usr/include/sys/ucontext.h	/^  struct _libc_fpreg _st[8];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_fpreg	access:public
+_st	/usr/include/sys/ucontext.h	/^  struct _libc_fpxreg	_st[8];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_fpxreg	access:public
+_xmm	/usr/include/sys/ucontext.h	/^  struct _libc_xmmreg	_xmm[16];$/;"	m	struct:_libc_fpstate	typeref:struct:_libc_fpstate::_libc_xmmreg	access:public
+ac_btime	/usr/include/sys/acct.h	/^  u_int32_t ac_btime;		\/* Beginning time.  *\/$/;"	m	struct:acct	access:public
+ac_btime	/usr/include/sys/acct.h	/^  u_int32_t ac_btime;		\/* Process Creation Time *\/$/;"	m	struct:acct_v3	access:public
+ac_comm	/usr/include/sys/acct.h	/^  char ac_comm[ACCT_COMM+1];	\/* Command name.  *\/$/;"	m	struct:acct	access:public
+ac_comm	/usr/include/sys/acct.h	/^  char ac_comm[ACCT_COMM];	\/* Command Name *\/$/;"	m	struct:acct_v3	access:public
+ac_etime	/usr/include/sys/acct.h	/^  comp_t ac_etime;		\/* Elapsed time.  *\/$/;"	m	struct:acct	access:public
+ac_etime	/usr/include/sys/acct.h	/^  float ac_etime;		\/* Elapsed Time *\/$/;"	m	struct:acct_v3	access:public
+ac_exitcode	/usr/include/sys/acct.h	/^  u_int32_t ac_exitcode;	\/* Exitcode *\/$/;"	m	struct:acct_v3	access:public
+ac_exitcode	/usr/include/sys/acct.h	/^  u_int32_t ac_exitcode;	\/* Process exitcode.  *\/$/;"	m	struct:acct	access:public
+ac_flag	/usr/include/sys/acct.h	/^  char ac_flag;			\/* Flags *\/$/;"	m	struct:acct_v3	access:public
+ac_flag	/usr/include/sys/acct.h	/^  char ac_flag;			\/* Flags.  *\/$/;"	m	struct:acct	access:public
+ac_gid	/usr/include/sys/acct.h	/^  u_int16_t ac_gid;		\/* Real group ID.  *\/$/;"	m	struct:acct	access:public
+ac_gid	/usr/include/sys/acct.h	/^  u_int32_t ac_gid;		\/* Real Group ID *\/$/;"	m	struct:acct_v3	access:public
+ac_io	/usr/include/sys/acct.h	/^  comp_t ac_io;			\/* Chars Transferred *\/$/;"	m	struct:acct_v3	access:public
+ac_io	/usr/include/sys/acct.h	/^  comp_t ac_io;			\/* Chars transferred.  *\/$/;"	m	struct:acct	access:public
+ac_majflt	/usr/include/sys/acct.h	/^  comp_t ac_majflt;		\/* Major Pagefaults *\/$/;"	m	struct:acct_v3	access:public
+ac_majflt	/usr/include/sys/acct.h	/^  comp_t ac_majflt;		\/* Major pagefaults.  *\/$/;"	m	struct:acct	access:public
+ac_mem	/usr/include/sys/acct.h	/^  comp_t ac_mem;		\/* Average Memory Usage *\/$/;"	m	struct:acct_v3	access:public
+ac_mem	/usr/include/sys/acct.h	/^  comp_t ac_mem;		\/* Average memory usage.  *\/$/;"	m	struct:acct	access:public
+ac_minflt	/usr/include/sys/acct.h	/^  comp_t ac_minflt;		\/* Minor Pagefaults *\/$/;"	m	struct:acct_v3	access:public
+ac_minflt	/usr/include/sys/acct.h	/^  comp_t ac_minflt;		\/* Minor pagefaults.  *\/$/;"	m	struct:acct	access:public
+ac_pad	/usr/include/sys/acct.h	/^  char ac_pad[10];		\/* Padding bytes.  *\/$/;"	m	struct:acct	access:public
+ac_pid	/usr/include/sys/acct.h	/^  u_int32_t ac_pid;		\/* Process ID *\/$/;"	m	struct:acct_v3	access:public
+ac_ppid	/usr/include/sys/acct.h	/^  u_int32_t ac_ppid;		\/* Parent Process ID *\/$/;"	m	struct:acct_v3	access:public
+ac_rw	/usr/include/sys/acct.h	/^  comp_t ac_rw;			\/* Blocks Read or Written *\/$/;"	m	struct:acct_v3	access:public
+ac_rw	/usr/include/sys/acct.h	/^  comp_t ac_rw;			\/* Blocks read or written.  *\/$/;"	m	struct:acct	access:public
+ac_stime	/usr/include/sys/acct.h	/^  comp_t ac_stime;		\/* System Time *\/$/;"	m	struct:acct_v3	access:public
+ac_stime	/usr/include/sys/acct.h	/^  comp_t ac_stime;		\/* System time.  *\/$/;"	m	struct:acct	access:public
+ac_swaps	/usr/include/sys/acct.h	/^  comp_t ac_swaps;		\/* Number of Swaps *\/$/;"	m	struct:acct_v3	access:public
+ac_swaps	/usr/include/sys/acct.h	/^  comp_t ac_swaps;		\/* Number of swaps.  *\/$/;"	m	struct:acct	access:public
+ac_tty	/usr/include/sys/acct.h	/^  u_int16_t ac_tty;		\/* Control Terminal *\/$/;"	m	struct:acct_v3	access:public
+ac_tty	/usr/include/sys/acct.h	/^  u_int16_t ac_tty;		\/* Controlling terminal.  *\/$/;"	m	struct:acct	access:public
+ac_uid	/usr/include/sys/acct.h	/^  u_int16_t ac_uid;		\/* Real user ID.  *\/$/;"	m	struct:acct	access:public
+ac_uid	/usr/include/sys/acct.h	/^  u_int32_t ac_uid;		\/* Real User ID *\/$/;"	m	struct:acct_v3	access:public
+ac_utime	/usr/include/sys/acct.h	/^  comp_t ac_utime;		\/* User Time *\/$/;"	m	struct:acct_v3	access:public
+ac_utime	/usr/include/sys/acct.h	/^  comp_t ac_utime;		\/* User time.  *\/$/;"	m	struct:acct	access:public
+ac_version	/usr/include/sys/acct.h	/^  char ac_version;		\/* Always set to ACCT_VERSION *\/$/;"	m	struct:acct_v3	access:public
+accept	/usr/include/sys/socket.h	/^extern int accept (int __fd, __SOCKADDR_ARG __addr,$/;"	p	signature:(int __fd, __SOCKADDR_ARG __addr, socklen_t *__restrict __addr_len)
+accept4	/usr/include/sys/socket.h	/^extern int accept4 (int __fd, __SOCKADDR_ARG __addr,$/;"	p	signature:(int __fd, __SOCKADDR_ARG __addr, socklen_t *__restrict __addr_len, int __flags)
+acct	/usr/include/sys/acct.h	/^struct acct$/;"	s
+acct::ac_btime	/usr/include/sys/acct.h	/^  u_int32_t ac_btime;		\/* Beginning time.  *\/$/;"	m	struct:acct	access:public
+acct::ac_comm	/usr/include/sys/acct.h	/^  char ac_comm[ACCT_COMM+1];	\/* Command name.  *\/$/;"	m	struct:acct	access:public
+acct::ac_etime	/usr/include/sys/acct.h	/^  comp_t ac_etime;		\/* Elapsed time.  *\/$/;"	m	struct:acct	access:public
+acct::ac_exitcode	/usr/include/sys/acct.h	/^  u_int32_t ac_exitcode;	\/* Process exitcode.  *\/$/;"	m	struct:acct	access:public
+acct::ac_flag	/usr/include/sys/acct.h	/^  char ac_flag;			\/* Flags.  *\/$/;"	m	struct:acct	access:public
+acct::ac_gid	/usr/include/sys/acct.h	/^  u_int16_t ac_gid;		\/* Real group ID.  *\/$/;"	m	struct:acct	access:public
+acct::ac_io	/usr/include/sys/acct.h	/^  comp_t ac_io;			\/* Chars transferred.  *\/$/;"	m	struct:acct	access:public
+acct::ac_majflt	/usr/include/sys/acct.h	/^  comp_t ac_majflt;		\/* Major pagefaults.  *\/$/;"	m	struct:acct	access:public
+acct::ac_mem	/usr/include/sys/acct.h	/^  comp_t ac_mem;		\/* Average memory usage.  *\/$/;"	m	struct:acct	access:public
+acct::ac_minflt	/usr/include/sys/acct.h	/^  comp_t ac_minflt;		\/* Minor pagefaults.  *\/$/;"	m	struct:acct	access:public
+acct::ac_pad	/usr/include/sys/acct.h	/^  char ac_pad[10];		\/* Padding bytes.  *\/$/;"	m	struct:acct	access:public
+acct::ac_rw	/usr/include/sys/acct.h	/^  comp_t ac_rw;			\/* Blocks read or written.  *\/$/;"	m	struct:acct	access:public
+acct::ac_stime	/usr/include/sys/acct.h	/^  comp_t ac_stime;		\/* System time.  *\/$/;"	m	struct:acct	access:public
+acct::ac_swaps	/usr/include/sys/acct.h	/^  comp_t ac_swaps;		\/* Number of swaps.  *\/$/;"	m	struct:acct	access:public
+acct::ac_tty	/usr/include/sys/acct.h	/^  u_int16_t ac_tty;		\/* Controlling terminal.  *\/$/;"	m	struct:acct	access:public
+acct::ac_uid	/usr/include/sys/acct.h	/^  u_int16_t ac_uid;		\/* Real user ID.  *\/$/;"	m	struct:acct	access:public
+acct::ac_utime	/usr/include/sys/acct.h	/^  comp_t ac_utime;		\/* User time.  *\/$/;"	m	struct:acct	access:public
+acct_v3	/usr/include/sys/acct.h	/^struct acct_v3$/;"	s
+acct_v3::ac_btime	/usr/include/sys/acct.h	/^  u_int32_t ac_btime;		\/* Process Creation Time *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_comm	/usr/include/sys/acct.h	/^  char ac_comm[ACCT_COMM];	\/* Command Name *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_etime	/usr/include/sys/acct.h	/^  float ac_etime;		\/* Elapsed Time *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_exitcode	/usr/include/sys/acct.h	/^  u_int32_t ac_exitcode;	\/* Exitcode *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_flag	/usr/include/sys/acct.h	/^  char ac_flag;			\/* Flags *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_gid	/usr/include/sys/acct.h	/^  u_int32_t ac_gid;		\/* Real Group ID *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_io	/usr/include/sys/acct.h	/^  comp_t ac_io;			\/* Chars Transferred *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_majflt	/usr/include/sys/acct.h	/^  comp_t ac_majflt;		\/* Major Pagefaults *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_mem	/usr/include/sys/acct.h	/^  comp_t ac_mem;		\/* Average Memory Usage *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_minflt	/usr/include/sys/acct.h	/^  comp_t ac_minflt;		\/* Minor Pagefaults *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_pid	/usr/include/sys/acct.h	/^  u_int32_t ac_pid;		\/* Process ID *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_ppid	/usr/include/sys/acct.h	/^  u_int32_t ac_ppid;		\/* Parent Process ID *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_rw	/usr/include/sys/acct.h	/^  comp_t ac_rw;			\/* Blocks Read or Written *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_stime	/usr/include/sys/acct.h	/^  comp_t ac_stime;		\/* System Time *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_swaps	/usr/include/sys/acct.h	/^  comp_t ac_swaps;		\/* Number of Swaps *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_tty	/usr/include/sys/acct.h	/^  u_int16_t ac_tty;		\/* Control Terminal *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_uid	/usr/include/sys/acct.h	/^  u_int32_t ac_uid;		\/* Real User ID *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_utime	/usr/include/sys/acct.h	/^  comp_t ac_utime;		\/* User Time *\/$/;"	m	struct:acct_v3	access:public
+acct_v3::ac_version	/usr/include/sys/acct.h	/^  char ac_version;		\/* Always set to ACCT_VERSION *\/$/;"	m	struct:acct_v3	access:public
+acl_add_perm	/usr/include/sys/acl.h	/^extern int acl_add_perm(acl_permset_t permset_d, acl_perm_t perm);$/;"	p	signature:(acl_permset_t permset_d, acl_perm_t perm)
+acl_calc_mask	/usr/include/sys/acl.h	/^extern int acl_calc_mask(acl_t *acl_p);$/;"	p	signature:(acl_t *acl_p)
+acl_clear_perms	/usr/include/sys/acl.h	/^extern int acl_clear_perms(acl_permset_t permset_d);$/;"	p	signature:(acl_permset_t permset_d)
+acl_copy_entry	/usr/include/sys/acl.h	/^acl_copy_entry(acl_entry_t dest_d, acl_entry_t src_d);$/;"	p	signature:(acl_entry_t dest_d, acl_entry_t src_d)
+acl_copy_ext	/usr/include/sys/acl.h	/^extern ssize_t acl_copy_ext(void *buf_p, acl_t acl, ssize_t size);$/;"	p	signature:(void *buf_p, acl_t acl, ssize_t size)
+acl_copy_int	/usr/include/sys/acl.h	/^extern acl_t acl_copy_int(const void *buf_p);$/;"	p	signature:(const void *buf_p)
+acl_create_entry	/usr/include/sys/acl.h	/^extern int acl_create_entry(acl_t *acl_p, acl_entry_t *entry_p);$/;"	p	signature:(acl_t *acl_p, acl_entry_t *entry_p)
+acl_delete_def_file	/usr/include/sys/acl.h	/^extern int acl_delete_def_file(const char *path_p);$/;"	p	signature:(const char *path_p)
+acl_delete_entry	/usr/include/sys/acl.h	/^extern int acl_delete_entry(acl_t acl, acl_entry_t entry_d);$/;"	p	signature:(acl_t acl, acl_entry_t entry_d)
+acl_delete_perm	/usr/include/sys/acl.h	/^extern int acl_delete_perm(acl_permset_t permset_d, acl_perm_t perm);$/;"	p	signature:(acl_permset_t permset_d, acl_perm_t perm)
+acl_dup	/usr/include/sys/acl.h	/^extern acl_t acl_dup(acl_t acl);$/;"	p	signature:(acl_t acl)
+acl_entry_t	/usr/include/sys/acl.h	/^typedef struct __acl_entry_ext	*acl_entry_t;$/;"	t	typeref:struct:__acl_entry_ext
+acl_free	/usr/include/sys/acl.h	/^extern int acl_free(void *obj_p);$/;"	p	signature:(void *obj_p)
+acl_from_text	/usr/include/sys/acl.h	/^extern acl_t acl_from_text(const char *buf_p);$/;"	p	signature:(const char *buf_p)
+acl_get_entry	/usr/include/sys/acl.h	/^extern int acl_get_entry(acl_t acl, int entry_id, acl_entry_t *entry_p);$/;"	p	signature:(acl_t acl, int entry_id, acl_entry_t *entry_p)
+acl_get_fd	/usr/include/sys/acl.h	/^extern acl_t acl_get_fd(int fd);$/;"	p	signature:(int fd)
+acl_get_file	/usr/include/sys/acl.h	/^extern acl_t acl_get_file(const char *path_p, acl_type_t type);$/;"	p	signature:(const char *path_p, acl_type_t type)
+acl_get_permset	/usr/include/sys/acl.h	/^extern int acl_get_permset(acl_entry_t entry_d, acl_permset_t *permset_p);$/;"	p	signature:(acl_entry_t entry_d, acl_permset_t *permset_p)
+acl_get_qualifier	/usr/include/sys/acl.h	/^extern void * acl_get_qualifier(acl_entry_t entry_d);$/;"	p	signature:(acl_entry_t entry_d)
+acl_get_tag_type	/usr/include/sys/acl.h	/^extern int acl_get_tag_type(acl_entry_t entry_d, acl_tag_t *tag_type_p);$/;"	p	signature:(acl_entry_t entry_d, acl_tag_t *tag_type_p)
+acl_init	/usr/include/sys/acl.h	/^extern acl_t acl_init(int count);$/;"	p	signature:(int count)
+acl_perm_t	/usr/include/sys/acl.h	/^typedef unsigned int		acl_perm_t;$/;"	t
+acl_permset_t	/usr/include/sys/acl.h	/^typedef struct __acl_permset_ext *acl_permset_t;$/;"	t	typeref:struct:__acl_permset_ext
+acl_set_fd	/usr/include/sys/acl.h	/^extern int acl_set_fd(int fd, acl_t acl);$/;"	p	signature:(int fd, acl_t acl)
+acl_set_file	/usr/include/sys/acl.h	/^extern int acl_set_file(const char *path_p, acl_type_t type, acl_t acl);$/;"	p	signature:(const char *path_p, acl_type_t type, acl_t acl)
+acl_set_permset	/usr/include/sys/acl.h	/^extern int acl_set_permset(acl_entry_t entry_d, acl_permset_t permset_d);$/;"	p	signature:(acl_entry_t entry_d, acl_permset_t permset_d)
+acl_set_qualifier	/usr/include/sys/acl.h	/^extern int acl_set_qualifier(acl_entry_t entry_d, const void *tag_qualifier_p);$/;"	p	signature:(acl_entry_t entry_d, const void *tag_qualifier_p)
+acl_set_tag_type	/usr/include/sys/acl.h	/^extern int acl_set_tag_type(acl_entry_t entry_d, acl_tag_t tag_type);$/;"	p	signature:(acl_entry_t entry_d, acl_tag_t tag_type)
+acl_size	/usr/include/sys/acl.h	/^extern ssize_t acl_size(acl_t acl);$/;"	p	signature:(acl_t acl)
+acl_t	/usr/include/sys/acl.h	/^typedef struct __acl_ext	*acl_t;$/;"	t	typeref:struct:__acl_ext
+acl_tag_t	/usr/include/sys/acl.h	/^typedef int			acl_tag_t;$/;"	t
+acl_to_text	/usr/include/sys/acl.h	/^extern char *acl_to_text(acl_t acl, ssize_t *len_p);$/;"	p	signature:(acl_t acl, ssize_t *len_p)
+acl_type_t	/usr/include/sys/acl.h	/^typedef unsigned int		acl_type_t;$/;"	t
+acl_valid	/usr/include/sys/acl.h	/^extern int acl_valid(acl_t acl);$/;"	p	signature:(acl_t acl)
+addresses	/usr/include/sys/gmon.h	/^  const unsigned long	*addresses;$/;"	m	struct:__bb	access:public
+allocated_dquots	/usr/include/sys/quota.h	/^    u_int32_t allocated_dquots;$/;"	m	struct:dqstats	access:public
+blkcnt64_t	/usr/include/sys/types.h	/^typedef __blkcnt64_t blkcnt64_t;     \/* Type to count number of disk blocks. *\/$/;"	t
+blkcnt_t	/usr/include/sys/stat.h	/^typedef __blkcnt64_t blkcnt_t;$/;"	t
+blkcnt_t	/usr/include/sys/stat.h	/^typedef __blkcnt_t blkcnt_t;$/;"	t
+blkcnt_t	/usr/include/sys/types.h	/^typedef __blkcnt64_t blkcnt_t;	   \/* Type to count number of disk blocks.  *\/$/;"	t
+blkcnt_t	/usr/include/sys/types.h	/^typedef __blkcnt_t blkcnt_t;	 \/* Type to count number of disk blocks.  *\/$/;"	t
+blksize_t	/usr/include/sys/stat.h	/^typedef __blksize_t blksize_t;$/;"	t
+blksize_t	/usr/include/sys/types.h	/^typedef __blksize_t blksize_t;$/;"	t
+block_major	/usr/include/sys/raw.h	/^  uint64_t block_major;$/;"	m	struct:raw_config_request	access:public
+block_minor	/usr/include/sys/raw.h	/^  uint64_t block_minor;$/;"	m	struct:raw_config_request	access:public
+btodb	/usr/include/sys/quota.h	54;"	d
+c_name	/usr/include/sys/syslog.h	/^	char	*c_name;$/;"	m	struct:_code	access:public
+c_val	/usr/include/sys/syslog.h	/^	int	c_val;$/;"	m	struct:_code	access:public
+cache_hits	/usr/include/sys/quota.h	/^    u_int32_t cache_hits;$/;"	m	struct:dqstats	access:public
+caddr_t	/usr/include/sys/types.h	/^typedef __caddr_t caddr_t;$/;"	t
+cap_clear	/usr/include/sys/capability.h	/^extern int     cap_clear(cap_t);$/;"	p	signature:(cap_t)
+cap_clear_flag	/usr/include/sys/capability.h	/^extern int     cap_clear_flag(cap_t, cap_flag_t);$/;"	p	signature:(cap_t, cap_flag_t)
+cap_compare	/usr/include/sys/capability.h	/^extern int     cap_compare(cap_t, cap_t);$/;"	p	signature:(cap_t, cap_t)
+cap_copy_ext	/usr/include/sys/capability.h	/^extern ssize_t cap_copy_ext(void *, cap_t, ssize_t);$/;"	p	signature:(void *, cap_t, ssize_t)
+cap_copy_int	/usr/include/sys/capability.h	/^extern cap_t   cap_copy_int(const void *);$/;"	p	signature:(const void *)
+cap_drop_bound	/usr/include/sys/capability.h	/^extern int     cap_drop_bound(cap_value_t);$/;"	p	signature:(cap_value_t)
+cap_dup	/usr/include/sys/capability.h	/^extern cap_t   cap_dup(cap_t);$/;"	p	signature:(cap_t)
+cap_flag_t	/usr/include/sys/capability.h	/^} cap_flag_t;$/;"	t	typeref:enum:__anon23
+cap_flag_value_t	/usr/include/sys/capability.h	/^} cap_flag_value_t;$/;"	t	typeref:enum:__anon24
+cap_free	/usr/include/sys/capability.h	/^extern int     cap_free(void *);$/;"	p	signature:(void *)
+cap_from_name	/usr/include/sys/capability.h	/^extern int     cap_from_name(const char *, cap_value_t *);$/;"	p	signature:(const char *, cap_value_t *)
+cap_from_text	/usr/include/sys/capability.h	/^extern cap_t   cap_from_text(const char *);$/;"	p	signature:(const char *)
+cap_get_bound	/usr/include/sys/capability.h	/^extern int     cap_get_bound(cap_value_t);$/;"	p	signature:(cap_value_t)
+cap_get_fd	/usr/include/sys/capability.h	/^extern cap_t   cap_get_fd(int);$/;"	p	signature:(int)
+cap_get_file	/usr/include/sys/capability.h	/^extern cap_t   cap_get_file(const char *);$/;"	p	signature:(const char *)
+cap_get_flag	/usr/include/sys/capability.h	/^extern int     cap_get_flag(cap_t, cap_value_t, cap_flag_t, cap_flag_value_t *);$/;"	p	signature:(cap_t, cap_value_t, cap_flag_t, cap_flag_value_t *)
+cap_get_pid	/usr/include/sys/capability.h	/^extern cap_t   cap_get_pid(pid_t);$/;"	p	signature:(pid_t)
+cap_get_proc	/usr/include/sys/capability.h	/^extern cap_t   cap_get_proc(void);$/;"	p	signature:(void)
+cap_init	/usr/include/sys/capability.h	/^extern cap_t   cap_init(void);$/;"	p	signature:(void)
+cap_set_fd	/usr/include/sys/capability.h	/^extern int     cap_set_fd(int, cap_t);$/;"	p	signature:(int, cap_t)
+cap_set_file	/usr/include/sys/capability.h	/^extern int     cap_set_file(const char *, cap_t);$/;"	p	signature:(const char *, cap_t)
+cap_set_flag	/usr/include/sys/capability.h	/^extern int     cap_set_flag(cap_t, cap_flag_t, int, const cap_value_t *,$/;"	p	signature:(cap_t, cap_flag_t, int, const cap_value_t *, cap_flag_value_t)
+cap_set_proc	/usr/include/sys/capability.h	/^extern int     cap_set_proc(cap_t);$/;"	p	signature:(cap_t)
+cap_size	/usr/include/sys/capability.h	/^extern ssize_t cap_size(cap_t);$/;"	p	signature:(cap_t)
+cap_t	/usr/include/sys/capability.h	/^typedef struct _cap_struct *cap_t;$/;"	t	typeref:struct:_cap_struct
+cap_to_name	/usr/include/sys/capability.h	/^extern char *  cap_to_name(cap_value_t);$/;"	p	signature:(cap_value_t)
+cap_to_text	/usr/include/sys/capability.h	/^extern char *  cap_to_text(cap_t, ssize_t *);$/;"	p	signature:(cap_t, ssize_t *)
+cap_value_t	/usr/include/sys/capability.h	/^typedef int cap_value_t;$/;"	t
+capget	/usr/include/sys/capability.h	/^extern int capget(cap_user_header_t header, const cap_user_data_t data);$/;"	p	signature:(cap_user_header_t header, const cap_user_data_t data)
+capgetp	/usr/include/sys/capability.h	/^extern int capgetp(pid_t pid, cap_t cap_d);$/;"	p	signature:(pid_t pid, cap_t cap_d)
+capset	/usr/include/sys/capability.h	/^extern int capset(cap_user_header_t header, cap_user_data_t data);$/;"	p	signature:(cap_user_header_t header, cap_user_data_t data)
+capsetp	/usr/include/sys/capability.h	/^extern int capsetp(pid_t pid, cap_t cap_d);$/;"	p	signature:(pid_t pid, cap_t cap_d)
+closelog	/usr/include/sys/syslog.h	/^extern void closelog (void);$/;"	p	signature:(void)
+clrbit	/usr/include/sys/param.h	57;"	d
+comp_t	/usr/include/sys/acct.h	/^typedef u_int16_t comp_t;$/;"	t
+connect	/usr/include/sys/socket.h	/^extern int connect (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len);$/;"	p	signature:(int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len)
+cookie	/usr/include/sys/gmon_out.h	/^    char cookie[4];$/;"	m	struct:gmon_hdr	access:public
+cookie	/usr/include/sys/inotify.h	/^  uint32_t cookie;	\/* Cookie to synchronize two events.  *\/$/;"	m	struct:inotify_event	access:public
+count	/usr/include/sys/gmon.h	/^	long		count;$/;"	m	struct:tostruct	access:public
+count	/usr/include/sys/gmon_out.h	/^    char count[4];			\/* number of arc traversals *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+counts	/usr/include/sys/gmon.h	/^  long			*counts;$/;"	m	struct:__bb	access:public
+cr2	/usr/include/sys/ucontext.h	/^    unsigned long int cr2;$/;"	m	struct:__anon4	access:public
+cs	/usr/include/sys/user.h	/^  unsigned long int cs;$/;"	m	struct:user_regs_struct	access:public
+cssel	/usr/include/sys/ucontext.h	/^  unsigned long int cssel;$/;"	m	struct:_libc_fpstate	access:public
+cw	/usr/include/sys/ucontext.h	/^  unsigned long int cw;$/;"	m	struct:_libc_fpstate	access:public
+cwd	/usr/include/sys/ucontext.h	/^  __uint16_t		cwd;$/;"	m	struct:_libc_fpstate	access:public
+cwd	/usr/include/sys/user.h	/^  long int cwd;$/;"	m	struct:user_fpregs_struct	access:public
+cwd	/usr/include/sys/user.h	/^  unsigned short int	cwd;$/;"	m	struct:user_fpregs_struct	access:public
+cwd	/usr/include/sys/user.h	/^  unsigned short int cwd;$/;"	m	struct:user_fpxregs_struct	access:public
+daddr_t	/usr/include/sys/types.h	/^typedef __daddr_t daddr_t;$/;"	t
+data	/usr/include/sys/epoll.h	/^  epoll_data_t data;	\/* User data variable *\/$/;"	m	struct:epoll_event	access:public
+dataoff	/usr/include/sys/ucontext.h	/^  unsigned long int dataoff;$/;"	m	struct:_libc_fpstate	access:public
+datasel	/usr/include/sys/ucontext.h	/^  unsigned long int datasel;$/;"	m	struct:_libc_fpstate	access:public
+dbtob	/usr/include/sys/quota.h	53;"	d
+debug	/usr/include/sys/mtio.h	/^    unsigned long int debug;	\/* Debugging flags.  *\/$/;"	m	struct:mtconfiginfo	access:public
+dev_t	/usr/include/sys/stat.h	/^typedef __dev_t dev_t;$/;"	t
+dev_t	/usr/include/sys/types.h	/^typedef __dev_t dev_t;$/;"	t
+dimen	/usr/include/sys/gmon_out.h	/^    char dimen[15];			\/* phys. dim., usually "seconds" *\/$/;"	m	struct:gmon_hist_hdr	access:public
+dimen_abbrev	/usr/include/sys/gmon_out.h	/^    char dimen_abbrev;			\/* usually 's' for "seconds" *\/$/;"	m	struct:gmon_hist_hdr	access:public
+direct	/usr/include/sys/dir.h	26;"	d
+dmanr	/usr/include/sys/mtio.h	/^    unsigned short int dmanr;	\/* DMA channel to use.  *\/$/;"	m	struct:mtconfiginfo	access:public
+domainname	/usr/include/sys/utsname.h	/^    char domainname[_UTSNAME_DOMAIN_LENGTH];$/;"	m	struct:utsname	access:public
+dq_bhardlimit	/usr/include/sys/quota.h	172;"	d
+dq_bsoftlimit	/usr/include/sys/quota.h	173;"	d
+dq_btime	/usr/include/sys/quota.h	183;"	d
+dq_curblocks	/usr/include/sys/quota.h	175;"	d
+dq_curinodes	/usr/include/sys/quota.h	182;"	d
+dq_curspace	/usr/include/sys/quota.h	177;"	d
+dq_ihardlimit	/usr/include/sys/quota.h	180;"	d
+dq_isoftlimit	/usr/include/sys/quota.h	181;"	d
+dq_itime	/usr/include/sys/quota.h	184;"	d
+dq_valid	/usr/include/sys/quota.h	178;"	d
+dqb_bhardlimit	/usr/include/sys/quota.h	/^    u_int32_t dqb_bhardlimit;	\/* absolute limit on disk blks alloc *\/$/;"	m	struct:dqblk	access:public
+dqb_bhardlimit	/usr/include/sys/quota.h	/^    u_int64_t dqb_bhardlimit;	\/* absolute limit on disk quota blocks alloc *\/$/;"	m	struct:dqblk	access:public
+dqb_bsoftlimit	/usr/include/sys/quota.h	/^    u_int32_t dqb_bsoftlimit;	\/* preferred limit on disk blks *\/$/;"	m	struct:dqblk	access:public
+dqb_bsoftlimit	/usr/include/sys/quota.h	/^    u_int64_t dqb_bsoftlimit;	\/* preferred limit on disk quota blocks *\/$/;"	m	struct:dqblk	access:public
+dqb_btime	/usr/include/sys/quota.h	/^    time_t dqb_btime;		\/* time limit for excessive disk use *\/$/;"	m	struct:dqblk	access:public
+dqb_btime	/usr/include/sys/quota.h	/^    u_int64_t dqb_btime;	\/* time limit for excessive disk use *\/$/;"	m	struct:dqblk	access:public
+dqb_curblocks	/usr/include/sys/quota.h	/^    u_int32_t dqb_curblocks;	\/* current block count *\/$/;"	m	struct:dqblk	access:public
+dqb_curinodes	/usr/include/sys/quota.h	/^    u_int32_t dqb_curinodes;	\/* current # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqb_curinodes	/usr/include/sys/quota.h	/^    u_int64_t dqb_curinodes;	\/* current # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqb_curspace	/usr/include/sys/quota.h	/^    u_int64_t dqb_curspace;	\/* current quota block count *\/$/;"	m	struct:dqblk	access:public
+dqb_ihardlimit	/usr/include/sys/quota.h	/^    u_int32_t dqb_ihardlimit;	\/* maximum # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqb_ihardlimit	/usr/include/sys/quota.h	/^    u_int64_t dqb_ihardlimit;	\/* maximum # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqb_isoftlimit	/usr/include/sys/quota.h	/^    u_int32_t dqb_isoftlimit;	\/* preferred inode limit *\/$/;"	m	struct:dqblk	access:public
+dqb_isoftlimit	/usr/include/sys/quota.h	/^    u_int64_t dqb_isoftlimit;	\/* preferred inode limit *\/$/;"	m	struct:dqblk	access:public
+dqb_itime	/usr/include/sys/quota.h	/^    time_t dqb_itime;		\/* time limit for excessive files *\/$/;"	m	struct:dqblk	access:public
+dqb_itime	/usr/include/sys/quota.h	/^    u_int64_t dqb_itime;	\/* time limit for excessive files *\/$/;"	m	struct:dqblk	access:public
+dqb_valid	/usr/include/sys/quota.h	/^    u_int32_t dqb_valid;	\/* bitmask of QIF_* constants *\/$/;"	m	struct:dqblk	access:public
+dqblk	/usr/include/sys/quota.h	/^struct dqblk$/;"	s
+dqblk::dqb_bhardlimit	/usr/include/sys/quota.h	/^    u_int32_t dqb_bhardlimit;	\/* absolute limit on disk blks alloc *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_bhardlimit	/usr/include/sys/quota.h	/^    u_int64_t dqb_bhardlimit;	\/* absolute limit on disk quota blocks alloc *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_bsoftlimit	/usr/include/sys/quota.h	/^    u_int32_t dqb_bsoftlimit;	\/* preferred limit on disk blks *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_bsoftlimit	/usr/include/sys/quota.h	/^    u_int64_t dqb_bsoftlimit;	\/* preferred limit on disk quota blocks *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_btime	/usr/include/sys/quota.h	/^    time_t dqb_btime;		\/* time limit for excessive disk use *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_btime	/usr/include/sys/quota.h	/^    u_int64_t dqb_btime;	\/* time limit for excessive disk use *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_curblocks	/usr/include/sys/quota.h	/^    u_int32_t dqb_curblocks;	\/* current block count *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_curinodes	/usr/include/sys/quota.h	/^    u_int32_t dqb_curinodes;	\/* current # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_curinodes	/usr/include/sys/quota.h	/^    u_int64_t dqb_curinodes;	\/* current # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_curspace	/usr/include/sys/quota.h	/^    u_int64_t dqb_curspace;	\/* current quota block count *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_ihardlimit	/usr/include/sys/quota.h	/^    u_int32_t dqb_ihardlimit;	\/* maximum # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_ihardlimit	/usr/include/sys/quota.h	/^    u_int64_t dqb_ihardlimit;	\/* maximum # allocated inodes *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_isoftlimit	/usr/include/sys/quota.h	/^    u_int32_t dqb_isoftlimit;	\/* preferred inode limit *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_isoftlimit	/usr/include/sys/quota.h	/^    u_int64_t dqb_isoftlimit;	\/* preferred inode limit *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_itime	/usr/include/sys/quota.h	/^    time_t dqb_itime;		\/* time limit for excessive files *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_itime	/usr/include/sys/quota.h	/^    u_int64_t dqb_itime;	\/* time limit for excessive files *\/$/;"	m	struct:dqblk	access:public
+dqblk::dqb_valid	/usr/include/sys/quota.h	/^    u_int32_t dqb_valid;	\/* bitmask of QIF_* constants *\/$/;"	m	struct:dqblk	access:public
+dqi_bgrace	/usr/include/sys/quota.h	/^    u_int64_t dqi_bgrace;$/;"	m	struct:dqinfo	access:public
+dqi_flags	/usr/include/sys/quota.h	/^    u_int32_t dqi_flags;$/;"	m	struct:dqinfo	access:public
+dqi_igrace	/usr/include/sys/quota.h	/^    u_int64_t dqi_igrace;$/;"	m	struct:dqinfo	access:public
+dqi_valid	/usr/include/sys/quota.h	/^    u_int32_t dqi_valid;$/;"	m	struct:dqinfo	access:public
+dqinfo	/usr/include/sys/quota.h	/^struct dqinfo$/;"	s
+dqinfo::dqi_bgrace	/usr/include/sys/quota.h	/^    u_int64_t dqi_bgrace;$/;"	m	struct:dqinfo	access:public
+dqinfo::dqi_flags	/usr/include/sys/quota.h	/^    u_int32_t dqi_flags;$/;"	m	struct:dqinfo	access:public
+dqinfo::dqi_igrace	/usr/include/sys/quota.h	/^    u_int64_t dqi_igrace;$/;"	m	struct:dqinfo	access:public
+dqinfo::dqi_valid	/usr/include/sys/quota.h	/^    u_int32_t dqi_valid;$/;"	m	struct:dqinfo	access:public
+dqoff	/usr/include/sys/quota.h	186;"	d
+dqstats	/usr/include/sys/quota.h	/^struct dqstats$/;"	s
+dqstats::allocated_dquots	/usr/include/sys/quota.h	/^    u_int32_t allocated_dquots;$/;"	m	struct:dqstats	access:public
+dqstats::cache_hits	/usr/include/sys/quota.h	/^    u_int32_t cache_hits;$/;"	m	struct:dqstats	access:public
+dqstats::drops	/usr/include/sys/quota.h	/^    u_int32_t drops;$/;"	m	struct:dqstats	access:public
+dqstats::free_dquots	/usr/include/sys/quota.h	/^    u_int32_t free_dquots;$/;"	m	struct:dqstats	access:public
+dqstats::lookups	/usr/include/sys/quota.h	/^    u_int32_t lookups;$/;"	m	struct:dqstats	access:public
+dqstats::pages_allocated	/usr/include/sys/quota.h	/^    u_int32_t pages_allocated;$/;"	m	struct:dqstats	access:public
+dqstats::reads	/usr/include/sys/quota.h	/^    u_int32_t reads;$/;"	m	struct:dqstats	access:public
+dqstats::syncs	/usr/include/sys/quota.h	/^    u_int32_t syncs;$/;"	m	struct:dqstats	access:public
+dqstats::writes	/usr/include/sys/quota.h	/^    u_int32_t writes;$/;"	m	struct:dqstats	access:public
+drops	/usr/include/sys/quota.h	/^    u_int32_t drops;$/;"	m	struct:dqstats	access:public
+ds	/usr/include/sys/user.h	/^  unsigned long int ds;$/;"	m	struct:user_regs_struct	access:public
+dstflag	/usr/include/sys/timeb.h	/^    short int dstflag;		\/* Nonzero if Daylight Savings Time used.  *\/$/;"	m	struct:timeb	access:public
+eax	/usr/include/sys/user.h	/^  long int eax;$/;"	m	struct:user_regs_struct	access:public
+ebp	/usr/include/sys/user.h	/^  long int ebp;$/;"	m	struct:user_regs_struct	access:public
+ebx	/usr/include/sys/user.h	/^  long int ebx;$/;"	m	struct:user_regs_struct	access:public
+ecx	/usr/include/sys/user.h	/^  long int ecx;$/;"	m	struct:user_regs_struct	access:public
+edi	/usr/include/sys/user.h	/^  long int edi;$/;"	m	struct:user_regs_struct	access:public
+edx	/usr/include/sys/user.h	/^  long int edx;$/;"	m	struct:user_regs_struct	access:public
+eflags	/usr/include/sys/user.h	/^  long int eflags;$/;"	m	struct:user_regs_struct	access:public
+eflags	/usr/include/sys/user.h	/^  unsigned long int eflags;$/;"	m	struct:user_regs_struct	access:public
+eip	/usr/include/sys/user.h	/^  long int eip;$/;"	m	struct:user_regs_struct	access:public
+element	/usr/include/sys/ucontext.h	/^  __uint32_t	element[4];$/;"	m	struct:_libc_xmmreg	access:public
+elf_fpregset_t	/usr/include/sys/procfs.h	/^typedef struct user_fpregs_struct elf_fpregset_t;$/;"	t	typeref:struct:user_fpregs_struct
+elf_fpxregset_t	/usr/include/sys/procfs.h	/^typedef struct user_fpxregs_struct elf_fpxregset_t;$/;"	t	typeref:struct:user_fpxregs_struct
+elf_greg_t	/usr/include/sys/procfs.h	/^typedef unsigned long elf_greg_t;$/;"	t
+elf_gregset_t	/usr/include/sys/procfs.h	/^typedef elf_greg_t elf_gregset_t[ELF_NGREG];$/;"	t
+elf_prpsinfo	/usr/include/sys/procfs.h	/^struct elf_prpsinfo$/;"	s
+elf_prpsinfo::pr_flag	/usr/include/sys/procfs.h	/^    unsigned long int pr_flag;		\/* Flags.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_fname	/usr/include/sys/procfs.h	/^    char pr_fname[16];			\/* Filename of executable.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_gid	/usr/include/sys/procfs.h	/^    unsigned int pr_gid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_gid	/usr/include/sys/procfs.h	/^    unsigned short int pr_gid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_nice	/usr/include/sys/procfs.h	/^    char pr_nice;			\/* Nice val.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_pgrp	/usr/include/sys/procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_pid	/usr/include/sys/procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_ppid	/usr/include/sys/procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_psargs	/usr/include/sys/procfs.h	/^    char pr_psargs[ELF_PRARGSZ];	\/* Initial part of arg list.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_sid	/usr/include/sys/procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_sname	/usr/include/sys/procfs.h	/^    char pr_sname;			\/* Char for pr_state.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_state	/usr/include/sys/procfs.h	/^    char pr_state;			\/* Numeric process state.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_uid	/usr/include/sys/procfs.h	/^    unsigned int pr_uid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_uid	/usr/include/sys/procfs.h	/^    unsigned short int pr_uid;$/;"	m	struct:elf_prpsinfo	access:public
+elf_prpsinfo::pr_zomb	/usr/include/sys/procfs.h	/^    char pr_zomb;			\/* Zombie.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+elf_prstatus	/usr/include/sys/procfs.h	/^struct elf_prstatus$/;"	s
+elf_prstatus::pr_cstime	/usr/include/sys/procfs.h	/^    struct timeval pr_cstime;		\/* Cumulative system time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+elf_prstatus::pr_cursig	/usr/include/sys/procfs.h	/^    short int pr_cursig;		\/* Current signal.  *\/$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_cutime	/usr/include/sys/procfs.h	/^    struct timeval pr_cutime;		\/* Cumulative user time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+elf_prstatus::pr_fpvalid	/usr/include/sys/procfs.h	/^    int pr_fpvalid;			\/* True if math copro being used.  *\/$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_info	/usr/include/sys/procfs.h	/^    struct elf_siginfo pr_info;		\/* Info associated with signal.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::elf_siginfo	access:public
+elf_prstatus::pr_pgrp	/usr/include/sys/procfs.h	/^    __pid_t pr_pgrp;$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_pid	/usr/include/sys/procfs.h	/^    __pid_t pr_pid;$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_ppid	/usr/include/sys/procfs.h	/^    __pid_t pr_ppid;$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_reg	/usr/include/sys/procfs.h	/^    elf_gregset_t pr_reg;		\/* GP registers.  *\/$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_sid	/usr/include/sys/procfs.h	/^    __pid_t pr_sid;$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_sighold	/usr/include/sys/procfs.h	/^    unsigned long int pr_sighold;	\/* Set of held signals.  *\/$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_sigpend	/usr/include/sys/procfs.h	/^    unsigned long int pr_sigpend;	\/* Set of pending signals.  *\/$/;"	m	struct:elf_prstatus	access:public
+elf_prstatus::pr_stime	/usr/include/sys/procfs.h	/^    struct timeval pr_stime;		\/* System time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+elf_prstatus::pr_utime	/usr/include/sys/procfs.h	/^    struct timeval pr_utime;		\/* User time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+elf_siginfo	/usr/include/sys/procfs.h	/^struct elf_siginfo$/;"	s
+elf_siginfo::si_code	/usr/include/sys/procfs.h	/^    int si_code;			\/* Extra code.  *\/$/;"	m	struct:elf_siginfo	access:public
+elf_siginfo::si_errno	/usr/include/sys/procfs.h	/^    int si_errno;			\/* Errno.  *\/$/;"	m	struct:elf_siginfo	access:public
+elf_siginfo::si_signo	/usr/include/sys/procfs.h	/^    int si_signo;			\/* Signal number.  *\/$/;"	m	struct:elf_siginfo	access:public
+epoll_data	/usr/include/sys/epoll.h	/^typedef union epoll_data$/;"	u
+epoll_data::fd	/usr/include/sys/epoll.h	/^  int fd;$/;"	m	union:epoll_data	access:public
+epoll_data::ptr	/usr/include/sys/epoll.h	/^  void *ptr;$/;"	m	union:epoll_data	access:public
+epoll_data::u32	/usr/include/sys/epoll.h	/^  uint32_t u32;$/;"	m	union:epoll_data	access:public
+epoll_data::u64	/usr/include/sys/epoll.h	/^  uint64_t u64;$/;"	m	union:epoll_data	access:public
+epoll_data_t	/usr/include/sys/epoll.h	/^} epoll_data_t;$/;"	t	typeref:union:epoll_data
+epoll_event	/usr/include/sys/epoll.h	/^struct epoll_event$/;"	s
+epoll_event::data	/usr/include/sys/epoll.h	/^  epoll_data_t data;	\/* User data variable *\/$/;"	m	struct:epoll_event	access:public
+epoll_event::events	/usr/include/sys/epoll.h	/^  uint32_t events;	\/* Epoll events *\/$/;"	m	struct:epoll_event	access:public
+epoll_pwait	/usr/include/sys/epoll.h	/^extern int epoll_pwait (int __epfd, struct epoll_event *__events,$/;"	p	signature:(int __epfd, struct epoll_event *__events, int __maxevents, int __timeout, __const __sigset_t *__ss)
+epoll_wait	/usr/include/sys/epoll.h	/^extern int epoll_wait (int __epfd, struct epoll_event *__events,$/;"	p	signature:(int __epfd, struct epoll_event *__events, int __maxevents, int __timeout)
+es	/usr/include/sys/user.h	/^  unsigned long int es;$/;"	m	struct:user_regs_struct	access:public
+esi	/usr/include/sys/user.h	/^  long int esi;$/;"	m	struct:user_regs_struct	access:public
+esp	/usr/include/sys/user.h	/^  long int esp;$/;"	m	struct:user_regs_struct	access:public
+esterror	/usr/include/sys/timex.h	/^  long int esterror;	\/* estimated error (us) (ro) *\/$/;"	m	struct:ntptimeval	access:public
+eventfd_read	/usr/include/sys/eventfd.h	/^extern int eventfd_read (int __fd, eventfd_t *__value);$/;"	p	signature:(int __fd, eventfd_t *__value)
+eventfd_t	/usr/include/sys/eventfd.h	/^typedef uint64_t eventfd_t;$/;"	t
+eventfd_write	/usr/include/sys/eventfd.h	/^extern int eventfd_write (int __fd, eventfd_t __value);$/;"	p	signature:(int __fd, eventfd_t __value)
+events	/usr/include/sys/epoll.h	/^  uint32_t events;	\/* Epoll events *\/$/;"	m	struct:epoll_event	access:public
+events	/usr/include/sys/poll.h	/^    short int events;		\/* Types of events poller cares about.  *\/$/;"	m	struct:pollfd	access:public
+exponent	/usr/include/sys/ucontext.h	/^  unsigned short int exponent;$/;"	m	struct:_libc_fpreg	access:public
+exponent	/usr/include/sys/ucontext.h	/^  unsigned short int exponent;$/;"	m	struct:_libc_fpxreg	access:public
+facilitynames	/usr/include/sys/syslog.h	/^CODE facilitynames[] =$/;"	v
+fcs	/usr/include/sys/user.h	/^  long int fcs;$/;"	m	struct:user_fpregs_struct	access:public
+fcs	/usr/include/sys/user.h	/^  long int fcs;$/;"	m	struct:user_fpxregs_struct	access:public
+fd	/usr/include/sys/epoll.h	/^  int fd;$/;"	m	union:epoll_data	access:public
+fd	/usr/include/sys/poll.h	/^    int fd;			\/* File descriptor to poll.  *\/$/;"	m	struct:pollfd	access:public
+fd_mask	/usr/include/sys/select.h	/^typedef __fd_mask fd_mask;$/;"	t
+fd_set	/usr/include/sys/select.h	/^  } fd_set;$/;"	t	typeref:struct:__anon5
+fds_bits	/usr/include/sys/select.h	/^    __fd_mask fds_bits[__FD_SETSIZE \/ __NFDBITS];$/;"	m	struct:__anon5	access:public
+filename	/usr/include/sys/gmon.h	/^  const char		*filename;$/;"	m	struct:__bb	access:public
+fip	/usr/include/sys/user.h	/^  long int fip;$/;"	m	struct:user_fpregs_struct	access:public
+fip	/usr/include/sys/user.h	/^  long int fip;$/;"	m	struct:user_fpxregs_struct	access:public
+foo	/usr/include/sys/user.h	/^  long int foo;$/;"	m	struct:user_fpregs_struct	access:public
+foo	/usr/include/sys/user.h	/^  long int foo;$/;"	m	struct:user_fpxregs_struct	access:public
+fop	/usr/include/sys/ucontext.h	/^  __uint16_t		fop;$/;"	m	struct:_libc_fpstate	access:public
+fop	/usr/include/sys/user.h	/^  unsigned short int	fop;$/;"	m	struct:user_fpregs_struct	access:public
+fop	/usr/include/sys/user.h	/^  unsigned short int fop;$/;"	m	struct:user_fpxregs_struct	access:public
+fos	/usr/include/sys/user.h	/^  long int fos;$/;"	m	struct:user_fpregs_struct	access:public
+fos	/usr/include/sys/user.h	/^  long int fos;$/;"	m	struct:user_fpxregs_struct	access:public
+fpregs	/usr/include/sys/ucontext.h	/^    fpregset_t fpregs;$/;"	m	struct:__anon2	access:public
+fpregs	/usr/include/sys/ucontext.h	/^    fpregset_t fpregs;$/;"	m	struct:__anon4	access:public
+fpregset_t	/usr/include/sys/ucontext.h	/^typedef struct _libc_fpstate *fpregset_t;$/;"	t	typeref:struct:_libc_fpstate
+free_dquots	/usr/include/sys/quota.h	/^    u_int32_t free_dquots;$/;"	m	struct:dqstats	access:public
+from_pc	/usr/include/sys/gmon_out.h	/^    char from_pc[sizeof (char *)];	\/* address within caller's body *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+froms	/usr/include/sys/gmon.h	/^	ARCINDEX	*froms;$/;"	m	struct:gmonparam	access:public
+fromssize	/usr/include/sys/gmon.h	/^	u_long		fromssize;$/;"	m	struct:gmonparam	access:public
+fs	/usr/include/sys/user.h	/^  unsigned long int fs;$/;"	m	struct:user_regs_struct	access:public
+fs_base	/usr/include/sys/user.h	/^  unsigned long int fs_base;$/;"	m	struct:user_regs_struct	access:public
+fs_to_dq_blocks	/usr/include/sys/quota.h	60;"	d
+fsblkcnt64_t	/usr/include/sys/types.h	/^typedef __fsblkcnt64_t fsblkcnt64_t; \/* Type to count file system blocks.  *\/$/;"	t
+fsblkcnt_t	/usr/include/sys/statvfs.h	/^typedef __fsblkcnt64_t fsblkcnt_t; \/* Type to count file system blocks.  *\/$/;"	t
+fsblkcnt_t	/usr/include/sys/statvfs.h	/^typedef __fsblkcnt_t fsblkcnt_t; \/* Type to count file system blocks.  *\/$/;"	t
+fsblkcnt_t	/usr/include/sys/types.h	/^typedef __fsblkcnt64_t fsblkcnt_t; \/* Type to count file system blocks.  *\/$/;"	t
+fsblkcnt_t	/usr/include/sys/types.h	/^typedef __fsblkcnt_t fsblkcnt_t; \/* Type to count file system blocks.  *\/$/;"	t
+fsfilcnt64_t	/usr/include/sys/types.h	/^typedef __fsfilcnt64_t fsfilcnt64_t; \/* Type to count file system inodes.  *\/$/;"	t
+fsfilcnt_t	/usr/include/sys/statvfs.h	/^typedef __fsfilcnt64_t fsfilcnt_t; \/* Type to count file system inodes.  *\/$/;"	t
+fsfilcnt_t	/usr/include/sys/statvfs.h	/^typedef __fsfilcnt_t fsfilcnt_t; \/* Type to count file system inodes.  *\/$/;"	t
+fsfilcnt_t	/usr/include/sys/types.h	/^typedef __fsfilcnt64_t fsfilcnt_t; \/* Type to count file system inodes.  *\/$/;"	t
+fsfilcnt_t	/usr/include/sys/types.h	/^typedef __fsfilcnt_t fsfilcnt_t; \/* Type to count file system inodes.  *\/$/;"	t
+fsid_t	/usr/include/sys/types.h	/^typedef __fsid_t fsid_t;$/;"	t
+fstat	/usr/include/sys/stat.h	/^__NTH (fstat (int __fd, struct stat *__statbuf))$/;"	f	signature:(int __fd, struct stat *__statbuf)
+fstat64	/usr/include/sys/stat.h	/^__NTH (fstat64 (int __fd, struct stat64 *__statbuf))$/;"	f	signature:(int __fd, struct stat64 *__statbuf)
+fstatat	/usr/include/sys/stat.h	/^__NTH (fstatat (int __fd, __const char *__filename, struct stat *__statbuf,$/;"	f	signature:(int __fd, __const char *__filename, struct stat *__statbuf, int __flag)
+fstatat	/usr/include/sys/stat.h	250;"	d
+fstatat64	/usr/include/sys/stat.h	/^__NTH (fstatat64 (int __fd, __const char *__filename, struct stat64 *__statbuf,$/;"	f	signature:(int __fd, __const char *__filename, struct stat64 *__statbuf, int __flag)
+fstatfs	/usr/include/sys/statfs.h	58;"	d
+fstatvfs	/usr/include/sys/statvfs.h	81;"	d
+ftime	/usr/include/sys/timeb.h	/^extern int ftime (struct timeb *__timebuf);$/;"	p	signature:(struct timeb *__timebuf)
+ftw	/usr/include/sys/ucontext.h	/^  __uint16_t		ftw;$/;"	m	struct:_libc_fpstate	access:public
+ftw	/usr/include/sys/user.h	/^  unsigned short int	ftw;$/;"	m	struct:user_fpregs_struct	access:public
+getrlimit	/usr/include/sys/resource.h	58;"	d
+gid_t	/usr/include/sys/ipc.h	/^typedef __gid_t gid_t;$/;"	t
+gid_t	/usr/include/sys/stat.h	/^typedef __gid_t gid_t;$/;"	t
+gid_t	/usr/include/sys/types.h	/^typedef __gid_t gid_t;$/;"	t
+gmon_cg_arc_record	/usr/include/sys/gmon_out.h	/^struct gmon_cg_arc_record$/;"	s
+gmon_cg_arc_record::count	/usr/include/sys/gmon_out.h	/^    char count[4];			\/* number of arc traversals *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+gmon_cg_arc_record::from_pc	/usr/include/sys/gmon_out.h	/^    char from_pc[sizeof (char *)];	\/* address within caller's body *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+gmon_cg_arc_record::self_pc	/usr/include/sys/gmon_out.h	/^    char self_pc[sizeof (char *)];	\/* address within callee's body *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+gmon_hdr	/usr/include/sys/gmon_out.h	/^struct gmon_hdr$/;"	s
+gmon_hdr::cookie	/usr/include/sys/gmon_out.h	/^    char cookie[4];$/;"	m	struct:gmon_hdr	access:public
+gmon_hdr::spare	/usr/include/sys/gmon_out.h	/^    char spare[3 * 4];$/;"	m	struct:gmon_hdr	access:public
+gmon_hdr::version	/usr/include/sys/gmon_out.h	/^    char version[4];$/;"	m	struct:gmon_hdr	access:public
+gmon_hist_hdr	/usr/include/sys/gmon_out.h	/^struct gmon_hist_hdr$/;"	s
+gmon_hist_hdr::dimen	/usr/include/sys/gmon_out.h	/^    char dimen[15];			\/* phys. dim., usually "seconds" *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmon_hist_hdr::dimen_abbrev	/usr/include/sys/gmon_out.h	/^    char dimen_abbrev;			\/* usually 's' for "seconds" *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmon_hist_hdr::high_pc	/usr/include/sys/gmon_out.h	/^    char high_pc[sizeof (char *)];	\/* max pc address of sampled buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmon_hist_hdr::hist_size	/usr/include/sys/gmon_out.h	/^    char hist_size[4];			\/* size of sample buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmon_hist_hdr::low_pc	/usr/include/sys/gmon_out.h	/^    char low_pc[sizeof (char *)];	\/* base pc address of sample buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmon_hist_hdr::prof_rate	/usr/include/sys/gmon_out.h	/^    char prof_rate[4];			\/* profiling clock rate *\/$/;"	m	struct:gmon_hist_hdr	access:public
+gmonparam	/usr/include/sys/gmon.h	/^struct gmonparam {$/;"	s
+gmonparam::froms	/usr/include/sys/gmon.h	/^	ARCINDEX	*froms;$/;"	m	struct:gmonparam	access:public
+gmonparam::fromssize	/usr/include/sys/gmon.h	/^	u_long		fromssize;$/;"	m	struct:gmonparam	access:public
+gmonparam::hashfraction	/usr/include/sys/gmon.h	/^	u_long		hashfraction;$/;"	m	struct:gmonparam	access:public
+gmonparam::highpc	/usr/include/sys/gmon.h	/^	u_long		highpc;$/;"	m	struct:gmonparam	access:public
+gmonparam::kcount	/usr/include/sys/gmon.h	/^	u_short		*kcount;$/;"	m	struct:gmonparam	access:public
+gmonparam::kcountsize	/usr/include/sys/gmon.h	/^	u_long		kcountsize;$/;"	m	struct:gmonparam	access:public
+gmonparam::log_hashfraction	/usr/include/sys/gmon.h	/^	long		log_hashfraction;$/;"	m	struct:gmonparam	access:public
+gmonparam::lowpc	/usr/include/sys/gmon.h	/^	u_long		lowpc;$/;"	m	struct:gmonparam	access:public
+gmonparam::state	/usr/include/sys/gmon.h	/^	long int	state;$/;"	m	struct:gmonparam	access:public
+gmonparam::textsize	/usr/include/sys/gmon.h	/^	u_long		textsize;$/;"	m	struct:gmonparam	access:public
+gmonparam::tolimit	/usr/include/sys/gmon.h	/^	long		tolimit;$/;"	m	struct:gmonparam	access:public
+gmonparam::tos	/usr/include/sys/gmon.h	/^	struct tostruct	*tos;$/;"	m	struct:gmonparam	typeref:struct:gmonparam::tostruct	access:public
+gmonparam::tossize	/usr/include/sys/gmon.h	/^	u_long		tossize;$/;"	m	struct:gmonparam	access:public
+gnu_dev_major	/usr/include/sys/sysmacros.h	/^__NTH (gnu_dev_major (unsigned long long int __dev))$/;"	f	signature:(unsigned long long int __dev)
+gnu_dev_makedev	/usr/include/sys/sysmacros.h	/^__NTH (gnu_dev_makedev (unsigned int __major, unsigned int __minor))$/;"	f	signature:(unsigned int __major, unsigned int __minor)
+gnu_dev_minor	/usr/include/sys/sysmacros.h	/^__NTH (gnu_dev_minor (unsigned long long int __dev))$/;"	f	signature:(unsigned long long int __dev)
+greg_t	/usr/include/sys/ucontext.h	/^typedef int greg_t;$/;"	t
+greg_t	/usr/include/sys/ucontext.h	/^typedef long int greg_t;$/;"	t
+gregs	/usr/include/sys/ucontext.h	/^    gregset_t gregs;$/;"	m	struct:__anon2	access:public
+gregs	/usr/include/sys/ucontext.h	/^    gregset_t gregs;$/;"	m	struct:__anon4	access:public
+gregset_t	/usr/include/sys/ucontext.h	/^typedef greg_t gregset_t[NGREG];$/;"	t
+gs	/usr/include/sys/user.h	/^  unsigned long int gs;$/;"	m	struct:user_regs_struct	access:public
+gs_base	/usr/include/sys/user.h	/^  unsigned long int gs_base;$/;"	m	struct:user_regs_struct	access:public
+hashfraction	/usr/include/sys/gmon.h	/^	u_long		hashfraction;$/;"	m	struct:gmonparam	access:public
+have_bsf	/usr/include/sys/mtio.h	/^    unsigned have_bsf:1;$/;"	m	struct:mtconfiginfo	access:public
+have_bsr	/usr/include/sys/mtio.h	/^    unsigned have_bsr:1;$/;"	m	struct:mtconfiginfo	access:public
+have_dens	/usr/include/sys/mtio.h	/^    unsigned have_dens:1;$/;"	m	struct:mtconfiginfo	access:public
+have_eod	/usr/include/sys/mtio.h	/^    unsigned have_eod:1;$/;"	m	struct:mtconfiginfo	access:public
+have_fsr	/usr/include/sys/mtio.h	/^    unsigned have_fsr:1;$/;"	m	struct:mtconfiginfo	access:public
+have_qfa	/usr/include/sys/mtio.h	/^    unsigned have_qfa:1;$/;"	m	struct:mtconfiginfo	access:public
+have_ras1	/usr/include/sys/mtio.h	/^    unsigned have_ras1:1;$/;"	m	struct:mtconfiginfo	access:public
+have_ras2	/usr/include/sys/mtio.h	/^    unsigned have_ras2:1;$/;"	m	struct:mtconfiginfo	access:public
+have_ras3	/usr/include/sys/mtio.h	/^    unsigned have_ras3:1;$/;"	m	struct:mtconfiginfo	access:public
+have_seek	/usr/include/sys/mtio.h	/^    unsigned have_seek:1;$/;"	m	struct:mtconfiginfo	access:public
+have_tell	/usr/include/sys/mtio.h	/^    unsigned have_tell:1;$/;"	m	struct:mtconfiginfo	access:public
+high_pc	/usr/include/sys/gmon_out.h	/^    char high_pc[sizeof (char *)];	\/* max pc address of sampled buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+highpc	/usr/include/sys/gmon.h	/^	u_long		highpc;$/;"	m	struct:gmonparam	access:public
+hist_size	/usr/include/sys/gmon_out.h	/^    char hist_size[4];			\/* size of sample buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+howmany	/usr/include/sys/param.h	63;"	d
+i387	/usr/include/sys/user.h	/^  struct user_fpregs_struct	i387;$/;"	m	struct:user	typeref:struct:user::user_fpregs_struct	access:public
+id_t	/usr/include/sys/resource.h	/^typedef __id_t id_t;$/;"	t
+id_t	/usr/include/sys/types.h	/^typedef __id_t id_t;$/;"	t
+idtype_t	/usr/include/sys/wait.h	/^} idtype_t;$/;"	t	typeref:enum:__anon17
+ifc_type	/usr/include/sys/mtio.h	/^    long int ifc_type;		\/* Interface card type.  *\/$/;"	m	struct:mtconfiginfo	access:public
+inb	/usr/include/sys/io.h	/^inb (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+inb_p	/usr/include/sys/io.h	/^inb_p (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+inl	/usr/include/sys/io.h	/^inl (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+inl_p	/usr/include/sys/io.h	/^inl_p (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+ino64_t	/usr/include/sys/types.h	/^typedef __ino64_t ino64_t;$/;"	t
+ino_t	/usr/include/sys/stat.h	/^typedef __ino64_t ino_t;$/;"	t
+ino_t	/usr/include/sys/stat.h	/^typedef __ino_t ino_t;$/;"	t
+ino_t	/usr/include/sys/types.h	/^typedef __ino64_t ino_t;$/;"	t
+ino_t	/usr/include/sys/types.h	/^typedef __ino_t ino_t;$/;"	t
+inotify_event	/usr/include/sys/inotify.h	/^struct inotify_event$/;"	s
+inotify_event::__flexarr	/usr/include/sys/inotify.h	/^  char name __flexarr;	\/* Name.  *\/$/;"	m	struct:inotify_event	access:public
+inotify_event::cookie	/usr/include/sys/inotify.h	/^  uint32_t cookie;	\/* Cookie to synchronize two events.  *\/$/;"	m	struct:inotify_event	access:public
+inotify_event::len	/usr/include/sys/inotify.h	/^  uint32_t len;		\/* Length (including NULs) of name.  *\/$/;"	m	struct:inotify_event	access:public
+inotify_event::mask	/usr/include/sys/inotify.h	/^  uint32_t mask;	\/* Watch mask.  *\/$/;"	m	struct:inotify_event	access:public
+inotify_event::wd	/usr/include/sys/inotify.h	/^  int wd;		\/* Watch descriptor.  *\/$/;"	m	struct:inotify_event	access:public
+insb	/usr/include/sys/io.h	/^insb (unsigned short int __port, void *addr, unsigned long int __count)$/;"	f	signature:(unsigned short int __port, void *addr, unsigned long int __count)
+insl	/usr/include/sys/io.h	/^insl (unsigned short int __port, void *addr, unsigned long int __count)$/;"	f	signature:(unsigned short int __port, void *addr, unsigned long int __count)
+insw	/usr/include/sys/io.h	/^insw (unsigned short int __port, void *addr, unsigned long int __count)$/;"	f	signature:(unsigned short int __port, void *addr, unsigned long int __count)
+int16_t	/usr/include/sys/types.h	/^typedef	short int int16_t;$/;"	t
+int32_t	/usr/include/sys/types.h	/^typedef	int int32_t;$/;"	t
+int64_t	/usr/include/sys/types.h	/^__extension__ typedef long long int int64_t;$/;"	t
+int64_t	/usr/include/sys/types.h	/^typedef long int int64_t;$/;"	t
+int8_t	/usr/include/sys/types.h	/^typedef	char int8_t;$/;"	t
+inw	/usr/include/sys/io.h	/^inw (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+inw_p	/usr/include/sys/io.h	/^inw_p (unsigned short int __port)$/;"	f	signature:(unsigned short int __port)
+ipoff	/usr/include/sys/ucontext.h	/^  unsigned long int ipoff;$/;"	m	struct:_libc_fpstate	access:public
+irqnr	/usr/include/sys/mtio.h	/^    unsigned short int irqnr;	\/* IRQ number to use.  *\/$/;"	m	struct:mtconfiginfo	access:public
+isclr	/usr/include/sys/param.h	59;"	d
+isset	/usr/include/sys/param.h	58;"	d
+it_interval	/usr/include/sys/time.h	/^    struct timeval it_interval;$/;"	m	struct:itimerval	typeref:struct:itimerval::timeval	access:public
+it_value	/usr/include/sys/time.h	/^    struct timeval it_value;$/;"	m	struct:itimerval	typeref:struct:itimerval::timeval	access:public
+itimerval	/usr/include/sys/time.h	/^struct itimerval$/;"	s
+itimerval::it_interval	/usr/include/sys/time.h	/^    struct timeval it_interval;$/;"	m	struct:itimerval	typeref:struct:itimerval::timeval	access:public
+itimerval::it_value	/usr/include/sys/time.h	/^    struct timeval it_value;$/;"	m	struct:itimerval	typeref:struct:itimerval::timeval	access:public
+kcount	/usr/include/sys/gmon.h	/^	u_short		*kcount;$/;"	m	struct:gmonparam	access:public
+kcountsize	/usr/include/sys/gmon.h	/^	u_long		kcountsize;$/;"	m	struct:gmonparam	access:public
+key_t	/usr/include/sys/ipc.h	/^typedef __key_t key_t;$/;"	t
+key_t	/usr/include/sys/types.h	/^typedef __key_t key_t;$/;"	t
+len	/usr/include/sys/inotify.h	/^  uint32_t len;		\/* Length (including NULs) of name.  *\/$/;"	m	struct:inotify_event	access:public
+link	/usr/include/sys/gmon.h	/^	ARCINDEX	link;$/;"	m	struct:tostruct	access:public
+loff_t	/usr/include/sys/types.h	/^typedef __loff_t loff_t;$/;"	t
+log_hashfraction	/usr/include/sys/gmon.h	/^	long		log_hashfraction;$/;"	m	struct:gmonparam	access:public
+lookups	/usr/include/sys/quota.h	/^    u_int32_t lookups;$/;"	m	struct:dqstats	access:public
+low_pc	/usr/include/sys/gmon_out.h	/^    char low_pc[sizeof (char *)];	\/* base pc address of sample buffer *\/$/;"	m	struct:gmon_hist_hdr	access:public
+lowpc	/usr/include/sys/gmon.h	/^	u_long		lowpc;$/;"	m	struct:gmonparam	access:public
+lstat	/usr/include/sys/stat.h	/^__NTH (lstat (__const char *__path, struct stat *__statbuf))$/;"	f	signature:(__const char *__path, struct stat *__statbuf)
+lstat	/usr/include/sys/stat.h	274;"	d
+lstat64	/usr/include/sys/stat.h	/^__NTH (lstat64 (__const char *__path, struct stat64 *__statbuf))$/;"	f	signature:(__const char *__path, struct stat64 *__statbuf)
+lwpid_t	/usr/include/sys/procfs.h	/^typedef __pid_t lwpid_t;$/;"	t
+machine	/usr/include/sys/utsname.h	/^    char machine[_UTSNAME_MACHINE_LENGTH];$/;"	m	struct:utsname	access:public
+magic	/usr/include/sys/user.h	/^  unsigned long int		magic;$/;"	m	struct:user	access:public
+major	/usr/include/sys/sysmacros.h	67;"	d
+makedev	/usr/include/sys/sysmacros.h	69;"	d
+mask	/usr/include/sys/inotify.h	/^  uint32_t mask;	\/* Watch mask.  *\/$/;"	m	struct:inotify_event	access:public
+maxerror	/usr/include/sys/timex.h	/^  long int maxerror;	\/* maximum error (us) (ro) *\/$/;"	m	struct:ntptimeval	access:public
+mcontext_t	/usr/include/sys/ucontext.h	/^  } mcontext_t;$/;"	t	typeref:struct:__anon4
+mcontext_t	/usr/include/sys/ucontext.h	/^} mcontext_t;$/;"	t	typeref:struct:__anon2
+millitm	/usr/include/sys/timeb.h	/^    unsigned short int millitm;	\/* Additional milliseconds.  *\/$/;"	m	struct:timeb	access:public
+minor	/usr/include/sys/sysmacros.h	68;"	d
+mknod	/usr/include/sys/stat.h	/^__NTH (mknod (__const char *__path, __mode_t __mode, __dev_t __dev))$/;"	f	signature:(__const char *__path, __mode_t __mode, __dev_t __dev)
+mknodat	/usr/include/sys/stat.h	/^__NTH (mknodat (int __fd, __const char *__path, __mode_t __mode,$/;"	f	signature:(int __fd, __const char *__path, __mode_t __mode, __dev_t __dev)
+mode_t	/usr/include/sys/ipc.h	/^typedef __mode_t mode_t;$/;"	t
+mode_t	/usr/include/sys/mman.h	/^typedef __mode_t mode_t;$/;"	t
+mode_t	/usr/include/sys/stat.h	/^typedef __mode_t mode_t;$/;"	t
+mode_t	/usr/include/sys/types.h	/^typedef __mode_t mode_t;$/;"	t
+msgbuf	/usr/include/sys/msg.h	/^struct msgbuf$/;"	s
+msgbuf::mtext	/usr/include/sys/msg.h	/^    char mtext[1];		\/* text of the message *\/$/;"	m	struct:msgbuf	access:public
+msgbuf::mtype	/usr/include/sys/msg.h	/^    long int mtype;		\/* type of received\/sent message *\/$/;"	m	struct:msgbuf	access:public
+msgrcv	/usr/include/sys/msg.h	/^extern ssize_t msgrcv (int __msqid, void *__msgp, size_t __msgsz,$/;"	p	signature:(int __msqid, void *__msgp, size_t __msgsz, long int __msgtyp, int __msgflg)
+msgsnd	/usr/include/sys/msg.h	/^extern int msgsnd (int __msqid, __const void *__msgp, size_t __msgsz,$/;"	p	signature:(int __msqid, __const void *__msgp, size_t __msgsz, int __msgflg)
+msync	/usr/include/sys/mman.h	/^extern int msync (void *__addr, size_t __len, int __flags);$/;"	p	signature:(void *__addr, size_t __len, int __flags)
+mt_blkno	/usr/include/sys/mtio.h	/^    __daddr_t mt_blkno;		\/* Current block number.  *\/$/;"	m	struct:mtget	access:public
+mt_blkno	/usr/include/sys/mtio.h	/^    long int mt_blkno;	\/* Current block number.  *\/$/;"	m	struct:mtpos	access:public
+mt_count	/usr/include/sys/mtio.h	/^    int mt_count;		\/* How many of them.  *\/$/;"	m	struct:mtop	access:public
+mt_dsreg	/usr/include/sys/mtio.h	/^    long int mt_dsreg;		\/* Status register.  *\/$/;"	m	struct:mtget	access:public
+mt_erreg	/usr/include/sys/mtio.h	/^    long int mt_erreg;		\/* Error register.  *\/$/;"	m	struct:mtget	access:public
+mt_fileno	/usr/include/sys/mtio.h	/^    __daddr_t mt_fileno;	\/* Number of current file on tape.  *\/$/;"	m	struct:mtget	access:public
+mt_gstat	/usr/include/sys/mtio.h	/^    long int mt_gstat;		\/* Generic (device independent) status.  *\/$/;"	m	struct:mtget	access:public
+mt_op	/usr/include/sys/mtio.h	/^    short int mt_op;		\/* Operations defined below.  *\/$/;"	m	struct:mtop	access:public
+mt_resid	/usr/include/sys/mtio.h	/^    long int mt_resid;		\/* Residual count: (not sure)$/;"	m	struct:mtget	access:public
+mt_tape_info	/usr/include/sys/mtio.h	/^struct mt_tape_info$/;"	s
+mt_tape_info::t_name	/usr/include/sys/mtio.h	/^    char *t_name;		\/* Descriptive name.  *\/$/;"	m	struct:mt_tape_info	access:public
+mt_tape_info::t_type	/usr/include/sys/mtio.h	/^    long int t_type;		\/* Device type id (mt_type).  *\/$/;"	m	struct:mt_tape_info	access:public
+mt_type	/usr/include/sys/mtio.h	/^    long int mt_type;		\/* Drive type.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mt_type	/usr/include/sys/mtio.h	/^    long int mt_type;		\/* Type of magtape device.  *\/$/;"	m	struct:mtget	access:public
+mtconfiginfo	/usr/include/sys/mtio.h	/^struct mtconfiginfo$/;"	s
+mtconfiginfo::debug	/usr/include/sys/mtio.h	/^    unsigned long int debug;	\/* Debugging flags.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::dmanr	/usr/include/sys/mtio.h	/^    unsigned short int dmanr;	\/* DMA channel to use.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_bsf	/usr/include/sys/mtio.h	/^    unsigned have_bsf:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_bsr	/usr/include/sys/mtio.h	/^    unsigned have_bsr:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_dens	/usr/include/sys/mtio.h	/^    unsigned have_dens:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_eod	/usr/include/sys/mtio.h	/^    unsigned have_eod:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_fsr	/usr/include/sys/mtio.h	/^    unsigned have_fsr:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_qfa	/usr/include/sys/mtio.h	/^    unsigned have_qfa:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_ras1	/usr/include/sys/mtio.h	/^    unsigned have_ras1:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_ras2	/usr/include/sys/mtio.h	/^    unsigned have_ras2:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_ras3	/usr/include/sys/mtio.h	/^    unsigned have_ras3:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_seek	/usr/include/sys/mtio.h	/^    unsigned have_seek:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::have_tell	/usr/include/sys/mtio.h	/^    unsigned have_tell:1;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::ifc_type	/usr/include/sys/mtio.h	/^    long int ifc_type;		\/* Interface card type.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::irqnr	/usr/include/sys/mtio.h	/^    unsigned short int irqnr;	\/* IRQ number to use.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::mt_type	/usr/include/sys/mtio.h	/^    long int mt_type;		\/* Drive type.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::pad1	/usr/include/sys/mtio.h	/^    unsigned pad1:5;$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::port	/usr/include/sys/mtio.h	/^    unsigned short int port;	\/* IO port base address.  *\/$/;"	m	struct:mtconfiginfo	access:public
+mtconfiginfo::reserved	/usr/include/sys/mtio.h	/^    char reserved[10];$/;"	m	struct:mtconfiginfo	access:public
+mtext	/usr/include/sys/msg.h	/^    char mtext[1];		\/* text of the message *\/$/;"	m	struct:msgbuf	access:public
+mtget	/usr/include/sys/mtio.h	/^struct mtget$/;"	s
+mtget::mt_blkno	/usr/include/sys/mtio.h	/^    __daddr_t mt_blkno;		\/* Current block number.  *\/$/;"	m	struct:mtget	access:public
+mtget::mt_dsreg	/usr/include/sys/mtio.h	/^    long int mt_dsreg;		\/* Status register.  *\/$/;"	m	struct:mtget	access:public
+mtget::mt_erreg	/usr/include/sys/mtio.h	/^    long int mt_erreg;		\/* Error register.  *\/$/;"	m	struct:mtget	access:public
+mtget::mt_fileno	/usr/include/sys/mtio.h	/^    __daddr_t mt_fileno;	\/* Number of current file on tape.  *\/$/;"	m	struct:mtget	access:public
+mtget::mt_gstat	/usr/include/sys/mtio.h	/^    long int mt_gstat;		\/* Generic (device independent) status.  *\/$/;"	m	struct:mtget	access:public
+mtget::mt_resid	/usr/include/sys/mtio.h	/^    long int mt_resid;		\/* Residual count: (not sure)$/;"	m	struct:mtget	access:public
+mtget::mt_type	/usr/include/sys/mtio.h	/^    long int mt_type;		\/* Type of magtape device.  *\/$/;"	m	struct:mtget	access:public
+mtop	/usr/include/sys/mtio.h	/^struct mtop$/;"	s
+mtop::mt_count	/usr/include/sys/mtio.h	/^    int mt_count;		\/* How many of them.  *\/$/;"	m	struct:mtop	access:public
+mtop::mt_op	/usr/include/sys/mtio.h	/^    short int mt_op;		\/* Operations defined below.  *\/$/;"	m	struct:mtop	access:public
+mtpos	/usr/include/sys/mtio.h	/^struct mtpos$/;"	s
+mtpos::mt_blkno	/usr/include/sys/mtio.h	/^    long int mt_blkno;	\/* Current block number.  *\/$/;"	m	struct:mtpos	access:public
+mtype	/usr/include/sys/msg.h	/^    long int mtype;		\/* type of received\/sent message *\/$/;"	m	struct:msgbuf	access:public
+mxcr_mask	/usr/include/sys/ucontext.h	/^  __uint32_t		mxcr_mask;$/;"	m	struct:_libc_fpstate	access:public
+mxcr_mask	/usr/include/sys/user.h	/^  unsigned int		mxcr_mask;$/;"	m	struct:user_fpregs_struct	access:public
+mxcsr	/usr/include/sys/ucontext.h	/^  __uint32_t		mxcsr;$/;"	m	struct:_libc_fpstate	access:public
+mxcsr	/usr/include/sys/user.h	/^  long int mxcsr;$/;"	m	struct:user_fpxregs_struct	access:public
+mxcsr	/usr/include/sys/user.h	/^  unsigned int		mxcsr;$/;"	m	struct:user_fpregs_struct	access:public
+ncounts	/usr/include/sys/gmon.h	/^  long			ncounts;$/;"	m	struct:__bb	access:public
+next	/usr/include/sys/gmon.h	/^  struct __bb		*next;$/;"	m	struct:__bb	typeref:struct:__bb::__bb	access:public
+nfds_t	/usr/include/sys/poll.h	/^typedef unsigned long int nfds_t;$/;"	t
+nlink_t	/usr/include/sys/stat.h	/^typedef __nlink_t nlink_t;$/;"	t
+nlink_t	/usr/include/sys/types.h	/^typedef __nlink_t nlink_t;$/;"	t
+nodename	/usr/include/sys/utsname.h	/^    char nodename[_UTSNAME_NODENAME_LENGTH];$/;"	m	struct:utsname	access:public
+ntp_gettime	/usr/include/sys/timex.h	66;"	d
+ntptimeval	/usr/include/sys/timex.h	/^struct ntptimeval$/;"	s
+ntptimeval::__unused1	/usr/include/sys/timex.h	/^  long int __unused1;$/;"	m	struct:ntptimeval	access:public
+ntptimeval::__unused2	/usr/include/sys/timex.h	/^  long int __unused2;$/;"	m	struct:ntptimeval	access:public
+ntptimeval::__unused3	/usr/include/sys/timex.h	/^  long int __unused3;$/;"	m	struct:ntptimeval	access:public
+ntptimeval::__unused4	/usr/include/sys/timex.h	/^  long int __unused4;$/;"	m	struct:ntptimeval	access:public
+ntptimeval::esterror	/usr/include/sys/timex.h	/^  long int esterror;	\/* estimated error (us) (ro) *\/$/;"	m	struct:ntptimeval	access:public
+ntptimeval::maxerror	/usr/include/sys/timex.h	/^  long int maxerror;	\/* maximum error (us) (ro) *\/$/;"	m	struct:ntptimeval	access:public
+ntptimeval::tai	/usr/include/sys/timex.h	/^  long int tai;		\/* TAI offset (ro) *\/$/;"	m	struct:ntptimeval	access:public
+ntptimeval::time	/usr/include/sys/timex.h	/^  struct timeval time;	\/* current time (ro) *\/$/;"	m	struct:ntptimeval	typeref:struct:ntptimeval::timeval	access:public
+off64_t	/usr/include/sys/types.h	/^typedef __off64_t off64_t;$/;"	t
+off_t	/usr/include/sys/mman.h	/^typedef __off64_t off_t;$/;"	t
+off_t	/usr/include/sys/mman.h	/^typedef __off_t off_t;$/;"	t
+off_t	/usr/include/sys/stat.h	/^typedef __off64_t off_t;$/;"	t
+off_t	/usr/include/sys/stat.h	/^typedef __off_t off_t;$/;"	t
+off_t	/usr/include/sys/types.h	/^typedef __off64_t off_t;$/;"	t
+off_t	/usr/include/sys/types.h	/^typedef __off_t off_t;$/;"	t
+oldmask	/usr/include/sys/ucontext.h	/^    unsigned long int oldmask;$/;"	m	struct:__anon4	access:public
+openlog	/usr/include/sys/syslog.h	/^extern void openlog (__const char *__ident, int __option, int __facility);$/;"	p	signature:(__const char *__ident, int __option, int __facility)
+orig_eax	/usr/include/sys/user.h	/^  long int orig_eax;$/;"	m	struct:user_regs_struct	access:public
+orig_rax	/usr/include/sys/user.h	/^  unsigned long int orig_rax;$/;"	m	struct:user_regs_struct	access:public
+osockaddr	/usr/include/sys/socket.h	/^struct osockaddr$/;"	s
+osockaddr::sa_data	/usr/include/sys/socket.h	/^    unsigned char sa_data[14];$/;"	m	struct:osockaddr	access:public
+osockaddr::sa_family	/usr/include/sys/socket.h	/^    unsigned short int sa_family;$/;"	m	struct:osockaddr	access:public
+outb	/usr/include/sys/io.h	/^outb (unsigned char __value, unsigned short int __port)$/;"	f	signature:(unsigned char __value, unsigned short int __port)
+outb_p	/usr/include/sys/io.h	/^outb_p (unsigned char __value, unsigned short int __port)$/;"	f	signature:(unsigned char __value, unsigned short int __port)
+outl	/usr/include/sys/io.h	/^outl (unsigned int __value, unsigned short int __port)$/;"	f	signature:(unsigned int __value, unsigned short int __port)
+outl_p	/usr/include/sys/io.h	/^outl_p (unsigned int __value, unsigned short int __port)$/;"	f	signature:(unsigned int __value, unsigned short int __port)
+outsb	/usr/include/sys/io.h	/^outsb (unsigned short int __port, const void *addr, unsigned long int __count)$/;"	f	signature:(unsigned short int __port, const void *addr, unsigned long int __count)
+outsl	/usr/include/sys/io.h	/^outsl (unsigned short int __port, const void *addr, unsigned long int __count)$/;"	f	signature:(unsigned short int __port, const void *addr, unsigned long int __count)
+outsw	/usr/include/sys/io.h	/^outsw (unsigned short int __port, const void *addr, unsigned long int __count)$/;"	f	signature:(unsigned short int __port, const void *addr, unsigned long int __count)
+outw	/usr/include/sys/io.h	/^outw (unsigned short int __value, unsigned short int __port)$/;"	f	signature:(unsigned short int __value, unsigned short int __port)
+outw_p	/usr/include/sys/io.h	/^outw_p (unsigned short int __value, unsigned short int __port)$/;"	f	signature:(unsigned short int __value, unsigned short int __port)
+pad1	/usr/include/sys/mtio.h	/^    unsigned pad1:5;$/;"	m	struct:mtconfiginfo	access:public
+padding	/usr/include/sys/ucontext.h	/^  __uint32_t		padding[24];$/;"	m	struct:_libc_fpstate	access:public
+padding	/usr/include/sys/ucontext.h	/^  unsigned short int padding[3];$/;"	m	struct:_libc_fpxreg	access:public
+padding	/usr/include/sys/user.h	/^  long int padding[56];$/;"	m	struct:user_fpxregs_struct	access:public
+padding	/usr/include/sys/user.h	/^  unsigned int		padding[24];$/;"	m	struct:user_fpregs_struct	access:public
+pages_allocated	/usr/include/sys/quota.h	/^    u_int32_t pages_allocated;$/;"	m	struct:dqstats	access:public
+pid_t	/usr/include/sys/msg.h	/^typedef __pid_t pid_t;$/;"	t
+pid_t	/usr/include/sys/shm.h	/^typedef __pid_t pid_t;$/;"	t
+pid_t	/usr/include/sys/types.h	/^typedef __pid_t pid_t;$/;"	t
+poll	/usr/include/sys/poll.h	/^extern int poll (struct pollfd *__fds, nfds_t __nfds, int __timeout);$/;"	p	signature:(struct pollfd *__fds, nfds_t __nfds, int __timeout)
+pollfd	/usr/include/sys/poll.h	/^struct pollfd$/;"	s
+pollfd::events	/usr/include/sys/poll.h	/^    short int events;		\/* Types of events poller cares about.  *\/$/;"	m	struct:pollfd	access:public
+pollfd::fd	/usr/include/sys/poll.h	/^    int fd;			\/* File descriptor to poll.  *\/$/;"	m	struct:pollfd	access:public
+pollfd::revents	/usr/include/sys/poll.h	/^    short int revents;		\/* Types of events that actually occurred.  *\/$/;"	m	struct:pollfd	access:public
+port	/usr/include/sys/mtio.h	/^    unsigned short int port;	\/* IO port base address.  *\/$/;"	m	struct:mtconfiginfo	access:public
+powerof2	/usr/include/sys/param.h	72;"	d
+ppoll	/usr/include/sys/poll.h	/^extern int ppoll (struct pollfd *__fds, nfds_t __nfds,$/;"	p	signature:(struct pollfd *__fds, nfds_t __nfds, __const struct timespec *__timeout, __const __sigset_t *__ss)
+pr_base	/usr/include/sys/profil.h	/^    void *pr_base;		\/* buffer base *\/$/;"	m	struct:prof	access:public
+pr_cstime	/usr/include/sys/procfs.h	/^    struct timeval pr_cstime;		\/* Cumulative system time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+pr_cursig	/usr/include/sys/procfs.h	/^    short int pr_cursig;		\/* Current signal.  *\/$/;"	m	struct:elf_prstatus	access:public
+pr_cutime	/usr/include/sys/procfs.h	/^    struct timeval pr_cutime;		\/* Cumulative user time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+pr_flag	/usr/include/sys/procfs.h	/^    unsigned long int pr_flag;		\/* Flags.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_fname	/usr/include/sys/procfs.h	/^    char pr_fname[16];			\/* Filename of executable.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_fpvalid	/usr/include/sys/procfs.h	/^    int pr_fpvalid;			\/* True if math copro being used.  *\/$/;"	m	struct:elf_prstatus	access:public
+pr_gid	/usr/include/sys/procfs.h	/^    unsigned int pr_gid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_gid	/usr/include/sys/procfs.h	/^    unsigned short int pr_gid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_info	/usr/include/sys/procfs.h	/^    struct elf_siginfo pr_info;		\/* Info associated with signal.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::elf_siginfo	access:public
+pr_nice	/usr/include/sys/procfs.h	/^    char pr_nice;			\/* Nice val.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_off	/usr/include/sys/profil.h	/^    size_t pr_off;		\/* pc offset *\/$/;"	m	struct:prof	access:public
+pr_pgrp	/usr/include/sys/procfs.h	/^    __pid_t pr_pgrp;$/;"	m	struct:elf_prstatus	access:public
+pr_pgrp	/usr/include/sys/procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_pid	/usr/include/sys/procfs.h	/^    __pid_t pr_pid;$/;"	m	struct:elf_prstatus	access:public
+pr_pid	/usr/include/sys/procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_ppid	/usr/include/sys/procfs.h	/^    __pid_t pr_ppid;$/;"	m	struct:elf_prstatus	access:public
+pr_ppid	/usr/include/sys/procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_psargs	/usr/include/sys/procfs.h	/^    char pr_psargs[ELF_PRARGSZ];	\/* Initial part of arg list.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_reg	/usr/include/sys/procfs.h	/^    elf_gregset_t pr_reg;		\/* GP registers.  *\/$/;"	m	struct:elf_prstatus	access:public
+pr_scale	/usr/include/sys/profil.h	/^    unsigned long int pr_scale;	\/* pc scaling (fixed-point number) *\/$/;"	m	struct:prof	access:public
+pr_sid	/usr/include/sys/procfs.h	/^    __pid_t pr_sid;$/;"	m	struct:elf_prstatus	access:public
+pr_sid	/usr/include/sys/procfs.h	/^    int pr_pid, pr_ppid, pr_pgrp, pr_sid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_sighold	/usr/include/sys/procfs.h	/^    unsigned long int pr_sighold;	\/* Set of held signals.  *\/$/;"	m	struct:elf_prstatus	access:public
+pr_sigpend	/usr/include/sys/procfs.h	/^    unsigned long int pr_sigpend;	\/* Set of pending signals.  *\/$/;"	m	struct:elf_prstatus	access:public
+pr_size	/usr/include/sys/profil.h	/^    size_t pr_size;		\/* buffer size *\/$/;"	m	struct:prof	access:public
+pr_sname	/usr/include/sys/procfs.h	/^    char pr_sname;			\/* Char for pr_state.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_state	/usr/include/sys/procfs.h	/^    char pr_state;			\/* Numeric process state.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+pr_stime	/usr/include/sys/procfs.h	/^    struct timeval pr_stime;		\/* System time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+pr_uid	/usr/include/sys/procfs.h	/^    unsigned int pr_uid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_uid	/usr/include/sys/procfs.h	/^    unsigned short int pr_uid;$/;"	m	struct:elf_prpsinfo	access:public
+pr_utime	/usr/include/sys/procfs.h	/^    struct timeval pr_utime;		\/* User time.  *\/$/;"	m	struct:elf_prstatus	typeref:struct:elf_prstatus::timeval	access:public
+pr_zomb	/usr/include/sys/procfs.h	/^    char pr_zomb;			\/* Zombie.  *\/$/;"	m	struct:elf_prpsinfo	access:public
+preadv	/usr/include/sys/uio.h	89;"	d
+prfpregset_t	/usr/include/sys/procfs.h	/^typedef elf_fpregset_t prfpregset_t;$/;"	t
+prgregset_t	/usr/include/sys/procfs.h	/^typedef elf_gregset_t prgregset_t;$/;"	t
+prioritynames	/usr/include/sys/syslog.h	/^CODE prioritynames[] =$/;"	v
+prof	/usr/include/sys/profil.h	/^struct prof$/;"	s
+prof::pr_base	/usr/include/sys/profil.h	/^    void *pr_base;		\/* buffer base *\/$/;"	m	struct:prof	access:public
+prof::pr_off	/usr/include/sys/profil.h	/^    size_t pr_off;		\/* pc offset *\/$/;"	m	struct:prof	access:public
+prof::pr_scale	/usr/include/sys/profil.h	/^    unsigned long int pr_scale;	\/* pc scaling (fixed-point number) *\/$/;"	m	struct:prof	access:public
+prof::pr_size	/usr/include/sys/profil.h	/^    size_t pr_size;		\/* buffer size *\/$/;"	m	struct:prof	access:public
+prof_rate	/usr/include/sys/gmon_out.h	/^    char prof_rate[4];			\/* profiling clock rate *\/$/;"	m	struct:gmon_hist_hdr	access:public
+prpsinfo_t	/usr/include/sys/procfs.h	/^typedef struct elf_prpsinfo prpsinfo_t;$/;"	t	typeref:struct:elf_prpsinfo
+prstatus_t	/usr/include/sys/procfs.h	/^typedef struct elf_prstatus prstatus_t;$/;"	t	typeref:struct:elf_prstatus
+psaddr_t	/usr/include/sys/procfs.h	/^typedef void *psaddr_t;$/;"	t
+pselect	/usr/include/sys/select.h	/^extern int pselect (int __nfds, fd_set *__restrict __readfds,$/;"	p	signature:(int __nfds, fd_set *__restrict __readfds, fd_set *__restrict __writefds, fd_set *__restrict __exceptfds, const struct timespec *__restrict __timeout, const __sigset_t *__restrict __sigmask)
+ptr	/usr/include/sys/epoll.h	/^  void *ptr;$/;"	m	union:epoll_data	access:public
+pwritev	/usr/include/sys/uio.h	90;"	d
+quad_t	/usr/include/sys/types.h	/^typedef __quad_t quad_t;$/;"	t
+r10	/usr/include/sys/user.h	/^  unsigned long int r10;$/;"	m	struct:user_regs_struct	access:public
+r11	/usr/include/sys/user.h	/^  unsigned long int r11;$/;"	m	struct:user_regs_struct	access:public
+r12	/usr/include/sys/user.h	/^  unsigned long int r12;$/;"	m	struct:user_regs_struct	access:public
+r13	/usr/include/sys/user.h	/^  unsigned long int r13;$/;"	m	struct:user_regs_struct	access:public
+r14	/usr/include/sys/user.h	/^  unsigned long int r14;$/;"	m	struct:user_regs_struct	access:public
+r15	/usr/include/sys/user.h	/^  unsigned long int r15;$/;"	m	struct:user_regs_struct	access:public
+r8	/usr/include/sys/user.h	/^  unsigned long int r8;$/;"	m	struct:user_regs_struct	access:public
+r9	/usr/include/sys/user.h	/^  unsigned long int r9;$/;"	m	struct:user_regs_struct	access:public
+raw_config_request	/usr/include/sys/raw.h	/^struct raw_config_request$/;"	s
+raw_config_request::block_major	/usr/include/sys/raw.h	/^  uint64_t block_major;$/;"	m	struct:raw_config_request	access:public
+raw_config_request::block_minor	/usr/include/sys/raw.h	/^  uint64_t block_minor;$/;"	m	struct:raw_config_request	access:public
+raw_config_request::raw_minor	/usr/include/sys/raw.h	/^  int raw_minor;$/;"	m	struct:raw_config_request	access:public
+raw_count	/usr/include/sys/gmon.h	/^	long	raw_count;$/;"	m	struct:rawarc	access:public
+raw_frompc	/usr/include/sys/gmon.h	/^	u_long	raw_frompc;$/;"	m	struct:rawarc	access:public
+raw_minor	/usr/include/sys/raw.h	/^  int raw_minor;$/;"	m	struct:raw_config_request	access:public
+raw_selfpc	/usr/include/sys/gmon.h	/^	u_long	raw_selfpc;$/;"	m	struct:rawarc	access:public
+rawarc	/usr/include/sys/gmon.h	/^struct rawarc {$/;"	s
+rawarc::raw_count	/usr/include/sys/gmon.h	/^	long	raw_count;$/;"	m	struct:rawarc	access:public
+rawarc::raw_frompc	/usr/include/sys/gmon.h	/^	u_long	raw_frompc;$/;"	m	struct:rawarc	access:public
+rawarc::raw_selfpc	/usr/include/sys/gmon.h	/^	u_long	raw_selfpc;$/;"	m	struct:rawarc	access:public
+rax	/usr/include/sys/user.h	/^  unsigned long int rax;$/;"	m	struct:user_regs_struct	access:public
+rbp	/usr/include/sys/user.h	/^  unsigned long int rbp;$/;"	m	struct:user_regs_struct	access:public
+rbx	/usr/include/sys/user.h	/^  unsigned long int rbx;$/;"	m	struct:user_regs_struct	access:public
+rcx	/usr/include/sys/user.h	/^  unsigned long int rcx;$/;"	m	struct:user_regs_struct	access:public
+rdi	/usr/include/sys/user.h	/^  unsigned long int rdi;$/;"	m	struct:user_regs_struct	access:public
+rdp	/usr/include/sys/ucontext.h	/^  __uint64_t		rdp;$/;"	m	struct:_libc_fpstate	access:public
+rdp	/usr/include/sys/user.h	/^  unsigned long int	rdp;$/;"	m	struct:user_fpregs_struct	access:public
+rdx	/usr/include/sys/user.h	/^  unsigned long int rdx;$/;"	m	struct:user_regs_struct	access:public
+reads	/usr/include/sys/quota.h	/^    u_int32_t reads;$/;"	m	struct:dqstats	access:public
+recv	/usr/include/sys/socket.h	/^extern ssize_t recv (int __fd, void *__buf, size_t __n, int __flags);$/;"	p	signature:(int __fd, void *__buf, size_t __n, int __flags)
+recvfrom	/usr/include/sys/socket.h	/^extern ssize_t recvfrom (int __fd, void *__restrict __buf, size_t __n,$/;"	p	signature:(int __fd, void *__restrict __buf, size_t __n, int __flags, __SOCKADDR_ARG __addr, socklen_t *__restrict __addr_len)
+recvmsg	/usr/include/sys/socket.h	/^extern ssize_t recvmsg (int __fd, struct msghdr *__message, int __flags);$/;"	p	signature:(int __fd, struct msghdr *__message, int __flags)
+register_t	/usr/include/sys/types.h	/^typedef int register_t __attribute__ ((__mode__ (__word__)));$/;"	t
+register_t	/usr/include/sys/types.h	/^typedef int register_t;$/;"	t
+regs	/usr/include/sys/user.h	/^  struct user_regs_struct	regs;$/;"	m	struct:user	typeref:struct:user::user_regs_struct	access:public
+release	/usr/include/sys/utsname.h	/^    char release[_UTSNAME_RELEASE_LENGTH];$/;"	m	struct:utsname	access:public
+reserved	/usr/include/sys/mtio.h	/^    char reserved[10];$/;"	m	struct:mtconfiginfo	access:public
+reserved	/usr/include/sys/user.h	/^  int				reserved;$/;"	m	struct:user	access:public
+reserved	/usr/include/sys/user.h	/^  long int reserved;$/;"	m	struct:user_fpxregs_struct	access:public
+revents	/usr/include/sys/poll.h	/^    short int revents;		\/* Types of events that actually occurred.  *\/$/;"	m	struct:pollfd	access:public
+rip	/usr/include/sys/ucontext.h	/^  __uint64_t		rip;$/;"	m	struct:_libc_fpstate	access:public
+rip	/usr/include/sys/user.h	/^  unsigned long int	rip;$/;"	m	struct:user_fpregs_struct	access:public
+rip	/usr/include/sys/user.h	/^  unsigned long int rip;$/;"	m	struct:user_regs_struct	access:public
+roundup	/usr/include/sys/param.h	66;"	d
+roundup	/usr/include/sys/param.h	70;"	d
+rsi	/usr/include/sys/user.h	/^  unsigned long int rsi;$/;"	m	struct:user_regs_struct	access:public
+rsp	/usr/include/sys/user.h	/^  unsigned long int rsp;$/;"	m	struct:user_regs_struct	access:public
+sa_data	/usr/include/sys/socket.h	/^    unsigned char sa_data[14];$/;"	m	struct:osockaddr	access:public
+sa_family	/usr/include/sys/socket.h	/^    unsigned short int sa_family;$/;"	m	struct:osockaddr	access:public
+select	/usr/include/sys/select.h	/^extern int select (int __nfds, fd_set *__restrict __readfds,$/;"	p	signature:(int __nfds, fd_set *__restrict __readfds, fd_set *__restrict __writefds, fd_set *__restrict __exceptfds, struct timeval *__restrict __timeout)
+self_pc	/usr/include/sys/gmon_out.h	/^    char self_pc[sizeof (char *)];	\/* address within callee's body *\/$/;"	m	struct:gmon_cg_arc_record	access:public
+selfpc	/usr/include/sys/gmon.h	/^	u_long		selfpc;$/;"	m	struct:tostruct	access:public
+sem_flg	/usr/include/sys/sem.h	/^  short int sem_flg;		\/* operation flag *\/$/;"	m	struct:sembuf	access:public
+sem_num	/usr/include/sys/sem.h	/^  unsigned short int sem_num;	\/* semaphore number *\/$/;"	m	struct:sembuf	access:public
+sem_op	/usr/include/sys/sem.h	/^  short int sem_op;		\/* semaphore operation *\/$/;"	m	struct:sembuf	access:public
+sembuf	/usr/include/sys/sem.h	/^struct sembuf$/;"	s
+sembuf::sem_flg	/usr/include/sys/sem.h	/^  short int sem_flg;		\/* operation flag *\/$/;"	m	struct:sembuf	access:public
+sembuf::sem_num	/usr/include/sys/sem.h	/^  unsigned short int sem_num;	\/* semaphore number *\/$/;"	m	struct:sembuf	access:public
+sembuf::sem_op	/usr/include/sys/sem.h	/^  short int sem_op;		\/* semaphore operation *\/$/;"	m	struct:sembuf	access:public
+send	/usr/include/sys/socket.h	/^extern ssize_t send (int __fd, __const void *__buf, size_t __n, int __flags);$/;"	p	signature:(int __fd, __const void *__buf, size_t __n, int __flags)
+sendmsg	/usr/include/sys/socket.h	/^extern ssize_t sendmsg (int __fd, __const struct msghdr *__message,$/;"	p	signature:(int __fd, __const struct msghdr *__message, int __flags)
+sendto	/usr/include/sys/socket.h	/^extern ssize_t sendto (int __fd, __const void *__buf, size_t __n,$/;"	p	signature:(int __fd, __const void *__buf, size_t __n, int __flags, __CONST_SOCKADDR_ARG __addr, socklen_t __addr_len)
+setbit	/usr/include/sys/param.h	56;"	d
+setrlimit	/usr/include/sys/resource.h	78;"	d
+shm_open	/usr/include/sys/mman.h	/^extern int shm_open (__const char *__name, int __oflag, mode_t __mode);$/;"	p	signature:(__const char *__name, int __oflag, mode_t __mode)
+shm_unlink	/usr/include/sys/mman.h	/^extern int shm_unlink (__const char *__name);$/;"	p	signature:(__const char *__name)
+si_code	/usr/include/sys/procfs.h	/^    int si_code;			\/* Extra code.  *\/$/;"	m	struct:elf_siginfo	access:public
+si_errno	/usr/include/sys/procfs.h	/^    int si_errno;			\/* Errno.  *\/$/;"	m	struct:elf_siginfo	access:public
+si_signo	/usr/include/sys/procfs.h	/^    int si_signo;			\/* Signal number.  *\/$/;"	m	struct:elf_siginfo	access:public
+signal	/usr/include/sys/user.h	/^  long int			signal;$/;"	m	struct:user	access:public
+signalfd_siginfo	/usr/include/sys/signalfd.h	/^struct signalfd_siginfo$/;"	s
+signalfd_siginfo::__pad	/usr/include/sys/signalfd.h	/^  uint8_t __pad[48];$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_addr	/usr/include/sys/signalfd.h	/^  uint64_t ssi_addr;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_band	/usr/include/sys/signalfd.h	/^  uint32_t ssi_band;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_code	/usr/include/sys/signalfd.h	/^  int32_t ssi_code;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_errno	/usr/include/sys/signalfd.h	/^  int32_t ssi_errno;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_fd	/usr/include/sys/signalfd.h	/^  int32_t ssi_fd;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_int	/usr/include/sys/signalfd.h	/^  int32_t ssi_int;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_overrun	/usr/include/sys/signalfd.h	/^  uint32_t ssi_overrun;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_pid	/usr/include/sys/signalfd.h	/^  uint32_t ssi_pid;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_ptr	/usr/include/sys/signalfd.h	/^  uint64_t ssi_ptr;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_signo	/usr/include/sys/signalfd.h	/^  uint32_t ssi_signo;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_status	/usr/include/sys/signalfd.h	/^  int32_t ssi_status;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_stime	/usr/include/sys/signalfd.h	/^  uint64_t ssi_stime;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_tid	/usr/include/sys/signalfd.h	/^  uint32_t ssi_tid;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_trapno	/usr/include/sys/signalfd.h	/^  uint32_t ssi_trapno;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_uid	/usr/include/sys/signalfd.h	/^  uint32_t ssi_uid;$/;"	m	struct:signalfd_siginfo	access:public
+signalfd_siginfo::ssi_utime	/usr/include/sys/signalfd.h	/^  uint64_t ssi_utime;$/;"	m	struct:signalfd_siginfo	access:public
+significand	/usr/include/sys/ucontext.h	/^  unsigned short int significand[4];$/;"	m	struct:_libc_fpreg	access:public
+significand	/usr/include/sys/ucontext.h	/^  unsigned short int significand[4];$/;"	m	struct:_libc_fpxreg	access:public
+sigset_t	/usr/include/sys/epoll.h	/^typedef __sigset_t sigset_t;$/;"	t
+sigset_t	/usr/include/sys/select.h	/^typedef __sigset_t sigset_t;$/;"	t
+sockaddr_un	/usr/include/sys/un.h	/^struct sockaddr_un$/;"	s
+sockaddr_un::__SOCKADDR_COMMON	/usr/include/sys/un.h	/^    __SOCKADDR_COMMON (sun_);$/;"	p	struct:sockaddr_un	access:public	signature:(sun_)
+sockaddr_un::sun_path	/usr/include/sys/un.h	/^    char sun_path[108];		\/* Path name.  *\/$/;"	m	struct:sockaddr_un	access:public
+spare	/usr/include/sys/gmon_out.h	/^    char spare[3 * 4];$/;"	m	struct:gmon_hdr	access:public
+ss	/usr/include/sys/user.h	/^  unsigned long int ss;$/;"	m	struct:user_regs_struct	access:public
+ssi_addr	/usr/include/sys/signalfd.h	/^  uint64_t ssi_addr;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_band	/usr/include/sys/signalfd.h	/^  uint32_t ssi_band;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_code	/usr/include/sys/signalfd.h	/^  int32_t ssi_code;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_errno	/usr/include/sys/signalfd.h	/^  int32_t ssi_errno;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_fd	/usr/include/sys/signalfd.h	/^  int32_t ssi_fd;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_int	/usr/include/sys/signalfd.h	/^  int32_t ssi_int;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_overrun	/usr/include/sys/signalfd.h	/^  uint32_t ssi_overrun;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_pid	/usr/include/sys/signalfd.h	/^  uint32_t ssi_pid;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_ptr	/usr/include/sys/signalfd.h	/^  uint64_t ssi_ptr;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_signo	/usr/include/sys/signalfd.h	/^  uint32_t ssi_signo;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_status	/usr/include/sys/signalfd.h	/^  int32_t ssi_status;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_stime	/usr/include/sys/signalfd.h	/^  uint64_t ssi_stime;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_tid	/usr/include/sys/signalfd.h	/^  uint32_t ssi_tid;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_trapno	/usr/include/sys/signalfd.h	/^  uint32_t ssi_trapno;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_uid	/usr/include/sys/signalfd.h	/^  uint32_t ssi_uid;$/;"	m	struct:signalfd_siginfo	access:public
+ssi_utime	/usr/include/sys/signalfd.h	/^  uint64_t ssi_utime;$/;"	m	struct:signalfd_siginfo	access:public
+ssize_t	/usr/include/sys/msg.h	/^typedef __ssize_t ssize_t;$/;"	t
+ssize_t	/usr/include/sys/types.h	/^typedef __ssize_t ssize_t;$/;"	t
+st_space	/usr/include/sys/user.h	/^  long int st_space [20];$/;"	m	struct:user_fpregs_struct	access:public
+st_space	/usr/include/sys/user.h	/^  long int st_space[32];   \/* 8*16 bytes for each FP-reg = 128 bytes *\/$/;"	m	struct:user_fpxregs_struct	access:public
+st_space	/usr/include/sys/user.h	/^  unsigned int		st_space[32];   \/* 8*16 bytes for each FP-reg = 128 bytes *\/$/;"	m	struct:user_fpregs_struct	access:public
+start_code	/usr/include/sys/user.h	/^  unsigned long int		start_code;$/;"	m	struct:user	access:public
+start_stack	/usr/include/sys/user.h	/^  unsigned long int		start_stack;$/;"	m	struct:user	access:public
+stat	/usr/include/sys/stat.h	/^__NTH (stat (__const char *__path, struct stat *__statbuf))$/;"	f	signature:(__const char *__path, struct stat *__statbuf)
+stat64	/usr/include/sys/stat.h	/^__NTH (stat64 (__const char *__path, struct stat64 *__statbuf))$/;"	f	signature:(__const char *__path, struct stat64 *__statbuf)
+state	/usr/include/sys/gmon.h	/^	long int	state;$/;"	m	struct:gmonparam	access:public
+status	/usr/include/sys/ucontext.h	/^  unsigned long int status;$/;"	m	struct:_libc_fpstate	access:public
+sun_path	/usr/include/sys/un.h	/^    char sun_path[108];		\/* Path name.  *\/$/;"	m	struct:sockaddr_un	access:public
+suseconds_t	/usr/include/sys/select.h	/^typedef __suseconds_t suseconds_t;$/;"	t
+suseconds_t	/usr/include/sys/time.h	/^typedef __suseconds_t suseconds_t;$/;"	t
+suseconds_t	/usr/include/sys/types.h	/^typedef __suseconds_t suseconds_t;$/;"	t
+sw	/usr/include/sys/ucontext.h	/^  unsigned long int sw;$/;"	m	struct:_libc_fpstate	access:public
+swd	/usr/include/sys/ucontext.h	/^  __uint16_t		swd;$/;"	m	struct:_libc_fpstate	access:public
+swd	/usr/include/sys/user.h	/^  long int swd;$/;"	m	struct:user_fpregs_struct	access:public
+swd	/usr/include/sys/user.h	/^  unsigned short int	swd;$/;"	m	struct:user_fpregs_struct	access:public
+swd	/usr/include/sys/user.h	/^  unsigned short int swd;$/;"	m	struct:user_fpxregs_struct	access:public
+syncs	/usr/include/sys/quota.h	/^    u_int32_t syncs;$/;"	m	struct:dqstats	access:public
+syslog	/usr/include/sys/syslog.h	/^extern void syslog (int __pri, __const char *__fmt, ...)$/;"	p	signature:(int __pri, __const char *__fmt, ...)
+sysname	/usr/include/sys/utsname.h	/^    char sysname[_UTSNAME_SYSNAME_LENGTH];$/;"	m	struct:utsname	access:public
+t_name	/usr/include/sys/mtio.h	/^    char *t_name;		\/* Descriptive name.  *\/$/;"	m	struct:mt_tape_info	access:public
+t_type	/usr/include/sys/mtio.h	/^    long int t_type;		\/* Device type id (mt_type).  *\/$/;"	m	struct:mt_tape_info	access:public
+tag	/usr/include/sys/ucontext.h	/^  unsigned long int tag;$/;"	m	struct:_libc_fpstate	access:public
+tai	/usr/include/sys/timex.h	/^  long int tai;		\/* TAI offset (ro) *\/$/;"	m	struct:ntptimeval	access:public
+tc_brkc	/usr/include/sys/ttychars.h	/^	char	tc_brkc;	\/* input delimiter (like nl) *\/$/;"	m	struct:ttychars	access:public
+tc_dsuspc	/usr/include/sys/ttychars.h	/^	char	tc_dsuspc;	\/* delayed stop process signal *\/$/;"	m	struct:ttychars	access:public
+tc_eofc	/usr/include/sys/ttychars.h	/^	char	tc_eofc;	\/* end-of-file *\/$/;"	m	struct:ttychars	access:public
+tc_erase	/usr/include/sys/ttychars.h	/^	char	tc_erase;	\/* erase last character *\/$/;"	m	struct:ttychars	access:public
+tc_flushc	/usr/include/sys/ttychars.h	/^	char	tc_flushc;	\/* flush output (toggles) *\/$/;"	m	struct:ttychars	access:public
+tc_intrc	/usr/include/sys/ttychars.h	/^	char	tc_intrc;	\/* interrupt *\/$/;"	m	struct:ttychars	access:public
+tc_kill	/usr/include/sys/ttychars.h	/^	char	tc_kill;	\/* erase entire line *\/$/;"	m	struct:ttychars	access:public
+tc_lnextc	/usr/include/sys/ttychars.h	/^	char	tc_lnextc;	\/* literal next character *\/$/;"	m	struct:ttychars	access:public
+tc_quitc	/usr/include/sys/ttychars.h	/^	char	tc_quitc;	\/* quit *\/$/;"	m	struct:ttychars	access:public
+tc_rprntc	/usr/include/sys/ttychars.h	/^	char	tc_rprntc;	\/* reprint line *\/$/;"	m	struct:ttychars	access:public
+tc_startc	/usr/include/sys/ttychars.h	/^	char	tc_startc;	\/* start output *\/$/;"	m	struct:ttychars	access:public
+tc_stopc	/usr/include/sys/ttychars.h	/^	char	tc_stopc;	\/* stop output *\/$/;"	m	struct:ttychars	access:public
+tc_suspc	/usr/include/sys/ttychars.h	/^	char	tc_suspc;	\/* stop process signal *\/$/;"	m	struct:ttychars	access:public
+tc_werasc	/usr/include/sys/ttychars.h	/^	char	tc_werasc;	\/* word erase *\/$/;"	m	struct:ttychars	access:public
+textsize	/usr/include/sys/gmon.h	/^	u_long		textsize;$/;"	m	struct:gmonparam	access:public
+time	/usr/include/sys/timeb.h	/^    time_t time;		\/* Seconds since epoch, as from `time'.  *\/$/;"	m	struct:timeb	access:public
+time	/usr/include/sys/timex.h	/^  struct timeval time;	\/* current time (ro) *\/$/;"	m	struct:ntptimeval	typeref:struct:ntptimeval::timeval	access:public
+timeb	/usr/include/sys/timeb.h	/^struct timeb$/;"	s
+timeb::dstflag	/usr/include/sys/timeb.h	/^    short int dstflag;		\/* Nonzero if Daylight Savings Time used.  *\/$/;"	m	struct:timeb	access:public
+timeb::millitm	/usr/include/sys/timeb.h	/^    unsigned short int millitm;	\/* Additional milliseconds.  *\/$/;"	m	struct:timeb	access:public
+timeb::time	/usr/include/sys/timeb.h	/^    time_t time;		\/* Seconds since epoch, as from `time'.  *\/$/;"	m	struct:timeb	access:public
+timeb::timezone	/usr/include/sys/timeb.h	/^    short int timezone;		\/* Minutes west of GMT.  *\/$/;"	m	struct:timeb	access:public
+timeradd	/usr/include/sys/time.h	170;"	d
+timerclear	/usr/include/sys/time.h	165;"	d
+timercmp	/usr/include/sys/time.h	166;"	d
+timerisset	/usr/include/sys/time.h	164;"	d
+timersub	/usr/include/sys/time.h	180;"	d
+timezone	/usr/include/sys/time.h	/^struct timezone$/;"	s
+timezone	/usr/include/sys/timeb.h	/^    short int timezone;		\/* Minutes west of GMT.  *\/$/;"	m	struct:timeb	access:public
+timezone::tz_dsttime	/usr/include/sys/time.h	/^    int tz_dsttime;		\/* Nonzero if DST is ever in effect.  *\/$/;"	m	struct:timezone	access:public
+timezone::tz_minuteswest	/usr/include/sys/time.h	/^    int tz_minuteswest;		\/* Minutes west of GMT.  *\/$/;"	m	struct:timezone	access:public
+tms	/usr/include/sys/times.h	/^struct tms$/;"	s
+tms::tms_cstime	/usr/include/sys/times.h	/^    clock_t tms_cstime;		\/* System CPU time of dead children.  *\/$/;"	m	struct:tms	access:public
+tms::tms_cutime	/usr/include/sys/times.h	/^    clock_t tms_cutime;		\/* User CPU time of dead children.  *\/$/;"	m	struct:tms	access:public
+tms::tms_stime	/usr/include/sys/times.h	/^    clock_t tms_stime;		\/* System CPU time.  *\/$/;"	m	struct:tms	access:public
+tms::tms_utime	/usr/include/sys/times.h	/^    clock_t tms_utime;		\/* User CPU time.  *\/$/;"	m	struct:tms	access:public
+tms_cstime	/usr/include/sys/times.h	/^    clock_t tms_cstime;		\/* System CPU time of dead children.  *\/$/;"	m	struct:tms	access:public
+tms_cutime	/usr/include/sys/times.h	/^    clock_t tms_cutime;		\/* User CPU time of dead children.  *\/$/;"	m	struct:tms	access:public
+tms_stime	/usr/include/sys/times.h	/^    clock_t tms_stime;		\/* System CPU time.  *\/$/;"	m	struct:tms	access:public
+tms_utime	/usr/include/sys/times.h	/^    clock_t tms_utime;		\/* User CPU time.  *\/$/;"	m	struct:tms	access:public
+tolimit	/usr/include/sys/gmon.h	/^	long		tolimit;$/;"	m	struct:gmonparam	access:public
+tos	/usr/include/sys/gmon.h	/^	struct tostruct	*tos;$/;"	m	struct:gmonparam	typeref:struct:gmonparam::tostruct	access:public
+tossize	/usr/include/sys/gmon.h	/^	u_long		tossize;$/;"	m	struct:gmonparam	access:public
+tostruct	/usr/include/sys/gmon.h	/^struct tostruct {$/;"	s
+tostruct::count	/usr/include/sys/gmon.h	/^	long		count;$/;"	m	struct:tostruct	access:public
+tostruct::link	/usr/include/sys/gmon.h	/^	ARCINDEX	link;$/;"	m	struct:tostruct	access:public
+tostruct::selfpc	/usr/include/sys/gmon.h	/^	u_long		selfpc;$/;"	m	struct:tostruct	access:public
+ttychars	/usr/include/sys/ttychars.h	/^struct ttychars {$/;"	s
+ttychars::tc_brkc	/usr/include/sys/ttychars.h	/^	char	tc_brkc;	\/* input delimiter (like nl) *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_dsuspc	/usr/include/sys/ttychars.h	/^	char	tc_dsuspc;	\/* delayed stop process signal *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_eofc	/usr/include/sys/ttychars.h	/^	char	tc_eofc;	\/* end-of-file *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_erase	/usr/include/sys/ttychars.h	/^	char	tc_erase;	\/* erase last character *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_flushc	/usr/include/sys/ttychars.h	/^	char	tc_flushc;	\/* flush output (toggles) *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_intrc	/usr/include/sys/ttychars.h	/^	char	tc_intrc;	\/* interrupt *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_kill	/usr/include/sys/ttychars.h	/^	char	tc_kill;	\/* erase entire line *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_lnextc	/usr/include/sys/ttychars.h	/^	char	tc_lnextc;	\/* literal next character *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_quitc	/usr/include/sys/ttychars.h	/^	char	tc_quitc;	\/* quit *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_rprntc	/usr/include/sys/ttychars.h	/^	char	tc_rprntc;	\/* reprint line *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_startc	/usr/include/sys/ttychars.h	/^	char	tc_startc;	\/* start output *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_stopc	/usr/include/sys/ttychars.h	/^	char	tc_stopc;	\/* stop output *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_suspc	/usr/include/sys/ttychars.h	/^	char	tc_suspc;	\/* stop process signal *\/$/;"	m	struct:ttychars	access:public
+ttychars::tc_werasc	/usr/include/sys/ttychars.h	/^	char	tc_werasc;	\/* word erase *\/$/;"	m	struct:ttychars	access:public
+ttydefchars	/usr/include/sys/ttydefaults.h	/^cc_t	ttydefchars[NCCS] = {$/;"	v
+twd	/usr/include/sys/user.h	/^  long int twd;$/;"	m	struct:user_fpregs_struct	access:public
+twd	/usr/include/sys/user.h	/^  unsigned short int twd;$/;"	m	struct:user_fpxregs_struct	access:public
+tz_dsttime	/usr/include/sys/time.h	/^    int tz_dsttime;		\/* Nonzero if DST is ever in effect.  *\/$/;"	m	struct:timezone	access:public
+tz_minuteswest	/usr/include/sys/time.h	/^    int tz_minuteswest;		\/* Minutes west of GMT.  *\/$/;"	m	struct:timezone	access:public
+u32	/usr/include/sys/epoll.h	/^  uint32_t u32;$/;"	m	union:epoll_data	access:public
+u64	/usr/include/sys/epoll.h	/^  uint64_t u64;$/;"	m	union:epoll_data	access:public
+u_ar0	/usr/include/sys/user.h	/^  struct user_regs_struct*	u_ar0;$/;"	m	struct:user	typeref:struct:user::user_regs_struct	access:public
+u_char	/usr/include/sys/types.h	/^typedef __u_char u_char;$/;"	t
+u_comm	/usr/include/sys/user.h	/^  char				u_comm [32];$/;"	m	struct:user	access:public
+u_debugreg	/usr/include/sys/user.h	/^  int				u_debugreg [8];$/;"	m	struct:user	access:public
+u_debugreg	/usr/include/sys/user.h	/^  unsigned long int		u_debugreg [8];$/;"	m	struct:user	access:public
+u_dsize	/usr/include/sys/user.h	/^  unsigned long int		u_dsize;$/;"	m	struct:user	access:public
+u_fpstate	/usr/include/sys/user.h	/^  struct user_fpregs_struct*	u_fpstate;$/;"	m	struct:user	typeref:struct:user::user_fpregs_struct	access:public
+u_fpvalid	/usr/include/sys/user.h	/^  int				u_fpvalid;$/;"	m	struct:user	access:public
+u_int	/usr/include/sys/types.h	/^typedef __u_int u_int;$/;"	t
+u_int16_t	/usr/include/sys/types.h	/^typedef	unsigned short int u_int16_t;$/;"	t
+u_int32_t	/usr/include/sys/types.h	/^typedef	unsigned int u_int32_t;$/;"	t
+u_int64_t	/usr/include/sys/types.h	/^__extension__ typedef unsigned long long int u_int64_t;$/;"	t
+u_int64_t	/usr/include/sys/types.h	/^typedef unsigned long int u_int64_t;$/;"	t
+u_int8_t	/usr/include/sys/types.h	/^typedef	unsigned char u_int8_t;$/;"	t
+u_long	/usr/include/sys/types.h	/^typedef __u_long u_long;$/;"	t
+u_quad_t	/usr/include/sys/types.h	/^typedef __u_quad_t u_quad_t;$/;"	t
+u_short	/usr/include/sys/types.h	/^typedef __u_short u_short;$/;"	t
+u_ssize	/usr/include/sys/user.h	/^  unsigned long int		u_ssize;$/;"	m	struct:user	access:public
+u_tsize	/usr/include/sys/user.h	/^  unsigned long int		u_tsize;$/;"	m	struct:user	access:public
+uc_flags	/usr/include/sys/ucontext.h	/^    unsigned long int uc_flags;$/;"	m	struct:ucontext	access:public
+uc_link	/usr/include/sys/ucontext.h	/^    struct ucontext *uc_link;$/;"	m	struct:ucontext	typeref:struct:ucontext::ucontext	access:public
+uc_mcontext	/usr/include/sys/ucontext.h	/^    mcontext_t uc_mcontext;$/;"	m	struct:ucontext	access:public
+uc_sigmask	/usr/include/sys/ucontext.h	/^    __sigset_t uc_sigmask;$/;"	m	struct:ucontext	access:public
+uc_stack	/usr/include/sys/ucontext.h	/^    stack_t uc_stack;$/;"	m	struct:ucontext	access:public
+ucontext	/usr/include/sys/ucontext.h	/^typedef struct ucontext$/;"	s
+ucontext::__fpregs_mem	/usr/include/sys/ucontext.h	/^    struct _libc_fpstate __fpregs_mem;$/;"	m	struct:ucontext	typeref:struct:ucontext::_libc_fpstate	access:public
+ucontext::uc_flags	/usr/include/sys/ucontext.h	/^    unsigned long int uc_flags;$/;"	m	struct:ucontext	access:public
+ucontext::uc_link	/usr/include/sys/ucontext.h	/^    struct ucontext *uc_link;$/;"	m	struct:ucontext	typeref:struct:ucontext::ucontext	access:public
+ucontext::uc_mcontext	/usr/include/sys/ucontext.h	/^    mcontext_t uc_mcontext;$/;"	m	struct:ucontext	access:public
+ucontext::uc_sigmask	/usr/include/sys/ucontext.h	/^    __sigset_t uc_sigmask;$/;"	m	struct:ucontext	access:public
+ucontext::uc_stack	/usr/include/sys/ucontext.h	/^    stack_t uc_stack;$/;"	m	struct:ucontext	access:public
+ucontext_t	/usr/include/sys/ucontext.h	/^  } ucontext_t;$/;"	t	typeref:struct:ucontext
+uid_t	/usr/include/sys/ipc.h	/^typedef __uid_t uid_t;$/;"	t
+uid_t	/usr/include/sys/stat.h	/^typedef __uid_t uid_t;$/;"	t
+uid_t	/usr/include/sys/types.h	/^typedef __uid_t uid_t;$/;"	t
+uint	/usr/include/sys/types.h	/^typedef unsigned int uint;$/;"	t
+ulong	/usr/include/sys/types.h	/^typedef unsigned long int ulong;$/;"	t
+useconds_t	/usr/include/sys/types.h	/^typedef __useconds_t useconds_t;$/;"	t
+user	/usr/include/sys/user.h	/^struct user$/;"	s
+user::i387	/usr/include/sys/user.h	/^  struct user_fpregs_struct	i387;$/;"	m	struct:user	typeref:struct:user::user_fpregs_struct	access:public
+user::magic	/usr/include/sys/user.h	/^  unsigned long int		magic;$/;"	m	struct:user	access:public
+user::regs	/usr/include/sys/user.h	/^  struct user_regs_struct	regs;$/;"	m	struct:user	typeref:struct:user::user_regs_struct	access:public
+user::reserved	/usr/include/sys/user.h	/^  int				reserved;$/;"	m	struct:user	access:public
+user::signal	/usr/include/sys/user.h	/^  long int			signal;$/;"	m	struct:user	access:public
+user::start_code	/usr/include/sys/user.h	/^  unsigned long int		start_code;$/;"	m	struct:user	access:public
+user::start_stack	/usr/include/sys/user.h	/^  unsigned long int		start_stack;$/;"	m	struct:user	access:public
+user::u_ar0	/usr/include/sys/user.h	/^  struct user_regs_struct*	u_ar0;$/;"	m	struct:user	typeref:struct:user::user_regs_struct	access:public
+user::u_comm	/usr/include/sys/user.h	/^  char				u_comm [32];$/;"	m	struct:user	access:public
+user::u_debugreg	/usr/include/sys/user.h	/^  int				u_debugreg [8];$/;"	m	struct:user	access:public
+user::u_debugreg	/usr/include/sys/user.h	/^  unsigned long int		u_debugreg [8];$/;"	m	struct:user	access:public
+user::u_dsize	/usr/include/sys/user.h	/^  unsigned long int		u_dsize;$/;"	m	struct:user	access:public
+user::u_fpstate	/usr/include/sys/user.h	/^  struct user_fpregs_struct*	u_fpstate;$/;"	m	struct:user	typeref:struct:user::user_fpregs_struct	access:public
+user::u_fpvalid	/usr/include/sys/user.h	/^  int				u_fpvalid;$/;"	m	struct:user	access:public
+user::u_ssize	/usr/include/sys/user.h	/^  unsigned long int		u_ssize;$/;"	m	struct:user	access:public
+user::u_tsize	/usr/include/sys/user.h	/^  unsigned long int		u_tsize;$/;"	m	struct:user	access:public
+user_fpregs_struct	/usr/include/sys/user.h	/^struct user_fpregs_struct$/;"	s
+user_fpregs_struct::cwd	/usr/include/sys/user.h	/^  long int cwd;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::cwd	/usr/include/sys/user.h	/^  unsigned short int	cwd;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::fcs	/usr/include/sys/user.h	/^  long int fcs;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::fip	/usr/include/sys/user.h	/^  long int fip;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::foo	/usr/include/sys/user.h	/^  long int foo;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::fop	/usr/include/sys/user.h	/^  unsigned short int	fop;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::fos	/usr/include/sys/user.h	/^  long int fos;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::ftw	/usr/include/sys/user.h	/^  unsigned short int	ftw;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::mxcr_mask	/usr/include/sys/user.h	/^  unsigned int		mxcr_mask;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::mxcsr	/usr/include/sys/user.h	/^  unsigned int		mxcsr;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::padding	/usr/include/sys/user.h	/^  unsigned int		padding[24];$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::rdp	/usr/include/sys/user.h	/^  unsigned long int	rdp;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::rip	/usr/include/sys/user.h	/^  unsigned long int	rip;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::st_space	/usr/include/sys/user.h	/^  long int st_space [20];$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::st_space	/usr/include/sys/user.h	/^  unsigned int		st_space[32];   \/* 8*16 bytes for each FP-reg = 128 bytes *\/$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::swd	/usr/include/sys/user.h	/^  long int swd;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::swd	/usr/include/sys/user.h	/^  unsigned short int	swd;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::twd	/usr/include/sys/user.h	/^  long int twd;$/;"	m	struct:user_fpregs_struct	access:public
+user_fpregs_struct::xmm_space	/usr/include/sys/user.h	/^  unsigned int		xmm_space[64];  \/* 16*16 bytes for each XMM-reg = 256 bytes *\/$/;"	m	struct:user_fpregs_struct	access:public
+user_fpxregs_struct	/usr/include/sys/user.h	/^struct user_fpxregs_struct$/;"	s
+user_fpxregs_struct::cwd	/usr/include/sys/user.h	/^  unsigned short int cwd;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::fcs	/usr/include/sys/user.h	/^  long int fcs;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::fip	/usr/include/sys/user.h	/^  long int fip;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::foo	/usr/include/sys/user.h	/^  long int foo;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::fop	/usr/include/sys/user.h	/^  unsigned short int fop;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::fos	/usr/include/sys/user.h	/^  long int fos;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::mxcsr	/usr/include/sys/user.h	/^  long int mxcsr;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::padding	/usr/include/sys/user.h	/^  long int padding[56];$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::reserved	/usr/include/sys/user.h	/^  long int reserved;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::st_space	/usr/include/sys/user.h	/^  long int st_space[32];   \/* 8*16 bytes for each FP-reg = 128 bytes *\/$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::swd	/usr/include/sys/user.h	/^  unsigned short int swd;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::twd	/usr/include/sys/user.h	/^  unsigned short int twd;$/;"	m	struct:user_fpxregs_struct	access:public
+user_fpxregs_struct::xmm_space	/usr/include/sys/user.h	/^  long int xmm_space[32];  \/* 8*16 bytes for each XMM-reg = 128 bytes *\/$/;"	m	struct:user_fpxregs_struct	access:public
+user_regs_struct	/usr/include/sys/user.h	/^struct user_regs_struct$/;"	s
+user_regs_struct::cs	/usr/include/sys/user.h	/^  unsigned long int cs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::ds	/usr/include/sys/user.h	/^  unsigned long int ds;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::eax	/usr/include/sys/user.h	/^  long int eax;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::ebp	/usr/include/sys/user.h	/^  long int ebp;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::ebx	/usr/include/sys/user.h	/^  long int ebx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::ecx	/usr/include/sys/user.h	/^  long int ecx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::edi	/usr/include/sys/user.h	/^  long int edi;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::edx	/usr/include/sys/user.h	/^  long int edx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::eflags	/usr/include/sys/user.h	/^  long int eflags;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::eflags	/usr/include/sys/user.h	/^  unsigned long int eflags;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::eip	/usr/include/sys/user.h	/^  long int eip;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::es	/usr/include/sys/user.h	/^  unsigned long int es;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::esi	/usr/include/sys/user.h	/^  long int esi;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::esp	/usr/include/sys/user.h	/^  long int esp;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::fs	/usr/include/sys/user.h	/^  unsigned long int fs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::fs_base	/usr/include/sys/user.h	/^  unsigned long int fs_base;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::gs	/usr/include/sys/user.h	/^  unsigned long int gs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::gs_base	/usr/include/sys/user.h	/^  unsigned long int gs_base;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::orig_eax	/usr/include/sys/user.h	/^  long int orig_eax;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::orig_rax	/usr/include/sys/user.h	/^  unsigned long int orig_rax;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r10	/usr/include/sys/user.h	/^  unsigned long int r10;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r11	/usr/include/sys/user.h	/^  unsigned long int r11;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r12	/usr/include/sys/user.h	/^  unsigned long int r12;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r13	/usr/include/sys/user.h	/^  unsigned long int r13;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r14	/usr/include/sys/user.h	/^  unsigned long int r14;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r15	/usr/include/sys/user.h	/^  unsigned long int r15;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r8	/usr/include/sys/user.h	/^  unsigned long int r8;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::r9	/usr/include/sys/user.h	/^  unsigned long int r9;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rax	/usr/include/sys/user.h	/^  unsigned long int rax;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rbp	/usr/include/sys/user.h	/^  unsigned long int rbp;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rbx	/usr/include/sys/user.h	/^  unsigned long int rbx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rcx	/usr/include/sys/user.h	/^  unsigned long int rcx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rdi	/usr/include/sys/user.h	/^  unsigned long int rdi;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rdx	/usr/include/sys/user.h	/^  unsigned long int rdx;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rip	/usr/include/sys/user.h	/^  unsigned long int rip;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rsi	/usr/include/sys/user.h	/^  unsigned long int rsi;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::rsp	/usr/include/sys/user.h	/^  unsigned long int rsp;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::ss	/usr/include/sys/user.h	/^  unsigned long int ss;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xcs	/usr/include/sys/user.h	/^  long int xcs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xds	/usr/include/sys/user.h	/^  long int xds;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xes	/usr/include/sys/user.h	/^  long int xes;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xfs	/usr/include/sys/user.h	/^  long int xfs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xgs	/usr/include/sys/user.h	/^  long int xgs;$/;"	m	struct:user_regs_struct	access:public
+user_regs_struct::xss	/usr/include/sys/user.h	/^  long int xss;$/;"	m	struct:user_regs_struct	access:public
+ushort	/usr/include/sys/types.h	/^typedef unsigned short int ushort;$/;"	t
+utsname	/usr/include/sys/utsname.h	/^struct utsname$/;"	s
+utsname::__domainname	/usr/include/sys/utsname.h	/^    char __domainname[_UTSNAME_DOMAIN_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::domainname	/usr/include/sys/utsname.h	/^    char domainname[_UTSNAME_DOMAIN_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::machine	/usr/include/sys/utsname.h	/^    char machine[_UTSNAME_MACHINE_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::nodename	/usr/include/sys/utsname.h	/^    char nodename[_UTSNAME_NODENAME_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::release	/usr/include/sys/utsname.h	/^    char release[_UTSNAME_RELEASE_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::sysname	/usr/include/sys/utsname.h	/^    char sysname[_UTSNAME_SYSNAME_LENGTH];$/;"	m	struct:utsname	access:public
+utsname::version	/usr/include/sys/utsname.h	/^    char version[_UTSNAME_VERSION_LENGTH];$/;"	m	struct:utsname	access:public
+version	/usr/include/sys/gmon_out.h	/^    char version[4];$/;"	m	struct:gmon_hdr	access:public
+version	/usr/include/sys/utsname.h	/^    char version[_UTSNAME_VERSION_LENGTH];$/;"	m	struct:utsname	access:public
+vm_idsrss	/usr/include/sys/vtimes.h	/^  unsigned int vm_idsrss;$/;"	m	struct:vtimes	access:public
+vm_inblk	/usr/include/sys/vtimes.h	/^  int vm_inblk;$/;"	m	struct:vtimes	access:public
+vm_ixrss	/usr/include/sys/vtimes.h	/^  unsigned int vm_ixrss;$/;"	m	struct:vtimes	access:public
+vm_majflt	/usr/include/sys/vtimes.h	/^  int vm_majflt;$/;"	m	struct:vtimes	access:public
+vm_maxrss	/usr/include/sys/vtimes.h	/^  int vm_maxrss;$/;"	m	struct:vtimes	access:public
+vm_minflt	/usr/include/sys/vtimes.h	/^  int vm_minflt;$/;"	m	struct:vtimes	access:public
+vm_nswap	/usr/include/sys/vtimes.h	/^  int vm_nswap;$/;"	m	struct:vtimes	access:public
+vm_oublk	/usr/include/sys/vtimes.h	/^  int vm_oublk;$/;"	m	struct:vtimes	access:public
+vm_stime	/usr/include/sys/vtimes.h	/^  int vm_stime;$/;"	m	struct:vtimes	access:public
+vm_utime	/usr/include/sys/vtimes.h	/^  int vm_utime;$/;"	m	struct:vtimes	access:public
+vsyslog	/usr/include/sys/syslog.h	/^extern void vsyslog (int __pri, __const char *__fmt, __gnuc_va_list __ap)$/;"	p	signature:(int __pri, __const char *__fmt, __gnuc_va_list __ap)
+vtimes	/usr/include/sys/vtimes.h	/^struct vtimes$/;"	s
+vtimes::vm_idsrss	/usr/include/sys/vtimes.h	/^  unsigned int vm_idsrss;$/;"	m	struct:vtimes	access:public
+vtimes::vm_inblk	/usr/include/sys/vtimes.h	/^  int vm_inblk;$/;"	m	struct:vtimes	access:public
+vtimes::vm_ixrss	/usr/include/sys/vtimes.h	/^  unsigned int vm_ixrss;$/;"	m	struct:vtimes	access:public
+vtimes::vm_majflt	/usr/include/sys/vtimes.h	/^  int vm_majflt;$/;"	m	struct:vtimes	access:public
+vtimes::vm_maxrss	/usr/include/sys/vtimes.h	/^  int vm_maxrss;$/;"	m	struct:vtimes	access:public
+vtimes::vm_minflt	/usr/include/sys/vtimes.h	/^  int vm_minflt;$/;"	m	struct:vtimes	access:public
+vtimes::vm_nswap	/usr/include/sys/vtimes.h	/^  int vm_nswap;$/;"	m	struct:vtimes	access:public
+vtimes::vm_oublk	/usr/include/sys/vtimes.h	/^  int vm_oublk;$/;"	m	struct:vtimes	access:public
+vtimes::vm_stime	/usr/include/sys/vtimes.h	/^  int vm_stime;$/;"	m	struct:vtimes	access:public
+vtimes::vm_utime	/usr/include/sys/vtimes.h	/^  int vm_utime;$/;"	m	struct:vtimes	access:public
+wait	/usr/include/sys/wait.h	/^extern __pid_t wait (__WAIT_STATUS __stat_loc);$/;"	p	signature:(__WAIT_STATUS __stat_loc)
+waitid	/usr/include/sys/wait.h	/^extern int waitid (idtype_t __idtype, __id_t __id, siginfo_t *__infop,$/;"	p	signature:(idtype_t __idtype, __id_t __id, siginfo_t *__infop, int __options)
+waitpid	/usr/include/sys/wait.h	/^extern __pid_t waitpid (__pid_t __pid, int *__stat_loc, int __options);$/;"	p	signature:(__pid_t __pid, int *__stat_loc, int __options)
+wd	/usr/include/sys/inotify.h	/^  int wd;		\/* Watch descriptor.  *\/$/;"	m	struct:inotify_event	access:public
+writes	/usr/include/sys/quota.h	/^    u_int32_t writes;$/;"	m	struct:dqstats	access:public
+xcs	/usr/include/sys/user.h	/^  long int xcs;$/;"	m	struct:user_regs_struct	access:public
+xds	/usr/include/sys/user.h	/^  long int xds;$/;"	m	struct:user_regs_struct	access:public
+xes	/usr/include/sys/user.h	/^  long int xes;$/;"	m	struct:user_regs_struct	access:public
+xfs	/usr/include/sys/user.h	/^  long int xfs;$/;"	m	struct:user_regs_struct	access:public
+xgs	/usr/include/sys/user.h	/^  long int xgs;$/;"	m	struct:user_regs_struct	access:public
+xmm_space	/usr/include/sys/user.h	/^  long int xmm_space[32];  \/* 8*16 bytes for each XMM-reg = 128 bytes *\/$/;"	m	struct:user_fpxregs_struct	access:public
+xmm_space	/usr/include/sys/user.h	/^  unsigned int		xmm_space[64];  \/* 16*16 bytes for each XMM-reg = 256 bytes *\/$/;"	m	struct:user_fpregs_struct	access:public
+xss	/usr/include/sys/user.h	/^  long int xss;$/;"	m	struct:user_regs_struct	access:public
+zero_word	/usr/include/sys/gmon.h	/^  long			zero_word;$/;"	m	struct:__bb	access:public

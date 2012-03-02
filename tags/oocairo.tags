@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+INC_LUA_OOCAIRO_H	/usr/include/oocairo.h	24;"	d
+OOCAIRO_MT_NAME_CONTEXT	/usr/include/oocairo.h	30;"	d
+OOCAIRO_MT_NAME_FONTFACE	/usr/include/oocairo.h	31;"	d
+OOCAIRO_MT_NAME_FONTOPT	/usr/include/oocairo.h	32;"	d
+OOCAIRO_MT_NAME_MATRIX	/usr/include/oocairo.h	33;"	d
+OOCAIRO_MT_NAME_PATH	/usr/include/oocairo.h	34;"	d
+OOCAIRO_MT_NAME_PATTERN	/usr/include/oocairo.h	35;"	d
+OOCAIRO_MT_NAME_SCALEDFONT	/usr/include/oocairo.h	36;"	d
+OOCAIRO_MT_NAME_SURFACE	/usr/include/oocairo.h	37;"	d
+luaopen_oocairo	/usr/include/oocairo.h	/^int luaopen_oocairo (lua_State *L);$/;"	p	signature:(lua_State *L)
+oocairo_surface_push	/usr/include/oocairo.h	/^int oocairo_surface_push (lua_State *L, cairo_surface_t *surface);$/;"	p	signature:(lua_State *L, cairo_surface_t *surface)

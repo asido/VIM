@@ -1,0 +1,611 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOLCOUNT	/usr/include/term.h	670;"	d
+BOOLWRITE	/usr/include/term.h	621;"	d
+Booleans	/usr/include/term.h	/^    NCURSES_SBOOL  *Booleans;	\/* array of boolean values *\/$/;"	m	struct:termtype	access:public
+CUR	/usr/include/term.h	154;"	d
+Filedes	/usr/include/term.h	/^    short	Filedes;	\/* file description being written to *\/$/;"	m	struct:term	access:public
+GET_TTY	/usr/include/term.h	145;"	d
+GET_TTY	/usr/include/term.h	148;"	d
+GET_TTY	/usr/include/term.h	71;"	d
+NAMESIZE	/usr/include/term.h	152;"	d
+NCURSES_CONST	/usr/include/term.h	57;"	d
+NCURSES_CONST	/usr/include/term.h	58;"	d
+NCURSES_SBOOL	/usr/include/term.h	60;"	d
+NCURSES_SBOOL	/usr/include/term.h	61;"	d
+NCURSES_TERM_H_incl	/usr/include/term.h	42;"	d
+NCURSES_VERSION	/usr/include/term.h	44;"	d
+NCURSES_VERSION	/usr/include/term.h	45;"	d
+NCURSES_XNAMES	/usr/include/term.h	63;"	d
+NCURSES_XNAMES	/usr/include/term.h	64;"	d
+NUMCOUNT	/usr/include/term.h	671;"	d
+NUMWRITE	/usr/include/term.h	622;"	d
+Nttyb	/usr/include/term.h	/^		Nttyb;		\/* current state of the terminal *\/$/;"	m	struct:term	access:public
+Numbers	/usr/include/term.h	/^    short *Numbers;		\/* array of integer values *\/$/;"	m	struct:termtype	access:public
+Ottyb	/usr/include/term.h	/^    TTY		Ottyb,		\/* original state of the terminal *\/$/;"	m	struct:term	access:public
+SET_TTY	/usr/include/term.h	146;"	d
+SET_TTY	/usr/include/term.h	149;"	d
+SET_TTY	/usr/include/term.h	70;"	d
+STRCOUNT	/usr/include/term.h	672;"	d
+STRWRITE	/usr/include/term.h	623;"	d
+Strings	/usr/include/term.h	/^    char  **Strings;		\/* array of string offsets *\/$/;"	m	struct:termtype	access:public
+TCIFLUSH	/usr/include/term.h	117;"	d
+TCIOFLUSH	/usr/include/term.h	123;"	d
+TCOFLUSH	/usr/include/term.h	120;"	d
+TCSADRAIN	/usr/include/term.h	102;"	d
+TCSAFLUSH	/usr/include/term.h	105;"	d
+TCSANOW	/usr/include/term.h	99;"	d
+TERMINAL	/usr/include/term.h	/^} TERMINAL;$/;"	t	typeref:struct:term
+TERMIOS	/usr/include/term.h	135;"	d
+TERMIOS	/usr/include/term.h	77;"	d
+TERMIOS	/usr/include/term.h	78;"	d
+TERMIOS	/usr/include/term.h	88;"	d
+TERMIOS	/usr/include/term.h	89;"	d
+TERMTYPE	/usr/include/term.h	/^} TERMTYPE;$/;"	t	typeref:struct:termtype
+TTY	/usr/include/term.h	133;"	d
+TTY	/usr/include/term.h	138;"	d
+TTY	/usr/include/term.h	69;"	d
+TTY	/usr/include/term.h	81;"	d
+TTY	/usr/include/term.h	92;"	d
+_baudrate	/usr/include/term.h	/^    int		_baudrate;	\/* used to compute padding *\/$/;"	m	struct:term	access:public
+_termname	/usr/include/term.h	/^    char *      _termname;      \/* used for termname() *\/$/;"	m	struct:term	access:public
+acs_btee	/usr/include/term.h	656;"	d
+acs_chars	/usr/include/term.h	372;"	d
+acs_chars_index	/usr/include/term.h	675;"	d
+acs_hline	/usr/include/term.h	658;"	d
+acs_llcorner	/usr/include/term.h	651;"	d
+acs_lrcorner	/usr/include/term.h	653;"	d
+acs_ltee	/usr/include/term.h	654;"	d
+acs_plus	/usr/include/term.h	660;"	d
+acs_rtee	/usr/include/term.h	655;"	d
+acs_ttee	/usr/include/term.h	657;"	d
+acs_ulcorner	/usr/include/term.h	650;"	d
+acs_urcorner	/usr/include/term.h	652;"	d
+acs_vline	/usr/include/term.h	659;"	d
+alt_scancode_esc	/usr/include/term.h	611;"	d
+arrow_key_map	/usr/include/term.h	647;"	d
+auto_left_margin	/usr/include/term.h	156;"	d
+auto_right_margin	/usr/include/term.h	157;"	d
+back_color_erase	/usr/include/term.h	184;"	d
+back_tab	/usr/include/term.h	226;"	d
+backspace_delay	/usr/include/term.h	643;"	d
+backspace_if_not_bs	/usr/include/term.h	640;"	d
+backspaces_with_bs	/usr/include/term.h	634;"	d
+beehive_glitch	/usr/include/term.h	626;"	d
+bell	/usr/include/term.h	227;"	d
+bit_image_carriage_return	/usr/include/term.h	598;"	d
+bit_image_entwining	/usr/include/term.h	224;"	d
+bit_image_newline	/usr/include/term.h	597;"	d
+bit_image_repeat	/usr/include/term.h	596;"	d
+bit_image_type	/usr/include/term.h	225;"	d
+box_chars_1	/usr/include/term.h	663;"	d
+buf	/usr/include/term.h	/^extern NCURSES_EXPORT(int) _nc_get_tty_mode (TTY *buf);$/;"	v
+buf	/usr/include/term.h	/^extern NCURSES_EXPORT(int) _nc_set_tty_mode (TTY *buf);$/;"	v
+buffer_capacity	/usr/include/term.h	209;"	d
+buttons	/usr/include/term.h	223;"	d
+can_change	/usr/include/term.h	183;"	d
+carriage_return	/usr/include/term.h	228;"	d
+carriage_return_delay	/usr/include/term.h	637;"	d
+ceol_standout_glitch	/usr/include/term.h	159;"	d
+cfgetospeed	/usr/include/term.h	114;"	d
+change_char_pitch	/usr/include/term.h	530;"	d
+change_line_pitch	/usr/include/term.h	531;"	d
+change_res_horz	/usr/include/term.h	532;"	d
+change_res_vert	/usr/include/term.h	533;"	d
+change_scroll_region	/usr/include/term.h	229;"	d
+char_padding	/usr/include/term.h	371;"	d
+char_set_names	/usr/include/term.h	580;"	d
+clear_all_tabs	/usr/include/term.h	230;"	d
+clear_margins	/usr/include/term.h	496;"	d
+clear_screen	/usr/include/term.h	231;"	d
+clr_bol	/usr/include/term.h	495;"	d
+clr_eol	/usr/include/term.h	232;"	d
+clr_eos	/usr/include/term.h	233;"	d
+code_set_init	/usr/include/term.h	589;"	d
+col_addr_glitch	/usr/include/term.h	186;"	d
+color_names	/usr/include/term.h	599;"	d
+column_address	/usr/include/term.h	234;"	d
+columns	/usr/include/term.h	193;"	d
+command_character	/usr/include/term.h	235;"	d
+cpi_changes_res	/usr/include/term.h	191;"	d
+cr_cancels_micro_mode	/usr/include/term.h	187;"	d
+create_window	/usr/include/term.h	503;"	d
+crt_no_scrolling	/usr/include/term.h	635;"	d
+cur_term	/usr/include/term.h	712;"	d
+cursor_address	/usr/include/term.h	236;"	d
+cursor_down	/usr/include/term.h	237;"	d
+cursor_home	/usr/include/term.h	238;"	d
+cursor_invisible	/usr/include/term.h	239;"	d
+cursor_left	/usr/include/term.h	240;"	d
+cursor_mem_address	/usr/include/term.h	241;"	d
+cursor_normal	/usr/include/term.h	242;"	d
+cursor_right	/usr/include/term.h	243;"	d
+cursor_to_ll	/usr/include/term.h	244;"	d
+cursor_up	/usr/include/term.h	245;"	d
+cursor_visible	/usr/include/term.h	246;"	d
+define_bit_image_region	/usr/include/term.h	600;"	d
+define_char	/usr/include/term.h	534;"	d
+del_curterm	/usr/include/term.h	/^extern NCURSES_EXPORT(int)     NCURSES_SP_NAME(del_curterm) (SCREEN*, TERMINAL *);$/;"	p	signature:(SCREEN*, TERMINAL *)
+delete_character	/usr/include/term.h	247;"	d
+delete_line	/usr/include/term.h	248;"	d
+dest_tabs_magic_smso	/usr/include/term.h	173;"	d
+device_type	/usr/include/term.h	588;"	d
+dial_phone	/usr/include/term.h	506;"	d
+dis_status_line	/usr/include/term.h	249;"	d
+display_clock	/usr/include/term.h	501;"	d
+display_pc_char	/usr/include/term.h	604;"	d
+dot_horz_spacing	/usr/include/term.h	211;"	d
+dot_vert_spacing	/usr/include/term.h	210;"	d
+down_half_line	/usr/include/term.h	250;"	d
+eat_newline_glitch	/usr/include/term.h	160;"	d
+ena_acs	/usr/include/term.h	381;"	d
+end_bit_image_region	/usr/include/term.h	601;"	d
+enter_alt_charset_mode	/usr/include/term.h	251;"	d
+enter_am_mode	/usr/include/term.h	377;"	d
+enter_blink_mode	/usr/include/term.h	252;"	d
+enter_bold_mode	/usr/include/term.h	253;"	d
+enter_ca_mode	/usr/include/term.h	254;"	d
+enter_delete_mode	/usr/include/term.h	255;"	d
+enter_dim_mode	/usr/include/term.h	256;"	d
+enter_doublewide_mode	/usr/include/term.h	535;"	d
+enter_draft_quality	/usr/include/term.h	536;"	d
+enter_horizontal_hl_mode	/usr/include/term.h	612;"	d
+enter_insert_mode	/usr/include/term.h	257;"	d
+enter_italics_mode	/usr/include/term.h	537;"	d
+enter_left_hl_mode	/usr/include/term.h	613;"	d
+enter_leftward_mode	/usr/include/term.h	538;"	d
+enter_low_hl_mode	/usr/include/term.h	614;"	d
+enter_micro_mode	/usr/include/term.h	539;"	d
+enter_near_letter_quality	/usr/include/term.h	540;"	d
+enter_normal_quality	/usr/include/term.h	541;"	d
+enter_pc_charset_mode	/usr/include/term.h	605;"	d
+enter_protected_mode	/usr/include/term.h	259;"	d
+enter_reverse_mode	/usr/include/term.h	260;"	d
+enter_right_hl_mode	/usr/include/term.h	615;"	d
+enter_scancode_mode	/usr/include/term.h	607;"	d
+enter_secure_mode	/usr/include/term.h	258;"	d
+enter_shadow_mode	/usr/include/term.h	542;"	d
+enter_standout_mode	/usr/include/term.h	261;"	d
+enter_subscript_mode	/usr/include/term.h	543;"	d
+enter_superscript_mode	/usr/include/term.h	544;"	d
+enter_top_hl_mode	/usr/include/term.h	616;"	d
+enter_underline_mode	/usr/include/term.h	262;"	d
+enter_upward_mode	/usr/include/term.h	545;"	d
+enter_vertical_hl_mode	/usr/include/term.h	617;"	d
+enter_xon_mode	/usr/include/term.h	375;"	d
+erase_chars	/usr/include/term.h	263;"	d
+erase_overstrike	/usr/include/term.h	161;"	d
+exit_alt_charset_mode	/usr/include/term.h	264;"	d
+exit_am_mode	/usr/include/term.h	378;"	d
+exit_attribute_mode	/usr/include/term.h	265;"	d
+exit_ca_mode	/usr/include/term.h	266;"	d
+exit_delete_mode	/usr/include/term.h	267;"	d
+exit_doublewide_mode	/usr/include/term.h	546;"	d
+exit_insert_mode	/usr/include/term.h	268;"	d
+exit_italics_mode	/usr/include/term.h	547;"	d
+exit_leftward_mode	/usr/include/term.h	548;"	d
+exit_micro_mode	/usr/include/term.h	549;"	d
+exit_pc_charset_mode	/usr/include/term.h	606;"	d
+exit_scancode_mode	/usr/include/term.h	608;"	d
+exit_shadow_mode	/usr/include/term.h	550;"	d
+exit_standout_mode	/usr/include/term.h	269;"	d
+exit_subscript_mode	/usr/include/term.h	551;"	d
+exit_superscript_mode	/usr/include/term.h	552;"	d
+exit_underline_mode	/usr/include/term.h	270;"	d
+exit_upward_mode	/usr/include/term.h	553;"	d
+exit_xon_mode	/usr/include/term.h	376;"	d
+ext_Booleans	/usr/include/term.h	/^    unsigned short ext_Booleans;\/* count extensions to Booleans *\/$/;"	m	struct:termtype	access:public
+ext_Names	/usr/include/term.h	/^    char  **ext_Names;		\/* corresponding names *\/$/;"	m	struct:termtype	access:public
+ext_Numbers	/usr/include/term.h	/^    unsigned short ext_Numbers;	\/* count extensions to Numbers *\/$/;"	m	struct:termtype	access:public
+ext_Strings	/usr/include/term.h	/^    unsigned short ext_Strings;	\/* count extensions to Strings *\/$/;"	m	struct:termtype	access:public
+ext_str_table	/usr/include/term.h	/^    char  *ext_str_table;	\/* pointer to extended string table *\/$/;"	m	struct:termtype	access:public
+fixed_pause	/usr/include/term.h	511;"	d
+flash_hook	/usr/include/term.h	510;"	d
+flash_screen	/usr/include/term.h	271;"	d
+form_feed	/usr/include/term.h	272;"	d
+from_status_line	/usr/include/term.h	273;"	d
+generic_type	/usr/include/term.h	162;"	d
+get_mouse	/usr/include/term.h	584;"	d
+gnu_has_meta_key	/usr/include/term.h	641;"	d
+goto_window	/usr/include/term.h	504;"	d
+hangup	/usr/include/term.h	505;"	d
+hard_copy	/usr/include/term.h	163;"	d
+hard_cursor	/usr/include/term.h	179;"	d
+has_hardware_tabs	/usr/include/term.h	648;"	d
+has_meta_key	/usr/include/term.h	164;"	d
+has_print_wheel	/usr/include/term.h	188;"	d
+has_status_line	/usr/include/term.h	165;"	d
+horizontal_tab_delay	/usr/include/term.h	644;"	d
+hue_lightness_saturation	/usr/include/term.h	185;"	d
+init_1string	/usr/include/term.h	274;"	d
+init_2string	/usr/include/term.h	275;"	d
+init_3string	/usr/include/term.h	276;"	d
+init_file	/usr/include/term.h	277;"	d
+init_prog	/usr/include/term.h	364;"	d
+init_tabs	/usr/include/term.h	194;"	d
+initialize_color	/usr/include/term.h	525;"	d
+initialize_pair	/usr/include/term.h	526;"	d
+insert_character	/usr/include/term.h	278;"	d
+insert_line	/usr/include/term.h	279;"	d
+insert_null_glitch	/usr/include/term.h	166;"	d
+insert_padding	/usr/include/term.h	280;"	d
+key_a1	/usr/include/term.h	365;"	d
+key_a3	/usr/include/term.h	366;"	d
+key_b2	/usr/include/term.h	367;"	d
+key_backspace	/usr/include/term.h	281;"	d
+key_beg	/usr/include/term.h	384;"	d
+key_btab	/usr/include/term.h	374;"	d
+key_c1	/usr/include/term.h	368;"	d
+key_c3	/usr/include/term.h	369;"	d
+key_cancel	/usr/include/term.h	385;"	d
+key_catab	/usr/include/term.h	282;"	d
+key_clear	/usr/include/term.h	283;"	d
+key_close	/usr/include/term.h	386;"	d
+key_command	/usr/include/term.h	387;"	d
+key_copy	/usr/include/term.h	388;"	d
+key_create	/usr/include/term.h	389;"	d
+key_ctab	/usr/include/term.h	284;"	d
+key_dc	/usr/include/term.h	285;"	d
+key_dl	/usr/include/term.h	286;"	d
+key_down	/usr/include/term.h	287;"	d
+key_eic	/usr/include/term.h	288;"	d
+key_end	/usr/include/term.h	390;"	d
+key_enter	/usr/include/term.h	391;"	d
+key_eol	/usr/include/term.h	289;"	d
+key_eos	/usr/include/term.h	290;"	d
+key_exit	/usr/include/term.h	392;"	d
+key_f0	/usr/include/term.h	291;"	d
+key_f1	/usr/include/term.h	292;"	d
+key_f10	/usr/include/term.h	293;"	d
+key_f11	/usr/include/term.h	442;"	d
+key_f12	/usr/include/term.h	443;"	d
+key_f13	/usr/include/term.h	444;"	d
+key_f14	/usr/include/term.h	445;"	d
+key_f15	/usr/include/term.h	446;"	d
+key_f16	/usr/include/term.h	447;"	d
+key_f17	/usr/include/term.h	448;"	d
+key_f18	/usr/include/term.h	449;"	d
+key_f19	/usr/include/term.h	450;"	d
+key_f2	/usr/include/term.h	294;"	d
+key_f20	/usr/include/term.h	451;"	d
+key_f21	/usr/include/term.h	452;"	d
+key_f22	/usr/include/term.h	453;"	d
+key_f23	/usr/include/term.h	454;"	d
+key_f24	/usr/include/term.h	455;"	d
+key_f25	/usr/include/term.h	456;"	d
+key_f26	/usr/include/term.h	457;"	d
+key_f27	/usr/include/term.h	458;"	d
+key_f28	/usr/include/term.h	459;"	d
+key_f29	/usr/include/term.h	460;"	d
+key_f3	/usr/include/term.h	295;"	d
+key_f30	/usr/include/term.h	461;"	d
+key_f31	/usr/include/term.h	462;"	d
+key_f32	/usr/include/term.h	463;"	d
+key_f33	/usr/include/term.h	464;"	d
+key_f34	/usr/include/term.h	465;"	d
+key_f35	/usr/include/term.h	466;"	d
+key_f36	/usr/include/term.h	467;"	d
+key_f37	/usr/include/term.h	468;"	d
+key_f38	/usr/include/term.h	469;"	d
+key_f39	/usr/include/term.h	470;"	d
+key_f4	/usr/include/term.h	296;"	d
+key_f40	/usr/include/term.h	471;"	d
+key_f41	/usr/include/term.h	472;"	d
+key_f42	/usr/include/term.h	473;"	d
+key_f43	/usr/include/term.h	474;"	d
+key_f44	/usr/include/term.h	475;"	d
+key_f45	/usr/include/term.h	476;"	d
+key_f46	/usr/include/term.h	477;"	d
+key_f47	/usr/include/term.h	478;"	d
+key_f48	/usr/include/term.h	479;"	d
+key_f49	/usr/include/term.h	480;"	d
+key_f5	/usr/include/term.h	297;"	d
+key_f50	/usr/include/term.h	481;"	d
+key_f51	/usr/include/term.h	482;"	d
+key_f52	/usr/include/term.h	483;"	d
+key_f53	/usr/include/term.h	484;"	d
+key_f54	/usr/include/term.h	485;"	d
+key_f55	/usr/include/term.h	486;"	d
+key_f56	/usr/include/term.h	487;"	d
+key_f57	/usr/include/term.h	488;"	d
+key_f58	/usr/include/term.h	489;"	d
+key_f59	/usr/include/term.h	490;"	d
+key_f6	/usr/include/term.h	298;"	d
+key_f60	/usr/include/term.h	491;"	d
+key_f61	/usr/include/term.h	492;"	d
+key_f62	/usr/include/term.h	493;"	d
+key_f63	/usr/include/term.h	494;"	d
+key_f7	/usr/include/term.h	299;"	d
+key_f8	/usr/include/term.h	300;"	d
+key_f9	/usr/include/term.h	301;"	d
+key_find	/usr/include/term.h	393;"	d
+key_help	/usr/include/term.h	394;"	d
+key_home	/usr/include/term.h	302;"	d
+key_ic	/usr/include/term.h	303;"	d
+key_il	/usr/include/term.h	304;"	d
+key_left	/usr/include/term.h	305;"	d
+key_ll	/usr/include/term.h	306;"	d
+key_mark	/usr/include/term.h	395;"	d
+key_message	/usr/include/term.h	396;"	d
+key_mouse	/usr/include/term.h	581;"	d
+key_move	/usr/include/term.h	397;"	d
+key_next	/usr/include/term.h	398;"	d
+key_npage	/usr/include/term.h	307;"	d
+key_open	/usr/include/term.h	399;"	d
+key_options	/usr/include/term.h	400;"	d
+key_ppage	/usr/include/term.h	308;"	d
+key_previous	/usr/include/term.h	401;"	d
+key_print	/usr/include/term.h	402;"	d
+key_redo	/usr/include/term.h	403;"	d
+key_reference	/usr/include/term.h	404;"	d
+key_refresh	/usr/include/term.h	405;"	d
+key_replace	/usr/include/term.h	406;"	d
+key_restart	/usr/include/term.h	407;"	d
+key_resume	/usr/include/term.h	408;"	d
+key_right	/usr/include/term.h	309;"	d
+key_save	/usr/include/term.h	409;"	d
+key_sbeg	/usr/include/term.h	412;"	d
+key_scancel	/usr/include/term.h	413;"	d
+key_scommand	/usr/include/term.h	414;"	d
+key_scopy	/usr/include/term.h	415;"	d
+key_screate	/usr/include/term.h	416;"	d
+key_sdc	/usr/include/term.h	417;"	d
+key_sdl	/usr/include/term.h	418;"	d
+key_select	/usr/include/term.h	419;"	d
+key_send	/usr/include/term.h	420;"	d
+key_seol	/usr/include/term.h	421;"	d
+key_sexit	/usr/include/term.h	422;"	d
+key_sf	/usr/include/term.h	310;"	d
+key_sfind	/usr/include/term.h	423;"	d
+key_shelp	/usr/include/term.h	424;"	d
+key_shome	/usr/include/term.h	425;"	d
+key_sic	/usr/include/term.h	426;"	d
+key_sleft	/usr/include/term.h	427;"	d
+key_smessage	/usr/include/term.h	428;"	d
+key_smove	/usr/include/term.h	429;"	d
+key_snext	/usr/include/term.h	430;"	d
+key_soptions	/usr/include/term.h	431;"	d
+key_sprevious	/usr/include/term.h	432;"	d
+key_sprint	/usr/include/term.h	433;"	d
+key_sr	/usr/include/term.h	311;"	d
+key_sredo	/usr/include/term.h	434;"	d
+key_sreplace	/usr/include/term.h	435;"	d
+key_sright	/usr/include/term.h	436;"	d
+key_srsume	/usr/include/term.h	437;"	d
+key_ssave	/usr/include/term.h	438;"	d
+key_ssuspend	/usr/include/term.h	439;"	d
+key_stab	/usr/include/term.h	312;"	d
+key_sundo	/usr/include/term.h	440;"	d
+key_suspend	/usr/include/term.h	410;"	d
+key_undo	/usr/include/term.h	411;"	d
+key_up	/usr/include/term.h	313;"	d
+keypad_local	/usr/include/term.h	314;"	d
+keypad_xmit	/usr/include/term.h	315;"	d
+lab_f0	/usr/include/term.h	316;"	d
+lab_f1	/usr/include/term.h	317;"	d
+lab_f10	/usr/include/term.h	318;"	d
+lab_f2	/usr/include/term.h	319;"	d
+lab_f3	/usr/include/term.h	320;"	d
+lab_f4	/usr/include/term.h	321;"	d
+lab_f5	/usr/include/term.h	322;"	d
+lab_f6	/usr/include/term.h	323;"	d
+lab_f7	/usr/include/term.h	324;"	d
+lab_f8	/usr/include/term.h	325;"	d
+lab_f9	/usr/include/term.h	326;"	d
+label_format	/usr/include/term.h	499;"	d
+label_height	/usr/include/term.h	202;"	d
+label_off	/usr/include/term.h	383;"	d
+label_on	/usr/include/term.h	382;"	d
+label_width	/usr/include/term.h	203;"	d
+linefeed_if_not_lf	/usr/include/term.h	639;"	d
+linefeed_is_newline	/usr/include/term.h	642;"	d
+lines	/usr/include/term.h	195;"	d
+lines_of_memory	/usr/include/term.h	196;"	d
+lpi_changes_res	/usr/include/term.h	192;"	d
+magic_cookie_glitch	/usr/include/term.h	197;"	d
+magic_cookie_glitch_ul	/usr/include/term.h	633;"	d
+max_attributes	/usr/include/term.h	204;"	d
+max_colors	/usr/include/term.h	206;"	d
+max_micro_address	/usr/include/term.h	212;"	d
+max_micro_jump	/usr/include/term.h	213;"	d
+max_pairs	/usr/include/term.h	207;"	d
+maximum_windows	/usr/include/term.h	205;"	d
+memory_above	/usr/include/term.h	167;"	d
+memory_below	/usr/include/term.h	168;"	d
+memory_lock	/usr/include/term.h	661;"	d
+memory_unlock	/usr/include/term.h	662;"	d
+meta_off	/usr/include/term.h	327;"	d
+meta_on	/usr/include/term.h	328;"	d
+micro_char_size	/usr/include/term.h	628;"	d
+micro_col_size	/usr/include/term.h	214;"	d
+micro_column_address	/usr/include/term.h	554;"	d
+micro_down	/usr/include/term.h	555;"	d
+micro_left	/usr/include/term.h	556;"	d
+micro_line_size	/usr/include/term.h	215;"	d
+micro_right	/usr/include/term.h	557;"	d
+micro_row_address	/usr/include/term.h	558;"	d
+micro_up	/usr/include/term.h	559;"	d
+mouse_info	/usr/include/term.h	582;"	d
+move_insert_mode	/usr/include/term.h	169;"	d
+move_standout_mode	/usr/include/term.h	170;"	d
+needs_xon_xoff	/usr/include/term.h	177;"	d
+new_line_delay	/usr/include/term.h	638;"	d
+newline	/usr/include/term.h	329;"	d
+no_color_video	/usr/include/term.h	208;"	d
+no_correctly_working_cr	/usr/include/term.h	636;"	d
+no_esc_ctlc	/usr/include/term.h	158;"	d
+no_pad_char	/usr/include/term.h	181;"	d
+non_dest_scroll_region	/usr/include/term.h	182;"	d
+non_rev_rmcup	/usr/include/term.h	180;"	d
+num_Booleans	/usr/include/term.h	/^    unsigned short num_Booleans;\/* count total Booleans *\/$/;"	m	struct:termtype	access:public
+num_Numbers	/usr/include/term.h	/^    unsigned short num_Numbers;	\/* count total Numbers *\/$/;"	m	struct:termtype	access:public
+num_Strings	/usr/include/term.h	/^    unsigned short num_Strings;	\/* count total Strings *\/$/;"	m	struct:termtype	access:public
+num_labels	/usr/include/term.h	201;"	d
+number_of_function_keys	/usr/include/term.h	645;"	d
+number_of_pins	/usr/include/term.h	216;"	d
+order_of_pins	/usr/include/term.h	560;"	d
+orig_colors	/usr/include/term.h	524;"	d
+orig_pair	/usr/include/term.h	523;"	d
+other_non_function_keys	/usr/include/term.h	646;"	d
+output_res_char	/usr/include/term.h	217;"	d
+output_res_horz_inch	/usr/include/term.h	219;"	d
+output_res_line	/usr/include/term.h	218;"	d
+output_res_vert_inch	/usr/include/term.h	220;"	d
+over_strike	/usr/include/term.h	171;"	d
+pad_char	/usr/include/term.h	330;"	d
+padding_baud_rate	/usr/include/term.h	198;"	d
+parm_dch	/usr/include/term.h	331;"	d
+parm_delete_line	/usr/include/term.h	332;"	d
+parm_down_cursor	/usr/include/term.h	333;"	d
+parm_down_micro	/usr/include/term.h	561;"	d
+parm_ich	/usr/include/term.h	334;"	d
+parm_index	/usr/include/term.h	335;"	d
+parm_insert_line	/usr/include/term.h	336;"	d
+parm_left_cursor	/usr/include/term.h	337;"	d
+parm_left_micro	/usr/include/term.h	562;"	d
+parm_right_cursor	/usr/include/term.h	338;"	d
+parm_right_micro	/usr/include/term.h	563;"	d
+parm_rindex	/usr/include/term.h	339;"	d
+parm_up_cursor	/usr/include/term.h	340;"	d
+parm_up_micro	/usr/include/term.h	564;"	d
+pc_term_options	/usr/include/term.h	609;"	d
+pkey_key	/usr/include/term.h	341;"	d
+pkey_local	/usr/include/term.h	342;"	d
+pkey_plab	/usr/include/term.h	587;"	d
+pkey_xmit	/usr/include/term.h	343;"	d
+plab_norm	/usr/include/term.h	373;"	d
+print_rate	/usr/include/term.h	221;"	d
+print_screen	/usr/include/term.h	344;"	d
+prtr_non	/usr/include/term.h	370;"	d
+prtr_off	/usr/include/term.h	345;"	d
+prtr_on	/usr/include/term.h	346;"	d
+prtr_silent	/usr/include/term.h	178;"	d
+pulse	/usr/include/term.h	509;"	d
+putp	/usr/include/term.h	/^extern NCURSES_EXPORT(int)     NCURSES_SP_NAME(putp) (SCREEN*, const char *);$/;"	p	signature:(SCREEN*, const char *)
+quick_dial	/usr/include/term.h	507;"	d
+remove_clock	/usr/include/term.h	502;"	d
+repeat_char	/usr/include/term.h	347;"	d
+req_for_input	/usr/include/term.h	441;"	d
+req_mouse_pos	/usr/include/term.h	583;"	d
+reset_1string	/usr/include/term.h	348;"	d
+reset_2string	/usr/include/term.h	349;"	d
+reset_3string	/usr/include/term.h	350;"	d
+reset_file	/usr/include/term.h	351;"	d
+restartterm	/usr/include/term.h	/^extern NCURSES_EXPORT(int)     NCURSES_SP_NAME(restartterm) (SCREEN*, NCURSES_CONST char *, int, int *);$/;"	p	signature:(SCREEN*, NCURSES_CONST char *, int, int *)
+restore_cursor	/usr/include/term.h	352;"	d
+return_does_clr_eol	/usr/include/term.h	649;"	d
+row_addr_glitch	/usr/include/term.h	189;"	d
+row_address	/usr/include/term.h	353;"	d
+save_cursor	/usr/include/term.h	354;"	d
+scancode_escape	/usr/include/term.h	610;"	d
+scroll_forward	/usr/include/term.h	355;"	d
+scroll_reverse	/usr/include/term.h	356;"	d
+select_char_set	/usr/include/term.h	565;"	d
+semi_auto_right_margin	/usr/include/term.h	190;"	d
+set0_des_seq	/usr/include/term.h	590;"	d
+set1_des_seq	/usr/include/term.h	591;"	d
+set2_des_seq	/usr/include/term.h	592;"	d
+set3_des_seq	/usr/include/term.h	593;"	d
+set_a_attributes	/usr/include/term.h	618;"	d
+set_a_background	/usr/include/term.h	586;"	d
+set_a_foreground	/usr/include/term.h	585;"	d
+set_attributes	/usr/include/term.h	357;"	d
+set_background	/usr/include/term.h	529;"	d
+set_bottom_margin	/usr/include/term.h	566;"	d
+set_bottom_margin_parm	/usr/include/term.h	567;"	d
+set_clock	/usr/include/term.h	500;"	d
+set_color_band	/usr/include/term.h	602;"	d
+set_color_pair	/usr/include/term.h	527;"	d
+set_curterm	/usr/include/term.h	/^extern NCURSES_EXPORT(TERMINAL *) NCURSES_SP_NAME(set_curterm) (SCREEN*, TERMINAL *);$/;"	p	signature:(SCREEN*, TERMINAL *)
+set_foreground	/usr/include/term.h	528;"	d
+set_left_margin	/usr/include/term.h	497;"	d
+set_left_margin_parm	/usr/include/term.h	568;"	d
+set_lr_margin	/usr/include/term.h	594;"	d
+set_page_length	/usr/include/term.h	603;"	d
+set_pglen_inch	/usr/include/term.h	619;"	d
+set_right_margin	/usr/include/term.h	498;"	d
+set_right_margin_parm	/usr/include/term.h	569;"	d
+set_tab	/usr/include/term.h	358;"	d
+set_tb_margin	/usr/include/term.h	595;"	d
+set_top_margin	/usr/include/term.h	570;"	d
+set_top_margin_parm	/usr/include/term.h	571;"	d
+set_window	/usr/include/term.h	359;"	d
+start_bit_image	/usr/include/term.h	572;"	d
+start_char_set_def	/usr/include/term.h	573;"	d
+status_line_esc_ok	/usr/include/term.h	172;"	d
+stop_bit_image	/usr/include/term.h	574;"	d
+stop_char_set_def	/usr/include/term.h	575;"	d
+str_table	/usr/include/term.h	/^    char  *str_table;		\/* pointer to string table *\/$/;"	m	struct:termtype	access:public
+subscript_characters	/usr/include/term.h	576;"	d
+superscript_characters	/usr/include/term.h	577;"	d
+tab	/usr/include/term.h	360;"	d
+tcflush	/usr/include/term.h	126;"	d
+tcgetattr	/usr/include/term.h	111;"	d
+tcsetattr	/usr/include/term.h	108;"	d
+teleray_glitch	/usr/include/term.h	627;"	d
+term	/usr/include/term.h	/^typedef struct term {		\/* describe an actual terminal *\/$/;"	s
+term::Filedes	/usr/include/term.h	/^    short	Filedes;	\/* file description being written to *\/$/;"	m	struct:term	access:public
+term::Nttyb	/usr/include/term.h	/^		Nttyb;		\/* current state of the terminal *\/$/;"	m	struct:term	access:public
+term::Ottyb	/usr/include/term.h	/^    TTY		Ottyb,		\/* original state of the terminal *\/$/;"	m	struct:term	access:public
+term::_baudrate	/usr/include/term.h	/^    int		_baudrate;	\/* used to compute padding *\/$/;"	m	struct:term	access:public
+term::_termname	/usr/include/term.h	/^    char *      _termname;      \/* used for termname() *\/$/;"	m	struct:term	access:public
+term::type	/usr/include/term.h	/^    TERMTYPE	type;		\/* terminal type description *\/$/;"	m	struct:term	access:public
+term_names	/usr/include/term.h	/^    char  *term_names;		\/* str_table offset of term names *\/$/;"	m	struct:termtype	access:public
+termcap_init2	/usr/include/term.h	631;"	d
+termcap_reset	/usr/include/term.h	632;"	d
+termtype	/usr/include/term.h	/^typedef struct termtype {	\/* in-core form of terminfo data *\/$/;"	s
+termtype::Booleans	/usr/include/term.h	/^    NCURSES_SBOOL  *Booleans;	\/* array of boolean values *\/$/;"	m	struct:termtype	access:public
+termtype::Numbers	/usr/include/term.h	/^    short *Numbers;		\/* array of integer values *\/$/;"	m	struct:termtype	access:public
+termtype::Strings	/usr/include/term.h	/^    char  **Strings;		\/* array of string offsets *\/$/;"	m	struct:termtype	access:public
+termtype::ext_Booleans	/usr/include/term.h	/^    unsigned short ext_Booleans;\/* count extensions to Booleans *\/$/;"	m	struct:termtype	access:public
+termtype::ext_Names	/usr/include/term.h	/^    char  **ext_Names;		\/* corresponding names *\/$/;"	m	struct:termtype	access:public
+termtype::ext_Numbers	/usr/include/term.h	/^    unsigned short ext_Numbers;	\/* count extensions to Numbers *\/$/;"	m	struct:termtype	access:public
+termtype::ext_Strings	/usr/include/term.h	/^    unsigned short ext_Strings;	\/* count extensions to Strings *\/$/;"	m	struct:termtype	access:public
+termtype::ext_str_table	/usr/include/term.h	/^    char  *ext_str_table;	\/* pointer to extended string table *\/$/;"	m	struct:termtype	access:public
+termtype::num_Booleans	/usr/include/term.h	/^    unsigned short num_Booleans;\/* count total Booleans *\/$/;"	m	struct:termtype	access:public
+termtype::num_Numbers	/usr/include/term.h	/^    unsigned short num_Numbers;	\/* count total Numbers *\/$/;"	m	struct:termtype	access:public
+termtype::num_Strings	/usr/include/term.h	/^    unsigned short num_Strings;	\/* count total Strings *\/$/;"	m	struct:termtype	access:public
+termtype::str_table	/usr/include/term.h	/^    char  *str_table;		\/* pointer to string table *\/$/;"	m	struct:termtype	access:public
+termtype::term_names	/usr/include/term.h	/^    char  *term_names;		\/* str_table offset of term names *\/$/;"	m	struct:termtype	access:public
+tgetent	/usr/include/term.h	/^extern NCURSES_EXPORT(int)     NCURSES_SP_NAME(tgetent) (SCREEN*, char *, const char *);$/;"	p	signature:(SCREEN*, char *, const char *)
+tgetflag	/usr/include/term.h	/^extern NCURSES_EXPORT(int)     NCURSES_SP_NAME(tgetflag) (SCREEN*, NCURSES_CONST char *);$/;"	p	signature:(SCREEN*, NCURSES_CONST char *)
+tgetnum	/usr/include/term.h	/^extern NCURSES_EXPORT(int)     NCURSES_SP_NAME(tgetnum) (SCREEN*, NCURSES_CONST char *);$/;"	p	signature:(SCREEN*, NCURSES_CONST char *)
+tgetstr	/usr/include/term.h	/^extern NCURSES_EXPORT(char *)  NCURSES_SP_NAME(tgetstr) (SCREEN*, NCURSES_CONST char *, char **);$/;"	p	signature:(SCREEN*, NCURSES_CONST char *, char **)
+tgoto	/usr/include/term.h	/^extern NCURSES_EXPORT(char *)  NCURSES_SP_NAME(tgoto) (SCREEN*, const char *, int, int);$/;"	p	signature:(SCREEN*, const char *, int, int)
+these_cause_cr	/usr/include/term.h	578;"	d
+tigetflag	/usr/include/term.h	/^extern NCURSES_EXPORT(int)     NCURSES_SP_NAME(tigetflag) (SCREEN*, NCURSES_CONST char *);$/;"	p	signature:(SCREEN*, NCURSES_CONST char *)
+tigetnum	/usr/include/term.h	/^extern NCURSES_EXPORT(int)     NCURSES_SP_NAME(tigetnum) (SCREEN*, NCURSES_CONST char *);$/;"	p	signature:(SCREEN*, NCURSES_CONST char *)
+tigetstr	/usr/include/term.h	/^extern NCURSES_EXPORT(char *)  NCURSES_SP_NAME(tigetstr) (SCREEN*, NCURSES_CONST char *);$/;"	p	signature:(SCREEN*, NCURSES_CONST char *)
+tilde_glitch	/usr/include/term.h	174;"	d
+to_status_line	/usr/include/term.h	361;"	d
+tone	/usr/include/term.h	508;"	d
+tparm	/usr/include/term.h	/^extern NCURSES_EXPORT(char *)  NCURSES_SP_NAME(tparm) (SCREEN*, NCURSES_CONST char *, ...);	\/* special *\/$/;"	p	signature:(SCREEN*, NCURSES_CONST char *, ...)
+tparm	/usr/include/term.h	/^extern NCURSES_EXPORT(char *)  NCURSES_SP_NAME(tparm) (SCREEN*, NCURSES_CONST char *, long,long,long,long,long,long,long,long,long);	\/* special *\/$/;"	p	signature:(SCREEN*, NCURSES_CONST char *, long,long,long,long,long,long,long,long,long)
+tparm_varargs	/usr/include/term.h	/^extern NCURSES_EXPORT(char *)  NCURSES_SP_NAME(tparm_varargs) (SCREEN*, NCURSES_CONST char *, ...);	\/* special *\/$/;"	p	signature:(SCREEN*, NCURSES_CONST char *, ...)
+tputs	/usr/include/term.h	/^extern NCURSES_EXPORT(int)     NCURSES_SP_NAME(tputs) (SCREEN*, const char *, int, NCURSES_SP_OUTC);$/;"	p	signature:(SCREEN*, const char *, int, NCURSES_SP_OUTC)
+transparent_underline	/usr/include/term.h	175;"	d
+type	/usr/include/term.h	/^    TERMTYPE	type;		\/* terminal type description *\/$/;"	m	struct:term	access:public
+underline_char	/usr/include/term.h	362;"	d
+up_half_line	/usr/include/term.h	363;"	d
+user0	/usr/include/term.h	513;"	d
+user1	/usr/include/term.h	514;"	d
+user2	/usr/include/term.h	515;"	d
+user3	/usr/include/term.h	516;"	d
+user4	/usr/include/term.h	517;"	d
+user5	/usr/include/term.h	518;"	d
+user6	/usr/include/term.h	519;"	d
+user7	/usr/include/term.h	520;"	d
+user8	/usr/include/term.h	521;"	d
+user9	/usr/include/term.h	522;"	d
+virtual_terminal	/usr/include/term.h	199;"	d
+wait_tone	/usr/include/term.h	512;"	d
+wide_char_size	/usr/include/term.h	222;"	d
+width_status_line	/usr/include/term.h	200;"	d
+xoff_character	/usr/include/term.h	380;"	d
+xon_character	/usr/include/term.h	379;"	d
+xon_xoff	/usr/include/term.h	176;"	d
+zero_motion	/usr/include/term.h	579;"	d

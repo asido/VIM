@@ -1,0 +1,84 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+L	/usr/include/lauxlib.h	/^  lua_State *L;$/;"	m	struct:luaL_Buffer	access:public
+LUA_ERRFILE	/usr/include/lauxlib.h	32;"	d
+LUA_NOREF	/usr/include/lauxlib.h	159;"	d
+LUA_REFNIL	/usr/include/lauxlib.h	160;"	d
+buffer	/usr/include/lauxlib.h	/^  char buffer[LUAL_BUFFERSIZE];$/;"	m	struct:luaL_Buffer	access:public
+func	/usr/include/lauxlib.h	/^  lua_CFunction func;$/;"	m	struct:luaL_Reg	access:public
+lauxlib_h	/usr/include/lauxlib.h	9;"	d
+luaI_openlib	/usr/include/lauxlib.h	/^LUALIB_API void (luaI_openlib) (lua_State *L, const char *libname,$/;"	p	signature:(lua_State *L, const char *libname, const luaL_Reg *l, int nup)
+luaI_openlib	/usr/include/lauxlib.h	27;"	d
+luaL_Buffer	/usr/include/lauxlib.h	/^typedef struct luaL_Buffer {$/;"	s
+luaL_Buffer	/usr/include/lauxlib.h	/^} luaL_Buffer;$/;"	t	typeref:struct:luaL_Buffer
+luaL_Buffer::L	/usr/include/lauxlib.h	/^  lua_State *L;$/;"	m	struct:luaL_Buffer	access:public
+luaL_Buffer::buffer	/usr/include/lauxlib.h	/^  char buffer[LUAL_BUFFERSIZE];$/;"	m	struct:luaL_Buffer	access:public
+luaL_Buffer::lvl	/usr/include/lauxlib.h	/^  int lvl;  \/* number of strings in the stack (level) *\/$/;"	m	struct:luaL_Buffer	access:public
+luaL_Buffer::p	/usr/include/lauxlib.h	/^  char *p;			\/* current position in buffer *\/$/;"	m	struct:luaL_Buffer	access:public
+luaL_Reg	/usr/include/lauxlib.h	/^typedef struct luaL_Reg {$/;"	s
+luaL_Reg	/usr/include/lauxlib.h	/^} luaL_Reg;$/;"	t	typeref:struct:luaL_Reg
+luaL_Reg::func	/usr/include/lauxlib.h	/^  lua_CFunction func;$/;"	m	struct:luaL_Reg	access:public
+luaL_Reg::name	/usr/include/lauxlib.h	/^  const char *name;$/;"	m	struct:luaL_Reg	access:public
+luaL_addchar	/usr/include/lauxlib.h	136;"	d
+luaL_addlstring	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_addlstring) (luaL_Buffer *B, const char *s, size_t l);$/;"	p	signature:(luaL_Buffer *B, const char *s, size_t l)
+luaL_addsize	/usr/include/lauxlib.h	143;"	d
+luaL_addstring	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_addstring) (luaL_Buffer *B, const char *s);$/;"	p	signature:(luaL_Buffer *B, const char *s)
+luaL_addvalue	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_addvalue) (luaL_Buffer *B);$/;"	p	signature:(luaL_Buffer *B)
+luaL_argcheck	/usr/include/lauxlib.h	100;"	d
+luaL_argerror	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_argerror) (lua_State *L, int numarg, const char *extramsg);$/;"	p	signature:(lua_State *L, int numarg, const char *extramsg)
+luaL_buffinit	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_buffinit) (lua_State *L, luaL_Buffer *B);$/;"	p	signature:(lua_State *L, luaL_Buffer *B)
+luaL_callmeta	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_callmeta) (lua_State *L, int obj, const char *e);$/;"	p	signature:(lua_State *L, int obj, const char *e)
+luaL_checkany	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_checkany) (lua_State *L, int narg);$/;"	p	signature:(lua_State *L, int narg)
+luaL_checkint	/usr/include/lauxlib.h	104;"	d
+luaL_checkinteger	/usr/include/lauxlib.h	/^LUALIB_API lua_Integer (luaL_checkinteger) (lua_State *L, int numArg);$/;"	p	signature:(lua_State *L, int numArg)
+luaL_checklong	/usr/include/lauxlib.h	106;"	d
+luaL_checklstring	/usr/include/lauxlib.h	/^LUALIB_API const char *(luaL_checklstring) (lua_State *L, int numArg,$/;"	p	signature:(lua_State *L, int numArg, size_t *l)
+luaL_checknumber	/usr/include/lauxlib.h	/^LUALIB_API lua_Number (luaL_checknumber) (lua_State *L, int numArg);$/;"	p	signature:(lua_State *L, int numArg)
+luaL_checkoption	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_checkoption) (lua_State *L, int narg, const char *def,$/;"	p	signature:(lua_State *L, int narg, const char *def, const char *const lst[])
+luaL_checkstack	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_checkstack) (lua_State *L, int sz, const char *msg);$/;"	p	signature:(lua_State *L, int sz, const char *msg)
+luaL_checkstring	/usr/include/lauxlib.h	102;"	d
+luaL_checktype	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_checktype) (lua_State *L, int narg, int t);$/;"	p	signature:(lua_State *L, int narg, int t)
+luaL_checkudata	/usr/include/lauxlib.h	/^LUALIB_API void *(luaL_checkudata) (lua_State *L, int ud, const char *tname);$/;"	p	signature:(lua_State *L, int ud, const char *tname)
+luaL_dofile	/usr/include/lauxlib.h	111;"	d
+luaL_dostring	/usr/include/lauxlib.h	114;"	d
+luaL_error	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_error) (lua_State *L, const char *fmt, ...);$/;"	p	signature:(lua_State *L, const char *fmt, ...)
+luaL_findtable	/usr/include/lauxlib.h	/^LUALIB_API const char *(luaL_findtable) (lua_State *L, int idx,$/;"	p	signature:(lua_State *L, int idx, const char *fname, int szhint)
+luaL_getmetafield	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_getmetafield) (lua_State *L, int obj, const char *e);$/;"	p	signature:(lua_State *L, int obj, const char *e)
+luaL_getmetatable	/usr/include/lauxlib.h	117;"	d
+luaL_getn	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_getn) (lua_State *L, int t);$/;"	p	signature:(lua_State *L, int t)
+luaL_getn	/usr/include/lauxlib.h	22;"	d
+luaL_gsub	/usr/include/lauxlib.h	/^LUALIB_API const char *(luaL_gsub) (lua_State *L, const char *s, const char *p,$/;"	p	signature:(lua_State *L, const char *s, const char *p, const char *r)
+luaL_loadbuffer	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_loadbuffer) (lua_State *L, const char *buff, size_t sz,$/;"	p	signature:(lua_State *L, const char *buff, size_t sz, const char *name)
+luaL_loadfile	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_loadfile) (lua_State *L, const char *filename);$/;"	p	signature:(lua_State *L, const char *filename)
+luaL_loadstring	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_loadstring) (lua_State *L, const char *s);$/;"	p	signature:(lua_State *L, const char *s)
+luaL_newmetatable	/usr/include/lauxlib.h	/^LUALIB_API int   (luaL_newmetatable) (lua_State *L, const char *tname);$/;"	p	signature:(lua_State *L, const char *tname)
+luaL_newstate	/usr/include/lauxlib.h	/^LUALIB_API lua_State *(luaL_newstate) (void);$/;"	p	signature:(void)
+luaL_opt	/usr/include/lauxlib.h	119;"	d
+luaL_optint	/usr/include/lauxlib.h	105;"	d
+luaL_optinteger	/usr/include/lauxlib.h	/^LUALIB_API lua_Integer (luaL_optinteger) (lua_State *L, int nArg,$/;"	p	signature:(lua_State *L, int nArg, lua_Integer def)
+luaL_optlong	/usr/include/lauxlib.h	107;"	d
+luaL_optlstring	/usr/include/lauxlib.h	/^LUALIB_API const char *(luaL_optlstring) (lua_State *L, int numArg,$/;"	p	signature:(lua_State *L, int numArg, const char *def, size_t *l)
+luaL_optnumber	/usr/include/lauxlib.h	/^LUALIB_API lua_Number (luaL_optnumber) (lua_State *L, int nArg, lua_Number def);$/;"	p	signature:(lua_State *L, int nArg, lua_Number def)
+luaL_optstring	/usr/include/lauxlib.h	103;"	d
+luaL_prepbuffer	/usr/include/lauxlib.h	/^LUALIB_API char *(luaL_prepbuffer) (luaL_Buffer *B);$/;"	p	signature:(luaL_Buffer *B)
+luaL_pushresult	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_pushresult) (luaL_Buffer *B);$/;"	p	signature:(luaL_Buffer *B)
+luaL_putchar	/usr/include/lauxlib.h	141;"	d
+luaL_ref	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_ref) (lua_State *L, int t);$/;"	p	signature:(lua_State *L, int t)
+luaL_reg	/usr/include/lauxlib.h	170;"	d
+luaL_register	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_register) (lua_State *L, const char *libname,$/;"	p	signature:(lua_State *L, const char *libname, const luaL_Reg *l)
+luaL_setn	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_setn) (lua_State *L, int t, int n);$/;"	p	signature:(lua_State *L, int t, int n)
+luaL_setn	/usr/include/lauxlib.h	23;"	d
+luaL_typename	/usr/include/lauxlib.h	109;"	d
+luaL_typerror	/usr/include/lauxlib.h	/^LUALIB_API int (luaL_typerror) (lua_State *L, int narg, const char *tname);$/;"	p	signature:(lua_State *L, int narg, const char *tname)
+luaL_unref	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_unref) (lua_State *L, int t, int ref);$/;"	p	signature:(lua_State *L, int t, int ref)
+luaL_where	/usr/include/lauxlib.h	/^LUALIB_API void (luaL_where) (lua_State *L, int lvl);$/;"	p	signature:(lua_State *L, int lvl)
+lua_getref	/usr/include/lauxlib.h	167;"	d
+lua_ref	/usr/include/lauxlib.h	162;"	d
+lua_unref	/usr/include/lauxlib.h	165;"	d
+lvl	/usr/include/lauxlib.h	/^  int lvl;  \/* number of strings in the stack (level) *\/$/;"	m	struct:luaL_Buffer	access:public
+name	/usr/include/lauxlib.h	/^  const char *name;$/;"	m	struct:luaL_Reg	access:public
+p	/usr/include/lauxlib.h	/^  char *p;			\/* current position in buffer *\/$/;"	m	struct:luaL_Buffer	access:public

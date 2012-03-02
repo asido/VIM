@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DIR	/usr/include/dirent.h	/^typedef struct __dirstream DIR;$/;"	t	typeref:struct:__dirstream
+DTTOIF	/usr/include/dirent.h	122;"	d
+DT_BLK	/usr/include/dirent.h	/^    DT_BLK = 6,$/;"	e	enum:__anon1
+DT_BLK	/usr/include/dirent.h	109;"	d
+DT_CHR	/usr/include/dirent.h	/^    DT_CHR = 2,$/;"	e	enum:__anon1
+DT_CHR	/usr/include/dirent.h	105;"	d
+DT_DIR	/usr/include/dirent.h	/^    DT_DIR = 4,$/;"	e	enum:__anon1
+DT_DIR	/usr/include/dirent.h	107;"	d
+DT_FIFO	/usr/include/dirent.h	/^    DT_FIFO = 1,$/;"	e	enum:__anon1
+DT_FIFO	/usr/include/dirent.h	103;"	d
+DT_LNK	/usr/include/dirent.h	/^    DT_LNK = 10,$/;"	e	enum:__anon1
+DT_LNK	/usr/include/dirent.h	113;"	d
+DT_REG	/usr/include/dirent.h	/^    DT_REG = 8,$/;"	e	enum:__anon1
+DT_REG	/usr/include/dirent.h	111;"	d
+DT_SOCK	/usr/include/dirent.h	/^    DT_SOCK = 12,$/;"	e	enum:__anon1
+DT_SOCK	/usr/include/dirent.h	115;"	d
+DT_UNKNOWN	/usr/include/dirent.h	/^    DT_UNKNOWN = 0,$/;"	e	enum:__anon1
+DT_UNKNOWN	/usr/include/dirent.h	101;"	d
+DT_WHT	/usr/include/dirent.h	/^    DT_WHT = 14$/;"	e	enum:__anon1
+DT_WHT	/usr/include/dirent.h	117;"	d
+IFTODT	/usr/include/dirent.h	121;"	d
+MAXNAMLEN	/usr/include/dirent.h	237;"	d
+MAXNAMLEN	/usr/include/dirent.h	239;"	d
+_DIRENT_H	/usr/include/dirent.h	24;"	d
+_D_ALLOC_NAMLEN	/usr/include/dirent.h	84;"	d
+_D_ALLOC_NAMLEN	/usr/include/dirent.h	88;"	d
+_D_ALLOC_NAMLEN	/usr/include/dirent.h	90;"	d
+_D_EXACT_NAMLEN	/usr/include/dirent.h	83;"	d
+_D_EXACT_NAMLEN	/usr/include/dirent.h	86;"	d
+__THROW	/usr/include/dirent.h	/^     __THROW __nonnull ((2, 4));$/;"	p	signature:(2, 4)
+__THROW	/usr/include/dirent.h	/^extern int dirfd (DIR *__dirp) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/dirent.h	/^extern long int telldir (DIR *__dirp) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/dirent.h	/^extern void rewinddir (DIR *__dirp) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/dirent.h	/^extern void seekdir (DIR *__dirp, long int __pos) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	/usr/include/dirent.h	/^			   alphasort64) __attribute_pure__ __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__attribute_pure__	/usr/include/dirent.h	/^     __THROW __attribute_pure__ __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__attribute_pure__	/usr/include/dirent.h	/^     __attribute_pure__ __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__ino64_t_defined	/usr/include/dirent.h	43;"	d
+__ino_t_defined	/usr/include/dirent.h	39;"	d
+__need_size_t	/usr/include/dirent.h	244;"	d
+alphasort	/usr/include/dirent.h	295;"	d
+d_ino	/usr/include/dirent.h	65;"	d
+dirfd	/usr/include/dirent.h	227;"	d
+fdopendir	/usr/include/dirent.h	/^extern DIR *fdopendir (int __fd);$/;"	p	signature:(int __fd)
+getdirentries	/usr/include/dirent.h	325;"	d
+ino64_t	/usr/include/dirent.h	/^typedef __ino64_t ino64_t;$/;"	t
+ino_t	/usr/include/dirent.h	/^typedef __ino_t ino_t;$/;"	t
+readdir	/usr/include/dirent.h	169;"	d
+readdir_r	/usr/include/dirent.h	196;"	d
+scandir	/usr/include/dirent.h	268;"	d
+versionsort	/usr/include/dirent.h	351;"	d

@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+M_ARENA_MAX	/usr/include/malloc.h	141;"	d
+M_ARENA_TEST	/usr/include/malloc.h	140;"	d
+M_CHECK_ACTION	/usr/include/malloc.h	138;"	d
+M_GRAIN	/usr/include/malloc.h	127;"	d
+M_KEEP	/usr/include/malloc.h	130;"	d
+M_MMAP_MAX	/usr/include/malloc.h	137;"	d
+M_MMAP_THRESHOLD	/usr/include/malloc.h	136;"	d
+M_MXFAST	/usr/include/malloc.h	121;"	d
+M_NLBLKS	/usr/include/malloc.h	124;"	d
+M_PERTURB	/usr/include/malloc.h	139;"	d
+M_TOP_PAD	/usr/include/malloc.h	135;"	d
+M_TRIM_THRESHOLD	/usr/include/malloc.h	134;"	d
+_MALLOC_H	/usr/include/malloc.h	22;"	d
+__MALLOC_DEPRECATED	/usr/include/malloc.h	/^extern void __malloc_check_init (void) __THROW __MALLOC_DEPRECATED;$/;"	v
+__MALLOC_DEPRECATED	/usr/include/malloc.h	42;"	d
+__MALLOC_DEPRECATED	/usr/include/malloc.h	45;"	d
+__MALLOC_DEPRECATED	/usr/include/malloc.h	53;"	d
+__MALLOC_HOOK_VOLATILE	/usr/include/malloc.h	41;"	d
+__MALLOC_HOOK_VOLATILE	/usr/include/malloc.h	44;"	d
+__MALLOC_HOOK_VOLATILE	/usr/include/malloc.h	52;"	d
+__MALLOC_P	/usr/include/malloc.h	35;"	d
+__MALLOC_P	/usr/include/malloc.h	50;"	d
+__MALLOC_PMT	/usr/include/malloc.h	38;"	d
+__MALLOC_PMT	/usr/include/malloc.h	51;"	d
+__attribute_malloc__	/usr/include/malloc.h	/^     __THROW __attribute_malloc__;$/;"	v
+__attribute_warn_unused_result__	/usr/include/malloc.h	/^     __THROW __attribute_warn_unused_result__;$/;"	v
+__malloc_ptr_t	/usr/include/malloc.h	27;"	d
+__malloc_ptrdiff_t	/usr/include/malloc.h	31;"	d
+__malloc_size_t	/usr/include/malloc.h	30;"	d
+__wur	/usr/include/malloc.h	/^     __THROW __attribute_malloc__ __wur;$/;"	v
+__wur	/usr/include/malloc.h	/^extern void * pvalloc (size_t __size) __THROW __attribute_malloc__ __wur;$/;"	v
+__wur	/usr/include/malloc.h	/^extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;$/;"	v
+__wur	/usr/include/malloc.h	/^extern void *valloc (size_t __size) __THROW __attribute_malloc__ __wur;$/;"	v
+arena	/usr/include/malloc.h	/^  int arena;    \/* non-mmapped space allocated from system *\/$/;"	m	struct:mallinfo	access:public
+fordblks	/usr/include/malloc.h	/^  int fordblks; \/* total free space *\/$/;"	m	struct:mallinfo	access:public
+fsmblks	/usr/include/malloc.h	/^  int fsmblks;  \/* space available in freed fastbin blocks *\/$/;"	m	struct:mallinfo	access:public
+hblkhd	/usr/include/malloc.h	/^  int hblkhd;   \/* space in mmapped regions *\/$/;"	m	struct:mallinfo	access:public
+hblks	/usr/include/malloc.h	/^  int hblks;    \/* number of mmapped regions *\/$/;"	m	struct:mallinfo	access:public
+keepcost	/usr/include/malloc.h	/^  int keepcost; \/* top-most, releasable (via malloc_trim) space *\/$/;"	m	struct:mallinfo	access:public
+mallinfo	/usr/include/malloc.h	/^struct mallinfo$/;"	s
+mallinfo::arena	/usr/include/malloc.h	/^  int arena;    \/* non-mmapped space allocated from system *\/$/;"	m	struct:mallinfo	access:public
+mallinfo::fordblks	/usr/include/malloc.h	/^  int fordblks; \/* total free space *\/$/;"	m	struct:mallinfo	access:public
+mallinfo::fsmblks	/usr/include/malloc.h	/^  int fsmblks;  \/* space available in freed fastbin blocks *\/$/;"	m	struct:mallinfo	access:public
+mallinfo::hblkhd	/usr/include/malloc.h	/^  int hblkhd;   \/* space in mmapped regions *\/$/;"	m	struct:mallinfo	access:public
+mallinfo::hblks	/usr/include/malloc.h	/^  int hblks;    \/* number of mmapped regions *\/$/;"	m	struct:mallinfo	access:public
+mallinfo::keepcost	/usr/include/malloc.h	/^  int keepcost; \/* top-most, releasable (via malloc_trim) space *\/$/;"	m	struct:mallinfo	access:public
+mallinfo::ordblks	/usr/include/malloc.h	/^  int ordblks;  \/* number of free chunks *\/$/;"	m	struct:mallinfo	access:public
+mallinfo::smblks	/usr/include/malloc.h	/^  int smblks;   \/* number of fastbin blocks *\/$/;"	m	struct:mallinfo	access:public
+mallinfo::uordblks	/usr/include/malloc.h	/^  int uordblks; \/* total allocated space *\/$/;"	m	struct:mallinfo	access:public
+mallinfo::usmblks	/usr/include/malloc.h	/^  int usmblks;  \/* maximum total allocated space *\/$/;"	m	struct:mallinfo	access:public
+ordblks	/usr/include/malloc.h	/^  int ordblks;  \/* number of free chunks *\/$/;"	m	struct:mallinfo	access:public
+smblks	/usr/include/malloc.h	/^  int smblks;   \/* number of fastbin blocks *\/$/;"	m	struct:mallinfo	access:public
+uordblks	/usr/include/malloc.h	/^  int uordblks; \/* total allocated space *\/$/;"	m	struct:mallinfo	access:public
+usmblks	/usr/include/malloc.h	/^  int usmblks;  \/* maximum total allocated space *\/$/;"	m	struct:mallinfo	access:public

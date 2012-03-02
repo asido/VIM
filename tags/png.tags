@@ -1,0 +1,394 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+PNG_AFTER_IDAT	/usr/include/png.h	714;"	d
+PNG_ALL_FILTERS	/usr/include/png.h	1639;"	d
+PNG_ALL_MNG_FEATURES	/usr/include/png.h	948;"	d
+PNG_ALPHA_ASSOCIATED	/usr/include/png.h	1226;"	d
+PNG_ALPHA_BROKEN	/usr/include/png.h	1229;"	d
+PNG_ALPHA_OPTIMIZED	/usr/include/png.h	1228;"	d
+PNG_ALPHA_PNG	/usr/include/png.h	1224;"	d
+PNG_ALPHA_PREMULTIPLIED	/usr/include/png.h	1227;"	d
+PNG_ALPHA_STANDARD	/usr/include/png.h	1225;"	d
+PNG_APNG_SUPPORTED	/usr/include/png.h	431;"	d
+PNG_BACKGROUND_GAMMA_FILE	/usr/include/png.h	1465;"	d
+PNG_BACKGROUND_GAMMA_SCREEN	/usr/include/png.h	1464;"	d
+PNG_BACKGROUND_GAMMA_UNIQUE	/usr/include/png.h	1466;"	d
+PNG_BACKGROUND_GAMMA_UNKNOWN	/usr/include/png.h	1463;"	d
+PNG_BLEND_OP_OVER	/usr/include/png.h	2409;"	d
+PNG_BLEND_OP_SOURCE	/usr/include/png.h	2408;"	d
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(int, *png_user_chunk_ptr, (png_structp,$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(png_voidp, *png_malloc_ptr, (png_structp,$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_error_ptr, (png_structp, png_const_charp));$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_flush_ptr, (png_structp));$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_free_ptr, (png_structp, png_voidp));$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_progressive_end_ptr, (png_structp, png_infop));$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_progressive_frame_ptr, (png_structp,$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_progressive_info_ptr, (png_structp, png_infop));$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_progressive_row_ptr, (png_structp, png_bytep,$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_read_status_ptr, (png_structp, png_uint_32,$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_rw_ptr, (png_structp, png_bytep, png_size_t));$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_unknown_chunk_ptr, (png_structp));$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_user_transform_ptr, (png_structp, png_row_infop,$/;"	t
+PNG_CALLBACK	/usr/include/png.h	/^typedef PNG_CALLBACK(void, *png_write_status_ptr, (png_structp, png_uint_32,$/;"	t
+PNG_COLOR_MASK_ALPHA	/usr/include/png.h	742;"	d
+PNG_COLOR_MASK_COLOR	/usr/include/png.h	741;"	d
+PNG_COLOR_MASK_PALETTE	/usr/include/png.h	740;"	d
+PNG_COLOR_TYPE_GA	/usr/include/png.h	752;"	d
+PNG_COLOR_TYPE_GRAY	/usr/include/png.h	745;"	d
+PNG_COLOR_TYPE_GRAY_ALPHA	/usr/include/png.h	749;"	d
+PNG_COLOR_TYPE_PALETTE	/usr/include/png.h	746;"	d
+PNG_COLOR_TYPE_RGB	/usr/include/png.h	747;"	d
+PNG_COLOR_TYPE_RGBA	/usr/include/png.h	751;"	d
+PNG_COLOR_TYPE_RGB_ALPHA	/usr/include/png.h	748;"	d
+PNG_COL_FROM_PASS_COL	/usr/include/png.h	2609;"	d
+PNG_COL_IN_INTERLACE_PASS	/usr/include/png.h	2624;"	d
+PNG_COMPRESSION_TYPE_BASE	/usr/include/png.h	755;"	d
+PNG_COMPRESSION_TYPE_DEFAULT	/usr/include/png.h	756;"	d
+PNG_CRC_DEFAULT	/usr/include/png.h	1607;"	d
+PNG_CRC_ERROR_QUIT	/usr/include/png.h	1608;"	d
+PNG_CRC_NO_CHANGE	/usr/include/png.h	1612;"	d
+PNG_CRC_QUIET_USE	/usr/include/png.h	1611;"	d
+PNG_CRC_WARN_DISCARD	/usr/include/png.h	1609;"	d
+PNG_CRC_WARN_USE	/usr/include/png.h	1610;"	d
+PNG_DEFAULT_sRGB	/usr/include/png.h	1302;"	d
+PNG_DESTROY_WILL_FREE_DATA	/usr/include/png.h	1924;"	d
+PNG_DISPOSE_OP_BACKGROUND	/usr/include/png.h	2404;"	d
+PNG_DISPOSE_OP_NONE	/usr/include/png.h	2403;"	d
+PNG_DISPOSE_OP_PREVIOUS	/usr/include/png.h	2405;"	d
+PNG_EQUATION_ARBITRARY	/usr/include/png.h	776;"	d
+PNG_EQUATION_BASE_E	/usr/include/png.h	775;"	d
+PNG_EQUATION_HYPERBOLIC	/usr/include/png.h	777;"	d
+PNG_EQUATION_LAST	/usr/include/png.h	778;"	d
+PNG_EQUATION_LINEAR	/usr/include/png.h	774;"	d
+PNG_ERROR_ACTION_ERROR	/usr/include/png.h	1158;"	d
+PNG_ERROR_ACTION_NONE	/usr/include/png.h	1156;"	d
+PNG_ERROR_ACTION_WARN	/usr/include/png.h	1157;"	d
+PNG_FILLER_AFTER	/usr/include/png.h	1404;"	d
+PNG_FILLER_BEFORE	/usr/include/png.h	1403;"	d
+PNG_FILTER_AVG	/usr/include/png.h	1637;"	d
+PNG_FILTER_HEURISTIC_DEFAULT	/usr/include/png.h	1693;"	d
+PNG_FILTER_HEURISTIC_LAST	/usr/include/png.h	1696;"	d
+PNG_FILTER_HEURISTIC_UNWEIGHTED	/usr/include/png.h	1694;"	d
+PNG_FILTER_HEURISTIC_WEIGHTED	/usr/include/png.h	1695;"	d
+PNG_FILTER_NONE	/usr/include/png.h	1634;"	d
+PNG_FILTER_PAETH	/usr/include/png.h	1638;"	d
+PNG_FILTER_SUB	/usr/include/png.h	1635;"	d
+PNG_FILTER_TYPE_BASE	/usr/include/png.h	759;"	d
+PNG_FILTER_TYPE_DEFAULT	/usr/include/png.h	761;"	d
+PNG_FILTER_UP	/usr/include/png.h	1636;"	d
+PNG_FILTER_VALUE_AVG	/usr/include/png.h	1648;"	d
+PNG_FILTER_VALUE_LAST	/usr/include/png.h	1650;"	d
+PNG_FILTER_VALUE_NONE	/usr/include/png.h	1645;"	d
+PNG_FILTER_VALUE_PAETH	/usr/include/png.h	1649;"	d
+PNG_FILTER_VALUE_SUB	/usr/include/png.h	1646;"	d
+PNG_FILTER_VALUE_UP	/usr/include/png.h	1647;"	d
+PNG_FLAG_MNG_EMPTY_PLTE	/usr/include/png.h	946;"	d
+PNG_FLAG_MNG_FILTER_64	/usr/include/png.h	947;"	d
+PNG_FP_1	/usr/include/png.h	733;"	d
+PNG_FP_HALF	/usr/include/png.h	734;"	d
+PNG_FP_MAX	/usr/include/png.h	735;"	d
+PNG_FP_MIN	/usr/include/png.h	736;"	d
+PNG_FREE_ALL	/usr/include/png.h	1939;"	d
+PNG_FREE_HIST	/usr/include/png.h	1928;"	d
+PNG_FREE_ICCP	/usr/include/png.h	1929;"	d
+PNG_FREE_LIST	/usr/include/png.h	1935;"	d
+PNG_FREE_MUL	/usr/include/png.h	1940;"	d
+PNG_FREE_PCAL	/usr/include/png.h	1932;"	d
+PNG_FREE_PLTE	/usr/include/png.h	1936;"	d
+PNG_FREE_ROWS	/usr/include/png.h	1931;"	d
+PNG_FREE_SCAL	/usr/include/png.h	1933;"	d
+PNG_FREE_SPLT	/usr/include/png.h	1930;"	d
+PNG_FREE_TEXT	/usr/include/png.h	1938;"	d
+PNG_FREE_TRNS	/usr/include/png.h	1937;"	d
+PNG_FREE_UNKN	/usr/include/png.h	1934;"	d
+PNG_GAMMA_LINEAR	/usr/include/png.h	1305;"	d
+PNG_GAMMA_MAC_18	/usr/include/png.h	1303;"	d
+PNG_GAMMA_THRESHOLD	/usr/include/png.h	1494;"	d
+PNG_GAMMA_sRGB	/usr/include/png.h	1304;"	d
+PNG_H	/usr/include/png.h	366;"	d
+PNG_HANDLE_CHUNK_ALWAYS	/usr/include/png.h	2482;"	d
+PNG_HANDLE_CHUNK_AS_DEFAULT	/usr/include/png.h	2479;"	d
+PNG_HANDLE_CHUNK_IF_SAFE	/usr/include/png.h	2481;"	d
+PNG_HANDLE_CHUNK_NEVER	/usr/include/png.h	2480;"	d
+PNG_HAVE_IHDR	/usr/include/png.h	712;"	d
+PNG_HAVE_PLTE	/usr/include/png.h	713;"	d
+PNG_HEADER_VERSION_STRING	/usr/include/png.h	379;"	d
+PNG_INFO_IDAT	/usr/include/png.h	824;"	d
+PNG_INFO_PLTE	/usr/include/png.h	812;"	d
+PNG_INFO_acTL	/usr/include/png.h	826;"	d
+PNG_INFO_bKGD	/usr/include/png.h	814;"	d
+PNG_INFO_cHRM	/usr/include/png.h	811;"	d
+PNG_INFO_fcTL	/usr/include/png.h	827;"	d
+PNG_INFO_gAMA	/usr/include/png.h	809;"	d
+PNG_INFO_hIST	/usr/include/png.h	815;"	d
+PNG_INFO_iCCP	/usr/include/png.h	821;"	d
+PNG_INFO_oFFs	/usr/include/png.h	817;"	d
+PNG_INFO_pCAL	/usr/include/png.h	819;"	d
+PNG_INFO_pHYs	/usr/include/png.h	816;"	d
+PNG_INFO_sBIT	/usr/include/png.h	810;"	d
+PNG_INFO_sCAL	/usr/include/png.h	823;"	d
+PNG_INFO_sPLT	/usr/include/png.h	822;"	d
+PNG_INFO_sRGB	/usr/include/png.h	820;"	d
+PNG_INFO_tIME	/usr/include/png.h	818;"	d
+PNG_INFO_tRNS	/usr/include/png.h	813;"	d
+PNG_INTERLACE_ADAM7	/usr/include/png.h	765;"	d
+PNG_INTERLACE_ADAM7_PASSES	/usr/include/png.h	2569;"	d
+PNG_INTERLACE_LAST	/usr/include/png.h	766;"	d
+PNG_INTERLACE_NONE	/usr/include/png.h	764;"	d
+PNG_INTRAPIXEL_DIFFERENCING	/usr/include/png.h	760;"	d
+PNG_IO_CHUNK_CRC	/usr/include/png.h	2560;"	d
+PNG_IO_CHUNK_DATA	/usr/include/png.h	2559;"	d
+PNG_IO_CHUNK_HDR	/usr/include/png.h	2558;"	d
+PNG_IO_MASK_LOC	/usr/include/png.h	2562;"	d
+PNG_IO_MASK_OP	/usr/include/png.h	2561;"	d
+PNG_IO_NONE	/usr/include/png.h	2554;"	d
+PNG_IO_READING	/usr/include/png.h	2555;"	d
+PNG_IO_SIGNATURE	/usr/include/png.h	2557;"	d
+PNG_IO_WRITING	/usr/include/png.h	2556;"	d
+PNG_ITXT_COMPRESSION_NONE	/usr/include/png.h	663;"	d
+PNG_ITXT_COMPRESSION_zTXt	/usr/include/png.h	664;"	d
+PNG_KEYWORD_MAX_LENGTH	/usr/include/png.h	799;"	d
+PNG_LIBPNG_BUILD_ALPHA	/usr/include/png.h	397;"	d
+PNG_LIBPNG_BUILD_BASE_TYPE	/usr/include/png.h	411;"	d
+PNG_LIBPNG_BUILD_BETA	/usr/include/png.h	398;"	d
+PNG_LIBPNG_BUILD_PATCH	/usr/include/png.h	404;"	d
+PNG_LIBPNG_BUILD_PRIVATE	/usr/include/png.h	406;"	d
+PNG_LIBPNG_BUILD_RC	/usr/include/png.h	399;"	d
+PNG_LIBPNG_BUILD_RELEASE_STATUS_MASK	/usr/include/png.h	401;"	d
+PNG_LIBPNG_BUILD_SPECIAL	/usr/include/png.h	408;"	d
+PNG_LIBPNG_BUILD_STABLE	/usr/include/png.h	400;"	d
+PNG_LIBPNG_BUILD_TYPE	/usr/include/png.h	473;"	d
+PNG_LIBPNG_BUILD_TYPE	/usr/include/png.h	477;"	d
+PNG_LIBPNG_BUILD_TYPE	/usr/include/png.h	480;"	d
+PNG_LIBPNG_VER	/usr/include/png.h	419;"	d
+PNG_LIBPNG_VER_BUILD	/usr/include/png.h	394;"	d
+PNG_LIBPNG_VER_DLLNUM	/usr/include/png.h	383;"	d
+PNG_LIBPNG_VER_MAJOR	/usr/include/png.h	386;"	d
+PNG_LIBPNG_VER_MINOR	/usr/include/png.h	387;"	d
+PNG_LIBPNG_VER_RELEASE	/usr/include/png.h	388;"	d
+PNG_LIBPNG_VER_SONUM	/usr/include/png.h	382;"	d
+PNG_LIBPNG_VER_STRING	/usr/include/png.h	378;"	d
+PNG_MAX_PALETTE_LENGTH	/usr/include/png.h	802;"	d
+PNG_NO_FILTERS	/usr/include/png.h	1633;"	d
+PNG_OFFSET_LAST	/usr/include/png.h	771;"	d
+PNG_OFFSET_MICROMETER	/usr/include/png.h	770;"	d
+PNG_OFFSET_PIXEL	/usr/include/png.h	769;"	d
+PNG_PASS_COLS	/usr/include/png.h	2600;"	d
+PNG_PASS_COL_OFFSET	/usr/include/png.h	2584;"	d
+PNG_PASS_COL_SHIFT	/usr/include/png.h	2591;"	d
+PNG_PASS_MASK	/usr/include/png.h	2618;"	d
+PNG_PASS_ROWS	/usr/include/png.h	2598;"	d
+PNG_PASS_ROW_OFFSET	/usr/include/png.h	2583;"	d
+PNG_PASS_ROW_SHIFT	/usr/include/png.h	2590;"	d
+PNG_PASS_START_COL	/usr/include/png.h	2576;"	d
+PNG_PASS_START_ROW	/usr/include/png.h	2575;"	d
+PNG_READ_16_TO_8	/usr/include/png.h	1475;"	d
+PNG_READ_APNG_SUPPORTED	/usr/include/png.h	432;"	d
+PNG_RESOLUTION_LAST	/usr/include/png.h	789;"	d
+PNG_RESOLUTION_METER	/usr/include/png.h	788;"	d
+PNG_RESOLUTION_UNKNOWN	/usr/include/png.h	787;"	d
+PNG_RGB_TO_GRAY_DEFAULT	/usr/include/png.h	1159;"	d
+PNG_ROW_FROM_PASS_ROW	/usr/include/png.h	2607;"	d
+PNG_ROW_IN_INTERLACE_PASS	/usr/include/png.h	2622;"	d
+PNG_SCALE_LAST	/usr/include/png.h	784;"	d
+PNG_SCALE_METER	/usr/include/png.h	782;"	d
+PNG_SCALE_RADIAN	/usr/include/png.h	783;"	d
+PNG_SCALE_UNKNOWN	/usr/include/png.h	781;"	d
+PNG_SET_WILL_FREE_DATA	/usr/include/png.h	1925;"	d
+PNG_SIZE_MAX	/usr/include/png.h	728;"	d
+PNG_TEXT_COMPRESSION_LAST	/usr/include/png.h	665;"	d
+PNG_TEXT_COMPRESSION_NONE	/usr/include/png.h	661;"	d
+PNG_TEXT_COMPRESSION_NONE_WR	/usr/include/png.h	659;"	d
+PNG_TEXT_COMPRESSION_zTXt	/usr/include/png.h	662;"	d
+PNG_TEXT_COMPRESSION_zTXt_WR	/usr/include/png.h	660;"	d
+PNG_TRANSFORM_BGR	/usr/include/png.h	931;"	d
+PNG_TRANSFORM_EXPAND	/usr/include/png.h	928;"	d
+PNG_TRANSFORM_EXPAND_16	/usr/include/png.h	942;"	d
+PNG_TRANSFORM_GRAY_TO_RGB	/usr/include/png.h	940;"	d
+PNG_TRANSFORM_IDENTITY	/usr/include/png.h	923;"	d
+PNG_TRANSFORM_INVERT_ALPHA	/usr/include/png.h	934;"	d
+PNG_TRANSFORM_INVERT_MONO	/usr/include/png.h	929;"	d
+PNG_TRANSFORM_PACKING	/usr/include/png.h	926;"	d
+PNG_TRANSFORM_PACKSWAP	/usr/include/png.h	927;"	d
+PNG_TRANSFORM_SCALE_16	/usr/include/png.h	943;"	d
+PNG_TRANSFORM_SHIFT	/usr/include/png.h	930;"	d
+PNG_TRANSFORM_STRIP_16	/usr/include/png.h	924;"	d
+PNG_TRANSFORM_STRIP_ALPHA	/usr/include/png.h	925;"	d
+PNG_TRANSFORM_STRIP_FILLER	/usr/include/png.h	935;"	d
+PNG_TRANSFORM_STRIP_FILLER_AFTER	/usr/include/png.h	938;"	d
+PNG_TRANSFORM_STRIP_FILLER_BEFORE	/usr/include/png.h	937;"	d
+PNG_TRANSFORM_SWAP_ALPHA	/usr/include/png.h	932;"	d
+PNG_TRANSFORM_SWAP_ENDIAN	/usr/include/png.h	933;"	d
+PNG_UINT_31_MAX	/usr/include/png.h	726;"	d
+PNG_UINT_32_MAX	/usr/include/png.h	727;"	d
+PNG_USER_WILL_FREE_DATA	/usr/include/png.h	1926;"	d
+PNG_WRITE_APNG_SUPPORTED	/usr/include/png.h	433;"	d
+PNG_sRGB_INTENT_ABSOLUTE	/usr/include/png.h	795;"	d
+PNG_sRGB_INTENT_LAST	/usr/include/png.h	796;"	d
+PNG_sRGB_INTENT_PERCEPTUAL	/usr/include/png.h	792;"	d
+PNG_sRGB_INTENT_RELATIVE	/usr/include/png.h	793;"	d
+PNG_sRGB_INTENT_SATURATION	/usr/include/png.h	794;"	d
+alpha	/usr/include/png.h	/^   png_byte alpha; \/* for alpha channel files *\/$/;"	m	struct:png_color_8_struct	access:public
+alpha	/usr/include/png.h	/^   png_uint_16 alpha;$/;"	m	struct:png_sPLT_entry_struct	access:public
+bit_depth	/usr/include/png.h	/^   png_byte bit_depth;   \/* bit depth of row *\/$/;"	m	struct:png_row_info_struct	access:public
+blue	/usr/include/png.h	/^   png_byte blue;$/;"	m	struct:png_color_8_struct	access:public
+blue	/usr/include/png.h	/^   png_byte blue;$/;"	m	struct:png_color_struct	access:public
+blue	/usr/include/png.h	/^   png_uint_16 blue;$/;"	m	struct:png_color_16_struct	access:public
+blue	/usr/include/png.h	/^   png_uint_16 blue;$/;"	m	struct:png_sPLT_entry_struct	access:public
+channels	/usr/include/png.h	/^   png_byte channels;    \/* number of channels (1, 2, 3, or 4) *\/$/;"	m	struct:png_row_info_struct	access:public
+color_type	/usr/include/png.h	/^   png_byte color_type;  \/* color type of row *\/$/;"	m	struct:png_row_info_struct	access:public
+compression	/usr/include/png.h	/^   int  compression;       \/* compression value:$/;"	m	struct:png_text_struct	access:public
+data	/usr/include/png.h	/^    png_byte *data;$/;"	m	struct:png_unknown_chunk_t	access:public
+day	/usr/include/png.h	/^   png_byte day;     \/* day of month, 1 - 31 *\/$/;"	m	struct:png_time_struct	access:public
+depth	/usr/include/png.h	/^   png_byte depth;           \/* depth of palette samples *\/$/;"	m	struct:png_sPLT_struct	access:public
+entries	/usr/include/png.h	/^   png_sPLT_entryp entries;  \/* palette entries *\/$/;"	m	struct:png_sPLT_struct	access:public
+frequency	/usr/include/png.h	/^   png_uint_16 frequency;$/;"	m	struct:png_sPLT_entry_struct	access:public
+gray	/usr/include/png.h	/^   png_byte gray;  \/* for use in grayscale files *\/$/;"	m	struct:png_color_8_struct	access:public
+gray	/usr/include/png.h	/^   png_uint_16 gray;  \/* for use in grayscale files *\/$/;"	m	struct:png_color_16_struct	access:public
+green	/usr/include/png.h	/^   png_byte green;$/;"	m	struct:png_color_8_struct	access:public
+green	/usr/include/png.h	/^   png_byte green;$/;"	m	struct:png_color_struct	access:public
+green	/usr/include/png.h	/^   png_uint_16 green;$/;"	m	struct:png_color_16_struct	access:public
+green	/usr/include/png.h	/^   png_uint_16 green;$/;"	m	struct:png_sPLT_entry_struct	access:public
+hour	/usr/include/png.h	/^   png_byte hour;    \/* hour of day, 0 - 23 *\/$/;"	m	struct:png_time_struct	access:public
+index	/usr/include/png.h	/^   png_byte index;    \/* used for palette files *\/$/;"	m	struct:png_color_16_struct	access:public
+itxt_length	/usr/include/png.h	/^   png_size_t itxt_length; \/* length of the itxt string *\/$/;"	m	struct:png_text_struct	access:public
+key	/usr/include/png.h	/^   png_charp key;          \/* keyword, 1-79 character description of "text" *\/$/;"	m	struct:png_text_struct	access:public
+lang	/usr/include/png.h	/^   png_charp lang;         \/* language code, 0-79 characters$/;"	m	struct:png_text_struct	access:public
+lang_key	/usr/include/png.h	/^   png_charp lang_key;     \/* keyword translated UTF-8 string, 0 or more$/;"	m	struct:png_text_struct	access:public
+location	/usr/include/png.h	/^    png_byte location; \/* mode of operation at read time *\/$/;"	m	struct:png_unknown_chunk_t	access:public
+minute	/usr/include/png.h	/^   png_byte minute;  \/* minute of hour, 0 - 59 *\/$/;"	m	struct:png_time_struct	access:public
+month	/usr/include/png.h	/^   png_byte month;   \/* month of year, 1 - 12 *\/$/;"	m	struct:png_time_struct	access:public
+name	/usr/include/png.h	/^    png_byte name[5];$/;"	m	struct:png_unknown_chunk_t	access:public
+name	/usr/include/png.h	/^   png_charp name;           \/* palette name *\/$/;"	m	struct:png_sPLT_struct	access:public
+nentries	/usr/include/png.h	/^   png_int_32 nentries;      \/* number of palette entries *\/$/;"	m	struct:png_sPLT_struct	access:public
+pixel_depth	/usr/include/png.h	/^   png_byte pixel_depth; \/* bits per pixel (depth * channels) *\/$/;"	m	struct:png_row_info_struct	access:public
+png_benign_error	/usr/include/png.h	1976;"	d
+png_benign_error	/usr/include/png.h	1989;"	d
+png_benign_error	/usr/include/png.h	1992;"	d
+png_check_sig	/usr/include/png.h	1010;"	d
+png_chunk_benign_error	/usr/include/png.h	1981;"	d
+png_chunk_benign_error	/usr/include/png.h	1990;"	d
+png_chunk_benign_error	/usr/include/png.h	1993;"	d
+png_color	/usr/include/png.h	/^} png_color;$/;"	t	typeref:struct:png_color_struct
+png_color_16	/usr/include/png.h	/^} png_color_16;$/;"	t	typeref:struct:png_color_16_struct
+png_color_16_struct	/usr/include/png.h	/^typedef struct png_color_16_struct$/;"	s
+png_color_16_struct::blue	/usr/include/png.h	/^   png_uint_16 blue;$/;"	m	struct:png_color_16_struct	access:public
+png_color_16_struct::gray	/usr/include/png.h	/^   png_uint_16 gray;  \/* for use in grayscale files *\/$/;"	m	struct:png_color_16_struct	access:public
+png_color_16_struct::green	/usr/include/png.h	/^   png_uint_16 green;$/;"	m	struct:png_color_16_struct	access:public
+png_color_16_struct::index	/usr/include/png.h	/^   png_byte index;    \/* used for palette files *\/$/;"	m	struct:png_color_16_struct	access:public
+png_color_16_struct::red	/usr/include/png.h	/^   png_uint_16 red;   \/* for use in red green blue files *\/$/;"	m	struct:png_color_16_struct	access:public
+png_color_16p	/usr/include/png.h	/^typedef png_color_16 FAR * png_color_16p;$/;"	t
+png_color_16pp	/usr/include/png.h	/^typedef png_color_16 FAR * FAR * png_color_16pp;$/;"	t
+png_color_8	/usr/include/png.h	/^} png_color_8;$/;"	t	typeref:struct:png_color_8_struct
+png_color_8_struct	/usr/include/png.h	/^typedef struct png_color_8_struct$/;"	s
+png_color_8_struct::alpha	/usr/include/png.h	/^   png_byte alpha; \/* for alpha channel files *\/$/;"	m	struct:png_color_8_struct	access:public
+png_color_8_struct::blue	/usr/include/png.h	/^   png_byte blue;$/;"	m	struct:png_color_8_struct	access:public
+png_color_8_struct::gray	/usr/include/png.h	/^   png_byte gray;  \/* for use in grayscale files *\/$/;"	m	struct:png_color_8_struct	access:public
+png_color_8_struct::green	/usr/include/png.h	/^   png_byte green;$/;"	m	struct:png_color_8_struct	access:public
+png_color_8_struct::red	/usr/include/png.h	/^   png_byte red;   \/* for use in red green blue files *\/$/;"	m	struct:png_color_8_struct	access:public
+png_color_8p	/usr/include/png.h	/^typedef png_color_8 FAR * png_color_8p;$/;"	t
+png_color_8pp	/usr/include/png.h	/^typedef png_color_8 FAR * FAR * png_color_8pp;$/;"	t
+png_color_struct	/usr/include/png.h	/^typedef struct png_color_struct$/;"	s
+png_color_struct::blue	/usr/include/png.h	/^   png_byte blue;$/;"	m	struct:png_color_struct	access:public
+png_color_struct::green	/usr/include/png.h	/^   png_byte green;$/;"	m	struct:png_color_struct	access:public
+png_color_struct::red	/usr/include/png.h	/^   png_byte red;$/;"	m	struct:png_color_struct	access:public
+png_colorp	/usr/include/png.h	/^typedef png_color FAR * png_colorp;$/;"	t
+png_colorpp	/usr/include/png.h	/^typedef png_color FAR * FAR * png_colorpp;$/;"	t
+png_composite	/usr/include/png.h	2642;"	d
+png_composite	/usr/include/png.h	2658;"	d
+png_composite_16	/usr/include/png.h	2649;"	d
+png_composite_16	/usr/include/png.h	2663;"	d
+png_const_color_16p	/usr/include/png.h	/^typedef PNG_CONST png_color_16 FAR * png_const_color_16p;$/;"	t
+png_const_color_8p	/usr/include/png.h	/^typedef PNG_CONST png_color_8 FAR * png_const_color_8p;$/;"	t
+png_const_colorp	/usr/include/png.h	/^typedef PNG_CONST png_color FAR * png_const_colorp;$/;"	t
+png_const_infop	/usr/include/png.h	/^typedef PNG_CONST png_info FAR * png_const_infop;$/;"	t
+png_const_sPLT_entryp	/usr/include/png.h	/^typedef PNG_CONST png_sPLT_entry FAR * png_const_sPLT_entryp;$/;"	t
+png_const_sPLT_tp	/usr/include/png.h	/^typedef PNG_CONST png_sPLT_t FAR * png_const_sPLT_tp;$/;"	t
+png_const_structp	/usr/include/png.h	/^typedef PNG_CONST png_struct FAR * png_const_structp;$/;"	t
+png_const_textp	/usr/include/png.h	/^typedef PNG_CONST png_text FAR * png_const_textp;$/;"	t
+png_const_timep	/usr/include/png.h	/^typedef PNG_CONST png_time FAR * png_const_timep;$/;"	t
+png_const_unknown_chunkp	/usr/include/png.h	/^typedef PNG_CONST png_unknown_chunk FAR * png_const_unknown_chunkp;$/;"	t
+png_get_int_32	/usr/include/png.h	2715;"	d
+png_get_uint_16	/usr/include/png.h	2710;"	d
+png_get_uint_32	/usr/include/png.h	2701;"	d
+png_info	/usr/include/png.h	/^typedef struct png_info_def png_info;$/;"	t	typeref:struct:png_info_def
+png_infop	/usr/include/png.h	/^typedef png_info FAR * png_infop;$/;"	t
+png_infopp	/usr/include/png.h	/^typedef png_info FAR * FAR * png_infopp;$/;"	t
+png_jmpbuf	/usr/include/png.h	1043;"	d
+png_jmpbuf	/usr/include/png.h	1046;"	d
+png_libpng_ver	/usr/include/png.h	494;"	d
+png_libpng_version_1_5_8	/usr/include/png.h	/^typedef char* png_libpng_version_1_5_8;$/;"	t
+png_row_info	/usr/include/png.h	/^} png_row_info;$/;"	t	typeref:struct:png_row_info_struct
+png_row_info_struct	/usr/include/png.h	/^typedef struct png_row_info_struct$/;"	s
+png_row_info_struct::bit_depth	/usr/include/png.h	/^   png_byte bit_depth;   \/* bit depth of row *\/$/;"	m	struct:png_row_info_struct	access:public
+png_row_info_struct::channels	/usr/include/png.h	/^   png_byte channels;    \/* number of channels (1, 2, 3, or 4) *\/$/;"	m	struct:png_row_info_struct	access:public
+png_row_info_struct::color_type	/usr/include/png.h	/^   png_byte color_type;  \/* color type of row *\/$/;"	m	struct:png_row_info_struct	access:public
+png_row_info_struct::pixel_depth	/usr/include/png.h	/^   png_byte pixel_depth; \/* bits per pixel (depth * channels) *\/$/;"	m	struct:png_row_info_struct	access:public
+png_row_info_struct::rowbytes	/usr/include/png.h	/^   png_size_t rowbytes;  \/* number of bytes in row *\/$/;"	m	struct:png_row_info_struct	access:public
+png_row_info_struct::width	/usr/include/png.h	/^   png_uint_32 width;    \/* width of row *\/$/;"	m	struct:png_row_info_struct	access:public
+png_row_infop	/usr/include/png.h	/^typedef png_row_info FAR * png_row_infop;$/;"	t
+png_row_infopp	/usr/include/png.h	/^typedef png_row_info FAR * FAR * png_row_infopp;$/;"	t
+png_sPLT_entry	/usr/include/png.h	/^} png_sPLT_entry;$/;"	t	typeref:struct:png_sPLT_entry_struct
+png_sPLT_entry_struct	/usr/include/png.h	/^typedef struct png_sPLT_entry_struct$/;"	s
+png_sPLT_entry_struct::alpha	/usr/include/png.h	/^   png_uint_16 alpha;$/;"	m	struct:png_sPLT_entry_struct	access:public
+png_sPLT_entry_struct::blue	/usr/include/png.h	/^   png_uint_16 blue;$/;"	m	struct:png_sPLT_entry_struct	access:public
+png_sPLT_entry_struct::frequency	/usr/include/png.h	/^   png_uint_16 frequency;$/;"	m	struct:png_sPLT_entry_struct	access:public
+png_sPLT_entry_struct::green	/usr/include/png.h	/^   png_uint_16 green;$/;"	m	struct:png_sPLT_entry_struct	access:public
+png_sPLT_entry_struct::red	/usr/include/png.h	/^   png_uint_16 red;$/;"	m	struct:png_sPLT_entry_struct	access:public
+png_sPLT_entryp	/usr/include/png.h	/^typedef png_sPLT_entry FAR * png_sPLT_entryp;$/;"	t
+png_sPLT_entrypp	/usr/include/png.h	/^typedef png_sPLT_entry FAR * FAR * png_sPLT_entrypp;$/;"	t
+png_sPLT_struct	/usr/include/png.h	/^typedef struct png_sPLT_struct$/;"	s
+png_sPLT_struct::depth	/usr/include/png.h	/^   png_byte depth;           \/* depth of palette samples *\/$/;"	m	struct:png_sPLT_struct	access:public
+png_sPLT_struct::entries	/usr/include/png.h	/^   png_sPLT_entryp entries;  \/* palette entries *\/$/;"	m	struct:png_sPLT_struct	access:public
+png_sPLT_struct::name	/usr/include/png.h	/^   png_charp name;           \/* palette name *\/$/;"	m	struct:png_sPLT_struct	access:public
+png_sPLT_struct::nentries	/usr/include/png.h	/^   png_int_32 nentries;      \/* number of palette entries *\/$/;"	m	struct:png_sPLT_struct	access:public
+png_sPLT_t	/usr/include/png.h	/^} png_sPLT_t;$/;"	t	typeref:struct:png_sPLT_struct
+png_sPLT_tp	/usr/include/png.h	/^typedef png_sPLT_t FAR * png_sPLT_tp;$/;"	t
+png_sPLT_tpp	/usr/include/png.h	/^typedef png_sPLT_t FAR * FAR * png_sPLT_tpp;$/;"	t
+png_struct	/usr/include/png.h	/^typedef struct png_struct_def png_struct;$/;"	t	typeref:struct:png_struct_def
+png_structp	/usr/include/png.h	/^typedef png_struct FAR * png_structp;$/;"	t
+png_structpp	/usr/include/png.h	/^typedef png_struct FAR * FAR * png_structpp;$/;"	t
+png_text	/usr/include/png.h	/^} png_text;$/;"	t	typeref:struct:png_text_struct
+png_text_struct	/usr/include/png.h	/^typedef struct png_text_struct$/;"	s
+png_text_struct::compression	/usr/include/png.h	/^   int  compression;       \/* compression value:$/;"	m	struct:png_text_struct	access:public
+png_text_struct::itxt_length	/usr/include/png.h	/^   png_size_t itxt_length; \/* length of the itxt string *\/$/;"	m	struct:png_text_struct	access:public
+png_text_struct::key	/usr/include/png.h	/^   png_charp key;          \/* keyword, 1-79 character description of "text" *\/$/;"	m	struct:png_text_struct	access:public
+png_text_struct::lang	/usr/include/png.h	/^   png_charp lang;         \/* language code, 0-79 characters$/;"	m	struct:png_text_struct	access:public
+png_text_struct::lang_key	/usr/include/png.h	/^   png_charp lang_key;     \/* keyword translated UTF-8 string, 0 or more$/;"	m	struct:png_text_struct	access:public
+png_text_struct::text	/usr/include/png.h	/^   png_charp text;         \/* comment, may be an empty string (ie "")$/;"	m	struct:png_text_struct	access:public
+png_text_struct::text_length	/usr/include/png.h	/^   png_size_t text_length; \/* length of the text string *\/$/;"	m	struct:png_text_struct	access:public
+png_textp	/usr/include/png.h	/^typedef png_text FAR * png_textp;$/;"	t
+png_textpp	/usr/include/png.h	/^typedef png_text FAR * FAR * png_textpp;$/;"	t
+png_time	/usr/include/png.h	/^} png_time;$/;"	t	typeref:struct:png_time_struct
+png_time_struct	/usr/include/png.h	/^typedef struct png_time_struct$/;"	s
+png_time_struct::day	/usr/include/png.h	/^   png_byte day;     \/* day of month, 1 - 31 *\/$/;"	m	struct:png_time_struct	access:public
+png_time_struct::hour	/usr/include/png.h	/^   png_byte hour;    \/* hour of day, 0 - 23 *\/$/;"	m	struct:png_time_struct	access:public
+png_time_struct::minute	/usr/include/png.h	/^   png_byte minute;  \/* minute of hour, 0 - 59 *\/$/;"	m	struct:png_time_struct	access:public
+png_time_struct::month	/usr/include/png.h	/^   png_byte month;   \/* month of year, 1 - 12 *\/$/;"	m	struct:png_time_struct	access:public
+png_time_struct::second	/usr/include/png.h	/^   png_byte second;  \/* second of minute, 0 - 60 (for leap seconds) *\/$/;"	m	struct:png_time_struct	access:public
+png_time_struct::year	/usr/include/png.h	/^   png_uint_16 year; \/* full year, as in, 1995 *\/$/;"	m	struct:png_time_struct	access:public
+png_timep	/usr/include/png.h	/^typedef png_time FAR * png_timep;$/;"	t
+png_timepp	/usr/include/png.h	/^typedef png_time FAR * FAR * png_timepp;$/;"	t
+png_unknown_chunk	/usr/include/png.h	/^png_unknown_chunk;$/;"	t	typeref:struct:png_unknown_chunk_t
+png_unknown_chunk_t	/usr/include/png.h	/^typedef struct png_unknown_chunk_t$/;"	s
+png_unknown_chunk_t::data	/usr/include/png.h	/^    png_byte *data;$/;"	m	struct:png_unknown_chunk_t	access:public
+png_unknown_chunk_t::location	/usr/include/png.h	/^    png_byte location; \/* mode of operation at read time *\/$/;"	m	struct:png_unknown_chunk_t	access:public
+png_unknown_chunk_t::name	/usr/include/png.h	/^    png_byte name[5];$/;"	m	struct:png_unknown_chunk_t	access:public
+png_unknown_chunk_t::size	/usr/include/png.h	/^    png_size_t size;$/;"	m	struct:png_unknown_chunk_t	access:public
+png_unknown_chunkp	/usr/include/png.h	/^typedef png_unknown_chunk FAR * png_unknown_chunkp;$/;"	t
+png_unknown_chunkpp	/usr/include/png.h	/^typedef png_unknown_chunk FAR * FAR * png_unknown_chunkpp;$/;"	t
+red	/usr/include/png.h	/^   png_byte red;   \/* for use in red green blue files *\/$/;"	m	struct:png_color_8_struct	access:public
+red	/usr/include/png.h	/^   png_byte red;$/;"	m	struct:png_color_struct	access:public
+red	/usr/include/png.h	/^   png_uint_16 red;   \/* for use in red green blue files *\/$/;"	m	struct:png_color_16_struct	access:public
+red	/usr/include/png.h	/^   png_uint_16 red;$/;"	m	struct:png_sPLT_entry_struct	access:public
+rowbytes	/usr/include/png.h	/^   png_size_t rowbytes;  \/* number of bytes in row *\/$/;"	m	struct:png_row_info_struct	access:public
+second	/usr/include/png.h	/^   png_byte second;  \/* second of minute, 0 - 60 (for leap seconds) *\/$/;"	m	struct:png_time_struct	access:public
+size	/usr/include/png.h	/^    png_size_t size;$/;"	m	struct:png_unknown_chunk_t	access:public
+text	/usr/include/png.h	/^   png_charp text;         \/* comment, may be an empty string (ie "")$/;"	m	struct:png_text_struct	access:public
+text_length	/usr/include/png.h	/^   png_size_t text_length; \/* length of the text string *\/$/;"	m	struct:png_text_struct	access:public
+width	/usr/include/png.h	/^   png_uint_32 width;    \/* width of row *\/$/;"	m	struct:png_row_info_struct	access:public
+year	/usr/include/png.h	/^   png_uint_16 year; \/* full year, as in, 1995 *\/$/;"	m	struct:png_time_struct	access:public

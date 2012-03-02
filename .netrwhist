@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/etc/adobe'
+let g:netrw_dirhist_2='/etc/runlevels'
+let g:netrw_dirhist_3='/mnt/usb/linux/tutorials/Lynda.com/Lynda.com.Blender.Essential.Training.DVD9-iNKiSO'
+let g:netrw_dirhist_4='/home/asido/Downloads/js'
+let g:netrw_dirhist_5='/home/asido/.emacs.d'
+let g:netrw_dirhist_6='/mnt/usb/windows/cdkeys'
+let g:netrw_dirhist_7='/usr/share/awesome/lib/vicious'
+let g:netrw_dirhist_8='/home/asido/src/axidos-test/kernel32'
+let g:netrw_dirhist_9='/etc/syslog-ng'

@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FNM_CASEFOLD	/usr/include/fnmatch.h	48;"	d
+FNM_EXTMATCH	/usr/include/fnmatch.h	49;"	d
+FNM_FILE_NAME	/usr/include/fnmatch.h	46;"	d
+FNM_LEADING_DIR	/usr/include/fnmatch.h	47;"	d
+FNM_NOESCAPE	/usr/include/fnmatch.h	37;"	d
+FNM_NOESCAPE	/usr/include/fnmatch.h	42;"	d
+FNM_NOMATCH	/usr/include/fnmatch.h	53;"	d
+FNM_NOSYS	/usr/include/fnmatch.h	60;"	d
+FNM_PATHNAME	/usr/include/fnmatch.h	36;"	d
+FNM_PATHNAME	/usr/include/fnmatch.h	41;"	d
+FNM_PERIOD	/usr/include/fnmatch.h	38;"	d
+FNM_PERIOD	/usr/include/fnmatch.h	43;"	d
+_FNMATCH_H	/usr/include/fnmatch.h	20;"	d
+__const	/usr/include/fnmatch.h	28;"	d
+__const	/usr/include/fnmatch.h	30;"	d
+fnmatch	/usr/include/fnmatch.h	/^extern int fnmatch (__const char *__pattern, __const char *__name,$/;"	p	signature:(__const char *__pattern, __const char *__name, int __flags)

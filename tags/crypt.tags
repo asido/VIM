@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+_CRYPT_H	/usr/include/crypt.h	26;"	d
+__THROW	/usr/include/crypt.h	/^     __THROW __nonnull ((1, 2));$/;"	p	signature:(1, 2)
+__THROW	/usr/include/crypt.h	/^     __THROW __nonnull ((1, 2, 3));$/;"	p	signature:(1, 2, 3)
+__THROW	/usr/include/crypt.h	/^     __THROW __nonnull ((1, 3));$/;"	p	signature:(1, 3)
+__THROW	/usr/include/crypt.h	/^extern void encrypt (char *__block, int __edflag) __THROW __nonnull ((1));$/;"	p	signature:(1)
+__THROW	/usr/include/crypt.h	/^extern void setkey (__const char *__key) __THROW __nonnull ((1));$/;"	p	signature:(1)
+crypt_3_buf	/usr/include/crypt.h	/^    char crypt_3_buf[14];$/;"	m	struct:crypt_data	access:public
+crypt_data	/usr/include/crypt.h	/^struct crypt_data$/;"	s
+crypt_data::crypt_3_buf	/usr/include/crypt.h	/^    char crypt_3_buf[14];$/;"	m	struct:crypt_data	access:public
+crypt_data::current_salt	/usr/include/crypt.h	/^    char current_salt[2];$/;"	m	struct:crypt_data	access:public
+crypt_data::current_saltbits	/usr/include/crypt.h	/^    long int current_saltbits;$/;"	m	struct:crypt_data	access:public
+crypt_data::direction	/usr/include/crypt.h	/^    int  direction, initialized;$/;"	m	struct:crypt_data	access:public
+crypt_data::initialized	/usr/include/crypt.h	/^    int  direction, initialized;$/;"	m	struct:crypt_data	access:public
+crypt_data::keysched	/usr/include/crypt.h	/^    char keysched[16 * 8];$/;"	m	struct:crypt_data	access:public
+crypt_data::sb0	/usr/include/crypt.h	/^    char sb0[32768];$/;"	m	struct:crypt_data	access:public
+crypt_data::sb1	/usr/include/crypt.h	/^    char sb1[32768];$/;"	m	struct:crypt_data	access:public
+crypt_data::sb2	/usr/include/crypt.h	/^    char sb2[32768];$/;"	m	struct:crypt_data	access:public
+crypt_data::sb3	/usr/include/crypt.h	/^    char sb3[32768];$/;"	m	struct:crypt_data	access:public
+current_salt	/usr/include/crypt.h	/^    char current_salt[2];$/;"	m	struct:crypt_data	access:public
+current_saltbits	/usr/include/crypt.h	/^    long int current_saltbits;$/;"	m	struct:crypt_data	access:public
+direction	/usr/include/crypt.h	/^    int  direction, initialized;$/;"	m	struct:crypt_data	access:public
+initialized	/usr/include/crypt.h	/^    int  direction, initialized;$/;"	m	struct:crypt_data	access:public
+keysched	/usr/include/crypt.h	/^    char keysched[16 * 8];$/;"	m	struct:crypt_data	access:public
+sb0	/usr/include/crypt.h	/^    char sb0[32768];$/;"	m	struct:crypt_data	access:public
+sb1	/usr/include/crypt.h	/^    char sb1[32768];$/;"	m	struct:crypt_data	access:public
+sb2	/usr/include/crypt.h	/^    char sb2[32768];$/;"	m	struct:crypt_data	access:public
+sb3	/usr/include/crypt.h	/^    char sb3[32768];$/;"	m	struct:crypt_data	access:public

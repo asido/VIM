@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+IDNAPI	/usr/include/idna.h	35;"	d
+IDNAPI	/usr/include/idna.h	37;"	d
+IDNAPI	/usr/include/idna.h	39;"	d
+IDNAPI	/usr/include/idna.h	41;"	d
+IDNA_ACE_PREFIX	/usr/include/idna.h	81;"	d
+IDNA_ALLOW_UNASSIGNED	/usr/include/idna.h	/^    IDNA_ALLOW_UNASSIGNED = 0x0001,$/;"	e	enum:__anon2
+IDNA_CONTAINS_ACE_PREFIX	/usr/include/idna.h	/^    IDNA_CONTAINS_ACE_PREFIX = 8,$/;"	e	enum:__anon1
+IDNA_CONTAINS_LDH	/usr/include/idna.h	/^    IDNA_CONTAINS_LDH = IDNA_CONTAINS_NON_LDH,$/;"	e	enum:__anon1
+IDNA_CONTAINS_MINUS	/usr/include/idna.h	/^    IDNA_CONTAINS_MINUS = 4,$/;"	e	enum:__anon1
+IDNA_CONTAINS_NON_LDH	/usr/include/idna.h	/^    IDNA_CONTAINS_NON_LDH = 3,$/;"	e	enum:__anon1
+IDNA_DLOPEN_ERROR	/usr/include/idna.h	/^    IDNA_DLOPEN_ERROR = 202$/;"	e	enum:__anon1
+IDNA_H	/usr/include/idna.h	31;"	d
+IDNA_ICONV_ERROR	/usr/include/idna.h	/^    IDNA_ICONV_ERROR = 9,$/;"	e	enum:__anon1
+IDNA_INVALID_LENGTH	/usr/include/idna.h	/^    IDNA_INVALID_LENGTH = 5,$/;"	e	enum:__anon1
+IDNA_MALLOC_ERROR	/usr/include/idna.h	/^    IDNA_MALLOC_ERROR = 201,$/;"	e	enum:__anon1
+IDNA_NO_ACE_PREFIX	/usr/include/idna.h	/^    IDNA_NO_ACE_PREFIX = 6,$/;"	e	enum:__anon1
+IDNA_PUNYCODE_ERROR	/usr/include/idna.h	/^    IDNA_PUNYCODE_ERROR = 2,$/;"	e	enum:__anon1
+IDNA_ROUNDTRIP_VERIFY_ERROR	/usr/include/idna.h	/^    IDNA_ROUNDTRIP_VERIFY_ERROR = 7,$/;"	e	enum:__anon1
+IDNA_STRINGPREP_ERROR	/usr/include/idna.h	/^    IDNA_STRINGPREP_ERROR = 1,$/;"	e	enum:__anon1
+IDNA_SUCCESS	/usr/include/idna.h	/^    IDNA_SUCCESS = 0,$/;"	e	enum:__anon1
+IDNA_USE_STD3_ASCII_RULES	/usr/include/idna.h	/^    IDNA_USE_STD3_ASCII_RULES = 0x0002$/;"	e	enum:__anon2
+Idna_flags	/usr/include/idna.h	/^  } Idna_flags;$/;"	t	typeref:enum:__anon2
+Idna_rc	/usr/include/idna.h	/^  } Idna_rc;$/;"	t	typeref:enum:__anon1
+idna_strerror	/usr/include/idna.h	/^  extern IDNAPI const char *idna_strerror (Idna_rc rc);$/;"	p	signature:(Idna_rc rc)
+idna_to_ascii_4i	/usr/include/idna.h	/^  extern IDNAPI int idna_to_ascii_4i (const uint32_t * in, size_t inlen,$/;"	p	signature:(const uint32_t * in, size_t inlen, char *out, int flags)
+idna_to_ascii_4z	/usr/include/idna.h	/^  extern IDNAPI int idna_to_ascii_4z (const uint32_t * input,$/;"	p	signature:(const uint32_t * input, char **output, int flags)
+idna_to_ascii_8z	/usr/include/idna.h	/^  extern IDNAPI int idna_to_ascii_8z (const char *input, char **output,$/;"	p	signature:(const char *input, char **output, int flags)
+idna_to_ascii_lz	/usr/include/idna.h	/^  extern IDNAPI int idna_to_ascii_lz (const char *input, char **output,$/;"	p	signature:(const char *input, char **output, int flags)
+idna_to_unicode_44i	/usr/include/idna.h	/^  extern IDNAPI int idna_to_unicode_44i (const uint32_t * in, size_t inlen,$/;"	p	signature:(const uint32_t * in, size_t inlen, uint32_t * out, size_t * outlen, int flags)
+idna_to_unicode_4z4z	/usr/include/idna.h	/^  extern IDNAPI int idna_to_unicode_4z4z (const uint32_t * input,$/;"	p	signature:(const uint32_t * input, uint32_t ** output, int flags)
+idna_to_unicode_8z4z	/usr/include/idna.h	/^  extern IDNAPI int idna_to_unicode_8z4z (const char *input,$/;"	p	signature:(const char *input, uint32_t ** output, int flags)
+idna_to_unicode_8z8z	/usr/include/idna.h	/^  extern IDNAPI int idna_to_unicode_8z8z (const char *input,$/;"	p	signature:(const char *input, char **output, int flags)
+idna_to_unicode_8zlz	/usr/include/idna.h	/^  extern IDNAPI int idna_to_unicode_8zlz (const char *input,$/;"	p	signature:(const char *input, char **output, int flags)
+idna_to_unicode_lzlz	/usr/include/idna.h	/^  extern IDNAPI int idna_to_unicode_lzlz (const char *input,$/;"	p	signature:(const char *input, char **output, int flags)

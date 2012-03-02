@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+_STRINGS_H	/usr/include/strings.h	21;"	d
+__CORRECT_ISO_CPP_STRINGS_H_PROTO	/usr/include/strings.h	34;"	d
+__attribute_pure__	/usr/include/strings.h	/^     __THROW __asm ("index") __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	/usr/include/strings.h	/^     __THROW __asm ("rindex") __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	/usr/include/strings.h	/^     __THROW __attribute_pure__ __nonnull ((1));$/;"	p	signature:(1)
+__attribute_pure__	/usr/include/strings.h	/^     __THROW __attribute_pure__ __nonnull ((1, 2, 3));$/;"	p	signature:(1, 2, 3)
+__attribute_pure__	/usr/include/strings.h	/^     __THROW __attribute_pure__ __nonnull ((1, 2, 4));$/;"	p	signature:(1, 2, 4)
+__attribute_pure__	/usr/include/strings.h	/^     __THROW __attribute_pure__;$/;"	v
+__need_size_t	/usr/include/strings.h	29;"	d

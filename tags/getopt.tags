@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+_GETOPT_H	/usr/include/getopt.h	24;"	d
+__GNUC_PREREQ	/usr/include/getopt.h	40;"	d
+__REDIRECT_NTH	/usr/include/getopt.h	/^  extern int __REDIRECT_NTH (getopt, (int ___argc, char *const *___argv,$/;"	p	signature:(getopt, (int ___argc, char *const *___argv, const char *__shortopts), __posix_getopt)
+__THROW	/usr/include/getopt.h	43;"	d
+__THROW	/usr/include/getopt.h	45;"	d
+__need_getopt	/usr/include/getopt.h	191;"	d
+flag	/usr/include/getopt.h	/^  int *flag;$/;"	m	struct:option	access:public
+getopt	/usr/include/getopt.h	/^extern int getopt ();$/;"	p	signature:()
+getopt	/usr/include/getopt.h	167;"	d
+has_arg	/usr/include/getopt.h	/^  int has_arg;$/;"	m	struct:option	access:public
+name	/usr/include/getopt.h	/^  const char *name;$/;"	m	struct:option	access:public
+no_argument	/usr/include/getopt.h	118;"	d
+option	/usr/include/getopt.h	/^struct option$/;"	s
+option::flag	/usr/include/getopt.h	/^  int *flag;$/;"	m	struct:option	access:public
+option::has_arg	/usr/include/getopt.h	/^  int has_arg;$/;"	m	struct:option	access:public
+option::name	/usr/include/getopt.h	/^  const char *name;$/;"	m	struct:option	access:public
+option::val	/usr/include/getopt.h	/^  int val;$/;"	m	struct:option	access:public
+optional_argument	/usr/include/getopt.h	120;"	d
+required_argument	/usr/include/getopt.h	119;"	d
+val	/usr/include/getopt.h	/^  int val;$/;"	m	struct:option	access:public

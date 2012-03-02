@@ -1,0 +1,85 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+WCHAR_MAX	/usr/include/wchar.h	115;"	d
+WCHAR_MIN	/usr/include/wchar.h	114;"	d
+WEOF	/usr/include/wchar.h	119;"	d
+_WCHAR_H	/usr/include/wchar.h	27;"	d
+_WINT_T	/usr/include/wchar.h	61;"	d
+__CORRECT_ISO_CPP_WCHAR_H_PROTO	/usr/include/wchar.h	76;"	d
+__REDIRECT	/usr/include/wchar.h	/^extern int __REDIRECT (fwscanf, (__FILE *__restrict __stream,$/;"	p	signature:(fwscanf, (__FILE *__restrict __stream, __const wchar_t *__restrict __format, ...), __isoc99_fwscanf)
+__REDIRECT	/usr/include/wchar.h	/^extern int __REDIRECT (vfwscanf, (__FILE *__restrict __s,$/;"	p	signature:(vfwscanf, (__FILE *__restrict __s, __const wchar_t *__restrict __format, __gnuc_va_list __arg), __isoc99_vfwscanf)
+__REDIRECT	/usr/include/wchar.h	/^extern int __REDIRECT (vwscanf, (__const wchar_t *__restrict __format,$/;"	p	signature:(vwscanf, (__const wchar_t *__restrict __format, __gnuc_va_list __arg), __isoc99_vwscanf)
+__REDIRECT	/usr/include/wchar.h	/^extern int __REDIRECT (wscanf, (__const wchar_t *__restrict __format, ...),$/;"	p	signature:(wscanf, (__const wchar_t *__restrict __format, ...), __isoc99_wscanf)
+__REDIRECT_NTH	/usr/include/wchar.h	/^extern int __REDIRECT_NTH (swscanf, (__const wchar_t *__restrict __s,$/;"	p	signature:(swscanf, (__const wchar_t *__restrict __s, __const wchar_t *__restrict __format, ...), __isoc99_swscanf)
+__REDIRECT_NTH	/usr/include/wchar.h	/^extern int __REDIRECT_NTH (vswscanf, (__const wchar_t *__restrict __s,$/;"	p	signature:(vswscanf, (__const wchar_t *__restrict __s, __const wchar_t *__restrict __format, __gnuc_va_list __arg), __isoc99_vswscanf)
+__anon1::__anon2::__wch	/usr/include/wchar.h	/^    __WINT_TYPE__ __wch;$/;"	m	union:__anon1::__anon2	access:public
+__anon1::__anon2::__wchb	/usr/include/wchar.h	/^    char __wchb[4];$/;"	m	union:__anon1::__anon2	access:public
+__anon1::__count	/usr/include/wchar.h	/^  int __count;$/;"	m	struct:__anon1	access:public
+__anon1::__value	/usr/include/wchar.h	/^  } __value;		\/* Value so far.  *\/$/;"	m	struct:__anon1	typeref:union:__anon1::__anon2	access:public
+__attribute_malloc__	/usr/include/wchar.h	/^extern wchar_t *wcsdup (__const wchar_t *__s) __THROW __attribute_malloc__;$/;"	v
+__attribute_pure__	/usr/include/wchar.h	/^     __THROW __attribute_pure__;$/;"	v
+__attribute_pure__	/usr/include/wchar.h	/^extern int mbsinit (__const mbstate_t *__ps) __THROW __attribute_pure__;$/;"	v
+__attribute_pure__	/usr/include/wchar.h	/^extern size_t wcslen (__const wchar_t *__s) __THROW __attribute_pure__;$/;"	v
+__count	/usr/include/wchar.h	/^  int __count;$/;"	m	struct:__anon1	access:public
+__isoc99_fwscanf	/usr/include/wchar.h	/^extern int __isoc99_fwscanf (__FILE *__restrict __stream,$/;"	p	signature:(__FILE *__restrict __stream, __const wchar_t *__restrict __format, ...)
+__isoc99_vfwscanf	/usr/include/wchar.h	/^extern int __isoc99_vfwscanf (__FILE *__restrict __s,$/;"	p	signature:(__FILE *__restrict __s, __const wchar_t *__restrict __format, __gnuc_va_list __arg)
+__isoc99_vwscanf	/usr/include/wchar.h	/^extern int __isoc99_vwscanf (__const wchar_t *__restrict __format,$/;"	p	signature:(__const wchar_t *__restrict __format, __gnuc_va_list __arg)
+__isoc99_wscanf	/usr/include/wchar.h	/^extern int __isoc99_wscanf (__const wchar_t *__restrict __format, ...);$/;"	p	signature:(__const wchar_t *__restrict __format, ...)
+__mbstate_t	/usr/include/wchar.h	/^} __mbstate_t;$/;"	t	typeref:struct:__anon1
+__mbstate_t_defined	/usr/include/wchar.h	81;"	d
+__need_FILE	/usr/include/wchar.h	35;"	d
+__need_NULL	/usr/include/wchar.h	47;"	d
+__need___FILE	/usr/include/wchar.h	33;"	d
+__need___va_list	/usr/include/wchar.h	39;"	d
+__need_iswxxx	/usr/include/wchar.h	875;"	d
+__need_mbstate_t	/usr/include/wchar.h	896;"	d
+__need_mbstate_t	/usr/include/wchar.h	97;"	d
+__need_size_t	/usr/include/wchar.h	45;"	d
+__need_wchar_t	/usr/include/wchar.h	46;"	d
+__need_wint_t	/usr/include/wchar.h	50;"	d
+__need_wint_t	/usr/include/wchar.h	51;"	d
+__need_wint_t	/usr/include/wchar.h	897;"	d
+__value	/usr/include/wchar.h	/^  } __value;		\/* Value so far.  *\/$/;"	m	struct:__anon1	typeref:union:__anon1::__anon2	access:public
+__wch	/usr/include/wchar.h	/^    __WINT_TYPE__ __wch;$/;"	m	union:__anon1::__anon2	access:public
+__wchb	/usr/include/wchar.h	/^    char __wchb[4];$/;"	m	union:__anon1::__anon2	access:public
+btowc	/usr/include/wchar.h	/^__NTH (btowc (int __c))$/;"	f	signature:(int __c)
+fgetwc	/usr/include/wchar.h	/^extern wint_t fgetwc (__FILE *__stream);$/;"	p	signature:(__FILE *__stream)
+fgetwc_unlocked	/usr/include/wchar.h	/^extern wint_t fgetwc_unlocked (__FILE *__stream);$/;"	p	signature:(__FILE *__stream)
+fgetws	/usr/include/wchar.h	/^extern wchar_t *fgetws (wchar_t *__restrict __ws, int __n,$/;"	p	signature:(wchar_t *__restrict __ws, int __n, __FILE *__restrict __stream)
+fgetws_unlocked	/usr/include/wchar.h	/^extern wchar_t *fgetws_unlocked (wchar_t *__restrict __ws, int __n,$/;"	p	signature:(wchar_t *__restrict __ws, int __n, __FILE *__restrict __stream)
+fputwc	/usr/include/wchar.h	/^extern wint_t fputwc (wchar_t __wc, __FILE *__stream);$/;"	p	signature:(wchar_t __wc, __FILE *__stream)
+fputwc_unlocked	/usr/include/wchar.h	/^extern wint_t fputwc_unlocked (wchar_t __wc, __FILE *__stream);$/;"	p	signature:(wchar_t __wc, __FILE *__stream)
+fputws	/usr/include/wchar.h	/^extern int fputws (__const wchar_t *__restrict __ws,$/;"	p	signature:(__const wchar_t *__restrict __ws, __FILE *__restrict __stream)
+fputws_unlocked	/usr/include/wchar.h	/^extern int fputws_unlocked (__const wchar_t *__restrict __ws,$/;"	p	signature:(__const wchar_t *__restrict __ws, __FILE *__restrict __stream)
+fwprintf	/usr/include/wchar.h	/^extern int fwprintf (__FILE *__restrict __stream,$/;"	p	signature:(__FILE *__restrict __stream, __const wchar_t *__restrict __format, ...)
+fwscanf	/usr/include/wchar.h	/^extern int fwscanf (__FILE *__restrict __stream,$/;"	p	signature:(__FILE *__restrict __stream, __const wchar_t *__restrict __format, ...)
+fwscanf	/usr/include/wchar.h	671;"	d
+getwc	/usr/include/wchar.h	/^extern wint_t getwc (__FILE *__stream);$/;"	p	signature:(__FILE *__stream)
+getwc_unlocked	/usr/include/wchar.h	/^extern wint_t getwc_unlocked (__FILE *__stream);$/;"	p	signature:(__FILE *__stream)
+getwchar	/usr/include/wchar.h	/^extern wint_t getwchar (void);$/;"	p	signature:(void)
+getwchar_unlocked	/usr/include/wchar.h	/^extern wint_t getwchar_unlocked (void);$/;"	p	signature:(void)
+mbrlen	/usr/include/wchar.h	/^__NTH (mbrlen (__const char *__restrict __s, size_t __n,$/;"	f	signature:(__const char *__restrict __s, size_t __n, mbstate_t *__restrict __ps)
+mbstate_t	/usr/include/wchar.h	/^typedef __mbstate_t mbstate_t;$/;"	t
+putwc	/usr/include/wchar.h	/^extern wint_t putwc (wchar_t __wc, __FILE *__stream);$/;"	p	signature:(wchar_t __wc, __FILE *__stream)
+putwc_unlocked	/usr/include/wchar.h	/^extern wint_t putwc_unlocked (wchar_t __wc, __FILE *__stream);$/;"	p	signature:(wchar_t __wc, __FILE *__stream)
+putwchar	/usr/include/wchar.h	/^extern wint_t putwchar (wchar_t __wc);$/;"	p	signature:(wchar_t __wc)
+putwchar_unlocked	/usr/include/wchar.h	/^extern wint_t putwchar_unlocked (wchar_t __wc);$/;"	p	signature:(wchar_t __wc)
+swscanf	/usr/include/wchar.h	673;"	d
+ungetwc	/usr/include/wchar.h	/^extern wint_t ungetwc (wint_t __wc, __FILE *__stream);$/;"	p	signature:(wint_t __wc, __FILE *__stream)
+vfwprintf	/usr/include/wchar.h	/^extern int vfwprintf (__FILE *__restrict __s,$/;"	p	signature:(__FILE *__restrict __s, __const wchar_t *__restrict __format, __gnuc_va_list __arg)
+vfwscanf	/usr/include/wchar.h	/^extern int vfwscanf (__FILE *__restrict __s,$/;"	p	signature:(__FILE *__restrict __s, __const wchar_t *__restrict __format, __gnuc_va_list __arg)
+vfwscanf	/usr/include/wchar.h	727;"	d
+vswscanf	/usr/include/wchar.h	729;"	d
+vwprintf	/usr/include/wchar.h	/^extern int vwprintf (__const wchar_t *__restrict __format,$/;"	p	signature:(__const wchar_t *__restrict __format, __gnuc_va_list __arg)
+vwscanf	/usr/include/wchar.h	/^extern int vwscanf (__const wchar_t *__restrict __format,$/;"	p	signature:(__const wchar_t *__restrict __format, __gnuc_va_list __arg)
+vwscanf	/usr/include/wchar.h	728;"	d
+wctob	/usr/include/wchar.h	/^__NTH (wctob (wint_t __wc))$/;"	f	signature:(wint_t __wc)
+wint_t	/usr/include/wchar.h	/^typedef __WINT_TYPE__ wint_t;$/;"	t
+wint_t	/usr/include/wchar.h	/^typedef unsigned int wint_t;$/;"	t
+wprintf	/usr/include/wchar.h	/^extern int wprintf (__const wchar_t *__restrict __format, ...)$/;"	p	signature:(__const wchar_t *__restrict __format, ...)
+wscanf	/usr/include/wchar.h	/^extern int wscanf (__const wchar_t *__restrict __format, ...)$/;"	p	signature:(__const wchar_t *__restrict __format, ...)
+wscanf	/usr/include/wchar.h	672;"	d

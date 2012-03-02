@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+IFA_PAYLOAD	/usr/include/libnetlink.h	87;"	d
+IFA_RTA	/usr/include/libnetlink.h	83;"	d
+IFLA_PAYLOAD	/usr/include/libnetlink.h	95;"	d
+IFLA_RTA	/usr/include/libnetlink.h	91;"	d
+NDA_PAYLOAD	/usr/include/libnetlink.h	103;"	d
+NDA_RTA	/usr/include/libnetlink.h	99;"	d
+NDTA_PAYLOAD	/usr/include/libnetlink.h	111;"	d
+NDTA_RTA	/usr/include/libnetlink.h	107;"	d
+NLMSG_TAIL	/usr/include/libnetlink.h	79;"	d
+__LIBNETLINK_H__	/usr/include/libnetlink.h	2;"	d
+__parse_rtattr_nested_compat	/usr/include/libnetlink.h	/^extern int __parse_rtattr_nested_compat(struct rtattr *tb[], int max, struct rtattr *rta, int len);$/;"	p	signature:(struct rtattr *tb[], int max, struct rtattr *rta, int len)
+addattr32	/usr/include/libnetlink.h	/^extern int addattr32(struct nlmsghdr *n, int maxlen, int type, __u32 data);$/;"	p	signature:(struct nlmsghdr *n, int maxlen, int type, __u32 data)
+addattr_l	/usr/include/libnetlink.h	/^extern int addattr_l(struct nlmsghdr *n, int maxlen, int type, const void *data, int alen);$/;"	p	signature:(struct nlmsghdr *n, int maxlen, int type, const void *data, int alen)
+addattr_nest	/usr/include/libnetlink.h	/^extern struct rtattr *addattr_nest(struct nlmsghdr *n, int maxlen, int type);$/;"	p	signature:(struct nlmsghdr *n, int maxlen, int type)
+addattr_nest_compat	/usr/include/libnetlink.h	/^extern struct rtattr *addattr_nest_compat(struct nlmsghdr *n, int maxlen, int type, const void *data, int len);$/;"	p	signature:(struct nlmsghdr *n, int maxlen, int type, const void *data, int len)
+addattr_nest_compat_end	/usr/include/libnetlink.h	/^extern int addattr_nest_compat_end(struct nlmsghdr *n, struct rtattr *nest);$/;"	p	signature:(struct nlmsghdr *n, struct rtattr *nest)
+addattr_nest_end	/usr/include/libnetlink.h	/^extern int addattr_nest_end(struct nlmsghdr *n, struct rtattr *nest);$/;"	p	signature:(struct nlmsghdr *n, struct rtattr *nest)
+addraw_l	/usr/include/libnetlink.h	/^extern int addraw_l(struct nlmsghdr *n, int maxlen, const void *data, int len);$/;"	p	signature:(struct nlmsghdr *n, int maxlen, const void *data, int len)
+arg1	/usr/include/libnetlink.h	/^	void *arg1;$/;"	m	struct:rtnl_dump_filter_arg	access:public
+arg2	/usr/include/libnetlink.h	/^	void *arg2;$/;"	m	struct:rtnl_dump_filter_arg	access:public
+dump	/usr/include/libnetlink.h	/^	__u32			dump;$/;"	m	struct:rtnl_handle	access:public
+fd	/usr/include/libnetlink.h	/^	int			fd;$/;"	m	struct:rtnl_handle	access:public
+filter	/usr/include/libnetlink.h	/^	rtnl_filter_t filter;$/;"	m	struct:rtnl_dump_filter_arg	access:public
+junk	/usr/include/libnetlink.h	/^	rtnl_filter_t junk;$/;"	m	struct:rtnl_dump_filter_arg	access:public
+local	/usr/include/libnetlink.h	/^	struct sockaddr_nl	local;$/;"	m	struct:rtnl_handle	typeref:struct:rtnl_handle::sockaddr_nl	access:public
+parse_rtattr	/usr/include/libnetlink.h	/^extern int parse_rtattr(struct rtattr *tb[], int max, struct rtattr *rta, int len);$/;"	p	signature:(struct rtattr *tb[], int max, struct rtattr *rta, int len)
+parse_rtattr_byindex	/usr/include/libnetlink.h	/^extern int parse_rtattr_byindex(struct rtattr *tb[], int max, struct rtattr *rta, int len);$/;"	p	signature:(struct rtattr *tb[], int max, struct rtattr *rta, int len)
+parse_rtattr_nested	/usr/include/libnetlink.h	67;"	d
+parse_rtattr_nested_compat	/usr/include/libnetlink.h	70;"	d
+peer	/usr/include/libnetlink.h	/^	struct sockaddr_nl	peer;$/;"	m	struct:rtnl_handle	typeref:struct:rtnl_handle::sockaddr_nl	access:public
+rta_addattr32	/usr/include/libnetlink.h	/^extern int rta_addattr32(struct rtattr *rta, int maxlen, int type, __u32 data);$/;"	p	signature:(struct rtattr *rta, int maxlen, int type, __u32 data)
+rta_addattr_l	/usr/include/libnetlink.h	/^extern int rta_addattr_l(struct rtattr *rta, int maxlen, int type, const void *data, int alen);$/;"	p	signature:(struct rtattr *rta, int maxlen, int type, const void *data, int alen)
+rtnl_close	/usr/include/libnetlink.h	/^extern void rtnl_close(struct rtnl_handle *rth);$/;"	p	signature:(struct rtnl_handle *rth)
+rtnl_dump_filter	/usr/include/libnetlink.h	/^extern int rtnl_dump_filter(struct rtnl_handle *rth, rtnl_filter_t filter,$/;"	p	signature:(struct rtnl_handle *rth, rtnl_filter_t filter, void *arg1, rtnl_filter_t junk, void *arg2)
+rtnl_dump_filter_arg	/usr/include/libnetlink.h	/^struct rtnl_dump_filter_arg$/;"	s
+rtnl_dump_filter_arg::arg1	/usr/include/libnetlink.h	/^	void *arg1;$/;"	m	struct:rtnl_dump_filter_arg	access:public
+rtnl_dump_filter_arg::arg2	/usr/include/libnetlink.h	/^	void *arg2;$/;"	m	struct:rtnl_dump_filter_arg	access:public
+rtnl_dump_filter_arg::filter	/usr/include/libnetlink.h	/^	rtnl_filter_t filter;$/;"	m	struct:rtnl_dump_filter_arg	access:public
+rtnl_dump_filter_arg::junk	/usr/include/libnetlink.h	/^	rtnl_filter_t junk;$/;"	m	struct:rtnl_dump_filter_arg	access:public
+rtnl_dump_filter_l	/usr/include/libnetlink.h	/^extern int rtnl_dump_filter_l(struct rtnl_handle *rth,$/;"	p	signature:(struct rtnl_handle *rth, const struct rtnl_dump_filter_arg *arg)
+rtnl_dump_request	/usr/include/libnetlink.h	/^extern int rtnl_dump_request(struct rtnl_handle *rth, int type, void *req, int len);$/;"	p	signature:(struct rtnl_handle *rth, int type, void *req, int len)
+rtnl_filter_t	/usr/include/libnetlink.h	/^typedef int (*rtnl_filter_t)(const struct sockaddr_nl *,$/;"	t
+rtnl_from_file	/usr/include/libnetlink.h	/^extern int rtnl_from_file(FILE *, rtnl_filter_t handler,$/;"	p	signature:(FILE *, rtnl_filter_t handler, void *jarg)
+rtnl_handle	/usr/include/libnetlink.h	/^struct rtnl_handle$/;"	s
+rtnl_handle::dump	/usr/include/libnetlink.h	/^	__u32			dump;$/;"	m	struct:rtnl_handle	access:public
+rtnl_handle::fd	/usr/include/libnetlink.h	/^	int			fd;$/;"	m	struct:rtnl_handle	access:public
+rtnl_handle::local	/usr/include/libnetlink.h	/^	struct sockaddr_nl	local;$/;"	m	struct:rtnl_handle	typeref:struct:rtnl_handle::sockaddr_nl	access:public
+rtnl_handle::peer	/usr/include/libnetlink.h	/^	struct sockaddr_nl	peer;$/;"	m	struct:rtnl_handle	typeref:struct:rtnl_handle::sockaddr_nl	access:public
+rtnl_handle::seq	/usr/include/libnetlink.h	/^	__u32			seq;$/;"	m	struct:rtnl_handle	access:public
+rtnl_listen	/usr/include/libnetlink.h	/^extern int rtnl_listen(struct rtnl_handle *, rtnl_filter_t handler,$/;"	p	signature:(struct rtnl_handle *, rtnl_filter_t handler, void *jarg)
+rtnl_open	/usr/include/libnetlink.h	/^extern int rtnl_open(struct rtnl_handle *rth, unsigned subscriptions);$/;"	p	signature:(struct rtnl_handle *rth, unsigned subscriptions)
+rtnl_open_byproto	/usr/include/libnetlink.h	/^extern int rtnl_open_byproto(struct rtnl_handle *rth, unsigned subscriptions, int protocol);$/;"	p	signature:(struct rtnl_handle *rth, unsigned subscriptions, int protocol)
+rtnl_send	/usr/include/libnetlink.h	/^extern int rtnl_send(struct rtnl_handle *rth, const char *buf, int);$/;"	p	signature:(struct rtnl_handle *rth, const char *buf, int)
+rtnl_send_check	/usr/include/libnetlink.h	/^extern int rtnl_send_check(struct rtnl_handle *rth, const char *buf, int);$/;"	p	signature:(struct rtnl_handle *rth, const char *buf, int)
+rtnl_talk	/usr/include/libnetlink.h	/^extern int rtnl_talk(struct rtnl_handle *rtnl, struct nlmsghdr *n, pid_t peer,$/;"	p	signature:(struct rtnl_handle *rtnl, struct nlmsghdr *n, pid_t peer, unsigned groups, struct nlmsghdr *answer, rtnl_filter_t junk, void *jarg)
+rtnl_wilddump_request	/usr/include/libnetlink.h	/^extern int rtnl_wilddump_request(struct rtnl_handle *rth, int fam, int type);$/;"	p	signature:(struct rtnl_handle *rth, int fam, int type)
+seq	/usr/include/libnetlink.h	/^	__u32			seq;$/;"	m	struct:rtnl_handle	access:public

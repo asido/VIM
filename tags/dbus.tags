@@ -1,0 +1,935 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DBUS_ADDRESS_H	/usr/include/dbus-1.0/dbus/dbus-address.h	28;"	d
+DBUS_ALLOC_SIZE	/usr/include/dbus-1.0/dbus/dbus-macros.h	84;"	d
+DBUS_ALLOC_SIZE	/usr/include/dbus-1.0/dbus/dbus-macros.h	87;"	d
+DBUS_ALLOC_SIZE2	/usr/include/dbus-1.0/dbus/dbus-macros.h	85;"	d
+DBUS_ALLOC_SIZE2	/usr/include/dbus-1.0/dbus/dbus-macros.h	88;"	d
+DBUS_BEGIN_DECLS	/usr/include/dbus-1.0/dbus/dbus-macros.h	31;"	d
+DBUS_BEGIN_DECLS	/usr/include/dbus-1.0/dbus/dbus-macros.h	34;"	d
+DBUS_BIG_ENDIAN	/usr/include/dbus-1.0/dbus/dbus-protocol.h	54;"	d
+DBUS_BUS_H	/usr/include/dbus-1.0/dbus/dbus-bus.h	28;"	d
+DBUS_BUS_SESSION	/usr/include/dbus-1.0/dbus/dbus-shared.h	/^  DBUS_BUS_SESSION,    \/**< The login session bus *\/$/;"	e	enum:__anon2
+DBUS_BUS_STARTER	/usr/include/dbus-1.0/dbus/dbus-shared.h	/^  DBUS_BUS_STARTER     \/**< The bus that started us, if any *\/$/;"	e	enum:__anon2
+DBUS_BUS_SYSTEM	/usr/include/dbus-1.0/dbus/dbus-shared.h	/^  DBUS_BUS_SYSTEM,     \/**< The systemwide bus *\/$/;"	e	enum:__anon2
+DBUS_CONNECTION_H	/usr/include/dbus-1.0/dbus/dbus-connection.h	28;"	d
+DBUS_DEPRECATED	/usr/include/dbus-1.0/dbus/dbus-macros.h	54;"	d
+DBUS_DEPRECATED	/usr/include/dbus-1.0/dbus/dbus-macros.h	56;"	d
+DBUS_DEPRECATED	/usr/include/dbus-1.0/dbus/dbus-macros.h	58;"	d
+DBUS_DICT_ENTRY_BEGIN_CHAR	/usr/include/dbus-1.0/dbus/dbus-protocol.h	164;"	d
+DBUS_DICT_ENTRY_BEGIN_CHAR_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	166;"	d
+DBUS_DICT_ENTRY_END_CHAR	/usr/include/dbus-1.0/dbus/dbus-protocol.h	168;"	d
+DBUS_DICT_ENTRY_END_CHAR_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	170;"	d
+DBUS_DISPATCH_COMPLETE	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBUS_DISPATCH_COMPLETE,      \/**< All currently available data has been processed. *\/$/;"	e	enum:__anon14
+DBUS_DISPATCH_DATA_REMAINS	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBUS_DISPATCH_DATA_REMAINS,  \/**< There is more data to potentially convert to messages. *\/$/;"	e	enum:__anon14
+DBUS_DISPATCH_NEED_MEMORY	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBUS_DISPATCH_NEED_MEMORY    \/**< More memory is needed to continue. *\/$/;"	e	enum:__anon14
+DBUS_END_DECLS	/usr/include/dbus-1.0/dbus/dbus-macros.h	32;"	d
+DBUS_END_DECLS	/usr/include/dbus-1.0/dbus/dbus-macros.h	35;"	d
+DBUS_ERROR_ACCESS_DENIED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	368;"	d
+DBUS_ERROR_ADDRESS_IN_USE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	382;"	d
+DBUS_ERROR_ADT_AUDIT_DATA_UNKNOWN	/usr/include/dbus-1.0/dbus/dbus-protocol.h	443;"	d
+DBUS_ERROR_AUTH_FAILED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	370;"	d
+DBUS_ERROR_BAD_ADDRESS	/usr/include/dbus-1.0/dbus/dbus-protocol.h	362;"	d
+DBUS_ERROR_DISCONNECTED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	384;"	d
+DBUS_ERROR_FAILED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	350;"	d
+DBUS_ERROR_FILE_EXISTS	/usr/include/dbus-1.0/dbus/dbus-protocol.h	390;"	d
+DBUS_ERROR_FILE_NOT_FOUND	/usr/include/dbus-1.0/dbus/dbus-protocol.h	388;"	d
+DBUS_ERROR_H	/usr/include/dbus-1.0/dbus/dbus-errors.h	29;"	d
+DBUS_ERROR_INCONSISTENT_MESSAGE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	448;"	d
+DBUS_ERROR_INIT	/usr/include/dbus-1.0/dbus/dbus-errors.h	62;"	d
+DBUS_ERROR_INVALID_ARGS	/usr/include/dbus-1.0/dbus/dbus-protocol.h	386;"	d
+DBUS_ERROR_INVALID_FILE_CONTENT	/usr/include/dbus-1.0/dbus/dbus-protocol.h	439;"	d
+DBUS_ERROR_INVALID_SIGNATURE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	437;"	d
+DBUS_ERROR_IO_ERROR	/usr/include/dbus-1.0/dbus/dbus-protocol.h	360;"	d
+DBUS_ERROR_LIMITS_EXCEEDED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	366;"	d
+DBUS_ERROR_MATCH_RULE_INVALID	/usr/include/dbus-1.0/dbus/dbus-protocol.h	409;"	d
+DBUS_ERROR_MATCH_RULE_NOT_FOUND	/usr/include/dbus-1.0/dbus/dbus-protocol.h	407;"	d
+DBUS_ERROR_NAME_HAS_NO_OWNER	/usr/include/dbus-1.0/dbus/dbus-protocol.h	356;"	d
+DBUS_ERROR_NOT_SUPPORTED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	364;"	d
+DBUS_ERROR_NO_MEMORY	/usr/include/dbus-1.0/dbus/dbus-protocol.h	352;"	d
+DBUS_ERROR_NO_NETWORK	/usr/include/dbus-1.0/dbus/dbus-protocol.h	380;"	d
+DBUS_ERROR_NO_REPLY	/usr/include/dbus-1.0/dbus/dbus-protocol.h	358;"	d
+DBUS_ERROR_NO_SERVER	/usr/include/dbus-1.0/dbus/dbus-protocol.h	372;"	d
+DBUS_ERROR_OBJECT_PATH_IN_USE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	445;"	d
+DBUS_ERROR_PROPERTY_READ_ONLY	/usr/include/dbus-1.0/dbus/dbus-protocol.h	400;"	d
+DBUS_ERROR_SELINUX_SECURITY_CONTEXT_UNKNOWN	/usr/include/dbus-1.0/dbus/dbus-protocol.h	441;"	d
+DBUS_ERROR_SERVICE_UNKNOWN	/usr/include/dbus-1.0/dbus/dbus-protocol.h	354;"	d
+DBUS_ERROR_SPAWN_CHILD_EXITED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	415;"	d
+DBUS_ERROR_SPAWN_CHILD_SIGNALED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	417;"	d
+DBUS_ERROR_SPAWN_CONFIG_INVALID	/usr/include/dbus-1.0/dbus/dbus-protocol.h	423;"	d
+DBUS_ERROR_SPAWN_EXEC_FAILED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	411;"	d
+DBUS_ERROR_SPAWN_FAILED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	419;"	d
+DBUS_ERROR_SPAWN_FILE_INVALID	/usr/include/dbus-1.0/dbus/dbus-protocol.h	431;"	d
+DBUS_ERROR_SPAWN_FORK_FAILED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	413;"	d
+DBUS_ERROR_SPAWN_NO_MEMORY	/usr/include/dbus-1.0/dbus/dbus-protocol.h	433;"	d
+DBUS_ERROR_SPAWN_PERMISSIONS_INVALID	/usr/include/dbus-1.0/dbus/dbus-protocol.h	429;"	d
+DBUS_ERROR_SPAWN_SERVICE_INVALID	/usr/include/dbus-1.0/dbus/dbus-protocol.h	425;"	d
+DBUS_ERROR_SPAWN_SERVICE_NOT_FOUND	/usr/include/dbus-1.0/dbus/dbus-protocol.h	427;"	d
+DBUS_ERROR_SPAWN_SETUP_FAILED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	421;"	d
+DBUS_ERROR_TIMED_OUT	/usr/include/dbus-1.0/dbus/dbus-protocol.h	405;"	d
+DBUS_ERROR_TIMEOUT	/usr/include/dbus-1.0/dbus/dbus-protocol.h	378;"	d
+DBUS_ERROR_UNIX_PROCESS_ID_UNKNOWN	/usr/include/dbus-1.0/dbus/dbus-protocol.h	435;"	d
+DBUS_ERROR_UNKNOWN_INTERFACE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	396;"	d
+DBUS_ERROR_UNKNOWN_METHOD	/usr/include/dbus-1.0/dbus/dbus-protocol.h	392;"	d
+DBUS_ERROR_UNKNOWN_OBJECT	/usr/include/dbus-1.0/dbus/dbus-protocol.h	394;"	d
+DBUS_ERROR_UNKNOWN_PROPERTY	/usr/include/dbus-1.0/dbus/dbus-protocol.h	398;"	d
+DBUS_EXPORT	/usr/include/dbus-1.0/dbus/dbus-macros.h	176;"	d
+DBUS_EXPORT	/usr/include/dbus-1.0/dbus/dbus-macros.h	178;"	d
+DBUS_EXPORT	/usr/include/dbus-1.0/dbus/dbus-macros.h	180;"	d
+DBUS_EXPORT	/usr/include/dbus-1.0/dbus/dbus-macros.h	183;"	d
+DBUS_GERROR	/usr/include/dbus-1.0/dbus/dbus-glib.h	59;"	d
+DBUS_GERROR_ACCESS_DENIED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_ACCESS_DENIED,$/;"	e	enum:__anon11
+DBUS_GERROR_ADDRESS_IN_USE	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_ADDRESS_IN_USE,$/;"	e	enum:__anon11
+DBUS_GERROR_AUTH_FAILED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_AUTH_FAILED,$/;"	e	enum:__anon11
+DBUS_GERROR_BAD_ADDRESS	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_BAD_ADDRESS,$/;"	e	enum:__anon11
+DBUS_GERROR_DISCONNECTED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_DISCONNECTED,$/;"	e	enum:__anon11
+DBUS_GERROR_FAILED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_FAILED,$/;"	e	enum:__anon11
+DBUS_GERROR_FILE_EXISTS	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_FILE_EXISTS,$/;"	e	enum:__anon11
+DBUS_GERROR_FILE_NOT_FOUND	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_FILE_NOT_FOUND,$/;"	e	enum:__anon11
+DBUS_GERROR_INVALID_ARGS	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_INVALID_ARGS,$/;"	e	enum:__anon11
+DBUS_GERROR_INVALID_FILE_CONTENT	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_INVALID_FILE_CONTENT,$/;"	e	enum:__anon11
+DBUS_GERROR_INVALID_SIGNATURE	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_INVALID_SIGNATURE,$/;"	e	enum:__anon11
+DBUS_GERROR_IO_ERROR	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_IO_ERROR,$/;"	e	enum:__anon11
+DBUS_GERROR_LIMITS_EXCEEDED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_LIMITS_EXCEEDED,$/;"	e	enum:__anon11
+DBUS_GERROR_MATCH_RULE_INVALID	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_MATCH_RULE_INVALID,$/;"	e	enum:__anon11
+DBUS_GERROR_MATCH_RULE_NOT_FOUND	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_MATCH_RULE_NOT_FOUND,$/;"	e	enum:__anon11
+DBUS_GERROR_NAME_HAS_NO_OWNER	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_NAME_HAS_NO_OWNER,$/;"	e	enum:__anon11
+DBUS_GERROR_NOT_SUPPORTED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_NOT_SUPPORTED,$/;"	e	enum:__anon11
+DBUS_GERROR_NO_MEMORY	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_NO_MEMORY,$/;"	e	enum:__anon11
+DBUS_GERROR_NO_NETWORK	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_NO_NETWORK,$/;"	e	enum:__anon11
+DBUS_GERROR_NO_REPLY	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_NO_REPLY,$/;"	e	enum:__anon11
+DBUS_GERROR_NO_SERVER	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_NO_SERVER,$/;"	e	enum:__anon11
+DBUS_GERROR_REMOTE_EXCEPTION	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_REMOTE_EXCEPTION$/;"	e	enum:__anon11
+DBUS_GERROR_SELINUX_SECURITY_CONTEXT_UNKNOWN	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_SELINUX_SECURITY_CONTEXT_UNKNOWN,$/;"	e	enum:__anon11
+DBUS_GERROR_SERVICE_UNKNOWN	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_SERVICE_UNKNOWN,$/;"	e	enum:__anon11
+DBUS_GERROR_SPAWN_CHILD_EXITED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_SPAWN_CHILD_EXITED,$/;"	e	enum:__anon11
+DBUS_GERROR_SPAWN_CHILD_SIGNALED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_SPAWN_CHILD_SIGNALED,$/;"	e	enum:__anon11
+DBUS_GERROR_SPAWN_EXEC_FAILED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_SPAWN_EXEC_FAILED,$/;"	e	enum:__anon11
+DBUS_GERROR_SPAWN_FAILED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_SPAWN_FAILED,$/;"	e	enum:__anon11
+DBUS_GERROR_SPAWN_FORK_FAILED	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_SPAWN_FORK_FAILED,$/;"	e	enum:__anon11
+DBUS_GERROR_TIMED_OUT	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_TIMED_OUT,$/;"	e	enum:__anon11
+DBUS_GERROR_TIMEOUT	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_TIMEOUT,$/;"	e	enum:__anon11
+DBUS_GERROR_UNIX_PROCESS_ID_UNKNOWN	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_UNIX_PROCESS_ID_UNKNOWN,$/;"	e	enum:__anon11
+DBUS_GERROR_UNKNOWN_METHOD	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBUS_GERROR_UNKNOWN_METHOD,$/;"	e	enum:__anon11
+DBUS_GLIB_CLIENT_WRAPPERS_org_freedesktop_DBus	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	65;"	d
+DBUS_GLIB_CLIENT_WRAPPERS_org_freedesktop_DBus_Introspectable	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	22;"	d
+DBUS_GLIB_H	/usr/include/dbus-1.0/dbus/dbus-glib.h	25;"	d
+DBUS_GLIB_LOWLEVEL_H	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	25;"	d
+DBUS_GOBJECT_TYPE_SPECIALIZED_H	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	25;"	d
+DBUS_G_PROXY	/usr/include/dbus-1.0/dbus/dbus-glib.h	215;"	d
+DBUS_G_PROXY_CLASS	/usr/include/dbus-1.0/dbus/dbus-glib.h	216;"	d
+DBUS_G_PROXY_GET_CLASS	/usr/include/dbus-1.0/dbus/dbus-glib.h	219;"	d
+DBUS_H	/usr/include/dbus-1.0/dbus/dbus.h	25;"	d
+DBUS_HANDLER_RESULT_HANDLED	/usr/include/dbus-1.0/dbus/dbus-shared.h	/^  DBUS_HANDLER_RESULT_HANDLED,         \/**< Message has had its effect - no need to run more handlers. *\/ $/;"	e	enum:__anon3
+DBUS_HANDLER_RESULT_NEED_MEMORY	/usr/include/dbus-1.0/dbus/dbus-shared.h	/^  DBUS_HANDLER_RESULT_NEED_MEMORY      \/**< Need more memory in order to return #DBUS_HANDLER_RESULT_HANDLED or #DBUS_HANDLER_RESULT_NOT_YET_HANDLED. Please try again later with more memory. *\/$/;"	e	enum:__anon3
+DBUS_HANDLER_RESULT_NOT_YET_HANDLED	/usr/include/dbus-1.0/dbus/dbus-shared.h	/^  DBUS_HANDLER_RESULT_NOT_YET_HANDLED, \/**< Message has not had any effect - see if other handlers want it. *\/$/;"	e	enum:__anon3
+DBUS_HEADER_FIELD_DESTINATION	/usr/include/dbus-1.0/dbus/dbus-protocol.h	283;"	d
+DBUS_HEADER_FIELD_ERROR_NAME	/usr/include/dbus-1.0/dbus/dbus-protocol.h	275;"	d
+DBUS_HEADER_FIELD_INTERFACE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	269;"	d
+DBUS_HEADER_FIELD_INVALID	/usr/include/dbus-1.0/dbus/dbus-protocol.h	261;"	d
+DBUS_HEADER_FIELD_LAST	/usr/include/dbus-1.0/dbus/dbus-protocol.h	306;"	d
+DBUS_HEADER_FIELD_MEMBER	/usr/include/dbus-1.0/dbus/dbus-protocol.h	271;"	d
+DBUS_HEADER_FIELD_PATH	/usr/include/dbus-1.0/dbus/dbus-protocol.h	265;"	d
+DBUS_HEADER_FIELD_REPLY_SERIAL	/usr/include/dbus-1.0/dbus/dbus-protocol.h	279;"	d
+DBUS_HEADER_FIELD_SENDER	/usr/include/dbus-1.0/dbus/dbus-protocol.h	288;"	d
+DBUS_HEADER_FIELD_SIGNATURE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	292;"	d
+DBUS_HEADER_FIELD_UNIX_FDS	/usr/include/dbus-1.0/dbus/dbus-protocol.h	297;"	d
+DBUS_HEADER_FLAG_NO_AUTO_START	/usr/include/dbus-1.0/dbus/dbus-protocol.h	256;"	d
+DBUS_HEADER_FLAG_NO_REPLY_EXPECTED	/usr/include/dbus-1.0/dbus/dbus-protocol.h	249;"	d
+DBUS_HEADER_SIGNATURE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	321;"	d
+DBUS_INSIDE_DBUS_GLIB_H	/usr/include/dbus-1.0/dbus/dbus-glib.h	32;"	d
+DBUS_INSIDE_DBUS_GLIB_H	/usr/include/dbus-1.0/dbus/dbus-glib.h	335;"	d
+DBUS_INSIDE_DBUS_H	/usr/include/dbus-1.0/dbus/dbus.h	27;"	d
+DBUS_INSIDE_DBUS_H	/usr/include/dbus-1.0/dbus/dbus.h	45;"	d
+DBUS_INTERFACE_DBUS	/usr/include/dbus-1.0/dbus/dbus-shared.h	88;"	d
+DBUS_INTERFACE_INTROSPECTABLE	/usr/include/dbus-1.0/dbus/dbus-shared.h	90;"	d
+DBUS_INTERFACE_LOCAL	/usr/include/dbus-1.0/dbus/dbus-shared.h	100;"	d
+DBUS_INTERFACE_PEER	/usr/include/dbus-1.0/dbus/dbus-shared.h	94;"	d
+DBUS_INTERFACE_PROPERTIES	/usr/include/dbus-1.0/dbus/dbus-shared.h	92;"	d
+DBUS_INTROSPECT_1_0_XML_DOCTYPE_DECL_NODE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	459;"	d
+DBUS_INTROSPECT_1_0_XML_NAMESPACE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	453;"	d
+DBUS_INTROSPECT_1_0_XML_PUBLIC_IDENTIFIER	/usr/include/dbus-1.0/dbus/dbus-protocol.h	455;"	d
+DBUS_INTROSPECT_1_0_XML_SYSTEM_IDENTIFIER	/usr/include/dbus-1.0/dbus/dbus-protocol.h	457;"	d
+DBUS_IS_G_PROXY	/usr/include/dbus-1.0/dbus/dbus-glib.h	217;"	d
+DBUS_IS_G_PROXY_CLASS	/usr/include/dbus-1.0/dbus/dbus-glib.h	218;"	d
+DBUS_LITTLE_ENDIAN	/usr/include/dbus-1.0/dbus/dbus-protocol.h	53;"	d
+DBUS_MACROS_H	/usr/include/dbus-1.0/dbus/dbus-macros.h	28;"	d
+DBUS_MAJOR_PROTOCOL_VERSION	/usr/include/dbus-1.0/dbus/dbus-protocol.h	57;"	d
+DBUS_MALLOC	/usr/include/dbus-1.0/dbus/dbus-macros.h	78;"	d
+DBUS_MALLOC	/usr/include/dbus-1.0/dbus/dbus-macros.h	80;"	d
+DBUS_MAXIMUM_ARRAY_LENGTH	/usr/include/dbus-1.0/dbus/dbus-protocol.h	203;"	d
+DBUS_MAXIMUM_ARRAY_LENGTH_BITS	/usr/include/dbus-1.0/dbus/dbus-protocol.h	205;"	d
+DBUS_MAXIMUM_MATCH_RULE_ARG_NUMBER	/usr/include/dbus-1.0/dbus/dbus-protocol.h	191;"	d
+DBUS_MAXIMUM_MATCH_RULE_LENGTH	/usr/include/dbus-1.0/dbus/dbus-protocol.h	186;"	d
+DBUS_MAXIMUM_MESSAGE_LENGTH	/usr/include/dbus-1.0/dbus/dbus-protocol.h	210;"	d
+DBUS_MAXIMUM_MESSAGE_LENGTH_BITS	/usr/include/dbus-1.0/dbus/dbus-protocol.h	212;"	d
+DBUS_MAXIMUM_MESSAGE_UNIX_FDS	/usr/include/dbus-1.0/dbus/dbus-protocol.h	218;"	d
+DBUS_MAXIMUM_MESSAGE_UNIX_FDS_BITS	/usr/include/dbus-1.0/dbus/dbus-protocol.h	220;"	d
+DBUS_MAXIMUM_NAME_LENGTH	/usr/include/dbus-1.0/dbus/dbus-protocol.h	178;"	d
+DBUS_MAXIMUM_SIGNATURE_LENGTH	/usr/include/dbus-1.0/dbus/dbus-protocol.h	181;"	d
+DBUS_MAXIMUM_TYPE_RECURSION_DEPTH	/usr/include/dbus-1.0/dbus/dbus-protocol.h	227;"	d
+DBUS_MEMORY_H	/usr/include/dbus-1.0/dbus/dbus-memory.h	28;"	d
+DBUS_MESSAGE_H	/usr/include/dbus-1.0/dbus/dbus-message.h	28;"	d
+DBUS_MESSAGE_TYPE_ERROR	/usr/include/dbus-1.0/dbus/dbus-protocol.h	238;"	d
+DBUS_MESSAGE_TYPE_INVALID	/usr/include/dbus-1.0/dbus/dbus-protocol.h	232;"	d
+DBUS_MESSAGE_TYPE_METHOD_CALL	/usr/include/dbus-1.0/dbus/dbus-protocol.h	234;"	d
+DBUS_MESSAGE_TYPE_METHOD_RETURN	/usr/include/dbus-1.0/dbus/dbus-protocol.h	236;"	d
+DBUS_MESSAGE_TYPE_SIGNAL	/usr/include/dbus-1.0/dbus/dbus-protocol.h	240;"	d
+DBUS_MINIMUM_HEADER_SIZE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	341;"	d
+DBUS_MISC_H	/usr/include/dbus-1.0/dbus/dbus-misc.h	28;"	d
+DBUS_NAME_FLAG_ALLOW_REPLACEMENT	/usr/include/dbus-1.0/dbus/dbus-shared.h	103;"	d
+DBUS_NAME_FLAG_DO_NOT_QUEUE	/usr/include/dbus-1.0/dbus/dbus-shared.h	105;"	d
+DBUS_NAME_FLAG_REPLACE_EXISTING	/usr/include/dbus-1.0/dbus/dbus-shared.h	104;"	d
+DBUS_NUMBER_OF_TYPES	/usr/include/dbus-1.0/dbus/dbus-protocol.h	151;"	d
+DBUS_NUM_MESSAGE_TYPES	/usr/include/dbus-1.0/dbus/dbus-protocol.h	242;"	d
+DBUS_PATH_DBUS	/usr/include/dbus-1.0/dbus/dbus-shared.h	80;"	d
+DBUS_PATH_LOCAL	/usr/include/dbus-1.0/dbus/dbus-shared.h	82;"	d
+DBUS_PENDING_CALL_H	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	28;"	d
+DBUS_PROTOCOL_H	/usr/include/dbus-1.0/dbus/dbus-protocol.h	26;"	d
+DBUS_RELEASE_NAME_REPLY_NON_EXISTENT	/usr/include/dbus-1.0/dbus/dbus-shared.h	115;"	d
+DBUS_RELEASE_NAME_REPLY_NOT_OWNER	/usr/include/dbus-1.0/dbus/dbus-shared.h	116;"	d
+DBUS_RELEASE_NAME_REPLY_RELEASED	/usr/include/dbus-1.0/dbus/dbus-shared.h	114;"	d
+DBUS_REQUEST_NAME_REPLY_ALREADY_OWNER	/usr/include/dbus-1.0/dbus/dbus-shared.h	111;"	d
+DBUS_REQUEST_NAME_REPLY_EXISTS	/usr/include/dbus-1.0/dbus/dbus-shared.h	110;"	d
+DBUS_REQUEST_NAME_REPLY_IN_QUEUE	/usr/include/dbus-1.0/dbus/dbus-shared.h	109;"	d
+DBUS_REQUEST_NAME_REPLY_PRIMARY_OWNER	/usr/include/dbus-1.0/dbus/dbus-shared.h	108;"	d
+DBUS_SERVER_H	/usr/include/dbus-1.0/dbus/dbus-server.h	28;"	d
+DBUS_SERVICE_DBUS	/usr/include/dbus-1.0/dbus/dbus-shared.h	76;"	d
+DBUS_SHARED_H	/usr/include/dbus-1.0/dbus/dbus-shared.h	25;"	d
+DBUS_SIGNATURES_H	/usr/include/dbus-1.0/dbus/dbus-signature.h	28;"	d
+DBUS_START_REPLY_ALREADY_RUNNING	/usr/include/dbus-1.0/dbus/dbus-shared.h	120;"	d
+DBUS_START_REPLY_SUCCESS	/usr/include/dbus-1.0/dbus/dbus-shared.h	119;"	d
+DBUS_STRUCT_BEGIN_CHAR	/usr/include/dbus-1.0/dbus/dbus-protocol.h	156;"	d
+DBUS_STRUCT_BEGIN_CHAR_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	158;"	d
+DBUS_STRUCT_END_CHAR	/usr/include/dbus-1.0/dbus/dbus-protocol.h	160;"	d
+DBUS_STRUCT_END_CHAR_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	162;"	d
+DBUS_THREADS_H	/usr/include/dbus-1.0/dbus/dbus-threads.h	28;"	d
+DBUS_THREAD_FUNCTIONS_ALL_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_ALL_MASK     = (1 << 14) - 1$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_CONDVAR_FREE_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_CONDVAR_FREE_MASK   = 1 << 5,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_CONDVAR_NEW_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_CONDVAR_NEW_MASK    = 1 << 4,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_CONDVAR_WAIT_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_CONDVAR_WAIT_MASK   = 1 << 6,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_CONDVAR_WAIT_TIMEOUT_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_CONDVAR_WAIT_TIMEOUT_MASK   = 1 << 7,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_CONDVAR_WAKE_ALL_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_CONDVAR_WAKE_ALL_MASK = 1 << 9,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_CONDVAR_WAKE_ONE_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_CONDVAR_WAKE_ONE_MASK = 1 << 8,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_MUTEX_FREE_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_MUTEX_FREE_MASK     = 1 << 1,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_MUTEX_LOCK_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_MUTEX_LOCK_MASK     = 1 << 2,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_MUTEX_NEW_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_MUTEX_NEW_MASK      = 1 << 0,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_MUTEX_UNLOCK_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_MUTEX_UNLOCK_MASK   = 1 << 3,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_RECURSIVE_MUTEX_FREE_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_RECURSIVE_MUTEX_FREE_MASK   = 1 << 11,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_RECURSIVE_MUTEX_LOCK_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_RECURSIVE_MUTEX_LOCK_MASK   = 1 << 12,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_RECURSIVE_MUTEX_NEW_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_RECURSIVE_MUTEX_NEW_MASK    = 1 << 10,$/;"	e	enum:__anon4
+DBUS_THREAD_FUNCTIONS_RECURSIVE_MUTEX_UNLOCK_MASK	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBUS_THREAD_FUNCTIONS_RECURSIVE_MUTEX_UNLOCK_MASK = 1 << 13,$/;"	e	enum:__anon4
+DBUS_TIMEOUT_INFINITE	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	41;"	d
+DBUS_TIMEOUT_USE_DEFAULT	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	42;"	d
+DBUS_TYPES_H	/usr/include/dbus-1.0/dbus/dbus-types.h	28;"	d
+DBUS_TYPE_ARRAY	/usr/include/dbus-1.0/dbus/dbus-protocol.h	120;"	d
+DBUS_TYPE_ARRAY_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	122;"	d
+DBUS_TYPE_BOOLEAN	/usr/include/dbus-1.0/dbus/dbus-protocol.h	70;"	d
+DBUS_TYPE_BOOLEAN_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	72;"	d
+DBUS_TYPE_BYTE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	66;"	d
+DBUS_TYPE_BYTE_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	68;"	d
+DBUS_TYPE_CONNECTION	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	35;"	d
+DBUS_TYPE_DICT_ENTRY	/usr/include/dbus-1.0/dbus/dbus-protocol.h	143;"	d
+DBUS_TYPE_DICT_ENTRY_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	145;"	d
+DBUS_TYPE_DOUBLE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	98;"	d
+DBUS_TYPE_DOUBLE_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	100;"	d
+DBUS_TYPE_G_BOOLEAN_ARRAY	/usr/include/dbus-1.0/dbus/dbus-glib.h	185;"	d
+DBUS_TYPE_G_CONNECTION	/usr/include/dbus-1.0/dbus/dbus-glib.h	45;"	d
+DBUS_TYPE_G_INT64_ARRAY	/usr/include/dbus-1.0/dbus/dbus-glib.h	190;"	d
+DBUS_TYPE_G_INT_ARRAY	/usr/include/dbus-1.0/dbus/dbus-glib.h	188;"	d
+DBUS_TYPE_G_MESSAGE	/usr/include/dbus-1.0/dbus/dbus-glib.h	46;"	d
+DBUS_TYPE_G_OBJECT_ARRAY	/usr/include/dbus-1.0/dbus/dbus-glib.h	191;"	d
+DBUS_TYPE_G_OBJECT_PATH	/usr/include/dbus-1.0/dbus/dbus-glib.h	197;"	d
+DBUS_TYPE_G_PROXY	/usr/include/dbus-1.0/dbus/dbus-glib.h	214;"	d
+DBUS_TYPE_G_SIGNATURE	/usr/include/dbus-1.0/dbus/dbus-glib.h	201;"	d
+DBUS_TYPE_G_STRING_STRING_HASHTABLE	/usr/include/dbus-1.0/dbus/dbus-glib.h	193;"	d
+DBUS_TYPE_G_UCHAR_ARRAY	/usr/include/dbus-1.0/dbus/dbus-glib.h	186;"	d
+DBUS_TYPE_G_UINT64_ARRAY	/usr/include/dbus-1.0/dbus/dbus-glib.h	189;"	d
+DBUS_TYPE_G_UINT_ARRAY	/usr/include/dbus-1.0/dbus/dbus-glib.h	187;"	d
+DBUS_TYPE_INT16	/usr/include/dbus-1.0/dbus/dbus-protocol.h	74;"	d
+DBUS_TYPE_INT16_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	76;"	d
+DBUS_TYPE_INT32	/usr/include/dbus-1.0/dbus/dbus-protocol.h	82;"	d
+DBUS_TYPE_INT32_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	84;"	d
+DBUS_TYPE_INT64	/usr/include/dbus-1.0/dbus/dbus-protocol.h	90;"	d
+DBUS_TYPE_INT64_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	92;"	d
+DBUS_TYPE_INVALID	/usr/include/dbus-1.0/dbus/dbus-protocol.h	60;"	d
+DBUS_TYPE_INVALID_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	62;"	d
+DBUS_TYPE_MESSAGE	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	36;"	d
+DBUS_TYPE_OBJECT_PATH	/usr/include/dbus-1.0/dbus/dbus-protocol.h	106;"	d
+DBUS_TYPE_OBJECT_PATH_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	108;"	d
+DBUS_TYPE_SIGNATURE	/usr/include/dbus-1.0/dbus/dbus-protocol.h	110;"	d
+DBUS_TYPE_SIGNATURE_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	112;"	d
+DBUS_TYPE_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	102;"	d
+DBUS_TYPE_STRING_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	104;"	d
+DBUS_TYPE_STRUCT	/usr/include/dbus-1.0/dbus/dbus-protocol.h	136;"	d
+DBUS_TYPE_STRUCT_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	138;"	d
+DBUS_TYPE_UINT16	/usr/include/dbus-1.0/dbus/dbus-protocol.h	78;"	d
+DBUS_TYPE_UINT16_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	80;"	d
+DBUS_TYPE_UINT32	/usr/include/dbus-1.0/dbus/dbus-protocol.h	86;"	d
+DBUS_TYPE_UINT32_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	88;"	d
+DBUS_TYPE_UINT64	/usr/include/dbus-1.0/dbus/dbus-protocol.h	94;"	d
+DBUS_TYPE_UINT64_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	96;"	d
+DBUS_TYPE_UNIX_FD	/usr/include/dbus-1.0/dbus/dbus-protocol.h	114;"	d
+DBUS_TYPE_UNIX_FD_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	116;"	d
+DBUS_TYPE_VARIANT	/usr/include/dbus-1.0/dbus/dbus-protocol.h	124;"	d
+DBUS_TYPE_VARIANT_AS_STRING	/usr/include/dbus-1.0/dbus/dbus-protocol.h	126;"	d
+DBUS_WATCH_ERROR	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBUS_WATCH_ERROR    = 1 << 2, \/**< As in POLLERR (can't watch for$/;"	e	enum:__anon13
+DBUS_WATCH_HANGUP	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBUS_WATCH_HANGUP   = 1 << 3  \/**< As in POLLHUP (can't watch for$/;"	e	enum:__anon13
+DBUS_WATCH_READABLE	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBUS_WATCH_READABLE = 1 << 0, \/**< As in POLLIN *\/$/;"	e	enum:__anon13
+DBUS_WATCH_WRITABLE	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBUS_WATCH_WRITABLE = 1 << 1, \/**< As in POLLOUT *\/$/;"	e	enum:__anon13
+DBusAddTimeoutFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef dbus_bool_t (* DBusAddTimeoutFunction)     (DBusTimeout    *timeout,$/;"	t
+DBusAddWatchFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef dbus_bool_t (* DBusAddWatchFunction)       (DBusWatch      *watch,$/;"	t
+DBusAddressEntry	/usr/include/dbus-1.0/dbus/dbus-address.h	/^typedef struct DBusAddressEntry DBusAddressEntry;$/;"	t	typeref:struct:DBusAddressEntry
+DBusAllowUnixUserFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef dbus_bool_t (* DBusAllowUnixUserFunction)  (DBusConnection *connection,$/;"	t
+DBusAllowWindowsUserFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef dbus_bool_t (* DBusAllowWindowsUserFunction)  (DBusConnection *connection,$/;"	t
+DBusBusType	/usr/include/dbus-1.0/dbus/dbus-shared.h	/^} DBusBusType;$/;"	t	typeref:enum:__anon2
+DBusCondVar	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef struct DBusCondVar DBusCondVar;$/;"	t	typeref:struct:DBusCondVar
+DBusCondVarFreeFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef void          (* DBusCondVarFreeFunction)        (DBusCondVar *cond);$/;"	t
+DBusCondVarNewFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef DBusCondVar*  (* DBusCondVarNewFunction)         (void);$/;"	t
+DBusCondVarWaitFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef void          (* DBusCondVarWaitFunction)        (DBusCondVar *cond,$/;"	t
+DBusCondVarWaitTimeoutFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef dbus_bool_t   (* DBusCondVarWaitTimeoutFunction) (DBusCondVar *cond,$/;"	t
+DBusCondVarWakeAllFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef void          (* DBusCondVarWakeAllFunction) (DBusCondVar *cond);$/;"	t
+DBusCondVarWakeOneFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef void          (* DBusCondVarWakeOneFunction) (DBusCondVar *cond);$/;"	t
+DBusConnection	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef struct DBusConnection DBusConnection;$/;"	t	typeref:struct:DBusConnection
+DBusDispatchStatus	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^} DBusDispatchStatus;$/;"	t	typeref:enum:__anon14
+DBusDispatchStatusFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef void        (* DBusDispatchStatusFunction) (DBusConnection *connection,$/;"	t
+DBusError	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^struct DBusError$/;"	s
+DBusError	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^typedef struct DBusError DBusError;$/;"	t	typeref:struct:DBusError
+DBusError::dummy1	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  unsigned int dummy1 : 1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+DBusError::dummy2	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  unsigned int dummy2 : 1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+DBusError::dummy3	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  unsigned int dummy3 : 1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+DBusError::dummy4	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  unsigned int dummy4 : 1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+DBusError::dummy5	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  unsigned int dummy5 : 1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+DBusError::message	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  const char *message; \/**< public error message field *\/$/;"	m	struct:DBusError	access:public
+DBusError::name	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  const char *name;    \/**< public error name field *\/$/;"	m	struct:DBusError	access:public
+DBusError::padding1	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  void *padding1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+DBusFreeFunction	/usr/include/dbus-1.0/dbus/dbus-memory.h	/^typedef void (* DBusFreeFunction) (void *memory);$/;"	t
+DBusGAsyncData	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^} DBusGAsyncData;$/;"	t	typeref:struct:__anon12
+DBusGConnection	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef struct _DBusGConnection DBusGConnection;$/;"	t	typeref:struct:_DBusGConnection
+DBusGError	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^} DBusGError;$/;"	t	typeref:enum:__anon11
+DBusGMessage	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef struct _DBusGMessage DBusGMessage;$/;"	t	typeref:struct:_DBusGMessage
+DBusGMethodInfo	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef struct _DBusGMethodInfo DBusGMethodInfo;$/;"	t	typeref:struct:_DBusGMethodInfo
+DBusGMethodInvocation	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef struct _DBusGMethodInvocation DBusGMethodInvocation;$/;"	t	typeref:struct:_DBusGMethodInvocation
+DBusGObjectInfo	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef struct _DBusGObjectInfo DBusGObjectInfo;$/;"	t	typeref:struct:_DBusGObjectInfo
+DBusGObjectPath	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef gchar DBusGObjectPath;$/;"	t
+DBusGProxy	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef struct _DBusGProxy       DBusGProxy;$/;"	t	typeref:struct:_DBusGProxy
+DBusGProxyCall	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef struct _DBusGProxyCall DBusGProxyCall;$/;"	t	typeref:struct:_DBusGProxyCall
+DBusGProxyCallNotify	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef void (* DBusGProxyCallNotify) (DBusGProxy       *proxy,$/;"	t
+DBusGProxyClass	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef struct _DBusGProxyClass  DBusGProxyClass;$/;"	t	typeref:struct:_DBusGProxyClass
+DBusGSignature	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^typedef gchar DBusGSignature;$/;"	t
+DBusGTypeSpecializedAppendContext	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^} DBusGTypeSpecializedAppendContext;$/;"	t	typeref:struct:__anon6
+DBusGTypeSpecializedCollectionAppendFunc	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef void     (*DBusGTypeSpecializedCollectionAppendFunc)        (DBusGTypeSpecializedAppendContext *ctx, GValue *val);$/;"	t
+DBusGTypeSpecializedCollectionEndAppendFunc	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef void     (*DBusGTypeSpecializedCollectionEndAppendFunc)     (DBusGTypeSpecializedAppendContext *ctx);$/;"	t
+DBusGTypeSpecializedCollectionFixedAccessorFunc	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef gboolean (*DBusGTypeSpecializedCollectionFixedAccessorFunc) (GType type, gpointer instance, gpointer *values, guint *len);$/;"	t
+DBusGTypeSpecializedCollectionIterator	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef void   (*DBusGTypeSpecializedCollectionIterator)    (const GValue *value,$/;"	t
+DBusGTypeSpecializedCollectionIteratorFunc	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef void     (*DBusGTypeSpecializedCollectionIteratorFunc)      (GType type, gpointer instance, DBusGTypeSpecializedCollectionIterator iterator, gpointer user_data);$/;"	t
+DBusGTypeSpecializedCollectionVtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^} DBusGTypeSpecializedCollectionVtable;$/;"	t	typeref:struct:__anon8
+DBusGTypeSpecializedConstructor	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef gpointer (*DBusGTypeSpecializedConstructor)     (GType type);$/;"	t
+DBusGTypeSpecializedCopyFunc	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef gpointer (*DBusGTypeSpecializedCopyFunc)        (GType type, gpointer src);$/;"	t
+DBusGTypeSpecializedFreeFunc	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef void     (*DBusGTypeSpecializedFreeFunc)        (GType type, gpointer val);$/;"	t
+DBusGTypeSpecializedMapAppendFunc	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef void (*DBusGTypeSpecializedMapAppendFunc)   (DBusGTypeSpecializedAppendContext *ctx, GValue *key, GValue *val);$/;"	t
+DBusGTypeSpecializedMapIterator	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef void   (*DBusGTypeSpecializedMapIterator)           (const GValue *key_val,$/;"	t
+DBusGTypeSpecializedMapIteratorFunc	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef void (*DBusGTypeSpecializedMapIteratorFunc) (GType type, gpointer instance, DBusGTypeSpecializedMapIterator iterator, gpointer user_data);$/;"	t
+DBusGTypeSpecializedMapVtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^} DBusGTypeSpecializedMapVtable;$/;"	t	typeref:struct:__anon9
+DBusGTypeSpecializedStructGetMember	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef gboolean (*DBusGTypeSpecializedStructGetMember) (GType type, gpointer instance, guint member, GValue *ret_value);$/;"	t
+DBusGTypeSpecializedStructSetMember	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^typedef gboolean (*DBusGTypeSpecializedStructSetMember) (GType type, gpointer instance, guint member, const GValue *new_value);$/;"	t
+DBusGTypeSpecializedStructVtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^} DBusGTypeSpecializedStructVtable;$/;"	t	typeref:struct:__anon10
+DBusGTypeSpecializedVtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^} DBusGTypeSpecializedVtable;$/;"	t	typeref:struct:__anon7
+DBusHandleMessageFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef DBusHandlerResult (* DBusHandleMessageFunction) (DBusConnection     *connection,$/;"	t
+DBusHandlerResult	/usr/include/dbus-1.0/dbus/dbus-shared.h	/^} DBusHandlerResult;$/;"	t	typeref:enum:__anon3
+DBusMessage	/usr/include/dbus-1.0/dbus/dbus-message.h	/^typedef struct DBusMessage DBusMessage;$/;"	t	typeref:struct:DBusMessage
+DBusMessageIter	/usr/include/dbus-1.0/dbus/dbus-message.h	/^struct DBusMessageIter$/;"	s
+DBusMessageIter	/usr/include/dbus-1.0/dbus/dbus-message.h	/^typedef struct DBusMessageIter DBusMessageIter;$/;"	t	typeref:struct:DBusMessageIter
+DBusMessageIter::dummy1	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  void *dummy1;         \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::dummy10	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy10;          \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::dummy11	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy11;          \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::dummy2	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  void *dummy2;         \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::dummy3	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  dbus_uint32_t dummy3; \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::dummy4	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy4;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::dummy5	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy5;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::dummy6	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy6;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::dummy7	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy7;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::dummy8	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy8;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::dummy9	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy9;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::pad1	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int pad1;             \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::pad2	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int pad2;             \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMessageIter::pad3	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  void *pad3;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+DBusMutex	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef struct DBusMutex DBusMutex;$/;"	t	typeref:struct:DBusMutex
+DBusMutexFreeFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef void        (* DBusMutexFreeFunction)   (DBusMutex *mutex);$/;"	t
+DBusMutexLockFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef dbus_bool_t (* DBusMutexLockFunction)   (DBusMutex *mutex);$/;"	t
+DBusMutexNewFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef DBusMutex*  (* DBusMutexNewFunction)    (void);$/;"	t
+DBusMutexUnlockFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef dbus_bool_t (* DBusMutexUnlockFunction) (DBusMutex *mutex);$/;"	t
+DBusNewConnectionFunction	/usr/include/dbus-1.0/dbus/dbus-server.h	/^typedef void (* DBusNewConnectionFunction) (DBusServer     *server,$/;"	t
+DBusObjectPathMessageFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef DBusHandlerResult (* DBusObjectPathMessageFunction)    (DBusConnection  *connection,$/;"	t
+DBusObjectPathUnregisterFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef void              (* DBusObjectPathUnregisterFunction) (DBusConnection  *connection,$/;"	t
+DBusObjectPathVTable	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^struct DBusObjectPathVTable$/;"	s
+DBusObjectPathVTable	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef struct DBusObjectPathVTable DBusObjectPathVTable;$/;"	t	typeref:struct:DBusObjectPathVTable
+DBusObjectPathVTable::dbus_internal_pad1	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  void (* dbus_internal_pad1) (void *); \/**< Reserved for future expansion *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+DBusObjectPathVTable::dbus_internal_pad2	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  void (* dbus_internal_pad2) (void *); \/**< Reserved for future expansion *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+DBusObjectPathVTable::dbus_internal_pad3	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  void (* dbus_internal_pad3) (void *); \/**< Reserved for future expansion *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+DBusObjectPathVTable::dbus_internal_pad4	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  void (* dbus_internal_pad4) (void *); \/**< Reserved for future expansion *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+DBusObjectPathVTable::message_function	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBusObjectPathMessageFunction      message_function; \/**< Function to handle messages *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+DBusObjectPathVTable::unregister_function	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBusObjectPathUnregisterFunction   unregister_function; \/**< Function to unregister this handler *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+DBusPendingCall	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef struct DBusPendingCall DBusPendingCall;$/;"	t	typeref:struct:DBusPendingCall
+DBusPendingCallNotifyFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef void (* DBusPendingCallNotifyFunction) (DBusPendingCall *pending,$/;"	t
+DBusPreallocatedSend	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef struct DBusPreallocatedSend DBusPreallocatedSend;$/;"	t	typeref:struct:DBusPreallocatedSend
+DBusRecursiveMutexFreeFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef void        (* DBusRecursiveMutexFreeFunction)   (DBusMutex *mutex);$/;"	t
+DBusRecursiveMutexLockFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef void        (* DBusRecursiveMutexLockFunction)   (DBusMutex *mutex);$/;"	t
+DBusRecursiveMutexNewFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef DBusMutex*  (* DBusRecursiveMutexNewFunction)    (void);$/;"	t
+DBusRecursiveMutexUnlockFunction	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^typedef void        (* DBusRecursiveMutexUnlockFunction) (DBusMutex *mutex);$/;"	t
+DBusRemoveTimeoutFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef void        (* DBusRemoveTimeoutFunction)  (DBusTimeout    *timeout,$/;"	t
+DBusRemoveWatchFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef void        (* DBusRemoveWatchFunction)    (DBusWatch      *watch,$/;"	t
+DBusServer	/usr/include/dbus-1.0/dbus/dbus-server.h	/^typedef struct DBusServer DBusServer;$/;"	t	typeref:struct:DBusServer
+DBusSignatureIter	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^} DBusSignatureIter;$/;"	t	typeref:struct:__anon1
+DBusThreadFunctions	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^} DBusThreadFunctions;$/;"	t	typeref:struct:__anon5
+DBusThreadFunctionsMask	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^} DBusThreadFunctionsMask;$/;"	t	typeref:enum:__anon4
+DBusTimeout	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef struct DBusTimeout DBusTimeout;$/;"	t	typeref:struct:DBusTimeout
+DBusTimeoutToggledFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef void        (* DBusTimeoutToggledFunction) (DBusTimeout    *timeout,$/;"	t
+DBusWakeupMainFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef void        (* DBusWakeupMainFunction)     (void           *data);$/;"	t
+DBusWatch	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef struct DBusWatch DBusWatch;$/;"	t	typeref:struct:DBusWatch
+DBusWatchFlags	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^} DBusWatchFlags;$/;"	t	typeref:enum:__anon13
+DBusWatchToggledFunction	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^typedef void        (* DBusWatchToggledFunction)   (DBusWatch      *watch,$/;"	t
+FALSE	/usr/include/dbus-1.0/dbus/dbus-macros.h	42;"	d
+NULL	/usr/include/dbus-1.0/dbus/dbus-macros.h	47;"	d
+NULL	/usr/include/dbus-1.0/dbus/dbus-macros.h	49;"	d
+TRUE	/usr/include/dbus-1.0/dbus/dbus-macros.h	39;"	d
+_DBUS_GLIB_ASYNC_DATA_FREE	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	9;"	d
+_DBUS_GNUC_EXTENSION	/usr/include/dbus-1.0/dbus/dbus-macros.h	62;"	d
+_DBUS_GNUC_EXTENSION	/usr/include/dbus-1.0/dbus/dbus-macros.h	64;"	d
+_DBUS_GNUC_NORETURN	/usr/include/dbus-1.0/dbus/dbus-macros.h	70;"	d
+_DBUS_GNUC_NORETURN	/usr/include/dbus-1.0/dbus/dbus-macros.h	74;"	d
+_DBUS_GNUC_PRINTF	/usr/include/dbus-1.0/dbus/dbus-macros.h	68;"	d
+_DBUS_GNUC_PRINTF	/usr/include/dbus-1.0/dbus/dbus-macros.h	73;"	d
+_DBusGMethodInfo	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^struct _DBusGMethodInfo$/;"	s
+_DBusGMethodInfo::data_offset	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  int                       data_offset; $/;"	m	struct:_DBusGMethodInfo	access:public
+_DBusGMethodInfo::function	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  GCallback                 function;    $/;"	m	struct:_DBusGMethodInfo	access:public
+_DBusGMethodInfo::marshaller	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  GClosureMarshal           marshaller;  $/;"	m	struct:_DBusGMethodInfo	access:public
+_DBusGObjectInfo	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^struct _DBusGObjectInfo$/;"	s
+_DBusGObjectInfo::data	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  const char *data; $/;"	m	struct:_DBusGObjectInfo	access:public
+_DBusGObjectInfo::exported_properties	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  const char *exported_properties; $/;"	m	struct:_DBusGObjectInfo	access:public
+_DBusGObjectInfo::exported_signals	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  const char *exported_signals;  $/;"	m	struct:_DBusGObjectInfo	access:public
+_DBusGObjectInfo::format_version	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  int   format_version;$/;"	m	struct:_DBusGObjectInfo	access:public
+_DBusGObjectInfo::method_infos	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  const DBusGMethodInfo *method_infos;$/;"	m	struct:_DBusGObjectInfo	access:public
+_DBusGObjectInfo::n_method_infos	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  int   n_method_infos;                $/;"	m	struct:_DBusGObjectInfo	access:public
+_DBusGProxy	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^struct _DBusGProxy$/;"	s
+_DBusGProxy::parent	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  GObject parent;$/;"	m	struct:_DBusGProxy	access:public
+_DBusGProxyClass	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^struct _DBusGProxyClass$/;"	s
+_DBusGProxyClass::parent_class	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  GObjectClass parent_class;  \/**< Parent class *\/$/;"	m	struct:_DBusGProxyClass	access:public
+__DBUS_GVALUE_PARSE_VARIANT_H__	/usr/include/dbus-1.0/dbus/dbus-gvalue-parse-variant.h	29;"	d
+__anon10::base_vtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedVtable                        base_vtable;$/;"	m	struct:__anon10	access:public
+__anon10::get_member	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedStructGetMember               get_member;$/;"	m	struct:__anon10	access:public
+__anon10::set_member	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedStructSetMember               set_member;$/;"	m	struct:__anon10	access:public
+__anon12::cb	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  GCallback cb;$/;"	m	struct:__anon12	access:public
+__anon12::userdata	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  gpointer userdata;$/;"	m	struct:__anon12	access:public
+__anon1::dummy1	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^  void *dummy1;         \/**< Don't use this *\/$/;"	m	struct:__anon1	access:public
+__anon1::dummy12	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^  int dummy12;           \/**< Don't use this *\/$/;"	m	struct:__anon1	access:public
+__anon1::dummy17	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^  int dummy17;           \/**< Don't use this *\/$/;"	m	struct:__anon1	access:public
+__anon1::dummy2	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^  void *dummy2;         \/**< Don't use this *\/$/;"	m	struct:__anon1	access:public
+__anon1::dummy8	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^  dbus_uint32_t dummy8; \/**< Don't use this *\/$/;"	m	struct:__anon1	access:public
+__anon5::condvar_free	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarFreeFunction condvar_free; \/**< Function to free a condition variable *\/$/;"	m	struct:__anon5	access:public
+__anon5::condvar_new	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarNewFunction condvar_new; \/**< Function to create a condition variable *\/$/;"	m	struct:__anon5	access:public
+__anon5::condvar_wait	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarWaitFunction condvar_wait; \/**< Function to wait on a condition *\/$/;"	m	struct:__anon5	access:public
+__anon5::condvar_wait_timeout	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarWaitTimeoutFunction condvar_wait_timeout; \/**< Function to wait on a condition with a timeout *\/$/;"	m	struct:__anon5	access:public
+__anon5::condvar_wake_all	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarWakeAllFunction condvar_wake_all; \/**< Function to wake all threads waiting on the condition *\/$/;"	m	struct:__anon5	access:public
+__anon5::condvar_wake_one	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarWakeOneFunction condvar_wake_one; \/**< Function to wake one thread waiting on the condition *\/$/;"	m	struct:__anon5	access:public
+__anon5::mask	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  unsigned int mask; \/**< Mask indicating which functions are present. *\/$/;"	m	struct:__anon5	access:public
+__anon5::mutex_free	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusMutexFreeFunction mutex_free; \/**< Function to free a mutex; optional and deprecated. *\/$/;"	m	struct:__anon5	access:public
+__anon5::mutex_lock	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusMutexLockFunction mutex_lock; \/**< Function to lock a mutex; optional and deprecated. *\/$/;"	m	struct:__anon5	access:public
+__anon5::mutex_new	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusMutexNewFunction mutex_new; \/**< Function to create a mutex; optional and deprecated. *\/$/;"	m	struct:__anon5	access:public
+__anon5::mutex_unlock	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusMutexUnlockFunction mutex_unlock; \/**< Function to unlock a mutex; optional and deprecated. *\/$/;"	m	struct:__anon5	access:public
+__anon5::padding1	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  void (* padding1) (void); \/**< Reserved for future expansion *\/$/;"	m	struct:__anon5	access:public
+__anon5::padding2	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  void (* padding2) (void); \/**< Reserved for future expansion *\/$/;"	m	struct:__anon5	access:public
+__anon5::padding3	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  void (* padding3) (void); \/**< Reserved for future expansion *\/$/;"	m	struct:__anon5	access:public
+__anon5::padding4	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  void (* padding4) (void); \/**< Reserved for future expansion *\/$/;"	m	struct:__anon5	access:public
+__anon5::recursive_mutex_free	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusRecursiveMutexFreeFunction recursive_mutex_free; \/**< Function to free a recursive mutex *\/$/;"	m	struct:__anon5	access:public
+__anon5::recursive_mutex_lock	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusRecursiveMutexLockFunction recursive_mutex_lock; \/**< Function to lock a recursive mutex *\/$/;"	m	struct:__anon5	access:public
+__anon5::recursive_mutex_new	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusRecursiveMutexNewFunction recursive_mutex_new; \/**< Function to create a recursive mutex *\/$/;"	m	struct:__anon5	access:public
+__anon5::recursive_mutex_unlock	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusRecursiveMutexUnlockFunction recursive_mutex_unlock; \/**< Function to unlock a recursive mutex *\/$/;"	m	struct:__anon5	access:public
+__anon6::b	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  gpointer b;$/;"	m	struct:__anon6	access:public
+__anon6::c	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  guint c;$/;"	m	struct:__anon6	access:public
+__anon6::d	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  gpointer d;$/;"	m	struct:__anon6	access:public
+__anon6::specialization_type	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  GType specialization_type;$/;"	m	struct:__anon6	access:public
+__anon6::val	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  GValue *val;$/;"	m	struct:__anon6	access:public
+__anon7::constructor	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedConstructor    constructor;$/;"	m	struct:__anon7	access:public
+__anon7::copy_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedCopyFunc       copy_func;$/;"	m	struct:__anon7	access:public
+__anon7::free_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedFreeFunc       free_func;$/;"	m	struct:__anon7	access:public
+__anon7::padding2	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  gpointer                           padding2;$/;"	m	struct:__anon7	access:public
+__anon7::padding3	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  gpointer                           padding3;$/;"	m	struct:__anon7	access:public
+__anon7::simple_free_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  GDestroyNotify                     simple_free_func; \/* for type-independent freeing if possible *\/$/;"	m	struct:__anon7	access:public
+__anon8::append_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedCollectionAppendFunc          append_func;$/;"	m	struct:__anon8	access:public
+__anon8::base_vtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedVtable                        base_vtable;$/;"	m	struct:__anon8	access:public
+__anon8::end_append_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedCollectionEndAppendFunc       end_append_func;$/;"	m	struct:__anon8	access:public
+__anon8::fixed_accessor	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedCollectionFixedAccessorFunc   fixed_accessor;$/;"	m	struct:__anon8	access:public
+__anon8::iterator	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedCollectionIteratorFunc        iterator;$/;"	m	struct:__anon8	access:public
+__anon9::append_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedMapAppendFunc                 append_func;$/;"	m	struct:__anon9	access:public
+__anon9::base_vtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedVtable                        base_vtable;$/;"	m	struct:__anon9	access:public
+__anon9::iterator	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedMapIteratorFunc               iterator;$/;"	m	struct:__anon9	access:public
+_dbus_glib_async_data_free	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^_dbus_glib_async_data_free (gpointer stuff)$/;"	f	signature:(gpointer stuff)
+append_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedCollectionAppendFunc          append_func;$/;"	m	struct:__anon8	access:public
+append_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedMapAppendFunc                 append_func;$/;"	m	struct:__anon9	access:public
+b	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  gpointer b;$/;"	m	struct:__anon6	access:public
+base_vtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedVtable                        base_vtable;$/;"	m	struct:__anon10	access:public
+base_vtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedVtable                        base_vtable;$/;"	m	struct:__anon8	access:public
+base_vtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedVtable                        base_vtable;$/;"	m	struct:__anon9	access:public
+c	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  guint c;$/;"	m	struct:__anon6	access:public
+cb	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  GCallback cb;$/;"	m	struct:__anon12	access:public
+condvar_free	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarFreeFunction condvar_free; \/**< Function to free a condition variable *\/$/;"	m	struct:__anon5	access:public
+condvar_new	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarNewFunction condvar_new; \/**< Function to create a condition variable *\/$/;"	m	struct:__anon5	access:public
+condvar_wait	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarWaitFunction condvar_wait; \/**< Function to wait on a condition *\/$/;"	m	struct:__anon5	access:public
+condvar_wait_timeout	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarWaitTimeoutFunction condvar_wait_timeout; \/**< Function to wait on a condition with a timeout *\/$/;"	m	struct:__anon5	access:public
+condvar_wake_all	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarWakeAllFunction condvar_wake_all; \/**< Function to wake all threads waiting on the condition *\/$/;"	m	struct:__anon5	access:public
+condvar_wake_one	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusCondVarWakeOneFunction condvar_wake_one; \/**< Function to wake one thread waiting on the condition *\/$/;"	m	struct:__anon5	access:public
+constructor	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedConstructor    constructor;$/;"	m	struct:__anon7	access:public
+copy_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedCopyFunc       copy_func;$/;"	m	struct:__anon7	access:public
+d	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  gpointer d;$/;"	m	struct:__anon6	access:public
+data	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  const char *data; $/;"	m	struct:_DBusGObjectInfo	access:public
+data_offset	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  int                       data_offset; $/;"	m	struct:_DBusGMethodInfo	access:public
+dbus_address_entries_free	/usr/include/dbus-1.0/dbus/dbus-address.h	/^void        dbus_address_entries_free     (DBusAddressEntry  **entries);$/;"	p	signature:(DBusAddressEntry **entries)
+dbus_address_entry_get_method	/usr/include/dbus-1.0/dbus/dbus-address.h	/^const char *dbus_address_entry_get_method (DBusAddressEntry   *entry);$/;"	p	signature:(DBusAddressEntry *entry)
+dbus_address_entry_get_value	/usr/include/dbus-1.0/dbus/dbus-address.h	/^const char *dbus_address_entry_get_value  (DBusAddressEntry   *entry,$/;"	p	signature:(DBusAddressEntry *entry, const char *key)
+dbus_address_escape_value	/usr/include/dbus-1.0/dbus/dbus-address.h	/^char* dbus_address_escape_value   (const char *value);$/;"	p	signature:(const char *value)
+dbus_address_unescape_value	/usr/include/dbus-1.0/dbus/dbus-address.h	/^char* dbus_address_unescape_value (const char *value,$/;"	p	signature:(const char *value, DBusError *error)
+dbus_bool_t	/usr/include/dbus-1.0/dbus/dbus-types.h	/^typedef dbus_uint32_t  dbus_bool_t;$/;"	t
+dbus_bus_add_match	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^void            dbus_bus_add_match        (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, const char *rule, DBusError *error)
+dbus_bus_get	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^DBusConnection *dbus_bus_get              (DBusBusType     type,$/;"	p	signature:(DBusBusType type, DBusError *error)
+dbus_bus_get_id	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^char*           dbus_bus_get_id           (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, DBusError *error)
+dbus_bus_get_private	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^DBusConnection *dbus_bus_get_private      (DBusBusType     type,$/;"	p	signature:(DBusBusType type, DBusError *error)
+dbus_bus_get_unique_name	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^const char*     dbus_bus_get_unique_name  (DBusConnection *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_bus_get_unix_user	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^unsigned long   dbus_bus_get_unix_user    (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, const char *name, DBusError *error)
+dbus_bus_name_has_owner	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^dbus_bool_t     dbus_bus_name_has_owner   (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, const char *name, DBusError *error)
+dbus_bus_register	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^dbus_bool_t     dbus_bus_register         (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, DBusError *error)
+dbus_bus_release_name	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^int             dbus_bus_release_name     (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, const char *name, DBusError *error)
+dbus_bus_remove_match	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^void            dbus_bus_remove_match     (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, const char *rule, DBusError *error)
+dbus_bus_request_name	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^int             dbus_bus_request_name     (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, const char *name, unsigned int flags, DBusError *error)
+dbus_bus_set_unique_name	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^dbus_bool_t     dbus_bus_set_unique_name  (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, const char *unique_name)
+dbus_bus_start_service_by_name	/usr/include/dbus-1.0/dbus/dbus-bus.h	/^dbus_bool_t     dbus_bus_start_service_by_name (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, const char *name, dbus_uint32_t flags, dbus_uint32_t *reply, DBusError *error)
+dbus_connection_add_filter	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_add_filter    (DBusConnection            *connection,$/;"	p	signature:(DBusConnection *connection, DBusHandleMessageFunction function, void *user_data, DBusFreeFunction free_data_function)
+dbus_connection_allocate_data_slot	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_allocate_data_slot (dbus_int32_t     *slot_p);$/;"	p	signature:(dbus_int32_t *slot_p)
+dbus_connection_borrow_message	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^DBusMessage*       dbus_connection_borrow_message               (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_can_send_type	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_can_send_type                (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, int type)
+dbus_connection_close	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_close                        (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_dispatch	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^DBusDispatchStatus dbus_connection_dispatch                     (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_flush	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_flush                        (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_free_data_slot	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void        dbus_connection_free_data_slot     (dbus_int32_t     *slot_p);$/;"	p	signature:(dbus_int32_t *slot_p)
+dbus_connection_free_preallocated_send	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void                  dbus_connection_free_preallocated_send (DBusConnection       *connection,$/;"	p	signature:(DBusConnection *connection, DBusPreallocatedSend *preallocated)
+dbus_connection_get_adt_audit_session_data	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_get_adt_audit_session_data   (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, void **data, dbus_int32_t *data_size)
+dbus_connection_get_data	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void*       dbus_connection_get_data           (DBusConnection   *connection,$/;"	p	signature:(DBusConnection *connection, dbus_int32_t slot)
+dbus_connection_get_dispatch_status	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^DBusDispatchStatus dbus_connection_get_dispatch_status          (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_g_connection	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	/^DBusGConnection* dbus_connection_get_g_connection (DBusConnection  *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_is_anonymous	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_get_is_anonymous             (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_is_authenticated	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_get_is_authenticated         (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_is_connected	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_get_is_connected             (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_max_message_size	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^long dbus_connection_get_max_message_size  (DBusConnection *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_max_message_unix_fds	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^long dbus_connection_get_max_message_unix_fds (DBusConnection *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_max_received_size	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^long dbus_connection_get_max_received_size (DBusConnection *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_max_received_unix_fds	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^long dbus_connection_get_max_received_unix_fds(DBusConnection *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_object_path_data	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_get_object_path_data   (DBusConnection              *connection,$/;"	p	signature:(DBusConnection *connection, const char *path, void **data_p)
+dbus_connection_get_outgoing_size	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^long dbus_connection_get_outgoing_size     (DBusConnection *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_outgoing_unix_fds	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^long dbus_connection_get_outgoing_unix_fds (DBusConnection *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_server_id	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^char*              dbus_connection_get_server_id                (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_get_socket	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_get_socket             (DBusConnection              *connection,$/;"	p	signature:(DBusConnection *connection, int *fd)
+dbus_connection_get_unix_fd	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_get_unix_fd            (DBusConnection              *connection,$/;"	p	signature:(DBusConnection *connection, int *fd)
+dbus_connection_get_unix_process_id	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_get_unix_process_id          (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, unsigned long *pid)
+dbus_connection_get_unix_user	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_get_unix_user                (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, unsigned long *uid)
+dbus_connection_get_windows_user	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_get_windows_user             (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, char **windows_sid_p)
+dbus_connection_has_messages_to_send	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_has_messages_to_send         (DBusConnection *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_list_registered	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_list_registered        (DBusConnection              *connection,$/;"	p	signature:(DBusConnection *connection, const char *parent_path, char ***child_entries)
+dbus_connection_open	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^DBusConnection*    dbus_connection_open                         (const char                 *address,$/;"	p	signature:(const char *address, DBusError *error)
+dbus_connection_open_private	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^DBusConnection*    dbus_connection_open_private                 (const char                 *address,$/;"	p	signature:(const char *address, DBusError *error)
+dbus_connection_pop_message	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^DBusMessage*       dbus_connection_pop_message                  (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_preallocate_send	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^DBusPreallocatedSend* dbus_connection_preallocate_send       (DBusConnection       *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_read_write	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_read_write                   (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, int timeout_milliseconds)
+dbus_connection_read_write_dispatch	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_read_write_dispatch          (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, int timeout_milliseconds)
+dbus_connection_ref	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^DBusConnection*    dbus_connection_ref                          (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_register_fallback	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_register_fallback      (DBusConnection              *connection,$/;"	p	signature:(DBusConnection *connection, const char *path, const DBusObjectPathVTable *vtable, void *user_data)
+dbus_connection_register_object_path	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_register_object_path   (DBusConnection              *connection,$/;"	p	signature:(DBusConnection *connection, const char *path, const DBusObjectPathVTable *vtable, void *user_data)
+dbus_connection_remove_filter	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void        dbus_connection_remove_filter (DBusConnection            *connection,$/;"	p	signature:(DBusConnection *connection, DBusHandleMessageFunction function, void *user_data)
+dbus_connection_return_message	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_return_message               (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusMessage *message)
+dbus_connection_send	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_send                         (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusMessage *message, dbus_uint32_t *client_serial)
+dbus_connection_send_preallocated	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void                  dbus_connection_send_preallocated      (DBusConnection       *connection,$/;"	p	signature:(DBusConnection *connection, DBusPreallocatedSend *preallocated, DBusMessage *message, dbus_uint32_t *client_serial)
+dbus_connection_send_with_reply	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_send_with_reply              (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusMessage *message, DBusPendingCall **pending_return, int timeout_milliseconds)
+dbus_connection_send_with_reply_and_block	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^DBusMessage *      dbus_connection_send_with_reply_and_block    (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusMessage *message, int timeout_milliseconds, DBusError *error)
+dbus_connection_set_allow_anonymous	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_set_allow_anonymous          (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, dbus_bool_t value)
+dbus_connection_set_change_sigpipe	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void        dbus_connection_set_change_sigpipe (dbus_bool_t       will_modify_sigpipe); $/;"	p	signature:(dbus_bool_t will_modify_sigpipe)
+dbus_connection_set_data	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_set_data           (DBusConnection   *connection,$/;"	p	signature:(DBusConnection *connection, dbus_int32_t slot, void *data, DBusFreeFunction free_data_func)
+dbus_connection_set_dispatch_status_function	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_set_dispatch_status_function (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusDispatchStatusFunction function, void *data, DBusFreeFunction free_data_function)
+dbus_connection_set_exit_on_disconnect	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_set_exit_on_disconnect       (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, dbus_bool_t exit_on_disconnect)
+dbus_connection_set_max_message_size	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void dbus_connection_set_max_message_size  (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, long size)
+dbus_connection_set_max_message_unix_fds	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void dbus_connection_set_max_message_unix_fds (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, long n)
+dbus_connection_set_max_received_size	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void dbus_connection_set_max_received_size (DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, long size)
+dbus_connection_set_max_received_unix_fds	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void dbus_connection_set_max_received_unix_fds(DBusConnection *connection,$/;"	p	signature:(DBusConnection *connection, long n)
+dbus_connection_set_route_peer_messages	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_set_route_peer_messages      (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, dbus_bool_t value)
+dbus_connection_set_timeout_functions	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_set_timeout_functions        (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusAddTimeoutFunction add_function, DBusRemoveTimeoutFunction remove_function, DBusTimeoutToggledFunction toggled_function, void *data, DBusFreeFunction free_data_function)
+dbus_connection_set_unix_user_function	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_set_unix_user_function       (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusAllowUnixUserFunction function, void *data, DBusFreeFunction free_data_function)
+dbus_connection_set_wakeup_main_function	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_set_wakeup_main_function     (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusWakeupMainFunction wakeup_main_function, void *data, DBusFreeFunction free_data_function)
+dbus_connection_set_watch_functions	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t        dbus_connection_set_watch_functions          (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusAddWatchFunction add_function, DBusRemoveWatchFunction remove_function, DBusWatchToggledFunction toggled_function, void *data, DBusFreeFunction free_data_function)
+dbus_connection_set_windows_user_function	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_set_windows_user_function    (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusAllowWindowsUserFunction function, void *data, DBusFreeFunction free_data_function)
+dbus_connection_setup_with_g_main	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	/^void            dbus_connection_setup_with_g_main (DBusConnection  *connection,$/;"	p	signature:(DBusConnection *connection, GMainContext *context)
+dbus_connection_steal_borrowed_message	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_steal_borrowed_message       (DBusConnection             *connection,$/;"	p	signature:(DBusConnection *connection, DBusMessage *message)
+dbus_connection_try_register_fallback	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_try_register_fallback (DBusConnection              *connection,$/;"	p	signature:(DBusConnection *connection, const char *path, const DBusObjectPathVTable *vtable, void *user_data, DBusError *error)
+dbus_connection_try_register_object_path	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_try_register_object_path (DBusConnection              *connection,$/;"	p	signature:(DBusConnection *connection, const char *path, const DBusObjectPathVTable *vtable, void *user_data, DBusError *error)
+dbus_connection_unref	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void               dbus_connection_unref                        (DBusConnection             *connection);$/;"	p	signature:(DBusConnection *connection)
+dbus_connection_unregister_object_path	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_connection_unregister_object_path (DBusConnection              *connection,$/;"	p	signature:(DBusConnection *connection, const char *path)
+dbus_error_free	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^void        dbus_error_free      (DBusError       *error);$/;"	p	signature:(DBusError *error)
+dbus_error_has_name	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^dbus_bool_t dbus_error_has_name  (const DBusError *error,$/;"	p	signature:(const DBusError *error, const char *name)
+dbus_error_init	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^void        dbus_error_init      (DBusError       *error);$/;"	p	signature:(DBusError *error)
+dbus_error_is_set	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^dbus_bool_t dbus_error_is_set    (const DBusError *error);$/;"	p	signature:(const DBusError *error)
+dbus_free	/usr/include/dbus-1.0/dbus/dbus-memory.h	/^void  dbus_free          (void  *memory);$/;"	p	signature:(void *memory)
+dbus_free_string_array	/usr/include/dbus-1.0/dbus/dbus-memory.h	/^void dbus_free_string_array (char **str_array);$/;"	p	signature:(char **str_array)
+dbus_g_bus_get	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGConnection* dbus_g_bus_get         (DBusBusType   type,$/;"	p	signature:(DBusBusType type, GError **error)
+dbus_g_bus_get_private	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGConnection* dbus_g_bus_get_private (DBusBusType   type,$/;"	p	signature:(DBusBusType type, GMainContext *context, GError **error)
+dbus_g_connection_flush	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_connection_flush        (DBusGConnection        *connection);$/;"	p	signature:(DBusGConnection *connection)
+dbus_g_connection_get_connection	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	/^DBusConnection*  dbus_g_connection_get_connection (DBusGConnection *gconnection);$/;"	p	signature:(DBusGConnection *gconnection)
+dbus_g_connection_lookup_g_object	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^GObject *  dbus_g_connection_lookup_g_object   (DBusGConnection       *connection,$/;"	p	signature:(DBusGConnection *connection, const char *at_path)
+dbus_g_connection_open	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGConnection* dbus_g_connection_open (const gchar  *address,$/;"	p	signature:(const gchar *address, GError **error)
+dbus_g_connection_ref	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGConnection*  dbus_g_connection_ref          (DBusGConnection        *connection);$/;"	p	signature:(DBusGConnection *connection)
+dbus_g_connection_register_g_object	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void       dbus_g_connection_register_g_object (DBusGConnection       *connection,$/;"	p	signature:(DBusGConnection *connection, const char *at_path, GObject *object)
+dbus_g_connection_unref	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_connection_unref        (DBusGConnection        *connection);$/;"	p	signature:(DBusGConnection *connection)
+dbus_g_connection_unregister_g_object	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void       dbus_g_connection_unregister_g_object (DBusGConnection *connection,$/;"	p	signature:(DBusGConnection *connection, GObject *object)
+dbus_g_error_domain_register	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void       dbus_g_error_domain_register        (GQuark                domain,$/;"	p	signature:(GQuark domain, const char * default_iface, GType code_enum)
+dbus_g_error_get_name	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^const char *     dbus_g_error_get_name    (GError      *error);$/;"	p	signature:(GError *error)
+dbus_g_error_has_name	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^gboolean         dbus_g_error_has_name    (GError      *error,$/;"	p	signature:(GError *error, const char *name)
+dbus_g_error_quark	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^GQuark dbus_g_error_quark (void);$/;"	p	signature:(void)
+dbus_g_message_get_message	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	/^DBusMessage*     dbus_g_message_get_message       (DBusGMessage    *gmessage);$/;"	p	signature:(DBusGMessage *gmessage)
+dbus_g_message_ref	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGMessage*     dbus_g_message_ref             (DBusGMessage           *message);$/;"	p	signature:(DBusGMessage *message)
+dbus_g_message_unref	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_message_unref           (DBusGMessage           *message);$/;"	p	signature:(DBusGMessage *message)
+dbus_g_method_get_reply	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	/^DBusMessage*      dbus_g_method_get_reply     (DBusGMethodInvocation *context);$/;"	p	signature:(DBusGMethodInvocation *context)
+dbus_g_method_get_sender	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	/^gchar*            dbus_g_method_get_sender    (DBusGMethodInvocation *context);$/;"	p	signature:(DBusGMethodInvocation *context)
+dbus_g_method_return	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_method_return               (DBusGMethodInvocation *context, ...);$/;"	p	signature:(DBusGMethodInvocation *context, ...)
+dbus_g_method_return_error	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_method_return_error         (DBusGMethodInvocation *context, const GError *error);$/;"	p	signature:(DBusGMethodInvocation *context, const GError *error)
+dbus_g_method_send_reply	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	/^void              dbus_g_method_send_reply    (DBusGMethodInvocation *context, $/;"	p	signature:(DBusGMethodInvocation *context, DBusMessage *reply)
+dbus_g_object_register_marshaller	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void         dbus_g_object_register_marshaller      (GClosureMarshal  marshaller,$/;"	p	signature:(GClosureMarshal marshaller, GType rettype, ...)
+dbus_g_object_register_marshaller_array	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void         dbus_g_object_register_marshaller_array(GClosureMarshal  marshaller,$/;"	p	signature:(GClosureMarshal marshaller, GType rettype, guint n_types, const GType* types)
+dbus_g_object_type_install_info	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void       dbus_g_object_type_install_info     (GType                 object_type,$/;"	p	signature:(GType object_type, const DBusGObjectInfo *info)
+dbus_g_object_type_register_shadow_property	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void       dbus_g_object_type_register_shadow_property (GType         iface_type,$/;"	p	signature:(GType iface_type, const char *dbus_prop_name, const char *shadow_prop_name)
+dbus_g_proxy_add_signal	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_proxy_add_signal            (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, const char *signal_name, GType first_type, ...)
+dbus_g_proxy_begin_call	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGProxyCall *  dbus_g_proxy_begin_call            (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, const char *method, DBusGProxyCallNotify notify, gpointer user_data, GDestroyNotify destroy, GType first_arg_type, ...)
+dbus_g_proxy_begin_call_with_timeout	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGProxyCall * dbus_g_proxy_begin_call_with_timeout (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, const char *method, DBusGProxyCallNotify notify, gpointer user_data, GDestroyNotify destroy, int timeout, GType first_arg_type, ...)
+dbus_g_proxy_call	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^gboolean          dbus_g_proxy_call                  (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, const char *method, GError **error, GType first_arg_type, ...)
+dbus_g_proxy_call_no_reply	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_proxy_call_no_reply         (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, const char *method, GType first_arg_type, ...)
+dbus_g_proxy_call_with_timeout	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^gboolean          dbus_g_proxy_call_with_timeout     (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, const char *method, int timeout, GError **error, GType first_arg_type, ...)
+dbus_g_proxy_cancel_call	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_proxy_cancel_call           (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, DBusGProxyCall *call)
+dbus_g_proxy_connect_signal	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_proxy_connect_signal        (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, const char *signal_name, GCallback handler, void *data, GClosureNotify free_data_func)
+dbus_g_proxy_disconnect_signal	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_proxy_disconnect_signal     (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, const char *signal_name, GCallback handler, void *data)
+dbus_g_proxy_end_call	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^gboolean          dbus_g_proxy_end_call              (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, DBusGProxyCall *call, GError **error, GType first_arg_type, ...)
+dbus_g_proxy_get_bus_name	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^const char*       dbus_g_proxy_get_bus_name          (DBusGProxy        *proxy);$/;"	p	signature:(DBusGProxy *proxy)
+dbus_g_proxy_get_interface	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^const char*       dbus_g_proxy_get_interface         (DBusGProxy        *proxy);$/;"	p	signature:(DBusGProxy *proxy)
+dbus_g_proxy_get_path	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^const char*       dbus_g_proxy_get_path              (DBusGProxy        *proxy);$/;"	p	signature:(DBusGProxy *proxy)
+dbus_g_proxy_new_for_name	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGProxy*       dbus_g_proxy_new_for_name          (DBusGConnection   *connection,$/;"	p	signature:(DBusGConnection *connection, const char *name, const char *path, const char *iface)
+dbus_g_proxy_new_for_name_owner	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGProxy*       dbus_g_proxy_new_for_name_owner    (DBusGConnection   *connection,$/;"	p	signature:(DBusGConnection *connection, const char *name, const char *path, const char *iface, GError **error)
+dbus_g_proxy_new_for_peer	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGProxy*       dbus_g_proxy_new_for_peer          (DBusGConnection   *connection,$/;"	p	signature:(DBusGConnection *connection, const char *path, const char *iface)
+dbus_g_proxy_new_from_proxy	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^DBusGProxy*       dbus_g_proxy_new_from_proxy        (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, const char *iface, const char *path)
+dbus_g_proxy_send	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	/^void dbus_g_proxy_send (DBusGProxy    *proxy,$/;"	p	signature:(DBusGProxy *proxy, DBusMessage *message, dbus_uint32_t *client_serial)
+dbus_g_proxy_set_default_timeout	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_proxy_set_default_timeout   (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, int timeout)
+dbus_g_proxy_set_interface	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void              dbus_g_proxy_set_interface         (DBusGProxy        *proxy,$/;"	p	signature:(DBusGProxy *proxy, const char *interface_name)
+dbus_g_thread_init	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void             dbus_g_thread_init (void);$/;"	p	signature:(void)
+dbus_g_type_collection_get_fixed	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^gboolean       dbus_g_type_collection_get_fixed             (GValue                                 *value,$/;"	p	signature:(GValue *value, gpointer *data_ret, guint *len_ret)
+dbus_g_type_collection_peek_vtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^const DBusGTypeSpecializedCollectionVtable* dbus_g_type_collection_peek_vtable (GType collection_type);$/;"	p	signature:(GType collection_type)
+dbus_g_type_collection_value_iterate	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^void           dbus_g_type_collection_value_iterate         (const GValue                           *value,$/;"	p	signature:(const GValue *value, DBusGTypeSpecializedCollectionIterator iterator, gpointer user_data)
+dbus_g_type_get_collection	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^GType          dbus_g_type_get_collection                   (const char *container,$/;"	p	signature:(const char *container, GType specialization)
+dbus_g_type_get_collection_specialization	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^GType          dbus_g_type_get_collection_specialization    (GType       gtype);$/;"	p	signature:(GType gtype)
+dbus_g_type_get_map	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^GType          dbus_g_type_get_map                          (const char *container,$/;"	p	signature:(const char *container, GType key_specialization, GType value_specialization)
+dbus_g_type_get_map_key_specialization	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^GType          dbus_g_type_get_map_key_specialization       (GType       gtype);$/;"	p	signature:(GType gtype)
+dbus_g_type_get_map_value_specialization	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^GType          dbus_g_type_get_map_value_specialization     (GType       gtype);$/;"	p	signature:(GType gtype)
+dbus_g_type_get_struct	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^GType          dbus_g_type_get_struct                       (const char *container,$/;"	p	signature:(const char *container, GType first_type, ...)
+dbus_g_type_get_struct_member_type	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^GType          dbus_g_type_get_struct_member_type           (GType       gtype,$/;"	p	signature:(GType gtype, guint member)
+dbus_g_type_get_struct_size	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^guint          dbus_g_type_get_struct_size                  (GType       gtype);$/;"	p	signature:(GType gtype)
+dbus_g_type_get_structv	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^GType          dbus_g_type_get_structv                      (const char *container,$/;"	p	signature:(const char *container, guint num_members, GType *types)
+dbus_g_type_is_collection	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^gboolean       dbus_g_type_is_collection                    (GType       gtype);$/;"	p	signature:(GType gtype)
+dbus_g_type_is_map	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^gboolean       dbus_g_type_is_map                           (GType       gtype);$/;"	p	signature:(GType gtype)
+dbus_g_type_is_struct	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^gboolean       dbus_g_type_is_struct                        (GType       gtype);$/;"	p	signature:(GType gtype)
+dbus_g_type_map_peek_vtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^const DBusGTypeSpecializedMapVtable* dbus_g_type_map_peek_vtable (GType map_type);$/;"	p	signature:(GType map_type)
+dbus_g_type_map_value_iterate	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^void           dbus_g_type_map_value_iterate                (const GValue                           *value,$/;"	p	signature:(const GValue *value, DBusGTypeSpecializedMapIterator iterator, gpointer user_data)
+dbus_g_type_register_collection	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^void           dbus_g_type_register_collection        (const char                                   *name,$/;"	p	signature:(const char *name, const DBusGTypeSpecializedCollectionVtable *vtable, guint flags)
+dbus_g_type_register_map	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^void           dbus_g_type_register_map               (const char                                   *name,$/;"	p	signature:(const char *name, const DBusGTypeSpecializedMapVtable *vtable, guint flags)
+dbus_g_type_register_struct	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^void           dbus_g_type_register_struct             (const char                                   *name,$/;"	p	signature:(const char *name, const DBusGTypeSpecializedStructVtable *vtable, guint flags)
+dbus_g_type_specialized_collection_append	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^void           dbus_g_type_specialized_collection_append       (DBusGTypeSpecializedAppendContext *ctx, GValue *elt);$/;"	p	signature:(DBusGTypeSpecializedAppendContext *ctx, GValue *elt)
+dbus_g_type_specialized_collection_end_append	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^void           dbus_g_type_specialized_collection_end_append   (DBusGTypeSpecializedAppendContext *ctx);$/;"	p	signature:(DBusGTypeSpecializedAppendContext *ctx)
+dbus_g_type_specialized_construct	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^gpointer       dbus_g_type_specialized_construct            (GType gtype);$/;"	p	signature:(GType gtype)
+dbus_g_type_specialized_init	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^void           dbus_g_type_specialized_init           (void);$/;"	p	signature:(void)
+dbus_g_type_specialized_init_append	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^void           dbus_g_type_specialized_init_append             (GValue *value, DBusGTypeSpecializedAppendContext *ctx);$/;"	p	signature:(GValue *value, DBusGTypeSpecializedAppendContext *ctx)
+dbus_g_type_specialized_map_append	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^void           dbus_g_type_specialized_map_append              (DBusGTypeSpecializedAppendContext *ctx,$/;"	p	signature:(DBusGTypeSpecializedAppendContext *ctx, GValue *key, GValue *val)
+dbus_g_type_struct_get	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^gboolean       dbus_g_type_struct_get                   (const GValue *value,$/;"	p	signature:(const GValue *value, guint member, ...)
+dbus_g_type_struct_get_member	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^gboolean       dbus_g_type_struct_get_member            (const GValue *value,$/;"	p	signature:(const GValue *value, guint member, GValue *dest)
+dbus_g_type_struct_peek_vtable	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^const DBusGTypeSpecializedStructVtable* dbus_g_type_struct_peek_vtable (GType struct_type);$/;"	p	signature:(GType struct_type)
+dbus_g_type_struct_set	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^gboolean       dbus_g_type_struct_set                   (GValue *value,$/;"	p	signature:(GValue *value, guint member, ...)
+dbus_g_type_struct_set_member	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^gboolean       dbus_g_type_struct_set_member            (GValue *value,$/;"	p	signature:(GValue *value, guint member, const GValue *src)
+dbus_g_value_build_g_variant	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^GVariant *dbus_g_value_build_g_variant (const GValue *value);$/;"	p	signature:(const GValue *value)
+dbus_g_value_parse_g_variant	/usr/include/dbus-1.0/dbus/dbus-gvalue-parse-variant.h	/^void dbus_g_value_parse_g_variant (GVariant *variant, GValue *value);$/;"	p	signature:(GVariant *variant, GValue *value)
+dbus_get_local_machine_id	/usr/include/dbus-1.0/dbus/dbus-misc.h	/^char*       dbus_get_local_machine_id  (void);$/;"	p	signature:(void)
+dbus_get_version	/usr/include/dbus-1.0/dbus/dbus-misc.h	/^void        dbus_get_version           (int *major_version_p,$/;"	p	signature:(int *major_version_p, int *minor_version_p, int *micro_version_p)
+dbus_glib_global_set_disable_legacy_property_access	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^void       dbus_glib_global_set_disable_legacy_property_access (void);$/;"	p	signature:(void)
+dbus_internal_pad1	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  void (* dbus_internal_pad1) (void *); \/**< Reserved for future expansion *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+dbus_internal_pad2	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  void (* dbus_internal_pad2) (void *); \/**< Reserved for future expansion *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+dbus_internal_pad3	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  void (* dbus_internal_pad3) (void *); \/**< Reserved for future expansion *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+dbus_internal_pad4	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  void (* dbus_internal_pad4) (void *); \/**< Reserved for future expansion *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+dbus_malloc	/usr/include/dbus-1.0/dbus/dbus-memory.h	/^void* dbus_malloc        (size_t bytes);$/;"	p	signature:(size_t bytes)
+dbus_malloc0	/usr/include/dbus-1.0/dbus/dbus-memory.h	/^void* dbus_malloc0       (size_t bytes);$/;"	p	signature:(size_t bytes)
+dbus_message_allocate_data_slot	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_allocate_data_slot (dbus_int32_t     *slot_p);$/;"	p	signature:(dbus_int32_t *slot_p)
+dbus_message_append_args	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_append_args          (DBusMessage     *message,$/;"	p	signature:(DBusMessage *message, int first_arg_type, ...)
+dbus_message_append_args_valist	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_append_args_valist   (DBusMessage     *message,$/;"	p	signature:(DBusMessage *message, int first_arg_type, va_list var_args)
+dbus_message_contains_unix_fds	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_contains_unix_fds    (DBusMessage *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_copy	/usr/include/dbus-1.0/dbus/dbus-message.h	/^DBusMessage* dbus_message_copy              (const DBusMessage *message);$/;"	p	signature:(const DBusMessage *message)
+dbus_message_demarshal	/usr/include/dbus-1.0/dbus/dbus-message.h	/^DBusMessage* dbus_message_demarshal (const char *str,$/;"	p	signature:(const char *str, int len, DBusError *error)
+dbus_message_demarshal_bytes_needed	/usr/include/dbus-1.0/dbus/dbus-message.h	/^int          dbus_message_demarshal_bytes_needed (const char *str, $/;"	p	signature:(const char *str, int len)
+dbus_message_free_data_slot	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void        dbus_message_free_data_slot     (dbus_int32_t     *slot_p);$/;"	p	signature:(dbus_int32_t *slot_p)
+dbus_message_get_args	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_get_args             (DBusMessage     *message,$/;"	p	signature:(DBusMessage *message, DBusError *error, int first_arg_type, ...)
+dbus_message_get_args_valist	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_get_args_valist      (DBusMessage     *message,$/;"	p	signature:(DBusMessage *message, DBusError *error, int first_arg_type, va_list var_args)
+dbus_message_get_auto_start	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_get_auto_start   (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_data	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void*       dbus_message_get_data           (DBusMessage      *message,$/;"	p	signature:(DBusMessage *message, dbus_int32_t slot)
+dbus_message_get_destination	/usr/include/dbus-1.0/dbus/dbus-message.h	/^const char*   dbus_message_get_destination  (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_error_name	/usr/include/dbus-1.0/dbus/dbus-message.h	/^const char*   dbus_message_get_error_name   (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_interface	/usr/include/dbus-1.0/dbus/dbus-message.h	/^const char*   dbus_message_get_interface    (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_member	/usr/include/dbus-1.0/dbus/dbus-message.h	/^const char*   dbus_message_get_member       (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_no_reply	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_get_no_reply     (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_path	/usr/include/dbus-1.0/dbus/dbus-message.h	/^const char*   dbus_message_get_path         (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_path_decomposed	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_get_path_decomposed (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, char ***path)
+dbus_message_get_reply_serial	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_uint32_t dbus_message_get_reply_serial (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_sender	/usr/include/dbus-1.0/dbus/dbus-message.h	/^const char*   dbus_message_get_sender       (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_serial	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_uint32_t dbus_message_get_serial       (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_signature	/usr/include/dbus-1.0/dbus/dbus-message.h	/^const char*   dbus_message_get_signature    (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_get_type	/usr/include/dbus-1.0/dbus/dbus-message.h	/^int           dbus_message_get_type         (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_has_destination	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_has_destination  (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *bus_name)
+dbus_message_has_interface	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_has_interface    (DBusMessage   *message, $/;"	p	signature:(DBusMessage *message, const char *interface)
+dbus_message_has_member	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_has_member       (DBusMessage   *message, $/;"	p	signature:(DBusMessage *message, const char *member)
+dbus_message_has_path	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_has_path         (DBusMessage   *message, $/;"	p	signature:(DBusMessage *message, const char *object_path)
+dbus_message_has_sender	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_has_sender       (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *unique_bus_name)
+dbus_message_has_signature	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_has_signature    (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *signature)
+dbus_message_is_error	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_is_error         (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *error_name)
+dbus_message_is_method_call	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_is_method_call   (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *interface, const char *method)
+dbus_message_is_signal	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_is_signal        (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *interface, const char *signal_name)
+dbus_message_iter_abandon_container	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void        dbus_message_iter_abandon_container  (DBusMessageIter *iter,$/;"	p	signature:(DBusMessageIter *iter, DBusMessageIter *sub)
+dbus_message_iter_append_basic	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_iter_append_basic       (DBusMessageIter *iter,$/;"	p	signature:(DBusMessageIter *iter, int type, const void *value)
+dbus_message_iter_append_fixed_array	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_iter_append_fixed_array (DBusMessageIter *iter,$/;"	p	signature:(DBusMessageIter *iter, int element_type, const void *value, int n_elements)
+dbus_message_iter_close_container	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_iter_close_container    (DBusMessageIter *iter,$/;"	p	signature:(DBusMessageIter *iter, DBusMessageIter *sub)
+dbus_message_iter_get_arg_type	/usr/include/dbus-1.0/dbus/dbus-message.h	/^int         dbus_message_iter_get_arg_type     (DBusMessageIter *iter);$/;"	p	signature:(DBusMessageIter *iter)
+dbus_message_iter_get_array_len	/usr/include/dbus-1.0/dbus/dbus-message.h	/^DBUS_DEPRECATED int         dbus_message_iter_get_array_len    (DBusMessageIter *iter);$/;"	p	signature:(DBusMessageIter *iter)
+dbus_message_iter_get_basic	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void        dbus_message_iter_get_basic        (DBusMessageIter *iter,$/;"	p	signature:(DBusMessageIter *iter, void *value)
+dbus_message_iter_get_element_type	/usr/include/dbus-1.0/dbus/dbus-message.h	/^int         dbus_message_iter_get_element_type (DBusMessageIter *iter);$/;"	p	signature:(DBusMessageIter *iter)
+dbus_message_iter_get_fixed_array	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void        dbus_message_iter_get_fixed_array  (DBusMessageIter *iter,$/;"	p	signature:(DBusMessageIter *iter, void *value, int *n_elements)
+dbus_message_iter_get_signature	/usr/include/dbus-1.0/dbus/dbus-message.h	/^char*       dbus_message_iter_get_signature    (DBusMessageIter *iter);$/;"	p	signature:(DBusMessageIter *iter)
+dbus_message_iter_has_next	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_iter_has_next         (DBusMessageIter *iter);$/;"	p	signature:(DBusMessageIter *iter)
+dbus_message_iter_init	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_iter_init             (DBusMessage     *message,$/;"	p	signature:(DBusMessage *message, DBusMessageIter *iter)
+dbus_message_iter_init_append	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void        dbus_message_iter_init_append        (DBusMessage     *message,$/;"	p	signature:(DBusMessage *message, DBusMessageIter *iter)
+dbus_message_iter_next	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_iter_next             (DBusMessageIter *iter);$/;"	p	signature:(DBusMessageIter *iter)
+dbus_message_iter_open_container	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_iter_open_container     (DBusMessageIter *iter,$/;"	p	signature:(DBusMessageIter *iter, int type, const char *contained_signature, DBusMessageIter *sub)
+dbus_message_iter_recurse	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void        dbus_message_iter_recurse          (DBusMessageIter *iter,$/;"	p	signature:(DBusMessageIter *iter, DBusMessageIter *sub)
+dbus_message_lock	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void dbus_message_lock    (DBusMessage  *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_marshal	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t  dbus_message_marshal   (DBusMessage  *msg,$/;"	p	signature:(DBusMessage *msg, char **marshalled_data_p, int *len_p)
+dbus_message_new	/usr/include/dbus-1.0/dbus/dbus-message.h	/^DBusMessage* dbus_message_new               (int          message_type);$/;"	p	signature:(int message_type)
+dbus_message_new_error	/usr/include/dbus-1.0/dbus/dbus-message.h	/^DBusMessage* dbus_message_new_error         (DBusMessage *reply_to,$/;"	p	signature:(DBusMessage *reply_to, const char *error_name, const char *error_message)
+dbus_message_new_error_printf	/usr/include/dbus-1.0/dbus/dbus-message.h	/^DBusMessage* dbus_message_new_error_printf  (DBusMessage *reply_to,$/;"	p	signature:(DBusMessage *reply_to, const char *error_name, const char *error_format, ...)
+dbus_message_new_method_call	/usr/include/dbus-1.0/dbus/dbus-message.h	/^DBusMessage* dbus_message_new_method_call   (const char  *bus_name,$/;"	p	signature:(const char *bus_name, const char *path, const char *interface, const char *method)
+dbus_message_new_method_return	/usr/include/dbus-1.0/dbus/dbus-message.h	/^DBusMessage* dbus_message_new_method_return (DBusMessage *method_call);$/;"	p	signature:(DBusMessage *method_call)
+dbus_message_new_signal	/usr/include/dbus-1.0/dbus/dbus-message.h	/^DBusMessage* dbus_message_new_signal        (const char  *path,$/;"	p	signature:(const char *path, const char *interface, const char *name)
+dbus_message_ref	/usr/include/dbus-1.0/dbus/dbus-message.h	/^DBusMessage*  dbus_message_ref              (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_message_set_auto_start	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void          dbus_message_set_auto_start   (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, dbus_bool_t auto_start)
+dbus_message_set_data	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t dbus_message_set_data           (DBusMessage      *message,$/;"	p	signature:(DBusMessage *message, dbus_int32_t slot, void *data, DBusFreeFunction free_data_func)
+dbus_message_set_destination	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_set_destination  (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *destination)
+dbus_message_set_error_name	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_set_error_name   (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *name)
+dbus_message_set_interface	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_set_interface    (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *interface)
+dbus_message_set_member	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_set_member       (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *member)
+dbus_message_set_no_reply	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void          dbus_message_set_no_reply     (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, dbus_bool_t no_reply)
+dbus_message_set_path	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_set_path         (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *object_path)
+dbus_message_set_reply_serial	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_set_reply_serial (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, dbus_uint32_t reply_serial)
+dbus_message_set_sender	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t   dbus_message_set_sender       (DBusMessage   *message,$/;"	p	signature:(DBusMessage *message, const char *sender)
+dbus_message_set_serial	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void          dbus_message_set_serial       (DBusMessage   *message, $/;"	p	signature:(DBusMessage *message, dbus_uint32_t serial)
+dbus_message_type_from_string	/usr/include/dbus-1.0/dbus/dbus-message.h	/^int         dbus_message_type_from_string (const char *type_str);$/;"	p	signature:(const char *type_str)
+dbus_message_type_to_string	/usr/include/dbus-1.0/dbus/dbus-message.h	/^const char* dbus_message_type_to_string   (int type);$/;"	p	signature:(int type)
+dbus_message_unref	/usr/include/dbus-1.0/dbus/dbus-message.h	/^void          dbus_message_unref            (DBusMessage   *message);$/;"	p	signature:(DBusMessage *message)
+dbus_move_error	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^void        dbus_move_error      (DBusError       *src,$/;"	p	signature:(DBusError *src, DBusError *dest)
+dbus_new	/usr/include/dbus-1.0/dbus/dbus-memory.h	58;"	d
+dbus_new0	/usr/include/dbus-1.0/dbus/dbus-memory.h	59;"	d
+dbus_parse_address	/usr/include/dbus-1.0/dbus/dbus-address.h	/^dbus_bool_t dbus_parse_address            (const char         *address,$/;"	p	signature:(const char *address, DBusAddressEntry ***entry, int *array_len, DBusError *error)
+dbus_pending_call_allocate_data_slot	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^dbus_bool_t dbus_pending_call_allocate_data_slot (dbus_int32_t     *slot_p);$/;"	p	signature:(dbus_int32_t *slot_p)
+dbus_pending_call_block	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^void         dbus_pending_call_block         (DBusPendingCall               *pending);$/;"	p	signature:(DBusPendingCall *pending)
+dbus_pending_call_cancel	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^void         dbus_pending_call_cancel        (DBusPendingCall               *pending);$/;"	p	signature:(DBusPendingCall *pending)
+dbus_pending_call_free_data_slot	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^void        dbus_pending_call_free_data_slot     (dbus_int32_t     *slot_p);$/;"	p	signature:(dbus_int32_t *slot_p)
+dbus_pending_call_get_completed	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^dbus_bool_t  dbus_pending_call_get_completed (DBusPendingCall               *pending);$/;"	p	signature:(DBusPendingCall *pending)
+dbus_pending_call_get_data	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^void*       dbus_pending_call_get_data           (DBusPendingCall  *pending,$/;"	p	signature:(DBusPendingCall *pending, dbus_int32_t slot)
+dbus_pending_call_ref	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^DBusPendingCall* dbus_pending_call_ref       (DBusPendingCall               *pending);$/;"	p	signature:(DBusPendingCall *pending)
+dbus_pending_call_set_data	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^dbus_bool_t dbus_pending_call_set_data           (DBusPendingCall  *pending,$/;"	p	signature:(DBusPendingCall *pending, dbus_int32_t slot, void *data, DBusFreeFunction free_data_func)
+dbus_pending_call_set_notify	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^dbus_bool_t  dbus_pending_call_set_notify    (DBusPendingCall               *pending,$/;"	p	signature:(DBusPendingCall *pending, DBusPendingCallNotifyFunction function, void *user_data, DBusFreeFunction free_user_data)
+dbus_pending_call_steal_reply	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^DBusMessage* dbus_pending_call_steal_reply   (DBusPendingCall               *pending);$/;"	p	signature:(DBusPendingCall *pending)
+dbus_pending_call_unref	/usr/include/dbus-1.0/dbus/dbus-pending-call.h	/^void         dbus_pending_call_unref         (DBusPendingCall               *pending);$/;"	p	signature:(DBusPendingCall *pending)
+dbus_realloc	/usr/include/dbus-1.0/dbus/dbus-memory.h	/^void* dbus_realloc       (void  *memory,$/;"	p	signature:(void *memory, size_t bytes)
+dbus_server_allocate_data_slot	/usr/include/dbus-1.0/dbus/dbus-server.h	/^dbus_bool_t dbus_server_allocate_data_slot (dbus_int32_t     *slot_p);$/;"	p	signature:(dbus_int32_t *slot_p)
+dbus_server_disconnect	/usr/include/dbus-1.0/dbus/dbus-server.h	/^void        dbus_server_disconnect       (DBusServer     *server);$/;"	p	signature:(DBusServer *server)
+dbus_server_free_data_slot	/usr/include/dbus-1.0/dbus/dbus-server.h	/^void        dbus_server_free_data_slot     (dbus_int32_t     *slot_p);$/;"	p	signature:(dbus_int32_t *slot_p)
+dbus_server_get_address	/usr/include/dbus-1.0/dbus/dbus-server.h	/^char*       dbus_server_get_address      (DBusServer     *server);$/;"	p	signature:(DBusServer *server)
+dbus_server_get_data	/usr/include/dbus-1.0/dbus/dbus-server.h	/^void*       dbus_server_get_data           (DBusServer       *server,$/;"	p	signature:(DBusServer *server, int slot)
+dbus_server_get_id	/usr/include/dbus-1.0/dbus/dbus-server.h	/^char*       dbus_server_get_id           (DBusServer     *server);$/;"	p	signature:(DBusServer *server)
+dbus_server_get_is_connected	/usr/include/dbus-1.0/dbus/dbus-server.h	/^dbus_bool_t dbus_server_get_is_connected (DBusServer     *server);$/;"	p	signature:(DBusServer *server)
+dbus_server_listen	/usr/include/dbus-1.0/dbus/dbus-server.h	/^DBusServer* dbus_server_listen           (const char     *address,$/;"	p	signature:(const char *address, DBusError *error)
+dbus_server_ref	/usr/include/dbus-1.0/dbus/dbus-server.h	/^DBusServer* dbus_server_ref              (DBusServer     *server);$/;"	p	signature:(DBusServer *server)
+dbus_server_set_auth_mechanisms	/usr/include/dbus-1.0/dbus/dbus-server.h	/^dbus_bool_t dbus_server_set_auth_mechanisms         (DBusServer                *server,$/;"	p	signature:(DBusServer *server, const char **mechanisms)
+dbus_server_set_data	/usr/include/dbus-1.0/dbus/dbus-server.h	/^dbus_bool_t dbus_server_set_data           (DBusServer       *server,$/;"	p	signature:(DBusServer *server, int slot, void *data, DBusFreeFunction free_data_func)
+dbus_server_set_new_connection_function	/usr/include/dbus-1.0/dbus/dbus-server.h	/^void        dbus_server_set_new_connection_function (DBusServer                *server,$/;"	p	signature:(DBusServer *server, DBusNewConnectionFunction function, void *data, DBusFreeFunction free_data_function)
+dbus_server_set_timeout_functions	/usr/include/dbus-1.0/dbus/dbus-server.h	/^dbus_bool_t dbus_server_set_timeout_functions       (DBusServer                *server,$/;"	p	signature:(DBusServer *server, DBusAddTimeoutFunction add_function, DBusRemoveTimeoutFunction remove_function, DBusTimeoutToggledFunction toggled_function, void *data, DBusFreeFunction free_data_function)
+dbus_server_set_watch_functions	/usr/include/dbus-1.0/dbus/dbus-server.h	/^dbus_bool_t dbus_server_set_watch_functions         (DBusServer                *server,$/;"	p	signature:(DBusServer *server, DBusAddWatchFunction add_function, DBusRemoveWatchFunction remove_function, DBusWatchToggledFunction toggled_function, void *data, DBusFreeFunction free_data_function)
+dbus_server_setup_with_g_main	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	/^void            dbus_server_setup_with_g_main     (DBusServer      *server,$/;"	p	signature:(DBusServer *server, GMainContext *context)
+dbus_server_unref	/usr/include/dbus-1.0/dbus/dbus-server.h	/^void        dbus_server_unref            (DBusServer     *server);$/;"	p	signature:(DBusServer *server)
+dbus_set_error	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^void        dbus_set_error       (DBusError       *error,$/;"	p	signature:(DBusError *error, const char *name, const char *message, ...)
+dbus_set_error_const	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^void        dbus_set_error_const (DBusError       *error,$/;"	p	signature:(DBusError *error, const char *name, const char *message)
+dbus_set_error_from_message	/usr/include/dbus-1.0/dbus/dbus-message.h	/^dbus_bool_t  dbus_set_error_from_message  (DBusError    *error,$/;"	p	signature:(DBusError *error, DBusMessage *message)
+dbus_set_g_error	/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h	/^void dbus_set_g_error (GError   **gerror,$/;"	p	signature:(GError **gerror, DBusError *derror)
+dbus_shutdown	/usr/include/dbus-1.0/dbus/dbus-memory.h	/^void dbus_shutdown (void);$/;"	p	signature:(void)
+dbus_signature_iter_get_current_type	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^int             dbus_signature_iter_get_current_type (const DBusSignatureIter *iter);$/;"	p	signature:(const DBusSignatureIter *iter)
+dbus_signature_iter_get_element_type	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^int             dbus_signature_iter_get_element_type (const DBusSignatureIter *iter);$/;"	p	signature:(const DBusSignatureIter *iter)
+dbus_signature_iter_get_signature	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^char *          dbus_signature_iter_get_signature    (const DBusSignatureIter *iter);$/;"	p	signature:(const DBusSignatureIter *iter)
+dbus_signature_iter_init	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^void            dbus_signature_iter_init             (DBusSignatureIter       *iter,$/;"	p	signature:(DBusSignatureIter *iter, const char *signature)
+dbus_signature_iter_next	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^dbus_bool_t     dbus_signature_iter_next             (DBusSignatureIter       *iter);$/;"	p	signature:(DBusSignatureIter *iter)
+dbus_signature_iter_recurse	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^void            dbus_signature_iter_recurse          (const DBusSignatureIter *iter,$/;"	p	signature:(const DBusSignatureIter *iter, DBusSignatureIter *subiter)
+dbus_signature_validate	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^dbus_bool_t     dbus_signature_validate              (const char       *signature,$/;"	p	signature:(const char *signature, DBusError *error)
+dbus_signature_validate_single	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^dbus_bool_t     dbus_signature_validate_single       (const char       *signature,$/;"	p	signature:(const char *signature, DBusError *error)
+dbus_threads_init	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^dbus_bool_t  dbus_threads_init         (const DBusThreadFunctions *functions);$/;"	p	signature:(const DBusThreadFunctions *functions)
+dbus_threads_init_default	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^dbus_bool_t  dbus_threads_init_default (void);$/;"	p	signature:(void)
+dbus_timeout_get_data	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void*       dbus_timeout_get_data     (DBusTimeout      *timeout);$/;"	p	signature:(DBusTimeout *timeout)
+dbus_timeout_get_enabled	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_timeout_get_enabled  (DBusTimeout      *timeout);$/;"	p	signature:(DBusTimeout *timeout)
+dbus_timeout_get_interval	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^int         dbus_timeout_get_interval (DBusTimeout      *timeout);$/;"	p	signature:(DBusTimeout *timeout)
+dbus_timeout_handle	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t dbus_timeout_handle       (DBusTimeout      *timeout);$/;"	p	signature:(DBusTimeout *timeout)
+dbus_timeout_set_data	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void        dbus_timeout_set_data     (DBusTimeout      *timeout,$/;"	p	signature:(DBusTimeout *timeout, void *data, DBusFreeFunction free_data_function)
+dbus_type_is_basic	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^dbus_bool_t     dbus_type_is_basic                   (int            typecode);$/;"	p	signature:(int typecode)
+dbus_type_is_container	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^dbus_bool_t     dbus_type_is_container               (int            typecode);$/;"	p	signature:(int typecode)
+dbus_type_is_fixed	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^dbus_bool_t     dbus_type_is_fixed                   (int            typecode);$/;"	p	signature:(int typecode)
+dbus_unichar_t	/usr/include/dbus-1.0/dbus/dbus-types.h	/^typedef dbus_uint32_t  dbus_unichar_t;$/;"	t
+dbus_watch_get_data	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void*        dbus_watch_get_data    (DBusWatch        *watch);$/;"	p	signature:(DBusWatch *watch)
+dbus_watch_get_enabled	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t  dbus_watch_get_enabled (DBusWatch        *watch);$/;"	p	signature:(DBusWatch *watch)
+dbus_watch_get_fd	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^DBUS_DEPRECATED int dbus_watch_get_fd      (DBusWatch        *watch);$/;"	p	signature:(DBusWatch *watch)
+dbus_watch_get_flags	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^unsigned int dbus_watch_get_flags   (DBusWatch        *watch);$/;"	p	signature:(DBusWatch *watch)
+dbus_watch_get_socket	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^int          dbus_watch_get_socket  (DBusWatch        *watch);$/;"	p	signature:(DBusWatch *watch)
+dbus_watch_get_unix_fd	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^int          dbus_watch_get_unix_fd (DBusWatch        *watch);$/;"	p	signature:(DBusWatch *watch)
+dbus_watch_handle	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^dbus_bool_t  dbus_watch_handle      (DBusWatch        *watch,$/;"	p	signature:(DBusWatch *watch, unsigned int flags)
+dbus_watch_set_data	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^void         dbus_watch_set_data    (DBusWatch        *watch,$/;"	p	signature:(DBusWatch *watch, void *data, DBusFreeFunction free_data_function)
+dummy1	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  unsigned int dummy1 : 1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+dummy1	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  void *dummy1;         \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+dummy1	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^  void *dummy1;         \/**< Don't use this *\/$/;"	m	struct:__anon1	access:public
+dummy10	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy10;          \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+dummy11	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy11;          \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+dummy12	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^  int dummy12;           \/**< Don't use this *\/$/;"	m	struct:__anon1	access:public
+dummy17	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^  int dummy17;           \/**< Don't use this *\/$/;"	m	struct:__anon1	access:public
+dummy2	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  unsigned int dummy2 : 1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+dummy2	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  void *dummy2;         \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+dummy2	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^  void *dummy2;         \/**< Don't use this *\/$/;"	m	struct:__anon1	access:public
+dummy3	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  unsigned int dummy3 : 1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+dummy3	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  dbus_uint32_t dummy3; \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+dummy4	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  unsigned int dummy4 : 1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+dummy4	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy4;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+dummy5	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  unsigned int dummy5 : 1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+dummy5	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy5;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+dummy6	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy6;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+dummy7	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy7;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+dummy8	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy8;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+dummy8	/usr/include/dbus-1.0/dbus/dbus-signature.h	/^  dbus_uint32_t dummy8; \/**< Don't use this *\/$/;"	m	struct:__anon1	access:public
+dummy9	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int dummy9;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+end_append_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedCollectionEndAppendFunc       end_append_func;$/;"	m	struct:__anon8	access:public
+exported_properties	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  const char *exported_properties; $/;"	m	struct:_DBusGObjectInfo	access:public
+exported_signals	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  const char *exported_signals;  $/;"	m	struct:_DBusGObjectInfo	access:public
+fixed_accessor	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedCollectionFixedAccessorFunc   fixed_accessor;$/;"	m	struct:__anon8	access:public
+format_version	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  int   format_version;$/;"	m	struct:_DBusGObjectInfo	access:public
+free_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedFreeFunc       free_func;$/;"	m	struct:__anon7	access:public
+function	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  GCallback                 function;    $/;"	m	struct:_DBusGMethodInfo	access:public
+get_member	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedStructGetMember               get_member;$/;"	m	struct:__anon10	access:public
+iterator	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedCollectionIteratorFunc        iterator;$/;"	m	struct:__anon8	access:public
+iterator	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedMapIteratorFunc               iterator;$/;"	m	struct:__anon9	access:public
+marshaller	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  GClosureMarshal           marshaller;  $/;"	m	struct:_DBusGMethodInfo	access:public
+mask	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  unsigned int mask; \/**< Mask indicating which functions are present. *\/$/;"	m	struct:__anon5	access:public
+message	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  const char *message; \/**< public error message field *\/$/;"	m	struct:DBusError	access:public
+message_function	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBusObjectPathMessageFunction      message_function; \/**< Function to handle messages *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+method_infos	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  const DBusGMethodInfo *method_infos;$/;"	m	struct:_DBusGObjectInfo	access:public
+mutex_free	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusMutexFreeFunction mutex_free; \/**< Function to free a mutex; optional and deprecated. *\/$/;"	m	struct:__anon5	access:public
+mutex_lock	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusMutexLockFunction mutex_lock; \/**< Function to lock a mutex; optional and deprecated. *\/$/;"	m	struct:__anon5	access:public
+mutex_new	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusMutexNewFunction mutex_new; \/**< Function to create a mutex; optional and deprecated. *\/$/;"	m	struct:__anon5	access:public
+mutex_unlock	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusMutexUnlockFunction mutex_unlock; \/**< Function to unlock a mutex; optional and deprecated. *\/$/;"	m	struct:__anon5	access:public
+n_method_infos	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  int   n_method_infos;                $/;"	m	struct:_DBusGObjectInfo	access:public
+name	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  const char *name;    \/**< public error name field *\/$/;"	m	struct:DBusError	access:public
+org_freedesktop_DBus_Introspectable_introspect	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_Introspectable_introspect (DBusGProxy *proxy, char ** OUT_data, GError **error)$/;"	f	signature:(DBusGProxy *proxy, char ** OUT_data, GError **error)
+org_freedesktop_DBus_Introspectable_introspect_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_Introspectable_introspect_async (DBusGProxy *proxy, org_freedesktop_DBus_Introspectable_introspect_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, org_freedesktop_DBus_Introspectable_introspect_reply callback, gpointer userdata)
+org_freedesktop_DBus_Introspectable_introspect_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_Introspectable_introspect_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_Introspectable_introspect_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_Introspectable_introspect_reply) (DBusGProxy *proxy, char * OUT_data, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_add_match	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_add_match (DBusGProxy *proxy, const char * IN_arg0, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, GError **error)
+org_freedesktop_DBus_add_match_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_add_match_async (DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_add_match_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_add_match_reply callback, gpointer userdata)
+org_freedesktop_DBus_add_match_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_add_match_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_add_match_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_add_match_reply) (DBusGProxy *proxy, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_get_connection_se_linux_security_context	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_connection_se_linux_security_context (DBusGProxy *proxy, const char * IN_arg0, GArray** OUT_arg1, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, GArray** OUT_arg1, GError **error)
+org_freedesktop_DBus_get_connection_se_linux_security_context_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_connection_se_linux_security_context_async (DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_get_connection_se_linux_security_context_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_get_connection_se_linux_security_context_reply callback, gpointer userdata)
+org_freedesktop_DBus_get_connection_se_linux_security_context_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_connection_se_linux_security_context_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_get_connection_se_linux_security_context_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_get_connection_se_linux_security_context_reply) (DBusGProxy *proxy, GArray *OUT_arg1, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_get_connection_unix_process_id	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_connection_unix_process_id (DBusGProxy *proxy, const char * IN_arg0, guint* OUT_arg1, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, guint* OUT_arg1, GError **error)
+org_freedesktop_DBus_get_connection_unix_process_id_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_connection_unix_process_id_async (DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_get_connection_unix_process_id_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_get_connection_unix_process_id_reply callback, gpointer userdata)
+org_freedesktop_DBus_get_connection_unix_process_id_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_connection_unix_process_id_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_get_connection_unix_process_id_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_get_connection_unix_process_id_reply) (DBusGProxy *proxy, guint OUT_arg1, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_get_connection_unix_user	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_connection_unix_user (DBusGProxy *proxy, const char * IN_arg0, guint* OUT_arg1, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, guint* OUT_arg1, GError **error)
+org_freedesktop_DBus_get_connection_unix_user_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_connection_unix_user_async (DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_get_connection_unix_user_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_get_connection_unix_user_reply callback, gpointer userdata)
+org_freedesktop_DBus_get_connection_unix_user_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_connection_unix_user_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_get_connection_unix_user_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_get_connection_unix_user_reply) (DBusGProxy *proxy, guint OUT_arg1, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_get_name_owner	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_name_owner (DBusGProxy *proxy, const char * IN_arg0, char ** OUT_arg1, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, char ** OUT_arg1, GError **error)
+org_freedesktop_DBus_get_name_owner_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_name_owner_async (DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_get_name_owner_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_get_name_owner_reply callback, gpointer userdata)
+org_freedesktop_DBus_get_name_owner_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_get_name_owner_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_get_name_owner_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_get_name_owner_reply) (DBusGProxy *proxy, char * OUT_arg1, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_hello	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_hello (DBusGProxy *proxy, char ** OUT_arg0, GError **error)$/;"	f	signature:(DBusGProxy *proxy, char ** OUT_arg0, GError **error)
+org_freedesktop_DBus_hello_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_hello_async (DBusGProxy *proxy, org_freedesktop_DBus_hello_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, org_freedesktop_DBus_hello_reply callback, gpointer userdata)
+org_freedesktop_DBus_hello_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_hello_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_hello_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_hello_reply) (DBusGProxy *proxy, char * OUT_arg0, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_list_activatable_names	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_list_activatable_names (DBusGProxy *proxy, char *** OUT_arg0, GError **error)$/;"	f	signature:(DBusGProxy *proxy, char *** OUT_arg0, GError **error)
+org_freedesktop_DBus_list_activatable_names_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_list_activatable_names_async (DBusGProxy *proxy, org_freedesktop_DBus_list_activatable_names_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, org_freedesktop_DBus_list_activatable_names_reply callback, gpointer userdata)
+org_freedesktop_DBus_list_activatable_names_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_list_activatable_names_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_list_activatable_names_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_list_activatable_names_reply) (DBusGProxy *proxy, char * *OUT_arg0, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_list_names	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_list_names (DBusGProxy *proxy, char *** OUT_arg0, GError **error)$/;"	f	signature:(DBusGProxy *proxy, char *** OUT_arg0, GError **error)
+org_freedesktop_DBus_list_names_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_list_names_async (DBusGProxy *proxy, org_freedesktop_DBus_list_names_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, org_freedesktop_DBus_list_names_reply callback, gpointer userdata)
+org_freedesktop_DBus_list_names_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_list_names_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_list_names_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_list_names_reply) (DBusGProxy *proxy, char * *OUT_arg0, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_list_queued_owners	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_list_queued_owners (DBusGProxy *proxy, const char * IN_arg0, char *** OUT_arg1, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, char *** OUT_arg1, GError **error)
+org_freedesktop_DBus_list_queued_owners_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_list_queued_owners_async (DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_list_queued_owners_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_list_queued_owners_reply callback, gpointer userdata)
+org_freedesktop_DBus_list_queued_owners_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_list_queued_owners_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_list_queued_owners_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_list_queued_owners_reply) (DBusGProxy *proxy, char * *OUT_arg1, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_name_has_owner	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_name_has_owner (DBusGProxy *proxy, const char * IN_arg0, gboolean* OUT_arg1, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, gboolean* OUT_arg1, GError **error)
+org_freedesktop_DBus_name_has_owner_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_name_has_owner_async (DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_name_has_owner_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_name_has_owner_reply callback, gpointer userdata)
+org_freedesktop_DBus_name_has_owner_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_name_has_owner_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_name_has_owner_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_name_has_owner_reply) (DBusGProxy *proxy, gboolean OUT_arg1, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_release_name	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_release_name (DBusGProxy *proxy, const char * IN_arg0, guint* OUT_arg1, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, guint* OUT_arg1, GError **error)
+org_freedesktop_DBus_release_name_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_release_name_async (DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_release_name_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_release_name_reply callback, gpointer userdata)
+org_freedesktop_DBus_release_name_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_release_name_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_release_name_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_release_name_reply) (DBusGProxy *proxy, guint OUT_arg1, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_reload_config	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_reload_config (DBusGProxy *proxy, GError **error)$/;"	f	signature:(DBusGProxy *proxy, GError **error)
+org_freedesktop_DBus_reload_config_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_reload_config_async (DBusGProxy *proxy, org_freedesktop_DBus_reload_config_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, org_freedesktop_DBus_reload_config_reply callback, gpointer userdata)
+org_freedesktop_DBus_reload_config_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_reload_config_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_reload_config_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_reload_config_reply) (DBusGProxy *proxy, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_remove_match	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_remove_match (DBusGProxy *proxy, const char * IN_arg0, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, GError **error)
+org_freedesktop_DBus_remove_match_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_remove_match_async (DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_remove_match_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, org_freedesktop_DBus_remove_match_reply callback, gpointer userdata)
+org_freedesktop_DBus_remove_match_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_remove_match_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_remove_match_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_remove_match_reply) (DBusGProxy *proxy, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_request_name	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_request_name (DBusGProxy *proxy, const char * IN_arg0, const guint IN_arg1, guint* OUT_arg2, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, const guint IN_arg1, guint* OUT_arg2, GError **error)
+org_freedesktop_DBus_request_name_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_request_name_async (DBusGProxy *proxy, const char * IN_arg0, const guint IN_arg1, org_freedesktop_DBus_request_name_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, const guint IN_arg1, org_freedesktop_DBus_request_name_reply callback, gpointer userdata)
+org_freedesktop_DBus_request_name_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_request_name_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_request_name_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_request_name_reply) (DBusGProxy *proxy, guint OUT_arg2, GError *error, gpointer userdata);$/;"	t
+org_freedesktop_DBus_start_service_by_name	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_start_service_by_name (DBusGProxy *proxy, const char * IN_arg0, const guint IN_arg1, guint* OUT_arg2, GError **error)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, const guint IN_arg1, guint* OUT_arg2, GError **error)
+org_freedesktop_DBus_start_service_by_name_async	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_start_service_by_name_async (DBusGProxy *proxy, const char * IN_arg0, const guint IN_arg1, org_freedesktop_DBus_start_service_by_name_reply callback, gpointer userdata)$/;"	f	signature:(DBusGProxy *proxy, const char * IN_arg0, const guint IN_arg1, org_freedesktop_DBus_start_service_by_name_reply callback, gpointer userdata)
+org_freedesktop_DBus_start_service_by_name_async_callback	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^org_freedesktop_DBus_start_service_by_name_async_callback (DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)$/;"	f	signature:(DBusGProxy *proxy, DBusGProxyCall *call, void *user_data)
+org_freedesktop_DBus_start_service_by_name_reply	/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h	/^typedef void (*org_freedesktop_DBus_start_service_by_name_reply) (DBusGProxy *proxy, guint OUT_arg2, GError *error, gpointer userdata);$/;"	t
+pad1	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int pad1;             \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+pad2	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  int pad2;             \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+pad3	/usr/include/dbus-1.0/dbus/dbus-message.h	/^  void *pad3;           \/**< Don't use this *\/$/;"	m	struct:DBusMessageIter	access:public
+padding1	/usr/include/dbus-1.0/dbus/dbus-errors.h	/^  void *padding1; \/**< placeholder *\/$/;"	m	struct:DBusError	access:public
+padding1	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  void (* padding1) (void); \/**< Reserved for future expansion *\/$/;"	m	struct:__anon5	access:public
+padding2	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  gpointer                           padding2;$/;"	m	struct:__anon7	access:public
+padding2	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  void (* padding2) (void); \/**< Reserved for future expansion *\/$/;"	m	struct:__anon5	access:public
+padding3	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  gpointer                           padding3;$/;"	m	struct:__anon7	access:public
+padding3	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  void (* padding3) (void); \/**< Reserved for future expansion *\/$/;"	m	struct:__anon5	access:public
+padding4	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  void (* padding4) (void); \/**< Reserved for future expansion *\/$/;"	m	struct:__anon5	access:public
+parent	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  GObject parent;$/;"	m	struct:_DBusGProxy	access:public
+parent_class	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  GObjectClass parent_class;  \/**< Parent class *\/$/;"	m	struct:_DBusGProxyClass	access:public
+recursive_mutex_free	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusRecursiveMutexFreeFunction recursive_mutex_free; \/**< Function to free a recursive mutex *\/$/;"	m	struct:__anon5	access:public
+recursive_mutex_lock	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusRecursiveMutexLockFunction recursive_mutex_lock; \/**< Function to lock a recursive mutex *\/$/;"	m	struct:__anon5	access:public
+recursive_mutex_new	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusRecursiveMutexNewFunction recursive_mutex_new; \/**< Function to create a recursive mutex *\/$/;"	m	struct:__anon5	access:public
+recursive_mutex_unlock	/usr/include/dbus-1.0/dbus/dbus-threads.h	/^  DBusRecursiveMutexUnlockFunction recursive_mutex_unlock; \/**< Function to unlock a recursive mutex *\/$/;"	m	struct:__anon5	access:public
+set_member	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  DBusGTypeSpecializedStructSetMember               set_member;$/;"	m	struct:__anon10	access:public
+simple_free_func	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  GDestroyNotify                     simple_free_func; \/* for type-independent freeing if possible *\/$/;"	m	struct:__anon7	access:public
+specialization_type	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  GType specialization_type;$/;"	m	struct:__anon6	access:public
+unregister_function	/usr/include/dbus-1.0/dbus/dbus-connection.h	/^  DBusObjectPathUnregisterFunction   unregister_function; \/**< Function to unregister this handler *\/$/;"	m	struct:DBusObjectPathVTable	access:public
+userdata	/usr/include/dbus-1.0/dbus/dbus-glib.h	/^  gpointer userdata;$/;"	m	struct:__anon12	access:public
+val	/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h	/^  GValue *val;$/;"	m	struct:__anon6	access:public

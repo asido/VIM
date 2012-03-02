@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+WEOF	/usr/include/wctype.h	39;"	d
+_ISwalnum	/usr/include/wctype.h	/^  _ISwalnum = _ISwbit (__ISwalnum)	\/* Alphanumeric.  *\/$/;"	e	enum:__anon1
+_ISwalpha	/usr/include/wctype.h	/^  _ISwalpha = _ISwbit (__ISwalpha),	\/* Alphabetic.  *\/$/;"	e	enum:__anon1
+_ISwbit	/usr/include/wctype.h	63;"	d
+_ISwblank	/usr/include/wctype.h	/^  _ISwblank = _ISwbit (__ISwblank),	\/* Blank (usually SPC and TAB).  *\/$/;"	e	enum:__anon1
+_ISwcntrl	/usr/include/wctype.h	/^  _ISwcntrl = _ISwbit (__ISwcntrl),	\/* Control character.  *\/$/;"	e	enum:__anon1
+_ISwdigit	/usr/include/wctype.h	/^  _ISwdigit = _ISwbit (__ISwdigit),	\/* Numeric.  *\/$/;"	e	enum:__anon1
+_ISwgraph	/usr/include/wctype.h	/^  _ISwgraph = _ISwbit (__ISwgraph),	\/* Graphical.  *\/$/;"	e	enum:__anon1
+_ISwlower	/usr/include/wctype.h	/^  _ISwlower = _ISwbit (__ISwlower),	\/* lowercase.  *\/$/;"	e	enum:__anon1
+_ISwprint	/usr/include/wctype.h	/^  _ISwprint = _ISwbit (__ISwprint),	\/* Printing.  *\/$/;"	e	enum:__anon1
+_ISwpunct	/usr/include/wctype.h	/^  _ISwpunct = _ISwbit (__ISwpunct),	\/* Punctuation.  *\/$/;"	e	enum:__anon1
+_ISwspace	/usr/include/wctype.h	/^  _ISwspace = _ISwbit (__ISwspace),	\/* Whitespace.  *\/$/;"	e	enum:__anon1
+_ISwupper	/usr/include/wctype.h	/^  _ISwupper = _ISwbit (__ISwupper),	\/* UPPERCASE.  *\/$/;"	e	enum:__anon1
+_ISwxdigit	/usr/include/wctype.h	/^  _ISwxdigit = _ISwbit (__ISwxdigit),	\/* Hexadecimal numeric.  *\/$/;"	e	enum:__anon1
+_WCTYPE_H	/usr/include/wctype.h	30;"	d
+__ISwalnum	/usr/include/wctype.h	/^  __ISwalnum = 11,			\/* Alphanumeric.  *\/$/;"	e	enum:__anon1
+__ISwalpha	/usr/include/wctype.h	/^  __ISwalpha = 2,			\/* Alphabetic.  *\/$/;"	e	enum:__anon1
+__ISwblank	/usr/include/wctype.h	/^  __ISwblank = 8,			\/* Blank (usually SPC and TAB).  *\/$/;"	e	enum:__anon1
+__ISwcntrl	/usr/include/wctype.h	/^  __ISwcntrl = 9,			\/* Control character.  *\/$/;"	e	enum:__anon1
+__ISwdigit	/usr/include/wctype.h	/^  __ISwdigit = 3,			\/* Numeric.  *\/$/;"	e	enum:__anon1
+__ISwgraph	/usr/include/wctype.h	/^  __ISwgraph = 7,			\/* Graphical.  *\/$/;"	e	enum:__anon1
+__ISwlower	/usr/include/wctype.h	/^  __ISwlower = 1,			\/* lowercase.  *\/$/;"	e	enum:__anon1
+__ISwprint	/usr/include/wctype.h	/^  __ISwprint = 6,			\/* Printing.  *\/$/;"	e	enum:__anon1
+__ISwpunct	/usr/include/wctype.h	/^  __ISwpunct = 10,			\/* Punctuation.  *\/$/;"	e	enum:__anon1
+__ISwspace	/usr/include/wctype.h	/^  __ISwspace = 5,			\/* Whitespace.  *\/$/;"	e	enum:__anon1
+__ISwupper	/usr/include/wctype.h	/^  __ISwupper = 0,			\/* UPPERCASE.  *\/$/;"	e	enum:__anon1
+__ISwxdigit	/usr/include/wctype.h	/^  __ISwxdigit = 4,			\/* Hexadecimal numeric.  *\/$/;"	e	enum:__anon1
+__iswxxx_defined	/usr/include/wctype.h	48;"	d
+__need_iswxxx	/usr/include/wctype.h	42;"	d
+__need_wint_t	/usr/include/wctype.h	33;"	d
+wctrans_t	/usr/include/wctype.h	/^typedef __const __int32_t *wctrans_t;$/;"	t
+wctype_t	/usr/include/wctype.h	/^typedef unsigned long int wctype_t;$/;"	t

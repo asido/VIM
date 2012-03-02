@@ -1,0 +1,1208 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+%	matchit.vim	/^nnoremap <silent> %  :<C-U>call <SID>Match_wrapper('',1,'n') <CR>$/;"	m
+%	matchit.vim	/^onoremap <silent> %  v:<C-U>call <SID>Match_wrapper('',1,'o') <CR>$/;"	m
+%	matchit.vim	/^vnoremap <silent> %  :<C-U>call <SID>Match_wrapper('',1,'v') <CR>m'gv``$/;"	m
+<BS>	vrackets.vim	/^inoremap <silent> <BS> <C-R>=VracketBackspace()<CR>$/;"	m
+<C-F11>	genincludes.vim	/^nnoremap <C-F11> :GenIncludes <CR>$/;"	m
+<CR>	fuzzyfinder.vim	/^  cmap <silent> <expr> <CR> <SID>OnCmdCR()$/;"	m
+<Leader>B	ruby-block-conv.vim	/^nmap <Leader>B :call <SID>RubyBlockSwitchDelimiters()<cr>$/;"	m
+<Leader>B	ruby-block-conv.vim	/^vmap <Leader>B :call <SID>RubyBlockSwitchDelimiters()<cr>$/;"	m
+<Leader>TT	tasklist.vim	/^    map <unique> <Leader>TT <Plug>TaskList$/;"	m
+<Leader>vA	EasyGrep.vim	/^    map <silent> <Leader>vA <plug>EgMapGrepCurrentWord_A$/;"	m
+<Leader>vA	EasyGrep.vim	/^    vmap <silent> <Leader>vA <plug>EgMapGrepSelection_A$/;"	m
+<Leader>vR	EasyGrep.vim	/^    map <silent> <Leader>vR <plug>EgMapReplaceCurrentWord_R$/;"	m
+<Leader>vR	EasyGrep.vim	/^    vmap <silent> <Leader>vR <plug>EgMapReplaceSelection_R$/;"	m
+<Leader>vV	EasyGrep.vim	/^    map <silent> <Leader>vV <plug>EgMapGrepCurrentWord_V$/;"	m
+<Leader>vV	EasyGrep.vim	/^    vmap <silent> <Leader>vV <plug>EgMapGrepSelection_V$/;"	m
+<Leader>va	EasyGrep.vim	/^    map <silent> <Leader>va <plug>EgMapGrepCurrentWord_a$/;"	m
+<Leader>va	EasyGrep.vim	/^    vmap <silent> <Leader>va <plug>EgMapGrepSelection_a$/;"	m
+<Leader>vo	EasyGrep.vim	/^    map <silent> <Leader>vo <plug>EgMapGrepOptions$/;"	m
+<Leader>vr	EasyGrep.vim	/^    map <silent> <Leader>vr <plug>EgMapReplaceCurrentWord_r$/;"	m
+<Leader>vr	EasyGrep.vim	/^    vmap <silent> <Leader>vr <plug>EgMapReplaceSelection_r$/;"	m
+<Leader>vv	EasyGrep.vim	/^    map <silent> <Leader>vv <plug>EgMapGrepCurrentWord_v$/;"	m
+<Leader>vv	EasyGrep.vim	/^    vmap <silent> <Leader>vv <plug>EgMapGrepSelection_v$/;"	m
+<Plug>TaskList	tasklist.vim	/^nnoremap <unique> <script> <Plug>TaskList :TaskList<CR>$/;"	m
+<SID>xx	ruby-block-conv.vim	/^map <SID>xx <SID>xx$/;"	m
+<SID>xx	taglist.vim	/^    map <SID>xx <SID>xx$/;"	m
+<plug>EgMapGrepCurrentWord_A	EasyGrep.vim	/^    nmap <silent> <unique> <script> <plug>EgMapGrepCurrentWord_A    :call <sid>GrepCurrentWord("add", 1)<CR>$/;"	m
+<plug>EgMapGrepCurrentWord_V	EasyGrep.vim	/^    nmap <silent> <unique> <script> <plug>EgMapGrepCurrentWord_V    :call <sid>GrepCurrentWord("", 1)<CR>$/;"	m
+<plug>EgMapGrepCurrentWord_a	EasyGrep.vim	/^    nmap <silent> <unique> <script> <plug>EgMapGrepCurrentWord_a    :call <sid>GrepCurrentWord("add", 0)<CR>$/;"	m
+<plug>EgMapGrepCurrentWord_v	EasyGrep.vim	/^    nmap <silent> <unique> <script> <plug>EgMapGrepCurrentWord_v    :call <sid>GrepCurrentWord("", 0)<CR>$/;"	m
+<plug>EgMapGrepOptions	EasyGrep.vim	/^    nmap <silent> <unique> <script> <plug>EgMapGrepOptions          :call <sid>GrepOptions()<CR>$/;"	m
+<plug>EgMapGrepSelection_A	EasyGrep.vim	/^    vmap <silent> <unique> <script> <plug>EgMapGrepSelection_A     y:call <sid>GrepSelection("add", 1)<CR>$/;"	m
+<plug>EgMapGrepSelection_V	EasyGrep.vim	/^    vmap <silent> <unique> <script> <plug>EgMapGrepSelection_V     y:call <sid>GrepSelection("", 1)<CR>$/;"	m
+<plug>EgMapGrepSelection_a	EasyGrep.vim	/^    vmap <silent> <unique> <script> <plug>EgMapGrepSelection_a     y:call <sid>GrepSelection("add", 0)<CR>$/;"	m
+<plug>EgMapGrepSelection_v	EasyGrep.vim	/^    vmap <silent> <unique> <script> <plug>EgMapGrepSelection_v     y:call <sid>GrepSelection("", 0)<CR>$/;"	m
+<plug>EgMapReplaceCurrentWord_R	EasyGrep.vim	/^    nmap <silent> <unique> <script> <plug>EgMapReplaceCurrentWord_R :call <sid>ReplaceCurrentWord(1)<CR>$/;"	m
+<plug>EgMapReplaceCurrentWord_r	EasyGrep.vim	/^    nmap <silent> <unique> <script> <plug>EgMapReplaceCurrentWord_r :call <sid>ReplaceCurrentWord(0)<CR>$/;"	m
+<plug>EgMapReplaceSelection_R	EasyGrep.vim	/^    vmap <silent> <unique> <script> <plug>EgMapReplaceSelection_R  y:call <sid>ReplaceSelection(1)<CR>$/;"	m
+<plug>EgMapReplaceSelection_r	EasyGrep.vim	/^    vmap <silent> <unique> <script> <plug>EgMapReplaceSelection_r  y:call <sid>ReplaceSelection(0)<CR>$/;"	m
+AcpDisable	acp.vim	/^command! -bar -narg=0 AcpDisable call acp#disable()$/;"	c
+AcpEnable	acp.vim	/^command! -bar -narg=0 AcpEnable  call acp#enable()$/;"	c
+AcpLock	acp.vim	/^command! -bar -narg=0 AcpLock    call acp#lock()$/;"	c
+AcpUnlock	acp.vim	/^command! -bar -narg=0 AcpUnlock  call acp#unlock()$/;"	c
+ActivateAll	EasyGrep.vim	/^function! <sid>ActivateAll()$/;"	f
+ActivateBuffers	EasyGrep.vim	/^function! <sid>ActivateBuffers()$/;"	f
+ActivateChoice	EasyGrep.vim	/^function! s:ActivateChoice(choice)$/;"	f
+ActivateTracked	EasyGrep.vim	/^function! <sid>ActivateTracked()$/;"	f
+ActivateUser	EasyGrep.vim	/^function! <sid>ActivateUser()$/;"	f
+AddBufferDirToPatternList	EasyGrep.vim	/^function! s:AddBufferDirToPatternList(str,sp)$/;"	f
+Agrep	grep.vim	/^command! -nargs=* -complete=file Agrep$/;"	c
+AgrepAdd	grep.vim	/^command! -nargs=* -complete=file AgrepAdd$/;"	c
+Agrep_Path	grep.vim	/^    let Agrep_Path = 'agrep'$/;"	v
+AutoComplPopDisable	acp.vim	/^command! -bar -narg=0 AutoComplPopDisable AcpDisable$/;"	c
+AutoComplPopEnable	acp.vim	/^command! -bar -narg=0 AutoComplPopEnable  AcpEnable$/;"	c
+AutoComplPopLock	acp.vim	/^command! -bar -narg=0 AutoComplPopLock    AcpLock$/;"	c
+AutoComplPopUnlock	acp.vim	/^command! -bar -narg=0 AutoComplPopUnlock  AcpUnlock$/;"	c
+AutoHighlightToggle	autohighlight.vim	/^function! AutoHighlightToggle()$/;"	f
+B	ruby-block-conv.vim	/^command! -range B <line1>,<line2>call <SID>RubyBlockSwitchDelimiters()$/;"	c
+BackToForwardSlash	EasyGrep.vim	/^function! s:BackToForwardSlash(arg)$/;"	f
+BackwardsSnippet	snipMate.vim	/^fun! BackwardsSnippet()$/;"	f
+Bgrep	grep.vim	/^command! -nargs=* Bgrep$/;"	c
+BgrepAdd	grep.vim	/^command! -nargs=* BgrepAdd$/;"	c
+Bookmark.AddBookmark	NERD_tree.vim	/^function! s:Bookmark.AddBookmark(name, path)$/;"	f
+Bookmark.BookmarkExistsFor	NERD_tree.vim	/^function! s:Bookmark.BookmarkExistsFor(name)$/;"	f
+Bookmark.BookmarkFor	NERD_tree.vim	/^function! s:Bookmark.BookmarkFor(name)$/;"	f
+Bookmark.BookmarkNames	NERD_tree.vim	/^function! s:Bookmark.BookmarkNames()$/;"	f
+Bookmark.Bookmarks	NERD_tree.vim	/^function! s:Bookmark.Bookmarks()$/;"	f
+Bookmark.CacheBookmarks	NERD_tree.vim	/^function! s:Bookmark.CacheBookmarks(silent)$/;"	f
+Bookmark.ClearAll	NERD_tree.vim	/^function! s:Bookmark.ClearAll()$/;"	f
+Bookmark.GetNodeForName	NERD_tree.vim	/^function! s:Bookmark.GetNodeForName(name, searchFromAbsoluteRoot)$/;"	f
+Bookmark.GetSelected	NERD_tree.vim	/^function! s:Bookmark.GetSelected()$/;"	f
+Bookmark.InvalidBookmarks	NERD_tree.vim	/^function! s:Bookmark.InvalidBookmarks()$/;"	f
+Bookmark.New	NERD_tree.vim	/^function! s:Bookmark.New(name, path)$/;"	f
+Bookmark.Sort	NERD_tree.vim	/^function! s:Bookmark.Sort()$/;"	f
+Bookmark.ToRoot	NERD_tree.vim	/^function! s:Bookmark.ToRoot(name)$/;"	f
+Bookmark.Write	NERD_tree.vim	/^function! s:Bookmark.Write()$/;"	f
+Bookmark.activate	NERD_tree.vim	/^function! s:Bookmark.activate()$/;"	f
+Bookmark.compareTo	NERD_tree.vim	/^function! s:Bookmark.compareTo(otherbookmark)$/;"	f
+Bookmark.delete	NERD_tree.vim	/^function! s:Bookmark.delete()$/;"	f
+Bookmark.getNode	NERD_tree.vim	/^function! s:Bookmark.getNode(searchFromAbsoluteRoot)$/;"	f
+Bookmark.mustExist	NERD_tree.vim	/^function! s:Bookmark.mustExist()$/;"	f
+Bookmark.openInNewTab	NERD_tree.vim	/^function! s:Bookmark.openInNewTab(options)$/;"	f
+Bookmark.setPath	NERD_tree.vim	/^function! s:Bookmark.setPath(path)$/;"	f
+Bookmark.str	NERD_tree.vim	/^function! s:Bookmark.str()$/;"	f
+Bookmark.toRoot	NERD_tree.vim	/^function! s:Bookmark.toRoot()$/;"	f
+Bookmark.validate	NERD_tree.vim	/^function! s:Bookmark.validate()$/;"	f
+BreakDown	EasyGrep.vim	/^function! s:BreakDown(keyList)$/;"	f
+BuildPatternList	EasyGrep.vim	/^function! s:BuildPatternList(...)$/;"	f
+BuildPatternListPost	EasyGrep.vim	/^function! s:BuildPatternListPost(str, sp)$/;"	f
+CheckForUpdate	tasklist.vim	/^function! s:CheckForUpdate()$/;"	f
+CheckLinks	EasyGrep.vim	/^function! s:CheckLinks()$/;"	f
+Choose	matchit.vim	/^fun! s:Choose(patterns, string, comma, branch, prefix, suffix, ...)$/;"	f
+ChooseSnippet	snipMate.vim	/^fun s:ChooseSnippet(scope, trigger)$/;"	f
+CleanUp	matchit.vim	/^fun! s:CleanUp(options, mode, startline, startcol, ...)$/;"	f
+ClearActivated	EasyGrep.vim	/^function! s:ClearActivated()$/;"	f
+ClearGatewayVariables	EasyGrep.vim	/^function! s:ClearGatewayVariables()$/;"	f
+ClearNewline	EasyGrep.vim	/^function! s:ClearNewline(s)$/;"	f
+CommandT	command-t.vim	/^command -nargs=? -complete=dir CommandT call <SID>CommandTShowFileFinder(<q-args>)$/;"	c
+CommandTAcceptSelection	command-t.vim	/^function CommandTAcceptSelection()$/;"	f
+CommandTAcceptSelectionSplit	command-t.vim	/^function CommandTAcceptSelectionSplit()$/;"	f
+CommandTAcceptSelectionTab	command-t.vim	/^function CommandTAcceptSelectionTab()$/;"	f
+CommandTAcceptSelectionVSplit	command-t.vim	/^function CommandTAcceptSelectionVSplit()$/;"	f
+CommandTBackspace	command-t.vim	/^function CommandTBackspace()$/;"	f
+CommandTBuffer	command-t.vim	/^command CommandTBuffer call <SID>CommandTShowBufferFinder()$/;"	c
+CommandTCancel	command-t.vim	/^function CommandTCancel()$/;"	f
+CommandTClear	command-t.vim	/^function CommandTClear()$/;"	f
+CommandTCursorEnd	command-t.vim	/^function CommandTCursorEnd()$/;"	f
+CommandTCursorLeft	command-t.vim	/^function CommandTCursorLeft()$/;"	f
+CommandTCursorRight	command-t.vim	/^function CommandTCursorRight()$/;"	f
+CommandTCursorStart	command-t.vim	/^function CommandTCursorStart()$/;"	f
+CommandTDelete	command-t.vim	/^function CommandTDelete()$/;"	f
+CommandTFlush	command-t.vim	/^command CommandTFlush call <SID>CommandTFlush()$/;"	c
+CommandTFlush	command-t.vim	/^function s:CommandTFlush()$/;"	f
+CommandTHandleKey	command-t.vim	/^function CommandTHandleKey(arg)$/;"	f
+CommandTRubyWarning	command-t.vim	/^function s:CommandTRubyWarning()$/;"	f
+CommandTSelectNext	command-t.vim	/^function CommandTSelectNext()$/;"	f
+CommandTSelectPrev	command-t.vim	/^function CommandTSelectPrev()$/;"	f
+CommandTShowBufferFinder	command-t.vim	/^function s:CommandTShowBufferFinder()$/;"	f
+CommandTShowFileFinder	command-t.vim	/^function s:CommandTShowFileFinder(arg)$/;"	f
+CommandTToggleFocus	command-t.vim	/^function CommandTToggleFocus()$/;"	f
+CompareCurrentFileCurrentDirectory	EasyGrep.vim	/^function! s:CompareCurrentFileCurrentDirectory()$/;"	f
+CompareRanks	fuzzyfinder.vim	/^function! s:CompareRanks(i1, i2)$/;"	f
+CompareTimeDescending	fuzzyfinder.vim	/^function! s:CompareTimeDescending(i1, i2)$/;"	f
+Concat	fuzzyfinder.vim	/^function! s:Concat(in)$/;"	f
+ConvertWildcardToRegexp	fuzzyfinder.vim	/^function! s:ConvertWildcardToRegexp(expr)$/;"	f
+Count	matchit.vim	/^fun! s:Count(string, pattern, ...)$/;"	f
+CreateDict	EasyGrep.vim	/^function! s:CreateDict()$/;"	f
+CreateOptionMappings	EasyGrep.vim	/^function! s:CreateOptionMappings()$/;"	f
+CreateOptions	EasyGrep.vim	/^function! s:CreateOptions()$/;"	f
+DefineSnips	snipMate.vim	/^fun s:DefineSnips(dir, aliasft, realft)$/;"	f
+DoBreakDown	EasyGrep.vim	/^function! s:DoBreakDown(key)$/;"	f
+DoEscapeList	EasyGrep.vim	/^function! s:DoEscapeList(lst, seperator, func)$/;"	f
+DoGrep	EasyGrep.vim	/^function! s:DoGrep(word, add, whole, count, escapeArgs)$/;"	f
+DoReplace	EasyGrep.vim	/^function! s:DoReplace(target, replacement, whole, escapeArgs)$/;"	f
+Echo	EasyGrep.vim	/^function! <sid>Echo(message)$/;"	f
+EchoFilesSearched	EasyGrep.vim	/^function! <sid>EchoFilesSearched()$/;"	f
+EchoOptionsSet	EasyGrep.vim	/^function! <sid>EchoOptionsSet()$/;"	f
+EchoWithHl	fuzzyfinder.vim	/^function! s:EchoWithHl(msg, hl)$/;"	f
+Egrep	grep.vim	/^command! -nargs=* -complete=file Egrep$/;"	c
+EgrepAdd	grep.vim	/^command! -nargs=* -complete=file EgrepAdd$/;"	c
+Egrep_Path	grep.vim	/^    let Egrep_Path = 'egrep'$/;"	v
+EnumExpandedDirsEntries	fuzzyfinder.vim	/^function! s:EnumExpandedDirsEntries(dir, excluded)$/;"	f
+Error	EasyGrep.vim	/^function! s:Error(message)$/;"	f
+Escape	EasyGrep.vim	/^function! s:Escape(str, lst)$/;"	f
+EscapeFilename	fuzzyfinder.vim	/^function! s:EscapeFilename(fn)$/;"	f
+EscapeList	EasyGrep.vim	/^function! s:EscapeList(lst, seperator)$/;"	f
+EscapeSpecial	EasyGrep.vim	/^function! s:EscapeSpecial(str)$/;"	f
+EvaluateLearningRank	fuzzyfinder.vim	/^function! s:EvaluateLearningRank(word, stats)$/;"	f
+EvaluateMatchingRate	fuzzyfinder.vim	/^function! s:EvaluateMatchingRate(word, base)$/;"	f
+ExistsPrompt	fuzzyfinder.vim	/^function! s:ExistsPrompt(line, prompt)$/;"	f
+ExistsPrompt	fuzzyfinder_textmate.vim	/^function! s:ExistsPrompt(line, prompt)$/;"	f
+Exit	tasklist.vim	/^function! s:Exit(key)$/;"	f
+ExpandAbbrevMap	fuzzyfinder.vim	/^function! s:ExpandAbbrevMap(base, abbrev_map)$/;"	f
+ExpandTailDotSequenceToParentDir	fuzzyfinder.vim	/^function! s:ExpandTailDotSequenceToParentDir(base)$/;"	f
+ExtractSnips	snipMate.vim	/^fun! ExtractSnips(dir, ft)$/;"	f
+ExtractSnipsFile	snipMate.vim	/^fun! ExtractSnipsFile(file, ft)$/;"	f
+Fgrep	grep.vim	/^command! -nargs=* -complete=file Fgrep$/;"	c
+FgrepAdd	grep.vim	/^command! -nargs=* -complete=file FgrepAdd$/;"	c
+Fgrep_Path	grep.vim	/^    let Fgrep_Path = 'fgrep'$/;"	v
+FileEscape	EasyGrep.vim	/^function! s:FileEscape(item)$/;"	f
+FillWindow	EasyGrep.vim	/^function! s:FillWindow()$/;"	f
+FilterErrorlist	EasyGrep.vim	/^command! -nargs=+ FilterErrorlist :call s:FilterErrorlist(<f-args>)$/;"	c
+FilterErrorlist	EasyGrep.vim	/^function! s:FilterErrorlist(...)$/;"	f
+FilterEx	fuzzyfinder.vim	/^function! s:FilterEx(in, expr, limit)$/;"	f
+FilterMatching	fuzzyfinder.vim	/^function! s:FilterMatching(items, key, pattern, index, limit)$/;"	f
+FindByKey	EasyGrep.vim	/^function! s:FindByKey(key)$/;"	f
+FindByPattern	EasyGrep.vim	/^function! s:FindByPattern(pattern)$/;"	f
+FuzzyFinderAddBookmark	fuzzyfinder.vim	/^command! -bang -narg=?                  FuzzyFinderAddBookmark               call g:FuzzyFinderMode.Bookmark.bookmark_here(<q-args>)$/;"	c
+FuzzyFinderAddBookmarkAsSelectedText	fuzzyfinder.vim	/^command! -bang -narg=0 -range           FuzzyFinderAddBookmarkAsSelectedText call g:FuzzyFinderMode.Bookmark.bookmark_here(s:SelectedText())$/;"	c
+FuzzyFinderBookmark	fuzzyfinder.vim	/^command! -bang -narg=? -complete=file   FuzzyFinderBookmark                  call g:FuzzyFinderMode.Bookmark.launch_base  (<q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderBuffer	fuzzyfinder.vim	/^command! -bang -narg=? -complete=buffer FuzzyFinderBuffer                    call g:FuzzyFinderMode.Buffer.launch_base    (<q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderDir	fuzzyfinder.vim	/^command! -bang -narg=? -complete=dir    FuzzyFinderDir                       call g:FuzzyFinderMode.Dir.launch_base       (<q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderDirWithCurrentBufferDir	fuzzyfinder.vim	/^command! -bang -narg=? -complete=dir    FuzzyFinderDirWithCurrentBufferDir   call g:FuzzyFinderMode.Dir.launch_base       (expand('%:p:~')[:-1-len(expand('%:p:~:t'))] . <q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderDirWithFullCwd	fuzzyfinder.vim	/^command! -bang -narg=? -complete=dir    FuzzyFinderDirWithFullCwd            call g:FuzzyFinderMode.Dir.launch_base       (fnamemodify(getcwd(), ':p') . <q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderEditInfo	fuzzyfinder.vim	/^command! -bang -narg=0                  FuzzyFinderEditInfo                  call s:InfoFileManager.edit()$/;"	c
+FuzzyFinderFile	fuzzyfinder.vim	/^command! -bang -narg=? -complete=file   FuzzyFinderFile                      call g:FuzzyFinderMode.File.launch_base      (<q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderFileWithCurrentBufferDir	fuzzyfinder.vim	/^command! -bang -narg=? -complete=file   FuzzyFinderFileWithCurrentBufferDir  call g:FuzzyFinderMode.File.launch_base      (expand('%:~:.')[:-1-len(expand('%:~:.:t'))] . <q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderFileWithFullCwd	fuzzyfinder.vim	/^command! -bang -narg=? -complete=file   FuzzyFinderFileWithFullCwd           call g:FuzzyFinderMode.File.launch_base      (fnamemodify(getcwd(), ':p') . <q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderMode.Base.add_stat	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.add_stat(base, word)$/;"	f
+FuzzyFinderMode.Base.complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.complete(findstart, base)$/;"	f
+FuzzyFinderMode.Base.deserialize_info	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.deserialize_info(lines)$/;"	f
+FuzzyFinderMode.Base.empty_cache_if_existed	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.empty_cache_if_existed(force)$/;"	f
+FuzzyFinderMode.Base.extend_options	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.extend_options()$/;"	f
+FuzzyFinderMode.Base.get_filtered_stats	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.get_filtered_stats(base)$/;"	f
+FuzzyFinderMode.Base.launch_base	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.launch_base(initial_pattern, partial_matching)$/;"	f
+FuzzyFinderMode.Base.make_complete_func	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.make_complete_func(name)$/;"	f
+FuzzyFinderMode.Base.make_pattern	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.make_pattern(base)$/;"	f
+FuzzyFinderMode.Base.next_mode	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.next_mode(rev)$/;"	f
+FuzzyFinderMode.Base.on_bs	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_bs()$/;"	f
+FuzzyFinderMode.Base.on_buf_enter	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_buf_enter()$/;"	f
+FuzzyFinderMode.Base.on_buf_write_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_buf_write_post()$/;"	f
+FuzzyFinderMode.Base.on_command_pre	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_command_pre(cmd)$/;"	f
+FuzzyFinderMode.Base.on_cr	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_cr(index, dir_check)$/;"	f
+FuzzyFinderMode.Base.on_cursor_moved_i	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_cursor_moved_i()$/;"	f
+FuzzyFinderMode.Base.on_insert_leave	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_insert_leave()$/;"	f
+FuzzyFinderMode.Base.on_mode_enter_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_mode_enter_post()$/;"	f
+FuzzyFinderMode.Base.on_mode_enter_pre	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_mode_enter_pre()$/;"	f
+FuzzyFinderMode.Base.on_mode_leave_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_mode_leave_post(opened)$/;"	f
+FuzzyFinderMode.Base.on_switch_ignore_case	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_switch_ignore_case()$/;"	f
+FuzzyFinderMode.Base.on_switch_mode	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.on_switch_mode(next_prev)$/;"	f
+FuzzyFinderMode.Base.serialize_info	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.serialize_info()$/;"	f
+FuzzyFinderMode.Base.to_key	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.to_key()$/;"	f
+FuzzyFinderMode.Base.to_str	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Base.to_str(...)$/;"	f
+FuzzyFinderMode.Bookmark.bookmark_here	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Bookmark.bookmark_here(word)$/;"	f
+FuzzyFinderMode.Bookmark.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Bookmark.on_complete(base)$/;"	f
+FuzzyFinderMode.Bookmark.on_mode_enter_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Bookmark.on_mode_enter_post()$/;"	f
+FuzzyFinderMode.Bookmark.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Bookmark.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.Buffer.jump_to	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Buffer.jump_to(item, cmd_open)$/;"	f
+FuzzyFinderMode.Buffer.make_item	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Buffer.make_item(nr)$/;"	f
+FuzzyFinderMode.Buffer.on_buf_enter	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Buffer.on_buf_enter()$/;"	f
+FuzzyFinderMode.Buffer.on_buf_write_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Buffer.on_buf_write_post()$/;"	f
+FuzzyFinderMode.Buffer.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Buffer.on_complete(base)$/;"	f
+FuzzyFinderMode.Buffer.on_mode_enter_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Buffer.on_mode_enter_post()$/;"	f
+FuzzyFinderMode.Buffer.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Buffer.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.Buffer.update_buf_times	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Buffer.update_buf_times()$/;"	f
+FuzzyFinderMode.CallbackFile.cached_glob	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackFile.cached_glob(dir, file, excluded, index, limit)$/;"	f
+FuzzyFinderMode.CallbackFile.launch	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackFile.launch(initial_pattern, partial_matching, listener)$/;"	f
+FuzzyFinderMode.CallbackFile.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackFile.on_complete(base)$/;"	f
+FuzzyFinderMode.CallbackFile.on_mode_leave_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackFile.on_mode_leave_post(opened)$/;"	f
+FuzzyFinderMode.CallbackFile.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackFile.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.CallbackFile.on_switch_mode	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackFile.on_switch_mode(next_prev)$/;"	f
+FuzzyFinderMode.CallbackItem.launch	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackItem.launch(initial_pattern, partial_matching, listener, items, for_file)$/;"	f
+FuzzyFinderMode.CallbackItem.on_complete_file	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackItem.on_complete_file(base)$/;"	f
+FuzzyFinderMode.CallbackItem.on_complete_nonfile	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackItem.on_complete_nonfile(base)$/;"	f
+FuzzyFinderMode.CallbackItem.on_mode_leave_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackItem.on_mode_leave_post(opened)$/;"	f
+FuzzyFinderMode.CallbackItem.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackItem.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.CallbackItem.on_switch_mode	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.CallbackItem.on_switch_mode(next_prev)$/;"	f
+FuzzyFinderMode.Dir.cached_glob_dir	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Dir.cached_glob_dir(dir, file, excluded, index, limit)$/;"	f
+FuzzyFinderMode.Dir.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Dir.on_complete(base)$/;"	f
+FuzzyFinderMode.Dir.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Dir.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.File.cached_glob	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.File.cached_glob(dir, file, excluded, index, limit)$/;"	f
+FuzzyFinderMode.File.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.File.on_complete(base)$/;"	f
+FuzzyFinderMode.File.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.File.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.GivenCmd.launch	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenCmd.launch(initial_pattern, partial_matching, items)$/;"	f
+FuzzyFinderMode.GivenCmd.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenCmd.on_complete(base)$/;"	f
+FuzzyFinderMode.GivenCmd.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenCmd.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.GivenCmd.on_switch_mode	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenCmd.on_switch_mode(next_prev)$/;"	f
+FuzzyFinderMode.GivenDir.launch	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenDir.launch(initial_pattern, partial_matching, items)$/;"	f
+FuzzyFinderMode.GivenDir.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenDir.on_complete(base)$/;"	f
+FuzzyFinderMode.GivenDir.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenDir.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.GivenDir.on_switch_mode	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenDir.on_switch_mode(next_prev)$/;"	f
+FuzzyFinderMode.GivenFile.launch	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenFile.launch(initial_pattern, partial_matching, items)$/;"	f
+FuzzyFinderMode.GivenFile.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenFile.on_complete(base)$/;"	f
+FuzzyFinderMode.GivenFile.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenFile.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.GivenFile.on_switch_mode	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.GivenFile.on_switch_mode(next_prev)$/;"	f
+FuzzyFinderMode.MruCmd.on_command_pre	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruCmd.on_command_pre(cmd)$/;"	f
+FuzzyFinderMode.MruCmd.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruCmd.on_complete(base)$/;"	f
+FuzzyFinderMode.MruCmd.on_mode_enter_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruCmd.on_mode_enter_post()$/;"	f
+FuzzyFinderMode.MruCmd.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruCmd.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.MruCmd.update_info	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruCmd.update_info(cmd)$/;"	f
+FuzzyFinderMode.MruFile.format_item_using_cache	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruFile.format_item_using_cache(item)$/;"	f
+FuzzyFinderMode.MruFile.on_buf_enter	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruFile.on_buf_enter()$/;"	f
+FuzzyFinderMode.MruFile.on_buf_write_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruFile.on_buf_write_post()$/;"	f
+FuzzyFinderMode.MruFile.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruFile.on_complete(base)$/;"	f
+FuzzyFinderMode.MruFile.on_mode_enter_post	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruFile.on_mode_enter_post()$/;"	f
+FuzzyFinderMode.MruFile.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruFile.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.MruFile.remove_item_from_cache	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruFile.remove_item_from_cache(word)$/;"	f
+FuzzyFinderMode.MruFile.update_info	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.MruFile.update_info()$/;"	f
+FuzzyFinderMode.Tag.find_tag	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Tag.find_tag(pattern, index, limit)$/;"	f
+FuzzyFinderMode.Tag.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Tag.on_complete(base)$/;"	f
+FuzzyFinderMode.Tag.on_mode_enter_pre	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Tag.on_mode_enter_pre()$/;"	f
+FuzzyFinderMode.Tag.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.Tag.on_open(expr, mode)$/;"	f
+FuzzyFinderMode.TaggedFile.find_tagged_file	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.TaggedFile.find_tagged_file(pattern, index, limit)$/;"	f
+FuzzyFinderMode.TaggedFile.on_complete	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.TaggedFile.on_complete(base)$/;"	f
+FuzzyFinderMode.TaggedFile.on_mode_enter_pre	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.TaggedFile.on_mode_enter_pre()$/;"	f
+FuzzyFinderMode.TaggedFile.on_open	fuzzyfinder.vim	/^function! g:FuzzyFinderMode.TaggedFile.on_open(expr, mode)$/;"	f
+FuzzyFinderMruCmd	fuzzyfinder.vim	/^command! -bang -narg=? -complete=file   FuzzyFinderMruCmd                    call g:FuzzyFinderMode.MruCmd.launch_base    (<q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderMruFile	fuzzyfinder.vim	/^command! -bang -narg=? -complete=file   FuzzyFinderMruFile                   call g:FuzzyFinderMode.MruFile.launch_base   (<q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderRenewCache	fuzzyfinder.vim	/^command! -bang -narg=0                  FuzzyFinderRenewCache                for s:m in s:GetAvailableModes() | call s:m.empty_cache_if_existed(1) | endfor$/;"	c
+FuzzyFinderTag	fuzzyfinder.vim	/^command! -bang -narg=? -complete=tag    FuzzyFinderTag                       call g:FuzzyFinderMode.Tag.launch_base       (<q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderTagWithCursorWord	fuzzyfinder.vim	/^command! -bang -narg=? -complete=tag    FuzzyFinderTagWithCursorWord         call g:FuzzyFinderMode.Tag.launch_base       (expand('<cword>') . <q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderTaggedFile	fuzzyfinder.vim	/^command! -bang -narg=? -complete=file   FuzzyFinderTaggedFile                call g:FuzzyFinderMode.TaggedFile.launch_base(<q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderTextMate	fuzzyfinder_textmate.vim	/^command! -bang -narg=? -complete=file   FuzzyFinderTextMate   call FuzzyFinderTextMateLauncher(<q-args>, len(<q-bang>))$/;"	c
+FuzzyFinderTextMateLauncher	fuzzyfinder_textmate.vim	/^  function! FuzzyFinderTextMateLauncher(initial_text, partial_matching)$/;"	f
+FuzzyFinderTextMateRefreshFiles	fuzzyfinder_textmate.vim	/^command! FuzzyFinderTextMateRefreshFiles ruby refresh_finder$/;"	c
+FuzzyfinderGlobal	fuzzyfinder.vim	/^augroup FuzzyfinderGlobal$/;"	a
+GenIncludes	genincludes.vim	/^command! -n=0 GenIncludes call GenIncludes$/;"	c
+GenIncludes	genincludes.vim	/^function! s:GenIncludes()$/;"	f
+GetAvailableModes	fuzzyfinder.vim	/^function! s:GetAvailableModes()$/;"	f
+GetBlockCommentIndent	IndentAnything.vim	/^function! s:GetBlockCommentIndent(CurrLNum, LastLNum)$/;"	f
+GetBufIndicator	fuzzyfinder.vim	/^function! s:GetBufIndicator(buf_nr)$/;"	f
+GetBufferDirsList	EasyGrep.vim	/^function! s:GetBufferDirsList()$/;"	f
+GetBufferIdList	EasyGrep.vim	/^function! s:GetBufferIdList()$/;"	f
+GetBufferNamesList	EasyGrep.vim	/^function! s:GetBufferNamesList()$/;"	f
+GetBuffersOutput	EasyGrep.vim	/^function! s:GetBuffersOutput()$/;"	f
+GetCharAt	vrackets.vim	/^function! s:GetCharAt(...)$/;"	f
+GetContIndent	IndentAnything.vim	/^function! s:GetContIndent(Rule, CurrLine, LastLine, LastLNum, PrevLNum)$/;"	f
+GetCurrentSelection	EasyGrep.vim	/^function! s:GetCurrentSelection()$/;"	f
+GetCurrentTagFiles	fuzzyfinder.vim	/^function! s:GetCurrentTagFiles()$/;"	f
+GetCurrentWord	EasyGrep.vim	/^function! s:GetCurrentWord()$/;"	f
+GetErrorList	EasyGrep.vim	/^function! s:GetErrorList()$/;"	f
+GetErrorListName	EasyGrep.vim	/^function! s:GetErrorListName()$/;"	f
+GetFileAssociationList	EasyGrep.vim	/^function! s:GetFileAssociationList()$/;"	f
+GetKeyFromLink	EasyGrep.vim	/^function! s:GetKeyFromLink(str)$/;"	f
+GetLinePattern	fuzzyfinder.vim	/^function! s:GetLinePattern(lnum)$/;"	f
+GetPairIndent	IndentAnything.vim	/^function! s:GetPairIndent(CurrLine, LastLine, LastLNum, Head, Mid, Tail)$/;"	f
+GetPatternList	EasyGrep.vim	/^function! s:GetPatternList(sp, dopost)$/;"	f
+GetPostBlockCommentIndent	IndentAnything.vim	/^function! s:GetPostBlockCommentIndent(LastLNum)$/;"	f
+GetPrevNonBlankNonComment	IndentAnything.vim	/^function! GetPrevNonBlankNonComment(begin)$/;"	f
+GetReplaceWindowModeString	EasyGrep.vim	/^function! s:GetReplaceWindowModeString(mode)$/;"	f
+GetSavedName	EasyGrep.vim	/^function! s:GetSavedName(var)$/;"	f
+GetSidPrefix	fuzzyfinder.vim	/^function! s:GetSidPrefix()$/;"	f
+GetSnippet	snipMate.vim	/^fun s:GetSnippet(word, scope)$/;"	f
+GetSnippets	snipMate.vim	/^fun! GetSnippets(dir, filetypes)$/;"	f
+GetSortedSwitchableModes	fuzzyfinder.vim	/^function! s:GetSortedSwitchableModes()$/;"	f
+GetTagList	fuzzyfinder.vim	/^function! s:GetTagList(tagfile)$/;"	f
+GetTaggedFileList	fuzzyfinder.vim	/^function! s:GetTaggedFileList(tagfile)$/;"	f
+GetTruncatedHead	fuzzyfinder.vim	/^function! s:GetTruncatedHead(head, max_len, max_item_width)$/;"	f
+GetVisibleBuffers	EasyGrep.vim	/^function! s:GetVisibleBuffers()$/;"	f
+Grep	EasyGrep.vim	/^command! -bang -nargs=+ Grep :call s:GrepCommandLine( <q-args> , "", "<bang>")$/;"	c
+Grep	grep.vim	/^command! -nargs=* -complete=file Grep$/;"	c
+GrepAdd	EasyGrep.vim	/^command! -bang -nargs=+ GrepAdd :call s:GrepCommandLine( <q-args>, "add", "<bang>")$/;"	c
+GrepAdd	grep.vim	/^command! -nargs=* -complete=file GrepAdd$/;"	c
+GrepArgs	grep.vim	/^command! -nargs=* GrepArgs$/;"	c
+GrepArgsAdd	grep.vim	/^command! -nargs=* GrepArgsAdd$/;"	c
+GrepBuffer	grep.vim	/^command! -nargs=* GrepBuffer$/;"	c
+GrepBufferAdd	grep.vim	/^command! -nargs=* GrepBufferAdd$/;"	c
+GrepCommandLine	EasyGrep.vim	/^function! s:GrepCommandLine(argv, add, bang)$/;"	f
+GrepCurrentWord	EasyGrep.vim	/^function! <sid>GrepCurrentWord(add, whole)$/;"	f
+GrepOptions	EasyGrep.vim	/^command! GrepOptions :call <sid>GrepOptions()$/;"	c
+GrepOptions	EasyGrep.vim	/^function! <sid>GrepOptions()$/;"	f
+GrepSelection	EasyGrep.vim	/^function! <sid>GrepSelection(add, whole)$/;"	f
+GrepSetManual	EasyGrep.vim	/^function! s:GrepSetManual(str)$/;"	f
+Grep_Cygwin_Find	grep.vim	/^    let Grep_Cygwin_Find = 0$/;"	v
+Grep_Default_Filelist	grep.vim	/^    let Grep_Default_Filelist = '*'$/;"	v
+Grep_Default_Options	grep.vim	/^    let Grep_Default_Options = ''$/;"	v
+Grep_Find_Path	grep.vim	/^    let Grep_Find_Path = 'find'$/;"	v
+Grep_Find_Use_Xargs	grep.vim	/^    let Grep_Find_Use_Xargs = 1$/;"	v
+Grep_Null_Device	grep.vim	/^        let Grep_Null_Device = 'NUL'$/;"	v
+Grep_Null_Device	grep.vim	/^        let Grep_Null_Device = '\/dev\/null'$/;"	v
+Grep_OpenQuickfixWindow	grep.vim	/^    let Grep_OpenQuickfixWindow = 1$/;"	v
+Grep_Path	grep.vim	/^    let Grep_Path = 'grep'$/;"	v
+Grep_Shell_Escape_Char	grep.vim	/^        let Grep_Shell_Escape_Char = ''$/;"	v
+Grep_Shell_Escape_Char	grep.vim	/^        let Grep_Shell_Escape_Char = '\\'$/;"	v
+Grep_Shell_Quote_Char	grep.vim	/^        let Grep_Shell_Quote_Char = "'"$/;"	v
+Grep_Shell_Quote_Char	grep.vim	/^        let Grep_Shell_Quote_Char = ''$/;"	v
+Grep_Skip_Dirs	grep.vim	/^    let Grep_Skip_Dirs = 'RCS CVS SCCS'$/;"	v
+Grep_Skip_Files	grep.vim	/^    let Grep_Skip_Files = '*~ *,v s.*'$/;"	v
+Grep_Xargs_Options	grep.vim	/^    let Grep_Xargs_Options = '--null'$/;"	v
+Grep_Xargs_Path	grep.vim	/^    let Grep_Xargs_Path = 'xargs'$/;"	v
+HasActivatedItem	EasyGrep.vim	/^function! s:HasActivatedItem()$/;"	f
+HasFilesThatMatch	EasyGrep.vim	/^function! s:HasFilesThatMatch()$/;"	f
+HasMatches	EasyGrep.vim	/^function! s:HasMatches()$/;"	f
+HighlightError	fuzzyfinder.vim	/^function! s:HighlightError()$/;"	f
+HighlightPrompt	fuzzyfinder.vim	/^function! s:HighlightPrompt(prompt, highlight)$/;"	f
+InCommentOrString	IndentAnything.vim	/^function! InCommentOrString()$/;"	f
+IncludeMarks	showmarks.vim	/^fun! s:IncludeMarks()$/;"	f
+IndentAnything	IndentAnything.vim	/^function! IndentAnything()$/;"	f
+IndentAnythingInit	IndentAnything.vim	/^function! IndentAnythingInit()$/;"	f
+Info	EasyGrep.vim	/^function! s:Info(message)$/;"	f
+InfoFileManager.edit	fuzzyfinder.vim	/^function! s:InfoFileManager.edit()$/;"	f
+InfoFileManager.get_info_file	fuzzyfinder.vim	/^function! s:InfoFileManager.get_info_file()$/;"	f
+InfoFileManager.get_info_version_line	fuzzyfinder.vim	/^function! s:InfoFileManager.get_info_version_line()$/;"	f
+InfoFileManager.load	fuzzyfinder.vim	/^function! s:InfoFileManager.load()$/;"	f
+InfoFileManager.on_buf_write_cmd	fuzzyfinder.vim	/^function! s:InfoFileManager.on_buf_write_cmd()$/;"	f
+InfoFileManager.save	fuzzyfinder.vim	/^function! s:InfoFileManager.save()$/;"	f
+InfoFileManager.warn_old_info	fuzzyfinder.vim	/^function! s:InfoFileManager.warn_old_info()$/;"	f
+InputHl	fuzzyfinder.vim	/^function! s:InputHl(prompt, text, hl)$/;"	f
+InsertRefs	matchit.vim	/^fun! s:InsertRefs(groupBR, prefix, group, suffix, matchline)$/;"	f
+InstantiateTextMateMode	fuzzyfinder_textmate.vim	/^function! InstantiateTextMateMode() "{{{$/;"	f
+IsAvailableMode	fuzzyfinder.vim	/^function! s:IsAvailableMode(mode)$/;"	f
+IsBlockComment	IndentAnything.vim	/^function! IsBlockComment(linenum)$/;"	f
+IsComment	IndentAnything.vim	/^function! IsComment(linenum)$/;"	f
+IsInDict	EasyGrep.vim	/^function! s:IsInDict(pat)$/;"	f
+IsLineComment	IndentAnything.vim	/^function! IsLineComment(linenum)$/;"	f
+IsLink	EasyGrep.vim	/^function! s:IsLink(str)$/;"	f
+IsModeAll	EasyGrep.vim	/^function! s:IsModeAll()$/;"	f
+IsModeBuffers	EasyGrep.vim	/^function! s:IsModeBuffers()$/;"	f
+IsModeTracked	EasyGrep.vim	/^function! s:IsModeTracked()$/;"	f
+IsModeUser	EasyGrep.vim	/^function! s:IsModeUser()$/;"	f
+IsRecursive	EasyGrep.vim	/^function! s:IsRecursive(pattern)$/;"	f
+JumpToBookmark	fuzzyfinder.vim	/^function! s:JumpToBookmark(path, mode, pattern, lnum, range, reuse)$/;"	f
+KeyMap.All	NERD_tree.vim	/^function! s:KeyMap.All()$/;"	f
+KeyMap.BindAll	NERD_tree.vim	/^function! s:KeyMap.BindAll()$/;"	f
+KeyMap.Create	NERD_tree.vim	/^function! s:KeyMap.Create(options)$/;"	f
+KeyMap.bind	NERD_tree.vim	/^function! s:KeyMap.bind()$/;"	f
+L9Assert	l9.vim	/^  command -nargs=* L9Assert :$/;"	c
+L9Assert	l9.vim	/^  command -nargs=* L9Assert call eval((<args>) ? 0 : s:handleFailedAssersion(<q-args>))$/;"	c
+L9GrepBuffer	l9.vim	/^command -nargs=? L9GrepBuffer    call l9#grepBuffers(<q-args>, [bufnr('%')])$/;"	c
+L9GrepBufferAll	l9.vim	/^command -nargs=? L9GrepBufferAll call l9#grepBuffers(<q-args>, range(1, bufnr('$')))$/;"	c
+L9Timer	l9.vim	/^  command -nargs=1 L9Timer :$/;"	c
+L9Timer	l9.vim	/^  command -nargs=1 L9Timer call s:timerBegin(<q-args>)$/;"	c
+L9TimerDump	l9.vim	/^  command -nargs=0 L9TimerDump :$/;"	c
+L9TimerDump	l9.vim	/^  command -nargs=0 L9TimerDump call s:timerDump()$/;"	c
+L9TimerStop	l9.vim	/^  command -nargs=0 L9TimerStop :$/;"	c
+L9TimerStop	l9.vim	/^  command -nargs=0 L9TimerStop call s:timerStop()$/;"	c
+LineNumber	tasklist.vim	/^function! s:LineNumber()$/;"	f
+LuaCheckGlobals	lua-ftplugin.vim	/^command! -bar -bang LuaCheckGlobals call xolox#lua#checkglobals(<q-bang> == '!')$/;"	c
+LuaCheckSyntax	lua-ftplugin.vim	/^command! -bar LuaCheckSyntax call xolox#lua#checksyntax()$/;"	c
+MRU	mru.vim	/^command! -nargs=? -complete=customlist,s:MRU_Complete MRU$/;"	c
+MRU_AddFile	mru.vim	/^function! s:MRU_AddFile(acmd_bufnr)$/;"	f
+MRU_Add_Menu	mru.vim	/^    let MRU_Add_Menu = 1$/;"	v
+MRU_Auto_Close	mru.vim	/^    let MRU_Auto_Close = 1$/;"	v
+MRU_Cmd	mru.vim	/^function! s:MRU_Cmd(pat)$/;"	f
+MRU_Complete	mru.vim	/^function! s:MRU_Complete(ArgLead, CmdLine, CursorPos)$/;"	f
+MRU_Edit_File	mru.vim	/^function! s:MRU_Edit_File(filename, sanitized)$/;"	f
+MRU_Exclude_Files	mru.vim	/^    let MRU_Exclude_Files = ''$/;"	v
+MRU_File	mru.vim	/^                let MRU_File = $USERPROFILE . '\\_vim_mru_files'$/;"	v
+MRU_File	mru.vim	/^        let MRU_File = $HOME . '\/.vim_mru_files'$/;"	v
+MRU_File	mru.vim	/^        let MRU_File = $VIM . '\/_vim_mru_files'$/;"	v
+MRU_Include_Files	mru.vim	/^    let MRU_Include_Files = ''$/;"	v
+MRU_LoadList	mru.vim	/^function! s:MRU_LoadList()$/;"	f
+MRU_Max_Entries	mru.vim	/^    let MRU_Max_Entries = 100$/;"	v
+MRU_Max_Menu_Entries	mru.vim	/^    let MRU_Max_Menu_Entries = 10$/;"	v
+MRU_Max_Submenu_Entries	mru.vim	/^    let MRU_Max_Submenu_Entries = 10$/;"	v
+MRU_Open_Window	mru.vim	/^function! s:MRU_Open_Window(...)$/;"	f
+MRU_Refresh_Menu	mru.vim	/^function! s:MRU_Refresh_Menu()$/;"	f
+MRU_SaveList	mru.vim	/^function! s:MRU_SaveList()$/;"	f
+MRU_Select_File_Cmd	mru.vim	/^function! s:MRU_Select_File_Cmd(opt) range$/;"	f
+MRU_Use_Current_Window	mru.vim	/^    let MRU_Use_Current_Window = 0$/;"	v
+MRU_Warn_Msg	mru.vim	/^function! s:MRU_Warn_Msg(msg)$/;"	f
+MRU_Window_Edit_File	mru.vim	/^function! s:MRU_Window_Edit_File(fname, multi, edit_type, open_type)$/;"	f
+MRU_Window_Height	mru.vim	/^    let MRU_Window_Height = 8$/;"	v
+MRU_add_files_to_menu	mru.vim	/^function! s:MRU_add_files_to_menu(prefix, file_list)$/;"	f
+MRU_escape_filename	mru.vim	/^function! s:MRU_escape_filename(fname)$/;"	f
+MakeAscendingValues	fuzzyfinder.vim	/^function! s:MakeAscendingValues(n, total)$/;"	f
+MakeFileAbbrInfo	fuzzyfinder.vim	/^function! s:MakeFileAbbrInfo(item, max_len_stats)$/;"	f
+MakeSnip	snipMate.vim	/^fun! MakeSnip(scope, trigger, content, ...)$/;"	f
+MapToSetAbbrWithFileWord	fuzzyfinder.vim	/^function! s:MapToSetAbbrWithFileWord(items, max_item_width)$/;"	f
+MapToSetSerialIndex	fuzzyfinder.vim	/^function! s:MapToSetSerialIndex(in, offset)$/;"	f
+MatchDebug	matchit.vim	/^  command! -nargs=0 MatchDebug call s:Match_debug()$/;"	c
+Match_debug	matchit.vim	/^fun! s:Match_debug()$/;"	f
+Match_wrapper	matchit.vim	/^function! s:Match_wrapper(word, forward, mode) range$/;"	f
+MenuController.New	NERD_tree.vim	/^function! s:MenuController.New(menuItems)$/;"	f
+MenuController._allIndexesFor	NERD_tree.vim	/^function! s:MenuController._allIndexesFor(shortcut)$/;"	f
+MenuController._current	NERD_tree.vim	/^function! s:MenuController._current()$/;"	f
+MenuController._cursorDown	NERD_tree.vim	/^function! s:MenuController._cursorDown()$/;"	f
+MenuController._cursorUp	NERD_tree.vim	/^function! s:MenuController._cursorUp()$/;"	f
+MenuController._echoPrompt	NERD_tree.vim	/^function! s:MenuController._echoPrompt()$/;"	f
+MenuController._handleKeypress	NERD_tree.vim	/^function! s:MenuController._handleKeypress(key)$/;"	f
+MenuController._nextIndexFor	NERD_tree.vim	/^function! s:MenuController._nextIndexFor(shortcut)$/;"	f
+MenuController._restoreOptions	NERD_tree.vim	/^function! s:MenuController._restoreOptions()$/;"	f
+MenuController._saveOptions	NERD_tree.vim	/^function! s:MenuController._saveOptions()$/;"	f
+MenuController._setCmdheight	NERD_tree.vim	/^function! s:MenuController._setCmdheight()$/;"	f
+MenuController.showMenu	NERD_tree.vim	/^function! s:MenuController.showMenu()$/;"	f
+MenuItem.All	NERD_tree.vim	/^function! s:MenuItem.All()$/;"	f
+MenuItem.AllEnabled	NERD_tree.vim	/^function! s:MenuItem.AllEnabled()$/;"	f
+MenuItem.Create	NERD_tree.vim	/^function! s:MenuItem.Create(options)$/;"	f
+MenuItem.CreateSeparator	NERD_tree.vim	/^function! s:MenuItem.CreateSeparator(options)$/;"	f
+MenuItem.CreateSubmenu	NERD_tree.vim	/^function! s:MenuItem.CreateSubmenu(options)$/;"	f
+MenuItem.enabled	NERD_tree.vim	/^function! s:MenuItem.enabled()$/;"	f
+MenuItem.execute	NERD_tree.vim	/^function! s:MenuItem.execute()$/;"	f
+MenuItem.isSeparator	NERD_tree.vim	/^function! s:MenuItem.isSeparator()$/;"	f
+MenuItem.isSubmenu	NERD_tree.vim	/^function! s:MenuItem.isSubmenu()$/;"	f
+ModifyWordAsFilename	fuzzyfinder.vim	/^function! s:ModifyWordAsFilename(item, mods)$/;"	f
+MoveToOtherTabPageOpeningBuffer	fuzzyfinder.vim	/^function! s:MoveToOtherTabPageOpeningBuffer(buf_nr)$/;"	f
+MoveToWindowOfBufferInCurrentTabPage	fuzzyfinder.vim	/^function! s:MoveToWindowOfBufferInCurrentTabPage(buf_nr)$/;"	f
+MoveToWindowOfBufferInOtherTabPage	fuzzyfinder.vim	/^function! s:MoveToWindowOfBufferInOtherTabPage(buf_nr)$/;"	f
+Mru	mru.vim	/^command! -nargs=? -complete=customlist,s:MRU_Complete Mru$/;"	c
+MultiMatch	matchit.vim	/^fun! s:MultiMatch(spflag, mode)$/;"	f
+NERDTree	NERD_tree.vim	/^augroup NERDTree$/;"	a
+NERDTree	NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTree :call s:initNerdTree('<args>')$/;"	c
+NERDTreeAddKeyMap	NERD_tree.vim	/^function! NERDTreeAddKeyMap(options)$/;"	f
+NERDTreeAddMenuItem	NERD_tree.vim	/^function! NERDTreeAddMenuItem(options)$/;"	f
+NERDTreeAddMenuSeparator	NERD_tree.vim	/^function! NERDTreeAddMenuSeparator(...)$/;"	f
+NERDTreeAddSubmenu	NERD_tree.vim	/^function! NERDTreeAddSubmenu(options)$/;"	f
+NERDTreeClose	NERD_tree.vim	/^command! -n=0 -bar NERDTreeClose :call s:closeTreeIfOpen()$/;"	c
+NERDTreeFind	NERD_tree.vim	/^command! -n=0 -bar NERDTreeFind call s:findAndRevealPath()$/;"	c
+NERDTreeFromBookmark	NERD_tree.vim	/^command! -n=1 -complete=customlist,s:completeBookmarks -bar NERDTreeFromBookmark call s:initNerdTree('<args>')$/;"	c
+NERDTreeHijackNetrw	NERD_tree.vim	/^    augroup NERDTreeHijackNetrw$/;"	a
+NERDTreeMirror	NERD_tree.vim	/^command! -n=0 -bar NERDTreeMirror call s:initNerdTreeMirror()$/;"	c
+NERDTreeRender	NERD_tree.vim	/^function! NERDTreeRender()$/;"	f
+NERDTreeToggle	NERD_tree.vim	/^command! -n=? -complete=dir -bar NERDTreeToggle :call s:toggle('<args>')$/;"	c
+NameOfMark	showmarks.vim	/^fun! s:NameOfMark(mark)$/;"	f
+OnCmdCR	fuzzyfinder.vim	/^function! s:OnCmdCR()$/;"	f
+OnOrOff	EasyGrep.vim	/^function! s:OnOrOff(num)$/;"	f
+Open1LineBuffer	fuzzyfinder.vim	/^function! s:Open1LineBuffer(buf_nr, buf_name)$/;"	f
+OpenBuffer	fuzzyfinder.vim	/^function! s:OpenBuffer(buf_nr, mode, reuse)$/;"	f
+OpenFile	fuzzyfinder.vim	/^function! s:OpenFile(path, mode, reuse)$/;"	f
+OpenOptionsExplorer	EasyGrep.vim	/^function! s:OpenOptionsExplorer()$/;"	f
+OpenTag	fuzzyfinder.vim	/^function s:OpenTag(tag, mode)$/;"	f
+OpenWindow	tasklist.vim	/^function! s:OpenWindow(buffnr, lineno)$/;"	f
+OptionManager.restore_all	fuzzyfinder.vim	/^function! s:OptionManager.restore_all()$/;"	f
+OptionManager.set	fuzzyfinder.vim	/^function! s:OptionManager.set(name, value)$/;"	f
+ParseCommandLine	EasyGrep.vim	/^function! s:ParseCommandLine(argv)$/;"	f
+ParseFileAssociationList	EasyGrep.vim	/^function! s:ParseFileAssociationList()$/;"	f
+ParseSkip	matchit.vim	/^fun! s:ParseSkip(str)$/;"	f
+ParseWords	matchit.vim	/^fun! s:ParseWords(groups)$/;"	f
+Path.AbsolutePathFor	NERD_tree.vim	/^function! s:Path.AbsolutePathFor(str)$/;"	f
+Path.CopyingSupported	NERD_tree.vim	/^function! s:Path.CopyingSupported()$/;"	f
+Path.Create	NERD_tree.vim	/^function! s:Path.Create(fullpath)$/;"	f
+Path.JoinPathStrings	NERD_tree.vim	/^function! s:Path.JoinPathStrings(...)$/;"	f
+Path.New	NERD_tree.vim	/^function! s:Path.New(path)$/;"	f
+Path.Slash	NERD_tree.vim	/^function! s:Path.Slash()$/;"	f
+Path.WinToUnixPath	NERD_tree.vim	/^function! s:Path.WinToUnixPath(pathstr)$/;"	f
+Path._str	NERD_tree.vim	/^function! s:Path._str()$/;"	f
+Path._strForCd	NERD_tree.vim	/^function! s:Path._strForCd()$/;"	f
+Path._strForEdit	NERD_tree.vim	/^function! s:Path._strForEdit()$/;"	f
+Path._strForGlob	NERD_tree.vim	/^function! s:Path._strForGlob()$/;"	f
+Path._strForUI	NERD_tree.vim	/^function! s:Path._strForUI()$/;"	f
+Path.bookmarkNames	NERD_tree.vim	/^function! s:Path.bookmarkNames()$/;"	f
+Path.cacheDisplayString	NERD_tree.vim	/^function! s:Path.cacheDisplayString()$/;"	f
+Path.changeToDir	NERD_tree.vim	/^function! s:Path.changeToDir()$/;"	f
+Path.compareTo	NERD_tree.vim	/^function! s:Path.compareTo(path)$/;"	f
+Path.copy	NERD_tree.vim	/^function! s:Path.copy(dest)$/;"	f
+Path.copyingWillOverwrite	NERD_tree.vim	/^function! s:Path.copyingWillOverwrite(dest)$/;"	f
+Path.delete	NERD_tree.vim	/^function! s:Path.delete()$/;"	f
+Path.displayString	NERD_tree.vim	/^function! s:Path.displayString()$/;"	f
+Path.equals	NERD_tree.vim	/^function! s:Path.equals(path)$/;"	f
+Path.exists	NERD_tree.vim	/^function! s:Path.exists()$/;"	f
+Path.extractDriveLetter	NERD_tree.vim	/^function! s:Path.extractDriveLetter(fullpath)$/;"	f
+Path.getDir	NERD_tree.vim	/^function! s:Path.getDir()$/;"	f
+Path.getLastPathComponent	NERD_tree.vim	/^function! s:Path.getLastPathComponent(dirSlash)$/;"	f
+Path.getParent	NERD_tree.vim	/^function! s:Path.getParent()$/;"	f
+Path.getSortOrderIndex	NERD_tree.vim	/^function! s:Path.getSortOrderIndex()$/;"	f
+Path.ignore	NERD_tree.vim	/^function! s:Path.ignore()$/;"	f
+Path.isUnder	NERD_tree.vim	/^function! s:Path.isUnder(path)$/;"	f
+Path.readInfoFromDisk	NERD_tree.vim	/^function! s:Path.readInfoFromDisk(fullpath)$/;"	f
+Path.refresh	NERD_tree.vim	/^function! s:Path.refresh()$/;"	f
+Path.rename	NERD_tree.vim	/^function! s:Path.rename(newPath)$/;"	f
+Path.str	NERD_tree.vim	/^function! s:Path.str(...)$/;"	f
+Path.strTrunk	NERD_tree.vim	/^function! s:Path.strTrunk()$/;"	f
+PluginFileTypeLua	lua-ftplugin.vim	/^augroup PluginFileTypeLua$/;"	a
+ProcessFile	snipMate.vim	/^fun s:ProcessFile(file, ft, ...)$/;"	f
+Quit	EasyGrep.vim	/^function! <sid>Quit()$/;"	f
+Ragrep	grep.vim	/^command! -nargs=* -complete=file Ragrep$/;"	c
+RagrepAdd	grep.vim	/^command! -nargs=* -complete=file RagrepAdd$/;"	c
+Ref	matchit.vim	/^fun! s:Ref(string, d, ...)$/;"	f
+Regrep	grep.vim	/^command! -nargs=* -complete=file Regrep$/;"	c
+RegrepAdd	grep.vim	/^command! -nargs=* -complete=file RegrepAdd$/;"	c
+RemovePrompt	fuzzyfinder.vim	/^function! s:RemovePrompt(line, prompt)$/;"	f
+RemovePrompt	fuzzyfinder_textmate.vim	/^function! s:RemovePrompt(line, prompt)$/;"	f
+Replace	EasyGrep.vim	/^command! -bang -nargs=+ Replace :call s:Replace("<bang>", <q-args>)$/;"	c
+Replace	EasyGrep.vim	/^function! s:Replace(whole, argv)$/;"	f
+ReplaceCurrentWord	EasyGrep.vim	/^function! <sid>ReplaceCurrentWord(whole)$/;"	f
+ReplaceSelection	EasyGrep.vim	/^function! <sid>ReplaceSelection(whole)$/;"	f
+ReplaceString	EasyGrep.vim	/^function! s:ReplaceString(str, whole, escapeArgs)$/;"	f
+ReplaceUndo	EasyGrep.vim	/^command! -bang ReplaceUndo :call s:ReplaceUndo("<bang>")$/;"	c
+ReplaceUndo	EasyGrep.vim	/^function! s:ReplaceUndo(bang)$/;"	f
+ResetSnippets	snipMate.vim	/^fun! ResetSnippets()$/;"	f
+Resolve	matchit.vim	/^fun! s:Resolve(source, target, output)$/;"	f
+RestoreCommandLineOptions	EasyGrep.vim	/^function! s:RestoreCommandLineOptions(opts)$/;"	f
+RestorePrompt	fuzzyfinder.vim	/^function! s:RestorePrompt(line, prompt)$/;"	f
+RestoreVariable	EasyGrep.vim	/^function! s:RestoreVariable(var, ...)$/;"	f
+Rfgrep	grep.vim	/^command! -nargs=* -complete=file Rfgrep$/;"	c
+RfgrepAdd	grep.vim	/^command! -nargs=* -complete=file RfgrepAdd$/;"	c
+Rgrep	grep.vim	/^command! -nargs=* -complete=file Rgrep$/;"	c
+RgrepAdd	grep.vim	/^command! -nargs=* -complete=file RgrepAdd$/;"	c
+RubyBlockBraceToDoEnd	ruby-block-conv.vim	/^function! s:RubyBlockBraceToDoEnd(lineno)$/;"	f
+RubyBlockDoEndToBrace	ruby-block-conv.vim	/^function! s:RubyBlockDoEndToBrace(_firstline, _lastline)$/;"	f
+RubyBlockSwitchDelimiters	ruby-block-conv.vim	/^function! <SID>RubyBlockSwitchDelimiters() range$/;"	f
+RunGrep	grep.vim	/^function! s:RunGrep(cmd_name, grep_cmd, action, ...)$/;"	f
+RunGrepCmd	grep.vim	/^function! s:RunGrepCmd(cmd, pattern, action)$/;"	f
+RunGrepRecursive	grep.vim	/^function! s:RunGrepRecursive(cmd_name, grep_cmd, action, ...)$/;"	f
+RunGrepSpecial	grep.vim	/^function! s:RunGrepSpecial(cmd_name, which, action, ...)$/;"	f
+SaveVariable	EasyGrep.vim	/^function! s:SaveVariable(var)$/;"	f
+SearchFile	tasklist.vim	/^function! s:SearchFile(hits, word)$/;"	f
+Select	EasyGrep.vim	/^function! <sid>Select()$/;"	f
+SelectedText	fuzzyfinder.vim	/^function! s:SelectedText() " by id:ka-nacht$/;"	f
+SetAbbrWithFileAbbrData	fuzzyfinder.vim	/^function! s:SetAbbrWithFileAbbrData(item, truncated_heads, max_item_width)$/;"	f
+SetCommandLineOptions	EasyGrep.vim	/^function! s:SetCommandLineOptions(opts)$/;"	f
+SetCurrentExtension	EasyGrep.vim	/^function! s:SetCurrentExtension()$/;"	f
+SetFormattedTimeToMenu	fuzzyfinder.vim	/^function! s:SetFormattedTimeToMenu(item, format)$/;"	f
+SetFormattedWordToAbbr	fuzzyfinder.vim	/^function! s:SetFormattedWordToAbbr(item, max_item_width)$/;"	f
+SetGatewayVariables	EasyGrep.vim	/^function! s:SetGatewayVariables()$/;"	f
+SetLocalOptionsForFuzzyfinder	fuzzyfinder.vim	/^function! s:SetLocalOptionsForFuzzyfinder(cwd, complete_func)$/;"	f
+SetRanks	fuzzyfinder.vim	/^function! s:SetRanks(item, eval_word, eval_base, stats)$/;"	f
+SetWatchExtension	EasyGrep.vim	/^function! s:SetWatchExtension()$/;"	f
+ShellEscape	EasyGrep.vim	/^function! s:ShellEscape(item)$/;"	f
+ShellEscapeList	EasyGrep.vim	/^function! s:ShellEscapeList(lst, seperator)$/;"	f
+ShowAvailableSnips	snipMate.vim	/^fun! ShowAvailableSnips()$/;"	f
+ShowMarks	showmarks.vim	/^	aug ShowMarks$/;"	a
+ShowMarks	showmarks.vim	/^fun! s:ShowMarks()$/;"	f
+ShowMarksClearAll	showmarks.vim	/^com! -nargs=0 ShowMarksClearAll  :call <sid>ShowMarksClearAll()$/;"	c
+ShowMarksClearAll	showmarks.vim	/^fun! s:ShowMarksClearAll()$/;"	f
+ShowMarksClearMark	showmarks.vim	/^com! -nargs=0 ShowMarksClearMark :call <sid>ShowMarksClearMark()$/;"	c
+ShowMarksClearMark	showmarks.vim	/^fun! s:ShowMarksClearMark()$/;"	f
+ShowMarksHideAll	showmarks.vim	/^fun! s:ShowMarksHideAll()$/;"	f
+ShowMarksOn	showmarks.vim	/^com! -nargs=0 ShowMarksOn        :call <sid>ShowMarksOn()$/;"	c
+ShowMarksOn	showmarks.vim	/^fun! s:ShowMarksOn()$/;"	f
+ShowMarksPlaceMark	showmarks.vim	/^com! -nargs=0 ShowMarksPlaceMark :call <sid>ShowMarksPlaceMark()$/;"	c
+ShowMarksPlaceMark	showmarks.vim	/^fun! s:ShowMarksPlaceMark()$/;"	f
+ShowMarksSetup	showmarks.vim	/^fun! s:ShowMarksSetup()$/;"	f
+ShowMarksToggle	showmarks.vim	/^com! -nargs=0 ShowMarksToggle    :call <sid>ShowMarksToggle()$/;"	c
+ShowMarksToggle	showmarks.vim	/^fun! s:ShowMarksToggle()$/;"	f
+Sort	EasyGrep.vim	/^function! <sid>Sort()$/;"	f
+SortExtension	EasyGrep.vim	/^function! SortExtension(lhs, rhs)$/;"	f
+SortExtensionReversed	EasyGrep.vim	/^function! SortExtensionReversed(lhs, rhs)$/;"	f
+SortName	EasyGrep.vim	/^function! SortName(lhs, rhs)$/;"	f
+SortNameReversed	EasyGrep.vim	/^function! SortNameReversed(lhs, rhs)$/;"	f
+SplitPath	fuzzyfinder.vim	/^function! s:SplitPath(path)$/;"	f
+String_Strip	ruby-block-conv.vim	/^function! s:String_Strip(str)$/;"	f
+SuffixNumber	fuzzyfinder.vim	/^function! s:SuffixNumber(str)$/;"	f
+SynHere	IndentAnything.vim	/^function! SynHere()$/;"	f
+TComment	tcomment.vim	/^command! -bang -range -nargs=* -complete=customlist,tcomment#CompleteArgs TComment$/;"	c
+TCommentAs	tcomment.vim	/^command! -bang -complete=customlist,tcomment#Complete -range -nargs=+ TCommentAs $/;"	c
+TCommentBlock	tcomment.vim	/^command! -bang -range -nargs=* -complete=customlist,tcomment#CompleteArgs TCommentBlock$/;"	c
+TCommentInline	tcomment.vim	/^command! -bang -range -nargs=* -complete=customlist,tcomment#CompleteArgs TCommentInline$/;"	c
+TCommentMaybeInline	tcomment.vim	/^command! -bang -range -nargs=* -complete=customlist,tcomment#CompleteArgs TCommentMaybeInline$/;"	c
+TCommentRight	tcomment.vim	/^command! -bang -range -nargs=* -complete=customlist,tcomment#CompleteArgs TCommentRight$/;"	c
+TagList_IsValid	taglist.vim	/^function! TagList_IsValid()$/;"	f
+TagList_Start	taglist.vim	/^function! TagList_Start()$/;"	f
+TagList_WrapUp	taglist.vim	/^function! TagList_WrapUp()$/;"	f
+TagList_title	taglist.vim	/^    let TagList_title = "__Tag_List__"$/;"	v
+TaskList	tasklist.vim	/^command! TaskList call s:TaskList()$/;"	c
+TaskList	tasklist.vim	/^function! s:TaskList()$/;"	f
+Tlist	taglist.vim	/^    command! -nargs=0 -bar Tlist TlistToggle$/;"	c
+TlistAddFiles	taglist.vim	/^    command! -nargs=+ -complete=file TlistAddFiles$/;"	c
+TlistAddFilesRecursive	taglist.vim	/^    command! -nargs=+ -complete=dir TlistAddFilesRecursive$/;"	c
+TlistClose	taglist.vim	/^    command! -nargs=0 -bar TlistClose call s:Tlist_Window_Close()$/;"	c
+TlistDebug	taglist.vim	/^    command! -nargs=? -complete=file -bar TlistDebug$/;"	c
+TlistHighlightTag	taglist.vim	/^    command! -nargs=0 -bar TlistHighlightTag call s:Tlist_Window_Highlight_Tag($/;"	c
+TlistLock	taglist.vim	/^    command! -bar TlistLock let Tlist_Auto_Update=0$/;"	c
+TlistMessages	taglist.vim	/^    command! -nargs=0 -bar TlistMessages call s:Tlist_Debug_Show()$/;"	c
+TlistOpen	taglist.vim	/^    command! -nargs=0 -bar TlistOpen call s:Tlist_Window_Open()$/;"	c
+TlistSessionLoad	taglist.vim	/^    command! -nargs=* -complete=file TlistSessionLoad$/;"	c
+TlistSessionSave	taglist.vim	/^    command! -nargs=* -complete=file TlistSessionSave$/;"	c
+TlistShowPrototype	taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowPrototype$/;"	c
+TlistShowTag	taglist.vim	/^    command! -nargs=* -complete=buffer TlistShowTag$/;"	c
+TlistSync	taglist.vim	/^    command! -nargs=0 -bar TlistSync TlistHighlightTag$/;"	c
+TlistToggle	taglist.vim	/^    command! -nargs=0 -bar TlistToggle call s:Tlist_Window_Toggle()$/;"	c
+TlistUndebug	taglist.vim	/^    command! -nargs=0 -bar TlistUndebug  call s:Tlist_Debug_Disable()$/;"	c
+TlistUnlock	taglist.vim	/^    command! -bar TlistUnlock let Tlist_Auto_Update=1$/;"	c
+TlistUpdate	taglist.vim	/^    command! -nargs=0 -bar TlistUpdate call s:Tlist_Update_Current_File()$/;"	c
+Tlist_Add_Files	taglist.vim	/^function! s:Tlist_Add_Files(...)$/;"	f
+Tlist_Add_Files_Recursive	taglist.vim	/^function! s:Tlist_Add_Files_Recursive(dir, ...)$/;"	f
+Tlist_Auto_Highlight_Tag	taglist.vim	/^        let Tlist_Auto_Highlight_Tag = 1$/;"	v
+Tlist_Auto_Open	taglist.vim	/^        let Tlist_Auto_Open = 0$/;"	v
+Tlist_Auto_Update	taglist.vim	/^        let Tlist_Auto_Update = 1$/;"	v
+Tlist_Ballon_Expr	taglist.vim	/^function! Tlist_Ballon_Expr()$/;"	f
+Tlist_Buffer_Removed	taglist.vim	/^function! s:Tlist_Buffer_Removed(filename)$/;"	f
+Tlist_Change_Sort	taglist.vim	/^function! s:Tlist_Change_Sort(caller, action, sort_type)$/;"	f
+Tlist_Close_On_Select	taglist.vim	/^        let Tlist_Close_On_Select = 0$/;"	v
+Tlist_Compact_Format	taglist.vim	/^        let Tlist_Compact_Format = 0$/;"	v
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags'$/;"	v
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'ctags.exe'$/;"	v
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'exctags'$/;"	v
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'exuberant-ctags'$/;"	v
+Tlist_Ctags_Cmd	taglist.vim	/^            let Tlist_Ctags_Cmd = 'tags'$/;"	v
+Tlist_Debug_Disable	taglist.vim	/^function! s:Tlist_Debug_Disable(...)$/;"	f
+Tlist_Debug_Enable	taglist.vim	/^function! s:Tlist_Debug_Enable(...)$/;"	f
+Tlist_Debug_Show	taglist.vim	/^function! s:Tlist_Debug_Show()$/;"	f
+Tlist_Detect_Filetype	taglist.vim	/^function! s:Tlist_Detect_Filetype(fname)$/;"	f
+Tlist_Discard_FileInfo	taglist.vim	/^function! s:Tlist_Discard_FileInfo(fidx)$/;"	f
+Tlist_Discard_TagInfo	taglist.vim	/^function! s:Tlist_Discard_TagInfo(fidx)$/;"	f
+Tlist_Display_Prototype	taglist.vim	/^        let Tlist_Display_Prototype = 0$/;"	v
+Tlist_Display_Tag_Scope	taglist.vim	/^        let Tlist_Display_Tag_Scope = 1$/;"	v
+Tlist_Enable_Fold_Column	taglist.vim	/^        let Tlist_Enable_Fold_Column = 1$/;"	v
+Tlist_Exe_Cmd_No_Acmds	taglist.vim	/^function! s:Tlist_Exe_Cmd_No_Acmds(cmd)$/;"	f
+Tlist_Exit_OnlyWindow	taglist.vim	/^        let Tlist_Exit_OnlyWindow = 0$/;"	v
+Tlist_Extract_Tag_Scope	taglist.vim	/^function! s:Tlist_Extract_Tag_Scope(tag_line)$/;"	f
+Tlist_Extract_Tagtype	taglist.vim	/^function! s:Tlist_Extract_Tagtype(tag_line)$/;"	f
+Tlist_FileType_Init	taglist.vim	/^function! s:Tlist_FileType_Init(ftype)$/;"	f
+Tlist_File_Fold_Auto_Close	taglist.vim	/^        let Tlist_File_Fold_Auto_Close = 0$/;"	v
+Tlist_Find_Nearest_Tag_Idx	taglist.vim	/^function! s:Tlist_Find_Nearest_Tag_Idx(fidx, linenum)$/;"	f
+Tlist_GainFocus_On_ToggleOpen	taglist.vim	/^        let Tlist_GainFocus_On_ToggleOpen = 0$/;"	v
+Tlist_Get_Buffer_Filetype	taglist.vim	/^function! s:Tlist_Get_Buffer_Filetype(bnum)$/;"	f
+Tlist_Get_File_Index	taglist.vim	/^function! s:Tlist_Get_File_Index(fname)$/;"	f
+Tlist_Get_Tag_Linenum	taglist.vim	/^function! s:Tlist_Get_Tag_Linenum(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Prototype	taglist.vim	/^function! s:Tlist_Get_Tag_Prototype(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Prototype_By_Line	taglist.vim	/^function! Tlist_Get_Tag_Prototype_By_Line(...)$/;"	f
+Tlist_Get_Tag_SearchPat	taglist.vim	/^function! s:Tlist_Get_Tag_SearchPat(fidx, tidx)$/;"	f
+Tlist_Get_Tag_Type_By_Tag	taglist.vim	/^function! s:Tlist_Get_Tag_Type_By_Tag(fidx, tidx)$/;"	f
+Tlist_Get_Tagname_By_Line	taglist.vim	/^function! Tlist_Get_Tagname_By_Line(...)$/;"	f
+Tlist_Highlight_Tag_On_BufEnter	taglist.vim	/^        let Tlist_Highlight_Tag_On_BufEnter = 1$/;"	v
+Tlist_Inc_Winwidth	taglist.vim	/^            let Tlist_Inc_Winwidth = 0$/;"	v
+Tlist_Inc_Winwidth	taglist.vim	/^            let Tlist_Inc_Winwidth = 1$/;"	v
+Tlist_Init_File	taglist.vim	/^function! s:Tlist_Init_File(filename, ftype)$/;"	f
+Tlist_Log_Msg	taglist.vim	/^function! s:Tlist_Log_Msg(msg)$/;"	f
+Tlist_Max_Submenu_Items	taglist.vim	/^        let Tlist_Max_Submenu_Items = 20$/;"	v
+Tlist_Max_Tag_Length	taglist.vim	/^        let Tlist_Max_Tag_Length = 10$/;"	v
+Tlist_Menu_Add_Base_Menu	taglist.vim	/^function! s:Tlist_Menu_Add_Base_Menu()$/;"	f
+Tlist_Menu_File_Refresh	taglist.vim	/^function! s:Tlist_Menu_File_Refresh(fidx)$/;"	f
+Tlist_Menu_Get_Tag_Type_Cmd	taglist.vim	/^function! s:Tlist_Menu_Get_Tag_Type_Cmd(fidx, ftype, add_ttype_name, ttype_idx)$/;"	f
+Tlist_Menu_Init	taglist.vim	/^function! s:Tlist_Menu_Init()$/;"	f
+Tlist_Menu_Jump_To_Tag	taglist.vim	/^function! s:Tlist_Menu_Jump_To_Tag(tidx)$/;"	f
+Tlist_Menu_Refresh	taglist.vim	/^function! s:Tlist_Menu_Refresh()$/;"	f
+Tlist_Menu_Remove_File	taglist.vim	/^function! s:Tlist_Menu_Remove_File()$/;"	f
+Tlist_Menu_Update_File	taglist.vim	/^function! s:Tlist_Menu_Update_File(clear_menu)$/;"	f
+Tlist_Parse_Tagline	taglist.vim	/^function! s:Tlist_Parse_Tagline(tag_line)$/;"	f
+Tlist_Post_Close_Cleanup	taglist.vim	/^function! s:Tlist_Post_Close_Cleanup()$/;"	f
+Tlist_Process_Dir	taglist.vim	/^function! s:Tlist_Process_Dir(dir_name, pat)$/;"	f
+Tlist_Process_File	taglist.vim	/^function! s:Tlist_Process_File(filename, ftype)$/;"	f
+Tlist_Process_File_Always	taglist.vim	/^        let Tlist_Process_File_Always = 0$/;"	v
+Tlist_Process_Filelist	taglist.vim	/^function! s:Tlist_Process_Filelist(file_names)$/;"	f
+Tlist_Refresh	taglist.vim	/^function! s:Tlist_Refresh()$/;"	f
+Tlist_Refresh_Folds	taglist.vim	/^function! s:Tlist_Refresh_Folds()$/;"	f
+Tlist_Remove_File	taglist.vim	/^function! s:Tlist_Remove_File(file_idx, user_request)$/;"	f
+Tlist_Session_Load	taglist.vim	/^function! s:Tlist_Session_Load(...)$/;"	f
+Tlist_Session_Save	taglist.vim	/^function! s:Tlist_Session_Save(...)$/;"	f
+Tlist_Set_App	taglist.vim	/^function! Tlist_Set_App(name)$/;"	f
+Tlist_Show_Menu	taglist.vim	/^        let Tlist_Show_Menu = 0$/;"	v
+Tlist_Show_One_File	taglist.vim	/^        let Tlist_Show_One_File = 0$/;"	v
+Tlist_Skip_File	taglist.vim	/^function! s:Tlist_Skip_File(filename, ftype)$/;"	f
+Tlist_Sort_Type	taglist.vim	/^        let Tlist_Sort_Type = 'order'$/;"	v
+Tlist_Update_Current_File	taglist.vim	/^function! s:Tlist_Update_Current_File()$/;"	f
+Tlist_Update_File	taglist.vim	/^function! Tlist_Update_File(filename, ftype)$/;"	f
+Tlist_Update_Remove_List	taglist.vim	/^function! s:Tlist_Update_Remove_List(filename, add)$/;"	f
+Tlist_Use_Horiz_Window	taglist.vim	/^        let Tlist_Use_Horiz_Window = 0$/;"	v
+Tlist_Use_Right_Window	taglist.vim	/^        let Tlist_Use_Right_Window = 0$/;"	v
+Tlist_Use_SingleClick	taglist.vim	/^        let Tlist_Use_SingleClick = 0$/;"	v
+Tlist_User_Removed_File	taglist.vim	/^function! s:Tlist_User_Removed_File(filename)$/;"	f
+Tlist_Vim_Session_Load	taglist.vim	/^function! s:Tlist_Vim_Session_Load()$/;"	f
+Tlist_Warning_Msg	taglist.vim	/^function! s:Tlist_Warning_Msg(msg)$/;"	f
+Tlist_WinHeight	taglist.vim	/^        let Tlist_WinHeight = 10$/;"	v
+Tlist_WinWidth	taglist.vim	/^        let Tlist_WinWidth = 30$/;"	v
+Tlist_Window_Check_Auto_Open	taglist.vim	/^function! s:Tlist_Window_Check_Auto_Open()$/;"	f
+Tlist_Window_Check_Width	taglist.vim	/^function! s:Tlist_Window_Check_Width()$/;"	f
+Tlist_Window_Close	taglist.vim	/^function! s:Tlist_Window_Close()$/;"	f
+Tlist_Window_Create	taglist.vim	/^function! s:Tlist_Window_Create()$/;"	f
+Tlist_Window_Display_Help	taglist.vim	/^function! s:Tlist_Window_Display_Help()$/;"	f
+Tlist_Window_Exit_Only_Window	taglist.vim	/^function! s:Tlist_Window_Exit_Only_Window()$/;"	f
+Tlist_Window_Get_File_Index_By_Linenum	taglist.vim	/^function! s:Tlist_Window_Get_File_Index_By_Linenum(lnum)$/;"	f
+Tlist_Window_Get_Tag_Index	taglist.vim	/^function! s:Tlist_Window_Get_Tag_Index(fidx, lnum)$/;"	f
+Tlist_Window_Get_Tag_Type_By_Linenum	taglist.vim	/^function! s:Tlist_Window_Get_Tag_Type_By_Linenum(fidx, lnum)$/;"	f
+Tlist_Window_Goto_Window	taglist.vim	/^function! s:Tlist_Window_Goto_Window()$/;"	f
+Tlist_Window_Highlight_Line	taglist.vim	/^function! s:Tlist_Window_Highlight_Line()$/;"	f
+Tlist_Window_Highlight_Tag	taglist.vim	/^function! s:Tlist_Window_Highlight_Tag(filename, cur_lnum, cntx, center)$/;"	f
+Tlist_Window_Init	taglist.vim	/^function! s:Tlist_Window_Init()$/;"	f
+Tlist_Window_Jump_To_Tag	taglist.vim	/^function! s:Tlist_Window_Jump_To_Tag(win_ctrl)$/;"	f
+Tlist_Window_Mark_File_Window	taglist.vim	/^function! s:Tlist_Window_Mark_File_Window()$/;"	f
+Tlist_Window_Move_To_File	taglist.vim	/^function! s:Tlist_Window_Move_To_File(dir)$/;"	f
+Tlist_Window_Open	taglist.vim	/^function! s:Tlist_Window_Open()$/;"	f
+Tlist_Window_Open_File	taglist.vim	/^function! s:Tlist_Window_Open_File(win_ctrl, filename, tagpat)$/;"	f
+Tlist_Window_Open_File_Fold	taglist.vim	/^function! s:Tlist_Window_Open_File_Fold(acmd_bufnr)$/;"	f
+Tlist_Window_Refresh	taglist.vim	/^function! s:Tlist_Window_Refresh()$/;"	f
+Tlist_Window_Refresh_File	taglist.vim	/^function! s:Tlist_Window_Refresh_File(filename, ftype)$/;"	f
+Tlist_Window_Remove_File_From_Display	taglist.vim	/^function! s:Tlist_Window_Remove_File_From_Display(fidx)$/;"	f
+Tlist_Window_Show_Info	taglist.vim	/^function! s:Tlist_Window_Show_Info()$/;"	f
+Tlist_Window_Toggle	taglist.vim	/^function! s:Tlist_Window_Toggle()$/;"	f
+Tlist_Window_Toggle_Help_Text	taglist.vim	/^function! s:Tlist_Window_Toggle_Help_Text()$/;"	f
+Tlist_Window_Update_File	taglist.vim	/^function! s:Tlist_Window_Update_File()$/;"	f
+Tlist_Window_Update_Line_Offsets	taglist.vim	/^function! s:Tlist_Window_Update_Line_Offsets(start_idx, increment, offset)$/;"	f
+Tlist_Window_Zoom	taglist.vim	/^function! s:Tlist_Window_Zoom()$/;"	f
+ToggleCommand	EasyGrep.vim	/^function! <sid>ToggleCommand()$/;"	f
+ToggleEveryMatch	EasyGrep.vim	/^function! <sid>ToggleEveryMatch()$/;"	f
+ToggleFileAssociationsInExplorer	EasyGrep.vim	/^function! <sid>ToggleFileAssociationsInExplorer()$/;"	f
+ToggleHidden	EasyGrep.vim	/^function! <sid>ToggleHidden()$/;"	f
+ToggleIgnoreCase	EasyGrep.vim	/^function! <sid>ToggleIgnoreCase()$/;"	f
+ToggleJumpToMatch	EasyGrep.vim	/^function! <sid>ToggleJumpToMatch()$/;"	f
+ToggleOpenWindow	EasyGrep.vim	/^function! <sid>ToggleOpenWindow()$/;"	f
+ToggleOptionsDisplay	EasyGrep.vim	/^function! <sid>ToggleOptionsDisplay()$/;"	f
+ToggleRecursion	EasyGrep.vim	/^function! <sid>ToggleRecursion()$/;"	f
+ToggleReplaceWindowMode	EasyGrep.vim	/^function! <sid>ToggleReplaceWindowMode()$/;"	f
+ToggleWholeWord	EasyGrep.vim	/^function! <sid>ToggleWholeWord()$/;"	f
+ToggleWindow	EasyGrep.vim	/^function! <sid>ToggleWindow()$/;"	f
+TreeDirNode.AbsoluteTreeRoot	NERD_tree.vim	/^function! s:TreeDirNode.AbsoluteTreeRoot()$/;"	f
+TreeDirNode.GetSelected	NERD_tree.vim	/^function! s:TreeDirNode.GetSelected()$/;"	f
+TreeDirNode.New	NERD_tree.vim	/^function! s:TreeDirNode.New(path)$/;"	f
+TreeDirNode._initChildren	NERD_tree.vim	/^function! s:TreeDirNode._initChildren(silent)$/;"	f
+TreeDirNode._openRecursively2	NERD_tree.vim	/^function! s:TreeDirNode._openRecursively2(forceOpen)$/;"	f
+TreeDirNode.activate	NERD_tree.vim	/^function! s:TreeDirNode.activate(forceKeepWinOpen)$/;"	f
+TreeDirNode.addChild	NERD_tree.vim	/^function! s:TreeDirNode.addChild(treenode, inOrder)$/;"	f
+TreeDirNode.close	NERD_tree.vim	/^function! s:TreeDirNode.close()$/;"	f
+TreeDirNode.closeChildren	NERD_tree.vim	/^function! s:TreeDirNode.closeChildren()$/;"	f
+TreeDirNode.createChild	NERD_tree.vim	/^function! s:TreeDirNode.createChild(path, inOrder)$/;"	f
+TreeDirNode.findNode	NERD_tree.vim	/^function! s:TreeDirNode.findNode(path)$/;"	f
+TreeDirNode.getChild	NERD_tree.vim	/^function! s:TreeDirNode.getChild(path)$/;"	f
+TreeDirNode.getChildByIndex	NERD_tree.vim	/^function! s:TreeDirNode.getChildByIndex(indx, visible)$/;"	f
+TreeDirNode.getChildCount	NERD_tree.vim	/^function! s:TreeDirNode.getChildCount()$/;"	f
+TreeDirNode.getChildIndex	NERD_tree.vim	/^function! s:TreeDirNode.getChildIndex(path)$/;"	f
+TreeDirNode.getVisibleChildCount	NERD_tree.vim	/^function! s:TreeDirNode.getVisibleChildCount()$/;"	f
+TreeDirNode.getVisibleChildren	NERD_tree.vim	/^function! s:TreeDirNode.getVisibleChildren()$/;"	f
+TreeDirNode.hasVisibleChildren	NERD_tree.vim	/^function! s:TreeDirNode.hasVisibleChildren()$/;"	f
+TreeDirNode.open	NERD_tree.vim	/^function! s:TreeDirNode.open()$/;"	f
+TreeDirNode.openExplorer	NERD_tree.vim	/^function! s:TreeDirNode.openExplorer()$/;"	f
+TreeDirNode.openInNewTab	NERD_tree.vim	/^function! s:TreeDirNode.openInNewTab(options)$/;"	f
+TreeDirNode.openRecursively	NERD_tree.vim	/^function! s:TreeDirNode.openRecursively()$/;"	f
+TreeDirNode.refresh	NERD_tree.vim	/^function! s:TreeDirNode.refresh()$/;"	f
+TreeDirNode.removeChild	NERD_tree.vim	/^function! s:TreeDirNode.removeChild(treenode)$/;"	f
+TreeDirNode.reveal	NERD_tree.vim	/^function! s:TreeDirNode.reveal(path)$/;"	f
+TreeDirNode.sortChildren	NERD_tree.vim	/^function! s:TreeDirNode.sortChildren()$/;"	f
+TreeDirNode.toggleOpen	NERD_tree.vim	/^function! s:TreeDirNode.toggleOpen()$/;"	f
+TreeDirNode.transplantChild	NERD_tree.vim	/^function! s:TreeDirNode.transplantChild(newNode)$/;"	f
+TreeFileNode.GetRootForTab	NERD_tree.vim	/^function! s:TreeFileNode.GetRootForTab()$/;"	f
+TreeFileNode.GetRootLineNum	NERD_tree.vim	/^function! s:TreeFileNode.GetRootLineNum()$/;"	f
+TreeFileNode.GetSelected	NERD_tree.vim	/^function! s:TreeFileNode.GetSelected()$/;"	f
+TreeFileNode.New	NERD_tree.vim	/^function! s:TreeFileNode.New(path)$/;"	f
+TreeFileNode._renderToString	NERD_tree.vim	/^function! s:TreeFileNode._renderToString(depth, drawText, vertMap, isLastChild)$/;"	f
+TreeFileNode.activate	NERD_tree.vim	/^function! s:TreeFileNode.activate(forceKeepWinOpen)$/;"	f
+TreeFileNode.bookmark	NERD_tree.vim	/^function! s:TreeFileNode.bookmark(name)$/;"	f
+TreeFileNode.cacheParent	NERD_tree.vim	/^function! s:TreeFileNode.cacheParent()$/;"	f
+TreeFileNode.clearBoomarks	NERD_tree.vim	/^function! s:TreeFileNode.clearBoomarks()$/;"	f
+TreeFileNode.copy	NERD_tree.vim	/^function! s:TreeFileNode.copy(dest)$/;"	f
+TreeFileNode.delete	NERD_tree.vim	/^function! s:TreeFileNode.delete()$/;"	f
+TreeFileNode.displayString	NERD_tree.vim	/^function! s:TreeFileNode.displayString()$/;"	f
+TreeFileNode.equals	NERD_tree.vim	/^function! s:TreeFileNode.equals(treenode)$/;"	f
+TreeFileNode.findNode	NERD_tree.vim	/^function! s:TreeFileNode.findNode(path)$/;"	f
+TreeFileNode.findOpenDirSiblingWithVisibleChildren	NERD_tree.vim	/^function! s:TreeFileNode.findOpenDirSiblingWithVisibleChildren(direction)$/;"	f
+TreeFileNode.findSibling	NERD_tree.vim	/^function! s:TreeFileNode.findSibling(direction)$/;"	f
+TreeFileNode.getLineNum	NERD_tree.vim	/^function! s:TreeFileNode.getLineNum()$/;"	f
+TreeFileNode.isRoot	NERD_tree.vim	/^function! s:TreeFileNode.isRoot()$/;"	f
+TreeFileNode.isVisible	NERD_tree.vim	/^function! s:TreeFileNode.isVisible()$/;"	f
+TreeFileNode.makeRoot	NERD_tree.vim	/^function! s:TreeFileNode.makeRoot()$/;"	f
+TreeFileNode.open	NERD_tree.vim	/^function! s:TreeFileNode.open()$/;"	f
+TreeFileNode.openInNewTab	NERD_tree.vim	/^function! s:TreeFileNode.openInNewTab(options)$/;"	f
+TreeFileNode.openSplit	NERD_tree.vim	/^function! s:TreeFileNode.openSplit()$/;"	f
+TreeFileNode.openVSplit	NERD_tree.vim	/^function! s:TreeFileNode.openVSplit()$/;"	f
+TreeFileNode.putCursorHere	NERD_tree.vim	/^function! s:TreeFileNode.putCursorHere(isJump, recurseUpward)$/;"	f
+TreeFileNode.refresh	NERD_tree.vim	/^function! s:TreeFileNode.refresh()$/;"	f
+TreeFileNode.rename	NERD_tree.vim	/^function! s:TreeFileNode.rename(newName)$/;"	f
+TreeFileNode.renderToString	NERD_tree.vim	/^function! s:TreeFileNode.renderToString()$/;"	f
+TriggerSnippet	snipMate.vim	/^fun! TriggerSnippet()$/;"	f
+Trim	EasyGrep.vim	/^function! s:Trim(s)$/;"	f
+TruncateHead	fuzzyfinder.vim	/^function! s:TruncateHead(str, len)$/;"	f
+TruncateMid	fuzzyfinder.vim	/^function! s:TruncateMid(str, len)$/;"	f
+TruncateTail	fuzzyfinder.vim	/^function! s:TruncateTail(str, len)$/;"	f
+Unique	fuzzyfinder.vim	/^function! s:Unique(in)$/;"	f
+UpdateAll	EasyGrep.vim	/^function! s:UpdateAll()$/;"	f
+UpdateChoice	EasyGrep.vim	/^function! s:UpdateChoice(choice)$/;"	f
+UpdateDoc	tasklist.vim	/^function! s:UpdateDoc()$/;"	f
+UpdateMruList	fuzzyfinder.vim	/^function! s:UpdateMruList(mrulist, new_item, max_item, excluded)$/;"	f
+UpdateOptions	EasyGrep.vim	/^function! s:UpdateOptions()$/;"	f
+UpdateRange	EasyGrep.vim	/^function! s:UpdateRange(first, last)$/;"	f
+VerifyText	showmarks.vim	/^fun! s:VerifyText(which)$/;"	f
+VracketBackspace	vrackets.vim	/^function! VracketBackspace()$/;"	f
+VracketBoth	vrackets.vim	/^function! VracketBoth(bracket)$/;"	f
+VracketClose	vrackets.vim	/^function! VracketClose(bracket)$/;"	f
+VracketOpen	vrackets.vim	/^function! VracketOpen(bracket)$/;"	f
+WarnNoMatches	EasyGrep.vim	/^function! s:WarnNoMatches(pattern)$/;"	f
+Warning	EasyGrep.vim	/^function! s:Warning(message)$/;"	f
+Wholematch	matchit.vim	/^fun! s:Wholematch(string, pat, start)$/;"	f
+WindowManager.activate	fuzzyfinder.vim	/^function! s:WindowManager.activate(complete_func)$/;"	f
+WindowManager.deactivate	fuzzyfinder.vim	/^function! s:WindowManager.deactivate()$/;"	f
+[%	matchit.vim	/^nnoremap <silent> [% :<C-U>call <SID>MultiMatch("bW", "n") <CR>$/;"	m
+[%	matchit.vim	/^onoremap <silent> [% v:<C-U>call <SID>MultiMatch("bW", "o") <CR>$/;"	m
+[%	matchit.vim	/^vmap [% <Esc>[%m'gv``$/;"	m
+\sm	showmarks.vim	/^noremap <unique> <script> \\sm m$/;"	m
+]%	matchit.vim	/^nnoremap <silent> ]% :<C-U>call <SID>MultiMatch("W",  "n") <CR>$/;"	m
+]%	matchit.vim	/^onoremap <silent> ]% v:<C-U>call <SID>MultiMatch("W",  "o") <CR>$/;"	m
+]%	matchit.vim	/^vmap ]% <Esc>]%m'gv``$/;"	m
+a%	matchit.vim	/^vmap a% <Esc>[%v]%$/;"	m
+activateNode	NERD_tree.vim	/^function! s:activateNode(forceKeepWindowOpen)$/;"	f
+bindMappings	NERD_tree.vim	/^function! s:bindMappings()$/;"	f
+bookmarkNode	NERD_tree.vim	/^function! s:bookmarkNode(name)$/;"	f
+bufInWindows	NERD_tree.vim	/^function! s:bufInWindows(bnum)$/;"	f
+centerView	NERD_tree.vim	/^function! s:centerView()$/;"	f
+chCwd	NERD_tree.vim	/^function! s:chCwd()$/;"	f
+chRoot	NERD_tree.vim	/^function! s:chRoot()$/;"	f
+checkForActivate	NERD_tree.vim	/^function! s:checkForActivate()$/;"	f
+checkForBrowse	NERD_tree.vim	/^function! s:checkForBrowse(dir)$/;"	f
+clearBookmarks	NERD_tree.vim	/^function! s:clearBookmarks(bookmarks)$/;"	f
+closeChildren	NERD_tree.vim	/^function! s:closeChildren()$/;"	f
+closeCurrentDir	NERD_tree.vim	/^function! s:closeCurrentDir()$/;"	f
+closeTree	NERD_tree.vim	/^function! s:closeTree()$/;"	f
+closeTreeIfOpen	NERD_tree.vim	/^function! s:closeTreeIfOpen()$/;"	f
+closeTreeIfQuitOnOpen	NERD_tree.vim	/^function! s:closeTreeIfQuitOnOpen()$/;"	f
+closeTreeWindow	NERD_tree.vim	/^function! s:closeTreeWindow()$/;"	f
+compareBookmarks	NERD_tree.vim	/^function! s:compareBookmarks(first, second)$/;"	f
+compareNodes	NERD_tree.vim	/^function! s:compareNodes(n1, n2)$/;"	f
+completeBookmarks	NERD_tree.vim	/^function! s:completeBookmarks(A,L,P)$/;"	f
+countstr	EasyGrep.vim	/^function! s:countstr(str, ele)$/;"	f
+createTreeWin	NERD_tree.vim	/^function! s:createTreeWin()$/;"	f
+defineOption	acp.vim	/^function s:defineOption(name, default)$/;"	f
+deleteBookmark	NERD_tree.vim	/^function! s:deleteBookmark()$/;"	f
+displayHelp	NERD_tree.vim	/^function! s:displayHelp()$/;"	f
+dumpHelp	NERD_tree.vim	/^function! s:dumpHelp()$/;"	f
+echo	NERD_tree.vim	/^function! s:echo(msg)$/;"	f
+echoError	NERD_tree.vim	/^function! s:echoError(msg)$/;"	f
+echoWarning	NERD_tree.vim	/^function! s:echoWarning(msg)$/;"	f
+exec	NERD_tree.vim	/^function! s:exec(cmd)$/;"	f
+findAndRevealPath	NERD_tree.vim	/^function! s:findAndRevealPath()$/;"	f
+firstUsableWindow	NERD_tree.vim	/^function! s:firstUsableWindow()$/;"	f
+g%	matchit.vim	/^nnoremap <silent> g% :<C-U>call <SID>Match_wrapper('',0,'n') <CR>$/;"	m
+g%	matchit.vim	/^onoremap <silent> g% v:<C-U>call <SID>Match_wrapper('',0,'o') <CR>$/;"	m
+g%	matchit.vim	/^vnoremap <silent> g% :<C-U>call <SID>Match_wrapper('',0,'v') <CR>m'gv``$/;"	m
+g:EasyGrepAllOptionsInExplorer	EasyGrep.vim	/^    let g:EasyGrepAllOptionsInExplorer=0$/;"	v
+g:EasyGrepCommand	EasyGrep.vim	/^    let g:EasyGrepCommand=0$/;"	v
+g:EasyGrepEveryMatch	EasyGrep.vim	/^    let g:EasyGrepEveryMatch=0$/;"	v
+g:EasyGrepExtraWarnings	EasyGrep.vim	/^    let g:EasyGrepExtraWarnings=1$/;"	v
+g:EasyGrepFileAssociationsInExplorer	EasyGrep.vim	/^    let g:EasyGrepFileAssociationsInExplorer=0$/;"	v
+g:EasyGrepHidden	EasyGrep.vim	/^    let g:EasyGrepHidden=0$/;"	v
+g:EasyGrepIgnoreCase	EasyGrep.vim	/^    let g:EasyGrepIgnoreCase=&ignorecase$/;"	v
+g:EasyGrepInvertWholeWord	EasyGrep.vim	/^    let g:EasyGrepInvertWholeWord=0$/;"	v
+g:EasyGrepJumpToMatch	EasyGrep.vim	/^    let g:EasyGrepJumpToMatch=1$/;"	v
+g:EasyGrepMappingsSet	EasyGrep.vim	/^    let g:EasyGrepMappingsSet = 1$/;"	v
+g:EasyGrepMode	EasyGrep.vim	/^        let g:EasyGrepMode = 0$/;"	v
+g:EasyGrepMode	EasyGrep.vim	/^    let g:EasyGrepMode=0$/;"	v
+g:EasyGrepOpenWindowOnMatch	EasyGrep.vim	/^    let g:EasyGrepOpenWindowOnMatch=1$/;"	v
+g:EasyGrepOptionPrefix	EasyGrep.vim	/^    let g:EasyGrepOptionPrefix='<leader>vy'$/;"	v
+g:EasyGrepRecursive	EasyGrep.vim	/^    let g:EasyGrepRecursive=0$/;"	v
+g:EasyGrepReplaceAllPerFile	EasyGrep.vim	/^    let g:EasyGrepReplaceAllPerFile=0$/;"	v
+g:EasyGrepReplaceWindowMode	EasyGrep.vim	/^        let g:EasyGrepReplaceWindowMode = 0$/;"	v
+g:EasyGrepReplaceWindowMode	EasyGrep.vim	/^    let g:EasyGrepReplaceWindowMode=0$/;"	v
+g:EasyGrepSearchCurrentBufferDir	EasyGrep.vim	/^    let g:EasyGrepSearchCurrentBufferDir=1$/;"	v
+g:EasyGrepVersion	EasyGrep.vim	/^let g:EasyGrepVersion = ".98"$/;"	v
+g:EasyGrepWindow	EasyGrep.vim	/^    let g:EasyGrepWindow=0$/;"	v
+g:EasyGrepWindowPosition	EasyGrep.vim	/^       let g:EasyGrepWindowPosition=""$/;"	v
+g:EasyGrepWindowPosition	EasyGrep.vim	/^    let g:EasyGrepWindowPosition=""$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode = { 'Base' : {} }$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.Bookmark = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.Buffer = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.CallbackFile = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.CallbackItem = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.Dir = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.File = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.GivenCmd = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.GivenDir = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.GivenFile = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.MruCmd = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.MruFile = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.Tag = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderMode	fuzzyfinder.vim	/^let g:FuzzyFinderMode.TaggedFile = copy(g:FuzzyFinderMode.Base)$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions = { 'Base':{}, 'Buffer':{}, 'File':{}, 'Dir':{},$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.abbrev_map         = {}$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.enumerating_limit  = 100$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.ignore_case        = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.info_file          = '~\/.vimfuzzyfinder'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.key_ignore_case    = '<C-g><C-g>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.key_next_mode      = '<C-t>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.key_open           = '<CR>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.key_open_split     = '<C-j>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.key_open_tab       = '<C-l>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.key_open_vsplit    = '<C-k>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.key_prev_mode      = '<C-y>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.lasting_cache      = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.learning_limit     = 100$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.max_menu_width     = 80$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.migemo_support     = 0$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.min_length         = 0$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Base.time_format        = '(%Y-%m-%d %H:%M:%S)'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Bookmark.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Bookmark.prompt           = '>Bookmark>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Bookmark.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Bookmark.reuse_window     = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Bookmark.searching_range  = 100$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Bookmark.smart_bs         = 0$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Bookmark.switch_order     = 60$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Buffer.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Buffer.mru_order        = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Buffer.prompt           = '>Buffer>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Buffer.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Buffer.reuse_window     = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Buffer.smart_bs         = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Buffer.switch_order     = 10$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackFile.excluded_path    = ''$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackFile.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackFile.prompt           = '>CallbackFile>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackFile.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackFile.smart_bs         = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackFile.switch_order     = -1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackItem.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackItem.prompt           = '>CallbackItem>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackItem.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackItem.smart_bs         = 0$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.CallbackItem.switch_order     = -1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Dir.excluded_path    = ''$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Dir.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Dir.prompt           = '>Dir>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Dir.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Dir.smart_bs         = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Dir.switch_order     = 30$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.File.excluded_path    = '\\v\\~$|\\.o$|\\.exe$|\\.bak$|\\.swp$'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.File.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.File.prompt           = '>File>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.File.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.File.reuse_window     = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.File.smart_bs         = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.File.switch_order     = 20$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenCmd.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenCmd.prompt           = '>GivenCmd>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenCmd.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenCmd.smart_bs         = 0$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenCmd.switch_order     = -1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenDir.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenDir.prompt           = '>GivenDir>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenDir.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenDir.smart_bs         = 0$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenDir.switch_order     = -1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenFile.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenFile.prompt           = '>GivenFile>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenFile.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenFile.reuse_window     = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenFile.smart_bs         = 0$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.GivenFile.switch_order     = -1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruCmd.excluded_command = '^$'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruCmd.max_item         = 200$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruCmd.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruCmd.prompt           = '>MruCmd>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruCmd.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruCmd.smart_bs         = 0$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruCmd.switch_order     = 50$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruFile.excluded_path    = '\\v\\~$|\\.bak$|\\.swp$'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruFile.max_item         = 200$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruFile.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruFile.prompt           = '>MruFile>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruFile.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruFile.reuse_window     = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruFile.smart_bs         = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.MruFile.switch_order     = 40$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Tag.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Tag.prompt           = '>Tag>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Tag.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Tag.smart_bs         = 0$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.Tag.switch_order     = 70$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.TaggedFile.mode_available   = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.TaggedFile.prompt           = '>TaggedFile>'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.TaggedFile.prompt_highlight = 'Question'$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.TaggedFile.reuse_window     = 1$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.TaggedFile.smart_bs         = 0$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder.vim	/^let g:FuzzyFinderOptions.TaggedFile.switch_order     = 80$/;"	v
+g:FuzzyFinderOptions	fuzzyfinder_textmate.vim	/^  let g:FuzzyFinderOptions.TextMate = copy(g:FuzzyFinderOptions.File)$/;"	v
+g:NERDTreeBookmark	NERD_tree.vim	/^let g:NERDTreeBookmark = s:Bookmark$/;"	v
+g:NERDTreeDirNode	NERD_tree.vim	/^let g:NERDTreeDirNode = s:TreeDirNode$/;"	v
+g:NERDTreeFileNode	NERD_tree.vim	/^let g:NERDTreeFileNode = s:TreeFileNode$/;"	v
+g:NERDTreeIgnore	NERD_tree.vim	/^    let g:NERDTreeIgnore = ['\\~$']$/;"	v
+g:NERDTreePath	NERD_tree.vim	/^let g:NERDTreePath = s:Path$/;"	v
+g:NERDTreeSortOrder	NERD_tree.vim	/^    let g:NERDTreeSortOrder = ['\\\/$', '*', '\\.swp$',  '\\.bak$', '\\~$']$/;"	v
+g:NERDTreeStatusline	NERD_tree.vim	/^    let g:NERDTreeStatusline = "%{exists('b:NERDTreeRoot')?b:NERDTreeRoot.path.str():''}"$/;"	v
+g:command_t_loaded	command-t.vim	/^let g:command_t_loaded = 1$/;"	v
+g:did_ft	snipMate.vim	/^let g:did_ft = {}$/;"	v
+g:genincludes	genincludes.vim	/^let g:genincludes = 1$/;"	v
+g:loaded_acp	acp.vim	/^let g:loaded_acp = 1$/;"	v
+g:loaded_fuzzyfinder	fuzzyfinder.vim	/^let g:loaded_fuzzyfinder = 022203 " Version xx.xx.xx$/;"	v
+g:loaded_lua_ftplugin	lua-ftplugin.vim	/^let g:loaded_lua_ftplugin = 1$/;"	v
+g:loaded_tasklist	tasklist.vim	/^let g:loaded_tasklist = 1$/;"	v
+g:lua_ftplugin_version	lua-ftplugin.vim	/^let g:lua_ftplugin_version = '0.6.17'$/;"	v
+g:tcommentMapLeader1	tcomment.vim	/^    let g:tcommentMapLeader1 = '<c-_>'$/;"	v
+g:tcommentMapLeader2	tcomment.vim	/^    let g:tcommentMapLeader2 = '<Leader>_'$/;"	v
+g:tcommentMapLeaderOp1	tcomment.vim	/^    let g:tcommentMapLeaderOp1 = 'gc'$/;"	v
+g:tcommentMapLeaderOp2	tcomment.vim	/^    let g:tcommentMapLeaderOp2 = 'gC'$/;"	v
+g:tlRememberPosition	tasklist.vim	/^    let g:tlRememberPosition = 0$/;"	v
+g:tlTokenList	tasklist.vim	/^    let g:tlTokenList = ["FIXME", "TODO", "XXX"]$/;"	v
+g:tlWindowPosition	tasklist.vim	/^    let g:tlWindowPosition = 0$/;"	v
+getPath	NERD_tree.vim	/^function! s:getPath(ln)$/;"	f
+getTreeWinNum	NERD_tree.vim	/^function! s:getTreeWinNum()$/;"	f
+handleFailedAssersion	l9.vim	/^  function s:handleFailedAssersion(expr)$/;"	f
+handleMiddleMouse	NERD_tree.vim	/^function! s:handleMiddleMouse()$/;"	f
+indentLevelFor	NERD_tree.vim	/^function! s:indentLevelFor(line)$/;"	f
+initNerdTree	NERD_tree.vim	/^function! s:initNerdTree(name)$/;"	f
+initNerdTreeInPlace	NERD_tree.vim	/^function! s:initNerdTreeInPlace(dir)$/;"	f
+initNerdTreeMirror	NERD_tree.vim	/^function! s:initNerdTreeMirror()$/;"	f
+initVariable	NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
+initialize	fuf.vim	/^function s:initialize()$/;"	f
+isTreeOpen	NERD_tree.vim	/^function! s:isTreeOpen()$/;"	f
+isWindowUsable	NERD_tree.vim	/^function! s:isWindowUsable(winnumber)$/;"	f
+jumpToChild	NERD_tree.vim	/^function! s:jumpToChild(direction)$/;"	f
+jumpToFirstChild	NERD_tree.vim	/^function! s:jumpToFirstChild()$/;"	f
+jumpToLastChild	NERD_tree.vim	/^function! s:jumpToLastChild()$/;"	f
+jumpToParent	NERD_tree.vim	/^function! s:jumpToParent()$/;"	f
+jumpToRoot	NERD_tree.vim	/^function! s:jumpToRoot()$/;"	f
+jumpToSibling	NERD_tree.vim	/^function! s:jumpToSibling(forward)$/;"	f
+loaded_grep	grep.vim	/^let loaded_grep = 1$/;"	v
+loaded_matchit	matchit.vim	/^let loaded_matchit = 1$/;"	v
+loaded_mru	mru.vim	/^let loaded_mru=1$/;"	v
+loaded_nerd_tree	NERD_tree.vim	/^let loaded_nerd_tree = 1$/;"	v
+loaded_showmarks	showmarks.vim	/^let loaded_showmarks = 1$/;"	v
+loaded_snips	snipMate.vim	/^let loaded_snips = 1$/;"	v
+loaded_taglist	taglist.vim	/^            let loaded_taglist = 'no'$/;"	v
+loaded_taglist	taglist.vim	/^        let loaded_taglist = 'no'$/;"	v
+loaded_taglist	taglist.vim	/^    let loaded_taglist = 'fast_load_done'$/;"	v
+loaded_taglist	taglist.vim	/^let loaded_taglist = 'available'$/;"	v
+loaded_tcomment	tcomment.vim	/^let loaded_tcomment = 203$/;"	v
+m	showmarks.vim	/^noremap <silent> m :exe 'norm \\sm'.nr2char(getchar())<bar>call <sid>ShowMarks()<CR>$/;"	m
+makeDefaultBehavior	acp.vim	/^function s:makeDefaultBehavior()$/;"	f
+nextBufferName	NERD_tree.vim	/^function! s:nextBufferName()$/;"	f
+openBookmark	NERD_tree.vim	/^function! s:openBookmark(name)$/;"	f
+openEntrySplit	NERD_tree.vim	/^function! s:openEntrySplit(vertical, forceKeepWindowOpen)$/;"	f
+openExplorer	NERD_tree.vim	/^function! s:openExplorer()$/;"	f
+openInNewTab	NERD_tree.vim	/^function! s:openInNewTab(stayCurrentTab)$/;"	f
+openNodeRecursively	NERD_tree.vim	/^function! s:openNodeRecursively()$/;"	f
+previewNode	NERD_tree.vim	/^function! s:previewNode(openNewWin)$/;"	f
+promptToDelBuffer	NERD_tree.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
+putCursorInTreeWin	NERD_tree.vim	/^function! s:putCursorInTreeWin()$/;"	f
+putCursorOnBookmarkTable	NERD_tree.vim	/^function! s:putCursorOnBookmarkTable()$/;"	f
+r.at	test/IndentAnything/test.js	/^    at : the,$/;"	p
+r.bar	test/IndentAnything/test.js	/^    bar : tender$/;"	p
+refreshCurrent	NERD_tree.vim	/^function! s:refreshCurrent()$/;"	f
+refreshRoot	NERD_tree.vim	/^function! s:refreshRoot()$/;"	f
+renderBookmarks	NERD_tree.vim	/^function! s:renderBookmarks()$/;"	f
+renderView	NERD_tree.vim	/^function! s:renderView()$/;"	f
+renderViewSavingPosition	NERD_tree.vim	/^function! s:renderViewSavingPosition()$/;"	f
+renewCachesOfAllModes	fuf.vim	/^function s:renewCachesOfAllModes()$/;"	f
+restoreScreenState	NERD_tree.vim	/^function! s:restoreScreenState()$/;"	f
+revealBookmark	NERD_tree.vim	/^function! s:revealBookmark(name)$/;"	f
+s:ABBR_TRUNCATION_MARK	fuzzyfinder.vim	/^let s:ABBR_TRUNCATION_MARK = '...'$/;"	v
+s:Bookmark	NERD_tree.vim	/^let s:Bookmark = {}$/;"	v
+s:CommandChoice	EasyGrep.vim	/^let s:CommandChoice = g:EasyGrepCommand < len(s:Commands) ? g:EasyGrepCommand : 0$/;"	v
+s:Commands	EasyGrep.vim	/^let s:Commands = [ "vimgrep", "grep" ]$/;"	v
+s:CurrentFileCurrentDirChecked	EasyGrep.vim	/^let s:CurrentFileCurrentDirChecked = 0$/;"	v
+s:FilesToGrep	EasyGrep.vim	/^let s:FilesToGrep="*"$/;"	v
+s:InfoFileManager	fuzzyfinder.vim	/^let s:InfoFileManager = { 'originals' : {} }$/;"	v
+s:KeyMap	NERD_tree.vim	/^let s:KeyMap = {}$/;"	v
+s:MATCHING_RATE_BASE	fuzzyfinder.vim	/^let s:MATCHING_RATE_BASE = 1000000$/;"	v
+s:MenuController	NERD_tree.vim	/^let s:MenuController = {}$/;"	v
+s:MenuItem	NERD_tree.vim	/^let s:MenuItem = {}$/;"	v
+s:NERDTreeBufName	NERD_tree.vim	/^let s:NERDTreeBufName = 'NERD_tree_'$/;"	v
+s:NERDTreeSortStarIndex	NERD_tree.vim	/^let s:NERDTreeSortStarIndex = index(g:NERDTreeSortOrder, '*')$/;"	v
+s:NERD_tree_version	NERD_tree.vim	/^let s:NERD_tree_version = '4.1.0'$/;"	v
+s:NumReplaceModeOptions	EasyGrep.vim	/^let s:NumReplaceModeOptions = 3$/;"	v
+s:OPEN_MODE_CURRENT	fuzzyfinder.vim	/^let s:OPEN_MODE_CURRENT = 1$/;"	v
+s:OPEN_MODE_SPLIT	fuzzyfinder.vim	/^let s:OPEN_MODE_SPLIT   = 2$/;"	v
+s:OPEN_MODE_TAB	fuzzyfinder.vim	/^let s:OPEN_MODE_TAB     = 4$/;"	v
+s:OPEN_MODE_VSPLIT	fuzzyfinder.vim	/^let s:OPEN_MODE_VSPLIT  = 3$/;"	v
+s:OptionManager	fuzzyfinder.vim	/^let s:OptionManager = { 'originals' : {} }$/;"	v
+s:OptionsExplorerOpen	EasyGrep.vim	/^let s:OptionsExplorerOpen = 0$/;"	v
+s:PATH_SEPARATOR	fuzzyfinder.vim	/^let s:PATH_SEPARATOR = (has('win32') || has('win64') ? '\\' : '\/')$/;"	v
+s:Path	NERD_tree.vim	/^let s:Path = {}$/;"	v
+s:SortChoice	EasyGrep.vim	/^let s:SortChoice = 0$/;"	v
+s:SortFunctions	EasyGrep.vim	/^let s:SortFunctions = [ "SortName", "SortNameReversed", "SortExtension", "SortExtensionReversed" ]$/;"	v
+s:SortOptions	EasyGrep.vim	/^let s:SortOptions = [ "Name", "Name Reversed", "Extension", "Extension Reversed" ]$/;"	v
+s:Tlist_Skip_Refresh	taglist.vim	/^let s:Tlist_Skip_Refresh = 0$/;"	v
+s:TrackedExt	EasyGrep.vim	/^let s:TrackedExt = "*"$/;"	v
+s:TreeDirNode	NERD_tree.vim	/^let s:TreeDirNode = copy(s:TreeFileNode)$/;"	v
+s:TreeFileNode	NERD_tree.vim	/^let s:TreeFileNode = {}$/;"	v
+s:WindowManager	fuzzyfinder.vim	/^let s:WindowManager = { 'buf_nr' : -1 }$/;"	v
+s:all_marks	showmarks.vim	/^let s:all_marks = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.'`^<>[]{}()\\""$/;"	v
+s:alpha	vrackets.vim	/^let s:alpha = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",$/;"	v
+s:cpo_save	grep.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	mru.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	taglist.vim	/^let s:cpo_save = &cpo$/;"	v
+s:esc_filename_chars	mru.vim	/^let s:esc_filename_chars = ' *?[{`$%#"|!<>();&' . "'\\t\\n"$/;"	v
+s:escape_chars	NERD_tree.vim	/^    let s:escape_chars =  " \\\\`\\|\\"#%&,?()\\*^<>"$/;"	v
+s:escape_chars	NERD_tree.vim	/^    let s:escape_chars =  " `\\|\\"#%&,?()\\*^<>"$/;"	v
+s:last_mps	matchit.vim	/^let s:last_mps = ""$/;"	v
+s:last_words	matchit.vim	/^let s:last_words = ":"$/;"	v
+s:match	vrackets.vim	/^let s:match = {'(': ')',$/;"	v
+s:menu_char_prefix	taglist.vim	/^let s:menu_char_prefix =$/;"	v
+s:mru_list_locked	mru.vim	/^let s:mru_list_locked = 0$/;"	v
+s:next_buffer_number	NERD_tree.vim	/^let s:next_buffer_number = 1$/;"	v
+s:notslash	matchit.vim	/^let s:notslash = '\\\\\\@<!\\%(\\\\\\\\\\)*'$/;"	v
+s:old_cpo	NERD_tree.vim	/^let s:old_cpo = &cpo$/;"	v
+s:running_windows	NERD_tree.vim	/^let s:running_windows = has("win16") || has("win32") || has("win64")$/;"	v
+s:save_cpo	matchit.vim	/^let s:save_cpo = &cpo$/;"	v
+s:sid	ruby-block-conv.vim	/^let s:sid = maparg("<SID>xx")$/;"	v
+s:sid	ruby-block-conv.vim	/^let s:sid = substitute(s:sid, 'xx', '', '')$/;"	v
+s:smatch	vrackets.vim	/^let s:smatch = ["'", "\\""]$/;"	v
+s:snippets	snipMate.vim	/^let s:snippets = {} | let s:multi_snips = {}$/;"	v
+s:supportedVimVersion	IndentAnything.vim	/^let s:supportedVimVersion = 700$/;"	v
+s:timerData	l9.vim	/^  let s:timerData = []$/;"	v
+s:timerTagMaxLen	l9.vim	/^  let s:timerTagMaxLen = 0$/;"	v
+s:tlist_app_name	taglist.vim	/^let s:tlist_app_name = "none"$/;"	v
+s:tlist_brief_help	taglist.vim	/^let s:tlist_brief_help = 1$/;"	v
+s:tlist_cur_file_idx	taglist.vim	/^let s:tlist_cur_file_idx = -1$/;"	v
+s:tlist_debug	taglist.vim	/^let s:tlist_debug = 0$/;"	v
+s:tlist_debug_file	taglist.vim	/^let s:tlist_debug_file = ''$/;"	v
+s:tlist_def_asm_settings	taglist.vim	/^let s:tlist_def_asm_settings = 'asm;d:define;l:label;m:macro;t:type'$/;"	v
+s:tlist_def_aspperl_settings	taglist.vim	/^let s:tlist_def_aspperl_settings = 'asp;f:function;s:sub;v:variable'$/;"	v
+s:tlist_def_aspvbs_settings	taglist.vim	/^let s:tlist_def_aspvbs_settings = 'asp;f:function;s:sub;v:variable'$/;"	v
+s:tlist_def_awk_settings	taglist.vim	/^let s:tlist_def_awk_settings = 'awk;f:function'$/;"	v
+s:tlist_def_beta_settings	taglist.vim	/^let s:tlist_def_beta_settings = 'beta;f:fragment;s:slot;v:pattern'$/;"	v
+s:tlist_def_c_settings	taglist.vim	/^let s:tlist_def_c_settings = 'c;d:macro;g:enum;s:struct;u:union;t:typedef;' .$/;"	v
+s:tlist_def_cobol_settings	taglist.vim	/^let s:tlist_def_cobol_settings = 'cobol;d:data;f:file;g:group;p:paragraph;' .$/;"	v
+s:tlist_def_cpp_settings	taglist.vim	/^let s:tlist_def_cpp_settings = 'c++;n:namespace;v:variable;d:macro;t:typedef;' .$/;"	v
+s:tlist_def_cs_settings	taglist.vim	/^let s:tlist_def_cs_settings = 'c#;d:macro;t:typedef;n:namespace;c:class;' .$/;"	v
+s:tlist_def_csh_settings	taglist.vim	/^let s:tlist_def_csh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_eiffel_settings	taglist.vim	/^let s:tlist_def_eiffel_settings = 'eiffel;c:class;f:feature'$/;"	v
+s:tlist_def_erlang_settings	taglist.vim	/^let s:tlist_def_erlang_settings = 'erlang;d:macro;r:record;m:module;f:function'$/;"	v
+s:tlist_def_expect_settings	taglist.vim	/^let s:tlist_def_expect_settings = 'tcl;c:class;f:method;p:procedure'$/;"	v
+s:tlist_def_fortran_settings	taglist.vim	/^let s:tlist_def_fortran_settings = 'fortran;p:program;b:block data;' .$/;"	v
+s:tlist_def_html_settings	taglist.vim	/^let s:tlist_def_html_settings = 'html;a:anchor;f:javascript function'$/;"	v
+s:tlist_def_java_settings	taglist.vim	/^let s:tlist_def_java_settings = 'java;p:package;c:class;i:interface;' .$/;"	v
+s:tlist_def_javascript_settings	taglist.vim	/^let s:tlist_def_javascript_settings = 'javascript;f:function'$/;"	v
+s:tlist_def_lisp_settings	taglist.vim	/^let s:tlist_def_lisp_settings = 'lisp;f:function'$/;"	v
+s:tlist_def_lua_settings	taglist.vim	/^let s:tlist_def_lua_settings = 'lua;f:function'$/;"	v
+s:tlist_def_make_settings	taglist.vim	/^let s:tlist_def_make_settings = 'make;m:macro'$/;"	v
+s:tlist_def_pascal_settings	taglist.vim	/^let s:tlist_def_pascal_settings = 'pascal;f:function;p:procedure'$/;"	v
+s:tlist_def_perl_settings	taglist.vim	/^let s:tlist_def_perl_settings = 'perl;c:constant;l:label;p:package;s:subroutine'$/;"	v
+s:tlist_def_php_settings	taglist.vim	/^let s:tlist_def_php_settings = 'php;c:class;d:constant;v:variable;f:function'$/;"	v
+s:tlist_def_python_settings	taglist.vim	/^let s:tlist_def_python_settings = 'python;c:class;m:member;f:function'$/;"	v
+s:tlist_def_rexx_settings	taglist.vim	/^let s:tlist_def_rexx_settings = 'rexx;s:subroutine'$/;"	v
+s:tlist_def_ruby_settings	taglist.vim	/^let s:tlist_def_ruby_settings = 'ruby;c:class;f:method;F:function;' .$/;"	v
+s:tlist_def_scheme_settings	taglist.vim	/^let s:tlist_def_scheme_settings = 'scheme;s:set;f:function'$/;"	v
+s:tlist_def_sh_settings	taglist.vim	/^let s:tlist_def_sh_settings = 'sh;f:function'$/;"	v
+s:tlist_def_slang_settings	taglist.vim	/^let s:tlist_def_slang_settings = 'slang;n:namespace;f:function'$/;"	v
+s:tlist_def_sml_settings	taglist.vim	/^let s:tlist_def_sml_settings = 'sml;e:exception;c:functor;s:signature;' .$/;"	v
+s:tlist_def_sql_settings	taglist.vim	/^let s:tlist_def_sql_settings = 'sql;c:cursor;F:field;P:package;r:record;' .$/;"	v
+s:tlist_def_tcl_settings	taglist.vim	/^let s:tlist_def_tcl_settings = 'tcl;c:class;f:method;m:method;p:procedure'$/;"	v
+s:tlist_def_vera_settings	taglist.vim	/^let s:tlist_def_vera_settings = 'vera;c:class;d:macro;e:enumerator;' .$/;"	v
+s:tlist_def_verilog_settings	taglist.vim	/^let s:tlist_def_verilog_settings = 'verilog;m:module;c:constant;P:parameter;' .$/;"	v
+s:tlist_def_vim_settings	taglist.vim	/^let s:tlist_def_vim_settings = 'vim;a:autocmds;v:variable;f:function'$/;"	v
+s:tlist_def_yacc_settings	taglist.vim	/^let s:tlist_def_yacc_settings = 'yacc;l:label'$/;"	v
+s:tlist_def_zsh_settings	taglist.vim	/^let s:tlist_def_zsh_settings = 'sh;f:function'$/;"	v
+s:tlist_file_count	taglist.vim	/^let s:tlist_file_count = 0$/;"	v
+s:tlist_file_lnum_idx_cache	taglist.vim	/^let s:tlist_file_lnum_idx_cache = -1$/;"	v
+s:tlist_file_name_idx_cache	taglist.vim	/^let s:tlist_file_name_idx_cache = -1$/;"	v
+s:tlist_file_names	taglist.vim	/^let s:tlist_file_names=''$/;"	v
+s:tlist_ftype_count	taglist.vim	/^let s:tlist_ftype_count = 0$/;"	v
+s:tlist_menu_empty	taglist.vim	/^let s:tlist_menu_empty = 1$/;"	v
+s:tlist_msg	taglist.vim	/^    let s:tlist_msg = ''$/;"	v
+s:tlist_removed_flist	taglist.vim	/^let s:tlist_removed_flist = ""$/;"	v
+s:tlist_sid	taglist.vim	/^    let s:tlist_sid = substitute(maparg('<SID>xx'), '<SNR>\\(\\d\\+_\\)xx$',$/;"	v
+s:tlist_win_maximized	taglist.vim	/^let s:tlist_win_maximized = 0$/;"	v
+s:tlist_winsize_chgd	taglist.vim	/^let s:tlist_winsize_chgd = -1$/;"	v
+s:tree_markup_reg	NERD_tree.vim	/^let s:tree_markup_reg = '^[ `|]*[\\-+~]'$/;"	v
+s:tree_up_dir_line	NERD_tree.vim	/^let s:tree_up_dir_line = '.. (up a dir)'$/;"	v
+s:tree_wid	NERD_tree.vim	/^let s:tree_wid = 2$/;"	v
+s:user_options	fuzzyfinder.vim	/^let s:user_options = (exists('g:FuzzyFinderOptions') ? g:FuzzyFinderOptions : {})$/;"	v
+saveScreenState	NERD_tree.vim	/^function! s:saveScreenState()$/;"	f
+setupStatusline	NERD_tree.vim	/^function! s:setupStatusline()$/;"	f
+setupSyntaxHighlighting	NERD_tree.vim	/^function! s:setupSyntaxHighlighting()$/;"	f
+showMenu	NERD_tree.vim	/^function! s:showMenu()$/;"	f
+snippets_dir	snipMate.vim	/^	let snippets_dir = substitute(globpath(&rtp, 'snippets\/'), "\\n", ',', 'g')$/;"	v
+stripMarkupFromLine	NERD_tree.vim	/^function! s:stripMarkupFromLine(line, removeLeadingSpaces)$/;"	f
+tabpagevar	NERD_tree.vim	/^function! s:tabpagevar(tabnr, var)$/;"	f
+timerBegin	l9.vim	/^  function s:timerBegin(tag)$/;"	f
+timerDump	l9.vim	/^  function s:timerDump()$/;"	f
+timerStop	l9.vim	/^  function s:timerStop()$/;"	f
+toggle	NERD_tree.vim	/^function! s:toggle(dir)$/;"	f
+toggleIgnoreFilter	NERD_tree.vim	/^function! s:toggleIgnoreFilter()$/;"	f
+toggleShowBookmarks	NERD_tree.vim	/^function! s:toggleShowBookmarks()$/;"	f
+toggleShowFiles	NERD_tree.vim	/^function! s:toggleShowFiles()$/;"	f
+toggleShowHidden	NERD_tree.vim	/^function! s:toggleShowHidden()$/;"	f
+toggleZoom	NERD_tree.vim	/^function! s:toggleZoom()$/;"	f
+treeExistsForBuf	NERD_tree.vim	/^function! s:treeExistsForBuf()$/;"	f
+treeExistsForTab	NERD_tree.vim	/^function! s:treeExistsForTab()$/;"	f
+unique	EasyGrep.vim	/^function! s:unique(lst)$/;"	f
+unique	NERD_tree.vim	/^function! s:unique(list)$/;"	f
+upDir	NERD_tree.vim	/^function! s:upDir(keepState)$/;"	f
+w	EasyGrep.vim	/^    let w = g:EasyGrepWindowPosition$/;"	v
+window	test/IndentAnything/test.js	/^window.prototype.foo = {$/;"	c
+window.foo	test/IndentAnything/test.js	/^window.prototype.foo = {$/;"	m
+z/	autohighlight.vim	/^nnoremap z\/ :if AutoHighlightToggle()<Bar>set hls<Bar>endif<CR>$/;"	m

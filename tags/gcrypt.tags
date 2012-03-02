@@ -1,0 +1,559 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GCRYCTL_ANY_INITIALIZATION_P	/usr/include/gcrypt.h	/^    GCRYCTL_ANY_INITIALIZATION_P = 40,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_CFB_SYNC	/usr/include/gcrypt.h	/^    GCRYCTL_CFB_SYNC = 3,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_CLEAR_DEBUG_FLAGS	/usr/include/gcrypt.h	/^    GCRYCTL_CLEAR_DEBUG_FLAGS = 21,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_DISABLE_ALGO	/usr/include/gcrypt.h	/^    GCRYCTL_DISABLE_ALGO = 12,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_DISABLE_HWF	/usr/include/gcrypt.h	/^    GCRYCTL_DISABLE_HWF = 63$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_DISABLE_INTERNAL_LOCKING	/usr/include/gcrypt.h	/^    GCRYCTL_DISABLE_INTERNAL_LOCKING = 36,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_DISABLE_SECMEM	/usr/include/gcrypt.h	/^    GCRYCTL_DISABLE_SECMEM      = 37,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_DISABLE_SECMEM_WARN	/usr/include/gcrypt.h	/^    GCRYCTL_DISABLE_SECMEM_WARN = 27,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_DROP_PRIVS	/usr/include/gcrypt.h	/^    GCRYCTL_DROP_PRIVS          = 30,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_DUMP_MEMORY_STATS	/usr/include/gcrypt.h	/^    GCRYCTL_DUMP_MEMORY_STATS = 23,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_DUMP_RANDOM_STATS	/usr/include/gcrypt.h	/^    GCRYCTL_DUMP_RANDOM_STATS = 13,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_DUMP_SECMEM_STATS	/usr/include/gcrypt.h	/^    GCRYCTL_DUMP_SECMEM_STATS = 14,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_ENABLE_ALGO	/usr/include/gcrypt.h	/^    GCRYCTL_ENABLE_ALGO = 11,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_ENABLE_M_GUARD	/usr/include/gcrypt.h	/^    GCRYCTL_ENABLE_M_GUARD      = 31,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_ENABLE_QUICK_RANDOM	/usr/include/gcrypt.h	/^    GCRYCTL_ENABLE_QUICK_RANDOM = 44,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_FAKED_RANDOM_P	/usr/include/gcrypt.h	/^    GCRYCTL_FAKED_RANDOM_P = 51,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_FAST_POLL	/usr/include/gcrypt.h	/^    GCRYCTL_FAST_POLL = 48,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_FINALIZE	/usr/include/gcrypt.h	/^    GCRYCTL_FINALIZE = 5,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_FIPS_MODE_P	/usr/include/gcrypt.h	/^    GCRYCTL_FIPS_MODE_P = 55,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_FORCE_FIPS_MODE	/usr/include/gcrypt.h	/^    GCRYCTL_FORCE_FIPS_MODE = 56,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_GET_ALGO_NENCR	/usr/include/gcrypt.h	/^    GCRYCTL_GET_ALGO_NENCR    = 18,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_GET_ALGO_NPKEY	/usr/include/gcrypt.h	/^    GCRYCTL_GET_ALGO_NPKEY    = 15,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_GET_ALGO_NSIGN	/usr/include/gcrypt.h	/^    GCRYCTL_GET_ALGO_NSIGN    = 17,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_GET_ALGO_NSKEY	/usr/include/gcrypt.h	/^    GCRYCTL_GET_ALGO_NSKEY    = 16,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_GET_ALGO_USAGE	/usr/include/gcrypt.h	/^    GCRYCTL_GET_ALGO_USAGE      = 34,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_GET_ASNOID	/usr/include/gcrypt.h	/^    GCRYCTL_GET_ASNOID = 10,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_GET_BLKLEN	/usr/include/gcrypt.h	/^    GCRYCTL_GET_BLKLEN = 7,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_GET_KEYLEN	/usr/include/gcrypt.h	/^    GCRYCTL_GET_KEYLEN = 6,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_INITIALIZATION_FINISHED	/usr/include/gcrypt.h	/^    GCRYCTL_INITIALIZATION_FINISHED = 38,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_INITIALIZATION_FINISHED_P	/usr/include/gcrypt.h	/^    GCRYCTL_INITIALIZATION_FINISHED_P = 39,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_INIT_SECMEM	/usr/include/gcrypt.h	/^    GCRYCTL_INIT_SECMEM       = 24,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_IS_ALGO_ENABLED	/usr/include/gcrypt.h	/^    GCRYCTL_IS_ALGO_ENABLED     = 35,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_IS_SECURE	/usr/include/gcrypt.h	/^    GCRYCTL_IS_SECURE = 9,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_OPERATIONAL_P	/usr/include/gcrypt.h	/^    GCRYCTL_OPERATIONAL_P = 54,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_PRINT_CONFIG	/usr/include/gcrypt.h	/^    GCRYCTL_PRINT_CONFIG = 53,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_RESET	/usr/include/gcrypt.h	/^    GCRYCTL_RESET    = 4,   \/* e.g. for MDs *\/$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_RESUME_SECMEM_WARN	/usr/include/gcrypt.h	/^    GCRYCTL_RESUME_SECMEM_WARN  = 29,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SELFTEST	/usr/include/gcrypt.h	/^    GCRYCTL_SELFTEST = 57,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_CBC_CTS	/usr/include/gcrypt.h	/^    GCRYCTL_SET_CBC_CTS = 41,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_CBC_MAC	/usr/include/gcrypt.h	/^    GCRYCTL_SET_CBC_MAC = 42,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_CTR	/usr/include/gcrypt.h	/^    GCRYCTL_SET_CTR = 43,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_DEBUG_FLAGS	/usr/include/gcrypt.h	/^    GCRYCTL_SET_DEBUG_FLAGS   = 20,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_IV	/usr/include/gcrypt.h	/^    GCRYCTL_SET_IV   = 2,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_KEY	/usr/include/gcrypt.h	/^    GCRYCTL_SET_KEY  = 1,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_RANDOM_DAEMON_SOCKET	/usr/include/gcrypt.h	/^    GCRYCTL_SET_RANDOM_DAEMON_SOCKET = 49,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_RANDOM_SEED_FILE	/usr/include/gcrypt.h	/^    GCRYCTL_SET_RANDOM_SEED_FILE = 45,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_RNDEGD_SOCKET	/usr/include/gcrypt.h	/^    GCRYCTL_SET_RNDEGD_SOCKET = 52,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_THREAD_CBS	/usr/include/gcrypt.h	/^    GCRYCTL_SET_THREAD_CBS = 47,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SET_VERBOSITY	/usr/include/gcrypt.h	/^    GCRYCTL_SET_VERBOSITY     = 19,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_START_DUMP	/usr/include/gcrypt.h	/^    GCRYCTL_START_DUMP          = 32,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_STOP_DUMP	/usr/include/gcrypt.h	/^    GCRYCTL_STOP_DUMP           = 33,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_SUSPEND_SECMEM_WARN	/usr/include/gcrypt.h	/^    GCRYCTL_SUSPEND_SECMEM_WARN = 28,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_TERM_SECMEM	/usr/include/gcrypt.h	/^    GCRYCTL_TERM_SECMEM       = 25,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_TEST_ALGO	/usr/include/gcrypt.h	/^    GCRYCTL_TEST_ALGO = 8,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_UPDATE_RANDOM_SEED_FILE	/usr/include/gcrypt.h	/^    GCRYCTL_UPDATE_RANDOM_SEED_FILE = 46,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_USE_RANDOM_DAEMON	/usr/include/gcrypt.h	/^    GCRYCTL_USE_RANDOM_DAEMON = 50,$/;"	e	enum:gcry_ctl_cmds
+GCRYCTL_USE_SECURE_RNDPOOL	/usr/include/gcrypt.h	/^    GCRYCTL_USE_SECURE_RNDPOOL= 22,$/;"	e	enum:gcry_ctl_cmds
+GCRYMPI_FLAG_OPAQUE	/usr/include/gcrypt.h	/^    GCRYMPI_FLAG_OPAQUE = 2   \/* The number is not a real one but just$/;"	e	enum:gcry_mpi_flag
+GCRYMPI_FLAG_SECURE	/usr/include/gcrypt.h	/^    GCRYMPI_FLAG_SECURE = 1,  \/* Allocate the number in "secure" memory.  *\/$/;"	e	enum:gcry_mpi_flag
+GCRYMPI_FMT_HEX	/usr/include/gcrypt.h	/^    GCRYMPI_FMT_HEX = 4,    \/* Hex format. *\/$/;"	e	enum:gcry_mpi_format
+GCRYMPI_FMT_NONE	/usr/include/gcrypt.h	/^    GCRYMPI_FMT_NONE= 0,$/;"	e	enum:gcry_mpi_format
+GCRYMPI_FMT_PGP	/usr/include/gcrypt.h	/^    GCRYMPI_FMT_PGP = 2,    \/* As used by OpenPGP (unsigned only).  *\/$/;"	e	enum:gcry_mpi_format
+GCRYMPI_FMT_SSH	/usr/include/gcrypt.h	/^    GCRYMPI_FMT_SSH = 3,    \/* As used by SSH (like STD but with length).  *\/$/;"	e	enum:gcry_mpi_format
+GCRYMPI_FMT_STD	/usr/include/gcrypt.h	/^    GCRYMPI_FMT_STD = 1,    \/* Twos complement stored without length.  *\/$/;"	e	enum:gcry_mpi_format
+GCRYMPI_FMT_USG	/usr/include/gcrypt.h	/^    GCRYMPI_FMT_USG = 5     \/* Like STD but unsigned. *\/$/;"	e	enum:gcry_mpi_format
+GCRYPT_NO_MPI_MACROS	/usr/include/gcrypt.h	70;"	d
+GCRYPT_VERSION	/usr/include/gcrypt.h	64;"	d
+GCRYSEXP_FMT_ADVANCED	/usr/include/gcrypt.h	/^    GCRYSEXP_FMT_ADVANCED  = 3$/;"	e	enum:gcry_sexp_format
+GCRYSEXP_FMT_BASE64	/usr/include/gcrypt.h	/^    GCRYSEXP_FMT_BASE64    = 2,$/;"	e	enum:gcry_sexp_format
+GCRYSEXP_FMT_CANON	/usr/include/gcrypt.h	/^    GCRYSEXP_FMT_CANON     = 1,$/;"	e	enum:gcry_sexp_format
+GCRYSEXP_FMT_DEFAULT	/usr/include/gcrypt.h	/^    GCRYSEXP_FMT_DEFAULT   = 0,$/;"	e	enum:gcry_sexp_format
+GCRY_AC_DSA	/usr/include/gcrypt.h	/^    GCRY_AC_DSA = 17,$/;"	e	enum:gcry_ac_id
+GCRY_AC_ELG	/usr/include/gcrypt.h	/^    GCRY_AC_ELG = 20,$/;"	e	enum:gcry_ac_id
+GCRY_AC_ELG_E	/usr/include/gcrypt.h	/^    GCRY_AC_ELG_E = 16$/;"	e	enum:gcry_ac_id
+GCRY_AC_EME_PKCS_V1_5	/usr/include/gcrypt.h	/^    GCRY_AC_EME_PKCS_V1_5,$/;"	e	enum:gcry_ac_em
+GCRY_AC_EMSA_PKCS_V1_5	/usr/include/gcrypt.h	/^    GCRY_AC_EMSA_PKCS_V1_5$/;"	e	enum:gcry_ac_em
+GCRY_AC_ES_PKCS_V1_5	/usr/include/gcrypt.h	/^    GCRY_AC_ES_PKCS_V1_5,$/;"	e	enum:gcry_ac_scheme
+GCRY_AC_FLAG_COPY	/usr/include/gcrypt.h	1291;"	d
+GCRY_AC_FLAG_DEALLOC	/usr/include/gcrypt.h	1290;"	d
+GCRY_AC_FLAG_NO_BLINDING	/usr/include/gcrypt.h	1292;"	d
+GCRY_AC_IO_CALLBACK	/usr/include/gcrypt.h	/^    GCRY_AC_IO_CALLBACK$/;"	e	enum:__anon2
+GCRY_AC_IO_READABLE	/usr/include/gcrypt.h	/^    GCRY_AC_IO_READABLE,$/;"	e	enum:__anon1
+GCRY_AC_IO_STRING	/usr/include/gcrypt.h	/^    GCRY_AC_IO_STRING,$/;"	e	enum:__anon2
+GCRY_AC_IO_WRITABLE	/usr/include/gcrypt.h	/^    GCRY_AC_IO_WRITABLE$/;"	e	enum:__anon1
+GCRY_AC_KEY_PUBLIC	/usr/include/gcrypt.h	/^    GCRY_AC_KEY_PUBLIC$/;"	e	enum:gcry_ac_key_type
+GCRY_AC_KEY_SECRET	/usr/include/gcrypt.h	/^    GCRY_AC_KEY_SECRET,$/;"	e	enum:gcry_ac_key_type
+GCRY_AC_RSA	/usr/include/gcrypt.h	/^    GCRY_AC_RSA = 1,$/;"	e	enum:gcry_ac_id
+GCRY_AC_SSA_PKCS_V1_5	/usr/include/gcrypt.h	/^    GCRY_AC_SSA_PKCS_V1_5$/;"	e	enum:gcry_ac_scheme
+GCRY_CIPHER_3DES	/usr/include/gcrypt.h	/^    GCRY_CIPHER_3DES        = 2,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_AES	/usr/include/gcrypt.h	/^    GCRY_CIPHER_AES         = 7,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_AES128	/usr/include/gcrypt.h	841;"	d
+GCRY_CIPHER_AES192	/usr/include/gcrypt.h	/^    GCRY_CIPHER_AES192      = 8,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_AES256	/usr/include/gcrypt.h	/^    GCRY_CIPHER_AES256      = 9,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_ARCFOUR	/usr/include/gcrypt.h	/^    GCRY_CIPHER_ARCFOUR     = 301,  \/* Fully compatible with RSA's RC4 (tm). *\/$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_BLOWFISH	/usr/include/gcrypt.h	/^    GCRY_CIPHER_BLOWFISH    = 4,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_CAMELLIA128	/usr/include/gcrypt.h	/^    GCRY_CIPHER_CAMELLIA128 = 310,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_CAMELLIA192	/usr/include/gcrypt.h	/^    GCRY_CIPHER_CAMELLIA192 = 311,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_CAMELLIA256	/usr/include/gcrypt.h	/^    GCRY_CIPHER_CAMELLIA256 = 312$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_CAST5	/usr/include/gcrypt.h	/^    GCRY_CIPHER_CAST5       = 3,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_CBC_CTS	/usr/include/gcrypt.h	/^    GCRY_CIPHER_CBC_CTS     = 4,  \/* Enable CBC cipher text stealing (CTS). *\/$/;"	e	enum:gcry_cipher_flags
+GCRY_CIPHER_CBC_MAC	/usr/include/gcrypt.h	/^    GCRY_CIPHER_CBC_MAC     = 8   \/* Enable CBC message auth. code (MAC). *\/$/;"	e	enum:gcry_cipher_flags
+GCRY_CIPHER_DES	/usr/include/gcrypt.h	/^    GCRY_CIPHER_DES         = 302,  \/* Yes, this is single key 56 bit DES. *\/$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_DES_SK	/usr/include/gcrypt.h	/^    GCRY_CIPHER_DES_SK      = 6,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_ENABLE_SYNC	/usr/include/gcrypt.h	/^    GCRY_CIPHER_ENABLE_SYNC = 2,  \/* Enable CFB sync mode. *\/$/;"	e	enum:gcry_cipher_flags
+GCRY_CIPHER_IDEA	/usr/include/gcrypt.h	/^    GCRY_CIPHER_IDEA        = 1,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_MODE_AESWRAP	/usr/include/gcrypt.h	/^    GCRY_CIPHER_MODE_AESWRAP= 7   \/* AES-WRAP algorithm.  *\/$/;"	e	enum:gcry_cipher_modes
+GCRY_CIPHER_MODE_CBC	/usr/include/gcrypt.h	/^    GCRY_CIPHER_MODE_CBC    = 3,  \/* Cipher block chaining. *\/$/;"	e	enum:gcry_cipher_modes
+GCRY_CIPHER_MODE_CFB	/usr/include/gcrypt.h	/^    GCRY_CIPHER_MODE_CFB    = 2,  \/* Cipher feedback. *\/$/;"	e	enum:gcry_cipher_modes
+GCRY_CIPHER_MODE_CTR	/usr/include/gcrypt.h	/^    GCRY_CIPHER_MODE_CTR    = 6,  \/* Counter. *\/$/;"	e	enum:gcry_cipher_modes
+GCRY_CIPHER_MODE_ECB	/usr/include/gcrypt.h	/^    GCRY_CIPHER_MODE_ECB    = 1,  \/* Electronic codebook. *\/$/;"	e	enum:gcry_cipher_modes
+GCRY_CIPHER_MODE_NONE	/usr/include/gcrypt.h	/^    GCRY_CIPHER_MODE_NONE   = 0,  \/* Not yet specified. *\/$/;"	e	enum:gcry_cipher_modes
+GCRY_CIPHER_MODE_OFB	/usr/include/gcrypt.h	/^    GCRY_CIPHER_MODE_OFB    = 5,  \/* Outer feedback. *\/$/;"	e	enum:gcry_cipher_modes
+GCRY_CIPHER_MODE_STREAM	/usr/include/gcrypt.h	/^    GCRY_CIPHER_MODE_STREAM = 4,  \/* Used with stream ciphers. *\/$/;"	e	enum:gcry_cipher_modes
+GCRY_CIPHER_NONE	/usr/include/gcrypt.h	/^    GCRY_CIPHER_NONE        = 0,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_RFC2268_128	/usr/include/gcrypt.h	/^    GCRY_CIPHER_RFC2268_128 = 308,  \/* Ron's Cipher 2 (128 bit). *\/$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_RFC2268_40	/usr/include/gcrypt.h	/^    GCRY_CIPHER_RFC2268_40  = 307,  \/* Ron's Cipher 2 (40 bit). *\/$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_RIJNDAEL	/usr/include/gcrypt.h	842;"	d
+GCRY_CIPHER_RIJNDAEL128	/usr/include/gcrypt.h	843;"	d
+GCRY_CIPHER_RIJNDAEL192	/usr/include/gcrypt.h	844;"	d
+GCRY_CIPHER_RIJNDAEL256	/usr/include/gcrypt.h	845;"	d
+GCRY_CIPHER_SAFER_SK128	/usr/include/gcrypt.h	/^    GCRY_CIPHER_SAFER_SK128 = 5,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_SECURE	/usr/include/gcrypt.h	/^    GCRY_CIPHER_SECURE      = 1,  \/* Allocate in secure memory. *\/$/;"	e	enum:gcry_cipher_flags
+GCRY_CIPHER_SEED	/usr/include/gcrypt.h	/^    GCRY_CIPHER_SEED        = 309,  \/* 128 bit cipher described in RFC4269. *\/$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_SERPENT128	/usr/include/gcrypt.h	/^    GCRY_CIPHER_SERPENT128  = 304,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_SERPENT192	/usr/include/gcrypt.h	/^    GCRY_CIPHER_SERPENT192  = 305,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_SERPENT256	/usr/include/gcrypt.h	/^    GCRY_CIPHER_SERPENT256  = 306,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_TWOFISH	/usr/include/gcrypt.h	/^    GCRY_CIPHER_TWOFISH     = 10,$/;"	e	enum:gcry_cipher_algos
+GCRY_CIPHER_TWOFISH128	/usr/include/gcrypt.h	/^    GCRY_CIPHER_TWOFISH128  = 303,$/;"	e	enum:gcry_cipher_algos
+GCRY_ERR_SOURCE_DEFAULT	/usr/include/gcrypt.h	130;"	d
+GCRY_KDF_ITERSALTED_S2K	/usr/include/gcrypt.h	/^    GCRY_KDF_ITERSALTED_S2K = 19,$/;"	e	enum:gcry_kdf_algos
+GCRY_KDF_NONE	/usr/include/gcrypt.h	/^    GCRY_KDF_NONE = 0,$/;"	e	enum:gcry_kdf_algos
+GCRY_KDF_PBKDF1	/usr/include/gcrypt.h	/^    GCRY_KDF_PBKDF1 = 33,$/;"	e	enum:gcry_kdf_algos
+GCRY_KDF_PBKDF2	/usr/include/gcrypt.h	/^    GCRY_KDF_PBKDF2 = 34$/;"	e	enum:gcry_kdf_algos
+GCRY_KDF_SALTED_S2K	/usr/include/gcrypt.h	/^    GCRY_KDF_SALTED_S2K = 17,$/;"	e	enum:gcry_kdf_algos
+GCRY_KDF_SIMPLE_S2K	/usr/include/gcrypt.h	/^    GCRY_KDF_SIMPLE_S2K = 16,$/;"	e	enum:gcry_kdf_algos
+GCRY_LOG_BUG	/usr/include/gcrypt.h	/^    GCRY_LOG_BUG    = 50,$/;"	e	enum:gcry_log_levels
+GCRY_LOG_CONT	/usr/include/gcrypt.h	/^    GCRY_LOG_CONT   = 0,    \/* (Continue the last log line.) *\/$/;"	e	enum:gcry_log_levels
+GCRY_LOG_DEBUG	/usr/include/gcrypt.h	/^    GCRY_LOG_DEBUG  = 100$/;"	e	enum:gcry_log_levels
+GCRY_LOG_ERROR	/usr/include/gcrypt.h	/^    GCRY_LOG_ERROR  = 30,$/;"	e	enum:gcry_log_levels
+GCRY_LOG_FATAL	/usr/include/gcrypt.h	/^    GCRY_LOG_FATAL  = 40,$/;"	e	enum:gcry_log_levels
+GCRY_LOG_INFO	/usr/include/gcrypt.h	/^    GCRY_LOG_INFO   = 10,$/;"	e	enum:gcry_log_levels
+GCRY_LOG_WARN	/usr/include/gcrypt.h	/^    GCRY_LOG_WARN   = 20,$/;"	e	enum:gcry_log_levels
+GCRY_MD_CRC24_RFC2440	/usr/include/gcrypt.h	/^    GCRY_MD_CRC24_RFC2440 = 304,$/;"	e	enum:gcry_md_algos
+GCRY_MD_CRC32	/usr/include/gcrypt.h	/^    GCRY_MD_CRC32         = 302,$/;"	e	enum:gcry_md_algos
+GCRY_MD_CRC32_RFC1510	/usr/include/gcrypt.h	/^    GCRY_MD_CRC32_RFC1510 = 303,$/;"	e	enum:gcry_md_algos
+GCRY_MD_FLAG_HMAC	/usr/include/gcrypt.h	/^    GCRY_MD_FLAG_HMAC   = 2   \/* Make an HMAC out of this algorithm.  *\/$/;"	e	enum:gcry_md_flags
+GCRY_MD_FLAG_SECURE	/usr/include/gcrypt.h	/^    GCRY_MD_FLAG_SECURE = 1,  \/* Allocate all buffers in "secure" memory.  *\/$/;"	e	enum:gcry_md_flags
+GCRY_MD_HAVAL	/usr/include/gcrypt.h	/^    GCRY_MD_HAVAL   = 7,   \/* HAVAL, 5 pass, 160 bit. *\/$/;"	e	enum:gcry_md_algos
+GCRY_MD_MD2	/usr/include/gcrypt.h	/^    GCRY_MD_MD2     = 5,$/;"	e	enum:gcry_md_algos
+GCRY_MD_MD4	/usr/include/gcrypt.h	/^    GCRY_MD_MD4     = 301,$/;"	e	enum:gcry_md_algos
+GCRY_MD_MD5	/usr/include/gcrypt.h	/^    GCRY_MD_MD5     = 1,$/;"	e	enum:gcry_md_algos
+GCRY_MD_NONE	/usr/include/gcrypt.h	/^    GCRY_MD_NONE    = 0,$/;"	e	enum:gcry_md_algos
+GCRY_MD_RMD160	/usr/include/gcrypt.h	/^    GCRY_MD_RMD160  = 3,$/;"	e	enum:gcry_md_algos
+GCRY_MD_SHA1	/usr/include/gcrypt.h	/^    GCRY_MD_SHA1    = 2,$/;"	e	enum:gcry_md_algos
+GCRY_MD_SHA224	/usr/include/gcrypt.h	/^    GCRY_MD_SHA224  = 11,$/;"	e	enum:gcry_md_algos
+GCRY_MD_SHA256	/usr/include/gcrypt.h	/^    GCRY_MD_SHA256  = 8,$/;"	e	enum:gcry_md_algos
+GCRY_MD_SHA384	/usr/include/gcrypt.h	/^    GCRY_MD_SHA384  = 9,$/;"	e	enum:gcry_md_algos
+GCRY_MD_SHA512	/usr/include/gcrypt.h	/^    GCRY_MD_SHA512  = 10,$/;"	e	enum:gcry_md_algos
+GCRY_MD_TIGER	/usr/include/gcrypt.h	/^    GCRY_MD_TIGER   = 6,   \/* TIGER\/192 as used by gpg <= 1.3.2. *\/$/;"	e	enum:gcry_md_algos
+GCRY_MD_TIGER1	/usr/include/gcrypt.h	/^    GCRY_MD_TIGER1  = 306, \/* TIGER fixed.  *\/$/;"	e	enum:gcry_md_algos
+GCRY_MD_TIGER2	/usr/include/gcrypt.h	/^    GCRY_MD_TIGER2  = 307  \/* TIGER2 variant.   *\/$/;"	e	enum:gcry_md_algos
+GCRY_MD_WHIRLPOOL	/usr/include/gcrypt.h	/^    GCRY_MD_WHIRLPOOL = 305,$/;"	e	enum:gcry_md_algos
+GCRY_PK_DSA	/usr/include/gcrypt.h	/^    GCRY_PK_DSA   = 17,$/;"	e	enum:gcry_pk_algos
+GCRY_PK_ECDH	/usr/include/gcrypt.h	/^    GCRY_PK_ECDH  = 302$/;"	e	enum:gcry_pk_algos
+GCRY_PK_ECDSA	/usr/include/gcrypt.h	/^    GCRY_PK_ECDSA = 301,$/;"	e	enum:gcry_pk_algos
+GCRY_PK_ELG	/usr/include/gcrypt.h	/^    GCRY_PK_ELG   = 20,$/;"	e	enum:gcry_pk_algos
+GCRY_PK_ELG_E	/usr/include/gcrypt.h	/^    GCRY_PK_ELG_E = 16,$/;"	e	enum:gcry_pk_algos
+GCRY_PK_RSA	/usr/include/gcrypt.h	/^    GCRY_PK_RSA   = 1,$/;"	e	enum:gcry_pk_algos
+GCRY_PK_RSA_E	/usr/include/gcrypt.h	/^    GCRY_PK_RSA_E = 2,      \/* (deprecated) *\/$/;"	e	enum:gcry_pk_algos
+GCRY_PK_RSA_S	/usr/include/gcrypt.h	/^    GCRY_PK_RSA_S = 3,      \/* (deprecated) *\/$/;"	e	enum:gcry_pk_algos
+GCRY_PK_USAGE_AUTH	/usr/include/gcrypt.h	986;"	d
+GCRY_PK_USAGE_CERT	/usr/include/gcrypt.h	985;"	d
+GCRY_PK_USAGE_ENCR	/usr/include/gcrypt.h	984;"	d
+GCRY_PK_USAGE_SIGN	/usr/include/gcrypt.h	983;"	d
+GCRY_PK_USAGE_UNKN	/usr/include/gcrypt.h	987;"	d
+GCRY_PRIME_CHECK_AT_FINISH	/usr/include/gcrypt.h	1756;"	d
+GCRY_PRIME_CHECK_AT_GOT_PRIME	/usr/include/gcrypt.h	1757;"	d
+GCRY_PRIME_CHECK_AT_MAYBE_PRIME	/usr/include/gcrypt.h	1758;"	d
+GCRY_PRIME_FLAG_SECRET	/usr/include/gcrypt.h	1768;"	d
+GCRY_PRIME_FLAG_SPECIAL_FACTOR	/usr/include/gcrypt.h	1772;"	d
+GCRY_STRONG_RANDOM	/usr/include/gcrypt.h	/^    GCRY_STRONG_RANDOM = 1,$/;"	e	enum:gcry_random_level
+GCRY_THREAD_OPTION_DEFAULT	/usr/include/gcrypt.h	187;"	d
+GCRY_THREAD_OPTION_PTH	/usr/include/gcrypt.h	189;"	d
+GCRY_THREAD_OPTION_PTHREAD	/usr/include/gcrypt.h	190;"	d
+GCRY_THREAD_OPTION_PTHREAD_IMPL	/usr/include/gcrypt.h	309;"	d
+GCRY_THREAD_OPTION_PTH_IMPL	/usr/include/gcrypt.h	262;"	d
+GCRY_THREAD_OPTION_USER	/usr/include/gcrypt.h	188;"	d
+GCRY_THREAD_OPTION_VERSION	/usr/include/gcrypt.h	194;"	d
+GCRY_VERY_STRONG_RANDOM	/usr/include/gcrypt.h	/^    GCRY_VERY_STRONG_RANDOM = 2$/;"	e	enum:gcry_random_level
+GCRY_WEAK_RANDOM	/usr/include/gcrypt.h	/^    GCRY_WEAK_RANDOM = 0,$/;"	e	enum:gcry_random_level
+_GCRYPT_H	/usr/include/gcrypt.h	23;"	d
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^  \/* *\/  _GCRY_ATTR_INTERNAL;$/;"	t
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^  gcry_ac_io_mode_t mode _GCRY_ATTR_INTERNAL;$/;"	m	struct:gcry_ac_io	access:public
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^  gcry_ac_io_type_t type _GCRY_ATTR_INTERNAL;$/;"	m	struct:gcry_ac_io	access:public
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^  } io _GCRY_ATTR_INTERNAL;$/;"	m	struct:gcry_ac_io	typeref:union:gcry_ac_io::__anon3	access:public
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^gcry_ac_em_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:enum:gcry_ac_em
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^gcry_ac_id_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:enum:gcry_ac_id
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^gcry_ac_io_mode_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:enum:__anon1
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^gcry_ac_io_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:struct:gcry_ac_io
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^gcry_ac_io_type_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:enum:__anon2
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^gcry_ac_key_type_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:enum:gcry_ac_key_type
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^gcry_ac_scheme_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:enum:gcry_ac_scheme
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^typedef enum gcry_md_algos gcry_md_algo_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:enum:gcry_md_algo_t
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^typedef struct gcry_ac_data *gcry_ac_data_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:struct:gcry_ac_data_t
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^typedef struct gcry_ac_handle *gcry_ac_handle_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:struct:gcry_ac_handle_t
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^typedef struct gcry_ac_key *gcry_ac_key_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:struct:gcry_ac_key_t
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^typedef struct gcry_ac_key_pair *gcry_ac_key_pair_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:struct:gcry_ac_key_pair_t
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^} gcry_ac_eme_pkcs_v1_5_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:struct:gcry_ac_eme_pkcs_v1_5
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^} gcry_ac_emsa_pkcs_v1_5_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:struct:gcry_ac_emsa_pkcs_v1_5
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^} gcry_ac_key_spec_rsa_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:struct:gcry_ac_key_spec_rsa
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^} gcry_ac_ssa_pkcs_v1_5_t _GCRY_ATTR_INTERNAL;$/;"	t	typeref:struct:gcry_ac_ssa_pkcs_v1_5
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	110;"	d
+_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	112;"	d
+_GCRY_ERR_SOURCE_DEFAULT	/usr/include/gcrypt.h	50;"	d
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	/^  } _GCRY_GCC_ATTR_DEPRECATED;$/;"	v	typeref:enum:gcry_thread_option
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	/^typedef struct gcry_cipher_handle *GCRY_CIPHER_HD _GCRY_GCC_ATTR_DEPRECATED;$/;"	t	typeref:struct:GCRY_CIPHER_HD
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	/^typedef struct gcry_cipher_handle *GcryCipherHd _GCRY_GCC_ATTR_DEPRECATED;$/;"	t	typeref:struct:GcryCipherHd
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	/^typedef struct gcry_md_handle *GCRY_MD_HD _GCRY_GCC_ATTR_DEPRECATED;$/;"	t	typeref:struct:GCRY_MD_HD
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	/^typedef struct gcry_md_handle *GcryMDHd _GCRY_GCC_ATTR_DEPRECATED;$/;"	t	typeref:struct:GcryMDHd
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	/^typedef struct gcry_mpi *GCRY_MPI _GCRY_GCC_ATTR_DEPRECATED;$/;"	t	typeref:struct:GCRY_MPI
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	/^typedef struct gcry_mpi *GcryMPI _GCRY_GCC_ATTR_DEPRECATED;$/;"	t	typeref:struct:GcryMPI
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	/^typedef struct gcry_sexp *GCRY_SEXP _GCRY_GCC_ATTR_DEPRECATED;$/;"	t	typeref:struct:GCRY_SEXP
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	/^typedef struct gcry_sexp *GcrySexp _GCRY_GCC_ATTR_DEPRECATED;$/;"	t	typeref:struct:GcrySexp
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	84;"	d
+_GCRY_GCC_ATTR_DEPRECATED	/usr/include/gcrypt.h	98;"	d
+_GCRY_GCC_ATTR_MALLOC	/usr/include/gcrypt.h	104;"	d
+_GCRY_GCC_ATTR_MALLOC	/usr/include/gcrypt.h	92;"	d
+_GCRY_GCC_ATTR_PURE	/usr/include/gcrypt.h	101;"	d
+_GCRY_GCC_ATTR_PURE	/usr/include/gcrypt.h	88;"	d
+_GCRY_GCC_VERSION	/usr/include/gcrypt.h	79;"	d
+_GCRY_THREAD_OPTION_DUMMY	/usr/include/gcrypt.h	/^    _GCRY_THREAD_OPTION_DUMMY$/;"	e	enum:gcry_thread_option
+_GCRY_THREAD_OPTION_PTH_IMPL_NET	/usr/include/gcrypt.h	233;"	d
+_GCRY_THREAD_OPTION_PTH_IMPL_NET	/usr/include/gcrypt.h	246;"	d
+accept	/usr/include/gcrypt.h	/^  int (*accept) (int s, struct sockaddr *addr, gcry_socklen_t *length_ptr);$/;"	m	struct:gcry_thread_cbs	access:public
+accept	/usr/include/gcrypt.h	/^  int (*accept) (int s, void  *addr, int *length_ptr);$/;"	m	struct:gcry_thread_cbs	access:public
+buf	/usr/include/gcrypt.h	/^  unsigned char buf[1];$/;"	m	struct:gcry_md_handle	access:public
+bufpos	/usr/include/gcrypt.h	/^  int  bufpos;$/;"	m	struct:gcry_md_handle	access:public
+bufsize	/usr/include/gcrypt.h	/^  int  bufsize;$/;"	m	struct:gcry_md_handle	access:public
+callback	/usr/include/gcrypt.h	/^      } callback;$/;"	m	union:gcry_ac_io::__anon3::__anon4	typeref:struct:gcry_ac_io::__anon3::__anon4::__anon5	access:public
+callback	/usr/include/gcrypt.h	/^      } callback;$/;"	m	union:gcry_ac_io::__anon3::__anon7	typeref:struct:gcry_ac_io::__anon3::__anon7::__anon8	access:public
+cb	/usr/include/gcrypt.h	/^	gcry_ac_data_read_cb_t cb;$/;"	m	struct:gcry_ac_io::__anon3::__anon4::__anon5	access:public
+cb	/usr/include/gcrypt.h	/^	gcry_ac_data_write_cb_t cb;$/;"	m	struct:gcry_ac_io::__anon3::__anon7::__anon8	access:public
+connect	/usr/include/gcrypt.h	/^  int (*connect) (int s, struct sockaddr *addr, gcry_socklen_t length);$/;"	m	struct:gcry_thread_cbs	access:public
+connect	/usr/include/gcrypt.h	/^  int (*connect) (int s, void *addr, gcry_socklen_t length);$/;"	m	struct:gcry_thread_cbs	access:public
+ctx	/usr/include/gcrypt.h	/^  struct gcry_md_context *ctx;$/;"	m	struct:gcry_md_handle	typeref:struct:gcry_md_handle::gcry_md_context	access:public
+data	/usr/include/gcrypt.h	/^	unsigned char **data;$/;"	m	struct:gcry_ac_io::__anon3::__anon7::__anon9	access:public
+data	/usr/include/gcrypt.h	/^	unsigned char *data;$/;"	m	struct:gcry_ac_io::__anon3::__anon4::__anon6	access:public
+data_n	/usr/include/gcrypt.h	/^	size_t *data_n;$/;"	m	struct:gcry_ac_io::__anon3::__anon7::__anon9	access:public
+data_n	/usr/include/gcrypt.h	/^	size_t data_n;$/;"	m	struct:gcry_ac_io::__anon3::__anon4::__anon6	access:public
+e	/usr/include/gcrypt.h	/^  gcry_mpi_t e;                 \/* E to use.  *\/$/;"	m	struct:gcry_ac_key_spec_rsa	access:public
+em_n	/usr/include/gcrypt.h	/^  size_t em_n;$/;"	m	struct:gcry_ac_emsa_pkcs_v1_5	access:public
+gcry_ac_em	/usr/include/gcrypt.h	/^typedef enum gcry_ac_em$/;"	g
+gcry_ac_eme_pkcs_v1_5	/usr/include/gcrypt.h	/^typedef struct gcry_ac_eme_pkcs_v1_5$/;"	s
+gcry_ac_eme_pkcs_v1_5::key_size	/usr/include/gcrypt.h	/^  size_t key_size;$/;"	m	struct:gcry_ac_eme_pkcs_v1_5	access:public
+gcry_ac_emsa_pkcs_v1_5	/usr/include/gcrypt.h	/^typedef struct gcry_ac_emsa_pkcs_v1_5$/;"	s
+gcry_ac_emsa_pkcs_v1_5::em_n	/usr/include/gcrypt.h	/^  size_t em_n;$/;"	m	struct:gcry_ac_emsa_pkcs_v1_5	access:public
+gcry_ac_emsa_pkcs_v1_5::md	/usr/include/gcrypt.h	/^  gcry_md_algo_t md;$/;"	m	struct:gcry_ac_emsa_pkcs_v1_5	access:public
+gcry_ac_id	/usr/include/gcrypt.h	/^typedef enum gcry_ac_id$/;"	g
+gcry_ac_io	/usr/include/gcrypt.h	/^typedef struct gcry_ac_io$/;"	s
+gcry_ac_io::_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^  gcry_ac_io_mode_t mode _GCRY_ATTR_INTERNAL;$/;"	m	struct:gcry_ac_io	access:public
+gcry_ac_io::_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^  gcry_ac_io_type_t type _GCRY_ATTR_INTERNAL;$/;"	m	struct:gcry_ac_io	access:public
+gcry_ac_io::_GCRY_ATTR_INTERNAL	/usr/include/gcrypt.h	/^  } io _GCRY_ATTR_INTERNAL;$/;"	m	struct:gcry_ac_io	typeref:union:gcry_ac_io::__anon3	access:public
+gcry_ac_io::__anon3::__anon4::__anon5::cb	/usr/include/gcrypt.h	/^	gcry_ac_data_read_cb_t cb;$/;"	m	struct:gcry_ac_io::__anon3::__anon4::__anon5	access:public
+gcry_ac_io::__anon3::__anon4::__anon5::opaque	/usr/include/gcrypt.h	/^	void *opaque;$/;"	m	struct:gcry_ac_io::__anon3::__anon4::__anon5	access:public
+gcry_ac_io::__anon3::__anon4::__anon6::data	/usr/include/gcrypt.h	/^	unsigned char *data;$/;"	m	struct:gcry_ac_io::__anon3::__anon4::__anon6	access:public
+gcry_ac_io::__anon3::__anon4::__anon6::data_n	/usr/include/gcrypt.h	/^	size_t data_n;$/;"	m	struct:gcry_ac_io::__anon3::__anon4::__anon6	access:public
+gcry_ac_io::__anon3::__anon4::callback	/usr/include/gcrypt.h	/^      } callback;$/;"	m	union:gcry_ac_io::__anon3::__anon4	typeref:struct:gcry_ac_io::__anon3::__anon4::__anon5	access:public
+gcry_ac_io::__anon3::__anon4::opaque	/usr/include/gcrypt.h	/^      void *opaque;$/;"	m	union:gcry_ac_io::__anon3::__anon4	access:public
+gcry_ac_io::__anon3::__anon4::string	/usr/include/gcrypt.h	/^      } string;$/;"	m	union:gcry_ac_io::__anon3::__anon4	typeref:struct:gcry_ac_io::__anon3::__anon4::__anon6	access:public
+gcry_ac_io::__anon3::__anon7::__anon8::cb	/usr/include/gcrypt.h	/^	gcry_ac_data_write_cb_t cb;$/;"	m	struct:gcry_ac_io::__anon3::__anon7::__anon8	access:public
+gcry_ac_io::__anon3::__anon7::__anon8::opaque	/usr/include/gcrypt.h	/^	void *opaque;$/;"	m	struct:gcry_ac_io::__anon3::__anon7::__anon8	access:public
+gcry_ac_io::__anon3::__anon7::__anon9::data	/usr/include/gcrypt.h	/^	unsigned char **data;$/;"	m	struct:gcry_ac_io::__anon3::__anon7::__anon9	access:public
+gcry_ac_io::__anon3::__anon7::__anon9::data_n	/usr/include/gcrypt.h	/^	size_t *data_n;$/;"	m	struct:gcry_ac_io::__anon3::__anon7::__anon9	access:public
+gcry_ac_io::__anon3::__anon7::callback	/usr/include/gcrypt.h	/^      } callback;$/;"	m	union:gcry_ac_io::__anon3::__anon7	typeref:struct:gcry_ac_io::__anon3::__anon7::__anon8	access:public
+gcry_ac_io::__anon3::__anon7::opaque	/usr/include/gcrypt.h	/^      void *opaque;$/;"	m	union:gcry_ac_io::__anon3::__anon7	access:public
+gcry_ac_io::__anon3::__anon7::string	/usr/include/gcrypt.h	/^      } string;$/;"	m	union:gcry_ac_io::__anon3::__anon7	typeref:struct:gcry_ac_io::__anon3::__anon7::__anon9	access:public
+gcry_ac_io::__anon3::readable	/usr/include/gcrypt.h	/^    } readable;$/;"	m	union:gcry_ac_io::__anon3	typeref:union:gcry_ac_io::__anon3::__anon4	access:public
+gcry_ac_io::__anon3::writable	/usr/include/gcrypt.h	/^    } writable;$/;"	m	union:gcry_ac_io::__anon3	typeref:union:gcry_ac_io::__anon3::__anon7	access:public
+gcry_ac_key_spec_rsa	/usr/include/gcrypt.h	/^typedef struct gcry_ac_key_spec_rsa$/;"	s
+gcry_ac_key_spec_rsa::e	/usr/include/gcrypt.h	/^  gcry_mpi_t e;                 \/* E to use.  *\/$/;"	m	struct:gcry_ac_key_spec_rsa	access:public
+gcry_ac_key_type	/usr/include/gcrypt.h	/^typedef enum gcry_ac_key_type$/;"	g
+gcry_ac_scheme	/usr/include/gcrypt.h	/^typedef enum gcry_ac_scheme$/;"	g
+gcry_ac_ssa_pkcs_v1_5	/usr/include/gcrypt.h	/^typedef struct gcry_ac_ssa_pkcs_v1_5$/;"	s
+gcry_ac_ssa_pkcs_v1_5::md	/usr/include/gcrypt.h	/^  gcry_md_algo_t md;$/;"	m	struct:gcry_ac_ssa_pkcs_v1_5	access:public
+gcry_check_version	/usr/include/gcrypt.h	/^const char *gcry_check_version (const char *req_version);$/;"	p	signature:(const char *req_version)
+gcry_cipher_algo_info	/usr/include/gcrypt.h	/^gcry_error_t gcry_cipher_algo_info (int algo, int what, void *buffer,$/;"	p	signature:(int algo, int what, void *buffer, size_t *nbytes)
+gcry_cipher_algos	/usr/include/gcrypt.h	/^enum gcry_cipher_algos$/;"	g
+gcry_cipher_close	/usr/include/gcrypt.h	/^void gcry_cipher_close (gcry_cipher_hd_t h);$/;"	p	signature:(gcry_cipher_hd_t h)
+gcry_cipher_ctl	/usr/include/gcrypt.h	/^gcry_error_t gcry_cipher_ctl (gcry_cipher_hd_t h, int cmd, void *buffer,$/;"	p	signature:(gcry_cipher_hd_t h, int cmd, void *buffer, size_t buflen)
+gcry_cipher_cts	/usr/include/gcrypt.h	936;"	d
+gcry_cipher_decrypt	/usr/include/gcrypt.h	/^gcry_error_t gcry_cipher_decrypt (gcry_cipher_hd_t h,$/;"	p	signature:(gcry_cipher_hd_t h, void *out, size_t outsize, const void *in, size_t inlen)
+gcry_cipher_encrypt	/usr/include/gcrypt.h	/^gcry_error_t gcry_cipher_encrypt (gcry_cipher_hd_t h,$/;"	p	signature:(gcry_cipher_hd_t h, void *out, size_t outsize, const void *in, size_t inlen)
+gcry_cipher_flags	/usr/include/gcrypt.h	/^enum gcry_cipher_flags$/;"	g
+gcry_cipher_get_algo_blklen	/usr/include/gcrypt.h	/^size_t gcry_cipher_get_algo_blklen (int algo);$/;"	p	signature:(int algo)
+gcry_cipher_get_algo_keylen	/usr/include/gcrypt.h	/^size_t gcry_cipher_get_algo_keylen (int algo);$/;"	p	signature:(int algo)
+gcry_cipher_hd_t	/usr/include/gcrypt.h	/^typedef struct gcry_cipher_handle *gcry_cipher_hd_t;$/;"	t	typeref:struct:gcry_cipher_handle
+gcry_cipher_info	/usr/include/gcrypt.h	/^gcry_error_t gcry_cipher_info (gcry_cipher_hd_t h, int what, void *buffer,$/;"	p	signature:(gcry_cipher_hd_t h, int what, void *buffer, size_t *nbytes)
+gcry_cipher_list	/usr/include/gcrypt.h	/^gcry_error_t gcry_cipher_list (int *list, int *list_length);$/;"	p	signature:(int *list, int *list_length)
+gcry_cipher_modes	/usr/include/gcrypt.h	/^enum gcry_cipher_modes$/;"	g
+gcry_cipher_open	/usr/include/gcrypt.h	/^gcry_error_t gcry_cipher_open (gcry_cipher_hd_t *handle,$/;"	p	signature:(gcry_cipher_hd_t *handle, int algo, int mode, unsigned int flags)
+gcry_cipher_reset	/usr/include/gcrypt.h	929;"	d
+gcry_cipher_setctr	/usr/include/gcrypt.h	/^gpg_error_t gcry_cipher_setctr (gcry_cipher_hd_t hd,$/;"	p	signature:(gcry_cipher_hd_t hd, const void *ctr, size_t ctrlen)
+gcry_cipher_setiv	/usr/include/gcrypt.h	/^gcry_error_t gcry_cipher_setiv (gcry_cipher_hd_t hd,$/;"	p	signature:(gcry_cipher_hd_t hd, const void *iv, size_t ivlen)
+gcry_cipher_setkey	/usr/include/gcrypt.h	/^gcry_error_t gcry_cipher_setkey (gcry_cipher_hd_t hd,$/;"	p	signature:(gcry_cipher_hd_t hd, const void *key, size_t keylen)
+gcry_cipher_sync	/usr/include/gcrypt.h	933;"	d
+gcry_cipher_test_algo	/usr/include/gcrypt.h	951;"	d
+gcry_control	/usr/include/gcrypt.h	/^gcry_error_t gcry_control (enum gcry_ctl_cmds CMD, ...);$/;"	p	signature:(enum gcry_ctl_cmds CMD, ...)
+gcry_create_nonce	/usr/include/gcrypt.h	/^void gcry_create_nonce (void *buffer, size_t length);$/;"	p	signature:(void *buffer, size_t length)
+gcry_ctl_cmds	/usr/include/gcrypt.h	/^enum gcry_ctl_cmds$/;"	g
+gcry_err_code	/usr/include/gcrypt.h	/^gcry_err_code (gcry_error_t err)$/;"	f	signature:(gcry_error_t err)
+gcry_err_code_from_errno	/usr/include/gcrypt.h	/^gcry_err_code_t gcry_err_code_from_errno (int err);$/;"	p	signature:(int err)
+gcry_err_code_t	/usr/include/gcrypt.h	/^typedef gpg_err_code_t gcry_err_code_t;$/;"	t
+gcry_err_code_to_errno	/usr/include/gcrypt.h	/^int gcry_err_code_to_errno (gcry_err_code_t code);$/;"	p	signature:(gcry_err_code_t code)
+gcry_err_make	/usr/include/gcrypt.h	/^gcry_err_make (gcry_err_source_t source, gcry_err_code_t code)$/;"	f	signature:(gcry_err_source_t source, gcry_err_code_t code)
+gcry_err_make_from_errno	/usr/include/gcrypt.h	/^gcry_error_t gcry_err_make_from_errno (gcry_err_source_t source, int err);$/;"	p	signature:(gcry_err_source_t source, int err)
+gcry_err_source	/usr/include/gcrypt.h	/^gcry_err_source (gcry_error_t err)$/;"	f	signature:(gcry_error_t err)
+gcry_err_source_t	/usr/include/gcrypt.h	/^typedef gpg_err_source_t gcry_err_source_t;$/;"	t
+gcry_error	/usr/include/gcrypt.h	/^gcry_error (gcry_err_code_t code)$/;"	f	signature:(gcry_err_code_t code)
+gcry_error_from_errno	/usr/include/gcrypt.h	/^gcry_err_code_t gcry_error_from_errno (int err);$/;"	p	signature:(int err)
+gcry_error_t	/usr/include/gcrypt.h	/^typedef gpg_error_t gcry_error_t;$/;"	t
+gcry_fast_random_poll	/usr/include/gcrypt.h	1720;"	d
+gcry_fips_mode_active	/usr/include/gcrypt.h	1898;"	d
+gcry_free	/usr/include/gcrypt.h	/^void  gcry_free (void *a);$/;"	p	signature:(void *a)
+gcry_handler_alloc_t	/usr/include/gcrypt.h	/^typedef void *(*gcry_handler_alloc_t) (size_t n);$/;"	t
+gcry_handler_error_t	/usr/include/gcrypt.h	/^typedef void (*gcry_handler_error_t) (void *, int, const char *);$/;"	t
+gcry_handler_free_t	/usr/include/gcrypt.h	/^typedef void (*gcry_handler_free_t) (void *);$/;"	t
+gcry_handler_log_t	/usr/include/gcrypt.h	/^typedef void (*gcry_handler_log_t) (void *, int, const char *, va_list);$/;"	t
+gcry_handler_no_mem_t	/usr/include/gcrypt.h	/^typedef int (*gcry_handler_no_mem_t) (void *, size_t, unsigned int);$/;"	t
+gcry_handler_progress_t	/usr/include/gcrypt.h	/^typedef void (*gcry_handler_progress_t) (void *, const char *, int, int, int);$/;"	t
+gcry_handler_realloc_t	/usr/include/gcrypt.h	/^typedef void *(*gcry_handler_realloc_t) (void *p, size_t n);$/;"	t
+gcry_handler_secure_check_t	/usr/include/gcrypt.h	/^typedef int (*gcry_handler_secure_check_t) (const void *);$/;"	t
+gcry_kdf_algos	/usr/include/gcrypt.h	/^enum gcry_kdf_algos$/;"	g
+gcry_kdf_derive	/usr/include/gcrypt.h	/^gpg_error_t gcry_kdf_derive (const void *passphrase, size_t passphraselen,$/;"	p	signature:(const void *passphrase, size_t passphraselen, int algo, int subalgo, const void *salt, size_t saltlen, unsigned long iterations, size_t keysize, void *keybuffer)
+gcry_log_levels	/usr/include/gcrypt.h	/^enum gcry_log_levels$/;"	g
+gcry_md_algo_info	/usr/include/gcrypt.h	/^gcry_error_t gcry_md_algo_info (int algo, int what, void *buffer,$/;"	p	signature:(int algo, int what, void *buffer, size_t *nbytes)
+gcry_md_algos	/usr/include/gcrypt.h	/^enum gcry_md_algos$/;"	g
+gcry_md_close	/usr/include/gcrypt.h	/^void gcry_md_close (gcry_md_hd_t hd);$/;"	p	signature:(gcry_md_hd_t hd)
+gcry_md_copy	/usr/include/gcrypt.h	/^gcry_error_t gcry_md_copy (gcry_md_hd_t *bhd, gcry_md_hd_t ahd);$/;"	p	signature:(gcry_md_hd_t *bhd, gcry_md_hd_t ahd)
+gcry_md_ctl	/usr/include/gcrypt.h	/^gcry_error_t gcry_md_ctl (gcry_md_hd_t hd, int cmd,$/;"	p	signature:(gcry_md_hd_t hd, int cmd, void *buffer, size_t buflen)
+gcry_md_debug	/usr/include/gcrypt.h	/^void gcry_md_debug (gcry_md_hd_t hd, const char *suffix);$/;"	p	signature:(gcry_md_hd_t hd, const char *suffix)
+gcry_md_enable	/usr/include/gcrypt.h	/^gcry_error_t gcry_md_enable (gcry_md_hd_t hd, int algo);$/;"	p	signature:(gcry_md_hd_t hd, int algo)
+gcry_md_final	/usr/include/gcrypt.h	1215;"	d
+gcry_md_flags	/usr/include/gcrypt.h	/^enum gcry_md_flags$/;"	g
+gcry_md_get_algo	/usr/include/gcrypt.h	/^int gcry_md_get_algo (gcry_md_hd_t hd);$/;"	p	signature:(gcry_md_hd_t hd)
+gcry_md_get_algo_dlen	/usr/include/gcrypt.h	/^unsigned int gcry_md_get_algo_dlen (int algo);$/;"	p	signature:(int algo)
+gcry_md_get_asnoid	/usr/include/gcrypt.h	1226;"	d
+gcry_md_handle	/usr/include/gcrypt.h	/^typedef struct gcry_md_handle$/;"	s
+gcry_md_handle::buf	/usr/include/gcrypt.h	/^  unsigned char buf[1];$/;"	m	struct:gcry_md_handle	access:public
+gcry_md_handle::bufpos	/usr/include/gcrypt.h	/^  int  bufpos;$/;"	m	struct:gcry_md_handle	access:public
+gcry_md_handle::bufsize	/usr/include/gcrypt.h	/^  int  bufsize;$/;"	m	struct:gcry_md_handle	access:public
+gcry_md_handle::ctx	/usr/include/gcrypt.h	/^  struct gcry_md_context *ctx;$/;"	m	struct:gcry_md_handle	typeref:struct:gcry_md_handle::gcry_md_context	access:public
+gcry_md_hash_buffer	/usr/include/gcrypt.h	/^void gcry_md_hash_buffer (int algo, void *digest,$/;"	p	signature:(int algo, void *digest, const void *buffer, size_t length)
+gcry_md_hd_t	/usr/include/gcrypt.h	/^} *gcry_md_hd_t;$/;"	t	typeref:struct:gcry_md_handle
+gcry_md_info	/usr/include/gcrypt.h	/^gcry_error_t gcry_md_info (gcry_md_hd_t h, int what, void *buffer,$/;"	p	signature:(gcry_md_hd_t h, int what, void *buffer, size_t *nbytes)
+gcry_md_is_enabled	/usr/include/gcrypt.h	/^int gcry_md_is_enabled (gcry_md_hd_t a, int algo);$/;"	p	signature:(gcry_md_hd_t a, int algo)
+gcry_md_is_secure	/usr/include/gcrypt.h	/^int gcry_md_is_secure (gcry_md_hd_t a);$/;"	p	signature:(gcry_md_hd_t a)
+gcry_md_list	/usr/include/gcrypt.h	/^gcry_error_t gcry_md_list (int *list, int *list_length);$/;"	p	signature:(int *list, int *list_length)
+gcry_md_open	/usr/include/gcrypt.h	/^gcry_error_t gcry_md_open (gcry_md_hd_t *h, int algo, unsigned int flags);$/;"	p	signature:(gcry_md_hd_t *h, int algo, unsigned int flags)
+gcry_md_putc	/usr/include/gcrypt.h	1205;"	d
+gcry_md_read	/usr/include/gcrypt.h	/^unsigned char *gcry_md_read (gcry_md_hd_t hd, int algo);$/;"	p	signature:(gcry_md_hd_t hd, int algo)
+gcry_md_reset	/usr/include/gcrypt.h	/^void gcry_md_reset (gcry_md_hd_t hd);$/;"	p	signature:(gcry_md_hd_t hd)
+gcry_md_setkey	/usr/include/gcrypt.h	/^gcry_error_t gcry_md_setkey (gcry_md_hd_t hd, const void *key, size_t keylen);$/;"	p	signature:(gcry_md_hd_t hd, const void *key, size_t keylen)
+gcry_md_start_debug	/usr/include/gcrypt.h	1233;"	d
+gcry_md_stop_debug	/usr/include/gcrypt.h	1238;"	d
+gcry_md_test_algo	/usr/include/gcrypt.h	1219;"	d
+gcry_md_write	/usr/include/gcrypt.h	/^void gcry_md_write (gcry_md_hd_t hd, const void *buffer, size_t length);$/;"	p	signature:(gcry_md_hd_t hd, const void *buffer, size_t length)
+gcry_mpi_add	/usr/include/gcrypt.h	/^void gcry_mpi_add (gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v);$/;"	p	signature:(gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v)
+gcry_mpi_add_ui	/usr/include/gcrypt.h	/^void gcry_mpi_add_ui (gcry_mpi_t w, gcry_mpi_t u, unsigned long v);$/;"	p	signature:(gcry_mpi_t w, gcry_mpi_t u, unsigned long v)
+gcry_mpi_addm	/usr/include/gcrypt.h	/^void gcry_mpi_addm (gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v, gcry_mpi_t m);$/;"	p	signature:(gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v, gcry_mpi_t m)
+gcry_mpi_aprint	/usr/include/gcrypt.h	/^gcry_error_t gcry_mpi_aprint (enum gcry_mpi_format format,$/;"	p	signature:(enum gcry_mpi_format format, unsigned char **buffer, size_t *nwritten, const gcry_mpi_t a)
+gcry_mpi_clear_bit	/usr/include/gcrypt.h	/^void     gcry_mpi_clear_bit (gcry_mpi_t a, unsigned int n);$/;"	p	signature:(gcry_mpi_t a, unsigned int n)
+gcry_mpi_clear_flag	/usr/include/gcrypt.h	/^void gcry_mpi_clear_flag (gcry_mpi_t a, enum gcry_mpi_flag flag);$/;"	p	signature:(gcry_mpi_t a, enum gcry_mpi_flag flag)
+gcry_mpi_clear_highbit	/usr/include/gcrypt.h	/^void     gcry_mpi_clear_highbit (gcry_mpi_t a, unsigned int n);$/;"	p	signature:(gcry_mpi_t a, unsigned int n)
+gcry_mpi_cmp	/usr/include/gcrypt.h	/^int gcry_mpi_cmp (const gcry_mpi_t u, const gcry_mpi_t v);$/;"	p	signature:(const gcry_mpi_t u, const gcry_mpi_t v)
+gcry_mpi_cmp_ui	/usr/include/gcrypt.h	/^int gcry_mpi_cmp_ui (const gcry_mpi_t u, unsigned long v);$/;"	p	signature:(const gcry_mpi_t u, unsigned long v)
+gcry_mpi_copy	/usr/include/gcrypt.h	/^gcry_mpi_t gcry_mpi_copy (const gcry_mpi_t a);$/;"	p	signature:(const gcry_mpi_t a)
+gcry_mpi_div	/usr/include/gcrypt.h	/^void gcry_mpi_div (gcry_mpi_t q, gcry_mpi_t r,$/;"	p	signature:(gcry_mpi_t q, gcry_mpi_t r, gcry_mpi_t dividend, gcry_mpi_t divisor, int round)
+gcry_mpi_dump	/usr/include/gcrypt.h	/^void gcry_mpi_dump (const gcry_mpi_t a);$/;"	p	signature:(const gcry_mpi_t a)
+gcry_mpi_flag	/usr/include/gcrypt.h	/^enum gcry_mpi_flag$/;"	g
+gcry_mpi_format	/usr/include/gcrypt.h	/^enum gcry_mpi_format$/;"	g
+gcry_mpi_gcd	/usr/include/gcrypt.h	/^int gcry_mpi_gcd (gcry_mpi_t g, gcry_mpi_t a, gcry_mpi_t b);$/;"	p	signature:(gcry_mpi_t g, gcry_mpi_t a, gcry_mpi_t b)
+gcry_mpi_get_flag	/usr/include/gcrypt.h	/^int gcry_mpi_get_flag (gcry_mpi_t a, enum gcry_mpi_flag flag);$/;"	p	signature:(gcry_mpi_t a, enum gcry_mpi_flag flag)
+gcry_mpi_get_nbits	/usr/include/gcrypt.h	/^unsigned int gcry_mpi_get_nbits (gcry_mpi_t a);$/;"	p	signature:(gcry_mpi_t a)
+gcry_mpi_get_opaque	/usr/include/gcrypt.h	/^void *gcry_mpi_get_opaque (gcry_mpi_t a, unsigned int *nbits);$/;"	p	signature:(gcry_mpi_t a, unsigned int *nbits)
+gcry_mpi_invm	/usr/include/gcrypt.h	/^int gcry_mpi_invm (gcry_mpi_t x, gcry_mpi_t a, gcry_mpi_t m);$/;"	p	signature:(gcry_mpi_t x, gcry_mpi_t a, gcry_mpi_t m)
+gcry_mpi_lshift	/usr/include/gcrypt.h	/^void     gcry_mpi_lshift (gcry_mpi_t x, gcry_mpi_t a, unsigned int n);$/;"	p	signature:(gcry_mpi_t x, gcry_mpi_t a, unsigned int n)
+gcry_mpi_mod	/usr/include/gcrypt.h	/^void gcry_mpi_mod (gcry_mpi_t r, gcry_mpi_t dividend, gcry_mpi_t divisor);$/;"	p	signature:(gcry_mpi_t r, gcry_mpi_t dividend, gcry_mpi_t divisor)
+gcry_mpi_mul	/usr/include/gcrypt.h	/^void gcry_mpi_mul (gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v);$/;"	p	signature:(gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v)
+gcry_mpi_mul_2exp	/usr/include/gcrypt.h	/^void gcry_mpi_mul_2exp (gcry_mpi_t w, gcry_mpi_t u, unsigned long cnt);$/;"	p	signature:(gcry_mpi_t w, gcry_mpi_t u, unsigned long cnt)
+gcry_mpi_mul_ui	/usr/include/gcrypt.h	/^void gcry_mpi_mul_ui (gcry_mpi_t w, gcry_mpi_t u, unsigned long v );$/;"	p	signature:(gcry_mpi_t w, gcry_mpi_t u, unsigned long v )
+gcry_mpi_mulm	/usr/include/gcrypt.h	/^void gcry_mpi_mulm (gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v, gcry_mpi_t m);$/;"	p	signature:(gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v, gcry_mpi_t m)
+gcry_mpi_new	/usr/include/gcrypt.h	/^gcry_mpi_t gcry_mpi_new (unsigned int nbits);$/;"	p	signature:(unsigned int nbits)
+gcry_mpi_powm	/usr/include/gcrypt.h	/^void gcry_mpi_powm (gcry_mpi_t w,$/;"	p	signature:(gcry_mpi_t w, const gcry_mpi_t b, const gcry_mpi_t e, const gcry_mpi_t m)
+gcry_mpi_print	/usr/include/gcrypt.h	/^gcry_error_t gcry_mpi_print (enum gcry_mpi_format format,$/;"	p	signature:(enum gcry_mpi_format format, unsigned char *buffer, size_t buflen, size_t *nwritten, const gcry_mpi_t a)
+gcry_mpi_randomize	/usr/include/gcrypt.h	/^void gcry_mpi_randomize (gcry_mpi_t w,$/;"	p	signature:(gcry_mpi_t w, unsigned int nbits, enum gcry_random_level level)
+gcry_mpi_release	/usr/include/gcrypt.h	/^void gcry_mpi_release (gcry_mpi_t a);$/;"	p	signature:(gcry_mpi_t a)
+gcry_mpi_rshift	/usr/include/gcrypt.h	/^void     gcry_mpi_rshift (gcry_mpi_t x, gcry_mpi_t a, unsigned int n);$/;"	p	signature:(gcry_mpi_t x, gcry_mpi_t a, unsigned int n)
+gcry_mpi_scan	/usr/include/gcrypt.h	/^gcry_error_t gcry_mpi_scan (gcry_mpi_t *ret_mpi, enum gcry_mpi_format format,$/;"	p	signature:(gcry_mpi_t *ret_mpi, enum gcry_mpi_format format, const void *buffer, size_t buflen, size_t *nscanned)
+gcry_mpi_set	/usr/include/gcrypt.h	/^gcry_mpi_t gcry_mpi_set (gcry_mpi_t w, const gcry_mpi_t u);$/;"	p	signature:(gcry_mpi_t w, const gcry_mpi_t u)
+gcry_mpi_set_bit	/usr/include/gcrypt.h	/^void     gcry_mpi_set_bit (gcry_mpi_t a, unsigned int n);$/;"	p	signature:(gcry_mpi_t a, unsigned int n)
+gcry_mpi_set_flag	/usr/include/gcrypt.h	/^void gcry_mpi_set_flag (gcry_mpi_t a, enum gcry_mpi_flag flag);$/;"	p	signature:(gcry_mpi_t a, enum gcry_mpi_flag flag)
+gcry_mpi_set_highbit	/usr/include/gcrypt.h	/^void     gcry_mpi_set_highbit (gcry_mpi_t a, unsigned int n);$/;"	p	signature:(gcry_mpi_t a, unsigned int n)
+gcry_mpi_set_opaque	/usr/include/gcrypt.h	/^gcry_mpi_t gcry_mpi_set_opaque (gcry_mpi_t a, void *p, unsigned int nbits);$/;"	p	signature:(gcry_mpi_t a, void *p, unsigned int nbits)
+gcry_mpi_set_ui	/usr/include/gcrypt.h	/^gcry_mpi_t gcry_mpi_set_ui (gcry_mpi_t w, unsigned long u);$/;"	p	signature:(gcry_mpi_t w, unsigned long u)
+gcry_mpi_snew	/usr/include/gcrypt.h	/^gcry_mpi_t gcry_mpi_snew (unsigned int nbits);$/;"	p	signature:(unsigned int nbits)
+gcry_mpi_sub	/usr/include/gcrypt.h	/^void gcry_mpi_sub (gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v);$/;"	p	signature:(gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v)
+gcry_mpi_sub_ui	/usr/include/gcrypt.h	/^void gcry_mpi_sub_ui (gcry_mpi_t w, gcry_mpi_t u, unsigned long v );$/;"	p	signature:(gcry_mpi_t w, gcry_mpi_t u, unsigned long v )
+gcry_mpi_subm	/usr/include/gcrypt.h	/^void gcry_mpi_subm (gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v, gcry_mpi_t m);$/;"	p	signature:(gcry_mpi_t w, gcry_mpi_t u, gcry_mpi_t v, gcry_mpi_t m)
+gcry_mpi_swap	/usr/include/gcrypt.h	/^void gcry_mpi_swap (gcry_mpi_t a, gcry_mpi_t b);$/;"	p	signature:(gcry_mpi_t a, gcry_mpi_t b)
+gcry_mpi_t	/usr/include/gcrypt.h	/^typedef struct gcry_mpi *gcry_mpi_t;$/;"	t	typeref:struct:gcry_mpi
+gcry_mpi_test_bit	/usr/include/gcrypt.h	/^int      gcry_mpi_test_bit (gcry_mpi_t a, unsigned int n);$/;"	p	signature:(gcry_mpi_t a, unsigned int n)
+gcry_pk_algo_info	/usr/include/gcrypt.h	/^gcry_error_t gcry_pk_algo_info (int algo, int what,$/;"	p	signature:(int algo, int what, void *buffer, size_t *nbytes)
+gcry_pk_algos	/usr/include/gcrypt.h	/^enum gcry_pk_algos$/;"	g
+gcry_pk_ctl	/usr/include/gcrypt.h	/^gcry_error_t gcry_pk_ctl (int cmd, void *buffer, size_t buflen);$/;"	p	signature:(int cmd, void *buffer, size_t buflen)
+gcry_pk_decrypt	/usr/include/gcrypt.h	/^gcry_error_t gcry_pk_decrypt (gcry_sexp_t *result,$/;"	p	signature:(gcry_sexp_t *result, gcry_sexp_t data, gcry_sexp_t skey)
+gcry_pk_encrypt	/usr/include/gcrypt.h	/^gcry_error_t gcry_pk_encrypt (gcry_sexp_t *result,$/;"	p	signature:(gcry_sexp_t *result, gcry_sexp_t data, gcry_sexp_t pkey)
+gcry_pk_genkey	/usr/include/gcrypt.h	/^gcry_error_t gcry_pk_genkey (gcry_sexp_t *r_key, gcry_sexp_t s_parms);$/;"	p	signature:(gcry_sexp_t *r_key, gcry_sexp_t s_parms)
+gcry_pk_get_curve	/usr/include/gcrypt.h	/^const char *gcry_pk_get_curve (gcry_sexp_t key, int iterator,$/;"	p	signature:(gcry_sexp_t key, int iterator, unsigned int *r_nbits)
+gcry_pk_get_keygrip	/usr/include/gcrypt.h	/^unsigned char *gcry_pk_get_keygrip (gcry_sexp_t key, unsigned char *array);$/;"	p	signature:(gcry_sexp_t key, unsigned char *array)
+gcry_pk_get_param	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_pk_get_param (int algo, const char *name);$/;"	p	signature:(int algo, const char *name)
+gcry_pk_list	/usr/include/gcrypt.h	/^gcry_error_t gcry_pk_list (int *list, int *list_length);$/;"	p	signature:(int *list, int *list_length)
+gcry_pk_sign	/usr/include/gcrypt.h	/^gcry_error_t gcry_pk_sign (gcry_sexp_t *result,$/;"	p	signature:(gcry_sexp_t *result, gcry_sexp_t data, gcry_sexp_t skey)
+gcry_pk_test_algo	/usr/include/gcrypt.h	1049;"	d
+gcry_pk_testkey	/usr/include/gcrypt.h	/^gcry_error_t gcry_pk_testkey (gcry_sexp_t key);$/;"	p	signature:(gcry_sexp_t key)
+gcry_pk_verify	/usr/include/gcrypt.h	/^gcry_error_t gcry_pk_verify (gcry_sexp_t sigval,$/;"	p	signature:(gcry_sexp_t sigval, gcry_sexp_t data, gcry_sexp_t pkey)
+gcry_prime_check	/usr/include/gcrypt.h	/^gcry_error_t gcry_prime_check (gcry_mpi_t x, unsigned int flags);$/;"	p	signature:(gcry_mpi_t x, unsigned int flags)
+gcry_prime_check_func_t	/usr/include/gcrypt.h	/^typedef int (*gcry_prime_check_func_t) (void *arg, int mode,$/;"	t
+gcry_prime_generate	/usr/include/gcrypt.h	/^gcry_error_t gcry_prime_generate (gcry_mpi_t *prime,$/;"	p	signature:(gcry_mpi_t *prime, unsigned int prime_bits, unsigned int factor_bits, gcry_mpi_t **factors, gcry_prime_check_func_t cb_func, void *cb_arg, gcry_random_level_t random_level, unsigned int flags)
+gcry_prime_group_generator	/usr/include/gcrypt.h	/^gcry_error_t gcry_prime_group_generator (gcry_mpi_t *r_g,$/;"	p	signature:(gcry_mpi_t *r_g, gcry_mpi_t prime, gcry_mpi_t *factors, gcry_mpi_t start_g)
+gcry_prime_release_factors	/usr/include/gcrypt.h	/^void gcry_prime_release_factors (gcry_mpi_t *factors);$/;"	p	signature:(gcry_mpi_t *factors)
+gcry_random_add_bytes	/usr/include/gcrypt.h	/^gcry_error_t gcry_random_add_bytes (const void *buffer, size_t length,$/;"	p	signature:(const void *buffer, size_t length, int quality)
+gcry_random_level	/usr/include/gcrypt.h	/^typedef enum gcry_random_level$/;"	g
+gcry_random_level_t	/usr/include/gcrypt.h	/^gcry_random_level_t;$/;"	t	typeref:enum:gcry_random_level
+gcry_randomize	/usr/include/gcrypt.h	/^void gcry_randomize (void *buffer, size_t length,$/;"	p	signature:(void *buffer, size_t length, enum gcry_random_level level)
+gcry_realloc	/usr/include/gcrypt.h	/^void *gcry_realloc (void *a, size_t n);$/;"	p	signature:(void *a, size_t n)
+gcry_set_allocation_handler	/usr/include/gcrypt.h	/^void gcry_set_allocation_handler ($/;"	p	signature:( gcry_handler_alloc_t func_alloc, gcry_handler_alloc_t func_alloc_secure, gcry_handler_secure_check_t func_secure_check, gcry_handler_realloc_t func_realloc, gcry_handler_free_t func_free)
+gcry_set_fatalerror_handler	/usr/include/gcrypt.h	/^void gcry_set_fatalerror_handler (gcry_handler_error_t fnc, void *opaque);$/;"	p	signature:(gcry_handler_error_t fnc, void *opaque)
+gcry_set_gettext_handler	/usr/include/gcrypt.h	/^void gcry_set_gettext_handler (const char *(*f)(const char*));$/;"	p	signature:(const char *(*f)(const char*))
+gcry_set_log_handler	/usr/include/gcrypt.h	/^void gcry_set_log_handler (gcry_handler_log_t f, void *opaque);$/;"	p	signature:(gcry_handler_log_t f, void *opaque)
+gcry_set_outofcore_handler	/usr/include/gcrypt.h	/^void gcry_set_outofcore_handler (gcry_handler_no_mem_t h, void *opaque);$/;"	p	signature:(gcry_handler_no_mem_t h, void *opaque)
+gcry_set_progress_handler	/usr/include/gcrypt.h	/^void gcry_set_progress_handler (gcry_handler_progress_t cb, void *cb_data);$/;"	p	signature:(gcry_handler_progress_t cb, void *cb_data)
+gcry_sexp_alist	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_sexp_alist (const gcry_sexp_t *array);$/;"	p	signature:(const gcry_sexp_t *array)
+gcry_sexp_append	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_sexp_append (const gcry_sexp_t a, const gcry_sexp_t n);$/;"	p	signature:(const gcry_sexp_t a, const gcry_sexp_t n)
+gcry_sexp_build	/usr/include/gcrypt.h	/^gcry_error_t gcry_sexp_build (gcry_sexp_t *retsexp, size_t *erroff,$/;"	p	signature:(gcry_sexp_t *retsexp, size_t *erroff, const char *format, ...)
+gcry_sexp_build_array	/usr/include/gcrypt.h	/^gcry_error_t gcry_sexp_build_array (gcry_sexp_t *retsexp, size_t *erroff,$/;"	p	signature:(gcry_sexp_t *retsexp, size_t *erroff, const char *format, void **arg_list)
+gcry_sexp_cadr	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_sexp_cadr (const gcry_sexp_t list);$/;"	p	signature:(const gcry_sexp_t list)
+gcry_sexp_canon_len	/usr/include/gcrypt.h	/^size_t gcry_sexp_canon_len (const unsigned char *buffer, size_t length,$/;"	p	signature:(const unsigned char *buffer, size_t length, size_t *erroff, gcry_error_t *errcode)
+gcry_sexp_car	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_sexp_car (const gcry_sexp_t list);$/;"	p	signature:(const gcry_sexp_t list)
+gcry_sexp_cdr	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_sexp_cdr (const gcry_sexp_t list);$/;"	p	signature:(const gcry_sexp_t list)
+gcry_sexp_cons	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_sexp_cons (const gcry_sexp_t a, const gcry_sexp_t b);$/;"	p	signature:(const gcry_sexp_t a, const gcry_sexp_t b)
+gcry_sexp_create	/usr/include/gcrypt.h	/^gcry_error_t gcry_sexp_create (gcry_sexp_t *retsexp,$/;"	p	signature:(gcry_sexp_t *retsexp, void *buffer, size_t length, int autodetect, void (*freefnc) (void *))
+gcry_sexp_dump	/usr/include/gcrypt.h	/^void gcry_sexp_dump (const gcry_sexp_t a);$/;"	p	signature:(const gcry_sexp_t a)
+gcry_sexp_find_token	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_sexp_find_token (gcry_sexp_t list,$/;"	p	signature:(gcry_sexp_t list, const char *tok, size_t toklen)
+gcry_sexp_format	/usr/include/gcrypt.h	/^enum gcry_sexp_format$/;"	g
+gcry_sexp_length	/usr/include/gcrypt.h	/^int gcry_sexp_length (const gcry_sexp_t list);$/;"	p	signature:(const gcry_sexp_t list)
+gcry_sexp_new	/usr/include/gcrypt.h	/^gcry_error_t gcry_sexp_new (gcry_sexp_t *retsexp,$/;"	p	signature:(gcry_sexp_t *retsexp, const void *buffer, size_t length, int autodetect)
+gcry_sexp_nth	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_sexp_nth (const gcry_sexp_t list, int number);$/;"	p	signature:(const gcry_sexp_t list, int number)
+gcry_sexp_nth_data	/usr/include/gcrypt.h	/^const char *gcry_sexp_nth_data (const gcry_sexp_t list, int number,$/;"	p	signature:(const gcry_sexp_t list, int number, size_t *datalen)
+gcry_sexp_nth_mpi	/usr/include/gcrypt.h	/^gcry_mpi_t gcry_sexp_nth_mpi (gcry_sexp_t list, int number, int mpifmt);$/;"	p	signature:(gcry_sexp_t list, int number, int mpifmt)
+gcry_sexp_nth_string	/usr/include/gcrypt.h	/^char *gcry_sexp_nth_string (gcry_sexp_t list, int number);$/;"	p	signature:(gcry_sexp_t list, int number)
+gcry_sexp_prepend	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_sexp_prepend (const gcry_sexp_t a, const gcry_sexp_t n);$/;"	p	signature:(const gcry_sexp_t a, const gcry_sexp_t n)
+gcry_sexp_release	/usr/include/gcrypt.h	/^void gcry_sexp_release (gcry_sexp_t sexp);$/;"	p	signature:(gcry_sexp_t sexp)
+gcry_sexp_sprint	/usr/include/gcrypt.h	/^size_t gcry_sexp_sprint (gcry_sexp_t sexp, int mode, void *buffer,$/;"	p	signature:(gcry_sexp_t sexp, int mode, void *buffer, size_t maxlength)
+gcry_sexp_sscan	/usr/include/gcrypt.h	/^gcry_error_t gcry_sexp_sscan (gcry_sexp_t *retsexp, size_t *erroff,$/;"	p	signature:(gcry_sexp_t *retsexp, size_t *erroff, const char *buffer, size_t length)
+gcry_sexp_t	/usr/include/gcrypt.h	/^typedef struct gcry_sexp *gcry_sexp_t;$/;"	t	typeref:struct:gcry_sexp
+gcry_sexp_vlist	/usr/include/gcrypt.h	/^gcry_sexp_t gcry_sexp_vlist (const gcry_sexp_t a, ...);$/;"	p	signature:(const gcry_sexp_t a, ...)
+gcry_socklen_t	/usr/include/gcrypt.h	/^typedef socklen_t gcry_socklen_t;$/;"	t
+gcry_strerror	/usr/include/gcrypt.h	/^const char *gcry_strerror (gcry_error_t err);$/;"	p	signature:(gcry_error_t err)
+gcry_strsource	/usr/include/gcrypt.h	/^const char *gcry_strsource (gcry_error_t err);$/;"	p	signature:(gcry_error_t err)
+gcry_thread_cbs	/usr/include/gcrypt.h	/^struct gcry_thread_cbs$/;"	s
+gcry_thread_cbs::accept	/usr/include/gcrypt.h	/^  int (*accept) (int s, struct sockaddr *addr, gcry_socklen_t *length_ptr);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::accept	/usr/include/gcrypt.h	/^  int (*accept) (int s, void  *addr, int *length_ptr);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::connect	/usr/include/gcrypt.h	/^  int (*connect) (int s, struct sockaddr *addr, gcry_socklen_t length);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::connect	/usr/include/gcrypt.h	/^  int (*connect) (int s, void *addr, gcry_socklen_t length);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::init	/usr/include/gcrypt.h	/^  int (*init) (void);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::mutex_destroy	/usr/include/gcrypt.h	/^  int (*mutex_destroy) (void **priv);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::mutex_init	/usr/include/gcrypt.h	/^  int (*mutex_init) (void **priv);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::mutex_lock	/usr/include/gcrypt.h	/^  int (*mutex_lock) (void **priv);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::mutex_unlock	/usr/include/gcrypt.h	/^  int (*mutex_unlock) (void **priv);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::option	/usr/include/gcrypt.h	/^  unsigned int option;$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::read	/usr/include/gcrypt.h	/^  ssize_t (*read) (int fd, void *buf, size_t nbytes);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::recvmsg	/usr/include/gcrypt.h	/^  int (*recvmsg) (int s, struct msghdr *msg, int flags);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::recvmsg	/usr/include/gcrypt.h	/^  int (*recvmsg) (int s, void *msg, int flags);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::select	/usr/include/gcrypt.h	/^  ssize_t (*select) (int nfd, fd_set *rset, fd_set *wset, fd_set *eset,$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::select	/usr/include/gcrypt.h	/^  ssize_t (*select) (int nfd, void *rset, void *wset, void *eset,$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::sendmsg	/usr/include/gcrypt.h	/^  int (*sendmsg) (int s, const struct msghdr *msg, int flags);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::sendmsg	/usr/include/gcrypt.h	/^  int (*sendmsg) (int s, const void *msg, int flags);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::waitpid	/usr/include/gcrypt.h	/^  ssize_t (*waitpid) (pid_t pid, int *status, int options);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_cbs::write	/usr/include/gcrypt.h	/^  ssize_t (*write) (int fd, const void *buf, size_t nbytes);$/;"	m	struct:gcry_thread_cbs	access:public
+gcry_thread_option	/usr/include/gcrypt.h	/^enum gcry_thread_option$/;"	g
+gcry_xrealloc	/usr/include/gcrypt.h	/^void *gcry_xrealloc (void *a, size_t n);$/;"	p	signature:(void *a, size_t n)
+init	/usr/include/gcrypt.h	/^  int (*init) (void);$/;"	m	struct:gcry_thread_cbs	access:public
+key_size	/usr/include/gcrypt.h	/^  size_t key_size;$/;"	m	struct:gcry_ac_eme_pkcs_v1_5	access:public
+md	/usr/include/gcrypt.h	/^  gcry_md_algo_t md;$/;"	m	struct:gcry_ac_emsa_pkcs_v1_5	access:public
+md	/usr/include/gcrypt.h	/^  gcry_md_algo_t md;$/;"	m	struct:gcry_ac_ssa_pkcs_v1_5	access:public
+mpi_add	/usr/include/gcrypt.h	763;"	d
+mpi_add_ui	/usr/include/gcrypt.h	762;"	d
+mpi_addm	/usr/include/gcrypt.h	764;"	d
+mpi_clear_bit	/usr/include/gcrypt.h	783;"	d
+mpi_clear_highbit	/usr/include/gcrypt.h	784;"	d
+mpi_cmp	/usr/include/gcrypt.h	759;"	d
+mpi_cmp_ui	/usr/include/gcrypt.h	760;"	d
+mpi_copy	/usr/include/gcrypt.h	756;"	d
+mpi_fdiv	/usr/include/gcrypt.h	774;"	d
+mpi_gcd	/usr/include/gcrypt.h	776;"	d
+mpi_get_nbits	/usr/include/gcrypt.h	779;"	d
+mpi_get_opaque	/usr/include/gcrypt.h	789;"	d
+mpi_invm	/usr/include/gcrypt.h	777;"	d
+mpi_lshift	/usr/include/gcrypt.h	786;"	d
+mpi_mod	/usr/include/gcrypt.h	775;"	d
+mpi_mul	/usr/include/gcrypt.h	770;"	d
+mpi_mul_2exp	/usr/include/gcrypt.h	769;"	d
+mpi_mul_ui	/usr/include/gcrypt.h	768;"	d
+mpi_mulm	/usr/include/gcrypt.h	771;"	d
+mpi_new	/usr/include/gcrypt.h	746;"	d
+mpi_powm	/usr/include/gcrypt.h	772;"	d
+mpi_release	/usr/include/gcrypt.h	748;"	d
+mpi_rshift	/usr/include/gcrypt.h	785;"	d
+mpi_secure_new	/usr/include/gcrypt.h	747;"	d
+mpi_set	/usr/include/gcrypt.h	757;"	d
+mpi_set_bit	/usr/include/gcrypt.h	781;"	d
+mpi_set_highbit	/usr/include/gcrypt.h	782;"	d
+mpi_set_opaque	/usr/include/gcrypt.h	788;"	d
+mpi_set_ui	/usr/include/gcrypt.h	758;"	d
+mpi_sub	/usr/include/gcrypt.h	766;"	d
+mpi_sub_ui	/usr/include/gcrypt.h	765;"	d
+mpi_subm	/usr/include/gcrypt.h	767;"	d
+mpi_tdiv	/usr/include/gcrypt.h	773;"	d
+mpi_test_bit	/usr/include/gcrypt.h	780;"	d
+mutex_destroy	/usr/include/gcrypt.h	/^  int (*mutex_destroy) (void **priv);$/;"	m	struct:gcry_thread_cbs	access:public
+mutex_init	/usr/include/gcrypt.h	/^  int (*mutex_init) (void **priv);$/;"	m	struct:gcry_thread_cbs	access:public
+mutex_lock	/usr/include/gcrypt.h	/^  int (*mutex_lock) (void **priv);$/;"	m	struct:gcry_thread_cbs	access:public
+mutex_unlock	/usr/include/gcrypt.h	/^  int (*mutex_unlock) (void **priv);$/;"	m	struct:gcry_thread_cbs	access:public
+opaque	/usr/include/gcrypt.h	/^	void *opaque;$/;"	m	struct:gcry_ac_io::__anon3::__anon4::__anon5	access:public
+opaque	/usr/include/gcrypt.h	/^	void *opaque;$/;"	m	struct:gcry_ac_io::__anon3::__anon7::__anon8	access:public
+opaque	/usr/include/gcrypt.h	/^      void *opaque;$/;"	m	union:gcry_ac_io::__anon3::__anon4	access:public
+opaque	/usr/include/gcrypt.h	/^      void *opaque;$/;"	m	union:gcry_ac_io::__anon3::__anon7	access:public
+option	/usr/include/gcrypt.h	/^  unsigned int option;$/;"	m	struct:gcry_thread_cbs	access:public
+pid_t	/usr/include/gcrypt.h	/^  typedef int  pid_t;$/;"	t
+read	/usr/include/gcrypt.h	/^  ssize_t (*read) (int fd, void *buf, size_t nbytes);$/;"	m	struct:gcry_thread_cbs	access:public
+readable	/usr/include/gcrypt.h	/^    } readable;$/;"	m	union:gcry_ac_io::__anon3	typeref:union:gcry_ac_io::__anon3::__anon4	access:public
+recvmsg	/usr/include/gcrypt.h	/^  int (*recvmsg) (int s, struct msghdr *msg, int flags);$/;"	m	struct:gcry_thread_cbs	access:public
+recvmsg	/usr/include/gcrypt.h	/^  int (*recvmsg) (int s, void *msg, int flags);$/;"	m	struct:gcry_thread_cbs	access:public
+select	/usr/include/gcrypt.h	/^  ssize_t (*select) (int nfd, fd_set *rset, fd_set *wset, fd_set *eset,$/;"	m	struct:gcry_thread_cbs	access:public
+select	/usr/include/gcrypt.h	/^  ssize_t (*select) (int nfd, void *rset, void *wset, void *eset,$/;"	m	struct:gcry_thread_cbs	access:public
+sendmsg	/usr/include/gcrypt.h	/^  int (*sendmsg) (int s, const struct msghdr *msg, int flags);$/;"	m	struct:gcry_thread_cbs	access:public
+sendmsg	/usr/include/gcrypt.h	/^  int (*sendmsg) (int s, const void *msg, int flags);$/;"	m	struct:gcry_thread_cbs	access:public
+ssize_t	/usr/include/gcrypt.h	/^  typedef long ssize_t;$/;"	t
+string	/usr/include/gcrypt.h	/^      } string;$/;"	m	union:gcry_ac_io::__anon3::__anon4	typeref:struct:gcry_ac_io::__anon3::__anon4::__anon6	access:public
+string	/usr/include/gcrypt.h	/^      } string;$/;"	m	union:gcry_ac_io::__anon3::__anon7	typeref:struct:gcry_ac_io::__anon3::__anon7::__anon9	access:public
+waitpid	/usr/include/gcrypt.h	/^  ssize_t (*waitpid) (pid_t pid, int *status, int options);$/;"	m	struct:gcry_thread_cbs	access:public
+writable	/usr/include/gcrypt.h	/^    } writable;$/;"	m	union:gcry_ac_io::__anon3	typeref:union:gcry_ac_io::__anon3::__anon7	access:public
+write	/usr/include/gcrypt.h	/^  ssize_t (*write) (int fd, const void *buf, size_t nbytes);$/;"	m	struct:gcry_thread_cbs	access:public

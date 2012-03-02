@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+_ASSERT_H	/usr/include/assert.h	26;"	d
+_ASSERT_H	/usr/include/assert.h	36;"	d
+__ASSERT_FUNCTION	/usr/include/assert.h	106;"	d
+__ASSERT_VOID_CAST	/usr/include/assert.h	28;"	d
+__ASSERT_VOID_CAST	/usr/include/assert.h	40;"	d
+__ASSERT_VOID_CAST	/usr/include/assert.h	42;"	d
+assert	/usr/include/assert.h	27;"	d
+assert	/usr/include/assert.h	52;"	d
+assert	/usr/include/assert.h	88;"	d
+assert_perror	/usr/include/assert.h	31;"	d
+assert_perror	/usr/include/assert.h	61;"	d
+assert_perror	/usr/include/assert.h	94;"	d

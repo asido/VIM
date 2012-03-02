@@ -1,0 +1,68 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLK_TCK	/usr/include/time.h	47;"	d
+_TIME_H	/usr/include/time.h	27;"	d
+__clock_t_defined	/usr/include/time.h	54;"	d
+__clockid_t_defined	/usr/include/time.h	87;"	d
+__clockid_time_t	/usr/include/time.h	95;"	d
+__isleap	/usr/include/time.h	304;"	d
+__need_NULL	/usr/include/time.h	37;"	d
+__need_clock_t	/usr/include/time.h	67;"	d
+__need_size_t	/usr/include/time.h	36;"	d
+__need_time_t	/usr/include/time.h	83;"	d
+__need_timer_t	/usr/include/time.h	107;"	d
+__need_timespec	/usr/include/time.h	127;"	d
+__pid_t_defined	/usr/include/time.h	175;"	d
+__time_t_defined	/usr/include/time.h	70;"	d
+__timer_t_defined	/usr/include/time.h	99;"	d
+__timespec_defined	/usr/include/time.h	114;"	d
+__tm_gmtoff	/usr/include/time.h	/^  long int __tm_gmtoff;		\/* Seconds east of UTC.  *\/$/;"	m	struct:tm	access:public
+__tm_zone	/usr/include/time.h	/^  __const char *__tm_zone;	\/* Timezone abbreviation.  *\/$/;"	m	struct:tm	access:public
+clock_nanosleep	/usr/include/time.h	/^extern int clock_nanosleep (clockid_t __clock_id, int __flags,$/;"	p	signature:(clockid_t __clock_id, int __flags, __const struct timespec *__req, struct timespec *__rem)
+clock_t	/usr/include/time.h	/^typedef __clock_t clock_t;$/;"	t
+clockid_t	/usr/include/time.h	/^typedef __clockid_t clockid_t;$/;"	t
+getdate	/usr/include/time.h	/^extern struct tm *getdate (__const char *__string);$/;"	p	signature:(__const char *__string)
+getdate_r	/usr/include/time.h	/^extern int getdate_r (__const char *__restrict __string,$/;"	p	signature:(__const char *__restrict __string, struct tm *__restrict __resbufp)
+it_interval	/usr/include/time.h	/^    struct timespec it_interval;$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	access:public
+it_value	/usr/include/time.h	/^    struct timespec it_value;$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	access:public
+itimerspec	/usr/include/time.h	/^struct itimerspec$/;"	s
+itimerspec::it_interval	/usr/include/time.h	/^    struct timespec it_interval;$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	access:public
+itimerspec::it_value	/usr/include/time.h	/^    struct timespec it_value;$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec	access:public
+nanosleep	/usr/include/time.h	/^extern int nanosleep (__const struct timespec *__requested_time,$/;"	p	signature:(__const struct timespec *__requested_time, struct timespec *__remaining)
+pid_t	/usr/include/time.h	/^typedef __pid_t pid_t;$/;"	t
+time_t	/usr/include/time.h	/^typedef __time_t time_t;$/;"	t
+timer_t	/usr/include/time.h	/^typedef __timer_t timer_t;$/;"	t
+timespec	/usr/include/time.h	/^struct timespec$/;"	s
+timespec::tv_nsec	/usr/include/time.h	/^    long int tv_nsec;		\/* Nanoseconds.  *\/$/;"	m	struct:timespec	access:public
+timespec::tv_sec	/usr/include/time.h	/^    __time_t tv_sec;		\/* Seconds.  *\/$/;"	m	struct:timespec	access:public
+tm	/usr/include/time.h	/^struct tm$/;"	s
+tm::__tm_gmtoff	/usr/include/time.h	/^  long int __tm_gmtoff;		\/* Seconds east of UTC.  *\/$/;"	m	struct:tm	access:public
+tm::__tm_zone	/usr/include/time.h	/^  __const char *__tm_zone;	\/* Timezone abbreviation.  *\/$/;"	m	struct:tm	access:public
+tm::tm_gmtoff	/usr/include/time.h	/^  long int tm_gmtoff;		\/* Seconds east of UTC.  *\/$/;"	m	struct:tm	access:public
+tm::tm_hour	/usr/include/time.h	/^  int tm_hour;			\/* Hours.	[0-23] *\/$/;"	m	struct:tm	access:public
+tm::tm_isdst	/usr/include/time.h	/^  int tm_isdst;			\/* DST.		[-1\/0\/1]*\/$/;"	m	struct:tm	access:public
+tm::tm_mday	/usr/include/time.h	/^  int tm_mday;			\/* Day.		[1-31] *\/$/;"	m	struct:tm	access:public
+tm::tm_min	/usr/include/time.h	/^  int tm_min;			\/* Minutes.	[0-59] *\/$/;"	m	struct:tm	access:public
+tm::tm_mon	/usr/include/time.h	/^  int tm_mon;			\/* Month.	[0-11] *\/$/;"	m	struct:tm	access:public
+tm::tm_sec	/usr/include/time.h	/^  int tm_sec;			\/* Seconds.	[0-60] (1 leap second) *\/$/;"	m	struct:tm	access:public
+tm::tm_wday	/usr/include/time.h	/^  int tm_wday;			\/* Day of week.	[0-6] *\/$/;"	m	struct:tm	access:public
+tm::tm_yday	/usr/include/time.h	/^  int tm_yday;			\/* Days in year.[0-365]	*\/$/;"	m	struct:tm	access:public
+tm::tm_year	/usr/include/time.h	/^  int tm_year;			\/* Year	- 1900.  *\/$/;"	m	struct:tm	access:public
+tm::tm_zone	/usr/include/time.h	/^  __const char *tm_zone;	\/* Timezone abbreviation.  *\/$/;"	m	struct:tm	access:public
+tm_gmtoff	/usr/include/time.h	/^  long int tm_gmtoff;		\/* Seconds east of UTC.  *\/$/;"	m	struct:tm	access:public
+tm_hour	/usr/include/time.h	/^  int tm_hour;			\/* Hours.	[0-23] *\/$/;"	m	struct:tm	access:public
+tm_isdst	/usr/include/time.h	/^  int tm_isdst;			\/* DST.		[-1\/0\/1]*\/$/;"	m	struct:tm	access:public
+tm_mday	/usr/include/time.h	/^  int tm_mday;			\/* Day.		[1-31] *\/$/;"	m	struct:tm	access:public
+tm_min	/usr/include/time.h	/^  int tm_min;			\/* Minutes.	[0-59] *\/$/;"	m	struct:tm	access:public
+tm_mon	/usr/include/time.h	/^  int tm_mon;			\/* Month.	[0-11] *\/$/;"	m	struct:tm	access:public
+tm_sec	/usr/include/time.h	/^  int tm_sec;			\/* Seconds.	[0-60] (1 leap second) *\/$/;"	m	struct:tm	access:public
+tm_wday	/usr/include/time.h	/^  int tm_wday;			\/* Day of week.	[0-6] *\/$/;"	m	struct:tm	access:public
+tm_yday	/usr/include/time.h	/^  int tm_yday;			\/* Days in year.[0-365]	*\/$/;"	m	struct:tm	access:public
+tm_year	/usr/include/time.h	/^  int tm_year;			\/* Year	- 1900.  *\/$/;"	m	struct:tm	access:public
+tm_zone	/usr/include/time.h	/^  __const char *tm_zone;	\/* Timezone abbreviation.  *\/$/;"	m	struct:tm	access:public
+tv_nsec	/usr/include/time.h	/^    long int tv_nsec;		\/* Nanoseconds.  *\/$/;"	m	struct:timespec	access:public
+tv_sec	/usr/include/time.h	/^    __time_t tv_sec;		\/* Seconds.  *\/$/;"	m	struct:timespec	access:public

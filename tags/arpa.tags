@@ -1,0 +1,673 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABORT	/usr/include/arpa/telnet.h	55;"	d
+ACK	/usr/include/arpa/tftp.h	46;"	d
+ADD	/usr/include/arpa/nameser_compat.h	128;"	d
+AO	/usr/include/arpa/telnet.h	48;"	d
+AUTHTYPE_CNT	/usr/include/arpa/telnet.h	261;"	d
+AUTHTYPE_KERBEROS_V4	/usr/include/arpa/telnet.h	257;"	d
+AUTHTYPE_KERBEROS_V5	/usr/include/arpa/telnet.h	258;"	d
+AUTHTYPE_MINK	/usr/include/arpa/telnet.h	260;"	d
+AUTHTYPE_NAME	/usr/include/arpa/telnet.h	274;"	d
+AUTHTYPE_NAME_OK	/usr/include/arpa/telnet.h	273;"	d
+AUTHTYPE_NULL	/usr/include/arpa/telnet.h	256;"	d
+AUTHTYPE_SPX	/usr/include/arpa/telnet.h	259;"	d
+AUTHTYPE_TEST	/usr/include/arpa/telnet.h	263;"	d
+AUTH_HOW_MASK	/usr/include/arpa/telnet.h	254;"	d
+AUTH_HOW_MUTUAL	/usr/include/arpa/telnet.h	253;"	d
+AUTH_HOW_ONE_WAY	/usr/include/arpa/telnet.h	252;"	d
+AUTH_WHO_CLIENT	/usr/include/arpa/telnet.h	245;"	d
+AUTH_WHO_MASK	/usr/include/arpa/telnet.h	247;"	d
+AUTH_WHO_SERVER	/usr/include/arpa/telnet.h	246;"	d
+AYT	/usr/include/arpa/telnet.h	47;"	d
+BIND_4_COMPAT	/usr/include/arpa/nameser.h	57;"	d
+BLK_BYTECOUNT	/usr/include/arpa/ftp.h	103;"	d
+BLK_EOF	/usr/include/arpa/ftp.h	99;"	d
+BLK_EOR	/usr/include/arpa/ftp.h	98;"	d
+BLK_ERRORS	/usr/include/arpa/ftp.h	100;"	d
+BLK_RESTART	/usr/include/arpa/ftp.h	101;"	d
+BREAK	/usr/include/arpa/telnet.h	50;"	d
+COMPLETE	/usr/include/arpa/ftp.h	41;"	d
+CONTINUE	/usr/include/arpa/ftp.h	42;"	d
+C_ANY	/usr/include/arpa/nameser_compat.h	179;"	d
+C_CHAOS	/usr/include/arpa/nameser_compat.h	175;"	d
+C_HS	/usr/include/arpa/nameser_compat.h	176;"	d
+C_IN	/usr/include/arpa/nameser_compat.h	174;"	d
+C_NONE	/usr/include/arpa/nameser_compat.h	178;"	d
+DATA	/usr/include/arpa/tftp.h	45;"	d
+DELETE	/usr/include/arpa/nameser_compat.h	127;"	d
+DM	/usr/include/arpa/telnet.h	51;"	d
+DO	/usr/include/arpa/telnet.h	40;"	d
+DONT	/usr/include/arpa/telnet.h	39;"	d
+EACCESS	/usr/include/arpa/tftp.h	69;"	d
+EBADID	/usr/include/arpa/tftp.h	72;"	d
+EBADOP	/usr/include/arpa/tftp.h	71;"	d
+EC	/usr/include/arpa/telnet.h	46;"	d
+EEXISTS	/usr/include/arpa/tftp.h	73;"	d
+EL	/usr/include/arpa/telnet.h	45;"	d
+ENCRYPT_CNT	/usr/include/arpa/telnet.h	288;"	d
+ENCRYPT_DEC_KEYID	/usr/include/arpa/telnet.h	287;"	d
+ENCRYPT_ENC_KEYID	/usr/include/arpa/telnet.h	286;"	d
+ENCRYPT_END	/usr/include/arpa/telnet.h	283;"	d
+ENCRYPT_IS	/usr/include/arpa/telnet.h	279;"	d
+ENCRYPT_NAME	/usr/include/arpa/telnet.h	311;"	d
+ENCRYPT_NAME_OK	/usr/include/arpa/telnet.h	310;"	d
+ENCRYPT_REPLY	/usr/include/arpa/telnet.h	281;"	d
+ENCRYPT_REQEND	/usr/include/arpa/telnet.h	285;"	d
+ENCRYPT_REQSTART	/usr/include/arpa/telnet.h	284;"	d
+ENCRYPT_START	/usr/include/arpa/telnet.h	282;"	d
+ENCRYPT_SUPPORT	/usr/include/arpa/telnet.h	280;"	d
+ENCTYPE_ANY	/usr/include/arpa/telnet.h	290;"	d
+ENCTYPE_CNT	/usr/include/arpa/telnet.h	293;"	d
+ENCTYPE_DES_CFB64	/usr/include/arpa/telnet.h	291;"	d
+ENCTYPE_DES_OFB64	/usr/include/arpa/telnet.h	292;"	d
+ENCTYPE_NAME	/usr/include/arpa/telnet.h	314;"	d
+ENCTYPE_NAME_OK	/usr/include/arpa/telnet.h	313;"	d
+ENOSPACE	/usr/include/arpa/tftp.h	70;"	d
+ENOTFOUND	/usr/include/arpa/tftp.h	68;"	d
+ENOUSER	/usr/include/arpa/tftp.h	74;"	d
+ENV_ESC	/usr/include/arpa/telnet.h	235;"	d
+ENV_USERVAR	/usr/include/arpa/telnet.h	236;"	d
+EOR	/usr/include/arpa/telnet.h	54;"	d
+ERROR	/usr/include/arpa/ftp.h	44;"	d
+ERROR	/usr/include/arpa/tftp.h	47;"	d
+EUNDEF	/usr/include/arpa/tftp.h	67;"	d
+FORMERR	/usr/include/arpa/nameser_compat.h	112;"	d
+FORM_C	/usr/include/arpa/ftp.h	63;"	d
+FORM_N	/usr/include/arpa/ftp.h	61;"	d
+FORM_T	/usr/include/arpa/ftp.h	62;"	d
+GA	/usr/include/arpa/telnet.h	44;"	d
+GETLONG	/usr/include/arpa/nameser_compat.h	182;"	d
+GETSHORT	/usr/include/arpa/nameser_compat.h	181;"	d
+HEADER	/usr/include/arpa/nameser_compat.h	/^} HEADER;$/;"	t	typeref:struct:__anon1
+HFIXEDSZ	/usr/include/arpa/nameser_compat.h	89;"	d
+IAC	/usr/include/arpa/telnet.h	38;"	d
+IN6ADDRSZ	/usr/include/arpa/nameser_compat.h	96;"	d
+INADDRSZ	/usr/include/arpa/nameser_compat.h	95;"	d
+INDIR_MASK	/usr/include/arpa/nameser_compat.h	97;"	d
+INT16SZ	/usr/include/arpa/nameser_compat.h	93;"	d
+INT32SZ	/usr/include/arpa/nameser_compat.h	92;"	d
+INT8SZ	/usr/include/arpa/nameser_compat.h	94;"	d
+IP	/usr/include/arpa/telnet.h	49;"	d
+IQUERY	/usr/include/arpa/nameser_compat.h	106;"	d
+LFLOW_OFF	/usr/include/arpa/telnet.h	149;"	d
+LFLOW_ON	/usr/include/arpa/telnet.h	150;"	d
+LFLOW_RESTART_ANY	/usr/include/arpa/telnet.h	151;"	d
+LFLOW_RESTART_XON	/usr/include/arpa/telnet.h	152;"	d
+LM_FORWARDMASK	/usr/include/arpa/telnet.h	159;"	d
+LM_MODE	/usr/include/arpa/telnet.h	158;"	d
+LM_SLC	/usr/include/arpa/telnet.h	160;"	d
+MAXCDNAME	/usr/include/arpa/nameser_compat.h	87;"	d
+MAXDNAME	/usr/include/arpa/nameser_compat.h	86;"	d
+MAXLABEL	/usr/include/arpa/nameser_compat.h	88;"	d
+MODE_ACK	/usr/include/arpa/telnet.h	164;"	d
+MODE_B	/usr/include/arpa/ftp.h	82;"	d
+MODE_C	/usr/include/arpa/ftp.h	83;"	d
+MODE_ECHO	/usr/include/arpa/telnet.h	172;"	d
+MODE_EDIT	/usr/include/arpa/telnet.h	162;"	d
+MODE_FLOW	/usr/include/arpa/telnet.h	171;"	d
+MODE_FORCE	/usr/include/arpa/telnet.h	175;"	d
+MODE_INBIN	/usr/include/arpa/telnet.h	173;"	d
+MODE_LIT_ECHO	/usr/include/arpa/telnet.h	166;"	d
+MODE_MASK	/usr/include/arpa/telnet.h	168;"	d
+MODE_OUTBIN	/usr/include/arpa/telnet.h	174;"	d
+MODE_S	/usr/include/arpa/ftp.h	81;"	d
+MODE_SOFT_TAB	/usr/include/arpa/telnet.h	165;"	d
+MODE_TRAPSIG	/usr/include/arpa/telnet.h	163;"	d
+NAMESERVER_PORT	/usr/include/arpa/nameser_compat.h	98;"	d
+NEW_ENV_VALUE	/usr/include/arpa/telnet.h	234;"	d
+NEW_ENV_VAR	/usr/include/arpa/telnet.h	233;"	d
+NOERROR	/usr/include/arpa/nameser_compat.h	111;"	d
+NOP	/usr/include/arpa/telnet.h	52;"	d
+NOTAUTH	/usr/include/arpa/nameser_compat.h	120;"	d
+NOTIMP	/usr/include/arpa/nameser_compat.h	115;"	d
+NOTZONE	/usr/include/arpa/nameser_compat.h	121;"	d
+NSLC	/usr/include/arpa/telnet.h	196;"	d
+NS_ALG_DH	/usr/include/arpa/nameser.h	383;"	d
+NS_ALG_DSA	/usr/include/arpa/nameser.h	384;"	d
+NS_ALG_DSS	/usr/include/arpa/nameser.h	385;"	d
+NS_ALG_EXPIRE_ONLY	/usr/include/arpa/nameser.h	386;"	d
+NS_ALG_MD5RSA	/usr/include/arpa/nameser.h	382;"	d
+NS_ALG_PRIVATE_OID	/usr/include/arpa/nameser.h	387;"	d
+NS_CMPRSFLGS	/usr/include/arpa/nameser.h	92;"	d
+NS_DEFAULTPORT	/usr/include/arpa/nameser.h	93;"	d
+NS_DSA_MAX_BYTES	/usr/include/arpa/nameser.h	408;"	d
+NS_DSA_MIN_SIZE	/usr/include/arpa/nameser.h	407;"	d
+NS_DSA_SIG_SIZE	/usr/include/arpa/nameser.h	406;"	d
+NS_GET16	/usr/include/arpa/nameser.h	435;"	d
+NS_GET32	/usr/include/arpa/nameser.h	443;"	d
+NS_HFIXEDSZ	/usr/include/arpa/nameser.h	84;"	d
+NS_IN6ADDRSZ	/usr/include/arpa/nameser.h	91;"	d
+NS_INADDRSZ	/usr/include/arpa/nameser.h	90;"	d
+NS_INT16SZ	/usr/include/arpa/nameser.h	88;"	d
+NS_INT32SZ	/usr/include/arpa/nameser.h	87;"	d
+NS_INT8SZ	/usr/include/arpa/nameser.h	89;"	d
+NS_KEY_EXTENDED_FLAGS	/usr/include/arpa/nameser.h	360;"	d
+NS_KEY_NAME_ENTITY	/usr/include/arpa/nameser.h	365;"	d
+NS_KEY_NAME_RESERVED	/usr/include/arpa/nameser.h	367;"	d
+NS_KEY_NAME_TYPE	/usr/include/arpa/nameser.h	363;"	d
+NS_KEY_NAME_USER	/usr/include/arpa/nameser.h	364;"	d
+NS_KEY_NAME_ZONE	/usr/include/arpa/nameser.h	366;"	d
+NS_KEY_NO_AUTH	/usr/include/arpa/nameser.h	357;"	d
+NS_KEY_NO_CONF	/usr/include/arpa/nameser.h	358;"	d
+NS_KEY_PROT_ANY	/usr/include/arpa/nameser.h	394;"	d
+NS_KEY_PROT_DNSSEC	/usr/include/arpa/nameser.h	392;"	d
+NS_KEY_PROT_EMAIL	/usr/include/arpa/nameser.h	391;"	d
+NS_KEY_PROT_IPSEC	/usr/include/arpa/nameser.h	393;"	d
+NS_KEY_PROT_TLS	/usr/include/arpa/nameser.h	390;"	d
+NS_KEY_RESERVED10	/usr/include/arpa/nameser.h	370;"	d
+NS_KEY_RESERVED11	/usr/include/arpa/nameser.h	371;"	d
+NS_KEY_RESERVED2	/usr/include/arpa/nameser.h	359;"	d
+NS_KEY_RESERVED4	/usr/include/arpa/nameser.h	361;"	d
+NS_KEY_RESERVED5	/usr/include/arpa/nameser.h	362;"	d
+NS_KEY_RESERVED8	/usr/include/arpa/nameser.h	368;"	d
+NS_KEY_RESERVED9	/usr/include/arpa/nameser.h	369;"	d
+NS_KEY_RESERVED_BITMASK	/usr/include/arpa/nameser.h	373;"	d
+NS_KEY_RESERVED_BITMASK2	/usr/include/arpa/nameser.h	380;"	d
+NS_KEY_SIGNATORYMASK	/usr/include/arpa/nameser.h	372;"	d
+NS_KEY_TYPEMASK	/usr/include/arpa/nameser.h	351;"	d
+NS_KEY_TYPE_AUTH_CONF	/usr/include/arpa/nameser.h	352;"	d
+NS_KEY_TYPE_AUTH_ONLY	/usr/include/arpa/nameser.h	354;"	d
+NS_KEY_TYPE_CONF_ONLY	/usr/include/arpa/nameser.h	353;"	d
+NS_KEY_TYPE_NO_KEY	/usr/include/arpa/nameser.h	355;"	d
+NS_MAXCDNAME	/usr/include/arpa/nameser.h	82;"	d
+NS_MAXDNAME	/usr/include/arpa/nameser.h	80;"	d
+NS_MAXLABEL	/usr/include/arpa/nameser.h	83;"	d
+NS_MAXMSG	/usr/include/arpa/nameser.h	81;"	d
+NS_MD5RSA_MAX_BASE64	/usr/include/arpa/nameser.h	402;"	d
+NS_MD5RSA_MAX_BITS	/usr/include/arpa/nameser.h	398;"	d
+NS_MD5RSA_MAX_BYTES	/usr/include/arpa/nameser.h	400;"	d
+NS_MD5RSA_MAX_SIZE	/usr/include/arpa/nameser.h	404;"	d
+NS_MD5RSA_MIN_BITS	/usr/include/arpa/nameser.h	397;"	d
+NS_MD5RSA_MIN_SIZE	/usr/include/arpa/nameser.h	403;"	d
+NS_NOTIFY_OP	/usr/include/arpa/nameser_compat.h	108;"	d
+NS_NXT_BITS	/usr/include/arpa/nameser.h	420;"	d
+NS_NXT_BIT_CLEAR	/usr/include/arpa/nameser.h	422;"	d
+NS_NXT_BIT_ISSET	/usr/include/arpa/nameser.h	423;"	d
+NS_NXT_BIT_SET	/usr/include/arpa/nameser.h	421;"	d
+NS_NXT_MAX	/usr/include/arpa/nameser.h	424;"	d
+NS_OPT_DNSSEC_OK	/usr/include/arpa/nameser.h	429;"	d
+NS_OPT_NSID	/usr/include/arpa/nameser.h	430;"	d
+NS_PACKETSZ	/usr/include/arpa/nameser.h	79;"	d
+NS_PUT16	/usr/include/arpa/nameser.h	453;"	d
+NS_PUT32	/usr/include/arpa/nameser.h	461;"	d
+NS_QFIXEDSZ	/usr/include/arpa/nameser.h	85;"	d
+NS_RRFIXEDSZ	/usr/include/arpa/nameser.h	86;"	d
+NS_SIG_ALG	/usr/include/arpa/nameser.h	412;"	d
+NS_SIG_EXPIR	/usr/include/arpa/nameser.h	415;"	d
+NS_SIG_FOOT	/usr/include/arpa/nameser.h	417;"	d
+NS_SIG_LABELS	/usr/include/arpa/nameser.h	413;"	d
+NS_SIG_OTTL	/usr/include/arpa/nameser.h	414;"	d
+NS_SIG_SIGNED	/usr/include/arpa/nameser.h	416;"	d
+NS_SIG_SIGNER	/usr/include/arpa/nameser.h	418;"	d
+NS_SIG_TYPE	/usr/include/arpa/nameser.h	411;"	d
+NS_TSIG_ALG_HMAC_MD5	/usr/include/arpa/nameser.h	243;"	d
+NS_TSIG_ERROR_FORMERR	/usr/include/arpa/nameser.h	247;"	d
+NS_TSIG_ERROR_NO_SPACE	/usr/include/arpa/nameser.h	246;"	d
+NS_TSIG_ERROR_NO_TSIG	/usr/include/arpa/nameser.h	245;"	d
+NS_TSIG_FUDGE	/usr/include/arpa/nameser.h	241;"	d
+NS_TSIG_TCP_COUNT	/usr/include/arpa/nameser.h	242;"	d
+NS_UPDATE_OP	/usr/include/arpa/nameser_compat.h	109;"	d
+NTELOPTS	/usr/include/arpa/telnet.h	121;"	d
+NXDOMAIN	/usr/include/arpa/nameser_compat.h	114;"	d
+NXRRSET	/usr/include/arpa/nameser_compat.h	119;"	d
+OLD_ENV_VALUE	/usr/include/arpa/telnet.h	232;"	d
+OLD_ENV_VAR	/usr/include/arpa/telnet.h	231;"	d
+PACKETSZ	/usr/include/arpa/nameser_compat.h	85;"	d
+PRELIM	/usr/include/arpa/ftp.h	40;"	d
+PUTLONG	/usr/include/arpa/nameser_compat.h	184;"	d
+PUTSHORT	/usr/include/arpa/nameser_compat.h	183;"	d
+QFIXEDSZ	/usr/include/arpa/nameser_compat.h	90;"	d
+QUERY	/usr/include/arpa/nameser_compat.h	105;"	d
+REC_EOF	/usr/include/arpa/ftp.h	93;"	d
+REC_EOR	/usr/include/arpa/ftp.h	92;"	d
+REC_ESC	/usr/include/arpa/ftp.h	91;"	d
+REFUSED	/usr/include/arpa/nameser_compat.h	116;"	d
+RRFIXEDSZ	/usr/include/arpa/nameser_compat.h	91;"	d
+RRQ	/usr/include/arpa/tftp.h	43;"	d
+SB	/usr/include/arpa/telnet.h	43;"	d
+SE	/usr/include/arpa/telnet.h	53;"	d
+SEGSIZE	/usr/include/arpa/tftp.h	38;"	d
+SERVFAIL	/usr/include/arpa/nameser_compat.h	113;"	d
+SLC_ABORT	/usr/include/arpa/telnet.h	183;"	d
+SLC_ACK	/usr/include/arpa/telnet.h	227;"	d
+SLC_AO	/usr/include/arpa/telnet.h	180;"	d
+SLC_AYT	/usr/include/arpa/telnet.h	181;"	d
+SLC_BRK	/usr/include/arpa/telnet.h	178;"	d
+SLC_CANTCHANGE	/usr/include/arpa/telnet.h	218;"	d
+SLC_DEFAULT	/usr/include/arpa/telnet.h	220;"	d
+SLC_EC	/usr/include/arpa/telnet.h	186;"	d
+SLC_EL	/usr/include/arpa/telnet.h	187;"	d
+SLC_EOF	/usr/include/arpa/telnet.h	184;"	d
+SLC_EOR	/usr/include/arpa/telnet.h	182;"	d
+SLC_EW	/usr/include/arpa/telnet.h	188;"	d
+SLC_FLAGS	/usr/include/arpa/telnet.h	224;"	d
+SLC_FLUSHIN	/usr/include/arpa/telnet.h	228;"	d
+SLC_FLUSHOUT	/usr/include/arpa/telnet.h	229;"	d
+SLC_FORW1	/usr/include/arpa/telnet.h	193;"	d
+SLC_FORW2	/usr/include/arpa/telnet.h	194;"	d
+SLC_FUNC	/usr/include/arpa/telnet.h	223;"	d
+SLC_IP	/usr/include/arpa/telnet.h	179;"	d
+SLC_LEVELBITS	/usr/include/arpa/telnet.h	221;"	d
+SLC_LNEXT	/usr/include/arpa/telnet.h	190;"	d
+SLC_NAME	/usr/include/arpa/telnet.h	215;"	d
+SLC_NAMELIST	/usr/include/arpa/telnet.h	202;"	d
+SLC_NAMES	/usr/include/arpa/telnet.h	211;"	d
+SLC_NAME_OK	/usr/include/arpa/telnet.h	214;"	d
+SLC_NOSUPPORT	/usr/include/arpa/telnet.h	217;"	d
+SLC_RP	/usr/include/arpa/telnet.h	189;"	d
+SLC_SUSP	/usr/include/arpa/telnet.h	185;"	d
+SLC_SYNCH	/usr/include/arpa/telnet.h	177;"	d
+SLC_VALUE	/usr/include/arpa/telnet.h	225;"	d
+SLC_VARIABLE	/usr/include/arpa/telnet.h	219;"	d
+SLC_XOFF	/usr/include/arpa/telnet.h	192;"	d
+SLC_XON	/usr/include/arpa/telnet.h	191;"	d
+STATUS	/usr/include/arpa/nameser_compat.h	107;"	d
+STRU_F	/usr/include/arpa/ftp.h	71;"	d
+STRU_P	/usr/include/arpa/ftp.h	73;"	d
+STRU_R	/usr/include/arpa/ftp.h	72;"	d
+SUSP	/usr/include/arpa/telnet.h	56;"	d
+SYNCH	/usr/include/arpa/telnet.h	59;"	d
+S_ADDT	/usr/include/arpa/nameser_compat.h	103;"	d
+S_PREREQ	/usr/include/arpa/nameser_compat.h	101;"	d
+S_UPDATE	/usr/include/arpa/nameser_compat.h	102;"	d
+S_ZONE	/usr/include/arpa/nameser_compat.h	100;"	d
+TELCMD	/usr/include/arpa/telnet.h	75;"	d
+TELCMD_FIRST	/usr/include/arpa/telnet.h	71;"	d
+TELCMD_LAST	/usr/include/arpa/telnet.h	72;"	d
+TELCMD_OK	/usr/include/arpa/telnet.h	73;"	d
+TELOPT	/usr/include/arpa/telnet.h	139;"	d
+TELOPT_3270REGIME	/usr/include/arpa/telnet.h	107;"	d
+TELOPT_AUTHENTICATION	/usr/include/arpa/telnet.h	115;"	d
+TELOPT_BINARY	/usr/include/arpa/telnet.h	78;"	d
+TELOPT_BM	/usr/include/arpa/telnet.h	97;"	d
+TELOPT_DET	/usr/include/arpa/telnet.h	98;"	d
+TELOPT_ECHO	/usr/include/arpa/telnet.h	79;"	d
+TELOPT_ENCRYPT	/usr/include/arpa/telnet.h	116;"	d
+TELOPT_EOR	/usr/include/arpa/telnet.h	103;"	d
+TELOPT_EXOPL	/usr/include/arpa/telnet.h	118;"	d
+TELOPT_FIRST	/usr/include/arpa/telnet.h	136;"	d
+TELOPT_LAST	/usr/include/arpa/telnet.h	137;"	d
+TELOPT_LFLOW	/usr/include/arpa/telnet.h	111;"	d
+TELOPT_LINEMODE	/usr/include/arpa/telnet.h	112;"	d
+TELOPT_LOGOUT	/usr/include/arpa/telnet.h	96;"	d
+TELOPT_NAMS	/usr/include/arpa/telnet.h	82;"	d
+TELOPT_NAOCRD	/usr/include/arpa/telnet.h	88;"	d
+TELOPT_NAOFFD	/usr/include/arpa/telnet.h	91;"	d
+TELOPT_NAOHTD	/usr/include/arpa/telnet.h	90;"	d
+TELOPT_NAOHTS	/usr/include/arpa/telnet.h	89;"	d
+TELOPT_NAOL	/usr/include/arpa/telnet.h	86;"	d
+TELOPT_NAOLFD	/usr/include/arpa/telnet.h	94;"	d
+TELOPT_NAOP	/usr/include/arpa/telnet.h	87;"	d
+TELOPT_NAOVTD	/usr/include/arpa/telnet.h	93;"	d
+TELOPT_NAOVTS	/usr/include/arpa/telnet.h	92;"	d
+TELOPT_NAWS	/usr/include/arpa/telnet.h	109;"	d
+TELOPT_NEW_ENVIRON	/usr/include/arpa/telnet.h	117;"	d
+TELOPT_OK	/usr/include/arpa/telnet.h	138;"	d
+TELOPT_OLD_ENVIRON	/usr/include/arpa/telnet.h	114;"	d
+TELOPT_OUTMRK	/usr/include/arpa/telnet.h	105;"	d
+TELOPT_RCP	/usr/include/arpa/telnet.h	80;"	d
+TELOPT_RCTE	/usr/include/arpa/telnet.h	85;"	d
+TELOPT_SGA	/usr/include/arpa/telnet.h	81;"	d
+TELOPT_SNDLOC	/usr/include/arpa/telnet.h	101;"	d
+TELOPT_STATUS	/usr/include/arpa/telnet.h	83;"	d
+TELOPT_SUPDUP	/usr/include/arpa/telnet.h	99;"	d
+TELOPT_SUPDUPOUTPUT	/usr/include/arpa/telnet.h	100;"	d
+TELOPT_TM	/usr/include/arpa/telnet.h	84;"	d
+TELOPT_TSPEED	/usr/include/arpa/telnet.h	110;"	d
+TELOPT_TTYLOC	/usr/include/arpa/telnet.h	106;"	d
+TELOPT_TTYPE	/usr/include/arpa/telnet.h	102;"	d
+TELOPT_TUID	/usr/include/arpa/telnet.h	104;"	d
+TELOPT_X3PAD	/usr/include/arpa/telnet.h	108;"	d
+TELOPT_XASCII	/usr/include/arpa/telnet.h	95;"	d
+TELOPT_XDISPLOC	/usr/include/arpa/telnet.h	113;"	d
+TELQUAL_INFO	/usr/include/arpa/telnet.h	145;"	d
+TELQUAL_IS	/usr/include/arpa/telnet.h	143;"	d
+TELQUAL_NAME	/usr/include/arpa/telnet.h	147;"	d
+TELQUAL_REPLY	/usr/include/arpa/telnet.h	146;"	d
+TELQUAL_SEND	/usr/include/arpa/telnet.h	144;"	d
+TRANSIENT	/usr/include/arpa/ftp.h	43;"	d
+TYPE_A	/usr/include/arpa/ftp.h	49;"	d
+TYPE_E	/usr/include/arpa/ftp.h	50;"	d
+TYPE_I	/usr/include/arpa/ftp.h	51;"	d
+TYPE_L	/usr/include/arpa/ftp.h	52;"	d
+T_A	/usr/include/arpa/nameser_compat.h	130;"	d
+T_A6	/usr/include/arpa/nameser_compat.h	165;"	d
+T_AAAA	/usr/include/arpa/nameser_compat.h	157;"	d
+T_AFSDB	/usr/include/arpa/nameser_compat.h	147;"	d
+T_ANY	/usr/include/arpa/nameser_compat.h	172;"	d
+T_ATMA	/usr/include/arpa/nameser_compat.h	163;"	d
+T_AXFR	/usr/include/arpa/nameser_compat.h	169;"	d
+T_CNAME	/usr/include/arpa/nameser_compat.h	134;"	d
+T_DNAME	/usr/include/arpa/nameser_compat.h	166;"	d
+T_EID	/usr/include/arpa/nameser_compat.h	160;"	d
+T_GPOS	/usr/include/arpa/nameser_compat.h	156;"	d
+T_HINFO	/usr/include/arpa/nameser_compat.h	142;"	d
+T_ISDN	/usr/include/arpa/nameser_compat.h	149;"	d
+T_IXFR	/usr/include/arpa/nameser_compat.h	168;"	d
+T_KEY	/usr/include/arpa/nameser_compat.h	154;"	d
+T_LOC	/usr/include/arpa/nameser_compat.h	158;"	d
+T_MAILA	/usr/include/arpa/nameser_compat.h	171;"	d
+T_MAILB	/usr/include/arpa/nameser_compat.h	170;"	d
+T_MB	/usr/include/arpa/nameser_compat.h	136;"	d
+T_MD	/usr/include/arpa/nameser_compat.h	132;"	d
+T_MF	/usr/include/arpa/nameser_compat.h	133;"	d
+T_MG	/usr/include/arpa/nameser_compat.h	137;"	d
+T_MINFO	/usr/include/arpa/nameser_compat.h	143;"	d
+T_MR	/usr/include/arpa/nameser_compat.h	138;"	d
+T_MX	/usr/include/arpa/nameser_compat.h	144;"	d
+T_NAPTR	/usr/include/arpa/nameser_compat.h	164;"	d
+T_NIMLOC	/usr/include/arpa/nameser_compat.h	161;"	d
+T_NS	/usr/include/arpa/nameser_compat.h	131;"	d
+T_NSAP	/usr/include/arpa/nameser_compat.h	151;"	d
+T_NSAP_PTR	/usr/include/arpa/nameser_compat.h	152;"	d
+T_NULL	/usr/include/arpa/nameser_compat.h	139;"	d
+T_NXT	/usr/include/arpa/nameser_compat.h	159;"	d
+T_PTR	/usr/include/arpa/nameser_compat.h	141;"	d
+T_PX	/usr/include/arpa/nameser_compat.h	155;"	d
+T_RP	/usr/include/arpa/nameser_compat.h	146;"	d
+T_RT	/usr/include/arpa/nameser_compat.h	150;"	d
+T_SIG	/usr/include/arpa/nameser_compat.h	153;"	d
+T_SOA	/usr/include/arpa/nameser_compat.h	135;"	d
+T_SRV	/usr/include/arpa/nameser_compat.h	162;"	d
+T_TSIG	/usr/include/arpa/nameser_compat.h	167;"	d
+T_TXT	/usr/include/arpa/nameser_compat.h	145;"	d
+T_WKS	/usr/include/arpa/nameser_compat.h	140;"	d
+T_X25	/usr/include/arpa/nameser_compat.h	148;"	d
+WILL	/usr/include/arpa/telnet.h	42;"	d
+WONT	/usr/include/arpa/telnet.h	41;"	d
+WRQ	/usr/include/arpa/tftp.h	44;"	d
+YXDOMAIN	/usr/include/arpa/nameser_compat.h	117;"	d
+YXRRSET	/usr/include/arpa/nameser_compat.h	118;"	d
+_ARPA_FTP_H	/usr/include/arpa/ftp.h	33;"	d
+_ARPA_INET_H	/usr/include/arpa/inet.h	20;"	d
+_ARPA_NAMESER_COMPAT_	/usr/include/arpa/nameser_compat.h	35;"	d
+_ARPA_NAMESER_H_	/usr/include/arpa/nameser.h	53;"	d
+_ARPA_TELNET_H	/usr/include/arpa/telnet.h	33;"	d
+_ARPA_TFTP_H	/usr/include/arpa/tftp.h	33;"	d
+__BIND	/usr/include/arpa/nameser_compat.h	37;"	d
+__NAMESER	/usr/include/arpa/nameser.h	75;"	d
+__anon1::aa	/usr/include/arpa/nameser_compat.h	/^	unsigned	aa :1;		\/*%< authoritive answer *\/$/;"	m	struct:__anon1	access:public
+__anon1::aa	/usr/include/arpa/nameser_compat.h	/^	unsigned	aa: 1;		\/*%< authoritive answer *\/$/;"	m	struct:__anon1	access:public
+__anon1::ad	/usr/include/arpa/nameser_compat.h	/^	unsigned	ad: 1;		\/*%< authentic data from named *\/$/;"	m	struct:__anon1	access:public
+__anon1::ancount	/usr/include/arpa/nameser_compat.h	/^	unsigned	ancount :16;	\/*%< number of answer entries *\/$/;"	m	struct:__anon1	access:public
+__anon1::arcount	/usr/include/arpa/nameser_compat.h	/^	unsigned	arcount :16;	\/*%< number of resource entries *\/$/;"	m	struct:__anon1	access:public
+__anon1::cd	/usr/include/arpa/nameser_compat.h	/^	unsigned	cd: 1;		\/*%< checking disabled by resolver *\/$/;"	m	struct:__anon1	access:public
+__anon1::id	/usr/include/arpa/nameser_compat.h	/^	unsigned	id :16;		\/*%< query identification number *\/$/;"	m	struct:__anon1	access:public
+__anon1::nscount	/usr/include/arpa/nameser_compat.h	/^	unsigned	nscount :16;	\/*%< number of authority entries *\/$/;"	m	struct:__anon1	access:public
+__anon1::opcode	/usr/include/arpa/nameser_compat.h	/^	unsigned	opcode :4;	\/*%< purpose of message *\/$/;"	m	struct:__anon1	access:public
+__anon1::opcode	/usr/include/arpa/nameser_compat.h	/^	unsigned	opcode: 4;	\/*%< purpose of message *\/$/;"	m	struct:__anon1	access:public
+__anon1::qdcount	/usr/include/arpa/nameser_compat.h	/^	unsigned	qdcount :16;	\/*%< number of question entries *\/$/;"	m	struct:__anon1	access:public
+__anon1::qr	/usr/include/arpa/nameser_compat.h	/^	unsigned	qr :1;		\/*%< response flag *\/$/;"	m	struct:__anon1	access:public
+__anon1::qr	/usr/include/arpa/nameser_compat.h	/^	unsigned	qr: 1;		\/*%< response flag *\/$/;"	m	struct:__anon1	access:public
+__anon1::ra	/usr/include/arpa/nameser_compat.h	/^	unsigned	ra :1;		\/*%< recursion available *\/$/;"	m	struct:__anon1	access:public
+__anon1::ra	/usr/include/arpa/nameser_compat.h	/^	unsigned	ra: 1;		\/*%< recursion available *\/$/;"	m	struct:__anon1	access:public
+__anon1::rcode	/usr/include/arpa/nameser_compat.h	/^	unsigned	rcode :4;	\/*%< response code *\/$/;"	m	struct:__anon1	access:public
+__anon1::rd	/usr/include/arpa/nameser_compat.h	/^	unsigned	rd :1;		\/*%< recursion desired *\/$/;"	m	struct:__anon1	access:public
+__anon1::rd	/usr/include/arpa/nameser_compat.h	/^	unsigned	rd: 1;		\/*%< recursion desired *\/$/;"	m	struct:__anon1	access:public
+__anon1::tc	/usr/include/arpa/nameser_compat.h	/^	unsigned	tc :1;		\/*%< truncated message *\/$/;"	m	struct:__anon1	access:public
+__anon1::tc	/usr/include/arpa/nameser_compat.h	/^	unsigned	tc: 1;		\/*%< truncated message *\/$/;"	m	struct:__anon1	access:public
+__anon1::unused	/usr/include/arpa/nameser_compat.h	/^	unsigned	unused :1;	\/*%< unused bits (MBZ as of 4.9.3a3) *\/$/;"	m	struct:__anon1	access:public
+__ns_cert_types	/usr/include/arpa/nameser.h	/^typedef enum __ns_cert_types {$/;"	g
+__ns_class	/usr/include/arpa/nameser.h	/^typedef enum __ns_class {$/;"	g
+__ns_flag	/usr/include/arpa/nameser.h	/^typedef enum __ns_flag {$/;"	g
+__ns_key_types	/usr/include/arpa/nameser.h	/^typedef enum __ns_key_types {$/;"	g
+__ns_msg	/usr/include/arpa/nameser.h	/^typedef struct __ns_msg {$/;"	s
+__ns_msg::_counts	/usr/include/arpa/nameser.h	/^	u_int16_t	_id, _flags, _counts[ns_s_max];$/;"	m	struct:__ns_msg	access:public
+__ns_msg::_eom	/usr/include/arpa/nameser.h	/^	const u_char	*_msg, *_eom;$/;"	m	struct:__ns_msg	access:public
+__ns_msg::_flags	/usr/include/arpa/nameser.h	/^	u_int16_t	_id, _flags, _counts[ns_s_max];$/;"	m	struct:__ns_msg	access:public
+__ns_msg::_id	/usr/include/arpa/nameser.h	/^	u_int16_t	_id, _flags, _counts[ns_s_max];$/;"	m	struct:__ns_msg	access:public
+__ns_msg::_msg	/usr/include/arpa/nameser.h	/^	const u_char	*_msg, *_eom;$/;"	m	struct:__ns_msg	access:public
+__ns_msg::_msg_ptr	/usr/include/arpa/nameser.h	/^	const u_char	*_msg_ptr;$/;"	m	struct:__ns_msg	access:public
+__ns_msg::_rrnum	/usr/include/arpa/nameser.h	/^	int		_rrnum;$/;"	m	struct:__ns_msg	access:public
+__ns_msg::_sect	/usr/include/arpa/nameser.h	/^	ns_sect		_sect;$/;"	m	struct:__ns_msg	access:public
+__ns_msg::_sections	/usr/include/arpa/nameser.h	/^	const u_char	*_sections[ns_s_max];$/;"	m	struct:__ns_msg	access:public
+__ns_opcode	/usr/include/arpa/nameser.h	/^typedef enum __ns_opcode {$/;"	g
+__ns_rcode	/usr/include/arpa/nameser.h	/^typedef	enum __ns_rcode {$/;"	g
+__ns_rr	/usr/include/arpa/nameser.h	/^typedef	struct __ns_rr {$/;"	s
+__ns_rr::name	/usr/include/arpa/nameser.h	/^	char		name[NS_MAXDNAME];$/;"	m	struct:__ns_rr	access:public
+__ns_rr::rdata	/usr/include/arpa/nameser.h	/^	const u_char *	rdata;$/;"	m	struct:__ns_rr	access:public
+__ns_rr::rdlength	/usr/include/arpa/nameser.h	/^	u_int16_t	rdlength;$/;"	m	struct:__ns_rr	access:public
+__ns_rr::rr_class	/usr/include/arpa/nameser.h	/^	u_int16_t	rr_class;$/;"	m	struct:__ns_rr	access:public
+__ns_rr::ttl	/usr/include/arpa/nameser.h	/^	u_int32_t	ttl;$/;"	m	struct:__ns_rr	access:public
+__ns_rr::type	/usr/include/arpa/nameser.h	/^	u_int16_t	type;$/;"	m	struct:__ns_rr	access:public
+__ns_sect	/usr/include/arpa/nameser.h	/^typedef enum __ns_sect {$/;"	g
+__ns_type	/usr/include/arpa/nameser.h	/^typedef enum __ns_type {$/;"	g
+__ns_update_operation	/usr/include/arpa/nameser.h	/^typedef enum __ns_update_operation {$/;"	g
+__socklen_t_defined	/usr/include/arpa/inet.h	28;"	d
+_counts	/usr/include/arpa/nameser.h	/^	u_int16_t	_id, _flags, _counts[ns_s_max];$/;"	m	struct:__ns_msg	access:public
+_eom	/usr/include/arpa/nameser.h	/^	const u_char	*_msg, *_eom;$/;"	m	struct:__ns_msg	access:public
+_flags	/usr/include/arpa/nameser.h	/^	u_int16_t	_id, _flags, _counts[ns_s_max];$/;"	m	struct:__ns_msg	access:public
+_id	/usr/include/arpa/nameser.h	/^	u_int16_t	_id, _flags, _counts[ns_s_max];$/;"	m	struct:__ns_msg	access:public
+_msg	/usr/include/arpa/nameser.h	/^	const u_char	*_msg, *_eom;$/;"	m	struct:__ns_msg	access:public
+_msg_ptr	/usr/include/arpa/nameser.h	/^	const u_char	*_msg_ptr;$/;"	m	struct:__ns_msg	access:public
+_ns_flagdata	/usr/include/arpa/nameser.h	/^struct _ns_flagdata {  int mask, shift;  };$/;"	s
+_ns_flagdata::mask	/usr/include/arpa/nameser.h	/^struct _ns_flagdata {  int mask, shift;  };$/;"	m	struct:_ns_flagdata	access:public
+_ns_flagdata::shift	/usr/include/arpa/nameser.h	/^struct _ns_flagdata {  int mask, shift;  };$/;"	m	struct:_ns_flagdata	access:public
+_rrnum	/usr/include/arpa/nameser.h	/^	int		_rrnum;$/;"	m	struct:__ns_msg	access:public
+_sect	/usr/include/arpa/nameser.h	/^	ns_sect		_sect;$/;"	m	struct:__ns_msg	access:public
+_sections	/usr/include/arpa/nameser.h	/^	const u_char	*_sections[ns_s_max];$/;"	m	struct:__ns_msg	access:public
+aa	/usr/include/arpa/nameser_compat.h	/^	unsigned	aa :1;		\/*%< authoritive answer *\/$/;"	m	struct:__anon1	access:public
+aa	/usr/include/arpa/nameser_compat.h	/^	unsigned	aa: 1;		\/*%< authoritive answer *\/$/;"	m	struct:__anon1	access:public
+ad	/usr/include/arpa/nameser_compat.h	/^	unsigned	ad: 1;		\/*%< authentic data from named *\/$/;"	m	struct:__anon1	access:public
+alg	/usr/include/arpa/nameser.h	/^        char name[NS_MAXDNAME], alg[NS_MAXDNAME];$/;"	m	struct:ns_tsig_key	access:public
+ancount	/usr/include/arpa/nameser_compat.h	/^	unsigned	ancount :16;	\/*%< number of answer entries *\/$/;"	m	struct:__anon1	access:public
+arcount	/usr/include/arpa/nameser_compat.h	/^	unsigned	arcount :16;	\/*%< number of resource entries *\/$/;"	m	struct:__anon1	access:public
+authtype_names	/usr/include/arpa/telnet.h	/^char *authtype_names[] = {$/;"	v
+cd	/usr/include/arpa/nameser_compat.h	/^	unsigned	cd: 1;		\/*%< checking disabled by resolver *\/$/;"	m	struct:__anon1	access:public
+cert_t_oid	/usr/include/arpa/nameser.h	/^	cert_t_oid  = 254	\/*%< OID private type *\/$/;"	e	enum:__ns_cert_types
+cert_t_pgp	/usr/include/arpa/nameser.h	/^	cert_t_pgp  = 3,	\/*%< PGP *\/$/;"	e	enum:__ns_cert_types
+cert_t_pkix	/usr/include/arpa/nameser.h	/^	cert_t_pkix = 1,	\/*%< PKIX (X.509v3) *\/$/;"	e	enum:__ns_cert_types
+cert_t_spki	/usr/include/arpa/nameser.h	/^	cert_t_spki = 2,	\/*%< SPKI *\/$/;"	e	enum:__ns_cert_types
+cert_t_url	/usr/include/arpa/nameser.h	/^	cert_t_url  = 253,	\/*%< URL private type *\/$/;"	e	enum:__ns_cert_types
+counter	/usr/include/arpa/nameser.h	/^	int counter;$/;"	m	struct:ns_tcp_tsig_state	access:public
+ctx	/usr/include/arpa/nameser.h	/^	void *ctx;$/;"	m	struct:ns_tcp_tsig_state	access:public
+data	/usr/include/arpa/nameser.h	/^        unsigned char *data;$/;"	m	struct:ns_tsig_key	access:public
+encrypt_names	/usr/include/arpa/telnet.h	/^char *encrypt_names[] = {$/;"	v
+enctype_names	/usr/include/arpa/telnet.h	/^char *enctype_names[] = {$/;"	v
+formnames	/usr/include/arpa/ftp.h	/^char *formnames[] =  {"0", "Nonprint", "Telnet", "Carriage-control" };$/;"	v
+id	/usr/include/arpa/nameser_compat.h	/^	unsigned	id :16;		\/*%< query identification number *\/$/;"	m	struct:__anon1	access:public
+key	/usr/include/arpa/nameser.h	/^	struct dst_key *key;$/;"	m	struct:ns_tcp_tsig_state	typeref:struct:ns_tcp_tsig_state::dst_key	access:public
+len	/usr/include/arpa/nameser.h	/^        int len;$/;"	m	struct:ns_tsig_key	access:public
+mask	/usr/include/arpa/nameser.h	/^struct _ns_flagdata {  int mask, shift;  };$/;"	m	struct:_ns_flagdata	access:public
+modenames	/usr/include/arpa/ftp.h	/^char *modenames[] =  {"0", "Stream", "Block", "Compressed" };$/;"	v
+name	/usr/include/arpa/nameser.h	/^	char		name[NS_MAXDNAME];$/;"	m	struct:__ns_rr	access:public
+name	/usr/include/arpa/nameser.h	/^        char name[NS_MAXDNAME], alg[NS_MAXDNAME];$/;"	m	struct:ns_tsig_key	access:public
+ns_c_2	/usr/include/arpa/nameser.h	/^	ns_c_2 = 2,		\/*%< unallocated\/unsupported. *\/$/;"	e	enum:__ns_class
+ns_c_any	/usr/include/arpa/nameser.h	/^	ns_c_any = 255,		\/*%< Wildcard match. *\/$/;"	e	enum:__ns_class
+ns_c_chaos	/usr/include/arpa/nameser.h	/^	ns_c_chaos = 3,		\/*%< MIT Chaos-net. *\/$/;"	e	enum:__ns_class
+ns_c_hs	/usr/include/arpa/nameser.h	/^	ns_c_hs = 4,		\/*%< MIT Hesiod. *\/$/;"	e	enum:__ns_class
+ns_c_in	/usr/include/arpa/nameser.h	/^	ns_c_in = 1,		\/*%< Internet. *\/$/;"	e	enum:__ns_class
+ns_c_invalid	/usr/include/arpa/nameser.h	/^	ns_c_invalid = 0,	\/*%< Cookie. *\/$/;"	e	enum:__ns_class
+ns_c_max	/usr/include/arpa/nameser.h	/^	ns_c_max = 65536$/;"	e	enum:__ns_class
+ns_c_none	/usr/include/arpa/nameser.h	/^	ns_c_none = 254,	\/*%< for prereq. sections in update requests *\/$/;"	e	enum:__ns_class
+ns_cert_types	/usr/include/arpa/nameser.h	/^} ns_cert_types;$/;"	t	typeref:enum:__ns_cert_types
+ns_class	/usr/include/arpa/nameser.h	/^} ns_class;$/;"	t	typeref:enum:__ns_class
+ns_f_aa	/usr/include/arpa/nameser.h	/^	ns_f_aa,		\/*%< Authoritative Answer. *\/$/;"	e	enum:__ns_flag
+ns_f_ad	/usr/include/arpa/nameser.h	/^	ns_f_ad,		\/*%< Authentic Data (DNSSEC). *\/$/;"	e	enum:__ns_flag
+ns_f_cd	/usr/include/arpa/nameser.h	/^	ns_f_cd,		\/*%< Checking Disabled (DNSSEC). *\/$/;"	e	enum:__ns_flag
+ns_f_max	/usr/include/arpa/nameser.h	/^	ns_f_max$/;"	e	enum:__ns_flag
+ns_f_opcode	/usr/include/arpa/nameser.h	/^	ns_f_opcode,		\/*%< Operation code. *\/$/;"	e	enum:__ns_flag
+ns_f_qr	/usr/include/arpa/nameser.h	/^	ns_f_qr,		\/*%< Question\/Response. *\/$/;"	e	enum:__ns_flag
+ns_f_ra	/usr/include/arpa/nameser.h	/^	ns_f_ra,		\/*%< Recursion Available. *\/$/;"	e	enum:__ns_flag
+ns_f_rcode	/usr/include/arpa/nameser.h	/^	ns_f_rcode,		\/*%< Response code. *\/$/;"	e	enum:__ns_flag
+ns_f_rd	/usr/include/arpa/nameser.h	/^	ns_f_rd,		\/*%< Recursion Desired. *\/$/;"	e	enum:__ns_flag
+ns_f_tc	/usr/include/arpa/nameser.h	/^	ns_f_tc,		\/*%< Truncation occurred. *\/$/;"	e	enum:__ns_flag
+ns_f_z	/usr/include/arpa/nameser.h	/^	ns_f_z,			\/*%< MBZ. *\/$/;"	e	enum:__ns_flag
+ns_flag	/usr/include/arpa/nameser.h	/^} ns_flag;$/;"	t	typeref:enum:__ns_flag
+ns_key_types	/usr/include/arpa/nameser.h	/^} ns_key_types;$/;"	t	typeref:enum:__ns_key_types
+ns_kt_dh	/usr/include/arpa/nameser.h	/^	ns_kt_dh  = 2,		\/*%< Diffie Hellman *\/$/;"	e	enum:__ns_key_types
+ns_kt_dsa	/usr/include/arpa/nameser.h	/^	ns_kt_dsa = 3,		\/*%< Digital Signature Standard (MANDATORY) *\/$/;"	e	enum:__ns_key_types
+ns_kt_private	/usr/include/arpa/nameser.h	/^	ns_kt_private = 254	\/*%< Private key type starts with OID *\/$/;"	e	enum:__ns_key_types
+ns_kt_rsa	/usr/include/arpa/nameser.h	/^	ns_kt_rsa = 1,		\/*%< key type RSA\/MD5 *\/$/;"	e	enum:__ns_key_types
+ns_msg	/usr/include/arpa/nameser.h	/^} ns_msg;$/;"	t	typeref:struct:__ns_msg
+ns_msg_base	/usr/include/arpa/nameser.h	130;"	d
+ns_msg_count	/usr/include/arpa/nameser.h	133;"	d
+ns_msg_end	/usr/include/arpa/nameser.h	131;"	d
+ns_msg_id	/usr/include/arpa/nameser.h	129;"	d
+ns_msg_size	/usr/include/arpa/nameser.h	132;"	d
+ns_o_iquery	/usr/include/arpa/nameser.h	/^	ns_o_iquery = 1,	\/*%< Inverse query (deprecated\/unsupported). *\/$/;"	e	enum:__ns_opcode
+ns_o_max	/usr/include/arpa/nameser.h	/^	ns_o_max = 6$/;"	e	enum:__ns_opcode
+ns_o_notify	/usr/include/arpa/nameser.h	/^	ns_o_notify = 4,	\/*%< Zone change notification. *\/$/;"	e	enum:__ns_opcode
+ns_o_query	/usr/include/arpa/nameser.h	/^	ns_o_query = 0,		\/*%< Standard query. *\/$/;"	e	enum:__ns_opcode
+ns_o_status	/usr/include/arpa/nameser.h	/^	ns_o_status = 2,	\/*%< Name server status query (unsupported). *\/$/;"	e	enum:__ns_opcode
+ns_o_update	/usr/include/arpa/nameser.h	/^	ns_o_update = 5,	\/*%< Zone update message. *\/$/;"	e	enum:__ns_opcode
+ns_opcode	/usr/include/arpa/nameser.h	/^} ns_opcode;$/;"	t	typeref:enum:__ns_opcode
+ns_r_badkey	/usr/include/arpa/nameser.h	/^	ns_r_badkey = 17,$/;"	e	enum:__ns_rcode
+ns_r_badsig	/usr/include/arpa/nameser.h	/^	ns_r_badsig = 16,$/;"	e	enum:__ns_rcode
+ns_r_badtime	/usr/include/arpa/nameser.h	/^	ns_r_badtime = 18$/;"	e	enum:__ns_rcode
+ns_r_badvers	/usr/include/arpa/nameser.h	/^	ns_r_badvers = 16,$/;"	e	enum:__ns_rcode
+ns_r_formerr	/usr/include/arpa/nameser.h	/^	ns_r_formerr = 1,	\/*%< Format error. *\/$/;"	e	enum:__ns_rcode
+ns_r_max	/usr/include/arpa/nameser.h	/^	ns_r_max = 11,$/;"	e	enum:__ns_rcode
+ns_r_noerror	/usr/include/arpa/nameser.h	/^	ns_r_noerror = 0,	\/*%< No error occurred. *\/$/;"	e	enum:__ns_rcode
+ns_r_notauth	/usr/include/arpa/nameser.h	/^	ns_r_notauth = 9,	\/*%< Not authoritative for zone *\/$/;"	e	enum:__ns_rcode
+ns_r_notimpl	/usr/include/arpa/nameser.h	/^	ns_r_notimpl = 4,	\/*%< Unimplemented. *\/$/;"	e	enum:__ns_rcode
+ns_r_notzone	/usr/include/arpa/nameser.h	/^	ns_r_notzone = 10,	\/*%< Zone of record different from zone section *\/$/;"	e	enum:__ns_rcode
+ns_r_nxdomain	/usr/include/arpa/nameser.h	/^	ns_r_nxdomain = 3,	\/*%< Name error. *\/$/;"	e	enum:__ns_rcode
+ns_r_nxrrset	/usr/include/arpa/nameser.h	/^	ns_r_nxrrset = 8,	\/*%< RRset does not exist *\/$/;"	e	enum:__ns_rcode
+ns_r_refused	/usr/include/arpa/nameser.h	/^	ns_r_refused = 5,	\/*%< Operation refused. *\/$/;"	e	enum:__ns_rcode
+ns_r_servfail	/usr/include/arpa/nameser.h	/^	ns_r_servfail = 2,	\/*%< Server failure. *\/$/;"	e	enum:__ns_rcode
+ns_r_yxdomain	/usr/include/arpa/nameser.h	/^	ns_r_yxdomain = 6,	\/*%< Name exists *\/$/;"	e	enum:__ns_rcode
+ns_r_yxrrset	/usr/include/arpa/nameser.h	/^	ns_r_yxrrset = 7,	\/*%< RRset exists *\/$/;"	e	enum:__ns_rcode
+ns_rcode	/usr/include/arpa/nameser.h	/^} ns_rcode;$/;"	t	typeref:enum:__ns_rcode
+ns_rr	/usr/include/arpa/nameser.h	/^} ns_rr;$/;"	t	typeref:struct:__ns_rr
+ns_rr_class	/usr/include/arpa/nameser.h	150;"	d
+ns_rr_name	/usr/include/arpa/nameser.h	148;"	d
+ns_rr_rdata	/usr/include/arpa/nameser.h	153;"	d
+ns_rr_rdlen	/usr/include/arpa/nameser.h	152;"	d
+ns_rr_ttl	/usr/include/arpa/nameser.h	151;"	d
+ns_rr_type	/usr/include/arpa/nameser.h	149;"	d
+ns_s_an	/usr/include/arpa/nameser.h	/^	ns_s_an = 1,		\/*%< Query: Answer. *\/$/;"	e	enum:__ns_sect
+ns_s_ar	/usr/include/arpa/nameser.h	/^	ns_s_ar = 3,		\/*%< Query|Update: Additional records. *\/$/;"	e	enum:__ns_sect
+ns_s_max	/usr/include/arpa/nameser.h	/^	ns_s_max = 4$/;"	e	enum:__ns_sect
+ns_s_ns	/usr/include/arpa/nameser.h	/^	ns_s_ns = 2,		\/*%< Query: Name servers. *\/$/;"	e	enum:__ns_sect
+ns_s_pr	/usr/include/arpa/nameser.h	/^	ns_s_pr = 1,		\/*%< Update: Prerequisites. *\/$/;"	e	enum:__ns_sect
+ns_s_qd	/usr/include/arpa/nameser.h	/^	ns_s_qd = 0,		\/*%< Query: Question. *\/$/;"	e	enum:__ns_sect
+ns_s_ud	/usr/include/arpa/nameser.h	/^	ns_s_ud = 2,		\/*%< Update: Update. *\/$/;"	e	enum:__ns_sect
+ns_s_zn	/usr/include/arpa/nameser.h	/^	ns_s_zn = 0,		\/*%< Update: Zone. *\/$/;"	e	enum:__ns_sect
+ns_sect	/usr/include/arpa/nameser.h	/^} ns_sect;$/;"	t	typeref:enum:__ns_sect
+ns_t_a	/usr/include/arpa/nameser.h	/^	ns_t_a = 1,		\/*%< Host address. *\/$/;"	e	enum:__ns_type
+ns_t_a6	/usr/include/arpa/nameser.h	/^	ns_t_a6 = 38,		\/*%< IPv6 address (deprecated, use ns_t_aaaa) *\/$/;"	e	enum:__ns_type
+ns_t_aaaa	/usr/include/arpa/nameser.h	/^	ns_t_aaaa = 28,		\/*%< Ip6 Address. *\/$/;"	e	enum:__ns_type
+ns_t_afsdb	/usr/include/arpa/nameser.h	/^	ns_t_afsdb = 18,	\/*%< AFS cell database. *\/$/;"	e	enum:__ns_type
+ns_t_any	/usr/include/arpa/nameser.h	/^	ns_t_any = 255,		\/*%< Wildcard match. *\/$/;"	e	enum:__ns_type
+ns_t_apl	/usr/include/arpa/nameser.h	/^	ns_t_apl = 42,		\/*%< Address prefix list (RFC3123) *\/$/;"	e	enum:__ns_type
+ns_t_atma	/usr/include/arpa/nameser.h	/^	ns_t_atma = 34,		\/*%< ATM Address *\/$/;"	e	enum:__ns_type
+ns_t_axfr	/usr/include/arpa/nameser.h	/^	ns_t_axfr = 252,	\/*%< Transfer zone of authority. *\/$/;"	e	enum:__ns_type
+ns_t_cert	/usr/include/arpa/nameser.h	/^	ns_t_cert = 37,		\/*%< Certification record *\/$/;"	e	enum:__ns_type
+ns_t_cname	/usr/include/arpa/nameser.h	/^	ns_t_cname = 5,		\/*%< Canonical name. *\/$/;"	e	enum:__ns_type
+ns_t_dname	/usr/include/arpa/nameser.h	/^	ns_t_dname = 39,	\/*%< Non-terminal DNAME (for IPv6) *\/$/;"	e	enum:__ns_type
+ns_t_eid	/usr/include/arpa/nameser.h	/^	ns_t_eid = 31,		\/*%< Endpoint identifier. *\/$/;"	e	enum:__ns_type
+ns_t_gpos	/usr/include/arpa/nameser.h	/^	ns_t_gpos = 27,		\/*%< Geographical position (withdrawn). *\/$/;"	e	enum:__ns_type
+ns_t_hinfo	/usr/include/arpa/nameser.h	/^	ns_t_hinfo = 13,	\/*%< Host information. *\/$/;"	e	enum:__ns_type
+ns_t_invalid	/usr/include/arpa/nameser.h	/^	ns_t_invalid = 0,	\/*%< Cookie. *\/$/;"	e	enum:__ns_type
+ns_t_isdn	/usr/include/arpa/nameser.h	/^	ns_t_isdn = 20,		\/*%< ISDN calling address. *\/$/;"	e	enum:__ns_type
+ns_t_ixfr	/usr/include/arpa/nameser.h	/^	ns_t_ixfr = 251,	\/*%< Incremental zone transfer. *\/$/;"	e	enum:__ns_type
+ns_t_key	/usr/include/arpa/nameser.h	/^	ns_t_key = 25,		\/*%< Security key. *\/$/;"	e	enum:__ns_type
+ns_t_kx	/usr/include/arpa/nameser.h	/^	ns_t_kx = 36,		\/*%< Key Exchange *\/$/;"	e	enum:__ns_type
+ns_t_loc	/usr/include/arpa/nameser.h	/^	ns_t_loc = 29,		\/*%< Location Information. *\/$/;"	e	enum:__ns_type
+ns_t_maila	/usr/include/arpa/nameser.h	/^	ns_t_maila = 254,	\/*%< Transfer mail agent records. *\/$/;"	e	enum:__ns_type
+ns_t_mailb	/usr/include/arpa/nameser.h	/^	ns_t_mailb = 253,	\/*%< Transfer mailbox records. *\/$/;"	e	enum:__ns_type
+ns_t_max	/usr/include/arpa/nameser.h	/^	ns_t_max = 65536$/;"	e	enum:__ns_type
+ns_t_mb	/usr/include/arpa/nameser.h	/^	ns_t_mb = 7,		\/*%< Mailbox domain name. *\/$/;"	e	enum:__ns_type
+ns_t_md	/usr/include/arpa/nameser.h	/^	ns_t_md = 3,		\/*%< Mail destination. *\/$/;"	e	enum:__ns_type
+ns_t_mf	/usr/include/arpa/nameser.h	/^	ns_t_mf = 4,		\/*%< Mail forwarder. *\/$/;"	e	enum:__ns_type
+ns_t_mg	/usr/include/arpa/nameser.h	/^	ns_t_mg = 8,		\/*%< Mail group member. *\/$/;"	e	enum:__ns_type
+ns_t_minfo	/usr/include/arpa/nameser.h	/^	ns_t_minfo = 14,	\/*%< Mailbox information. *\/$/;"	e	enum:__ns_type
+ns_t_mr	/usr/include/arpa/nameser.h	/^	ns_t_mr = 9,		\/*%< Mail rename name. *\/$/;"	e	enum:__ns_type
+ns_t_mrr_p	/usr/include/arpa/nameser.h	311;"	d
+ns_t_mx	/usr/include/arpa/nameser.h	/^	ns_t_mx = 15,		\/*%< Mail routing information. *\/$/;"	e	enum:__ns_type
+ns_t_naptr	/usr/include/arpa/nameser.h	/^	ns_t_naptr = 35,	\/*%< Naming Authority PoinTeR *\/$/;"	e	enum:__ns_type
+ns_t_nimloc	/usr/include/arpa/nameser.h	/^	ns_t_nimloc = 32,	\/*%< Nimrod Locator. *\/$/;"	e	enum:__ns_type
+ns_t_ns	/usr/include/arpa/nameser.h	/^	ns_t_ns = 2,		\/*%< Authoritative server. *\/$/;"	e	enum:__ns_type
+ns_t_nsap	/usr/include/arpa/nameser.h	/^	ns_t_nsap = 22,		\/*%< NSAP address. *\/$/;"	e	enum:__ns_type
+ns_t_nsap_ptr	/usr/include/arpa/nameser.h	/^	ns_t_nsap_ptr = 23,	\/*%< Reverse NSAP lookup (deprecated). *\/$/;"	e	enum:__ns_type
+ns_t_null	/usr/include/arpa/nameser.h	/^	ns_t_null = 10,		\/*%< Null resource record. *\/$/;"	e	enum:__ns_type
+ns_t_nxt	/usr/include/arpa/nameser.h	/^	ns_t_nxt = 30,		\/*%< Next domain (security). *\/$/;"	e	enum:__ns_type
+ns_t_opt	/usr/include/arpa/nameser.h	/^	ns_t_opt = 41,		\/*%< EDNS0 option (meta-RR) *\/$/;"	e	enum:__ns_type
+ns_t_ptr	/usr/include/arpa/nameser.h	/^	ns_t_ptr = 12,		\/*%< Domain name pointer. *\/$/;"	e	enum:__ns_type
+ns_t_px	/usr/include/arpa/nameser.h	/^	ns_t_px = 26,		\/*%< X.400 mail mapping. *\/$/;"	e	enum:__ns_type
+ns_t_qt_p	/usr/include/arpa/nameser.h	308;"	d
+ns_t_rp	/usr/include/arpa/nameser.h	/^	ns_t_rp = 17,		\/*%< Responsible person. *\/$/;"	e	enum:__ns_type
+ns_t_rr_p	/usr/include/arpa/nameser.h	313;"	d
+ns_t_rt	/usr/include/arpa/nameser.h	/^	ns_t_rt = 21,		\/*%< Router. *\/$/;"	e	enum:__ns_type
+ns_t_sig	/usr/include/arpa/nameser.h	/^	ns_t_sig = 24,		\/*%< Security signature. *\/$/;"	e	enum:__ns_type
+ns_t_sink	/usr/include/arpa/nameser.h	/^	ns_t_sink = 40,		\/*%< Kitchen sink (experimentatl) *\/$/;"	e	enum:__ns_type
+ns_t_soa	/usr/include/arpa/nameser.h	/^	ns_t_soa = 6,		\/*%< Start of authority zone. *\/$/;"	e	enum:__ns_type
+ns_t_srv	/usr/include/arpa/nameser.h	/^	ns_t_srv = 33,		\/*%< Server Selection. *\/$/;"	e	enum:__ns_type
+ns_t_tkey	/usr/include/arpa/nameser.h	/^	ns_t_tkey = 249,	\/*%< Transaction key *\/$/;"	e	enum:__ns_type
+ns_t_tsig	/usr/include/arpa/nameser.h	/^	ns_t_tsig = 250,	\/*%< Transaction signature. *\/$/;"	e	enum:__ns_type
+ns_t_txt	/usr/include/arpa/nameser.h	/^	ns_t_txt = 16,		\/*%< Text strings. *\/$/;"	e	enum:__ns_type
+ns_t_udp_p	/usr/include/arpa/nameser.h	314;"	d
+ns_t_wks	/usr/include/arpa/nameser.h	/^	ns_t_wks = 11,		\/*%< Well known service. *\/$/;"	e	enum:__ns_type
+ns_t_x25	/usr/include/arpa/nameser.h	/^	ns_t_x25 = 19,		\/*%< X_25 calling address. *\/$/;"	e	enum:__ns_type
+ns_t_xfr_p	/usr/include/arpa/nameser.h	315;"	d
+ns_t_zxfr	/usr/include/arpa/nameser.h	/^	ns_t_zxfr = 256,	\/*%< BIND-specific, nonstandard. *\/$/;"	e	enum:__ns_type
+ns_tcp_tsig_state	/usr/include/arpa/nameser.h	/^struct ns_tcp_tsig_state {$/;"	s
+ns_tcp_tsig_state	/usr/include/arpa/nameser.h	/^typedef struct ns_tcp_tsig_state ns_tcp_tsig_state;$/;"	t	typeref:struct:ns_tcp_tsig_state
+ns_tcp_tsig_state::counter	/usr/include/arpa/nameser.h	/^	int counter;$/;"	m	struct:ns_tcp_tsig_state	access:public
+ns_tcp_tsig_state::ctx	/usr/include/arpa/nameser.h	/^	void *ctx;$/;"	m	struct:ns_tcp_tsig_state	access:public
+ns_tcp_tsig_state::key	/usr/include/arpa/nameser.h	/^	struct dst_key *key;$/;"	m	struct:ns_tcp_tsig_state	typeref:struct:ns_tcp_tsig_state::dst_key	access:public
+ns_tcp_tsig_state::sig	/usr/include/arpa/nameser.h	/^	unsigned char sig[NS_PACKETSZ];$/;"	m	struct:ns_tcp_tsig_state	access:public
+ns_tcp_tsig_state::siglen	/usr/include/arpa/nameser.h	/^	int siglen;$/;"	m	struct:ns_tcp_tsig_state	access:public
+ns_tsig_key	/usr/include/arpa/nameser.h	/^struct ns_tsig_key {$/;"	s
+ns_tsig_key	/usr/include/arpa/nameser.h	/^typedef struct ns_tsig_key ns_tsig_key;$/;"	t	typeref:struct:ns_tsig_key
+ns_tsig_key::alg	/usr/include/arpa/nameser.h	/^        char name[NS_MAXDNAME], alg[NS_MAXDNAME];$/;"	m	struct:ns_tsig_key	access:public
+ns_tsig_key::data	/usr/include/arpa/nameser.h	/^        unsigned char *data;$/;"	m	struct:ns_tsig_key	access:public
+ns_tsig_key::len	/usr/include/arpa/nameser.h	/^        int len;$/;"	m	struct:ns_tsig_key	access:public
+ns_tsig_key::name	/usr/include/arpa/nameser.h	/^        char name[NS_MAXDNAME], alg[NS_MAXDNAME];$/;"	m	struct:ns_tsig_key	access:public
+ns_type	/usr/include/arpa/nameser.h	/^} ns_type;$/;"	t	typeref:enum:__ns_type
+ns_uop_add	/usr/include/arpa/nameser.h	/^	ns_uop_add = 1,$/;"	e	enum:__ns_update_operation
+ns_uop_delete	/usr/include/arpa/nameser.h	/^	ns_uop_delete = 0,$/;"	e	enum:__ns_update_operation
+ns_uop_max	/usr/include/arpa/nameser.h	/^	ns_uop_max = 2$/;"	e	enum:__ns_update_operation
+ns_update_operation	/usr/include/arpa/nameser.h	/^} ns_update_operation;$/;"	t	typeref:enum:__ns_update_operation
+nscount	/usr/include/arpa/nameser_compat.h	/^	unsigned	nscount :16;	\/*%< number of authority entries *\/$/;"	m	struct:__anon1	access:public
+opcode	/usr/include/arpa/nameser_compat.h	/^	unsigned	opcode :4;	\/*%< purpose of message *\/$/;"	m	struct:__anon1	access:public
+opcode	/usr/include/arpa/nameser_compat.h	/^	unsigned	opcode: 4;	\/*%< purpose of message *\/$/;"	m	struct:__anon1	access:public
+qdcount	/usr/include/arpa/nameser_compat.h	/^	unsigned	qdcount :16;	\/*%< number of question entries *\/$/;"	m	struct:__anon1	access:public
+qr	/usr/include/arpa/nameser_compat.h	/^	unsigned	qr :1;		\/*%< response flag *\/$/;"	m	struct:__anon1	access:public
+qr	/usr/include/arpa/nameser_compat.h	/^	unsigned	qr: 1;		\/*%< response flag *\/$/;"	m	struct:__anon1	access:public
+ra	/usr/include/arpa/nameser_compat.h	/^	unsigned	ra :1;		\/*%< recursion available *\/$/;"	m	struct:__anon1	access:public
+ra	/usr/include/arpa/nameser_compat.h	/^	unsigned	ra: 1;		\/*%< recursion available *\/$/;"	m	struct:__anon1	access:public
+rcode	/usr/include/arpa/nameser_compat.h	/^	unsigned	rcode :4;	\/*%< response code *\/$/;"	m	struct:__anon1	access:public
+rd	/usr/include/arpa/nameser_compat.h	/^	unsigned	rd :1;		\/*%< recursion desired *\/$/;"	m	struct:__anon1	access:public
+rd	/usr/include/arpa/nameser_compat.h	/^	unsigned	rd: 1;		\/*%< recursion desired *\/$/;"	m	struct:__anon1	access:public
+rdata	/usr/include/arpa/nameser.h	/^	const u_char *	rdata;$/;"	m	struct:__ns_rr	access:public
+rdlength	/usr/include/arpa/nameser.h	/^	u_int16_t	rdlength;$/;"	m	struct:__ns_rr	access:public
+rr_class	/usr/include/arpa/nameser.h	/^	u_int16_t	rr_class;$/;"	m	struct:__ns_rr	access:public
+shift	/usr/include/arpa/nameser.h	/^struct _ns_flagdata {  int mask, shift;  };$/;"	m	struct:_ns_flagdata	access:public
+sig	/usr/include/arpa/nameser.h	/^	unsigned char sig[NS_PACKETSZ];$/;"	m	struct:ns_tcp_tsig_state	access:public
+siglen	/usr/include/arpa/nameser.h	/^	int siglen;$/;"	m	struct:ns_tcp_tsig_state	access:public
+slc_names	/usr/include/arpa/telnet.h	/^char *slc_names[] = {$/;"	v
+socklen_t	/usr/include/arpa/inet.h	/^typedef __socklen_t socklen_t;$/;"	t
+strunames	/usr/include/arpa/ftp.h	/^char *strunames[] =  {"0", "File", "Record", "Page" };$/;"	v
+tc	/usr/include/arpa/nameser_compat.h	/^	unsigned	tc :1;		\/*%< truncated message *\/$/;"	m	struct:__anon1	access:public
+tc	/usr/include/arpa/nameser_compat.h	/^	unsigned	tc: 1;		\/*%< truncated message *\/$/;"	m	struct:__anon1	access:public
+telcmds	/usr/include/arpa/telnet.h	/^char *telcmds[] = {$/;"	v
+telopts	/usr/include/arpa/telnet.h	/^char *telopts[NTELOPTS+1] = {$/;"	v
+tftphdr	/usr/include/arpa/tftp.h	/^struct	tftphdr {$/;"	s
+tftphdr::__anon2::tu_block	/usr/include/arpa/tftp.h	/^		unsigned short	tu_block;	\/* block # *\/$/;"	m	union:tftphdr::__anon2	access:public
+tftphdr::__anon2::tu_code	/usr/include/arpa/tftp.h	/^		short	tu_code;		\/* error code *\/$/;"	m	union:tftphdr::__anon2	access:public
+tftphdr::__anon2::tu_stuff	/usr/include/arpa/tftp.h	/^		char	tu_stuff[1];		\/* request packet stuff *\/$/;"	m	union:tftphdr::__anon2	access:public
+tftphdr::th_data	/usr/include/arpa/tftp.h	/^	char	th_data[1];			\/* data or error string *\/$/;"	m	struct:tftphdr	access:public
+tftphdr::th_opcode	/usr/include/arpa/tftp.h	/^	short	th_opcode;			\/* packet type *\/$/;"	m	struct:tftphdr	access:public
+tftphdr::th_u	/usr/include/arpa/tftp.h	/^	} __attribute__ ((__packed__)) th_u;$/;"	m	struct:tftphdr	typeref:union:tftphdr::__anon2	access:public
+th_block	/usr/include/arpa/tftp.h	59;"	d
+th_code	/usr/include/arpa/tftp.h	60;"	d
+th_data	/usr/include/arpa/tftp.h	/^	char	th_data[1];			\/* data or error string *\/$/;"	m	struct:tftphdr	access:public
+th_msg	/usr/include/arpa/tftp.h	62;"	d
+th_opcode	/usr/include/arpa/tftp.h	/^	short	th_opcode;			\/* packet type *\/$/;"	m	struct:tftphdr	access:public
+th_stuff	/usr/include/arpa/tftp.h	61;"	d
+th_u	/usr/include/arpa/tftp.h	/^	} __attribute__ ((__packed__)) th_u;$/;"	m	struct:tftphdr	typeref:union:tftphdr::__anon2	access:public
+ttl	/usr/include/arpa/nameser.h	/^	u_int32_t	ttl;$/;"	m	struct:__ns_rr	access:public
+tu_block	/usr/include/arpa/tftp.h	/^		unsigned short	tu_block;	\/* block # *\/$/;"	m	union:tftphdr::__anon2	access:public
+tu_code	/usr/include/arpa/tftp.h	/^		short	tu_code;		\/* error code *\/$/;"	m	union:tftphdr::__anon2	access:public
+tu_stuff	/usr/include/arpa/tftp.h	/^		char	tu_stuff[1];		\/* request packet stuff *\/$/;"	m	union:tftphdr::__anon2	access:public
+type	/usr/include/arpa/nameser.h	/^	u_int16_t	type;$/;"	m	struct:__ns_rr	access:public
+typenames	/usr/include/arpa/ftp.h	/^char *typenames[] =  {"0", "ASCII", "EBCDIC", "Image", "Local" };$/;"	v
+unused	/usr/include/arpa/nameser_compat.h	/^	unsigned	unused :1;	\/*%< unused bits (MBZ as of 4.9.3a3) *\/$/;"	m	struct:__anon1	access:public
+xEOF	/usr/include/arpa/telnet.h	57;"	d

@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CPU_ALLOC	/usr/include/sched.h	113;"	d
+CPU_ALLOC_SIZE	/usr/include/sched.h	112;"	d
+CPU_AND	/usr/include/sched.h	99;"	d
+CPU_AND_S	/usr/include/sched.h	105;"	d
+CPU_CLR	/usr/include/sched.h	81;"	d
+CPU_CLR_S	/usr/include/sched.h	88;"	d
+CPU_COUNT	/usr/include/sched.h	85;"	d
+CPU_COUNT_S	/usr/include/sched.h	92;"	d
+CPU_EQUAL	/usr/include/sched.h	94;"	d
+CPU_EQUAL_S	/usr/include/sched.h	96;"	d
+CPU_FREE	/usr/include/sched.h	114;"	d
+CPU_ISSET	/usr/include/sched.h	82;"	d
+CPU_ISSET_S	/usr/include/sched.h	89;"	d
+CPU_OR	/usr/include/sched.h	101;"	d
+CPU_OR_S	/usr/include/sched.h	107;"	d
+CPU_SET	/usr/include/sched.h	80;"	d
+CPU_SETSIZE	/usr/include/sched.h	79;"	d
+CPU_SET_S	/usr/include/sched.h	87;"	d
+CPU_XOR	/usr/include/sched.h	103;"	d
+CPU_XOR_S	/usr/include/sched.h	109;"	d
+CPU_ZERO	/usr/include/sched.h	84;"	d
+CPU_ZERO_S	/usr/include/sched.h	91;"	d
+_SCHED_H	/usr/include/sched.h	22;"	d
+__need_size_t	/usr/include/sched.h	29;"	d
+__need_time_t	/usr/include/sched.h	32;"	d
+__need_timespec	/usr/include/sched.h	33;"	d
+__pid_t_defined	/usr/include/sched.h	38;"	d
+pid_t	/usr/include/sched.h	/^typedef __pid_t pid_t;$/;"	t
+sched_priority	/usr/include/sched.h	45;"	d

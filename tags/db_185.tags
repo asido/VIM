@@ -1,0 +1,119 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BTREEINFO	/usr/include/db_185.h	/^} BTREEINFO;$/;"	t	typeref:struct:__anon3
+BTREEMAGIC	/usr/include/db_185.h	123;"	d
+BTREEVERSION	/usr/include/db_185.h	124;"	d
+DB	/usr/include/db_185.h	/^} DB;$/;"	t	typeref:struct:__db
+DBT	/usr/include/db_185.h	/^} DBT;$/;"	t	typeref:struct:__anon1
+DBTYPE	/usr/include/db_185.h	/^typedef enum { DB_BTREE, DB_HASH, DB_RECNO } DBTYPE;$/;"	t	typeref:enum:__anon2
+DB_BTREE	/usr/include/db_185.h	/^typedef enum { DB_BTREE, DB_HASH, DB_RECNO } DBTYPE;$/;"	e	enum:__anon2
+DB_HASH	/usr/include/db_185.h	/^typedef enum { DB_BTREE, DB_HASH, DB_RECNO } DBTYPE;$/;"	e	enum:__anon2
+DB_RECNO	/usr/include/db_185.h	/^typedef enum { DB_BTREE, DB_HASH, DB_RECNO } DBTYPE;$/;"	e	enum:__anon2
+HASHINFO	/usr/include/db_185.h	/^} HASHINFO;$/;"	t	typeref:struct:__anon4
+HASHMAGIC	/usr/include/db_185.h	141;"	d
+HASHVERSION	/usr/include/db_185.h	142;"	d
+MAX_PAGE_NUMBER	/usr/include/db_185.h	82;"	d
+MAX_PAGE_OFFSET	/usr/include/db_185.h	84;"	d
+MAX_REC_NUMBER	/usr/include/db_185.h	86;"	d
+RECNOINFO	/usr/include/db_185.h	/^} RECNOINFO;$/;"	t	typeref:struct:__anon5
+RET_ERROR	/usr/include/db_185.h	61;"	d
+RET_SPECIAL	/usr/include/db_185.h	63;"	d
+RET_SUCCESS	/usr/include/db_185.h	62;"	d
+R_CURSOR	/usr/include/db_185.h	96;"	d
+R_DUP	/usr/include/db_185.h	128;"	d
+R_FIRST	/usr/include/db_185.h	98;"	d
+R_FIXEDLEN	/usr/include/db_185.h	157;"	d
+R_IAFTER	/usr/include/db_185.h	99;"	d
+R_IBEFORE	/usr/include/db_185.h	100;"	d
+R_LAST	/usr/include/db_185.h	101;"	d
+R_NEXT	/usr/include/db_185.h	102;"	d
+R_NOKEY	/usr/include/db_185.h	158;"	d
+R_NOOVERWRITE	/usr/include/db_185.h	103;"	d
+R_PREV	/usr/include/db_185.h	104;"	d
+R_RECNOSYNC	/usr/include/db_185.h	106;"	d
+R_SETCURSOR	/usr/include/db_185.h	105;"	d
+R_SNAPSHOT	/usr/include/db_185.h	159;"	d
+_DB_185_H_	/usr/include/db_185.h	38;"	d
+_DB_EXT_185_PROT_IN_	/usr/include/db_185.h	180;"	d
+__BIT_TYPES_DEFINED__	/usr/include/db_185.h	66;"	d
+__P	/usr/include/db_185.h	53;"	d
+__P	/usr/include/db_185.h	55;"	d
+__P	/usr/include/db_185.h	58;"	d
+__R_UNUSED	/usr/include/db_185.h	97;"	d
+__anon1::data	/usr/include/db_185.h	/^	void	*data;			\/* data *\/$/;"	m	struct:__anon1	access:public
+__anon1::size	/usr/include/db_185.h	/^	size_t	 size;			\/* data length *\/$/;"	m	struct:__anon1	access:public
+__anon3::cachesize	/usr/include/db_185.h	/^	u_int32_t cachesize;	\/* bytes to cache *\/$/;"	m	struct:__anon3	access:public
+__anon3::compare	/usr/include/db_185.h	/^	int	(*compare)	\/* comparison function *\/$/;"	m	struct:__anon3	access:public
+__anon3::flags	/usr/include/db_185.h	/^	u_int32_t flags;$/;"	m	struct:__anon3	access:public
+__anon3::lorder	/usr/include/db_185.h	/^	int	lorder;		\/* byte order *\/$/;"	m	struct:__anon3	access:public
+__anon3::maxkeypage	/usr/include/db_185.h	/^	u_int32_t maxkeypage;	\/* maximum keys per page *\/$/;"	m	struct:__anon3	access:public
+__anon3::minkeypage	/usr/include/db_185.h	/^	u_int32_t minkeypage;	\/* minimum keys per page *\/$/;"	m	struct:__anon3	access:public
+__anon3::prefix	/usr/include/db_185.h	/^	size_t	(*prefix)	\/* prefix function *\/$/;"	m	struct:__anon3	access:public
+__anon3::psize	/usr/include/db_185.h	/^	u_int32_t psize;	\/* page size *\/$/;"	m	struct:__anon3	access:public
+__anon4::bsize	/usr/include/db_185.h	/^	u_int32_t bsize;	\/* bucket size *\/$/;"	m	struct:__anon4	access:public
+__anon4::cachesize	/usr/include/db_185.h	/^	u_int32_t cachesize;	\/* bytes to cache *\/$/;"	m	struct:__anon4	access:public
+__anon4::ffactor	/usr/include/db_185.h	/^	u_int32_t ffactor;	\/* fill factor *\/$/;"	m	struct:__anon4	access:public
+__anon4::hash	/usr/include/db_185.h	/^		(*hash) __P((const void *, size_t));$/;"	m	struct:__anon4	access:public
+__anon4::lorder	/usr/include/db_185.h	/^	int	lorder;		\/* byte order *\/$/;"	m	struct:__anon4	access:public
+__anon4::nelem	/usr/include/db_185.h	/^	u_int32_t nelem;	\/* number of elements *\/$/;"	m	struct:__anon4	access:public
+__anon5::bfname	/usr/include/db_185.h	/^	char	*bfname;	\/* btree file name *\/$/;"	m	struct:__anon5	access:public
+__anon5::bval	/usr/include/db_185.h	/^	u_char	bval;		\/* delimiting byte (variable-length records *\/$/;"	m	struct:__anon5	access:public
+__anon5::cachesize	/usr/include/db_185.h	/^	u_int32_t cachesize;	\/* bytes to cache *\/$/;"	m	struct:__anon5	access:public
+__anon5::flags	/usr/include/db_185.h	/^	u_int32_t flags;$/;"	m	struct:__anon5	access:public
+__anon5::lorder	/usr/include/db_185.h	/^	int	lorder;		\/* byte order *\/$/;"	m	struct:__anon5	access:public
+__anon5::psize	/usr/include/db_185.h	/^	u_int32_t psize;	\/* page size *\/$/;"	m	struct:__anon5	access:public
+__anon5::reclen	/usr/include/db_185.h	/^	size_t	reclen;		\/* record length (fixed-length records) *\/$/;"	m	struct:__anon5	access:public
+__db	/usr/include/db_185.h	/^typedef struct __db {$/;"	s
+__db185_open	/usr/include/db_185.h	/^DB *__db185_open __P((const char *, int, int, DBTYPE, const void *));$/;"	p	signature:(const char *, int, int, DBTYPE, const void *)
+__db185_open	/usr/include/db_185.h	/^DB185 *__db185_open __P((const char *, int, int, DBTYPE, const void *));$/;"	p	signature:(const char *, int, int, DBTYPE, const void *)
+__db::close	/usr/include/db_185.h	/^	int (*close)	__P((struct __db *));$/;"	m	struct:__db	access:public
+__db::del	/usr/include/db_185.h	/^	int (*del)	__P((const struct __db *, const DBT *, u_int));$/;"	m	struct:__db	access:public
+__db::fd	/usr/include/db_185.h	/^	int (*fd)	__P((const struct __db *));$/;"	m	struct:__db	access:public
+__db::get	/usr/include/db_185.h	/^	int (*get)	__P((const struct __db *, const DBT *, DBT *, u_int));$/;"	m	struct:__db	access:public
+__db::internal	/usr/include/db_185.h	/^	void *internal;			\/* Access method private. *\/$/;"	m	struct:__db	access:public
+__db::put	/usr/include/db_185.h	/^	int (*put)	__P((const struct __db *, DBT *, const DBT *, u_int));$/;"	m	struct:__db	access:public
+__db::seq	/usr/include/db_185.h	/^	int (*seq)	__P((const struct __db *, DBT *, DBT *, u_int));$/;"	m	struct:__db	access:public
+__db::sync	/usr/include/db_185.h	/^	int (*sync)	__P((const struct __db *, u_int));$/;"	m	struct:__db	access:public
+__db::type	/usr/include/db_185.h	/^	DBTYPE type;			\/* Underlying db type. *\/$/;"	m	struct:__db	access:public
+bfname	/usr/include/db_185.h	/^	char	*bfname;	\/* btree file name *\/$/;"	m	struct:__anon5	access:public
+bsize	/usr/include/db_185.h	/^	u_int32_t bsize;	\/* bucket size *\/$/;"	m	struct:__anon4	access:public
+bval	/usr/include/db_185.h	/^	u_char	bval;		\/* delimiting byte (variable-length records *\/$/;"	m	struct:__anon5	access:public
+cachesize	/usr/include/db_185.h	/^	u_int32_t cachesize;	\/* bytes to cache *\/$/;"	m	struct:__anon3	access:public
+cachesize	/usr/include/db_185.h	/^	u_int32_t cachesize;	\/* bytes to cache *\/$/;"	m	struct:__anon4	access:public
+cachesize	/usr/include/db_185.h	/^	u_int32_t cachesize;	\/* bytes to cache *\/$/;"	m	struct:__anon5	access:public
+close	/usr/include/db_185.h	/^	int (*close)	__P((struct __db *));$/;"	m	struct:__db	access:public
+compare	/usr/include/db_185.h	/^	int	(*compare)	\/* comparison function *\/$/;"	m	struct:__anon3	access:public
+const	/usr/include/db_185.h	57;"	d
+data	/usr/include/db_185.h	/^	void	*data;			\/* data *\/$/;"	m	struct:__anon1	access:public
+dbopen	/usr/include/db_185.h	170;"	d
+del	/usr/include/db_185.h	/^	int (*del)	__P((const struct __db *, const DBT *, u_int));$/;"	m	struct:__db	access:public
+fd	/usr/include/db_185.h	/^	int (*fd)	__P((const struct __db *));$/;"	m	struct:__db	access:public
+ffactor	/usr/include/db_185.h	/^	u_int32_t ffactor;	\/* fill factor *\/$/;"	m	struct:__anon4	access:public
+flags	/usr/include/db_185.h	/^	u_int32_t flags;$/;"	m	struct:__anon3	access:public
+flags	/usr/include/db_185.h	/^	u_int32_t flags;$/;"	m	struct:__anon5	access:public
+get	/usr/include/db_185.h	/^	int (*get)	__P((const struct __db *, const DBT *, DBT *, u_int));$/;"	m	struct:__db	access:public
+hash	/usr/include/db_185.h	/^		(*hash) __P((const void *, size_t));$/;"	m	struct:__anon4	access:public
+indx_t	/usr/include/db_185.h	/^typedef u_int16_t	indx_t;$/;"	t
+internal	/usr/include/db_185.h	/^	void *internal;			\/* Access method private. *\/$/;"	m	struct:__db	access:public
+lorder	/usr/include/db_185.h	/^	int	lorder;		\/* byte order *\/$/;"	m	struct:__anon3	access:public
+lorder	/usr/include/db_185.h	/^	int	lorder;		\/* byte order *\/$/;"	m	struct:__anon4	access:public
+lorder	/usr/include/db_185.h	/^	int	lorder;		\/* byte order *\/$/;"	m	struct:__anon5	access:public
+maxkeypage	/usr/include/db_185.h	/^	u_int32_t maxkeypage;	\/* maximum keys per page *\/$/;"	m	struct:__anon3	access:public
+minkeypage	/usr/include/db_185.h	/^	u_int32_t minkeypage;	\/* minimum keys per page *\/$/;"	m	struct:__anon3	access:public
+nelem	/usr/include/db_185.h	/^	u_int32_t nelem;	\/* number of elements *\/$/;"	m	struct:__anon4	access:public
+pgno_t	/usr/include/db_185.h	/^typedef u_int32_t	pgno_t;$/;"	t
+pgno_t	/usr/include/db_185.h	79;"	d
+prefix	/usr/include/db_185.h	/^	size_t	(*prefix)	\/* prefix function *\/$/;"	m	struct:__anon3	access:public
+psize	/usr/include/db_185.h	/^	u_int32_t psize;	\/* page size *\/$/;"	m	struct:__anon3	access:public
+psize	/usr/include/db_185.h	/^	u_int32_t psize;	\/* page size *\/$/;"	m	struct:__anon5	access:public
+put	/usr/include/db_185.h	/^	int (*put)	__P((const struct __db *, DBT *, const DBT *, u_int));$/;"	m	struct:__db	access:public
+reclen	/usr/include/db_185.h	/^	size_t	reclen;		\/* record length (fixed-length records) *\/$/;"	m	struct:__anon5	access:public
+recno_t	/usr/include/db_185.h	/^typedef u_int32_t	recno_t;$/;"	t
+seq	/usr/include/db_185.h	/^	int (*seq)	__P((const struct __db *, DBT *, DBT *, u_int));$/;"	m	struct:__db	access:public
+size	/usr/include/db_185.h	/^	size_t	 size;			\/* data length *\/$/;"	m	struct:__anon1	access:public
+sync	/usr/include/db_185.h	/^	int (*sync)	__P((const struct __db *, u_int));$/;"	m	struct:__db	access:public
+type	/usr/include/db_185.h	/^	DBTYPE type;			\/* Underlying db type. *\/$/;"	m	struct:__db	access:public

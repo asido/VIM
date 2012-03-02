@@ -1,0 +1,356 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+EVBACKEND_ALL	/usr/include/ev.h	/^  EVBACKEND_ALL     = 0x0000003FU, \/* all known backends *\/$/;"	e	enum:__anon3
+EVBACKEND_DEVPOLL	/usr/include/ev.h	/^  EVBACKEND_DEVPOLL = 0x00000010U, \/* solaris 8 *\/ \/* NYI *\/$/;"	e	enum:__anon3
+EVBACKEND_EPOLL	/usr/include/ev.h	/^  EVBACKEND_EPOLL   = 0x00000004U, \/* linux *\/$/;"	e	enum:__anon3
+EVBACKEND_KQUEUE	/usr/include/ev.h	/^  EVBACKEND_KQUEUE  = 0x00000008U, \/* bsd *\/$/;"	e	enum:__anon3
+EVBACKEND_MASK	/usr/include/ev.h	/^  EVBACKEND_MASK    = 0x0000FFFFU  \/* all future backends *\/$/;"	e	enum:__anon3
+EVBACKEND_POLL	/usr/include/ev.h	/^  EVBACKEND_POLL    = 0x00000002U, \/* !win *\/$/;"	e	enum:__anon3
+EVBACKEND_PORT	/usr/include/ev.h	/^  EVBACKEND_PORT    = 0x00000020U, \/* solaris 10 *\/$/;"	e	enum:__anon3
+EVBACKEND_SELECT	/usr/include/ev.h	/^  EVBACKEND_SELECT  = 0x00000001U, \/* about anywhere *\/$/;"	e	enum:__anon3
+EVBREAK_ALL	/usr/include/ev.h	/^  EVBREAK_ALL    = 2  \/* unloop all loops *\/$/;"	e	enum:__anon5
+EVBREAK_CANCEL	/usr/include/ev.h	/^  EVBREAK_CANCEL = 0, \/* undo unloop *\/$/;"	e	enum:__anon5
+EVBREAK_ONE	/usr/include/ev.h	/^  EVBREAK_ONE    = 1, \/* unloop once *\/$/;"	e	enum:__anon5
+EVFLAG_AUTO	/usr/include/ev.h	/^  EVFLAG_AUTO      = 0x00000000U, \/* not quite a mask *\/$/;"	e	enum:__anon2
+EVFLAG_FORKCHECK	/usr/include/ev.h	/^  EVFLAG_FORKCHECK = 0x02000000U, \/* check for a fork in each iteration *\/$/;"	e	enum:__anon2
+EVFLAG_NOENV	/usr/include/ev.h	/^  EVFLAG_NOENV     = 0x01000000U, \/* do NOT consult environment *\/$/;"	e	enum:__anon2
+EVFLAG_NOINOTIFY	/usr/include/ev.h	/^  EVFLAG_NOINOTIFY = 0x00100000U, \/* do not attempt to use inotify *\/$/;"	e	enum:__anon2
+EVFLAG_NOSIGFD	/usr/include/ev.h	/^  EVFLAG_NOSIGFD   = 0, \/* compatibility to pre-3.9 *\/$/;"	e	enum:__anon2
+EVFLAG_NOSIGMASK	/usr/include/ev.h	/^  EVFLAG_NOSIGMASK = 0x00400000U  \/* avoid modifying the signal mask *\/$/;"	e	enum:__anon2
+EVFLAG_SIGNALFD	/usr/include/ev.h	/^  EVFLAG_SIGNALFD  = 0x00200000U, \/* attempt to use signalfd *\/$/;"	e	enum:__anon2
+EVLOOP_NONBLOCK	/usr/include/ev.h	804;"	d
+EVLOOP_ONESHOT	/usr/include/ev.h	805;"	d
+EVRUN_NOWAIT	/usr/include/ev.h	/^  EVRUN_NOWAIT = 1, \/* do not block\/wait *\/$/;"	e	enum:__anon4
+EVRUN_ONCE	/usr/include/ev.h	/^  EVRUN_ONCE   = 2  \/* block *once* only *\/$/;"	e	enum:__anon4
+EVUNLOOP_ALL	/usr/include/ev.h	808;"	d
+EVUNLOOP_CANCEL	/usr/include/ev.h	806;"	d
+EVUNLOOP_ONE	/usr/include/ev.h	807;"	d
+EV_A	/usr/include/ev.h	163;"	d
+EV_A	/usr/include/ev.h	172;"	d
+EV_ASYNC	/usr/include/ev.h	/^  EV_ASYNC    = 0x00080000, \/* async intra-loop signal *\/$/;"	e	enum:__anon1
+EV_ASYNC_ENABLE	/usr/include/ev.h	123;"	d
+EV_ATOMIC_T	/usr/include/ev.h	147;"	d
+EV_A_	/usr/include/ev.h	164;"	d
+EV_A_	/usr/include/ev.h	173;"	d
+EV_CB	/usr/include/ev.h	238;"	d
+EV_CB_DECLARE	/usr/include/ev.h	231;"	d
+EV_CB_INVOKE	/usr/include/ev.h	234;"	d
+EV_CHECK	/usr/include/ev.h	/^  EV_CHECK    = 0x00008000, \/* event loop finished poll *\/$/;"	e	enum:__anon1
+EV_CHECK_ENABLE	/usr/include/ev.h	95;"	d
+EV_CHILD	/usr/include/ev.h	/^  EV_CHILD    = 0x00000800, \/* child\/pid had status change *\/$/;"	e	enum:__anon1
+EV_CHILD_ENABLE	/usr/include/ev.h	116;"	d
+EV_CLEANUP	/usr/include/ev.h	/^  EV_CLEANUP  = 0x00040000, \/* event loop resumed in child *\/$/;"	e	enum:__anon1
+EV_CLEANUP_ENABLE	/usr/include/ev.h	107;"	d
+EV_COMMON	/usr/include/ev.h	227;"	d
+EV_COMPAT3	/usr/include/ev.h	55;"	d
+EV_CPP	/usr/include/ev.h	44;"	d
+EV_CPP	/usr/include/ev.h	46;"	d
+EV_CUSTOM	/usr/include/ev.h	/^  EV_CUSTOM   = 0x01000000, \/* for use by user code *\/$/;"	e	enum:__anon1
+EV_DECL_PRIORITY	/usr/include/ev.h	258;"	d
+EV_DECL_PRIORITY	/usr/include/ev.h	260;"	d
+EV_DEFAULT	/usr/include/ev.h	167;"	d
+EV_DEFAULT	/usr/include/ev.h	174;"	d
+EV_DEFAULT_	/usr/include/ev.h	168;"	d
+EV_DEFAULT_	/usr/include/ev.h	175;"	d
+EV_DEFAULT_UC	/usr/include/ev.h	165;"	d
+EV_DEFAULT_UC	/usr/include/ev.h	176;"	d
+EV_DEFAULT_UC_	/usr/include/ev.h	166;"	d
+EV_DEFAULT_UC_	/usr/include/ev.h	177;"	d
+EV_EMBED	/usr/include/ev.h	/^  EV_EMBED    = 0x00010000, \/* embedded event loop needs sweep *\/$/;"	e	enum:__anon1
+EV_EMBED_ENABLE	/usr/include/ev.h	127;"	d
+EV_EMBED_ENABLE	/usr/include/ev.h	178;"	d
+EV_ERROR	/usr/include/ev.h	/^  EV_ERROR    = 0x80000000  \/* sent when an error occurs *\/$/;"	e	enum:__anon1
+EV_FEATURES	/usr/include/ev.h	59;"	d
+EV_FEATURE_API	/usr/include/ev.h	65;"	d
+EV_FEATURE_BACKENDS	/usr/include/ev.h	67;"	d
+EV_FEATURE_CODE	/usr/include/ev.h	62;"	d
+EV_FEATURE_CONFIG	/usr/include/ev.h	64;"	d
+EV_FEATURE_DATA	/usr/include/ev.h	63;"	d
+EV_FEATURE_OS	/usr/include/ev.h	68;"	d
+EV_FEATURE_WATCHERS	/usr/include/ev.h	66;"	d
+EV_FORK	/usr/include/ev.h	/^  EV_FORK     = 0x00020000, \/* event loop resumed in child *\/$/;"	e	enum:__anon1
+EV_FORK_ENABLE	/usr/include/ev.h	103;"	d
+EV_H_	/usr/include/ev.h	41;"	d
+EV_IDLE	/usr/include/ev.h	/^  EV_IDLE     = 0x00002000, \/* event loop is idling *\/$/;"	e	enum:__anon1
+EV_IDLE_ENABLE	/usr/include/ev.h	99;"	d
+EV_INLINE	/usr/include/ev.h	183;"	d
+EV_INLINE	/usr/include/ev.h	185;"	d
+EV_IO	/usr/include/ev.h	/^  EV_IO       =    EV_READ, \/* alias for type-detection *\/$/;"	e	enum:__anon1
+EV_MAXPRI	/usr/include/ev.h	75;"	d
+EV_MINPRI	/usr/include/ev.h	72;"	d
+EV_MULTIPLICITY	/usr/include/ev.h	79;"	d
+EV_NONE	/usr/include/ev.h	/^  EV_NONE     =       0x00, \/* no events *\/$/;"	e	enum:__anon1
+EV_P	/usr/include/ev.h	161;"	d
+EV_P	/usr/include/ev.h	170;"	d
+EV_PERIODIC	/usr/include/ev.h	/^  EV_PERIODIC = 0x00000200, \/* periodic timer timed out *\/$/;"	e	enum:__anon1
+EV_PERIODIC_ENABLE	/usr/include/ev.h	83;"	d
+EV_PREPARE	/usr/include/ev.h	/^  EV_PREPARE  = 0x00004000, \/* event loop about to poll *\/$/;"	e	enum:__anon1
+EV_PREPARE_ENABLE	/usr/include/ev.h	91;"	d
+EV_PROTOTYPES	/usr/include/ev.h	190;"	d
+EV_P_	/usr/include/ev.h	162;"	d
+EV_P_	/usr/include/ev.h	171;"	d
+EV_READ	/usr/include/ev.h	/^  EV_READ     =       0x01, \/* ev_io detected read will not block *\/$/;"	e	enum:__anon1
+EV_SIGNAL	/usr/include/ev.h	/^  EV_SIGNAL   = 0x00000400, \/* signal was received *\/$/;"	e	enum:__anon1
+EV_SIGNAL_ENABLE	/usr/include/ev.h	111;"	d
+EV_SIGNAL_ENABLE	/usr/include/ev.h	137;"	d
+EV_SIGNAL_ENABLE	/usr/include/ev.h	138;"	d
+EV_STAT	/usr/include/ev.h	/^  EV_STAT     = 0x00001000, \/* stat data changed *\/$/;"	e	enum:__anon1
+EV_STAT_ENABLE	/usr/include/ev.h	87;"	d
+EV_TIMEOUT	/usr/include/ev.h	/^  EV_TIMEOUT  =   EV_TIMER, \/* pre 4.0 API compatibility *\/$/;"	e	enum:__anon1
+EV_TIMER	/usr/include/ev.h	/^  EV_TIMER    = 0x00000100, \/* timer timed out *\/$/;"	e	enum:__anon1
+EV_UNDEF	/usr/include/ev.h	/^  EV_UNDEF    = 0xFFFFFFFF, \/* guaranteed to be invalid *\/$/;"	e	enum:__anon1
+EV_VERSION_MAJOR	/usr/include/ev.h	195;"	d
+EV_VERSION_MINOR	/usr/include/ev.h	196;"	d
+EV_WALK_ENABLE	/usr/include/ev.h	131;"	d
+EV_WATCHER	/usr/include/ev.h	264;"	d
+EV_WATCHER_LIST	/usr/include/ev.h	271;"	d
+EV_WATCHER_TIME	/usr/include/ev.h	275;"	d
+EV_WRITE	/usr/include/ev.h	/^  EV_WRITE    =       0x02, \/* ev_io detected write will not block *\/$/;"	e	enum:__anon1
+EV__IOFDSET	/usr/include/ev.h	/^  EV__IOFDSET =       0x80, \/* internal use only *\/$/;"	e	enum:__anon1
+async	/usr/include/ev.h	/^  struct ev_async async;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_async	access:public
+attr	/usr/include/ev.h	/^  ev_statdata attr;   \/* ro *\/$/;"	m	struct:ev_stat	access:public
+check	/usr/include/ev.h	/^  ev_check check;        \/* unused *\/$/;"	m	struct:ev_embed	access:public
+check	/usr/include/ev.h	/^  struct ev_check check;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_check	access:public
+child	/usr/include/ev.h	/^  struct ev_child child;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_child	access:public
+cleanup	/usr/include/ev.h	/^  ev_cleanup cleanup;    \/* unused *\/$/;"	m	struct:ev_embed	access:public
+cleanup	/usr/include/ev.h	/^  struct ev_cleanup cleanup;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_cleanup	access:public
+embed	/usr/include/ev.h	/^  struct ev_embed embed;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_embed	access:public
+ev_any_watcher	/usr/include/ev.h	/^union ev_any_watcher$/;"	u
+ev_any_watcher::async	/usr/include/ev.h	/^  struct ev_async async;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_async	access:public
+ev_any_watcher::check	/usr/include/ev.h	/^  struct ev_check check;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_check	access:public
+ev_any_watcher::child	/usr/include/ev.h	/^  struct ev_child child;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_child	access:public
+ev_any_watcher::cleanup	/usr/include/ev.h	/^  struct ev_cleanup cleanup;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_cleanup	access:public
+ev_any_watcher::embed	/usr/include/ev.h	/^  struct ev_embed embed;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_embed	access:public
+ev_any_watcher::fork	/usr/include/ev.h	/^  struct ev_fork fork;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_fork	access:public
+ev_any_watcher::idle	/usr/include/ev.h	/^  struct ev_idle idle;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_idle	access:public
+ev_any_watcher::io	/usr/include/ev.h	/^  struct ev_io io;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_io	access:public
+ev_any_watcher::periodic	/usr/include/ev.h	/^  struct ev_periodic periodic;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_periodic	access:public
+ev_any_watcher::prepare	/usr/include/ev.h	/^  struct ev_prepare prepare;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_prepare	access:public
+ev_any_watcher::signal	/usr/include/ev.h	/^  struct ev_signal signal;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_signal	access:public
+ev_any_watcher::stat	/usr/include/ev.h	/^  struct ev_stat stat;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_stat	access:public
+ev_any_watcher::timer	/usr/include/ev.h	/^  struct ev_timer timer;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_timer	access:public
+ev_any_watcher::w	/usr/include/ev.h	/^  struct ev_watcher w;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_watcher	access:public
+ev_any_watcher::wl	/usr/include/ev.h	/^  struct ev_watcher_list wl;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_watcher_list	access:public
+ev_async	/usr/include/ev.h	/^typedef struct ev_async$/;"	s
+ev_async	/usr/include/ev.h	/^} ev_async;$/;"	t	typeref:struct:ev_async
+ev_async::sent	/usr/include/ev.h	/^  EV_ATOMIC_T sent; \/* private *\/$/;"	m	struct:ev_async	access:public
+ev_async_init	/usr/include/ev.h	695;"	d
+ev_async_pending	/usr/include/ev.h	446;"	d
+ev_async_send	/usr/include/ev.h	/^void ev_async_send     (EV_P_ ev_async *w);$/;"	p	signature:(EV_P_ ev_async *w)
+ev_async_set	/usr/include/ev.h	681;"	d
+ev_async_start	/usr/include/ev.h	/^void ev_async_start    (EV_P_ ev_async *w);$/;"	p	signature:(EV_P_ ev_async *w)
+ev_async_stop	/usr/include/ev.h	/^void ev_async_stop     (EV_P_ ev_async *w);$/;"	p	signature:(EV_P_ ev_async *w)
+ev_backend	/usr/include/ev.h	/^unsigned int ev_backend (EV_P); \/* backend in use by loop *\/$/;"	p	signature:(EV_P)
+ev_break	/usr/include/ev.h	/^void ev_break (EV_P_ int how EV_CPP (= EVBREAK_ONE)); \/* break out of the loop *\/$/;"	p	signature:(EV_P_ int how EV_CPP (= EVBREAK_ONE))
+ev_cb	/usr/include/ev.h	700;"	d
+ev_check	/usr/include/ev.h	/^typedef struct ev_check$/;"	s
+ev_check	/usr/include/ev.h	/^} ev_check;$/;"	t	typeref:struct:ev_check
+ev_check_init	/usr/include/ev.h	691;"	d
+ev_check_set	/usr/include/ev.h	677;"	d
+ev_check_start	/usr/include/ev.h	/^void ev_check_start    (EV_P_ ev_check *w);$/;"	p	signature:(EV_P_ ev_check *w)
+ev_check_stop	/usr/include/ev.h	/^void ev_check_stop     (EV_P_ ev_check *w);$/;"	p	signature:(EV_P_ ev_check *w)
+ev_child	/usr/include/ev.h	/^typedef struct ev_child$/;"	s
+ev_child	/usr/include/ev.h	/^} ev_child;$/;"	t	typeref:struct:ev_child
+ev_child::flags	/usr/include/ev.h	/^  int flags;   \/* private *\/$/;"	m	struct:ev_child	access:public
+ev_child::pid	/usr/include/ev.h	/^  int pid;     \/* ro *\/$/;"	m	struct:ev_child	access:public
+ev_child::rpid	/usr/include/ev.h	/^  int rpid;    \/* rw, holds the received pid *\/$/;"	m	struct:ev_child	access:public
+ev_child::rstatus	/usr/include/ev.h	/^  int rstatus; \/* rw, holds the exit status, use the macros from sys\/wait.h *\/$/;"	m	struct:ev_child	access:public
+ev_child_init	/usr/include/ev.h	687;"	d
+ev_child_set	/usr/include/ev.h	673;"	d
+ev_child_start	/usr/include/ev.h	/^void ev_child_start    (EV_P_ ev_child *w);$/;"	p	signature:(EV_P_ ev_child *w)
+ev_child_stop	/usr/include/ev.h	/^void ev_child_stop     (EV_P_ ev_child *w);$/;"	p	signature:(EV_P_ ev_child *w)
+ev_cleanup	/usr/include/ev.h	/^typedef struct ev_cleanup$/;"	s
+ev_cleanup	/usr/include/ev.h	/^} ev_cleanup;$/;"	t	typeref:struct:ev_cleanup
+ev_cleanup_init	/usr/include/ev.h	694;"	d
+ev_cleanup_set	/usr/include/ev.h	680;"	d
+ev_cleanup_start	/usr/include/ev.h	/^void ev_cleanup_start  (EV_P_ ev_cleanup *w);$/;"	p	signature:(EV_P_ ev_cleanup *w)
+ev_cleanup_stop	/usr/include/ev.h	/^void ev_cleanup_stop   (EV_P_ ev_cleanup *w);$/;"	p	signature:(EV_P_ ev_cleanup *w)
+ev_clear_pending	/usr/include/ev.h	/^int  ev_clear_pending  (EV_P_ void *w);$/;"	p	signature:(EV_P_ void *w)
+ev_default_destroy	/usr/include/ev.h	/^    EV_INLINE void ev_default_destroy (void) { ev_loop_destroy (EV_DEFAULT); }$/;"	f	signature:(void)
+ev_default_fork	/usr/include/ev.h	/^    EV_INLINE void ev_default_fork    (void) { ev_loop_fork    (EV_DEFAULT); }$/;"	f	signature:(void)
+ev_default_loop	/usr/include/ev.h	/^int ev_default_loop (unsigned int flags EV_CPP (= 0)); \/* returns true when successful *\/$/;"	p	signature:(unsigned int flags EV_CPP (= 0))
+ev_default_loop	/usr/include/ev.h	/^struct ev_loop *ev_default_loop (unsigned int flags EV_CPP (= 0));$/;"	p	signature:(unsigned int flags EV_CPP (= 0))
+ev_default_loop_uc_	/usr/include/ev.h	/^ev_default_loop_uc_ (void)$/;"	f	signature:(void)
+ev_depth	/usr/include/ev.h	/^unsigned int ev_depth     (EV_P); \/* #ev_loop enters - #ev_loop leaves *\/$/;"	p	signature:(EV_P)
+ev_embed	/usr/include/ev.h	/^typedef struct ev_embed$/;"	s
+ev_embed	/usr/include/ev.h	/^} ev_embed;$/;"	t	typeref:struct:ev_embed
+ev_embed::check	/usr/include/ev.h	/^  ev_check check;        \/* unused *\/$/;"	m	struct:ev_embed	access:public
+ev_embed::cleanup	/usr/include/ev.h	/^  ev_cleanup cleanup;    \/* unused *\/$/;"	m	struct:ev_embed	access:public
+ev_embed::fork	/usr/include/ev.h	/^  ev_fork fork;          \/* private *\/$/;"	m	struct:ev_embed	access:public
+ev_embed::idle	/usr/include/ev.h	/^  ev_idle idle;          \/* unused *\/$/;"	m	struct:ev_embed	access:public
+ev_embed::io	/usr/include/ev.h	/^  ev_io io;              \/* private *\/$/;"	m	struct:ev_embed	access:public
+ev_embed::other	/usr/include/ev.h	/^  struct ev_loop *other; \/* ro *\/$/;"	m	struct:ev_embed	typeref:struct:ev_embed::ev_loop	access:public
+ev_embed::periodic	/usr/include/ev.h	/^  ev_periodic periodic;  \/* unused *\/$/;"	m	struct:ev_embed	access:public
+ev_embed::prepare	/usr/include/ev.h	/^  ev_prepare prepare;    \/* private *\/$/;"	m	struct:ev_embed	access:public
+ev_embed::timer	/usr/include/ev.h	/^  ev_timer timer;        \/* unused *\/$/;"	m	struct:ev_embed	access:public
+ev_embed_init	/usr/include/ev.h	692;"	d
+ev_embed_set	/usr/include/ev.h	678;"	d
+ev_embed_start	/usr/include/ev.h	/^void ev_embed_start    (EV_P_ ev_embed *w);$/;"	p	signature:(EV_P_ ev_embed *w)
+ev_embed_stop	/usr/include/ev.h	/^void ev_embed_stop     (EV_P_ ev_embed *w);$/;"	p	signature:(EV_P_ ev_embed *w)
+ev_embed_sweep	/usr/include/ev.h	/^void ev_embed_sweep    (EV_P_ ev_embed *w);$/;"	p	signature:(EV_P_ ev_embed *w)
+ev_embeddable_backends	/usr/include/ev.h	/^unsigned int ev_embeddable_backends (void);$/;"	p	signature:(void)
+ev_feed_event	/usr/include/ev.h	/^void ev_feed_event     (EV_P_ void *w, int revents);$/;"	p	signature:(EV_P_ void *w, int revents)
+ev_feed_fd_event	/usr/include/ev.h	/^void ev_feed_fd_event  (EV_P_ int fd, int revents);$/;"	p	signature:(EV_P_ int fd, int revents)
+ev_feed_signal	/usr/include/ev.h	/^void ev_feed_signal    (int signum);$/;"	p	signature:(int signum)
+ev_feed_signal_event	/usr/include/ev.h	/^void ev_feed_signal_event (EV_P_ int signum);$/;"	p	signature:(EV_P_ int signum)
+ev_fork	/usr/include/ev.h	/^typedef struct ev_fork$/;"	s
+ev_fork	/usr/include/ev.h	/^} ev_fork;$/;"	t	typeref:struct:ev_fork
+ev_fork_init	/usr/include/ev.h	693;"	d
+ev_fork_set	/usr/include/ev.h	679;"	d
+ev_fork_start	/usr/include/ev.h	/^void ev_fork_start     (EV_P_ ev_fork *w);$/;"	p	signature:(EV_P_ ev_fork *w)
+ev_fork_stop	/usr/include/ev.h	/^void ev_fork_stop      (EV_P_ ev_fork *w);$/;"	p	signature:(EV_P_ ev_fork *w)
+ev_idle	/usr/include/ev.h	/^typedef struct ev_idle$/;"	s
+ev_idle	/usr/include/ev.h	/^} ev_idle;$/;"	t	typeref:struct:ev_idle
+ev_idle_init	/usr/include/ev.h	689;"	d
+ev_idle_set	/usr/include/ev.h	675;"	d
+ev_idle_start	/usr/include/ev.h	/^void ev_idle_start     (EV_P_ ev_idle *w);$/;"	p	signature:(EV_P_ ev_idle *w)
+ev_idle_stop	/usr/include/ev.h	/^void ev_idle_stop      (EV_P_ ev_idle *w);$/;"	p	signature:(EV_P_ ev_idle *w)
+ev_init	/usr/include/ev.h	662;"	d
+ev_invoke	/usr/include/ev.h	/^void ev_invoke         (EV_P_ void *w, int revents);$/;"	p	signature:(EV_P_ void *w, int revents)
+ev_invoke_pending	/usr/include/ev.h	/^void ev_invoke_pending (EV_P); \/* invoke all pending watchers *\/$/;"	p	signature:(EV_P)
+ev_io	/usr/include/ev.h	/^typedef struct ev_io$/;"	s
+ev_io	/usr/include/ev.h	/^} ev_io;$/;"	t	typeref:struct:ev_io
+ev_io::events	/usr/include/ev.h	/^  int events; \/* ro *\/$/;"	m	struct:ev_io	access:public
+ev_io::fd	/usr/include/ev.h	/^  int fd;     \/* ro *\/$/;"	m	struct:ev_io	access:public
+ev_io_init	/usr/include/ev.h	683;"	d
+ev_io_set	/usr/include/ev.h	669;"	d
+ev_io_start	/usr/include/ev.h	/^void ev_io_start       (EV_P_ ev_io *w);$/;"	p	signature:(EV_P_ ev_io *w)
+ev_io_stop	/usr/include/ev.h	/^void ev_io_stop        (EV_P_ ev_io *w);$/;"	p	signature:(EV_P_ ev_io *w)
+ev_is_active	/usr/include/ev.h	698;"	d
+ev_is_default_loop	/usr/include/ev.h	/^ev_is_default_loop (EV_P)$/;"	f	signature:(EV_P)
+ev_is_default_loop	/usr/include/ev.h	/^ev_is_default_loop (void)$/;"	f	signature:(void)
+ev_is_pending	/usr/include/ev.h	697;"	d
+ev_iteration	/usr/include/ev.h	/^unsigned int ev_iteration (EV_P); \/* number of loop iterations *\/$/;"	p	signature:(EV_P)
+ev_loop	/usr/include/ev.h	/^    EV_INLINE void ev_loop   (EV_P_ int flags) { ev_run   (EV_A_ flags); }$/;"	f	signature:(EV_P_ int flags)
+ev_loop	/usr/include/ev.h	/^  typedef struct ev_loop ev_loop;$/;"	t	typeref:struct:ev_loop
+ev_loop_count	/usr/include/ev.h	/^      EV_INLINE unsigned int ev_loop_count  (EV_P) { return ev_iteration  (EV_A); }$/;"	f	signature:(EV_P)
+ev_loop_depth	/usr/include/ev.h	/^      EV_INLINE unsigned int ev_loop_depth  (EV_P) { return ev_depth      (EV_A); }$/;"	f	signature:(EV_P)
+ev_loop_destroy	/usr/include/ev.h	/^void ev_loop_destroy (EV_P);$/;"	p	signature:(EV_P)
+ev_loop_fork	/usr/include/ev.h	/^void ev_loop_fork (EV_P);$/;"	p	signature:(EV_P)
+ev_loop_new	/usr/include/ev.h	/^struct ev_loop *ev_loop_new (unsigned int flags EV_CPP (= 0));$/;"	p	signature:(unsigned int flags EV_CPP (= 0))
+ev_loop_verify	/usr/include/ev.h	/^      EV_INLINE void         ev_loop_verify (EV_P) {        ev_verify     (EV_A); }$/;"	f	signature:(EV_P)
+ev_now	/usr/include/ev.h	/^ev_now (void)$/;"	f	signature:(void)
+ev_now	/usr/include/ev.h	/^ev_tstamp ev_now (EV_P); \/* time w.r.t. timers and the eventloop, updated after each poll *\/$/;"	p	signature:(EV_P)
+ev_now_update	/usr/include/ev.h	/^void ev_now_update (EV_P); \/* update event loop time *\/$/;"	p	signature:(EV_P)
+ev_once	/usr/include/ev.h	/^void ev_once (EV_P_ int fd, int events, ev_tstamp timeout, void (*cb)(int revents, void *arg), void *arg);$/;"	p	signature:(EV_P_ int fd, int events, ev_tstamp timeout, void (*cb)(int revents, void *arg), void *arg)
+ev_pending_count	/usr/include/ev.h	/^unsigned int ev_pending_count (EV_P); \/* number of pending events, if any *\/$/;"	p	signature:(EV_P)
+ev_periodic	/usr/include/ev.h	/^typedef struct ev_periodic$/;"	s
+ev_periodic	/usr/include/ev.h	/^} ev_periodic;$/;"	t	typeref:struct:ev_periodic
+ev_periodic::interval	/usr/include/ev.h	/^  ev_tstamp interval; \/* rw *\/$/;"	m	struct:ev_periodic	access:public
+ev_periodic::offset	/usr/include/ev.h	/^  ev_tstamp offset; \/* rw *\/$/;"	m	struct:ev_periodic	access:public
+ev_periodic::reschedule_cb	/usr/include/ev.h	/^  ev_tstamp (*reschedule_cb)(struct ev_periodic *w, ev_tstamp now); \/* rw *\/$/;"	m	struct:ev_periodic	access:public
+ev_periodic_again	/usr/include/ev.h	/^void ev_periodic_again (EV_P_ ev_periodic *w);$/;"	p	signature:(EV_P_ ev_periodic *w)
+ev_periodic_at	/usr/include/ev.h	710;"	d
+ev_periodic_init	/usr/include/ev.h	685;"	d
+ev_periodic_set	/usr/include/ev.h	671;"	d
+ev_periodic_start	/usr/include/ev.h	/^void ev_periodic_start (EV_P_ ev_periodic *w);$/;"	p	signature:(EV_P_ ev_periodic *w)
+ev_periodic_stop	/usr/include/ev.h	/^void ev_periodic_stop  (EV_P_ ev_periodic *w);$/;"	p	signature:(EV_P_ ev_periodic *w)
+ev_prepare	/usr/include/ev.h	/^typedef struct ev_prepare$/;"	s
+ev_prepare	/usr/include/ev.h	/^} ev_prepare;$/;"	t	typeref:struct:ev_prepare
+ev_prepare_init	/usr/include/ev.h	690;"	d
+ev_prepare_set	/usr/include/ev.h	676;"	d
+ev_prepare_start	/usr/include/ev.h	/^void ev_prepare_start  (EV_P_ ev_prepare *w);$/;"	p	signature:(EV_P_ ev_prepare *w)
+ev_prepare_stop	/usr/include/ev.h	/^void ev_prepare_stop   (EV_P_ ev_prepare *w);$/;"	p	signature:(EV_P_ ev_prepare *w)
+ev_priority	/usr/include/ev.h	703;"	d
+ev_priority	/usr/include/ev.h	706;"	d
+ev_recommended_backends	/usr/include/ev.h	/^unsigned int ev_recommended_backends (void);$/;"	p	signature:(void)
+ev_ref	/usr/include/ev.h	/^void ev_ref   (EV_P);$/;"	p	signature:(EV_P)
+ev_resume	/usr/include/ev.h	/^void ev_resume  (EV_P);$/;"	p	signature:(EV_P)
+ev_run	/usr/include/ev.h	/^void ev_run (EV_P_ int flags EV_CPP (= 0));$/;"	p	signature:(EV_P_ int flags EV_CPP (= 0))
+ev_set_allocator	/usr/include/ev.h	/^void ev_set_allocator (void *(*cb)(void *ptr, long size));$/;"	p	signature:(void *(*cb)(void *ptr, long size))
+ev_set_cb	/usr/include/ev.h	713;"	d
+ev_set_invoke_pending_cb	/usr/include/ev.h	/^void ev_set_invoke_pending_cb (EV_P_ void (*invoke_pending_cb)(EV_P));$/;"	p	signature:(EV_P_ void (*invoke_pending_cb)(EV_P))
+ev_set_io_collect_interval	/usr/include/ev.h	/^void ev_set_io_collect_interval (EV_P_ ev_tstamp interval); \/* sleep at least this time, default 0 *\/$/;"	p	signature:(EV_P_ ev_tstamp interval)
+ev_set_loop_release_cb	/usr/include/ev.h	/^void ev_set_loop_release_cb (EV_P_ void (*release)(EV_P), void (*acquire)(EV_P));$/;"	p	signature:(EV_P_ void (*release)(EV_P), void (*acquire)(EV_P))
+ev_set_priority	/usr/include/ev.h	704;"	d
+ev_set_priority	/usr/include/ev.h	707;"	d
+ev_set_syserr_cb	/usr/include/ev.h	/^void ev_set_syserr_cb (void (*cb)(const char *msg));$/;"	p	signature:(void (*cb)(const char *msg))
+ev_set_timeout_collect_interval	/usr/include/ev.h	/^void ev_set_timeout_collect_interval (EV_P_ ev_tstamp interval); \/* sleep at least this time, default 0 *\/$/;"	p	signature:(EV_P_ ev_tstamp interval)
+ev_set_userdata	/usr/include/ev.h	/^void ev_set_userdata (EV_P_ void *data);$/;"	p	signature:(EV_P_ void *data)
+ev_signal	/usr/include/ev.h	/^typedef struct ev_signal$/;"	s
+ev_signal	/usr/include/ev.h	/^} ev_signal;$/;"	t	typeref:struct:ev_signal
+ev_signal::signum	/usr/include/ev.h	/^  int signum; \/* ro *\/$/;"	m	struct:ev_signal	access:public
+ev_signal_init	/usr/include/ev.h	686;"	d
+ev_signal_set	/usr/include/ev.h	672;"	d
+ev_signal_start	/usr/include/ev.h	/^void ev_signal_start   (EV_P_ ev_signal *w);$/;"	p	signature:(EV_P_ ev_signal *w)
+ev_signal_stop	/usr/include/ev.h	/^void ev_signal_stop    (EV_P_ ev_signal *w);$/;"	p	signature:(EV_P_ ev_signal *w)
+ev_sleep	/usr/include/ev.h	/^void ev_sleep (ev_tstamp delay); \/* sleep for a while *\/$/;"	p	signature:(ev_tstamp delay)
+ev_stat	/usr/include/ev.h	/^typedef struct ev_stat$/;"	s
+ev_stat	/usr/include/ev.h	/^} ev_stat;$/;"	t	typeref:struct:ev_stat
+ev_stat::attr	/usr/include/ev.h	/^  ev_statdata attr;   \/* ro *\/$/;"	m	struct:ev_stat	access:public
+ev_stat::interval	/usr/include/ev.h	/^  ev_tstamp interval; \/* ro *\/$/;"	m	struct:ev_stat	access:public
+ev_stat::path	/usr/include/ev.h	/^  const char *path;   \/* ro *\/$/;"	m	struct:ev_stat	access:public
+ev_stat::prev	/usr/include/ev.h	/^  ev_statdata prev;   \/* ro *\/$/;"	m	struct:ev_stat	access:public
+ev_stat::timer	/usr/include/ev.h	/^  ev_timer timer;     \/* private *\/$/;"	m	struct:ev_stat	access:public
+ev_stat::wd	/usr/include/ev.h	/^  int wd; \/* wd for inotify, fd for kqueue *\/$/;"	m	struct:ev_stat	access:public
+ev_stat_init	/usr/include/ev.h	688;"	d
+ev_stat_set	/usr/include/ev.h	674;"	d
+ev_stat_start	/usr/include/ev.h	/^void ev_stat_start     (EV_P_ ev_stat *w);$/;"	p	signature:(EV_P_ ev_stat *w)
+ev_stat_stat	/usr/include/ev.h	/^void ev_stat_stat      (EV_P_ ev_stat *w);$/;"	p	signature:(EV_P_ ev_stat *w)
+ev_stat_stop	/usr/include/ev.h	/^void ev_stat_stop      (EV_P_ ev_stat *w);$/;"	p	signature:(EV_P_ ev_stat *w)
+ev_statdata	/usr/include/ev.h	/^typedef struct _stati64 ev_statdata;$/;"	t	typeref:struct:_stati64
+ev_statdata	/usr/include/ev.h	/^typedef struct stat ev_statdata;$/;"	t	typeref:struct:stat
+ev_supported_backends	/usr/include/ev.h	/^unsigned int ev_supported_backends (void);$/;"	p	signature:(void)
+ev_suspend	/usr/include/ev.h	/^void ev_suspend (EV_P);$/;"	p	signature:(EV_P)
+ev_time	/usr/include/ev.h	/^ev_tstamp ev_time (void);$/;"	p	signature:(void)
+ev_timer	/usr/include/ev.h	/^typedef struct ev_timer$/;"	s
+ev_timer	/usr/include/ev.h	/^} ev_timer;$/;"	t	typeref:struct:ev_timer
+ev_timer::repeat	/usr/include/ev.h	/^  ev_tstamp repeat; \/* rw *\/$/;"	m	struct:ev_timer	access:public
+ev_timer_again	/usr/include/ev.h	/^void ev_timer_again    (EV_P_ ev_timer *w);$/;"	p	signature:(EV_P_ ev_timer *w)
+ev_timer_init	/usr/include/ev.h	684;"	d
+ev_timer_remaining	/usr/include/ev.h	/^ev_tstamp ev_timer_remaining (EV_P_ ev_timer *w);$/;"	p	signature:(EV_P_ ev_timer *w)
+ev_timer_set	/usr/include/ev.h	670;"	d
+ev_timer_start	/usr/include/ev.h	/^void ev_timer_start    (EV_P_ ev_timer *w);$/;"	p	signature:(EV_P_ ev_timer *w)
+ev_timer_stop	/usr/include/ev.h	/^void ev_timer_stop     (EV_P_ ev_timer *w);$/;"	p	signature:(EV_P_ ev_timer *w)
+ev_tstamp	/usr/include/ev.h	/^typedef double ev_tstamp;$/;"	t
+ev_unloop	/usr/include/ev.h	/^    EV_INLINE void ev_unloop (EV_P_ int how  ) { ev_break (EV_A_ how  ); }$/;"	f	signature:(EV_P_ int how )
+ev_unref	/usr/include/ev.h	/^void ev_unref (EV_P);$/;"	p	signature:(EV_P)
+ev_userdata	/usr/include/ev.h	/^void *ev_userdata (EV_P);$/;"	p	signature:(EV_P)
+ev_verify	/usr/include/ev.h	/^void         ev_verify    (EV_P); \/* abort if loop data corrupted *\/$/;"	p	signature:(EV_P)
+ev_version_major	/usr/include/ev.h	/^int ev_version_major (void);$/;"	p	signature:(void)
+ev_version_minor	/usr/include/ev.h	/^int ev_version_minor (void);$/;"	p	signature:(void)
+ev_walk	/usr/include/ev.h	/^void ev_walk (EV_P_ int types, void (*cb)(EV_P_ int type, void *w));$/;"	p	signature:(EV_P_ int types, void (*cb)(EV_P_ int type, void *w))
+ev_watcher	/usr/include/ev.h	/^typedef struct ev_watcher$/;"	s
+ev_watcher	/usr/include/ev.h	/^} ev_watcher;$/;"	t	typeref:struct:ev_watcher
+ev_watcher_list	/usr/include/ev.h	/^typedef struct ev_watcher_list$/;"	s
+ev_watcher_list	/usr/include/ev.h	/^} ev_watcher_list;$/;"	t	typeref:struct:ev_watcher_list
+ev_watcher_time	/usr/include/ev.h	/^typedef struct ev_watcher_time$/;"	s
+ev_watcher_time	/usr/include/ev.h	/^} ev_watcher_time;$/;"	t	typeref:struct:ev_watcher_time
+events	/usr/include/ev.h	/^  int events; \/* ro *\/$/;"	m	struct:ev_io	access:public
+fd	/usr/include/ev.h	/^  int fd;     \/* ro *\/$/;"	m	struct:ev_io	access:public
+flags	/usr/include/ev.h	/^  int flags;   \/* private *\/$/;"	m	struct:ev_child	access:public
+fork	/usr/include/ev.h	/^  ev_fork fork;          \/* private *\/$/;"	m	struct:ev_embed	access:public
+fork	/usr/include/ev.h	/^  struct ev_fork fork;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_fork	access:public
+idle	/usr/include/ev.h	/^  ev_idle idle;          \/* unused *\/$/;"	m	struct:ev_embed	access:public
+idle	/usr/include/ev.h	/^  struct ev_idle idle;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_idle	access:public
+interval	/usr/include/ev.h	/^  ev_tstamp interval; \/* ro *\/$/;"	m	struct:ev_stat	access:public
+interval	/usr/include/ev.h	/^  ev_tstamp interval; \/* rw *\/$/;"	m	struct:ev_periodic	access:public
+io	/usr/include/ev.h	/^  ev_io io;              \/* private *\/$/;"	m	struct:ev_embed	access:public
+io	/usr/include/ev.h	/^  struct ev_io io;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_io	access:public
+offset	/usr/include/ev.h	/^  ev_tstamp offset; \/* rw *\/$/;"	m	struct:ev_periodic	access:public
+other	/usr/include/ev.h	/^  struct ev_loop *other; \/* ro *\/$/;"	m	struct:ev_embed	typeref:struct:ev_embed::ev_loop	access:public
+path	/usr/include/ev.h	/^  const char *path;   \/* ro *\/$/;"	m	struct:ev_stat	access:public
+periodic	/usr/include/ev.h	/^  ev_periodic periodic;  \/* unused *\/$/;"	m	struct:ev_embed	access:public
+periodic	/usr/include/ev.h	/^  struct ev_periodic periodic;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_periodic	access:public
+pid	/usr/include/ev.h	/^  int pid;     \/* ro *\/$/;"	m	struct:ev_child	access:public
+prepare	/usr/include/ev.h	/^  ev_prepare prepare;    \/* private *\/$/;"	m	struct:ev_embed	access:public
+prepare	/usr/include/ev.h	/^  struct ev_prepare prepare;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_prepare	access:public
+prev	/usr/include/ev.h	/^  ev_statdata prev;   \/* ro *\/$/;"	m	struct:ev_stat	access:public
+repeat	/usr/include/ev.h	/^  ev_tstamp repeat; \/* rw *\/$/;"	m	struct:ev_timer	access:public
+reschedule_cb	/usr/include/ev.h	/^  ev_tstamp (*reschedule_cb)(struct ev_periodic *w, ev_tstamp now); \/* rw *\/$/;"	m	struct:ev_periodic	access:public
+rpid	/usr/include/ev.h	/^  int rpid;    \/* rw, holds the received pid *\/$/;"	m	struct:ev_child	access:public
+rstatus	/usr/include/ev.h	/^  int rstatus; \/* rw, holds the exit status, use the macros from sys\/wait.h *\/$/;"	m	struct:ev_child	access:public
+sent	/usr/include/ev.h	/^  EV_ATOMIC_T sent; \/* private *\/$/;"	m	struct:ev_async	access:public
+signal	/usr/include/ev.h	/^  struct ev_signal signal;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_signal	access:public
+signum	/usr/include/ev.h	/^  int signum; \/* ro *\/$/;"	m	struct:ev_signal	access:public
+stat	/usr/include/ev.h	/^  struct ev_stat stat;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_stat	access:public
+timer	/usr/include/ev.h	/^  ev_timer timer;        \/* unused *\/$/;"	m	struct:ev_embed	access:public
+timer	/usr/include/ev.h	/^  ev_timer timer;     \/* private *\/$/;"	m	struct:ev_stat	access:public
+timer	/usr/include/ev.h	/^  struct ev_timer timer;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_timer	access:public
+w	/usr/include/ev.h	/^  struct ev_watcher w;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_watcher	access:public
+wd	/usr/include/ev.h	/^  int wd; \/* wd for inotify, fd for kqueue *\/$/;"	m	struct:ev_stat	access:public
+wl	/usr/include/ev.h	/^  struct ev_watcher_list wl;$/;"	m	union:ev_any_watcher	typeref:struct:ev_any_watcher::ev_watcher_list	access:public
