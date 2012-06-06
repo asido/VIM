@@ -24,6 +24,7 @@ set nosmartindent					" more inteligent auto-indenting
 "set t_Co=256					" tell terminal to use 256 color scheme
 set smarttab					" tab and backspace are smart
 set tabstop=4					" 4 spaces
+set expandtab					" convert tabs into spaces
 set shiftwidth=4				" shift width
 set scrolloff=3					" keep at least 3 lines above/below
 set sidescrolloff=5				" keep at least 5 lines left/right
@@ -111,20 +112,6 @@ let use_xhtml=1
 " setup Showmarks
 let g:showmarks_ignore_type="hmprq"
 let g:showmarks_enable=0
-
-" ---------------------------------------------------------------------------
-" setup Eclim
-" ,i imports whatever is needed for current line
-nnoremap <silent> <LocalLeader>i :JavaImport<cr>
-" ,d opens javadoc for statement in browser
-nnoremap <silent> <LocalLeader>d :JavaDocSearch -x declarations<cr>
-" ,<enter> searches context for statement
-nnoremap <silent> <LocalLeader><cr> :JavaSearchContext<cr>
-" ,jv validates current java file
-nnoremap <silent> <LocalLeader>jv :Validate<cr>
-" ,jc shows corrections for the current line of java
-nnoremap <silent> <LocalLeader>jc :JavaCorrect<cr>"
-let g:EclimHtmlValidate = 0	" don't validate HTML
 
 " ---------------------------------------------------------------------------
 " setup FuzzyFinder
@@ -409,6 +396,10 @@ ia retunr	return
 ia reutrn	return
 ia sefl		self
 ia eslf		self
+
+" ---------------------------------------------------------------------------
+" Abbreviations
+ab sob Signed-off-by: Arvydas Sidorenko <asido4@gmail.com>
 
 set t_Co=256
 colorscheme brookstream
